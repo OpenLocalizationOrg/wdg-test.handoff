@@ -36,121 +36,121 @@
 ##### [WPR Command-Line Options](performance/wpt/wpr-command-line-options.md)
 ##### [Recording Profile XML Reference](performance/wpt/recording-profile-xml-reference.md)
 ###### [Elements](performance/wpt/elements.md)
-####### [Buffers](performance/wpt/buffers.md)
-####### [BufferSize](performance/wpt/buffersize.md)
-####### [CaptureStateOnSave](performance/wpt/capturestateonsave.md)
-####### [CaptureStateOnStart](performance/wpt/capturestateonstart.md)
-####### [Collectors](performance/wpt/collectors.md)
-####### [CustomEvent](performance/wpt/customevent.md)
-####### [CustomEvents](performance/wpt/customevents.md)
-####### [CustomKeyword](performance/wpt/customkeyword.md)
-####### [DeletePreMergedTraceFiles](performance/wpt/deletepremergedtracefiles.md)
-####### [EventCollector](performance/wpt/eventcollector.md)
-####### [EventCollectorId](performance/wpt/eventcollectorid.md)
-####### [EventProvider](performance/wpt/eventprovider.md)
-####### [EventProviderId](performance/wpt/eventproviderid.md)
-####### [EventProviders](performance/wpt/eventproviders.md)
-####### [FileCompression](performance/wpt/filecompression.md)
-####### [HeapEventCollector](performance/wpt/heapeventcollector.md)
-####### [HeapEventCollectorId](performance/wpt/heapeventcollectorid.md)
-####### [HeapEventProvider](performance/wpt/heapeventprovider.md)
-####### [HeapEventProviderId](performance/wpt/heapeventproviderid.md)
-####### [HeapEventProviders](performance/wpt/heapeventproviders.md)
-####### [HeapProcessId](performance/wpt/heapprocessid.md)
-####### [HeapProcessIds](performance/wpt/heapprocessids.md)
-####### [Keyword (in EventProvider)](performance/wpt/keyword--in-eventprovider-.md)
-####### [Keyword (in SystemProvider)](performance/wpt/keyword--in-systemprovider-.md)
-####### [Keywords (in EventProvider)](performance/wpt/keywords--in-eventprovider-.md)
-####### [Keywords (in SystemProvider)](performance/wpt/keywords--in-systemprovider-.md)
-####### [NumberOfRuns](performance/wpt/numberofruns.md)
-####### [OnOffTransitionConfiguration](performance/wpt/onofftransitionconfiguration.md)
-####### [OnOffTransitionConfigurations](performance/wpt/onofftransitionconfigurations.md)
-####### [PoolTag](performance/wpt/pooltag.md)
-####### [PoolTags](performance/wpt/pooltags.md)
-####### [PostBootDelay](performance/wpt/postbootdelay.md)
-####### [PrepareSystem](performance/wpt/preparesystem.md)
-####### [ProblemCategories](performance/wpt/problemcategories.md)
-####### [ProblemCategory](performance/wpt/problemcategory.md)
-####### [Profile](performance/wpt/profile-wpr.md)
-####### [Profiles](performance/wpt/profiles.md)
-####### [Stack](performance/wpt/stack-wpa.md)
-####### [StackCaching](performance/wpt/stackcaching.md)
-####### [Stacks](performance/wpt/stacks.md)
-####### [SystemCollector](performance/wpt/systemcollector.md)
-####### [SystemCollectorId](performance/wpt/systemcollectorid.md)
-####### [SystemProvider](performance/wpt/systemprovider.md)
-####### [SystemProviderId](performance/wpt/systemproviderid.md)
-####### [TraceMergeProperties](performance/wpt/tracemergeproperties.md)
-####### [TraceMergeProperty](performance/wpt/tracemergeproperty.md)
-####### [TransitionTag](performance/wpt/transitiontag.md)
-####### [WakeupDelay](performance/wpt/wakeupdelay.md)
-####### [WindowsPerformanceRecorder](performance/wpt/windowsperformancerecorder.md)
+####### <bpt id="p1">[</bpt>Buffers<ept id="p1">](performance/wpt/buffers.md)</ept><ph id="ph1">
+####### </ph><bpt id="p2">[</bpt>BufferSize<ept id="p2">](performance/wpt/buffersize.md)</ept><ph id="ph2">
+####### </ph><bpt id="p3">[</bpt>CaptureStateOnSave<ept id="p3">](performance/wpt/capturestateonsave.md)</ept><ph id="ph3">
+####### </ph><bpt id="p4">[</bpt>CaptureStateOnStart<ept id="p4">](performance/wpt/capturestateonstart.md)</ept><ph id="ph4">
+####### </ph><bpt id="p5">[</bpt>Collectors<ept id="p5">](performance/wpt/collectors.md)</ept><ph id="ph5">
+####### </ph><bpt id="p6">[</bpt>CustomEvent<ept id="p6">](performance/wpt/customevent.md)</ept><ph id="ph6">
+####### </ph><bpt id="p7">[</bpt>CustomEvents<ept id="p7">](performance/wpt/customevents.md)</ept><ph id="ph7">
+####### </ph><bpt id="p8">[</bpt>CustomKeyword<ept id="p8">](performance/wpt/customkeyword.md)</ept><ph id="ph8">
+####### </ph><bpt id="p9">[</bpt>DeletePreMergedTraceFiles<ept id="p9">](performance/wpt/deletepremergedtracefiles.md)</ept><ph id="ph9">
+####### </ph><bpt id="p10">[</bpt>EventCollector<ept id="p10">](performance/wpt/eventcollector.md)</ept><ph id="ph10">
+####### </ph><bpt id="p11">[</bpt>EventCollectorId<ept id="p11">](performance/wpt/eventcollectorid.md)</ept><ph id="ph11">
+####### </ph><bpt id="p12">[</bpt>EventProvider<ept id="p12">](performance/wpt/eventprovider.md)</ept><ph id="ph12">
+####### </ph><bpt id="p13">[</bpt>EventProviderId<ept id="p13">](performance/wpt/eventproviderid.md)</ept><ph id="ph13">
+####### </ph><bpt id="p14">[</bpt>EventProviders<ept id="p14">](performance/wpt/eventproviders.md)</ept><ph id="ph14">
+####### </ph><bpt id="p15">[</bpt>FileCompression<ept id="p15">](performance/wpt/filecompression.md)</ept><ph id="ph15">
+####### </ph><bpt id="p16">[</bpt>HeapEventCollector<ept id="p16">](performance/wpt/heapeventcollector.md)</ept><ph id="ph16">
+####### </ph><bpt id="p17">[</bpt>HeapEventCollectorId<ept id="p17">](performance/wpt/heapeventcollectorid.md)</ept><ph id="ph17">
+####### </ph><bpt id="p18">[</bpt>HeapEventProvider<ept id="p18">](performance/wpt/heapeventprovider.md)</ept><ph id="ph18">
+####### </ph><bpt id="p19">[</bpt>HeapEventProviderId<ept id="p19">](performance/wpt/heapeventproviderid.md)</ept><ph id="ph19">
+####### </ph><bpt id="p20">[</bpt>HeapEventProviders<ept id="p20">](performance/wpt/heapeventproviders.md)</ept><ph id="ph20">
+####### </ph><bpt id="p21">[</bpt>HeapProcessId<ept id="p21">](performance/wpt/heapprocessid.md)</ept><ph id="ph21">
+####### </ph><bpt id="p22">[</bpt>HeapProcessIds<ept id="p22">](performance/wpt/heapprocessids.md)</ept><ph id="ph22">
+####### </ph><bpt id="p23">[</bpt>Keyword (in EventProvider)<ept id="p23">](performance/wpt/keyword--in-eventprovider-.md)</ept><ph id="ph23">
+####### </ph><bpt id="p24">[</bpt>Keyword (in SystemProvider)<ept id="p24">](performance/wpt/keyword--in-systemprovider-.md)</ept><ph id="ph24">
+####### </ph><bpt id="p25">[</bpt>Keywords (in EventProvider)<ept id="p25">](performance/wpt/keywords--in-eventprovider-.md)</ept><ph id="ph25">
+####### </ph><bpt id="p26">[</bpt>Keywords (in SystemProvider)<ept id="p26">](performance/wpt/keywords--in-systemprovider-.md)</ept><ph id="ph26">
+####### </ph><bpt id="p27">[</bpt>NumberOfRuns<ept id="p27">](performance/wpt/numberofruns.md)</ept><ph id="ph27">
+####### </ph><bpt id="p28">[</bpt>OnOffTransitionConfiguration<ept id="p28">](performance/wpt/onofftransitionconfiguration.md)</ept><ph id="ph28">
+####### </ph><bpt id="p29">[</bpt>OnOffTransitionConfigurations<ept id="p29">](performance/wpt/onofftransitionconfigurations.md)</ept><ph id="ph29">
+####### </ph><bpt id="p30">[</bpt>PoolTag<ept id="p30">](performance/wpt/pooltag.md)</ept><ph id="ph30">
+####### </ph><bpt id="p31">[</bpt>PoolTags<ept id="p31">](performance/wpt/pooltags.md)</ept><ph id="ph31">
+####### </ph><bpt id="p32">[</bpt>PostBootDelay<ept id="p32">](performance/wpt/postbootdelay.md)</ept><ph id="ph32">
+####### </ph><bpt id="p33">[</bpt>PrepareSystem<ept id="p33">](performance/wpt/preparesystem.md)</ept><ph id="ph33">
+####### </ph><bpt id="p34">[</bpt>ProblemCategories<ept id="p34">](performance/wpt/problemcategories.md)</ept><ph id="ph34">
+####### </ph><bpt id="p35">[</bpt>ProblemCategory<ept id="p35">](performance/wpt/problemcategory.md)</ept><ph id="ph35">
+####### </ph><bpt id="p36">[</bpt>Profile<ept id="p36">](performance/wpt/profile-wpr.md)</ept><ph id="ph36">
+####### </ph><bpt id="p37">[</bpt>Profiles<ept id="p37">](performance/wpt/profiles.md)</ept><ph id="ph37">
+####### </ph><bpt id="p38">[</bpt>Stack<ept id="p38">](performance/wpt/stack-wpa.md)</ept><ph id="ph38">
+####### </ph><bpt id="p39">[</bpt>StackCaching<ept id="p39">](performance/wpt/stackcaching.md)</ept><ph id="ph39">
+####### </ph><bpt id="p40">[</bpt>Stacks<ept id="p40">](performance/wpt/stacks.md)</ept><ph id="ph40">
+####### </ph><bpt id="p41">[</bpt>SystemCollector<ept id="p41">](performance/wpt/systemcollector.md)</ept><ph id="ph41">
+####### </ph><bpt id="p42">[</bpt>SystemCollectorId<ept id="p42">](performance/wpt/systemcollectorid.md)</ept><ph id="ph42">
+####### </ph><bpt id="p43">[</bpt>SystemProvider<ept id="p43">](performance/wpt/systemprovider.md)</ept><ph id="ph43">
+####### </ph><bpt id="p44">[</bpt>SystemProviderId<ept id="p44">](performance/wpt/systemproviderid.md)</ept><ph id="ph44">
+####### </ph><bpt id="p45">[</bpt>TraceMergeProperties<ept id="p45">](performance/wpt/tracemergeproperties.md)</ept><ph id="ph45">
+####### </ph><bpt id="p46">[</bpt>TraceMergeProperty<ept id="p46">](performance/wpt/tracemergeproperty.md)</ept><ph id="ph46">
+####### </ph><bpt id="p47">[</bpt>TransitionTag<ept id="p47">](performance/wpt/transitiontag.md)</ept><ph id="ph47">
+####### </ph><bpt id="p48">[</bpt>WakeupDelay<ept id="p48">](performance/wpt/wakeupdelay.md)</ept><ph id="ph48">
+####### </ph><bpt id="p49">[</bpt>WindowsPerformanceRecorder<ept id="p49">](performance/wpt/windowsperformancerecorder.md)</ept>
 ###### [WPRControlProfiles Schema](performance/wpt/wprcontrolprofiles-schema.md)
 ##### [WPRControl API Reference](performance/wpt/wprcontrol-api-reference.md)
 ###### [Interfaces](performance/wpt/interfaces-wprcontrol.md)
-####### [IControlErrorInfo](performance/wpt/icontrolerrorinfo.md)
-######## [GetHResult](performance/wpt/gethresult.md)
-######## [GetInnerErrorInfo](performance/wpt/getinnererrorinfo.md)
-######## [GetObjectType](performance/wpt/getobjecttype.md)
-####### [IControlManager](performance/wpt/icontrolmanager.md)
-######## [Cancel](performance/wpt/cancel.md)
-######## [GetProviderGuidFromName](performance/wpt/getproviderguidfromname.md)
-######## [GetProviderNameFromGuid](performance/wpt/getprovidernamefromguid.md)
-######## [Query](performance/wpt/query-icontrolmanager.md)
-######## [QueryXML](performance/wpt/queryxml.md)
-######## [Save](performance/wpt/save-icontrolmanager.md)
-######## [Start](performance/wpt/start-icontrolmanager.md)
-######## [Stop](performance/wpt/stop-icontrolmanager.md)
-######## [Update](performance/wpt/update-icontrolmanager.md)
-####### [IControlProgressHandler](performance/wpt/icontrolprogresshandler.md)
-######## [OnBegin](performance/wpt/onbegin.md)
-######## [OnEnd](performance/wpt/onend.md)
-######## [OnUpdate](performance/wpt/onupdate.md)
-####### [IEnumControlWarningInfo](performance/wpt/ienumcontrolwarninginfo.md)
-######## [Clone](performance/wpt/clone.md)
-######## [Next](performance/wpt/next.md)
-######## [Reset](performance/wpt/reset.md)
-######## [Skip](performance/wpt/skip.md)
-####### [IEnumProfile](performance/wpt/ienumprofile.md)
-######## [Clone](performance/wpt/clone-ienumprofile.md)
-######## [Next](performance/wpt/next-ienumprofile.md)
-######## [Reset](performance/wpt/reset-ienumprofile.md)
-######## [Skip](performance/wpt/skip-ienumprofile.md)
-####### [IOnOffTransitionManager](performance/wpt/ionofftransitionmanager.md)
-######## [DisableBootRecording](performance/wpt/disablebootrecording.md)
-######## [EnableBootRecording](performance/wpt/enablebootrecording.md)
-######## [MergeShutdownRecording](performance/wpt/mergeshutdownrecording.md)
-######## [StartShutdownRecording](performance/wpt/startshutdownrecording.md)
-######## [UpdateShutdownRecording](performance/wpt/updateshutdownrecording.md)
-####### [IParsingErrorInfo](performance/wpt/iparsingerrorinfo.md)
-######## [GetColumnNumber](performance/wpt/getcolumnnumber.md)
-######## [GetElementId](performance/wpt/getelementid.md)
-######## [GetElementType](performance/wpt/getelementtype.md)
-######## [GetLineNumber](performance/wpt/getlinenumber.md)
-####### [IProfile](performance/wpt/iprofile.md)
-######## [IsEqual](performance/wpt/isequal.md)
-######## [LoadFromFile](performance/wpt/loadfromfile.md)
-######## [LoadFromString](performance/wpt/loadfromstring.md)
-####### [IProfileCollection](performance/wpt/iprofilecollection.md)
-######## [Add](performance/wpt/add.md)
-######## [Clear](performance/wpt/clear.md)
-######## [IsEqual](performance/wpt/isequal-iprofilecollection.md)
-######## [LoadIntoXML](performance/wpt/loadintoxml.md)
-######## [Remove](performance/wpt/remove.md)
-####### [ITraceMergeProperties](performance/wpt/itracemergeproperties.md)
-######## [IsEqual](performance/wpt/isequal-itracemergeproperties.md)
-######## [LoadFromFile](performance/wpt/loadfromfile-itracemergeproperties.md)
-######## [LoadFromString](performance/wpt/loadfromstring-itracemergeproperties.md)
-####### [ITraceMergeTextHandler](performance/wpt/itracemergetexthandler.md)
-######## [GetFileName](performance/wpt/getfilename.md)
-######## [GetNGenPdbsPath](performance/wpt/getngenpdbspath.md)
-######## [GetText](performance/wpt/gettext.md)
-######## [WaitForText](performance/wpt/waitfortext.md)
+####### <bpt id="p1">[</bpt>IControlErrorInfo<ept id="p1">](performance/wpt/icontrolerrorinfo.md)</ept><ph id="ph1">
+######## </ph><bpt id="p2">[</bpt>GetHResult<ept id="p2">](performance/wpt/gethresult.md)</ept><ph id="ph2">
+######## </ph><bpt id="p3">[</bpt>GetInnerErrorInfo<ept id="p3">](performance/wpt/getinnererrorinfo.md)</ept><ph id="ph3">
+######## </ph><bpt id="p4">[</bpt>GetObjectType<ept id="p4">](performance/wpt/getobjecttype.md)</ept><ph id="ph4">
+####### </ph><bpt id="p5">[</bpt>IControlManager<ept id="p5">](performance/wpt/icontrolmanager.md)</ept><ph id="ph5">
+######## </ph><bpt id="p6">[</bpt>Cancel<ept id="p6">](performance/wpt/cancel.md)</ept><ph id="ph6">
+######## </ph><bpt id="p7">[</bpt>GetProviderGuidFromName<ept id="p7">](performance/wpt/getproviderguidfromname.md)</ept><ph id="ph7">
+######## </ph><bpt id="p8">[</bpt>GetProviderNameFromGuid<ept id="p8">](performance/wpt/getprovidernamefromguid.md)</ept><ph id="ph8">
+######## </ph><bpt id="p9">[</bpt>Query<ept id="p9">](performance/wpt/query-icontrolmanager.md)</ept><ph id="ph9">
+######## </ph><bpt id="p10">[</bpt>QueryXML<ept id="p10">](performance/wpt/queryxml.md)</ept><ph id="ph10">
+######## </ph><bpt id="p11">[</bpt>Save<ept id="p11">](performance/wpt/save-icontrolmanager.md)</ept><ph id="ph11">
+######## </ph><bpt id="p12">[</bpt>Start<ept id="p12">](performance/wpt/start-icontrolmanager.md)</ept><ph id="ph12">
+######## </ph><bpt id="p13">[</bpt>Stop<ept id="p13">](performance/wpt/stop-icontrolmanager.md)</ept><ph id="ph13">
+######## </ph><bpt id="p14">[</bpt>Update<ept id="p14">](performance/wpt/update-icontrolmanager.md)</ept><ph id="ph14">
+####### </ph><bpt id="p15">[</bpt>IControlProgressHandler<ept id="p15">](performance/wpt/icontrolprogresshandler.md)</ept><ph id="ph15">
+######## </ph><bpt id="p16">[</bpt>OnBegin<ept id="p16">](performance/wpt/onbegin.md)</ept><ph id="ph16">
+######## </ph><bpt id="p17">[</bpt>OnEnd<ept id="p17">](performance/wpt/onend.md)</ept><ph id="ph17">
+######## </ph><bpt id="p18">[</bpt>OnUpdate<ept id="p18">](performance/wpt/onupdate.md)</ept><ph id="ph18">
+####### </ph><bpt id="p19">[</bpt>IEnumControlWarningInfo<ept id="p19">](performance/wpt/ienumcontrolwarninginfo.md)</ept><ph id="ph19">
+######## </ph><bpt id="p20">[</bpt>Clone<ept id="p20">](performance/wpt/clone.md)</ept><ph id="ph20">
+######## </ph><bpt id="p21">[</bpt>Next<ept id="p21">](performance/wpt/next.md)</ept><ph id="ph21">
+######## </ph><bpt id="p22">[</bpt>Reset<ept id="p22">](performance/wpt/reset.md)</ept><ph id="ph22">
+######## </ph><bpt id="p23">[</bpt>Skip<ept id="p23">](performance/wpt/skip.md)</ept><ph id="ph23">
+####### </ph><bpt id="p24">[</bpt>IEnumProfile<ept id="p24">](performance/wpt/ienumprofile.md)</ept><ph id="ph24">
+######## </ph><bpt id="p25">[</bpt>Clone<ept id="p25">](performance/wpt/clone-ienumprofile.md)</ept><ph id="ph25">
+######## </ph><bpt id="p26">[</bpt>Next<ept id="p26">](performance/wpt/next-ienumprofile.md)</ept><ph id="ph26">
+######## </ph><bpt id="p27">[</bpt>Reset<ept id="p27">](performance/wpt/reset-ienumprofile.md)</ept><ph id="ph27">
+######## </ph><bpt id="p28">[</bpt>Skip<ept id="p28">](performance/wpt/skip-ienumprofile.md)</ept><ph id="ph28">
+####### </ph><bpt id="p29">[</bpt>IOnOffTransitionManager<ept id="p29">](performance/wpt/ionofftransitionmanager.md)</ept><ph id="ph29">
+######## </ph><bpt id="p30">[</bpt>DisableBootRecording<ept id="p30">](performance/wpt/disablebootrecording.md)</ept><ph id="ph30">
+######## </ph><bpt id="p31">[</bpt>EnableBootRecording<ept id="p31">](performance/wpt/enablebootrecording.md)</ept><ph id="ph31">
+######## </ph><bpt id="p32">[</bpt>MergeShutdownRecording<ept id="p32">](performance/wpt/mergeshutdownrecording.md)</ept><ph id="ph32">
+######## </ph><bpt id="p33">[</bpt>StartShutdownRecording<ept id="p33">](performance/wpt/startshutdownrecording.md)</ept><ph id="ph33">
+######## </ph><bpt id="p34">[</bpt>UpdateShutdownRecording<ept id="p34">](performance/wpt/updateshutdownrecording.md)</ept><ph id="ph34">
+####### </ph><bpt id="p35">[</bpt>IParsingErrorInfo<ept id="p35">](performance/wpt/iparsingerrorinfo.md)</ept><ph id="ph35">
+######## </ph><bpt id="p36">[</bpt>GetColumnNumber<ept id="p36">](performance/wpt/getcolumnnumber.md)</ept><ph id="ph36">
+######## </ph><bpt id="p37">[</bpt>GetElementId<ept id="p37">](performance/wpt/getelementid.md)</ept><ph id="ph37">
+######## </ph><bpt id="p38">[</bpt>GetElementType<ept id="p38">](performance/wpt/getelementtype.md)</ept><ph id="ph38">
+######## </ph><bpt id="p39">[</bpt>GetLineNumber<ept id="p39">](performance/wpt/getlinenumber.md)</ept><ph id="ph39">
+####### </ph><bpt id="p40">[</bpt>IProfile<ept id="p40">](performance/wpt/iprofile.md)</ept><ph id="ph40">
+######## </ph><bpt id="p41">[</bpt>IsEqual<ept id="p41">](performance/wpt/isequal.md)</ept><ph id="ph41">
+######## </ph><bpt id="p42">[</bpt>LoadFromFile<ept id="p42">](performance/wpt/loadfromfile.md)</ept><ph id="ph42">
+######## </ph><bpt id="p43">[</bpt>LoadFromString<ept id="p43">](performance/wpt/loadfromstring.md)</ept><ph id="ph43">
+####### </ph><bpt id="p44">[</bpt>IProfileCollection<ept id="p44">](performance/wpt/iprofilecollection.md)</ept><ph id="ph44">
+######## </ph><bpt id="p45">[</bpt>Add<ept id="p45">](performance/wpt/add.md)</ept><ph id="ph45">
+######## </ph><bpt id="p46">[</bpt>Clear<ept id="p46">](performance/wpt/clear.md)</ept><ph id="ph46">
+######## </ph><bpt id="p47">[</bpt>IsEqual<ept id="p47">](performance/wpt/isequal-iprofilecollection.md)</ept><ph id="ph47">
+######## </ph><bpt id="p48">[</bpt>LoadIntoXML<ept id="p48">](performance/wpt/loadintoxml.md)</ept><ph id="ph48">
+######## </ph><bpt id="p49">[</bpt>Remove<ept id="p49">](performance/wpt/remove.md)</ept><ph id="ph49">
+####### </ph><bpt id="p50">[</bpt>ITraceMergeProperties<ept id="p50">](performance/wpt/itracemergeproperties.md)</ept><ph id="ph50">
+######## </ph><bpt id="p51">[</bpt>IsEqual<ept id="p51">](performance/wpt/isequal-itracemergeproperties.md)</ept><ph id="ph51">
+######## </ph><bpt id="p52">[</bpt>LoadFromFile<ept id="p52">](performance/wpt/loadfromfile-itracemergeproperties.md)</ept><ph id="ph52">
+######## </ph><bpt id="p53">[</bpt>LoadFromString<ept id="p53">](performance/wpt/loadfromstring-itracemergeproperties.md)</ept><ph id="ph53">
+####### </ph><bpt id="p54">[</bpt>ITraceMergeTextHandler<ept id="p54">](performance/wpt/itracemergetexthandler.md)</ept><ph id="ph54">
+######## </ph><bpt id="p55">[</bpt>GetFileName<ept id="p55">](performance/wpt/getfilename.md)</ept><ph id="ph55">
+######## </ph><bpt id="p56">[</bpt>GetNGenPdbsPath<ept id="p56">](performance/wpt/getngenpdbspath.md)</ept><ph id="ph56">
+######## </ph><bpt id="p57">[</bpt>GetText<ept id="p57">](performance/wpt/gettext.md)</ept><ph id="ph57">
+######## </ph><bpt id="p58">[</bpt>WaitForText<ept id="p58">](performance/wpt/waitfortext.md)</ept>
 ###### [Classes](performance/wpt/classes.md)
-####### [CControlManager](performance/wpt/ccontrolmanager.md)
-####### [CProfile](performance/wpt/cprofile.md)
-####### [CProfileCollection](performance/wpt/cprofilecollection.md)
-####### [CTraceMergeProperties](performance/wpt/ctracemergeproperties.md)
+####### <bpt id="p1">[</bpt>CControlManager<ept id="p1">](performance/wpt/ccontrolmanager.md)</ept><ph id="ph1">
+####### </ph><bpt id="p2">[</bpt>CProfile<ept id="p2">](performance/wpt/cprofile.md)</ept><ph id="ph2">
+####### </ph><bpt id="p3">[</bpt>CProfileCollection<ept id="p3">](performance/wpt/cprofilecollection.md)</ept><ph id="ph3">
+####### </ph><bpt id="p4">[</bpt>CTraceMergeProperties<ept id="p4">](performance/wpt/ctracemergeproperties.md)</ept>
 ###### [Error Codes](performance/wpt/error-codes.md)
 #### [Introduction to WPR](performance/wpt/introduction-to-wpr.md)
 #### [WPR Quick Start](performance/wpt/wpr-quick-start.md)
@@ -158,11 +158,11 @@
 ##### [Recording Profiles](performance/wpt/recording-profiles.md)
 ###### [Built-in Recording Profiles](performance/wpt/built-in-recording-profiles.md)
 ###### [Authoring Recording Profiles](performance/wpt/authoring-recording-profiles.md)
-####### [1. Collector Definitions](performance/wpt/1-collector-definitions.md)
-####### [2. System and Event Provider Definitions](performance/wpt/2-system-and-event-provider-definitions.md)
-####### [3. Profile Definitions](performance/wpt/3-profile-definitions.md)
-####### [Strict Providers](performance/wpt/strict-providers.md)
-####### [Inheritance](performance/wpt/inheritance.md)
+####### <bpt id="p1">[</bpt>1. Collector Definitions<ept id="p1">](performance/wpt/1-collector-definitions.md)</ept><ph id="ph1">
+####### </ph><bpt id="p2">[</bpt>2. System and Event Provider Definitions<ept id="p2">](performance/wpt/2-system-and-event-provider-definitions.md)</ept><ph id="ph2">
+####### </ph><bpt id="p3">[</bpt>3. Profile Definitions<ept id="p3">](performance/wpt/3-profile-definitions.md)</ept><ph id="ph3">
+####### </ph><bpt id="p4">[</bpt>Strict Providers<ept id="p4">](performance/wpt/strict-providers.md)</ept><ph id="ph4">
+####### </ph><bpt id="p5">[</bpt>Inheritance<ept id="p5">](performance/wpt/inheritance.md)</ept>
 ##### [Performance Scenarios](performance/wpt/performance-scenarios.md)
 ##### [Detail Level](performance/wpt/detail-level.md)
 ##### [Logging Mode](performance/wpt/logging-mode.md)
@@ -259,8 +259,8 @@
 ###### [services](performance/wpt/services.md)
 ###### [shutdown](performance/wpt/shutdown.md)
 ###### [spinlock](performance/wpt/spinlock.md)
-####### [Customizing Spinlock Parameters](performance/wpt/customizing-spinlock-parameters.md)
-####### [Evaluating Spinlock Data](performance/wpt/evaluating-spinlock-data.md)
+####### <bpt id="p1">[</bpt>Customizing Spinlock Parameters<ept id="p1">](performance/wpt/customizing-spinlock-parameters.md)</ept><ph id="ph1">
+####### </ph><bpt id="p2">[</bpt>Evaluating Spinlock Data<ept id="p2">](performance/wpt/evaluating-spinlock-data.md)</ept>
 ###### [stack](performance/wpt/stack.md)
 ###### [suspend](performance/wpt/suspend.md)
 ###### [sysconfig](performance/wpt/sysconfig.md)
@@ -272,19 +272,19 @@
 ###### [Using Xperf Profiles](performance/wpt/using-xperf-profiles.md)
 ##### [Kernel Trace Control API Reference](performance/wpt/kernel-trace-control-api-reference.md)
 ###### [Functions](performance/wpt/functions-wpa.md)
-####### [CreateMergedTraceFile](performance/wpt/createmergedtracefile.md)
-####### [StartHeapTrace](performance/wpt/startheaptrace.md)
-####### [StartKernelTrace](performance/wpt/startkerneltrace.md)
-####### [UpdateHeapTrace](performance/wpt/updateheaptrace.md)
+####### <bpt id="p1">[</bpt>CreateMergedTraceFile<ept id="p1">](performance/wpt/createmergedtracefile.md)</ept><ph id="ph1">
+####### </ph><bpt id="p2">[</bpt>StartHeapTrace<ept id="p2">](performance/wpt/startheaptrace.md)</ept><ph id="ph2">
+####### </ph><bpt id="p3">[</bpt>StartKernelTrace<ept id="p3">](performance/wpt/startkerneltrace.md)</ept><ph id="ph3">
+####### </ph><bpt id="p4">[</bpt>UpdateHeapTrace<ept id="p4">](performance/wpt/updateheaptrace.md)</ept>
 ###### [Structures](performance/wpt/structures-wpa.md)
 ####### [STACK_TRACING_EVENT_ID](performance/wpt/stack-tracing-event-id.md)
 ###### [Trace Control Flags](performance/wpt/trace-control-flags.md)
-####### [EVENT_TRACE_FLAG_DISPATCHER](performance/wpt/event-trace-flag-dispatcher.md)
-####### [EVENT_TRACE_FLAG_VIRTUAL_ALLOC](performance/wpt/event-trace-flag-virtual-alloc.md)
+####### <bpt id="p1">[</bpt>EVENT_TRACE_FLAG_DISPATCHER<ept id="p1">](performance/wpt/event-trace-flag-dispatcher.md)</ept><ph id="ph1">
+####### </ph><bpt id="p2">[</bpt>EVENT_TRACE_FLAG_VIRTUAL_ALLOC<ept id="p2">](performance/wpt/event-trace-flag-virtual-alloc.md)</ept>
 ###### [Trace Control Event Types](performance/wpt/trace-control-event-types.md)
-####### [EVENT_TRACE_TYPE_READYTHREAD](performance/wpt/event-trace-type-readythread.md)
-####### [EVENT_TRACE_TYPE_VIRTUAL_ALLOC](performance/wpt/event-trace-type-virtual-alloc.md)
-####### [EVENT_TRACE_TYPE_VIRTUAL_FREE](performance/wpt/event-trace-type-virtual-free.md)
+####### <bpt id="p1">[</bpt>EVENT_TRACE_TYPE_READYTHREAD<ept id="p1">](performance/wpt/event-trace-type-readythread.md)</ept><ph id="ph1">
+####### </ph><bpt id="p2">[</bpt>EVENT_TRACE_TYPE_VIRTUAL_ALLOC<ept id="p2">](performance/wpt/event-trace-type-virtual-alloc.md)</ept><ph id="ph2">
+####### </ph><bpt id="p3">[</bpt>EVENT_TRACE_TYPE_VIRTUAL_FREE<ept id="p3">](performance/wpt/event-trace-type-virtual-free.md)</ept>
 ###### [Custom Injection of System Information](performance/wpt/custom-injection-of-system-information.md)
 ## [Windows Performance Step-by-Step Guides](performance/wpt/windows-performance-step-by-step-guides.md)
 ### [Memory Footprint Optimization](performance/wpt/memory-footprint-optimization.md)
@@ -383,14 +383,14 @@
 
 
 ## [Mobile software tracing](performance/mobile-tracing/index.md)
-### [Find ETW providers on Windows 10 Mobile](performance/mobile-tracing/find-etw-providers-on-windows-phone-.md)
+### [Find ETW providers on Windows 10 Mobile](performance/mobile-tracing/find-etw-providers-on-windows-phone-.md)
 ### [Retrieve retail ETW logs](performance/mobile-tracing/retrieve-retail-etw-logs.md)
 ### [Field Medic](performance/mobile-tracing/field-medic.md)
 #### [Use Field Medic to generate a report](performance/mobile-tracing/use-field-medic-to-generate-a-report.md)
 #### [Use Field Medic from a command prompt](performance/mobile-tracing/use-field-medic-from-a-command-prompt.md)
 #### [Custom logging with Field Medic](performance/mobile-tracing/custom-logging-with-field-medic.md)
-### [Capture event trace logs on Windows 10 Mobile](performance/mobile-tracing/capture-event-trace-logs-on-windows-phone.md)
-### [Capture power management events on Windows 10 Mobile](performance/mobile-tracing/capture-power-management-events-on-windows-phone.md)
+### [Capture event trace logs on Windows 10 Mobile](performance/mobile-tracing/capture-event-trace-logs-on-windows-phone.md)
+### [Capture power management events on Windows 10 Mobile](performance/mobile-tracing/capture-power-management-events-on-windows-phone.md)
 
 
 
@@ -785,3 +785,7 @@
 ### [Update IoT Core Apps](service/iot/updating-iot-core-apps.md)
 
 ## [Dashboard Services](https://msdn.microsoft.com/en-us/library/windows/hardware/br230803(v=vs.85).aspx)
+
+<!--HONumber=Jun16_HO4-->
+
+
