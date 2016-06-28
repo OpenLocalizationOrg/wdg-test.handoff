@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\deploy\add-drivers-to-a-windows-10-deployment-with-windows-pe-using-configuration-manager.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">da9198f0f231151194678bd6baa4a75b76e369c6</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Add drivers to a Windows 10 deployment with Windows PE using Configuration Manager (Windows 10)</source>
+          <target>Add drivers to a Windows 10 deployment with Windows PE using Configuration Manager (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>In this topic, you will learn how to configure the Windows Preinstallation Environment (Windows PE) to include the network drivers required to connect to the deployment share and the storage drivers required to see the local storage on machines.</source>
+          <target>In this topic, you will learn how to configure the Windows Preinstallation Environment (Windows PE) to include the network drivers required to connect to the deployment share and the storage drivers required to see the local storage on machines.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Add drivers to a Windows 10 deployment with Windows PE using Configuration Manager</source>
+          <target>Add drivers to a Windows 10 deployment with Windows PE using Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>In this topic, you will learn how to configure the Windows Preinstallation Environment (Windows PE) to include the network drivers required to connect to the deployment share and the storage drivers required to see the local storage on machines.</source>
+          <target>In this topic, you will learn how to configure the Windows Preinstallation Environment (Windows PE) to include the network drivers required to connect to the deployment share and the storage drivers required to see the local storage on machines.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Even though the Windows PE boot image and the Windows 10 operating system contain many out-of-the-box drivers, it is likely you will have to add new or updated drivers to support all your hardware.</source>
+          <target>Even though the Windows PE boot image and the Windows 10 operating system contain many out-of-the-box drivers, it is likely you will have to add new or updated drivers to support all your hardware.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>In this section, you import drivers for both Windows PE and the full Windows 10 operating system.</source>
+          <target>In this section, you import drivers for both Windows PE and the full Windows 10 operating system.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>For the purposes of this topic, we will use CM01, a machine running Windows Server 2012 R2 Standard that is a member of the domain contoso.com for the fictitious Contoso Corporation.</source>
+          <target>For the purposes of this topic, we will use CM01, a machine running Windows Server 2012 R2 Standard that is a member of the domain contoso.com for the fictitious Contoso Corporation.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](deploy-windows-10-with-the-microsoft-deployment-toolkit.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more details on the setup for this topic, please see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy Windows 10 with the Microsoft Deployment Toolkit</pc>.</source>
+          <target>For more details on the setup for this topic, please see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy Windows 10 with the Microsoft Deployment Toolkit</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Add drivers for Windows PE</source>
+          <target>Add drivers for Windows PE</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>This section will show you how to import some network and storage drivers for Windows PE.</source>
+          <target>This section will show you how to import some network and storage drivers for Windows PE.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>This section assumes you have downloaded some drivers to the E:<ph dataRef="id1" id="ph1" />Sources<ph dataRef="id2" id="ph2" />OSD<ph dataRef="id3" id="ph3" />DriverSources<ph dataRef="id4" id="ph4" />WinPE x64 folder on CM01.</source>
+          <target>This section assumes you have downloaded some drivers to the E:<ph dataRef="id1" id="ph1" />Sources<ph dataRef="id2" id="ph2" />OSD<ph dataRef="id3" id="ph3" />DriverSources<ph dataRef="id4" id="ph4" />WinPE x64 folder on CM01.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On CM01, using the Configuration Manager Console, in the Software Library workspace, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Drivers</pc> node and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Import Driver</pc>.</source>
+          <target>On CM01, using the Configuration Manager Console, in the Software Library workspace, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Drivers</pc> node and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Import Driver</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\\\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+          <data id="id9">\\</data>
+          <data id="id10">**</data>
+          <data id="id11">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the Import New Driver Wizard, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Specify a location to import driver</pc> page, below the Import all drivers in the following network path (UNC) option, browse to the <pc dataRefEnd="id4" dataRefStart="id3" id="p2"><ph dataRef="id5" id="ph1" />CM01<ph dataRef="id6" id="ph2" />Sources$<ph dataRef="id7" id="ph3" />OSD<ph dataRef="id8" id="ph4" />DriverSources<ph dataRef="id9" id="ph5" />WinPE x64</pc> folder and click <pc dataRefEnd="id11" dataRefStart="id10" id="p3">Next</pc>.</source>
+          <target>In the Import New Driver Wizard, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Specify a location to import driver</pc> page, below the Import all drivers in the following network path (UNC) option, browse to the <pc dataRefEnd="id4" dataRefStart="id3" id="p2"><ph dataRef="id5" id="ph1" />CM01<ph dataRef="id6" id="ph2" />Sources$<ph dataRef="id7" id="ph3" />OSD<ph dataRef="id8" id="ph4" />DriverSources<ph dataRef="id9" id="ph5" />WinPE x64</pc> folder and click <pc dataRefEnd="id11" dataRefStart="id10" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Specify the details for the imported driver</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Categories</pc>, create a category named <pc dataRefEnd="id6" dataRefStart="id5" id="p3">WinPE x64</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Specify the details for the imported driver</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Categories</pc>, create a category named <pc dataRefEnd="id6" dataRefStart="id5" id="p3">WinPE x64</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select the packages to add the imported driver</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select the packages to add the imported driver</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select drivers to include in the boot image</pc> page, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Zero Touch WinPE x64</pc> boot image.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select drivers to include in the boot image</pc> page, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Zero Touch WinPE x64</pc> boot image.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Also select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update distribution points when finished</pc> check box, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc> twice.</source>
+          <target>Also select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update distribution points when finished</pc> check box, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc> twice.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>figure 21</source>
+          <target>figure 21</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Figure 21.</source>
+          <target>Figure 21.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Add drivers to Windows PE.</source>
+          <target>Add drivers to Windows PE.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>The Updating Boot Image part of the wizard will appear to hang when displaying Done.</source>
+          <target>The Updating Boot Image part of the wizard will appear to hang when displaying Done.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>It will complete in a minute or two.</source>
+          <target>It will complete in a minute or two.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Add drivers for Windows 10</source>
+          <target>Add drivers for Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>This section illustrates how to add drivers for Windows 10 through an example in which you want to import Windows 10 drivers for the HP EliteBook 8560w model.</source>
+          <target>This section illustrates how to add drivers for Windows 10 through an example in which you want to import Windows 10 drivers for the HP EliteBook 8560w model.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the purposes of this section, we assume that you have downloaded the Windows 10 drivers for the HP EliteBook 8560w model and copied them to the E:<ph dataRef="id1" id="ph1" />Sources<ph dataRef="id2" id="ph2" />OSD<ph dataRef="id3" id="ph3" />DriverSources<ph dataRef="id4" id="ph4" />Windows 10 x64<ph dataRef="id5" id="ph5" />HP EliteBook 8560w folder on CM01.</source>
+          <target>For the purposes of this section, we assume that you have downloaded the Windows 10 drivers for the HP EliteBook 8560w model and copied them to the E:<ph dataRef="id1" id="ph1" />Sources<ph dataRef="id2" id="ph2" />OSD<ph dataRef="id3" id="ph3" />DriverSources<ph dataRef="id4" id="ph4" />Windows 10 x64<ph dataRef="id5" id="ph5" />HP EliteBook 8560w folder on CM01.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On CM01, using the Configuration Manager Console, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Drivers</pc> folder and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Import Driver</pc>.</source>
+          <target>On CM01, using the Configuration Manager Console, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Drivers</pc> folder and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Import Driver</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\\\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+          <data id="id9">\\</data>
+          <data id="id10">\\</data>
+          <data id="id11">**</data>
+          <data id="id12">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the Import New Driver Wizard, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Specify a location to import driver</pc> page, below the Import all drivers in the following network path (UNC) option, browse to the <pc dataRefEnd="id4" dataRefStart="id3" id="p2"><ph dataRef="id5" id="ph1" />CM01<ph dataRef="id6" id="ph2" />Sources$<ph dataRef="id7" id="ph3" />OSD<ph dataRef="id8" id="ph4" />DriverSources<ph dataRef="id9" id="ph5" />Windows 10 x64<ph dataRef="id10" id="ph6" />HP EliteBook 8560w</pc> folder and click <pc dataRefEnd="id12" dataRefStart="id11" id="p3">Next</pc>.</source>
+          <target>In the Import New Driver Wizard, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Specify a location to import driver</pc> page, below the Import all drivers in the following network path (UNC) option, browse to the <pc dataRefEnd="id4" dataRefStart="id3" id="p2"><ph dataRef="id5" id="ph1" />CM01<ph dataRef="id6" id="ph2" />Sources$<ph dataRef="id7" id="ph3" />OSD<ph dataRef="id8" id="ph4" />DriverSources<ph dataRef="id9" id="ph5" />Windows 10 x64<ph dataRef="id10" id="ph6" />HP EliteBook 8560w</pc> folder and click <pc dataRefEnd="id12" dataRefStart="id11" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Specify the details for the imported driver</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Categories</pc>, create a category named Windows 10 x64 - HP EliteBook 8560w, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Specify the details for the imported driver</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Categories</pc>, create a category named Windows 10 x64 - HP EliteBook 8560w, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>figure 22</source>
+          <target>figure 22</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Figure 22.</source>
+          <target>Figure 22.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Create driver categories.</source>
+          <target>Create driver categories.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select the packages to add the imported driver</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Package</pc>, use the following settings for the package, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select the packages to add the imported driver</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Package</pc>, use the following settings for the package, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Name: Windows 10 x64 - HP EliteBook 8560w</source>
+          <target>Name: Windows 10 x64 - HP EliteBook 8560w</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">\\\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Path: <ph dataRef="id1" id="ph1" />CM01<ph dataRef="id2" id="ph2" />Sources$<ph dataRef="id3" id="ph3" />OSD<ph dataRef="id4" id="ph4" />DriverPackages<ph dataRef="id5" id="ph5" />Windows 10 x64<ph dataRef="id6" id="ph6" />HP EliteBook 8560w</source>
+          <target>Path: <ph dataRef="id1" id="ph1" />CM01<ph dataRef="id2" id="ph2" />Sources$<ph dataRef="id3" id="ph3" />OSD<ph dataRef="id4" id="ph4" />DriverPackages<ph dataRef="id5" id="ph5" />Windows 10 x64<ph dataRef="id6" id="ph6" />HP EliteBook 8560w</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>The package path does not yet exist, so you have to type it in.</source>
+          <target>The package path does not yet exist, so you have to type it in.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>The wizard will create the new package in that folder.</source>
+          <target>The wizard will create the new package in that folder.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select drivers to include in the boot image</pc> page, do not select anything, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc> twice.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select drivers to include in the boot image</pc> page, do not select anything, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc> twice.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the package has been created, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Close</pc>.</source>
+          <target>After the package has been created, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>If you want to monitor the driver import process more closely, you can open the SMSProv.log file during driver import.</source>
+          <target>If you want to monitor the driver import process more closely, you can open the SMSProv.log file during driver import.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>figure 23</source>
+          <target>figure 23</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Figure 23.</source>
+          <target>Figure 23.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Drivers imported and a new driver package created.</source>
+          <target>Drivers imported and a new driver package created.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Integrate Configuration Manager with MDT 2013 Update 2</source>
+          <target>Integrate Configuration Manager with MDT 2013 Update 2</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Prepare for Zero Touch Installation of Windows 10 with Configuration Manager</source>
+          <target>Prepare for Zero Touch Installation of Windows 10 with Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Create a custom Windows PE boot image with Configuration Manager</source>
+          <target>Create a custom Windows PE boot image with Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Add a Windows 10 operating system image using Configuration Manager</source>
+          <target>Add a Windows 10 operating system image using Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Create an application to deploy with Windows 10 using Configuration Manager</source>
+          <target>Create an application to deploy with Windows 10 using Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Create a task sequence with Configuration Manager and MDT</source>
+          <target>Create a task sequence with Configuration Manager and MDT</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Deploy Windows 10 using PXE and Configuration Manager</source>
+          <target>Deploy Windows 10 using PXE and Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Refresh a Windows 7 SP1 client with Windows 10 using Configuration Manager</source>
+          <target>Refresh a Windows 7 SP1 client with Windows 10 using Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Replace a Windows 7 SP1 client with Windows 10 using Configuration Manager</source>
+          <target>Replace a Windows 7 SP1 client with Windows 10 using Configuration Manager</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,813 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\backup-tpm-recovery-information-to-ad-ds.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">5a128e233a25f970e0c5a9392f0365cd7aa571ab</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Backup the TPM recovery Information to AD DS (Windows 10)</source>
+          <target>Backup the TPM recovery Information to AD DS (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic for the IT professional describes how to back up a computer’s Trusted Platform Module (TPM) information to Active Directory Domain Services (AD DS) so that you can use AD DS to administer the TPM from a remote computer.</source>
+          <target>This topic for the IT professional describes how to back up a computer’s Trusted Platform Module (TPM) information to Active Directory Domain Services (AD DS) so that you can use AD DS to administer the TPM from a remote computer.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Backup the TPM recovery Information to AD DS</source>
+          <target>Backup the TPM recovery Information to AD DS</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic for the IT professional describes how to back up a computer’s Trusted Platform Module (TPM) information to Active Directory Domain Services (AD DS) so that you can use AD DS to administer the TPM from a remote computer.</source>
+          <target>This topic for the IT professional describes how to back up a computer’s Trusted Platform Module (TPM) information to Active Directory Domain Services (AD DS) so that you can use AD DS to administer the TPM from a remote computer.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>About administering TPM remotely</source>
+          <target>About administering TPM remotely</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Backing up the TPM owner information for a computer allows administrators in a domain to remotely configure the TPM security hardware on the local computer.</source>
+          <target>Backing up the TPM owner information for a computer allows administrators in a domain to remotely configure the TPM security hardware on the local computer.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>For example, administrators might want to reset the TPM to the manufacturer’s defaults when they decommission or repurpose computers, without having to be present at the computer.</source>
+          <target>For example, administrators might want to reset the TPM to the manufacturer’s defaults when they decommission or repurpose computers, without having to be present at the computer.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>You can use AD DS to store TPM owner information for use in recovery situations where the TPM owner has forgotten the password or where you must take control of the TPM.</source>
+          <target>You can use AD DS to store TPM owner information for use in recovery situations where the TPM owner has forgotten the password or where you must take control of the TPM.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>There is only one TPM owner password per computer; therefore, the hash of the TPM owner password can be stored as an attribute of the computer object in AD DS.</source>
+          <target>There is only one TPM owner password per computer; therefore, the hash of the TPM owner password can be stored as an attribute of the computer object in AD DS.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The attribute has the common name (CN) of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ms-TPM-OwnerInformation</pc>.</source>
+          <target>The attribute has the common name (CN) of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ms-TPM-OwnerInformation</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  The TPM owner authorization value is stored in AD DS, and it is present in a TPM owner password file as a SHA-1 hash of the TPM owner password, which is base 64–encoded.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  The TPM owner authorization value is stored in AD DS, and it is present in a TPM owner password file as a SHA-1 hash of the TPM owner password, which is base 64–encoded.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The actual owner password is not stored.</source>
+          <target>The actual owner password is not stored.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Domain controllers running Windows Server 2012 R2 or Windows Server 2012 include the required AD DS schema objects by default.</source>
+          <target>Domain controllers running Windows Server 2012 R2 or Windows Server 2012 include the required AD DS schema objects by default.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](ad-ds-schema-extensions-to-support-tpm-backup.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>However, if your domain controller is running Windows Server 2008 R2, you need to update the schema as described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AD DS schema extensions to support TPM backup</pc>.</source>
+          <target>However, if your domain controller is running Windows Server 2008 R2, you need to update the schema as described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AD DS schema extensions to support TPM backup</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>This topic contains procedures, some of which are dependent on Visual Basic scripts, to recover TPM information and decommission TPM on remote computers.</source>
+          <target>This topic contains procedures, some of which are dependent on Visual Basic scripts, to recover TPM information and decommission TPM on remote computers.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Sample scripts are available, which you can customize to meet the requirements of your environment.</source>
+          <target>Sample scripts are available, which you can customize to meet the requirements of your environment.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>In this topic:</source>
+          <target>In this topic:</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Check status of prerequisites</source>
+          <target>Check status of prerequisites</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Set permissions to back up password information</source>
+          <target>Set permissions to back up password information</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Configure Group Policy to back up TPM recovery information in AD DS</source>
+          <target>Configure Group Policy to back up TPM recovery information in AD DS</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Use AD DS to recover TPM information</source>
+          <target>Use AD DS to recover TPM information</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Sample scripts</source>
+          <target>Sample scripts</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Check status of prerequisites</source>
+          <target>Check status of prerequisites</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Before you begin your backup, ensure that the following prerequisites are met:</source>
+          <target>Before you begin your backup, ensure that the following prerequisites are met:</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>All domain controllers that are accessible by client computers that will be using TPM services are running Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2 with the updated schema.</source>
+          <target>All domain controllers that are accessible by client computers that will be using TPM services are running Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2 with the updated schema.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](ad-ds-schema-extensions-to-support-tpm-backup.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Tip:</pc>  For more info about the schema extensions that are required for a TPM backup in Active Directory domains that are running Windows Server 2008 R2, see <pc dataRefEnd="id4" dataRefStart="id3" id="p2">AD DS schema extensions to support TPM backup</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Tip:</pc>  For more info about the schema extensions that are required for a TPM backup in Active Directory domains that are running Windows Server 2008 R2, see <pc dataRefEnd="id4" dataRefStart="id3" id="p2">AD DS schema extensions to support TPM backup</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>You have domain administrator rights in the target forest, or you are using an account that has been granted appropriate permissions to extend the schema for the target forest.</source>
+          <target>You have domain administrator rights in the target forest, or you are using an account that has been granted appropriate permissions to extend the schema for the target forest.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Members of the Enterprise Admins or Schema Admins groups are examples of accounts that have the appropriate permissions.</source>
+          <target>Members of the Enterprise Admins or Schema Admins groups are examples of accounts that have the appropriate permissions.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Set permissions to back up password information</source>
+          <target>Set permissions to back up password information</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-add-tpmselfwriteace)</data>
+        </originalData>
+        <segment state="initial">
+          <source>This procedure uses the sample script <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add-TPMSelfWriteACE.vbs</pc> to add an access control entry (ACE) so that backing up TPM recovery information is possible.</source>
+          <target>This procedure uses the sample script <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add-TPMSelfWriteACE.vbs</pc> to add an access control entry (ACE) so that backing up TPM recovery information is possible.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>A client computer cannot back up TPM owner information until this ACE is added.</source>
+          <target>A client computer cannot back up TPM owner information until this ACE is added.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>This script is run on the domain controller that you will use to administer the TPM recovery information, and it operates under the following assumptions:</source>
+          <target>This script is run on the domain controller that you will use to administer the TPM recovery information, and it operates under the following assumptions:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>You have domain administrator credentials to set permissions for the top-level domain object.</source>
+          <target>You have domain administrator credentials to set permissions for the top-level domain object.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Your target domain is the same as the domain for the user account that is running the script.</source>
+          <target>Your target domain is the same as the domain for the user account that is running the script.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, running the script as TESTDOMAIN<ph dataRef="id1" id="ph1" />admin will extend permissions for TESTDOMAIN.</source>
+          <target>For example, running the script as TESTDOMAIN<ph dataRef="id1" id="ph1" />admin will extend permissions for TESTDOMAIN.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  You might need to modify the sample script if you want to set permissions for multiple domains, but you do not have domain administrator accounts for each of those domains.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  You might need to modify the sample script if you want to set permissions for multiple domains, but you do not have domain administrator accounts for each of those domains.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Find the variable <pc dataRefEnd="id2" dataRefStart="id1" id="p1">strPathToDomain</pc> in the script, and modify it for your target domain, for example:</source>
+          <target>Find the variable <pc dataRefEnd="id2" dataRefStart="id1" id="p1">strPathToDomain</pc> in the script, and modify it for your target domain, for example:</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Your domain is configured so that permissions are inherited from the top-level domain object to targeted computer objects.</source>
+          <target>Your domain is configured so that permissions are inherited from the top-level domain object to targeted computer objects.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Permissions will not take effect if any container in the hierarchy does not allow inherited permissions.</source>
+          <target>Permissions will not take effect if any container in the hierarchy does not allow inherited permissions.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>By default, permissions inheritance is set in AD DS.</source>
+          <target>By default, permissions inheritance is set in AD DS.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>If you are not sure whether your configuration differs from this default, you can continue with the setup steps to set the permissions.</source>
+          <target>If you are not sure whether your configuration differs from this default, you can continue with the setup steps to set the permissions.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>You can then verify your configuration as described later in this topic.</source>
+          <target>You can then verify your configuration as described later in this topic.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Or you can click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Effective Permissions</pc> button while viewing the properties of a computer object, then check that <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Self</pc> is approved to write the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">msTPM-OwnerInformation</pc> attribute.</source>
+          <target>Or you can click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Effective Permissions</pc> button while viewing the properties of a computer object, then check that <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Self</pc> is approved to write the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">msTPM-OwnerInformation</pc> attribute.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>To add an ACE to allow TPM recovery information backup</source>
+          <target>To add an ACE to allow TPM recovery information backup</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the sample script <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add-TPMSelfWriteACE.vbs</pc>.</source>
+          <target>Open the sample script <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add-TPMSelfWriteACE.vbs</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The script contains a permission extension, and you must modify the value of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">strPathToDomain</pc> by using your domain name.</source>
+          <target>The script contains a permission extension, and you must modify the value of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">strPathToDomain</pc> by using your domain name.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Save your modifications to the script.</source>
+          <target>Save your modifications to the script.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Type the following at a command prompt, and then press ENTER:</source>
+          <target>Type the following at a command prompt, and then press ENTER:</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>cscript Add-TPMSelfWriteACE.vbs</source>
+          <target>cscript Add-TPMSelfWriteACE.vbs</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>This script adds a single ACE to the top-level domain object.</source>
+          <target>This script adds a single ACE to the top-level domain object.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The ACE is an inheritable permission that allows the computer (SELF) to write to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ms-TPM-OwnerInformation</pc> attribute for computer objects in the domain.</source>
+          <target>The ACE is an inheritable permission that allows the computer (SELF) to write to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ms-TPM-OwnerInformation</pc> attribute for computer objects in the domain.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Complete the following procedure to check that the correct permissions are set and to remove TPM and BitLocker ACEs from the top-level domain, if necessary.</source>
+          <target>Complete the following procedure to check that the correct permissions are set and to remove TPM and BitLocker ACEs from the top-level domain, if necessary.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Manage ACEs configured on TPM schema objects</source>
+          <target>Manage ACEs configured on TPM schema objects</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the sample script <pc dataRefEnd="id2" dataRefStart="id1" id="p1">List-ACEs.vbs</pc>.</source>
+          <target>Open the sample script <pc dataRefEnd="id2" dataRefStart="id1" id="p1">List-ACEs.vbs</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Modify <pc dataRefEnd="id2" dataRefStart="id1" id="p1">List-ACEs.vbs</pc>.</source>
+          <target>Modify <pc dataRefEnd="id2" dataRefStart="id1" id="p1">List-ACEs.vbs</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>You must modify:</source>
+          <target>You must modify:</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Value of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">strPathToDomain</pc>: Use your domain name.</source>
+          <target>Value of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">strPathToDomain</pc>: Use your domain name.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Filter options: The script sets a filter to address BitLocker and TPM schema objects, so you must modify <pc dataRefEnd="id2" dataRefStart="id1" id="p1">If IsFilterActive ()</pc> if you want to list or remove other schema objects.</source>
+          <target>Filter options: The script sets a filter to address BitLocker and TPM schema objects, so you must modify <pc dataRefEnd="id2" dataRefStart="id1" id="p1">If IsFilterActive ()</pc> if you want to list or remove other schema objects.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Save your modifications to the script.</source>
+          <target>Save your modifications to the script.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Type the following at a command prompt, and then press ENTER:</source>
+          <target>Type the following at a command prompt, and then press ENTER:</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>cscript List-ACEs.vbs</source>
+          <target>cscript List-ACEs.vbs</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>With this script you can optionally remove ACEs from BitLocker and TPM schema objects on the top-level domain.</source>
+          <target>With this script you can optionally remove ACEs from BitLocker and TPM schema objects on the top-level domain.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Configure Group Policy to back up TPM recovery information in AD DS</source>
+          <target>Configure Group Policy to back up TPM recovery information in AD DS</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](trusted-platform-module-services-group-policy-settings.md#bkmk-tpmgp-addsbu)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use these procedures to configure the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TPM Group Policy settings</pc> policy setting on a local computer.</source>
+          <target>Use these procedures to configure the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TPM Group Policy settings</pc> policy setting on a local computer.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>In a production environment, an efficient way to do this is to create or edit a Group Policy Object (GPO) that can target client computers in the domain.</source>
+          <target>In a production environment, an efficient way to do this is to create or edit a Group Policy Object (GPO) that can target client computers in the domain.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>To enable local policy setting to back up TPM recovery information to AD DS</source>
+          <target>To enable local policy setting to back up TPM recovery information to AD DS</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Sign in to a domain-joined computer by using a domain account that is a member of the local Administrators group.</source>
+          <target>Sign in to a domain-joined computer by using a domain account that is a member of the local Administrators group.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the Local Group Policy Editor (gpedit.msc), and in the console tree, navigate to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer Configuration<ph dataRef="id3" id="ph1" />Administrative Templates<ph dataRef="id4" id="ph2" />System</pc>.</source>
+          <target>Open the Local Group Policy Editor (gpedit.msc), and in the console tree, navigate to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer Configuration<ph dataRef="id3" id="ph1" />Administrative Templates<ph dataRef="id4" id="ph2" />System</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trusted Platform Module Services</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trusted Platform Module Services</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Double-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn on TPM backup to Active Directory Domain Services</pc>.</source>
+          <target>Double-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn on TPM backup to Active Directory Domain Services</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enabled</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enabled</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  When this setting is enabled, the TPM owner password cannot be set or changed unless the computer is connected to the domain and AD DS backup of the TPM recovery information succeeds.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  When this setting is enabled, the TPM owner password cannot be set or changed unless the computer is connected to the domain and AD DS backup of the TPM recovery information succeeds.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Use AD DS to recover TPM information</source>
+          <target>Use AD DS to recover TPM information</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you need to recover the TPM owner information from AD DS and use it to manage the TPM, you need to read the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ms-TPM-OwnerInformation</pc> object from AD DS, and then manually create a TPM owner password backup file that can be supplied when TPM owner credentials are required.</source>
+          <target>When you need to recover the TPM owner information from AD DS and use it to manage the TPM, you need to read the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ms-TPM-OwnerInformation</pc> object from AD DS, and then manually create a TPM owner password backup file that can be supplied when TPM owner credentials are required.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>To obtain TPM owner backup information from AD DS and create a password file</source>
+          <target>To obtain TPM owner backup information from AD DS and create a password file</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Sign in to a domain controller by using domain administrator credentials.</source>
+          <target>Sign in to a domain controller by using domain administrator credentials.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#ms-tpm-ownerinformation)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Copy the sample script file, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-TPMOwnerInfo.vbs</pc>, to a location on your computer.</source>
+          <target>Copy the sample script file, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-TPMOwnerInfo.vbs</pc>, to a location on your computer.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Open a Command Prompt window, and change the default location to the location of the sample script files you saved in the previous step.</source>
+          <target>Open a Command Prompt window, and change the default location to the location of the sample script files you saved in the previous step.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>At the command prompt, type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">cscript Get-TPMOwnerInfo.vbs</pc>.</source>
+          <target>At the command prompt, type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">cscript Get-TPMOwnerInfo.vbs</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>The expected output is a string that is the hash of the password that you created earlier.</source>
+          <target>The expected output is a string that is the hash of the password that you created earlier.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  If you receive the error message, "Active Directory: The directory property cannot be found in the cache," verify that you are using a domain administrator account, which is required to read the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ms-TPM-OwnerInformation</pc> attribute.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  If you receive the error message, "Active Directory: The directory property cannot be found in the cache," verify that you are using a domain administrator account, which is required to read the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ms-TPM-OwnerInformation</pc> attribute.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>The only exception to this requirement is that if users are the Creator Owner of computer objects that they join to the domain, they can possibly read the TPM owner information for their computer objects.</source>
+          <target>The only exception to this requirement is that if users are the Creator Owner of computer objects that they join to the domain, they can possibly read the TPM owner information for their computer objects.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open Notepad or another text editor, and copy the following code sample into the file, and replace <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TpmOwnerPasswordHash</pc> with the string that you recorded in the previous step.</source>
+          <target>Open Notepad or another text editor, and copy the following code sample into the file, and replace <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TpmOwnerPasswordHash</pc> with the string that you recorded in the previous step.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Save this file with a .tpm extension on a removable storage device, such as a USB flash drive.</source>
+          <target>Save this file with a .tpm extension on a removable storage device, such as a USB flash drive.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>When you access the TPM, and you are required to provide the TPM owner password, choose the option for reading the password from a file and provide the path to this file.</source>
+          <target>When you access the TPM, and you are required to provide the TPM owner password, choose the option for reading the password from a file and provide the path to this file.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Sample scripts</source>
+          <target>Sample scripts</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>You can use all or portions of the following sample scripts, which are used in the preceding procedures, to configure AD DS for backing up TPM recovery information.</source>
+          <target>You can use all or portions of the following sample scripts, which are used in the preceding procedures, to configure AD DS for backing up TPM recovery information.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Customization is required depending on how your environment is configured.</source>
+          <target>Customization is required depending on how your environment is configured.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Add-TPMSelfWriteACE.vbs: Use to add the access control entry (ACE) for the TPM to AD DS</source>
+          <target>Add-TPMSelfWriteACE.vbs: Use to add the access control entry (ACE) for the TPM to AD DS</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>List-ACEs.vbs: Use to list or remove the ACEs that are configured on BitLocker and TPM schema objects</source>
+          <target>List-ACEs.vbs: Use to list or remove the ACEs that are configured on BitLocker and TPM schema objects</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Get-TPMOwnerInfo.vbs: Use to retrieve the TPM recovery information from AD DS for a particular computer</source>
+          <target>Get-TPMOwnerInfo.vbs: Use to retrieve the TPM recovery information from AD DS for a particular computer</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Add-TPMSelfWriteACE.vbs</source>
+          <target>Add-TPMSelfWriteACE.vbs</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>This script adds the access control entry (ACE) for the TPM to AD DS so that the computer can back up TPM recovery information in AD DS.</source>
+          <target>This script adds the access control entry (ACE) for the TPM to AD DS so that the computer can back up TPM recovery information in AD DS.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>List-ACEs.vbs</source>
+          <target>List-ACEs.vbs</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>This script lists or removes the ACEs that are configured on BitLocker and TPM schema objects for the top-level domain.</source>
+          <target>This script lists or removes the ACEs that are configured on BitLocker and TPM schema objects for the top-level domain.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>This enables you to verify that the expected ACEs have been added appropriately or to remove any ACEs that are related to BitLocker or the TPM, if necessary.</source>
+          <target>This enables you to verify that the expected ACEs have been added appropriately or to remove any ACEs that are related to BitLocker or the TPM, if necessary.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Get-TPMOwnerInfo.vbs</source>
+          <target>Get-TPMOwnerInfo.vbs</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>This script retrieves TPM recovery information from AD DS for a particular computer so that you can verify that only domain administrators (or delegated roles) can read backed up TPM recovery information and verify that the information is being backed up correctly.</source>
+          <target>This script retrieves TPM recovery information from AD DS for a particular computer so that you can verify that only domain administrators (or delegated roles) can read backed up TPM recovery information and verify that the information is being backed up correctly.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Additional resources</source>
+          <target>Additional resources</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Trusted Platform Module technology overview</source>
+          <target>Trusted Platform Module technology overview</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>TPM fundamentals</source>
+          <target>TPM fundamentals</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>TPM Group Policy settings</source>
+          <target>TPM Group Policy settings</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>TPM Cmdlets in Windows PowerShell</source>
+          <target>TPM Cmdlets in Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>AD DS schema extensions to support TPM backup</source>
+          <target>AD DS schema extensions to support TPM backup</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/jj592683.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Prepare your organization for BitLocker: Planning and Policies</pc>, see TPM considerations</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Prepare your organization for BitLocker: Planning and Policies</pc>, see TPM considerations</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

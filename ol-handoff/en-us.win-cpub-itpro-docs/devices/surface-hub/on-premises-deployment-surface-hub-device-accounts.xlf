@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">devices\surface-hub\on-premises-deployment-surface-hub-device-accounts.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">a5deb9d3f3150c0586dd5965fbfbdd7156730edf</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>On-premises deployment (Surface Hub)</source>
+          <target>On-premises deployment (Surface Hub)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic explains how you add a device account for your Microsoft Surface Hub when you have a single-forest, on-premises deployment.</source>
+          <target>This topic explains how you add a device account for your Microsoft Surface Hub when you have a single-forest, on-premises deployment.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>On-premises deployment (Surface Hub)</source>
+          <target>On-premises deployment (Surface Hub)</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This topic explains how you add a device account for your Microsoft Surface Hub when you have a single-forest, on-premises deployment.</source>
+          <target>This topic explains how you add a device account for your Microsoft Surface Hub when you have a single-forest, on-premises deployment.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](appendix-a-powershell-scripts-for-surface-hub.md#create-on-premise-ps-scripts)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you have a single-forest on-premises deployment with Microsoft Exchange 2013 or later and Skype for Business 2013 or later, then you can <pc dataRefEnd="id2" dataRefStart="id1" id="p1">use the provided PowerShell scripts</pc> to create device accounts.</source>
+          <target>If you have a single-forest on-premises deployment with Microsoft Exchange 2013 or later and Skype for Business 2013 or later, then you can <pc dataRefEnd="id2" dataRefStart="id1" id="p1">use the provided PowerShell scripts</pc> to create device accounts.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>If you’re using a multi-forest deployment, or are using Exchange 2010 or Lync 2010, you can use equivalent cmdlets that will produce the same results.</source>
+          <target>If you’re using a multi-forest deployment, or are using Exchange 2010 or Lync 2010, you can use equivalent cmdlets that will produce the same results.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Those cmdlets are described in this section.</source>
+          <target>Those cmdlets are described in this section.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Start a remote PowerShell session from a PC and connect to Exchange.</source>
+          <target>Start a remote PowerShell session from a PC and connect to Exchange.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Be sure you have the right permissions set to run the associated cmdlets.</source>
+          <target>Be sure you have the right permissions set to run the associated cmdlets.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">`$strExchangeServer`</data>
+          <data id="id2">`$strLyncFQDN`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Note here that <ph dataRef="id1" id="ph1" /> is the fully qualified domain name (FQDN) of your Exchange server, and <ph dataRef="id2" id="ph2" /> is the FQDN of your Skype for Business server.</source>
+          <target>Note here that <ph dataRef="id1" id="ph1" /> is the fully qualified domain name (FQDN) of your Exchange server, and <ph dataRef="id2" id="ph2" /> is the FQDN of your Skype for Business server.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>After establishing a session, you’ll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox.</source>
+          <target>After establishing a session, you’ll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>This will allow the account to authenticate into the Surface Hub.</source>
+          <target>This will allow the account to authenticate into the Surface Hub.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>If you're changing an existing resource mailbox:</source>
+          <target>If you're changing an existing resource mailbox:</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>If you’re creating a new resource mailbox:</source>
+          <target>If you’re creating a new resource mailbox:</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>After setting up the mailbox, you will need to either create a new Exchange ActiveSync policy, or use a compatible existing policy.</source>
+          <target>After setting up the mailbox, you will need to either create a new Exchange ActiveSync policy, or use a compatible existing policy.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Surface Hubs are only compatible with device accounts that have an ActiveSync policy where the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PasswordEnabled</pc> property is set to False.</source>
+          <target>Surface Hubs are only compatible with device accounts that have an ActiveSync policy where the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PasswordEnabled</pc> property is set to False.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>If this isn’t set properly, then Exchange services on the Surface Hub (mail, calendar, and joining meetings), will not be enabled.</source>
+          <target>If this isn’t set properly, then Exchange services on the Surface Hub (mail, calendar, and joining meetings), will not be enabled.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>If you haven’t created a compatible policy yet, use the following cmdlet—this one creates a policy called "Surface Hubs".</source>
+          <target>If you haven’t created a compatible policy yet, use the following cmdlet—this one creates a policy called "Surface Hubs".</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Once it’s created, you can apply the same policy to other device accounts.</source>
+          <target>Once it’s created, you can apply the same policy to other device accounts.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Once you have a compatible policy, then you will need to apply the policy to the device account.</source>
+          <target>Once you have a compatible policy, then you will need to apply the policy to the device account.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>However, policies can only be applied to user accounts and not resource mailboxes.</source>
+          <target>However, policies can only be applied to user accounts and not resource mailboxes.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>You need to convert the mailbox into a user type, apply the policy, and then convert it back into a mailbox—you may need to re-enable it and set the password again too.</source>
+          <target>You need to convert the mailbox into a user type, apply the policy, and then convert it back into a mailbox—you may need to re-enable it and set the password again too.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Various Exchange properties can be set on the device account to improve the meeting experience for people.</source>
+          <target>Various Exchange properties can be set on the device account to improve the meeting experience for people.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](exchange-properties-for-surface-hub-device-accounts.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can see which properties need to be set in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exchange properties</pc> section.</source>
+          <target>You can see which properties need to be set in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exchange properties</pc> section.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>If you decide to have the password not expire, you can set that with PowerShell cmdlets too.</source>
+          <target>If you decide to have the password not expire, you can set that with PowerShell cmdlets too.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](password-management-for-surface-hub-device-accounts.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Password management</pc> for more information.</source>
+          <target>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Password management</pc> for more information.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Enable the account in Active Directory so it will authenticate to the Surface Hub.</source>
+          <target>Enable the account in Active Directory so it will authenticate to the Surface Hub.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Enable the device account with Skype for Business by enabling your Surface Hub AD account on a Skype for Business Server pool:</source>
+          <target>Enable the device account with Skype for Business by enabling your Surface Hub AD account on a Skype for Business Server pool:</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>You'll need to use the Session Initiation Protocol (SIP) address and domain controller for the Surface Hub, along with your own Skype for Business Server pool identifier and user identity.</source>
+          <target>You'll need to use the Session Initiation Protocol (SIP) address and domain controller for the Surface Hub, along with your own Skype for Business Server pool identifier and user identity.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>OPTIONAL: You can also allow your Surface Hub to make and receive public switched telephone network (PSTN) phone calls by enabling Enterprise Voice for your account.</source>
+          <target>OPTIONAL: You can also allow your Surface Hub to make and receive public switched telephone network (PSTN) phone calls by enabling Enterprise Voice for your account.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Enterprise Voice isn't a requirement for Surface Hub, but if you want PSTN dialing functionality for the Surface Hub client, here's how to enable it:</source>
+          <target>Enterprise Voice isn't a requirement for Surface Hub, but if you want PSTN dialing functionality for the Surface Hub client, here's how to enable it:</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Again, you'll need to replace the provided domain controller and phone number examples with your own information.</source>
+          <target>Again, you'll need to replace the provided domain controller and phone number examples with your own information.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">`$true`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The parameter value <ph dataRef="id1" id="ph1" /> stays the same.</source>
+          <target>The parameter value <ph dataRef="id1" id="ph1" /> stays the same.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

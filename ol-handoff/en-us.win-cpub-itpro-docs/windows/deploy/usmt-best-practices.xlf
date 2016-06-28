@@ -1,0 +1,701 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\deploy\usmt-best-practices.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">4dae234d2be5d3a0ae96ecd108532bb3066a561e</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>USMT Best Practices (Windows 10)</source>
+          <target>USMT Best Practices (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>USMT Best Practices</source>
+          <target>USMT Best Practices</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>USMT Best Practices</source>
+          <target>USMT Best Practices</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This topic discusses general and security-related best practices when using User State Migration Tool (USMT) 10.0.</source>
+          <target>This topic discusses general and security-related best practices when using User State Migration Tool (USMT) 10.0.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>General Best Practices</source>
+          <target>General Best Practices</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Install applications before running the LoadState tool</source>
+          <target>Install applications before running the LoadState tool</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Though it is not always essential, it is best practice to install all applications on the destination computer before restoring the user state.</source>
+          <target>Though it is not always essential, it is best practice to install all applications on the destination computer before restoring the user state.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>This helps ensure that migrated settings are preserved.</source>
+          <target>This helps ensure that migrated settings are preserved.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Do not use MigUser.xml and MigDocs.xml together</source>
+          <target>Do not use MigUser.xml and MigDocs.xml together</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>If you use both .xml files, some migrated files may be duplicated if conflicting instructions are given about target locations.</source>
+          <target>If you use both .xml files, some migrated files may be duplicated if conflicting instructions are given about target locations.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/genmigxml</pc> command-line option to determine which files will be included in your migration, and to determine if any modifications are necessary.</source>
+          <target>You can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/genmigxml</pc> command-line option to determine which files will be included in your migration, and to determine if any modifications are necessary.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-identify-file-types-files-and-folders.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Identify File Types, Files, and Folders</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Identify File Types, Files, and Folders</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Use MigDocs.xml for a better migration experience</source>
+          <target>Use MigDocs.xml for a better migration experience</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>If your data set is unknown or if many files are stored outside of the standard user-profile folders, the MigDocs.xml file is a better choice than the MigUser.xml file, because the MigDocs.xml file will gather a broader scope of data.</source>
+          <target>If your data set is unknown or if many files are stored outside of the standard user-profile folders, the MigDocs.xml file is a better choice than the MigUser.xml file, because the MigDocs.xml file will gather a broader scope of data.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>The MigDocs.xml file migrates folders of data based on location, and on registered file type by querying the registry for registered application extensions.</source>
+          <target>The MigDocs.xml file migrates folders of data based on location, and on registered file type by querying the registry for registered application extensions.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>The MigUser.xml file migrates only the files with the specified file extensions.</source>
+          <target>The MigUser.xml file migrates only the files with the specified file extensions.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Close all applications before running either the ScanState or LoadState tools</source>
+          <target>Close all applications before running either the ScanState or LoadState tools</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Although using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/vsc</pc> switch can allow the migration of many files that are open with another application it is a best practice to close all applications in order to ensure all files and settings migrate.</source>
+          <target>Although using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/vsc</pc> switch can allow the migration of many files that are open with another application it is a best practice to close all applications in order to ensure all files and settings migrate.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Without the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/vsc</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/c</pc> switch USMT will fail when it cannot migrate a file or setting.</source>
+          <target>Without the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/vsc</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/c</pc> switch USMT will fail when it cannot migrate a file or setting.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/c</pc> option USMT will ignore any files or settings that it cannot migrate and log an error each time.</source>
+          <target>When you use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/c</pc> option USMT will ignore any files or settings that it cannot migrate and log an error each time.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Log off after you run the LoadState</source>
+          <target>Log off after you run the LoadState</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Some settings, such as fonts, wallpaper, and screensaver settings, will not take effect until the next time the user logs on.</source>
+          <target>Some settings, such as fonts, wallpaper, and screensaver settings, will not take effect until the next time the user logs on.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>For this reason, you should log off after you run the LoadState tool.</source>
+          <target>For this reason, you should log off after you run the LoadState tool.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Managed environment</source>
+          <target>Managed environment</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>To create a managed environment, you can move all of the end user’s documents into My Documents (%CSIDL<ph dataRef="id1" id="ph1" />PERSONAL%).</source>
+          <target>To create a managed environment, you can move all of the end user’s documents into My Documents (%CSIDL<ph dataRef="id1" id="ph1" />PERSONAL%).</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>We recommend that you migrate files into the smallest-possible number of folders on the destination computer.</source>
+          <target>We recommend that you migrate files into the smallest-possible number of folders on the destination computer.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>This will help you to clean up files on the destination computer, if the LoadState command fails before completion.</source>
+          <target>This will help you to clean up files on the destination computer, if the LoadState command fails before completion.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Chkdsk.exe</source>
+          <target>Chkdsk.exe</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>We recommend that you run Chkdsk.exe before running the ScanState and LoadState tools.</source>
+          <target>We recommend that you run Chkdsk.exe before running the ScanState and LoadState tools.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Chkdsk.exe creates a status report for a hard disk drive and lists and corrects common errors.</source>
+          <target>Chkdsk.exe creates a status report for a hard disk drive and lists and corrects common errors.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=140244)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about the Chkdsk.exe tool, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Chkdsk</pc>.</source>
+          <target>For more information about the Chkdsk.exe tool, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Chkdsk</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Migrate in groups</source>
+          <target>Migrate in groups</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>If you decide to perform the migration while users are using the network, it is best to migrate user accounts in groups.</source>
+          <target>If you decide to perform the migration while users are using the network, it is best to migrate user accounts in groups.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>To minimize the impact on network performance, determine the size of the groups based on the size of each user account.</source>
+          <target>To minimize the impact on network performance, determine the size of the groups based on the size of each user account.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Migrating in phases also allows you to make sure each phase is successful before starting the next phase.</source>
+          <target>Migrating in phases also allows you to make sure each phase is successful before starting the next phase.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Using this method, you can make any necessary modifications to your plan between groups.</source>
+          <target>Using this method, you can make any necessary modifications to your plan between groups.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Security Best Practices</source>
+          <target>Security Best Practices</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>As the authorized administrator, it is your responsibility to protect the privacy of the users and maintain security during and after the migration.</source>
+          <target>As the authorized administrator, it is your responsibility to protect the privacy of the users and maintain security during and after the migration.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>In particular, you must consider the following issues:</source>
+          <target>In particular, you must consider the following issues:</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Encrypting File System (EFS)</source>
+          <target>Encrypting File System (EFS)</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Take extreme caution when migrating encrypted files, because the end user does not need to be logged on to capture the user state.</source>
+          <target>Take extreme caution when migrating encrypted files, because the end user does not need to be logged on to capture the user state.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>By default, USMT fails if an encrypted file is found.</source>
+          <target>By default, USMT fails if an encrypted file is found.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?linkid=163)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about EFS best practices, see this article in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Knowledge Base</pc>.</source>
+          <target>For more information about EFS best practices, see this article in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Knowledge Base</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-migrate-efs-files-and-certificates.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For specific instructions about EFS best practices, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Migrate EFS Files and Certificates</pc>.</source>
+          <target>For specific instructions about EFS best practices, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Migrate EFS Files and Certificates</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>If you migrate an encrypted file without also migrating the certificate, end users will not be able to access the file after the migration.</source>
+          <target>If you migrate an encrypted file without also migrating the certificate, end users will not be able to access the file after the migration.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Encrypt the store</source>
+          <target>Encrypt the store</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Consider using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/encrypt</pc> option with the ScanState command and the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/decrypt</pc> option with the LoadState command.</source>
+          <target>Consider using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/encrypt</pc> option with the ScanState command and the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/decrypt</pc> option with the LoadState command.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>However, use extreme caution with this set of options, because anyone who has access to the ScanState command-line script also has access to the encryption key.</source>
+          <target>However, use extreme caution with this set of options, because anyone who has access to the ScanState command-line script also has access to the encryption key.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Virus Scan</source>
+          <target>Virus Scan</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>We recommend that you scan both the source and destination computers for viruses before running USMT.</source>
+          <target>We recommend that you scan both the source and destination computers for viruses before running USMT.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>In addition, you should scan the destination computer image.</source>
+          <target>In addition, you should scan the destination computer image.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>To help protect data from viruses, we strongly recommend running an antivirus utility before migration.</source>
+          <target>To help protect data from viruses, we strongly recommend running an antivirus utility before migration.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Maintain security of the file server and the deployment server</source>
+          <target>Maintain security of the file server and the deployment server</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>We recommend that you manage the security of the file and deployment servers.</source>
+          <target>We recommend that you manage the security of the file and deployment servers.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>It is important to make sure that the file server where you save the store is secure.</source>
+          <target>It is important to make sure that the file server where you save the store is secure.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>You must also secure the deployment server, to ensure that the user data that is in the log files is not exposed.</source>
+          <target>You must also secure the deployment server, to ensure that the user data that is in the log files is not exposed.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>We also recommend that you only transmit data over a secure Internet connection, such as a virtual private network.</source>
+          <target>We also recommend that you only transmit data over a secure Internet connection, such as a virtual private network.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=215657)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about network security, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Security Compliance Manager</pc>.</source>
+          <target>For more information about network security, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Security Compliance Manager</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Password Migration</source>
+          <target>Password Migration</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>To ensure the privacy of the end users, USMT does not migrate passwords, including those for applications such as Windows Live™ Mail, Microsoft Internet Explorer®, as well as Remote Access Service (RAS) connections and mapped network drives.</source>
+          <target>To ensure the privacy of the end users, USMT does not migrate passwords, including those for applications such as Windows Live™ Mail, Microsoft Internet Explorer®, as well as Remote Access Service (RAS) connections and mapped network drives.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>It is important to make sure that end users know their passwords.</source>
+          <target>It is important to make sure that end users know their passwords.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Local Account Creation</source>
+          <target>Local Account Creation</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-identify-users.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Before you migrate local accounts, see the Migrating Local Accounts section in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Identify Users</pc> topic.</source>
+          <target>Before you migrate local accounts, see the Migrating Local Accounts section in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Identify Users</pc> topic.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>XML File Best Practices</source>
+          <target>XML File Best Practices</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">\*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify the same set of mig<ph dataRef="id1" id="ph1" />.xml files in both the ScanState and the LoadState tools</source>
+          <target>Specify the same set of mig<ph dataRef="id1" id="ph1" />.xml files in both the ScanState and the LoadState tools</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">\*</data>
+          <data id="id2">\*</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you used a particular set of mig<ph dataRef="id1" id="ph1" />.xml files in the ScanState tool, either called through the "/auto" option, or individually through the "/i" option, then you should use same option to call the exact same mig<ph dataRef="id2" id="ph2" />.xml files in the LoadState tool.</source>
+          <target>If you used a particular set of mig<ph dataRef="id1" id="ph1" />.xml files in the ScanState tool, either called through the "/auto" option, or individually through the "/i" option, then you should use same option to call the exact same mig<ph dataRef="id2" id="ph2" />.xml files in the LoadState tool.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" />CustomFileName<ph dataRef="id2" id="ph2" /> in the migration urlid should match the name of the file</source>
+          <target>The <ph dataRef="id1" id="ph1" />CustomFileName<ph dataRef="id2" id="ph2" /> in the migration urlid should match the name of the file</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Although it is not a requirement, it is good practice for <ph dataRef="id1" id="ph1" />CustomFileName<ph dataRef="id2" id="ph2" /> to match the name of the file.</source>
+          <target>Although it is not a requirement, it is good practice for <ph dataRef="id1" id="ph1" />CustomFileName<ph dataRef="id2" id="ph2" /> to match the name of the file.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>For example, the following is from the MigApp.xml file:</source>
+          <target>For example, the following is from the MigApp.xml file:</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>TUse the XML Schema (MigXML.xsd) when authoring .xml files to validate synta</source>
+          <target>TUse the XML Schema (MigXML.xsd) when authoring .xml files to validate synta</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>The MigXML.xsd schema file should not be included on the command line or in any of the .xml files.</source>
+          <target>The MigXML.xsd schema file should not be included on the command line or in any of the .xml files.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Use the default migration XML files as models</source>
+          <target>Use the default migration XML files as models</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>To create a custom .xml file, you can use the migration .xml files as models to create your own.</source>
+          <target>To create a custom .xml file, you can use the migration .xml files as models to create your own.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>If you need to migrate user data files, model your custom .xml file on MigUser.xml.</source>
+          <target>If you need to migrate user data files, model your custom .xml file on MigUser.xml.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>To migrate application settings, model your custom .xml file on the MigApp.xml file.</source>
+          <target>To migrate application settings, model your custom .xml file on the MigApp.xml file.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Consider the impact on performance when using the <ph dataRef="id1" id="ph1" />context<ph dataRef="id2" id="ph2" /> parameter</source>
+          <target>Consider the impact on performance when using the <ph dataRef="id1" id="ph1" />context<ph dataRef="id2" id="ph2" /> parameter</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+          <data id="id5">&amp;lt;</data>
+          <data id="id6">&amp;gt;</data>
+          <data id="id7">&amp;lt;</data>
+          <data id="id8">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Your migration performance can be affected when you use the <ph dataRef="id1" id="ph1" />context<ph dataRef="id2" id="ph2" /> element with the <ph dataRef="id3" id="ph3" />component<ph dataRef="id4" id="ph4" /> element; for example, as in when you want to encapsulate logical units of file- or path-based <ph dataRef="id5" id="ph5" />include<ph dataRef="id6" id="ph6" /> and <ph dataRef="id7" id="ph7" />exclude<ph dataRef="id8" id="ph8" /> rules.</source>
+          <target>Your migration performance can be affected when you use the <ph dataRef="id1" id="ph1" />context<ph dataRef="id2" id="ph2" /> element with the <ph dataRef="id3" id="ph3" />component<ph dataRef="id4" id="ph4" /> element; for example, as in when you want to encapsulate logical units of file- or path-based <ph dataRef="id5" id="ph5" />include<ph dataRef="id6" id="ph6" /> and <ph dataRef="id7" id="ph7" />exclude<ph dataRef="id8" id="ph8" /> rules.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">User</pc> context, a rule is processed one time for each user on the system.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">User</pc> context, a rule is processed one time for each user on the system.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">System</pc> context, a rule is processed one time for the system.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">System</pc> context, a rule is processed one time for the system.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UserAndSystem</pc> context, a rule is processed one time for each user on the system and one time for the system.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UserAndSystem</pc> context, a rule is processed one time for each user on the system and one time for the system.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>The number of times a rule is processed does not affect the number of times a file is migrated.</source>
+          <target>The number of times a rule is processed does not affect the number of times a file is migrated.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>The USMT migration engine ensures that each file migrates only once.</source>
+          <target>The USMT migration engine ensures that each file migrates only once.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>We recommend that you create a separate .xml file instead of adding your .xml code to one of the existing migration .xml files</source>
+          <target>We recommend that you create a separate .xml file instead of adding your .xml code to one of the existing migration .xml files</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>For example, if you have code that migrates the settings for an application, you should not just add the code to the MigApp.xml file.</source>
+          <target>For example, if you have code that migrates the settings for an application, you should not just add the code to the MigApp.xml file.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>You should not create custom .xml files to alter the operating system settings that are migrated</source>
+          <target>You should not create custom .xml files to alter the operating system settings that are migrated</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>These settings are migrated by manifests and you cannot modify those files.</source>
+          <target>These settings are migrated by manifests and you cannot modify those files.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>If you want to exclude certain operating system settings from the migration, you should create and modify a Config.xml file.</source>
+          <target>If you want to exclude certain operating system settings from the migration, you should create and modify a Config.xml file.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">\*</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use the asterisk (<ph dataRef="id1" id="ph1" />) wildcard character in any migration XML file that you create</source>
+          <target>You can use the asterisk (<ph dataRef="id1" id="ph1" />) wildcard character in any migration XML file that you create</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>The question mark is not valid as a wildcard character in USMT .xml files.</source>
+          <target>The question mark is not valid as a wildcard character in USMT .xml files.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Migration Store Encryption</source>
+          <target>Migration Store Encryption</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Plan Your Migration</source>
+          <target>Plan Your Migration</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

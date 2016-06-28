@@ -1,0 +1,2570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\bitlocker-basic-deployment.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">556455354fcc48730a5a7e2856eca887fddc7450</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>BitLocker basic deployment (Windows 10)</source>
+          <target>BitLocker basic deployment (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic for the IT professional explains how BitLocker features can be used to protect your data through drive encryption.</source>
+          <target>This topic for the IT professional explains how BitLocker features can be used to protect your data through drive encryption.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>BitLocker basic deployment</source>
+          <target>BitLocker basic deployment</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic for the IT professional explains how BitLocker features can be used to protect your data through drive encryption.</source>
+          <target>This topic for the IT professional explains how BitLocker features can be used to protect your data through drive encryption.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>The following sections provide information that will help you put together your basic deployment plan for implementing BitLocker in your organization:</source>
+          <target>The following sections provide information that will help you put together your basic deployment plan for implementing BitLocker in your organization:</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Using BitLocker to encrypt volumes</source>
+          <target>Using BitLocker to encrypt volumes</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Down-level compatibility</source>
+          <target>Down-level compatibility</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Using manage-bde to encrypt volumes with BitLocker</source>
+          <target>Using manage-bde to encrypt volumes with BitLocker</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Using PowerShell to encrypt volumes with BitLocker</source>
+          <target>Using PowerShell to encrypt volumes with BitLocker</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Using BitLocker to encrypt volumes</source>
+          <target>Using BitLocker to encrypt volumes</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>BitLocker provides full volume encryption (FVE) for operating system volumes, as well as fixed and removable data volumes.</source>
+          <target>BitLocker provides full volume encryption (FVE) for operating system volumes, as well as fixed and removable data volumes.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>To support fully encrypted operating system volumes, BitLocker uses an unencrypted system volume for the files required to boot, decrypt, and load the operating system.</source>
+          <target>To support fully encrypted operating system volumes, BitLocker uses an unencrypted system volume for the files required to boot, decrypt, and load the operating system.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>This volume is automatically created during a new installation of both client and server operating systems.</source>
+          <target>This volume is automatically created during a new installation of both client and server operating systems.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>In the event that the drive was prepared as a single contiguous space, BitLocker requires a new volume to hold the boot files.</source>
+          <target>In the event that the drive was prepared as a single contiguous space, BitLocker requires a new volume to hold the boot files.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>BdeHdCfg.exe can create these volumes.</source>
+          <target>BdeHdCfg.exe can create these volumes.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](http://technet.microsoft.com/library/ee732026.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  For more info about using this tool, see <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Bdehdcfg</pc> in the Command-Line Reference.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  For more info about using this tool, see <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Bdehdcfg</pc> in the Command-Line Reference.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>BitLocker encryption can be done using the following methods:</source>
+          <target>BitLocker encryption can be done using the following methods:</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>BitLocker control panel</source>
+          <target>BitLocker control panel</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Windows Explorer</source>
+          <target>Windows Explorer</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>manage-bde command line interface</source>
+          <target>manage-bde command line interface</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>BitLocker Windows PowerShell cmdlets</source>
+          <target>BitLocker Windows PowerShell cmdlets</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Encrypting volumes using the BitLocker control panel</source>
+          <target>Encrypting volumes using the BitLocker control panel</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Encrypting volumes with the BitLocker control panel is how many users will utilize BitLocker.</source>
+          <target>Encrypting volumes with the BitLocker control panel is how many users will utilize BitLocker.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>The name of the BitLocker control panel is BitLocker Drive Encryption.</source>
+          <target>The name of the BitLocker control panel is BitLocker Drive Encryption.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>The BitLocker control panel supports encrypting operating system, fixed data and removable data volumes.</source>
+          <target>The BitLocker control panel supports encrypting operating system, fixed data and removable data volumes.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>The BitLocker control panel will organize available drives in the appropriate category based on how the device reports itself to Windows.</source>
+          <target>The BitLocker control panel will organize available drives in the appropriate category based on how the device reports itself to Windows.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Only formatted volumes with assigned drive letters will appear properly in the BitLocker control panel applet.</source>
+          <target>Only formatted volumes with assigned drive letters will appear properly in the BitLocker control panel applet.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To start encryption for a volume, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn on BitLocker</pc> for the appropriate drive to initialize the BitLocker Drive Encryption Wizard.</source>
+          <target>To start encryption for a volume, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn on BitLocker</pc> for the appropriate drive to initialize the BitLocker Drive Encryption Wizard.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>BitLocker Drive Encryption Wizard options vary based on volume type (operating system volume or data volume).</source>
+          <target>BitLocker Drive Encryption Wizard options vary based on volume type (operating system volume or data volume).</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Operating system volume</source>
+          <target>Operating system volume</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Upon launch, the BitLocker Drive Encryption Wizard verifies the computer meets the BitLocker system requirements for encrypting an operating system volume.</source>
+          <target>Upon launch, the BitLocker Drive Encryption Wizard verifies the computer meets the BitLocker system requirements for encrypting an operating system volume.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>By default, the system requirements are:</source>
+          <target>By default, the system requirements are:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Requirement</source>
+          <target>Requirement</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Hardware configuration</source>
+          <target>Hardware configuration</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>The computer must meet the minimum requirements for the supported Windows versions.</source>
+          <target>The computer must meet the minimum requirements for the supported Windows versions.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Operating system</source>
+          <target>Operating system</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>BitLocker is an optional feature which can be installed by Server Manager on Windows Server 2012 and later.</source>
+          <target>BitLocker is an optional feature which can be installed by Server Manager on Windows Server 2012 and later.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Hardware TPM</source>
+          <target>Hardware TPM</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>TPM version 1.2 or 2.0</source>
+          <target>TPM version 1.2 or 2.0</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>A TPM is not required for BitLocker; however, only a computer with a TPM can provide the additional security of pre-startup system integrity verification and multifactor authentication.</source>
+          <target>A TPM is not required for BitLocker; however, only a computer with a TPM can provide the additional security of pre-startup system integrity verification and multifactor authentication.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>BIOS configuration</source>
+          <target>BIOS configuration</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>A Trusted Computing Group (TCG)-compliant BIOS or UEFI firmware.</source>
+          <target>A Trusted Computing Group (TCG)-compliant BIOS or UEFI firmware.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>The boot order must be set to start first from the hard disk, and not the USB or CD drives.</source>
+          <target>The boot order must be set to start first from the hard disk, and not the USB or CD drives.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>The firmware must be able to read from a USB flash drive during startup.</source>
+          <target>The firmware must be able to read from a USB flash drive during startup.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>File system</source>
+          <target>File system</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>For computers that boot natively with UEFI firmware, at least one FAT32 partition for the system drive and one NTFS partition for the operating system drive.</source>
+          <target>For computers that boot natively with UEFI firmware, at least one FAT32 partition for the system drive and one NTFS partition for the operating system drive.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>For computers with legacy BIOS firmware, at least two NTFS disk partitions, one for the system drive and one for the operating system drive.</source>
+          <target>For computers with legacy BIOS firmware, at least two NTFS disk partitions, one for the system drive and one for the operating system drive.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>For either firmware, the system drive partition must be at least 350 megabytes (MB) and set as the active partition.</source>
+          <target>For either firmware, the system drive partition must be at least 350 megabytes (MB) and set as the active partition.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Hardware encrypted drive prerequisites (optional)</source>
+          <target>Hardware encrypted drive prerequisites (optional)</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>To use a hardware encrypted drive as the boot drive, the drive must be in the uninitialized state and in the security inactive state.</source>
+          <target>To use a hardware encrypted drive as the boot drive, the drive must be in the uninitialized state and in the security inactive state.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>In addition, the system must always boot with native UEFI version 2.3.1 or higher and the CSM (if any) disabled.</source>
+          <target>In addition, the system must always boot with native UEFI version 2.3.1 or higher and the CSM (if any) disabled.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Upon passing the initial configuration, users are required to enter a password for the volume.</source>
+          <target>Upon passing the initial configuration, users are required to enter a password for the volume.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>If the volume does not pass the initial configuration for BitLocker, the user is presented with an error dialog describing the appropriate actions to be taken.</source>
+          <target>If the volume does not pass the initial configuration for BitLocker, the user is presented with an error dialog describing the appropriate actions to be taken.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Once a strong password has been created for the volume, a recovery key will be generated.</source>
+          <target>Once a strong password has been created for the volume, a recovery key will be generated.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>The BitLocker Drive Encryption Wizard will prompt for a location to save this key.</source>
+          <target>The BitLocker Drive Encryption Wizard will prompt for a location to save this key.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>A BitLocker recovery key is a special key that you can create when you turn on BitLocker Drive Encryption for the first time on each drive that you encrypt.</source>
+          <target>A BitLocker recovery key is a special key that you can create when you turn on BitLocker Drive Encryption for the first time on each drive that you encrypt.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>You can use the recovery key to gain access to your computer if the drive that Windows is installed on (the operating system drive) is encrypted using BitLocker Drive Encryption and BitLocker detects a condition that prevents it from unlocking the drive when the computer is starting up.</source>
+          <target>You can use the recovery key to gain access to your computer if the drive that Windows is installed on (the operating system drive) is encrypted using BitLocker Drive Encryption and BitLocker detects a condition that prevents it from unlocking the drive when the computer is starting up.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>A recovery key can also be used to gain access to your files and folders on a removable data drive (such as an external hard drive or USB flash drive) that is encrypted using BitLocker To Go, if for some reason you forget the password or your computer cannot access the drive.</source>
+          <target>A recovery key can also be used to gain access to your files and folders on a removable data drive (such as an external hard drive or USB flash drive) that is encrypted using BitLocker To Go, if for some reason you forget the password or your computer cannot access the drive.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>You should store the recovery key by printing it, saving it on removable media, or saving it as a file in a network folder or on your OneDrive, or on another drive of your computer that you are not encrypting.</source>
+          <target>You should store the recovery key by printing it, saving it on removable media, or saving it as a file in a network folder or on your OneDrive, or on another drive of your computer that you are not encrypting.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>You cannot save the recovery key to the root directory of a non-removable drive and cannot be stored on the encrypted volume.</source>
+          <target>You cannot save the recovery key to the root directory of a non-removable drive and cannot be stored on the encrypted volume.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>You cannot save the recovery key for a removable data drive (such as a USB flash drive) on removable media.</source>
+          <target>You cannot save the recovery key for a removable data drive (such as a USB flash drive) on removable media.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Ideally, you should store the recovery key separate from your computer.</source>
+          <target>Ideally, you should store the recovery key separate from your computer.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>After you create a recovery key, you can use the BitLocker control panel to make additional copies.</source>
+          <target>After you create a recovery key, you can use the BitLocker control panel to make additional copies.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>When the recovery key has been properly stored, the BitLocker Drive Encryption Wizard will prompt the user to choose how to encrypt the drive.</source>
+          <target>When the recovery key has been properly stored, the BitLocker Drive Encryption Wizard will prompt the user to choose how to encrypt the drive.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>There are two options:</source>
+          <target>There are two options:</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Encrypt used disk space only - Encrypts only disk space that contains data</source>
+          <target>Encrypt used disk space only - Encrypts only disk space that contains data</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Encrypt entire drive - Encrypts the entire volume including free space</source>
+          <target>Encrypt entire drive - Encrypts the entire volume including free space</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>It is recommended that drives with little to no data utilize the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">used disk space only</pc> encryption option and that drives with data or an operating system utilize the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">encrypt entire drive</pc> option.</source>
+          <target>It is recommended that drives with little to no data utilize the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">used disk space only</pc> encryption option and that drives with data or an operating system utilize the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">encrypt entire drive</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Deleted files appear as free space to the file system, which is not encrypted by <pc dataRefEnd="id4" dataRefStart="id3" id="p2">used disk space only</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Deleted files appear as free space to the file system, which is not encrypted by <pc dataRefEnd="id4" dataRefStart="id3" id="p2">used disk space only</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Until they are wiped or overwritten, deleted files hold information that could be recovered with common data forensic tools.</source>
+          <target>Until they are wiped or overwritten, deleted files hold information that could be recovered with common data forensic tools.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Selecting an encryption type and choosing <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> will give the user the option of running a BitLocker system check (selected by default) which will ensure that BitLocker can properly access the recovery and encryption keys before the volume encryption begins.</source>
+          <target>Selecting an encryption type and choosing <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> will give the user the option of running a BitLocker system check (selected by default) which will ensure that BitLocker can properly access the recovery and encryption keys before the volume encryption begins.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>It is recommended to run this system check before starting the encryption process.</source>
+          <target>It is recommended to run this system check before starting the encryption process.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>If the system check is not run and a problem is encountered when the operating system attempts to start, the user will need to provide the recovery key to start Windows.</source>
+          <target>If the system check is not run and a problem is encountered when the operating system attempts to start, the user will need to provide the recovery key to start Windows.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>After completing the system check (if selected), the BitLocker Drive Encryption Wizard will restart the computer to begin encryption.</source>
+          <target>After completing the system check (if selected), the BitLocker Drive Encryption Wizard will restart the computer to begin encryption.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Upon reboot, users are required to enter the password chosen to boot into the operating system volume.</source>
+          <target>Upon reboot, users are required to enter the password chosen to boot into the operating system volume.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Users can check encryption status by checking the system notification area or the BitLocker control panel.</source>
+          <target>Users can check encryption status by checking the system notification area or the BitLocker control panel.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Until encryption is completed, the only available options for managing BitLocker involve manipulation of the password protecting the operating system volume, backing up the recovery key, and turning BitLocker off.</source>
+          <target>Until encryption is completed, the only available options for managing BitLocker involve manipulation of the password protecting the operating system volume, backing up the recovery key, and turning BitLocker off.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Data volume</source>
+          <target>Data volume</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Encrypting data volumes using the BitLocker control panel interface works in a similar fashion to encryption of the operating system volumes.</source>
+          <target>Encrypting data volumes using the BitLocker control panel interface works in a similar fashion to encryption of the operating system volumes.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Users select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn on BitLocker</pc> within the control panel to begin the BitLocker Drive Encryption wizard.</source>
+          <target>Users select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn on BitLocker</pc> within the control panel to begin the BitLocker Drive Encryption wizard.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Unlike for operating system volumes, data volumes are not required to pass any configuration tests for the wizard to proceed.</source>
+          <target>Unlike for operating system volumes, data volumes are not required to pass any configuration tests for the wizard to proceed.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Upon launching the wizard, a choice of authentication methods to unlock the drive appears.</source>
+          <target>Upon launching the wizard, a choice of authentication methods to unlock the drive appears.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The available options are <pc dataRefEnd="id2" dataRefStart="id1" id="p1">password</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">smart card</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">automatically unlock this drive on this computer</pc>.</source>
+          <target>The available options are <pc dataRefEnd="id2" dataRefStart="id1" id="p1">password</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">smart card</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">automatically unlock this drive on this computer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Disabled by default, the latter option will unlock the data volume without user input when the operating system volume is unlocked.</source>
+          <target>Disabled by default, the latter option will unlock the data volume without user input when the operating system volume is unlocked.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After selecting the desired authentication method and choosing <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>, the wizard presents options for storage of the recovery key.</source>
+          <target>After selecting the desired authentication method and choosing <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>, the wizard presents options for storage of the recovery key.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>These options are the same as for operating system volumes.</source>
+          <target>These options are the same as for operating system volumes.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>With the recovery key saved, selecting <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> in the wizard will show available options for encryption.</source>
+          <target>With the recovery key saved, selecting <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> in the wizard will show available options for encryption.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>These options are the same as for operating system volumes; <pc dataRefEnd="id2" dataRefStart="id1" id="p1">used disk space only</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">full drive encryption</pc>.</source>
+          <target>These options are the same as for operating system volumes; <pc dataRefEnd="id2" dataRefStart="id1" id="p1">used disk space only</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">full drive encryption</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>If the volume being encrypted is new or empty, it is recommended that used space only encryption is selected.</source>
+          <target>If the volume being encrypted is new or empty, it is recommended that used space only encryption is selected.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>With an encryption method chosen, a final confirmation screen displays before beginning the encryption process.</source>
+          <target>With an encryption method chosen, a final confirmation screen displays before beginning the encryption process.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Selecting <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start encrypting</pc> will begin encryption.</source>
+          <target>Selecting <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start encrypting</pc> will begin encryption.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Encryption status displays in the notification area or within the BitLocker control panel.</source>
+          <target>Encryption status displays in the notification area or within the BitLocker control panel.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>OneDrive option</source>
+          <target>OneDrive option</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>There is a new option for storing the BitLocker recovery key using the OneDrive.</source>
+          <target>There is a new option for storing the BitLocker recovery key using the OneDrive.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>This option requires that computers are not members of a domain and that the user is using a Microsoft Account.</source>
+          <target>This option requires that computers are not members of a domain and that the user is using a Microsoft Account.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Local accounts do not give the option to utilize OneDrive.</source>
+          <target>Local accounts do not give the option to utilize OneDrive.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Using the OneDrive option is the default, recommended recovery key storage method for computers that are not joined to a domain.</source>
+          <target>Using the OneDrive option is the default, recommended recovery key storage method for computers that are not joined to a domain.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Users can verify the recovery key was saved properly by checking their OneDrive for the BitLocker folder which is created automatically during the save process.</source>
+          <target>Users can verify the recovery key was saved properly by checking their OneDrive for the BitLocker folder which is created automatically during the save process.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>The folder will contain two files, a readme.txt and the recovery key.</source>
+          <target>The folder will contain two files, a readme.txt and the recovery key.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>For users storing more than one recovery password on their OneDrive, they can identify the required recovery key by looking at the file name.</source>
+          <target>For users storing more than one recovery password on their OneDrive, they can identify the required recovery key by looking at the file name.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>The recovery key ID is appended to the end of the file name.</source>
+          <target>The recovery key ID is appended to the end of the file name.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Using BitLocker within Windows Explorer</source>
+          <target>Using BitLocker within Windows Explorer</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Windows Explorer allows users to launch the BitLocker Drive Encryption wizard by right clicking on a volume and selecting <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn On BitLocker</pc>.</source>
+          <target>Windows Explorer allows users to launch the BitLocker Drive Encryption wizard by right clicking on a volume and selecting <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn On BitLocker</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>This option is available on client computers by default.</source>
+          <target>This option is available on client computers by default.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>On servers, you must first install the BitLocker and Desktop-Experience features for this option to be available.</source>
+          <target>On servers, you must first install the BitLocker and Desktop-Experience features for this option to be available.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After selecting <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn on BitLocker</pc>, the wizard works exactly as it does when launched using the BitLocker control panel.</source>
+          <target>After selecting <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn on BitLocker</pc>, the wizard works exactly as it does when launched using the BitLocker control panel.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Down-level compatibility</source>
+          <target>Down-level compatibility</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>The following table shows the compatibility matrix for systems that have been BitLocker enabled then presented to a different version of Windows.</source>
+          <target>The following table shows the compatibility matrix for systems that have been BitLocker enabled then presented to a different version of Windows.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Table 1: Cross compatibility for Windows 10, Windows 8.1, Windows 8, and Windows 7 encrypted volumes</source>
+          <target>Table 1: Cross compatibility for Windows 10, Windows 8.1, Windows 8, and Windows 7 encrypted volumes</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Encryption Type</source>
+          <target>Encryption Type</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Windows 10 and Windows 8.1</source>
+          <target>Windows 10 and Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Windows 8</source>
+          <target>Windows 8</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Windows 7</source>
+          <target>Windows 7</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Fully encrypted on Windows 8</source>
+          <target>Fully encrypted on Windows 8</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Presents as fully encrypted</source>
+          <target>Presents as fully encrypted</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>N/A</source>
+          <target>N/A</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Presented as fully encrypted</source>
+          <target>Presented as fully encrypted</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Used Disk Space Only encrypted on Windows 8</source>
+          <target>Used Disk Space Only encrypted on Windows 8</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Presents as encrypt on write</source>
+          <target>Presents as encrypt on write</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>N/A</source>
+          <target>N/A</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Presented as fully encrypted</source>
+          <target>Presented as fully encrypted</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Fully encrypted volume from Windows 7</source>
+          <target>Fully encrypted volume from Windows 7</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Presents as fully encrypted</source>
+          <target>Presents as fully encrypted</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Presented as fully encrypted</source>
+          <target>Presented as fully encrypted</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>N/A</source>
+          <target>N/A</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Partially encrypted volume from Windows 7</source>
+          <target>Partially encrypted volume from Windows 7</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Windows 10 and Windows 8.1 will complete encryption regardless of policy</source>
+          <target>Windows 10 and Windows 8.1 will complete encryption regardless of policy</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Windows 8 will complete encryption regardless of policy</source>
+          <target>Windows 8 will complete encryption regardless of policy</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>N/A</source>
+          <target>N/A</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>Encrypting volumes using the manage-bde command line interface</source>
+          <target>Encrypting volumes using the manage-bde command line interface</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Manage-bde is a command-line utility that can be used for scripting BitLocker operations.</source>
+          <target>Manage-bde is a command-line utility that can be used for scripting BitLocker operations.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Manage-bde offers additional options not displayed in the BitLocker control panel.</source>
+          <target>Manage-bde offers additional options not displayed in the BitLocker control panel.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/ff829849.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For a complete list of the options, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manage-bde</pc>.</source>
+          <target>For a complete list of the options, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manage-bde</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Manage-bde offers a multitude of wider options for configuring BitLocker.</source>
+          <target>Manage-bde offers a multitude of wider options for configuring BitLocker.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>This means that using the command syntax may require care and possibly later customization by the user.</source>
+          <target>This means that using the command syntax may require care and possibly later customization by the user.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <originalData>
+          <data id="id1">`manage-bde -on`</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, using just the <ph dataRef="id1" id="ph1" /> command on a data volume will fully encrypt the volume without any authenticating protectors.</source>
+          <target>For example, using just the <ph dataRef="id1" id="ph1" /> command on a data volume will fully encrypt the volume without any authenticating protectors.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>A volume encrypted in this manner still requires user interaction to turn on BitLocker protection, even though the command successfully completed because an authentication method needs to be added to the volume for it to be fully protected.</source>
+          <target>A volume encrypted in this manner still requires user interaction to turn on BitLocker protection, even though the command successfully completed because an authentication method needs to be added to the volume for it to be fully protected.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>Command line users need to determine the appropriate syntax for a given situation.</source>
+          <target>Command line users need to determine the appropriate syntax for a given situation.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>The following section covers general encryption for operating system volumes and data volumes.</source>
+          <target>The following section covers general encryption for operating system volumes and data volumes.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Operating system volume</source>
+          <target>Operating system volume</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Listed below are examples of basic valid commands for operating system volumes.</source>
+          <target>Listed below are examples of basic valid commands for operating system volumes.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <originalData>
+          <data id="id1">`manage-bde -on &lt;drive letter&gt;`</data>
+        </originalData>
+        <segment state="initial">
+          <source>In general, using only the <ph dataRef="id1" id="ph1" /> command will encrypt the operating system volume with a TPM-only protector and no recovery key.</source>
+          <target>In general, using only the <ph dataRef="id1" id="ph1" /> command will encrypt the operating system volume with a TPM-only protector and no recovery key.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>However, many environments require more secure protectors such as passwords or PIN and expect to be able to recover information with a recovery key.</source>
+          <target>However, many environments require more secure protectors such as passwords or PIN and expect to be able to recover information with a recovery key.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Determining volume status</source>
+          <target>Determining volume status</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>A good practice when using manage-bde is to determine the volume status on the target system.</source>
+          <target>A good practice when using manage-bde is to determine the volume status on the target system.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Use the following command to determine volume status:</source>
+          <target>Use the following command to determine volume status:</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>This command returns the volumes on the target, current encryption status and volume type (operating system or data) for each volume.</source>
+          <target>This command returns the volumes on the target, current encryption status and volume type (operating system or data) for each volume.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Using this information, users can determine the best encryption method for their environment.</source>
+          <target>Using this information, users can determine the best encryption method for their environment.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Enabling BitLocker without a TPM</source>
+          <target>Enabling BitLocker without a TPM</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>For example, suppose that you want to enable BitLocker on a computer without a TPM chip.</source>
+          <target>For example, suppose that you want to enable BitLocker on a computer without a TPM chip.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>To properly enable BitLocker for the operating system volume, you will need to use a USB flash drive as a startup key to boot (in this example, the drive letter E).</source>
+          <target>To properly enable BitLocker for the operating system volume, you will need to use a USB flash drive as a startup key to boot (in this example, the drive letter E).</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>You would first create the startup key needed for BitLocker using the –protectors option and save it to the USB drive on E: and then begin the encryption process.</source>
+          <target>You would first create the startup key needed for BitLocker using the –protectors option and save it to the USB drive on E: and then begin the encryption process.</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>You will need to reboot the computer when prompted to complete the encryption process.</source>
+          <target>You will need to reboot the computer when prompted to complete the encryption process.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>Enabling BitLocker with a TPM only</source>
+          <target>Enabling BitLocker with a TPM only</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>It is possible to encrypt the operating system volume without any defined protectors using manage-bde.</source>
+          <target>It is possible to encrypt the operating system volume without any defined protectors using manage-bde.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>The command to do this is:</source>
+          <target>The command to do this is:</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>This will encrypt the drive using the TPM as the protector.</source>
+          <target>This will encrypt the drive using the TPM as the protector.</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>If a user is unsure of the protector for a volume, they can use the -protectors option in manage-bde to list this information with the command:</source>
+          <target>If a user is unsure of the protector for a volume, they can use the -protectors option in manage-bde to list this information with the command:</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>Provisioning BitLocker with two protectors</source>
+          <target>Provisioning BitLocker with two protectors</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Another example is a user on non-TPM hardware who wishes to add a password and SID-based protector to the operating system volume.</source>
+          <target>Another example is a user on non-TPM hardware who wishes to add a password and SID-based protector to the operating system volume.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>In this instance, the user adds the protectors first.</source>
+          <target>In this instance, the user adds the protectors first.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>This is done with the command:</source>
+          <target>This is done with the command:</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>This command will require the user to enter and then confirm the password protector before adding them to the volume.</source>
+          <target>This command will require the user to enter and then confirm the password protector before adding them to the volume.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>With the protectors enabled on the volume, the user just needs to turn BitLocker on.</source>
+          <target>With the protectors enabled on the volume, the user just needs to turn BitLocker on.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>Data volume</source>
+          <target>Data volume</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>Data volumes use the same syntax for encryption as operating system volumes but they do not require protectors for the operation to complete.</source>
+          <target>Data volumes use the same syntax for encryption as operating system volumes but they do not require protectors for the operation to complete.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <originalData>
+          <data id="id1">`manage-bde -on &lt;drive letter&gt;`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Encrypting data volumes can be done using the base command: <ph dataRef="id1" id="ph1" /> or users can choose to add protectors to the volume.</source>
+          <target>Encrypting data volumes can be done using the base command: <ph dataRef="id1" id="ph1" /> or users can choose to add protectors to the volume.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>It is recommended that at least one primary protector and a recovery protector be added to a data volume.</source>
+          <target>It is recommended that at least one primary protector and a recovery protector be added to a data volume.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>Enabling BitLocker with a password</source>
+          <target>Enabling BitLocker with a password</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>A common protector for a data volume is the password protector.</source>
+          <target>A common protector for a data volume is the password protector.</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>In the example below, we add a password protector to the volume and turn BitLocker on.</source>
+          <target>In the example below, we add a password protector to the volume and turn BitLocker on.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>Using manage-bde to encrypt volumes with BitLocker</source>
+          <target>Using manage-bde to encrypt volumes with BitLocker</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>Encrypting volumes using the BitLocker Windows PowerShell cmdlets</source>
+          <target>Encrypting volumes using the BitLocker Windows PowerShell cmdlets</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>Windows PowerShell cmdlets provide an alternative way to work with BitLocker.</source>
+          <target>Windows PowerShell cmdlets provide an alternative way to work with BitLocker.</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>Using Windows PowerShell's scripting capabilities, administrators can integrate BitLocker options into existing scripts with ease.</source>
+          <target>Using Windows PowerShell's scripting capabilities, administrators can integrate BitLocker options into existing scripts with ease.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>The list below displays the available BitLocker cmdlets.</source>
+          <target>The list below displays the available BitLocker cmdlets.</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>Name</source>
+          <target>Name</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>Parameters</source>
+          <target>Parameters</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>Add-BitLockerKeyProtector</source>
+          <target>Add-BitLockerKeyProtector</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>-ADAccountOrGroup</source>
+          <target>-ADAccountOrGroup</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>-ADAccountOrGroupProtector</source>
+          <target>-ADAccountOrGroupProtector</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>-Confirm</source>
+          <target>-Confirm</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>-MountPoint</source>
+          <target>-MountPoint</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <segment state="initial">
+          <source>-Password</source>
+          <target>-Password</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>-PasswordProtector</source>
+          <target>-PasswordProtector</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>-Pin</source>
+          <target>-Pin</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>-RecoveryKeyPath</source>
+          <target>-RecoveryKeyPath</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>-RecoveryKeyProtector</source>
+          <target>-RecoveryKeyProtector</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>-RecoveryPassword</source>
+          <target>-RecoveryPassword</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>-RecoveryPasswordProtector</source>
+          <target>-RecoveryPasswordProtector</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>-Service</source>
+          <target>-Service</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>-StartupKeyPath</source>
+          <target>-StartupKeyPath</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>-StartupKeyProtector</source>
+          <target>-StartupKeyProtector</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>-TpmAndPinAndStartupKeyProtector</source>
+          <target>-TpmAndPinAndStartupKeyProtector</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>-TpmAndPinProtector</source>
+          <target>-TpmAndPinProtector</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>-TpmAndStartupKeyProtector</source>
+          <target>-TpmAndStartupKeyProtector</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>-TpmProtector</source>
+          <target>-TpmProtector</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>-WhatIf</source>
+          <target>-WhatIf</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>Backup-BitLockerKeyProtector</source>
+          <target>Backup-BitLockerKeyProtector</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>-Confirm</source>
+          <target>-Confirm</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>-KeyProtectorId</source>
+          <target>-KeyProtectorId</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>-MountPoint</source>
+          <target>-MountPoint</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>-WhatIf</source>
+          <target>-WhatIf</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>Disable-BitLocker</source>
+          <target>Disable-BitLocker</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <segment state="initial">
+          <source>-Confirm</source>
+          <target>-Confirm</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>-MountPoint</source>
+          <target>-MountPoint</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>-WhatIf</source>
+          <target>-WhatIf</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <segment state="initial">
+          <source>Disable-BitLockerAutoUnlock</source>
+          <target>Disable-BitLockerAutoUnlock</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>-Confirm</source>
+          <target>-Confirm</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>-MountPoint</source>
+          <target>-MountPoint</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>-WhatIf</source>
+          <target>-WhatIf</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>Enable-BitLocker</source>
+          <target>Enable-BitLocker</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>-AdAccountOrGroup</source>
+          <target>-AdAccountOrGroup</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>-AdAccountOrGroupProtector</source>
+          <target>-AdAccountOrGroupProtector</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <segment state="initial">
+          <source>-Confirm</source>
+          <target>-Confirm</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <segment state="initial">
+          <source>-EncryptionMethod</source>
+          <target>-EncryptionMethod</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <segment state="initial">
+          <source>-HardwareEncryption</source>
+          <target>-HardwareEncryption</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <segment state="initial">
+          <source>-Password</source>
+          <target>-Password</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <segment state="initial">
+          <source>-PasswordProtector</source>
+          <target>-PasswordProtector</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <segment state="initial">
+          <source>-Pin</source>
+          <target>-Pin</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <segment state="initial">
+          <source>-RecoveryKeyPath</source>
+          <target>-RecoveryKeyPath</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <segment state="initial">
+          <source>-RecoveryKeyProtector</source>
+          <target>-RecoveryKeyProtector</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <segment state="initial">
+          <source>-RecoveryPassword</source>
+          <target>-RecoveryPassword</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>-RecoveryPasswordProtector</source>
+          <target>-RecoveryPasswordProtector</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <segment state="initial">
+          <source>-Service</source>
+          <target>-Service</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>-SkipHardwareTest</source>
+          <target>-SkipHardwareTest</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <segment state="initial">
+          <source>-StartupKeyPath</source>
+          <target>-StartupKeyPath</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <segment state="initial">
+          <source>-StartupKeyProtector</source>
+          <target>-StartupKeyProtector</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <segment state="initial">
+          <source>-TpmAndPinAndStartupKeyProtector</source>
+          <target>-TpmAndPinAndStartupKeyProtector</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <segment state="initial">
+          <source>-TpmAndPinProtector</source>
+          <target>-TpmAndPinProtector</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <segment state="initial">
+          <source>-TpmAndStartupKeyProtector</source>
+          <target>-TpmAndStartupKeyProtector</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <segment state="initial">
+          <source>-TpmProtector</source>
+          <target>-TpmProtector</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <segment state="initial">
+          <source>-UsedSpaceOnly</source>
+          <target>-UsedSpaceOnly</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <segment state="initial">
+          <source>-WhatIf</source>
+          <target>-WhatIf</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <segment state="initial">
+          <source>Enable-BitLockerAutoUnlock</source>
+          <target>Enable-BitLockerAutoUnlock</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <segment state="initial">
+          <source>-Confirm</source>
+          <target>-Confirm</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <segment state="initial">
+          <source>-MountPoint</source>
+          <target>-MountPoint</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <segment state="initial">
+          <source>-WhatIf</source>
+          <target>-WhatIf</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <segment state="initial">
+          <source>Get-BitLockerVolume</source>
+          <target>Get-BitLockerVolume</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <segment state="initial">
+          <source>-MountPoint</source>
+          <target>-MountPoint</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <segment state="initial">
+          <source>Lock-BitLocker</source>
+          <target>Lock-BitLocker</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <segment state="initial">
+          <source>-Confirm</source>
+          <target>-Confirm</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <segment state="initial">
+          <source>-ForceDismount</source>
+          <target>-ForceDismount</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <segment state="initial">
+          <source>-MountPoint</source>
+          <target>-MountPoint</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <segment state="initial">
+          <source>-WhatIf</source>
+          <target>-WhatIf</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <segment state="initial">
+          <source>Remove-BitLockerKeyProtector</source>
+          <target>Remove-BitLockerKeyProtector</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <segment state="initial">
+          <source>-Confirm</source>
+          <target>-Confirm</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <segment state="initial">
+          <source>-KeyProtectorId</source>
+          <target>-KeyProtectorId</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>-MountPoint</source>
+          <target>-MountPoint</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <segment state="initial">
+          <source>-WhatIf</source>
+          <target>-WhatIf</target>
+        </segment>
+      </unit>
+      <unit id="354">
+        <segment state="initial">
+          <source>Resume-BitLocker</source>
+          <target>Resume-BitLocker</target>
+        </segment>
+      </unit>
+      <unit id="355">
+        <segment state="initial">
+          <source>-Confirm</source>
+          <target>-Confirm</target>
+        </segment>
+      </unit>
+      <unit id="356">
+        <segment state="initial">
+          <source>-MountPoint</source>
+          <target>-MountPoint</target>
+        </segment>
+      </unit>
+      <unit id="357">
+        <segment state="initial">
+          <source>-WhatIf</source>
+          <target>-WhatIf</target>
+        </segment>
+      </unit>
+      <unit id="358">
+        <segment state="initial">
+          <source>Suspend-BitLocker</source>
+          <target>Suspend-BitLocker</target>
+        </segment>
+      </unit>
+      <unit id="359">
+        <segment state="initial">
+          <source>-Confirm</source>
+          <target>-Confirm</target>
+        </segment>
+      </unit>
+      <unit id="360">
+        <segment state="initial">
+          <source>-MountPoint</source>
+          <target>-MountPoint</target>
+        </segment>
+      </unit>
+      <unit id="361">
+        <segment state="initial">
+          <source>-RebootCount</source>
+          <target>-RebootCount</target>
+        </segment>
+      </unit>
+      <unit id="362">
+        <segment state="initial">
+          <source>-WhatIf</source>
+          <target>-WhatIf</target>
+        </segment>
+      </unit>
+      <unit id="363">
+        <segment state="initial">
+          <source>Unlock-BitLocker</source>
+          <target>Unlock-BitLocker</target>
+        </segment>
+      </unit>
+      <unit id="364">
+        <segment state="initial">
+          <source>-AdAccountOrGroup</source>
+          <target>-AdAccountOrGroup</target>
+        </segment>
+      </unit>
+      <unit id="365">
+        <segment state="initial">
+          <source>-Confirm</source>
+          <target>-Confirm</target>
+        </segment>
+      </unit>
+      <unit id="366">
+        <segment state="initial">
+          <source>-MountPoint</source>
+          <target>-MountPoint</target>
+        </segment>
+      </unit>
+      <unit id="367">
+        <segment state="initial">
+          <source>-Password</source>
+          <target>-Password</target>
+        </segment>
+      </unit>
+      <unit id="368">
+        <segment state="initial">
+          <source>-RecoveryKeyPath</source>
+          <target>-RecoveryKeyPath</target>
+        </segment>
+      </unit>
+      <unit id="369">
+        <segment state="initial">
+          <source>-RecoveryPassword</source>
+          <target>-RecoveryPassword</target>
+        </segment>
+      </unit>
+      <unit id="370">
+        <segment state="initial">
+          <source>-RecoveryPassword</source>
+          <target>-RecoveryPassword</target>
+        </segment>
+      </unit>
+      <unit id="371">
+        <segment state="initial">
+          <source>-WhatIf</source>
+          <target>-WhatIf</target>
+        </segment>
+      </unit>
+      <unit id="372">
+        <segment state="initial">
+          <source>Similar to manage-bde, the Windows PowerShell cmdlets allow configuration beyond the options offered in the control panel.</source>
+          <target>Similar to manage-bde, the Windows PowerShell cmdlets allow configuration beyond the options offered in the control panel.</target>
+        </segment>
+      </unit>
+      <unit id="373">
+        <segment state="initial">
+          <source>As with manage-bde, users need to consider the specific needs of the volume they are encrypting prior to running Windows PowerShell cmdlets.</source>
+          <target>As with manage-bde, users need to consider the specific needs of the volume they are encrypting prior to running Windows PowerShell cmdlets.</target>
+        </segment>
+      </unit>
+      <unit id="374">
+        <segment state="initial">
+          <source>A good initial step is to determine the current state of the volume(s) on the computer.</source>
+          <target>A good initial step is to determine the current state of the volume(s) on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="375">
+        <originalData>
+          <data id="id1">`Get-BitLocker`</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can do this using the <ph dataRef="id1" id="ph1" /> volume cmdlet.</source>
+          <target>You can do this using the <ph dataRef="id1" id="ph1" /> volume cmdlet.</target>
+        </segment>
+      </unit>
+      <unit id="376">
+        <segment state="initial">
+          <source>The output from this cmdlet displays information on the volume type, protectors, protection status, and other useful information.</source>
+          <target>The output from this cmdlet displays information on the volume type, protectors, protection status, and other useful information.</target>
+        </segment>
+      </unit>
+      <unit id="377">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Occasionally, all protectors may not be shown when using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-BitLockerVolume</pc> due to lack of space in the output display.</source>
+          <target>Occasionally, all protectors may not be shown when using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-BitLockerVolume</pc> due to lack of space in the output display.</target>
+        </segment>
+      </unit>
+      <unit id="378">
+        <segment state="initial">
+          <source>If you do not see all of the protectors for a volume, you can use the Windows PowerShell pipe command (|) to format a listing of the protectors.</source>
+          <target>If you do not see all of the protectors for a volume, you can use the Windows PowerShell pipe command (|) to format a listing of the protectors.</target>
+        </segment>
+      </unit>
+      <unit id="379">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  In the event that there are more than four protectors for a volume, the pipe command may run out of display space.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  In the event that there are more than four protectors for a volume, the pipe command may run out of display space.</target>
+        </segment>
+      </unit>
+      <unit id="380">
+        <segment state="initial">
+          <source>For volumes with more than four protectors, use the method described in the section below to generate a listing of all protectors with protector ID.</source>
+          <target>For volumes with more than four protectors, use the method described in the section below to generate a listing of all protectors with protector ID.</target>
+        </segment>
+      </unit>
+      <unit id="381">
+        <originalData>
+          <data id="id1">`Remove-BitLockerKeyProtector`</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you wanted to remove the existing protectors prior to provisioning BitLocker on the volume, you can utilize the <ph dataRef="id1" id="ph1" /> cmdlet.</source>
+          <target>If you wanted to remove the existing protectors prior to provisioning BitLocker on the volume, you can utilize the <ph dataRef="id1" id="ph1" /> cmdlet.</target>
+        </segment>
+      </unit>
+      <unit id="382">
+        <segment state="initial">
+          <source>Accomplishing this requires the GUID associated with the protector to be removed.</source>
+          <target>Accomplishing this requires the GUID associated with the protector to be removed.</target>
+        </segment>
+      </unit>
+      <unit id="383">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>A simple script can pipe the values of each <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-BitLockerVolume</pc> return out to another variable as seen below:</source>
+          <target>A simple script can pipe the values of each <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-BitLockerVolume</pc> return out to another variable as seen below:</target>
+        </segment>
+      </unit>
+      <unit id="384">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using this, we can display the information in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">$keyprotectors</pc> variable to determine the GUID for each protector.</source>
+          <target>Using this, we can display the information in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">$keyprotectors</pc> variable to determine the GUID for each protector.</target>
+        </segment>
+      </unit>
+      <unit id="385">
+        <segment state="initial">
+          <source>Using this information, we can then remove the key protector for a specific volume using the command:</source>
+          <target>Using this information, we can then remove the key protector for a specific volume using the command:</target>
+        </segment>
+      </unit>
+      <unit id="386">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  The BitLocker cmdlet requires the key protector GUID enclosed in quotation marks to execute.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  The BitLocker cmdlet requires the key protector GUID enclosed in quotation marks to execute.</target>
+        </segment>
+      </unit>
+      <unit id="387">
+        <segment state="initial">
+          <source>Ensure the entire GUID, with braces, is included in the command.</source>
+          <target>Ensure the entire GUID, with braces, is included in the command.</target>
+        </segment>
+      </unit>
+      <unit id="388">
+        <segment state="initial">
+          <source>Operating system volume</source>
+          <target>Operating system volume</target>
+        </segment>
+      </unit>
+      <unit id="389">
+        <segment state="initial">
+          <source>Using the BitLocker Windows PowerShell cmdlets is similar to working with the manage-bde tool for encrypting operating system volumes.</source>
+          <target>Using the BitLocker Windows PowerShell cmdlets is similar to working with the manage-bde tool for encrypting operating system volumes.</target>
+        </segment>
+      </unit>
+      <unit id="390">
+        <segment state="initial">
+          <source>Windows PowerShell offers users a lot of flexibility.</source>
+          <target>Windows PowerShell offers users a lot of flexibility.</target>
+        </segment>
+      </unit>
+      <unit id="391">
+        <segment state="initial">
+          <source>For example, users can add the desired protector as part command for encrypting the volume.</source>
+          <target>For example, users can add the desired protector as part command for encrypting the volume.</target>
+        </segment>
+      </unit>
+      <unit id="392">
+        <segment state="initial">
+          <source>Below are examples of common user scenarios and steps to accomplish them using the BitLocker cmdlets for Windows PowerShell.</source>
+          <target>Below are examples of common user scenarios and steps to accomplish them using the BitLocker cmdlets for Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="393">
+        <segment state="initial">
+          <source>To enable BitLocker with just the TPM protector.</source>
+          <target>To enable BitLocker with just the TPM protector.</target>
+        </segment>
+      </unit>
+      <unit id="394">
+        <segment state="initial">
+          <source>This can be done using the command:</source>
+          <target>This can be done using the command:</target>
+        </segment>
+      </unit>
+      <unit id="395">
+        <segment state="initial">
+          <source>The example below adds one additional protector, the StartupKey protectors, and chooses to skip the BitLocker hardware test.</source>
+          <target>The example below adds one additional protector, the StartupKey protectors, and chooses to skip the BitLocker hardware test.</target>
+        </segment>
+      </unit>
+      <unit id="396">
+        <segment state="initial">
+          <source>In this example, encryption starts immediately without the need for a reboot.</source>
+          <target>In this example, encryption starts immediately without the need for a reboot.</target>
+        </segment>
+      </unit>
+      <unit id="397">
+        <segment state="initial">
+          <source>Data volume</source>
+          <target>Data volume</target>
+        </segment>
+      </unit>
+      <unit id="398">
+        <segment state="initial">
+          <source>Data volume encryption using Windows PowerShell is the same as for operating system volumes.</source>
+          <target>Data volume encryption using Windows PowerShell is the same as for operating system volumes.</target>
+        </segment>
+      </unit>
+      <unit id="399">
+        <segment state="initial">
+          <source>You should add the desired protectors prior to encrypting the volume.</source>
+          <target>You should add the desired protectors prior to encrypting the volume.</target>
+        </segment>
+      </unit>
+      <unit id="400">
+        <segment state="initial">
+          <source>The following example adds a password protector to the E: volume using the variable $pw as the password.</source>
+          <target>The following example adds a password protector to the E: volume using the variable $pw as the password.</target>
+        </segment>
+      </unit>
+      <unit id="401">
+        <segment state="initial">
+          <source>The $pw variable is held as a SecureString value to store the user defined password.</source>
+          <target>The $pw variable is held as a SecureString value to store the user defined password.</target>
+        </segment>
+      </unit>
+      <unit id="402">
+        <segment state="initial">
+          <source>Last, encryption begins.</source>
+          <target>Last, encryption begins.</target>
+        </segment>
+      </unit>
+      <unit id="403">
+        <segment state="initial">
+          <source>Using a SID based protector in Windows PowerShell</source>
+          <target>Using a SID based protector in Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="404">
+        <segment state="initial">
+          <source>The ADAccountOrGroup protector is an Active Directory SID-based protector.</source>
+          <target>The ADAccountOrGroup protector is an Active Directory SID-based protector.</target>
+        </segment>
+      </unit>
+      <unit id="405">
+        <segment state="initial">
+          <source>This protector can be added to both operating system and data volumes, although it does not unlock operating system volumes in the pre-boot environment.</source>
+          <target>This protector can be added to both operating system and data volumes, although it does not unlock operating system volumes in the pre-boot environment.</target>
+        </segment>
+      </unit>
+      <unit id="406">
+        <segment state="initial">
+          <source>The protector requires the SID for the domain account or group to link with the protector.</source>
+          <target>The protector requires the SID for the domain account or group to link with the protector.</target>
+        </segment>
+      </unit>
+      <unit id="407">
+        <segment state="initial">
+          <source>BitLocker can protect a cluster-aware disk by adding a SID-based protector for the Cluster Name Object (CNO) that lets the disk properly failover and be unlocked to any member computer of the cluster.</source>
+          <target>BitLocker can protect a cluster-aware disk by adding a SID-based protector for the Cluster Name Object (CNO) that lets the disk properly failover and be unlocked to any member computer of the cluster.</target>
+        </segment>
+      </unit>
+      <unit id="408">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Warning:</pc>  The SID-based protector requires the use of an additional protector (such as TPM, PIN, recovery key, etc.) when used on operating system volumes.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Warning:</pc>  The SID-based protector requires the use of an additional protector (such as TPM, PIN, recovery key, etc.) when used on operating system volumes.</target>
+        </segment>
+      </unit>
+      <unit id="409">
+        <segment state="initial">
+          <source>To add an ADAccountOrGroup protector to a volume requires either the actual domain SID or the group name preceded by the domain and a backslash.</source>
+          <target>To add an ADAccountOrGroup protector to a volume requires either the actual domain SID or the group name preceded by the domain and a backslash.</target>
+        </segment>
+      </unit>
+      <unit id="410">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the example below, the CONTOSO<ph dataRef="id1" id="ph1" />Administrator account is added as a protector to the data volume G.</source>
+          <target>In the example below, the CONTOSO<ph dataRef="id1" id="ph1" />Administrator account is added as a protector to the data volume G.</target>
+        </segment>
+      </unit>
+      <unit id="411">
+        <segment state="initial">
+          <source>For users who wish to use the SID for the account or group, the first step is to determine the SID associated with the account.</source>
+          <target>For users who wish to use the SID for the account or group, the first step is to determine the SID associated with the account.</target>
+        </segment>
+      </unit>
+      <unit id="412">
+        <segment state="initial">
+          <source>To get the specific SID for a user account in Windows PowerShell, use the following command:</source>
+          <target>To get the specific SID for a user account in Windows PowerShell, use the following command:</target>
+        </segment>
+      </unit>
+      <unit id="413">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Use of this command requires the RSAT-AD-PowerShell feature.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Use of this command requires the RSAT-AD-PowerShell feature.</target>
+        </segment>
+      </unit>
+      <unit id="414">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Tip:</pc>  In addition to the Windows PowerShell command above, information about the locally logged on user and group membership can be found using: WHOAMI /ALL.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Tip:</pc>  In addition to the Windows PowerShell command above, information about the locally logged on user and group membership can be found using: WHOAMI /ALL.</target>
+        </segment>
+      </unit>
+      <unit id="415">
+        <segment state="initial">
+          <source>This does not require the use of additional features.</source>
+          <target>This does not require the use of additional features.</target>
+        </segment>
+      </unit>
+      <unit id="416">
+        <segment state="initial">
+          <source>In the example below, the user wishes to add a domain SID based protector to the previously encrypted operating system volume.</source>
+          <target>In the example below, the user wishes to add a domain SID based protector to the previously encrypted operating system volume.</target>
+        </segment>
+      </unit>
+      <unit id="417">
+        <segment state="initial">
+          <source>The user knows the SID for the user account or group they wish to add and uses the following command:</source>
+          <target>The user knows the SID for the user account or group they wish to add and uses the following command:</target>
+        </segment>
+      </unit>
+      <unit id="418">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Active Directory-based protectors are normally used to unlock Failover Cluster enabled volumes.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Active Directory-based protectors are normally used to unlock Failover Cluster enabled volumes.</target>
+        </segment>
+      </unit>
+      <unit id="419">
+        <segment state="initial">
+          <source>Using PowerShell to encrypt volumes with BitLocker</source>
+          <target>Using PowerShell to encrypt volumes with BitLocker</target>
+        </segment>
+      </unit>
+      <unit id="420">
+        <segment state="initial">
+          <source>Checking BitLocker status</source>
+          <target>Checking BitLocker status</target>
+        </segment>
+      </unit>
+      <unit id="421">
+        <segment state="initial">
+          <source>To check the BitLocker status of a particular volume, administrators can look at the status of the drive in the BitLocker control panel applet, Windows Explorer, manage-bde command line tool, or Windows PowerShell cmdlets.</source>
+          <target>To check the BitLocker status of a particular volume, administrators can look at the status of the drive in the BitLocker control panel applet, Windows Explorer, manage-bde command line tool, or Windows PowerShell cmdlets.</target>
+        </segment>
+      </unit>
+      <unit id="422">
+        <segment state="initial">
+          <source>Each option offers different levels of detail and ease of use.</source>
+          <target>Each option offers different levels of detail and ease of use.</target>
+        </segment>
+      </unit>
+      <unit id="423">
+        <segment state="initial">
+          <source>We will look at each of the available methods in the following section.</source>
+          <target>We will look at each of the available methods in the following section.</target>
+        </segment>
+      </unit>
+      <unit id="424">
+        <segment state="initial">
+          <source>Checking BitLocker status with the control panel</source>
+          <target>Checking BitLocker status with the control panel</target>
+        </segment>
+      </unit>
+      <unit id="425">
+        <segment state="initial">
+          <source>Checking BitLocker status with the control panel is the most common method used by most users.</source>
+          <target>Checking BitLocker status with the control panel is the most common method used by most users.</target>
+        </segment>
+      </unit>
+      <unit id="426">
+        <segment state="initial">
+          <source>Once opened, the status for each volume will display next to the volume description and drive letter.</source>
+          <target>Once opened, the status for each volume will display next to the volume description and drive letter.</target>
+        </segment>
+      </unit>
+      <unit id="427">
+        <segment state="initial">
+          <source>Available status return values with the control panel include:</source>
+          <target>Available status return values with the control panel include:</target>
+        </segment>
+      </unit>
+      <unit id="428">
+        <segment state="initial">
+          <source>Status</source>
+          <target>Status</target>
+        </segment>
+      </unit>
+      <unit id="429">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="430">
+        <segment state="initial">
+          <source>On</source>
+          <target>On</target>
+        </segment>
+      </unit>
+      <unit id="431">
+        <segment state="initial">
+          <source>BitLocker is enabled for the volume</source>
+          <target>BitLocker is enabled for the volume</target>
+        </segment>
+      </unit>
+      <unit id="432">
+        <segment state="initial">
+          <source>Off</source>
+          <target>Off</target>
+        </segment>
+      </unit>
+      <unit id="433">
+        <segment state="initial">
+          <source>BitLocker is not enabled for the volume</source>
+          <target>BitLocker is not enabled for the volume</target>
+        </segment>
+      </unit>
+      <unit id="434">
+        <segment state="initial">
+          <source>Suspended</source>
+          <target>Suspended</target>
+        </segment>
+      </unit>
+      <unit id="435">
+        <segment state="initial">
+          <source>BitLocker is suspended and not actively protecting the volume</source>
+          <target>BitLocker is suspended and not actively protecting the volume</target>
+        </segment>
+      </unit>
+      <unit id="436">
+        <segment state="initial">
+          <source>Waiting for Activation</source>
+          <target>Waiting for Activation</target>
+        </segment>
+      </unit>
+      <unit id="437">
+        <segment state="initial">
+          <source>BitLocker is enabled with a clear protector key and requires further action to be fully protected</source>
+          <target>BitLocker is enabled with a clear protector key and requires further action to be fully protected</target>
+        </segment>
+      </unit>
+      <unit id="438">
+        <segment state="initial">
+          <source>If a drive is pre-provisioned with BitLocker, a status of "Waiting for Activation" displays with a yellow exclamation icon on volume E. This status means that there was only a clear protector used when encrypting the volume.</source>
+          <target>If a drive is pre-provisioned with BitLocker, a status of "Waiting for Activation" displays with a yellow exclamation icon on volume E. This status means that there was only a clear protector used when encrypting the volume.</target>
+        </segment>
+      </unit>
+      <unit id="439">
+        <segment state="initial">
+          <source>In this case, the volume is not in a protected state and needs to have a secure key added to the volume before the drive is fully protected.</source>
+          <target>In this case, the volume is not in a protected state and needs to have a secure key added to the volume before the drive is fully protected.</target>
+        </segment>
+      </unit>
+      <unit id="440">
+        <segment state="initial">
+          <source>Administrators can use the control panel, manage-bde tool, or WMI APIs to add an appropriate key protector.</source>
+          <target>Administrators can use the control panel, manage-bde tool, or WMI APIs to add an appropriate key protector.</target>
+        </segment>
+      </unit>
+      <unit id="441">
+        <segment state="initial">
+          <source>Once complete, the control panel will update to reflect the new status.</source>
+          <target>Once complete, the control panel will update to reflect the new status.</target>
+        </segment>
+      </unit>
+      <unit id="442">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the control panel, administrators can choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn on BitLocker</pc> to start the BitLocker Drive Encryption wizard and add a protector, like PIN for an operating system volume (or password if no TPM exists), or a password or smart card protector to a data volume.</source>
+          <target>Using the control panel, administrators can choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn on BitLocker</pc> to start the BitLocker Drive Encryption wizard and add a protector, like PIN for an operating system volume (or password if no TPM exists), or a password or smart card protector to a data volume.</target>
+        </segment>
+      </unit>
+      <unit id="443">
+        <segment state="initial">
+          <source>The drive security window displays prior to changing the volume status.</source>
+          <target>The drive security window displays prior to changing the volume status.</target>
+        </segment>
+      </unit>
+      <unit id="444">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Selecting <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Activate BitLocker</pc> will complete the encryption process.</source>
+          <target>Selecting <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Activate BitLocker</pc> will complete the encryption process.</target>
+        </segment>
+      </unit>
+      <unit id="445">
+        <segment state="initial">
+          <source>Once BitLocker protector activation is completed, the completion notice is displayed.</source>
+          <target>Once BitLocker protector activation is completed, the completion notice is displayed.</target>
+        </segment>
+      </unit>
+      <unit id="446">
+        <segment state="initial">
+          <source>Checking BitLocker status with manage-bde</source>
+          <target>Checking BitLocker status with manage-bde</target>
+        </segment>
+      </unit>
+      <unit id="447">
+        <segment state="initial">
+          <source>Administrators who prefer a command line interface can utilize manage-bde to check volume status.</source>
+          <target>Administrators who prefer a command line interface can utilize manage-bde to check volume status.</target>
+        </segment>
+      </unit>
+      <unit id="448">
+        <segment state="initial">
+          <source>Manage-bde is capable of returning more information about the volume than the graphical user interface tools in the control panel.</source>
+          <target>Manage-bde is capable of returning more information about the volume than the graphical user interface tools in the control panel.</target>
+        </segment>
+      </unit>
+      <unit id="449">
+        <segment state="initial">
+          <source>For example, manage-bde can display the BitLocker version in use, the encryption type, and the protectors associated with a volume.</source>
+          <target>For example, manage-bde can display the BitLocker version in use, the encryption type, and the protectors associated with a volume.</target>
+        </segment>
+      </unit>
+      <unit id="450">
+        <segment state="initial">
+          <source>To check the status of a volume using manage-bde, use the following command:</source>
+          <target>To check the status of a volume using manage-bde, use the following command:</target>
+        </segment>
+      </unit>
+      <unit id="451">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  If no volume letter is associated with the -status command, all volumes on the computer display their status.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  If no volume letter is associated with the -status command, all volumes on the computer display their status.</target>
+        </segment>
+      </unit>
+      <unit id="452">
+        <segment state="initial">
+          <source>Checking BitLocker status with Windows PowerShell</source>
+          <target>Checking BitLocker status with Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="453">
+        <segment state="initial">
+          <source>Windows PowerShell commands offer another way to query BitLocker status for volumes.</source>
+          <target>Windows PowerShell commands offer another way to query BitLocker status for volumes.</target>
+        </segment>
+      </unit>
+      <unit id="454">
+        <segment state="initial">
+          <source>Like manage-bde, Windows PowerShell includes the advantage of being able to check the status of a volume on a remote computer.</source>
+          <target>Like manage-bde, Windows PowerShell includes the advantage of being able to check the status of a volume on a remote computer.</target>
+        </segment>
+      </unit>
+      <unit id="455">
+        <segment state="initial">
+          <source>Using the Get-BitLockerVolume cmdlet, each volume on the system will display its current BitLocker status.</source>
+          <target>Using the Get-BitLockerVolume cmdlet, each volume on the system will display its current BitLocker status.</target>
+        </segment>
+      </unit>
+      <unit id="456">
+        <segment state="initial">
+          <source>To get information that is more detailed on a specific volume, use the following command:</source>
+          <target>To get information that is more detailed on a specific volume, use the following command:</target>
+        </segment>
+      </unit>
+      <unit id="457">
+        <segment state="initial">
+          <source>This command will display information about the encryption method, volume type, key protectors, etc.</source>
+          <target>This command will display information about the encryption method, volume type, key protectors, etc.</target>
+        </segment>
+      </unit>
+      <unit id="458">
+        <segment state="initial">
+          <source>Provisioning BitLocker during operating system deployment</source>
+          <target>Provisioning BitLocker during operating system deployment</target>
+        </segment>
+      </unit>
+      <unit id="459">
+        <segment state="initial">
+          <source>Administrators can enable BitLocker prior to operating system deployment from the Windows Pre-installation Environment.</source>
+          <target>Administrators can enable BitLocker prior to operating system deployment from the Windows Pre-installation Environment.</target>
+        </segment>
+      </unit>
+      <unit id="460">
+        <segment state="initial">
+          <source>This is done with a randomly generated clear key protector applied to the formatted volume and encrypting the volume prior to running the Windows setup process.</source>
+          <target>This is done with a randomly generated clear key protector applied to the formatted volume and encrypting the volume prior to running the Windows setup process.</target>
+        </segment>
+      </unit>
+      <unit id="461">
+        <segment state="initial">
+          <source>If the encryption uses the Used Disk Space Only option described later in this document, this step takes only a few seconds and incorporates well into regular deployment processes.</source>
+          <target>If the encryption uses the Used Disk Space Only option described later in this document, this step takes only a few seconds and incorporates well into regular deployment processes.</target>
+        </segment>
+      </unit>
+      <unit id="462">
+        <segment state="initial">
+          <source>Decrypting BitLocker volumes</source>
+          <target>Decrypting BitLocker volumes</target>
+        </segment>
+      </unit>
+      <unit id="463">
+        <segment state="initial">
+          <source>Decrypting volumes removes BitLocker and any associated protectors from the volumes.</source>
+          <target>Decrypting volumes removes BitLocker and any associated protectors from the volumes.</target>
+        </segment>
+      </unit>
+      <unit id="464">
+        <segment state="initial">
+          <source>Decryption should occur when protection is no longer required.</source>
+          <target>Decryption should occur when protection is no longer required.</target>
+        </segment>
+      </unit>
+      <unit id="465">
+        <segment state="initial">
+          <source>BitLocker decryption should not occur as a troubleshooting step.</source>
+          <target>BitLocker decryption should not occur as a troubleshooting step.</target>
+        </segment>
+      </unit>
+      <unit id="466">
+        <segment state="initial">
+          <source>BitLocker can be removed from a volume using the BitLocker control panel applet, manage-bde, or Windows PowerShell cmdlets.</source>
+          <target>BitLocker can be removed from a volume using the BitLocker control panel applet, manage-bde, or Windows PowerShell cmdlets.</target>
+        </segment>
+      </unit>
+      <unit id="467">
+        <segment state="initial">
+          <source>We will discuss each method further below.</source>
+          <target>We will discuss each method further below.</target>
+        </segment>
+      </unit>
+      <unit id="468">
+        <segment state="initial">
+          <source>Decrypting volumes using the BitLocker control panel applet</source>
+          <target>Decrypting volumes using the BitLocker control panel applet</target>
+        </segment>
+      </unit>
+      <unit id="469">
+        <segment state="initial">
+          <source>BitLocker decryption using the control panel is done using a Wizard.</source>
+          <target>BitLocker decryption using the control panel is done using a Wizard.</target>
+        </segment>
+      </unit>
+      <unit id="470">
+        <segment state="initial">
+          <source>The control panel can be called from Windows Explorer or by opening the directly.</source>
+          <target>The control panel can be called from Windows Explorer or by opening the directly.</target>
+        </segment>
+      </unit>
+      <unit id="471">
+        <segment state="initial">
+          <source>After opening the BitLocker control panel, users will select the Turn off BitLocker option to begin the process.</source>
+          <target>After opening the BitLocker control panel, users will select the Turn off BitLocker option to begin the process.</target>
+        </segment>
+      </unit>
+      <unit id="472">
+        <segment state="initial">
+          <source>Once selected, the user chooses to continue by clicking the confirmation dialog.</source>
+          <target>Once selected, the user chooses to continue by clicking the confirmation dialog.</target>
+        </segment>
+      </unit>
+      <unit id="473">
+        <segment state="initial">
+          <source>With Turn off BitLocker confirmed, the drive decryption process will begin and report status to the control panel.</source>
+          <target>With Turn off BitLocker confirmed, the drive decryption process will begin and report status to the control panel.</target>
+        </segment>
+      </unit>
+      <unit id="474">
+        <segment state="initial">
+          <source>The control panel does not report decryption progress but displays it in the notification area of the task bar.</source>
+          <target>The control panel does not report decryption progress but displays it in the notification area of the task bar.</target>
+        </segment>
+      </unit>
+      <unit id="475">
+        <segment state="initial">
+          <source>Selecting the notification area icon will open a modal dialog with progress.</source>
+          <target>Selecting the notification area icon will open a modal dialog with progress.</target>
+        </segment>
+      </unit>
+      <unit id="476">
+        <segment state="initial">
+          <source>Once decryption is complete, the drive will update its status in the control panel and is available for encryption.</source>
+          <target>Once decryption is complete, the drive will update its status in the control panel and is available for encryption.</target>
+        </segment>
+      </unit>
+      <unit id="477">
+        <segment state="initial">
+          <source>Decrypting volumes using the manage-bde command line interface</source>
+          <target>Decrypting volumes using the manage-bde command line interface</target>
+        </segment>
+      </unit>
+      <unit id="478">
+        <segment state="initial">
+          <source>Decrypting volumes using manage-bde is very straightforward.</source>
+          <target>Decrypting volumes using manage-bde is very straightforward.</target>
+        </segment>
+      </unit>
+      <unit id="479">
+        <segment state="initial">
+          <source>Decryption with manage-bde offers the advantage of not requiring user confirmation to start the process.</source>
+          <target>Decryption with manage-bde offers the advantage of not requiring user confirmation to start the process.</target>
+        </segment>
+      </unit>
+      <unit id="480">
+        <segment state="initial">
+          <source>Manage-bde uses the -off command to start the decryption process.</source>
+          <target>Manage-bde uses the -off command to start the decryption process.</target>
+        </segment>
+      </unit>
+      <unit id="481">
+        <segment state="initial">
+          <source>A sample command for decryption is:</source>
+          <target>A sample command for decryption is:</target>
+        </segment>
+      </unit>
+      <unit id="482">
+        <segment state="initial">
+          <source>This command disables protectors while it decrypts the volume and removes all protectors when decryption is complete.</source>
+          <target>This command disables protectors while it decrypts the volume and removes all protectors when decryption is complete.</target>
+        </segment>
+      </unit>
+      <unit id="483">
+        <segment state="initial">
+          <source>If a user wishes to check the status of the decryption, they can use the following command:</source>
+          <target>If a user wishes to check the status of the decryption, they can use the following command:</target>
+        </segment>
+      </unit>
+      <unit id="484">
+        <segment state="initial">
+          <source>Decrypting volumes using the BitLocker Windows PowerShell cmdlets</source>
+          <target>Decrypting volumes using the BitLocker Windows PowerShell cmdlets</target>
+        </segment>
+      </unit>
+      <unit id="485">
+        <segment state="initial">
+          <source>Decryption with Windows PowerShell cmdlets is straightforward, similar to manage-bde.</source>
+          <target>Decryption with Windows PowerShell cmdlets is straightforward, similar to manage-bde.</target>
+        </segment>
+      </unit>
+      <unit id="486">
+        <segment state="initial">
+          <source>The additional advantage Windows PowerShell offers is the ability to decrypt multiple drives in one pass.</source>
+          <target>The additional advantage Windows PowerShell offers is the ability to decrypt multiple drives in one pass.</target>
+        </segment>
+      </unit>
+      <unit id="487">
+        <segment state="initial">
+          <source>In the example below, the user has three encrypted volumes, which they wish to decrypt.</source>
+          <target>In the example below, the user has three encrypted volumes, which they wish to decrypt.</target>
+        </segment>
+      </unit>
+      <unit id="488">
+        <segment state="initial">
+          <source>Using the Disable-BitLocker command, they can remove all protectors and encryption at the same time without the need for additional commands.</source>
+          <target>Using the Disable-BitLocker command, they can remove all protectors and encryption at the same time without the need for additional commands.</target>
+        </segment>
+      </unit>
+      <unit id="489">
+        <segment state="initial">
+          <source>An example of this command is:</source>
+          <target>An example of this command is:</target>
+        </segment>
+      </unit>
+      <unit id="490">
+        <originalData>
+          <data id="id1">`-MountPoint`</data>
+        </originalData>
+        <segment state="initial">
+          <source>If a user did not want to input each mount point individually, using the <ph dataRef="id1" id="ph1" /> parameter in an array can sequence the same command into one line without requiring additional user input.</source>
+          <target>If a user did not want to input each mount point individually, using the <ph dataRef="id1" id="ph1" /> parameter in an array can sequence the same command into one line without requiring additional user input.</target>
+        </segment>
+      </unit>
+      <unit id="491">
+        <segment state="initial">
+          <source>An example command is:</source>
+          <target>An example command is:</target>
+        </segment>
+      </unit>
+      <unit id="492">
+        <segment state="initial">
+          <source>See also</source>
+          <target>See also</target>
+        </segment>
+      </unit>
+      <unit id="493">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Prepare your organization for BitLocker: Planning and p<ph dataRef="id1" id="ph1" />olicies</source>
+          <target>Prepare your organization for BitLocker: Planning and p<ph dataRef="id1" id="ph1" />olicies</target>
+        </segment>
+      </unit>
+      <unit id="494">
+        <segment state="initial">
+          <source>BitLocker recovery guide</source>
+          <target>BitLocker recovery guide</target>
+        </segment>
+      </unit>
+      <unit id="495">
+        <segment state="initial">
+          <source>BitLocker: How to enable Network Unlock</source>
+          <target>BitLocker: How to enable Network Unlock</target>
+        </segment>
+      </unit>
+      <unit id="496">
+        <segment state="initial">
+          <source>BitLocker overview</source>
+          <target>BitLocker overview</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

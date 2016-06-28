@@ -1,0 +1,1176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\appv-v5\how-to-modify-an-existing-virtual-application-package-beta.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">ea718cf1edbd9a551cd492b6042bccf52745048f</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>How to Modify an Existing Virtual Application Package</source>
+          <target>How to Modify an Existing Virtual Application Package</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>How to Modify an Existing Virtual Application Package</source>
+          <target>How to Modify an Existing Virtual Application Package</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>How to Modify an Existing Virtual Application Package</source>
+          <target>How to Modify an Existing Virtual Application Package</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This topic explains how to:</source>
+          <target>This topic explains how to:</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Update an application in an existing virtual application package</source>
+          <target>Update an application in an existing virtual application package</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Modify the properties associated with an existing virtual application package</source>
+          <target>Modify the properties associated with an existing virtual application package</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Add a new application to an existing virtual application package</source>
+          <target>Add a new application to an existing virtual application package</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Before you update a package:</source>
+          <target>Before you update a package:</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Ensure that you’ve installed the Microsoft Application Virtualization (App-V) Sequencer, which is required for modifying a virtual application package.</source>
+          <target>Ensure that you’ve installed the Microsoft Application Virtualization (App-V) Sequencer, which is required for modifying a virtual application package.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](how-to-install-the-sequencer-beta-gb18030.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To install the App-V Sequencer, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Install the Sequencer</pc>.</source>
+          <target>To install the App-V Sequencer, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Install the Sequencer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Save the .appv file in a secure location and always trust the source before trying to open the package for editing.</source>
+          <target>Save the .appv file in a secure location and always trust the source before trying to open the package for editing.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>The Managing Authority section is erroneously removed from the deployment configuration file when you update a package.</source>
+          <target>The Managing Authority section is erroneously removed from the deployment configuration file when you update a package.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Before starting the update, copy the Managing Authority section from the existing deployment configuration file, and then paste the copied section into the new configuration file after the conversion is complete.</source>
+          <target>Before starting the update, copy the Managing Authority section from the existing deployment configuration file, and then paste the copied section into the new configuration file after the conversion is complete.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Modify an Existing Virtual Application Package</pc> in the Sequencer in order to edit a package, but then make no changes and close the package, the streaming behavior of the package is changed.</source>
+          <target>If you click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Modify an Existing Virtual Application Package</pc> in the Sequencer in order to edit a package, but then make no changes and close the package, the streaming behavior of the package is changed.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>The primary feature block is removed from the StreamMap.xml file, and any files that were listed in the publishing feature block are removed.</source>
+          <target>The primary feature block is removed from the StreamMap.xml file, and any files that were listed in the publishing feature block are removed.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Users who receive the edited package experience that package as if it were stream-faulted, regardless of how the original package was configured.</source>
+          <target>Users who receive the edited package experience that package as if it were stream-faulted, regardless of how the original package was configured.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Update an application in an existing virtual application package</source>
+          <target>Update an application in an existing virtual application package</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the computer that runs the sequencer, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Programs</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft Application Virtualization</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Microsoft Application Virtualization Sequencer</pc>.</source>
+          <target>On the computer that runs the sequencer, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Programs</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft Application Virtualization</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Microsoft Application Virtualization Sequencer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the App-V Sequencer, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Modify an Existing Virtual Application Package</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Next</pc>.</source>
+          <target>In the App-V Sequencer, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Modify an Existing Virtual Application Package</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">&amp;gt;</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Task</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Update Application in Existing Package</pc><ph dataRef="id5" id="ph1" /><pc dataRefEnd="id7" dataRefStart="id6" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Task</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Update Application in Existing Package</pc><ph dataRef="id5" id="ph1" /><pc dataRefEnd="id7" dataRefStart="id6" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Package</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc> to locate the virtual application package that contains the application to update, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Package</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc> to locate the virtual application package that contains the application to update, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Prepare Computer</pc> page, review the issues that could cause the application update to fail or cause the updated application to contain unnecessary data.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Prepare Computer</pc> page, review the issues that could cause the application update to fail or cause the updated application to contain unnecessary data.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Resolve all potential issues before you continue.</source>
+          <target>Resolve all potential issues before you continue.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After making any corrections and resolving all potential issues, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Next</pc>.</source>
+          <target>After making any corrections and resolving all potential issues, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>If you are required to disable virus scanning software, first scan the computer that runs the sequencer to ensure that no unwanted or malicious files are added to the package.</source>
+          <target>If you are required to disable virus scanning software, first scan the computer that runs the sequencer to ensure that no unwanted or malicious files are added to the package.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Installer</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc> and specify the update installation file for the application.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Installer</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc> and specify the update installation file for the application.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the update does not have an associated installer file, and if you plan to run all installation steps manually, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select this option to perform a custom installation</pc> check box, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>If the update does not have an associated installer file, and if you plan to run all installation steps manually, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select this option to perform a custom installation</pc> check box, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installation</pc> page, when the sequencer and application installer are ready you can proceed to install the application update so the sequencer can monitor the installation process.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installation</pc> page, when the sequencer and application installer are ready you can proceed to install the application update so the sequencer can monitor the installation process.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If additional installation files must be run as part of the installation, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run</pc>, and then locate and run the additional installation files.</source>
+          <target>If additional installation files must be run as part of the installation, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run</pc>, and then locate and run the additional installation files.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are finished with the installation, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">I am finished installing</pc>.</source>
+          <target>When you are finished with the installation, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">I am finished installing</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>The sequencer monitors all changes and installations that occur on the computer that runs the sequencer.</source>
+          <target>The sequencer monitors all changes and installations that occur on the computer that runs the sequencer.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>This includes any changes and installations that are performed outside of the sequencing wizard.</source>
+          <target>This includes any changes and installations that are performed outside of the sequencing wizard.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installation Report</pc> page, you can review information about the updated virtual application.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installation Report</pc> page, you can review information about the updated virtual application.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Additional Information</pc>, double-click the event to obtain more detailed information.</source>
+          <target>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Additional Information</pc>, double-click the event to obtain more detailed information.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To proceed, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>To proceed, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Streaming</pc> page, run each program so that it can be optimized and run more efficiently on target computers.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Streaming</pc> page, run each program so that it can be optimized and run more efficiently on target computers.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>It can take several minutes for all of the applications to run.</source>
+          <target>It can take several minutes for all of the applications to run.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After all applications have run, close each of the applications, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>After all applications have run, close each of the applications, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>You can stop an application from loading during this step.</source>
+          <target>You can stop an application from loading during this step.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Launch</pc> dialog box, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Stop</pc>, and then select either <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Stop all applications</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Stop this application only</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Launch</pc> dialog box, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Stop</pc>, and then select either <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Stop all applications</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Stop this application only</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create Package</pc> page, to modify the package without saving it, select the check box for <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Continue to modify package without saving using the package editor</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create Package</pc> page, to modify the package without saving it, select the check box for <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Continue to modify package without saving using the package editor</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>When you select this option, the package opens in the App-V Sequencer console, where you can modify the package before it is saved.</source>
+          <target>When you select this option, the package opens in the App-V Sequencer console, where you can modify the package before it is saved.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To save the package immediately, select the default <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save the package now</pc>.</source>
+          <target>To save the package immediately, select the default <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save the package now</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add optional <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Comments</pc> to associate with the package.</source>
+          <target>Add optional <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Comments</pc> to associate with the package.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Comments are useful to identify the application version and provide other information about the package.</source>
+          <target>Comments are useful to identify the application version and provide other information about the package.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The default <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Location</pc> is also displayed.</source>
+          <target>The default <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Location</pc> is also displayed.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To change the default location, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browse</pc> and specify the new location.</source>
+          <target>To change the default location, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browse</pc> and specify the new location.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Completion</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc> to close the wizard.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Completion</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc> to close the wizard.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>The package is now available in the sequencer.</source>
+          <target>The package is now available in the sequencer.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Modify the properties associated with an existing virtual application package</source>
+          <target>Modify the properties associated with an existing virtual application package</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the computer that runs the sequencer, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Programs</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft Application Virtualization</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Microsoft Application Virtualization Sequencer</pc>.</source>
+          <target>On the computer that runs the sequencer, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Programs</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft Application Virtualization</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Microsoft Application Virtualization Sequencer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the App-V Sequencer, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Modify an Existing Virtual Application Package</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Next</pc>.</source>
+          <target>In the App-V Sequencer, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Modify an Existing Virtual Application Package</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">&amp;gt;</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Task</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Edit Package</pc><ph dataRef="id5" id="ph1" /><pc dataRefEnd="id7" dataRefStart="id6" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Task</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Edit Package</pc><ph dataRef="id5" id="ph1" /><pc dataRefEnd="id7" dataRefStart="id6" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Package</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc> to locate the virtual application package that contains the application properties to modify, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Edit</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Package</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc> to locate the virtual application package that contains the application properties to modify, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Edit</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>In the App-V Sequencer console, perform any of the following tasks as needed:</source>
+          <target>In the App-V Sequencer console, perform any of the following tasks as needed:</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>View package properties.</source>
+          <target>View package properties.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>View associated package files.</source>
+          <target>View associated package files.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Edit registry settings.</source>
+          <target>Edit registry settings.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Review additional package settings (except operating system file properties).</source>
+          <target>Review additional package settings (except operating system file properties).</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Set virtualized registry key state (override or merge).</source>
+          <target>Set virtualized registry key state (override or merge).</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Set virtualized folder state.</source>
+          <target>Set virtualized folder state.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Add or edit shortcuts and file type associations.</source>
+          <target>Add or edit shortcuts and file type associations.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>To edit shortcuts or file type associations, you must first open the package for upgrade to add a new application, and then proceed to the final editing page.</source>
+          <target>To edit shortcuts or file type associations, you must first open the package for upgrade to add a new application, and then proceed to the final editing page.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you finish changing the package properties, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Save</pc> to save the package.</source>
+          <target>When you finish changing the package properties, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Save</pc> to save the package.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Add a new application to an existing virtual application package</source>
+          <target>Add a new application to an existing virtual application package</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the computer that runs the sequencer, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Programs</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft Application Virtualization</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Microsoft Application Virtualization Sequencer</pc>.</source>
+          <target>On the computer that runs the sequencer, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Programs</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft Application Virtualization</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Microsoft Application Virtualization Sequencer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the App-V Sequencer, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Modify an Existing Virtual Application Package</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Next</pc>.</source>
+          <target>In the App-V Sequencer, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Modify an Existing Virtual Application Package</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">&amp;gt;</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Task</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add New Application</pc><ph dataRef="id5" id="ph1" /><pc dataRefEnd="id7" dataRefStart="id6" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Task</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add New Application</pc><ph dataRef="id5" id="ph1" /><pc dataRefEnd="id7" dataRefStart="id6" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Package</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc> to locate the virtual application package to which you will add the application, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Package</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc> to locate the virtual application package to which you will add the application, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Prepare Computer</pc> page, review the issues that could cause the package creation to fail or cause the revised package to contain unnecessary data.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Prepare Computer</pc> page, review the issues that could cause the package creation to fail or cause the revised package to contain unnecessary data.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Resolve all potential issues before you continue.</source>
+          <target>Resolve all potential issues before you continue.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After making any corrections and resolving all potential issues, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Next</pc>.</source>
+          <target>After making any corrections and resolving all potential issues, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>If you are required to disable virus scanning software, first scan the computer that runs the sequencer to ensure that no unwanted or malicious files can be added to the package.</source>
+          <target>If you are required to disable virus scanning software, first scan the computer that runs the sequencer to ensure that no unwanted or malicious files can be added to the package.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Installer</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc> and specify the installation file for the application.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Installer</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc> and specify the installation file for the application.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the application does not have an associated installer file and you plan to run all installation steps manually, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select this option to perform a custom installation</pc> check box, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>If the application does not have an associated installer file and you plan to run all installation steps manually, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select this option to perform a custom installation</pc> check box, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installation</pc> page, when the sequencer and application installer are ready, install the application so that the sequencer can monitor the installation process.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installation</pc> page, when the sequencer and application installer are ready, install the application so that the sequencer can monitor the installation process.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If additional installation files must be run as part of the installation, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run</pc>, and locate and run the additional installation files.</source>
+          <target>If additional installation files must be run as part of the installation, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run</pc>, and locate and run the additional installation files.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you finish the installation, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">I am finished installing</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Next</pc>.</source>
+          <target>When you finish the installation, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">I am finished installing</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browse for Folder</pc> dialog box, specify the primary directory where the application will be installed.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browse for Folder</pc> dialog box, specify the primary directory where the application will be installed.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Ensure that this is a new location so that you don’t overwrite the existing version of the virtual application package.</source>
+          <target>Ensure that this is a new location so that you don’t overwrite the existing version of the virtual application package.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>The sequencer monitors all changes and installations that occur on the computer that runs the sequencer.</source>
+          <target>The sequencer monitors all changes and installations that occur on the computer that runs the sequencer.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>This includes any changes and installations that are performed outside of the sequencing wizard.</source>
+          <target>This includes any changes and installations that are performed outside of the sequencing wizard.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Software</pc> page, optionally run the programs contained in the package.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Software</pc> page, optionally run the programs contained in the package.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>This step completes any associated license or configuration tasks that are required to run the application before you deploy and run the package on target computers.</source>
+          <target>This step completes any associated license or configuration tasks that are required to run the application before you deploy and run the package on target computers.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To run all the programs at the same time, select at least one program, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run All</pc>.</source>
+          <target>To run all the programs at the same time, select at least one program, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run All</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To run specific programs, select the program or programs you want to run, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run Selected</pc>.</source>
+          <target>To run specific programs, select the program or programs you want to run, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run Selected</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Complete the required configuration tasks and then close the applications.</source>
+          <target>Complete the required configuration tasks and then close the applications.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>It can take several minutes for all programs to run.</source>
+          <target>It can take several minutes for all programs to run.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installation Report</pc> page, you can review information about the updated virtual application.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installation Report</pc> page, you can review information about the updated virtual application.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Additional Information</pc>, double-click the event to obtain more detailed information, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc> to open the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Customize</pc> page.</source>
+          <target>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Additional Information</pc>, double-click the event to obtain more detailed information, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc> to open the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Customize</pc> page.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you are finished installing and configuring the virtual application, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Stop now</pc> and skip to step 13 of this procedure.</source>
+          <target>If you are finished installing and configuring the virtual application, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Stop now</pc> and skip to step 13 of this procedure.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you want to perform the following described customization, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize</pc>.</source>
+          <target>If you want to perform the following described customization, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you are customizing, prepare the virtual package for streaming, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>If you are customizing, prepare the virtual package for streaming, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Streaming improves the experience when the virtual application package is run on target computers.</source>
+          <target>Streaming improves the experience when the virtual application package is run on target computers.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Streaming</pc> page, run each program so that it can be optimized and run more efficiently on target computers.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Streaming</pc> page, run each program so that it can be optimized and run more efficiently on target computers.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>It can take several minutes for all the applications to run.</source>
+          <target>It can take several minutes for all the applications to run.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After all applications have run, close each of the applications, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>After all applications have run, close each of the applications, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>You can stop an application from loading during this step.</source>
+          <target>You can stop an application from loading during this step.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Launch</pc> dialog box, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Stop</pc> and then select either <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Stop all applications</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Stop this application only</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Launch</pc> dialog box, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Stop</pc> and then select either <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Stop all applications</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Stop this application only</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create Package</pc> page, to modify the package without saving it, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Continue to modify package without saving using the package editor</pc> check box.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create Package</pc> page, to modify the package without saving it, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Continue to modify package without saving using the package editor</pc> check box.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Selecting this option opens the package in the App-V Sequencer console, where you can modify the package before saving it.</source>
+          <target>Selecting this option opens the package in the App-V Sequencer console, where you can modify the package before saving it.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To save the package immediately, select the default <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save the package now</pc>.</source>
+          <target>To save the package immediately, select the default <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save the package now</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add optional <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Comments</pc> to associate with the package.</source>
+          <target>Add optional <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Comments</pc> to associate with the package.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Comments are useful for providing application versions and other information about the package.</source>
+          <target>Comments are useful for providing application versions and other information about the package.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The default <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Location</pc> is also displayed.</source>
+          <target>The default <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Location</pc> is also displayed.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To change the default location, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browse</pc> and specify the new location.</source>
+          <target>To change the default location, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browse</pc> and specify the new location.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>The uncompressed package size is displayed.</source>
+          <target>The uncompressed package size is displayed.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Completion</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Completion</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>The package is now available in the sequencer.</source>
+          <target>The package is now available in the sequencer.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Got a suggestion for App-V</pc>?</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Got a suggestion for App-V</pc>?</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add or vote on suggestions <pc dataRefEnd="id2" dataRefStart="id1" id="p1">here</pc>.</source>
+          <target>Add or vote on suggestions <pc dataRefEnd="id2" dataRefStart="id1" id="p1">here</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Got an App-V issu</pc>e?</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Got an App-V issu</pc>e?</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://social.technet.microsoft.com/Forums/home?forum=mdopappv)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">App-V TechNet Forum</pc>.</source>
+          <target>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">App-V TechNet Forum</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Operations for App-V 5.0</source>
+          <target>Operations for App-V 5.0</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

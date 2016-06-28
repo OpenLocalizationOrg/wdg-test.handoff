@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\certificate-based-isolation-policy-design-example.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">6af61b4d34ef7e0214129a54ed623a8673c8b9dc</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Certificate-based Isolation Policy Design Example (Windows 10)</source>
+          <target>Certificate-based Isolation Policy Design Example (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Certificate-based Isolation Policy Design Example</source>
+          <target>Certificate-based Isolation Policy Design Example</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Certificate-based Isolation Policy Design Example</source>
+          <target>Certificate-based Isolation Policy Design Example</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](firewall-policy-design-example.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](domain-isolation-policy-design-example.md)</data>
+          <data id="id5">[</data>
+          <data id="id6">](server-isolation-policy-design-example.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>This design example continues to use the fictitious company Woodgrove Bank, as described in the sections <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Firewall Policy Design Example</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Domain Isolation Policy Design Example</pc>, and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Server Isolation Policy Design Example</pc>.</source>
+          <target>This design example continues to use the fictitious company Woodgrove Bank, as described in the sections <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Firewall Policy Design Example</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Domain Isolation Policy Design Example</pc>, and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Server Isolation Policy Design Example</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>One of the servers that must be included in the domain isolation environment is a device running UNIX that supplies other information to the WGBank dashboard program running on the client devices.</source>
+          <target>One of the servers that must be included in the domain isolation environment is a device running UNIX that supplies other information to the WGBank dashboard program running on the client devices.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>This device sends updated information to the WGBank front-end servers as it becomes available, so it is considered unsolicited inbound traffic to the devices that receive this information.</source>
+          <target>This device sends updated information to the WGBank front-end servers as it becomes available, so it is considered unsolicited inbound traffic to the devices that receive this information.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Design requirements</source>
+          <target>Design requirements</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>One possible solution to this is to include an authentication exemption rule in the GPO applied to the WGBank front-end servers.</source>
+          <target>One possible solution to this is to include an authentication exemption rule in the GPO applied to the WGBank front-end servers.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>This rule would instruct the front-end servers to accept traffic from the non-Windows device even though it cannot authenticate.</source>
+          <target>This rule would instruct the front-end servers to accept traffic from the non-Windows device even though it cannot authenticate.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>A more secure solution, and the one selected by Woodgrove Bank, is to include the non-Windows device in the domain isolation design.</source>
+          <target>A more secure solution, and the one selected by Woodgrove Bank, is to include the non-Windows device in the domain isolation design.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Because it cannot join an Active Directory domain, Woodgrove Bank chose to use certificate-based authentication.</source>
+          <target>Because it cannot join an Active Directory domain, Woodgrove Bank chose to use certificate-based authentication.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Certificates are cryptographically-protected documents, encrypted in such a way that their origin can be positively confirmed.</source>
+          <target>Certificates are cryptographically-protected documents, encrypted in such a way that their origin can be positively confirmed.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>In this case, Woodgrove Bank used Active Directory Certificate Services to create the appropriate certificate.</source>
+          <target>In this case, Woodgrove Bank used Active Directory Certificate Services to create the appropriate certificate.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>They might also have acquired and installed a certificate from a third-party commercial certification authority.</source>
+          <target>They might also have acquired and installed a certificate from a third-party commercial certification authority.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>They then used Group Policy to deploy the certificate to the front-end servers.</source>
+          <target>They then used Group Policy to deploy the certificate to the front-end servers.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>The GPOs applied to the front-end servers also include updated connection security rules that permit certificate-based authentication in addition to Kerberos V5 authentication.</source>
+          <target>The GPOs applied to the front-end servers also include updated connection security rules that permit certificate-based authentication in addition to Kerberos V5 authentication.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>They then manually installed the certificate on the UNIX server.</source>
+          <target>They then manually installed the certificate on the UNIX server.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>The UNIX server is configured with firewall and IPsec connection security rules using the tools that are provided by the operating system vendor.</source>
+          <target>The UNIX server is configured with firewall and IPsec connection security rules using the tools that are provided by the operating system vendor.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Those rules specify that authentication is performed by using the certificate.</source>
+          <target>Those rules specify that authentication is performed by using the certificate.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>The creation of the IPsec connection security rules for a non-Windows device is beyond the scope of this document, but support for a certificate that can be used to authenticate such a non-Windows device by using the standard IPsec protocols is the subject of this design.</source>
+          <target>The creation of the IPsec connection security rules for a non-Windows device is beyond the scope of this document, but support for a certificate that can be used to authenticate such a non-Windows device by using the standard IPsec protocols is the subject of this design.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>The non-Windows device can be effectively made a member of the boundary zone or the encryption zone based on the IPsec rules applied to the device.</source>
+          <target>The non-Windows device can be effectively made a member of the boundary zone or the encryption zone based on the IPsec rules applied to the device.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>The only constraint is that the main mode and quick mode encryption algorithms supported by the UNIX device must also be supported by the Windows-based devices with which it communicates.</source>
+          <target>The only constraint is that the main mode and quick mode encryption algorithms supported by the UNIX device must also be supported by the Windows-based devices with which it communicates.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Other traffic notes:</source>
+          <target>Other traffic notes:</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>None of the capabilities of the other designs discussed in this guide are compromised by the use of certificate authentication by a non-Windows device.</source>
+          <target>None of the capabilities of the other designs discussed in this guide are compromised by the use of certificate authentication by a non-Windows device.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Design details</source>
+          <target>Design details</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Woodgrove Bank uses Active Directory groups and GPOs to deploy the domain isolation settings and rules to the devices in their organization.</source>
+          <target>Woodgrove Bank uses Active Directory groups and GPOs to deploy the domain isolation settings and rules to the devices in their organization.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>The inclusion of one or more non-Windows devices to the network requires only a simple addition to the GPOs for devices that must communicate with the non-Windows device.</source>
+          <target>The inclusion of one or more non-Windows devices to the network requires only a simple addition to the GPOs for devices that must communicate with the non-Windows device.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>The addition is allowing certificate-based authentication in addition to the Active Directory–supported Kerberos V5 authentication.</source>
+          <target>The addition is allowing certificate-based authentication in addition to the Active Directory–supported Kerberos V5 authentication.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>This does not require including new rules, just adding certificate-based authentication as an option to the existing rules.</source>
+          <target>This does not require including new rules, just adding certificate-based authentication as an option to the existing rules.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>When multiple authentication methods are available, two negotiating devices agree on the first one in their lists that match.</source>
+          <target>When multiple authentication methods are available, two negotiating devices agree on the first one in their lists that match.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Because the majority of the devices in Woodgrove Bank's network run Windows, Kerberos V5 is listed as the first authentication method in the rules.</source>
+          <target>Because the majority of the devices in Woodgrove Bank's network run Windows, Kerberos V5 is listed as the first authentication method in the rules.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Certificate-based authentication is added as an alternate authentication type.</source>
+          <target>Certificate-based authentication is added as an alternate authentication type.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>By using the Active Directory Users and Computers snap-in, Woodgrove Bank created a group named NAG<ph dataRef="id1" id="ph1" />COMPUTER<ph dataRef="id2" id="ph2" />WGBUNIX.</source>
+          <target>By using the Active Directory Users and Computers snap-in, Woodgrove Bank created a group named NAG<ph dataRef="id1" id="ph1" />COMPUTER<ph dataRef="id2" id="ph2" />WGBUNIX.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>They then added the device accounts to this group for Windows devices that need to communicate with the non-Windows devices.</source>
+          <target>They then added the device accounts to this group for Windows devices that need to communicate with the non-Windows devices.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If all the devices in the isolated domain need to be able to access the non-Windows devices, then the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Domain Computers</pc> group can be added to the group as a member.</source>
+          <target>If all the devices in the isolated domain need to be able to access the non-Windows devices, then the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Domain Computers</pc> group can be added to the group as a member.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Woodgrove Bank then created a GPO that contains the certificate, and then attached security group filters to the GPO that allow read and apply permissions to only members of the NAG<ph dataRef="id1" id="ph1" />COMPUTER<ph dataRef="id2" id="ph2" />WGBUNIX group.</source>
+          <target>Woodgrove Bank then created a GPO that contains the certificate, and then attached security group filters to the GPO that allow read and apply permissions to only members of the NAG<ph dataRef="id1" id="ph1" />COMPUTER<ph dataRef="id2" id="ph2" />WGBUNIX group.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The GPO places the certificate in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Local Computer / Personal / Certificates</pc> certificate store.</source>
+          <target>The GPO places the certificate in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Local Computer / Personal / Certificates</pc> certificate store.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The certificate used must chain back to a certificate that is in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trusted Root Certification Authorities</pc> store on the local device.</source>
+          <target>The certificate used must chain back to a certificate that is in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trusted Root Certification Authorities</pc> store on the local device.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](designing-a-windows-firewall-with-advanced-security-strategy.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Designing a Windows Firewall with Advanced Security Strategy</pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Designing a Windows Firewall with Advanced Security Strategy</pc>
+          </target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

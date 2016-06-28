@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\appv-v4\how-to-configure-the-server-to-be-trusted-for-delegation.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">fd532d55845ce7e7d595138055b79c01c9a70437</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>How to Configure the Server to be Trusted for Delegation</source>
+          <target>How to Configure the Server to be Trusted for Delegation</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>How to Configure the Server to be Trusted for Delegation</source>
+          <target>How to Configure the Server to be Trusted for Delegation</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>How to Configure the Server to be Trusted for Delegation</source>
+          <target>How to Configure the Server to be Trusted for Delegation</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>When you install the Microsoft Application Virtualization (App-V) Management Server software, you can choose to install it by using a distributed system architecture.</source>
+          <target>When you install the Microsoft Application Virtualization (App-V) Management Server software, you can choose to install it by using a distributed system architecture.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>If you install the console, the Management Web Service, and the database on different computers, you must configure the Internet Information Services (IIS) server to be trusted for delegation.</source>
+          <target>If you install the console, the Management Web Service, and the database on different computers, you must configure the Internet Information Services (IIS) server to be trusted for delegation.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This is necessary because the Management Web Service will attempt to connect to the App-V data store by using the credentials of the App-V administrator who is using the console.</source>
+          <target>This is necessary because the Management Web Service will attempt to connect to the App-V data store by using the credentials of the App-V administrator who is using the console.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>The database server on which the data store is installed will not accept the administrator’s credentials from the IIS server unless the IIS server is configured to be trusted for delegation, and so the Management Web Service will not be able to connect to the App-V data store.</source>
+          <target>The database server on which the data store is installed will not accept the administrator’s credentials from the IIS server unless the IIS server is configured to be trusted for delegation, and so the Management Web Service will not be able to connect to the App-V data store.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>If you install the App-V Management Server software on a single server and place the data store on a separate server, there is one situation in which you must still configure the server to be trusted for delegation even though the Management Web Service and Management Console are on the same server.</source>
+          <target>If you install the App-V Management Server software on a single server and place the data store on a separate server, there is one situation in which you must still configure the server to be trusted for delegation even though the Management Web Service and Management Console are on the same server.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This situation occurs if you need to connect to the Management Web Service in the console by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use Alternate Credentials</pc> option.</source>
+          <target>This situation occurs if you need to connect to the Management Web Service in the console by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use Alternate Credentials</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>The type of delegation that you can use depends on the Domain Functional Level that you have configured in your Active Directory Domain Services (AD DS) infrastructure.</source>
+          <target>The type of delegation that you can use depends on the Domain Functional Level that you have configured in your Active Directory Domain Services (AD DS) infrastructure.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>The following table lists the types of delegation that can be configured for each Domain Functional Level for App-V.</source>
+          <target>The following table lists the types of delegation that can be configured for each Domain Functional Level for App-V.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Detailed instructions follow the table.</source>
+          <target>Detailed instructions follow the table.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Domain Functional Level</source>
+          <target>Domain Functional Level</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Delegation Levels Available</source>
+          <target>Delegation Levels Available</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Windows 2000 native</source>
+          <target>Windows 2000 native</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>No delegation (default)</source>
+          <target>No delegation (default)</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Unconstrained delegation</source>
+          <target>Unconstrained delegation</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Windows Server 2003, Windows Server 2008, or Windows Server 2008 R2</source>
+          <target>Windows Server 2003, Windows Server 2008, or Windows Server 2008 R2</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>No delegation (default)</source>
+          <target>No delegation (default)</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Unconstrained delegation¹</source>
+          <target>Unconstrained delegation¹</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Constrained delegation (Use Kerberos Only Protocols)</source>
+          <target>Constrained delegation (Use Kerberos Only Protocols)</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Constrained delegation (Use any authentication protocol) ¹</source>
+          <target>Constrained delegation (Use any authentication protocol) ¹</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>¹ Not recommended.</source>
+          <target>¹ Not recommended.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>To configure unconstrained delegation when the Domain Functional Level is Windows 2000 native</source>
+          <target>To configure unconstrained delegation when the Domain Functional Level is Windows 2000 native</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>On the domain controller for your Web server’s domain, complete the following steps.</source>
+          <target>On the domain controller for your Web server’s domain, complete the following steps.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Administrative Tools</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Active Directory Users and Computers</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Administrative Tools</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Active Directory Users and Computers</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Expand domain, and then expand the Computers folder.</source>
+          <target>Expand domain, and then expand the Computers folder.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the right pane, right-click the computer name for the Web server, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc>.</source>
+          <target>In the right pane, right-click the computer name for the Web server, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> tab, ensure that the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Trust computer for delegation</pc> check box is selected.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> tab, ensure that the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Trust computer for delegation</pc> check box is selected.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>To configure unconstrained delegation when the Domain Functional Level is Windows Server 2003, Windows Server 2008, or Windows Server 2008 R2</source>
+          <target>To configure unconstrained delegation when the Domain Functional Level is Windows Server 2003, Windows Server 2008, or Windows Server 2008 R2</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>On the domain controller for your Web server’s domain, complete the following steps.</source>
+          <target>On the domain controller for your Web server’s domain, complete the following steps.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Administrative Tools</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Active Directory Users and Computers</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Administrative Tools</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Active Directory Users and Computers</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Expand domain, and expand the Computers folder.</source>
+          <target>Expand domain, and expand the Computers folder.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the right pane, right-click the computer name for the Web server, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc>, and then click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Delegation</pc> tab.</source>
+          <target>In the right pane, right-click the computer name for the Web server, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc>, and then click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Delegation</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click to select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trust this computer for delegation to any service (Kerberos only)</pc>.</source>
+          <target>Click to select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trust this computer for delegation to any service (Kerberos only)</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>To configure constrained delegation when the Domain Functional Level is Windows Server 2003, Windows Server 2008, or Windows Server 2008 R2</source>
+          <target>To configure constrained delegation when the Domain Functional Level is Windows Server 2003, Windows Server 2008, or Windows Server 2008 R2</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>On the domain controller for your Web server’s domain, complete the following steps.</source>
+          <target>On the domain controller for your Web server’s domain, complete the following steps.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Administrative Tools</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Active Directory Users and Computers</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Administrative Tools</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Active Directory Users and Computers</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Expand domain, and then expand the Computers folder.</source>
+          <target>Expand domain, and then expand the Computers folder.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the right pane, right-click the computer name for the Web server, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc>, and then click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Delegation</pc> tab.</source>
+          <target>In the right pane, right-click the computer name for the Web server, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc>, and then click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Delegation</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click to select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trust this computer for delegation to specified services only</pc>.</source>
+          <target>Click to select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trust this computer for delegation to specified services only</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Ensure that <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use Kerberos only</pc> is selected, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</source>
+          <target>Ensure that <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use Kerberos only</pc> is selected, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc> button.</source>
+          <target>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc> button.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Services</pc> dialog box, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Users or Computers</pc>, and then browse to or type the name of the Microsoft SQL server that has the App-V data store and is to receive the users credentials from IIS.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Services</pc> dialog box, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Users or Computers</pc>, and then browse to or type the name of the Microsoft SQL server that has the App-V data store and is to receive the users credentials from IIS.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available Services</pc> list, select the MSSQLSvc service that lists port number on which the Microsoft SQL Server is accepting connections for the App-V database (the default port is 1433).</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available Services</pc> list, select the MSSQLSvc service that lists port number on which the Microsoft SQL Server is accepting connections for the App-V database (the default port is 1433).</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Additional steps to configure IIS 7 for constrained delegation</source>
+          <target>Additional steps to configure IIS 7 for constrained delegation</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you are running the Management Web Service on an IIS 7 server, you must complete the following steps to set the IIS 7 <pc dataRefEnd="id2" dataRefStart="id1" id="p1">useAppPoolCredentials</pc> variable to True.</source>
+          <target>If you are running the Management Web Service on an IIS 7 server, you must complete the following steps to set the IIS 7 <pc dataRefEnd="id2" dataRefStart="id1" id="p1">useAppPoolCredentials</pc> variable to True.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Open an elevated Command Prompt window.</source>
+          <target>Open an elevated Command Prompt window.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To open an elevated Command Prompt window, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">All Programs</pc>, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Accessories</pc>, right-click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Command Prompt</pc>, and then click <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Run as administrator</pc>.</source>
+          <target>To open an elevated Command Prompt window, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">All Programs</pc>, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Accessories</pc>, right-click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Command Prompt</pc>, and then click <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Navigate to %windir%<ph dataRef="id1" id="ph1" />system32<ph dataRef="id2" id="ph2" />inetsrv.</source>
+          <target>Navigate to %windir%<ph dataRef="id1" id="ph1" />system32<ph dataRef="id2" id="ph2" />inetsrv.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">appcmd.exe set config -section:system.webServer/security/authentication/windowsAuthentication -useAppPoolCredentials:true</pc>, and then press ENTER.</source>
+          <target>Type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">appcmd.exe set config -section:system.webServer/security/authentication/windowsAuthentication -useAppPoolCredentials:true</pc>, and then press ENTER.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

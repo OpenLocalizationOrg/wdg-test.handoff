@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\mbam-v25\how-to-deploy-the-mbam-client-by-using-a-command-line.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">601c2a4d5957226b0bb55e901ed3113a8e56eebb</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>How to Deploy the MBAM Client by Using a Command Line</source>
+          <target>How to Deploy the MBAM Client by Using a Command Line</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>How to Deploy the MBAM Client by Using a Command Line</source>
+          <target>How to Deploy the MBAM Client by Using a Command Line</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>How to Deploy the MBAM Client by Using a Command Line</source>
+          <target>How to Deploy the MBAM Client by Using a Command Line</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>You can use a command line to deploy the Microsoft BitLocker Administration and Monitoring (MBAM) Client software.</source>
+          <target>You can use a command line to deploy the Microsoft BitLocker Administration and Monitoring (MBAM) Client software.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Command Line to deploy the MBAM Client software</source>
+          <target>Command Line to deploy the MBAM Client software</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Type the following command at the command prompt to automatically accept the end user license agreement when deploying the MBAM Client software.</source>
+          <target>Type the following command at the command prompt to automatically accept the end user license agreement when deploying the MBAM Client software.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>MBAMClientSetup.exe /acceptEula=Yes</source>
+          <target>MBAMClientSetup.exe /acceptEula=Yes</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/ju</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/jm</pc> command-line options are not supported and cannot be used to install the MBAM Client software.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/ju</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/jm</pc> command-line options are not supported and cannot be used to install the MBAM Client software.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Type the following command at the command prompt to extract and install the MSP:</source>
+          <target>Type the following command at the command prompt to extract and install the MSP:</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>MBAMClientSetup.exe /extract <ph dataRef="id1" id="ph1" />path to extract MSI<ph dataRef="id2" id="ph2" /> /acceptEula=Yes</source>
+          <target>MBAMClientSetup.exe /extract <ph dataRef="id1" id="ph1" />path to extract MSI<ph dataRef="id2" id="ph2" /> /acceptEula=Yes</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Then, install the MSI silently by running the following command:</source>
+          <target>Then, install the MSI silently by running the following command:</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>msiexec /i <ph dataRef="id1" id="ph1" />path to extracted MSI<ph dataRef="id2" id="ph2" /> /qb ALLUSERS=1 REBOOT=ReallySuppress</source>
+          <target>msiexec /i <ph dataRef="id1" id="ph1" />path to extracted MSI<ph dataRef="id2" id="ph2" /> /qb ALLUSERS=1 REBOOT=ReallySuppress</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Beginning in MBAM 2.5 SP1, a separate MSI is no longer included with the MBAM product.</source>
+          <target>Beginning in MBAM 2.5 SP1, a separate MSI is no longer included with the MBAM product.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>However, you can extract the MSI from the executable file (.exe) that is included with the product, after accepting the EULA.</source>
+          <target>However, you can extract the MSI from the executable file (.exe) that is included with the product, after accepting the EULA.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>OPTIN<ph dataRef="id1" id="ph1" />FOR<ph dataRef="id2" id="ph2" />MICROSOFT<ph dataRef="id3" id="ph3" />UPDATES=1 command-line option</source>
+          <target>OPTIN<ph dataRef="id1" id="ph1" />FOR<ph dataRef="id2" id="ph2" />MICROSOFT<ph dataRef="id3" id="ph3" />UPDATES=1 command-line option</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">`OPTIN_FOR_MICROSOFT_UPDATES=1`</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can optionally specify the command-line option <ph dataRef="id1" id="ph1" /> during the Client software installation to automatically install Microsoft Updates on client computers.</source>
+          <target>You can optionally specify the command-line option <ph dataRef="id1" id="ph1" /> during the Client software installation to automatically install Microsoft Updates on client computers.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Specifying this option makes Microsoft Update automatically start and search for available updates to install after the Client software installation finishes.</source>
+          <target>Specifying this option makes Microsoft Update automatically start and search for available updates to install after the Client software installation finishes.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>You can use this command-line option with either of the following installation methods.</source>
+          <target>You can use this command-line option with either of the following installation methods.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Install the MBAM Client software by using</source>
+          <target>Install the MBAM Client software by using</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>MBAMClientSetup.exe</source>
+          <target>MBAMClientSetup.exe</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>MbamClientSetup.exe OPTIN_FOR_MICROSOFT_UPDATES=1</source>
+          <target>MbamClientSetup.exe OPTIN_FOR_MICROSOFT_UPDATES=1</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>msiexec /i MBAMClient.msi</source>
+          <target>msiexec /i MBAMClient.msi</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>msiexec /i MBAMClient.msi OPTIN_FOR_MICROSOFT_UPDATES=1</source>
+          <target>msiexec /i MBAMClient.msi OPTIN_FOR_MICROSOFT_UPDATES=1</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Got a suggestion for MBAM</pc>?</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Got a suggestion for MBAM</pc>?</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://mbam.uservoice.com/forums/268571-microsoft-bitlocker-administration-and-monitoring)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add or vote on suggestions <pc dataRefEnd="id2" dataRefStart="id1" id="p1">here</pc>.</source>
+          <target>Add or vote on suggestions <pc dataRefEnd="id2" dataRefStart="id1" id="p1">here</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Got a MBAM issue</pc>?</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Got a MBAM issue</pc>?</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM TechNet Forum</pc>.</source>
+          <target>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM TechNet Forum</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Deploying the MBAM 2.5 Client</source>
+          <target>Deploying the MBAM 2.5 Client</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

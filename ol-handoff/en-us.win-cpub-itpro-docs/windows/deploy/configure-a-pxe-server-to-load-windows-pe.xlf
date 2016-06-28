@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\deploy\configure-a-pxe-server-to-load-windows-pe.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">1237432bb8bb5441da3fff335d91b796282b62bb</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Configure a PXE server to load Windows PE (Windows 10)</source>
+          <target>Configure a PXE server to load Windows PE (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic describes how to configure a PXE server to load Windows PE so that it can be used with an image file to install Windows 10 from the network.</source>
+          <target>This topic describes how to configure a PXE server to load Windows PE so that it can be used with an image file to install Windows 10 from the network.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Configure a PXE server to load Windows PE</source>
+          <target>Configure a PXE server to load Windows PE</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Summary</source>
+          <target>Summary</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>This walkthrough describes how to configure a PXE server to load Windows PE by booting a client computer from the network.</source>
+          <target>This walkthrough describes how to configure a PXE server to load Windows PE by booting a client computer from the network.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Using the Windows PE tools and a Windows 10 image file, you can install Windows 10 from the network.</source>
+          <target>Using the Windows PE tools and a Windows 10 image file, you can install Windows 10 from the network.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Prerequisites</source>
+          <target>Prerequisites</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=526803)</data>
+        </originalData>
+        <segment state="initial">
+          <source>A deployment computer: A computer with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Assessment and Deployment Kit</pc> (Windows ADK) installed.</source>
+          <target>A deployment computer: A computer with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Assessment and Deployment Kit</pc> (Windows ADK) installed.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>A DHCP server: A DHCP server or DHCP proxy configured to respond to PXE client requests is required.</source>
+          <target>A DHCP server: A DHCP server or DHCP proxy configured to respond to PXE client requests is required.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>A PXE server: A server running the TFTP service that can host Windows PE boot files that the client will download.</source>
+          <target>A PXE server: A server running the TFTP service that can host Windows PE boot files that the client will download.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>A file server: A server hosting a network file share.</source>
+          <target>A file server: A server hosting a network file share.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>All four of the roles specified above can be hosted on the same computer or each can be on a separate computer.</source>
+          <target>All four of the roles specified above can be hosted on the same computer or each can be on a separate computer.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Step 1: Copy Windows PE source files</source>
+          <target>Step 1: Copy Windows PE source files</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the deployment computer, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>On the deployment computer, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>The Deployment and Imaging Tools Environment shortcut opens a Command Prompt window and automatically sets environment variables to point to all the necessary tools.</source>
+          <target>The Deployment and Imaging Tools Environment shortcut opens a Command Prompt window and automatically sets environment variables to point to all the necessary tools.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Run the following command to copy the base Windows PE files into a new folder.</source>
+          <target>Run the following command to copy the base Windows PE files into a new folder.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>The script requires two arguments: hardware architecture and destination location.</source>
+          <target>The script requires two arguments: hardware architecture and destination location.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">**</data>
+          <data id="id12">**</data>
+          <data id="id13">&amp;lt;</data>
+          <data id="id14">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The value of <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />architecture<ph dataRef="id4" id="ph2" /></pc> can be <pc dataRefEnd="id6" dataRefStart="id5" id="p2">x86</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p3">amd64</pc>, or <pc dataRefEnd="id10" dataRefStart="id9" id="p4">arm</pc> and <pc dataRefEnd="id12" dataRefStart="id11" id="p5"><ph dataRef="id13" id="ph3" />destination<ph dataRef="id14" id="ph4" /></pc> is a path to a local directory.</source>
+          <target>The value of <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />architecture<ph dataRef="id4" id="ph2" /></pc> can be <pc dataRefEnd="id6" dataRefStart="id5" id="p2">x86</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p3">amd64</pc>, or <pc dataRefEnd="id10" dataRefStart="id9" id="p4">arm</pc> and <pc dataRefEnd="id12" dataRefStart="id11" id="p5"><ph dataRef="id13" id="ph3" />destination<ph dataRef="id14" id="ph4" /></pc> is a path to a local directory.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>If the directory does not already exist, it will be created.</source>
+          <target>If the directory does not already exist, it will be created.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, the following command copies <pc dataRefEnd="id2" dataRefStart="id1" id="p1">amd64</pc> architecture files to the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">C:\winpe_amd64</pc> directory:</source>
+          <target>For example, the following command copies <pc dataRefEnd="id2" dataRefStart="id1" id="p1">amd64</pc> architecture files to the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">C:\winpe_amd64</pc> directory:</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>The script creates the destination directory structure and copies all the necessary files for that architecture.</source>
+          <target>The script creates the destination directory structure and copies all the necessary files for that architecture.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>In the previous example, the following directories are created:</source>
+          <target>In the previous example, the following directories are created:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Mount the base Windows PE image (winpe.wim) to the \mount directory using the DISM tool.</source>
+          <target>Mount the base Windows PE image (winpe.wim) to the \mount directory using the DISM tool.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Mounting an image file unpacks the file contents into a folder so that you can make changes directly or by using tools such as DISM.</source>
+          <target>Mounting an image file unpacks the file contents into a folder so that you can make changes directly or by using tools such as DISM.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>See the following example.</source>
+          <target>See the following example.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Map a network share to the root TFTP directory on the PXE/TFTP server and create a \Boot folder.</source>
+          <target>Map a network share to the root TFTP directory on the PXE/TFTP server and create a \Boot folder.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Consult your TFTP server documentation to determine the root TFTP server directory, then enable sharing for this directory, and verify it can be accessed on the network.</source>
+          <target>Consult your TFTP server documentation to determine the root TFTP server directory, then enable sharing for this directory, and verify it can be accessed on the network.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the following example, the PXE server name is PXE-1 and the TFTP root directory is shared using a network path of <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />\PXE-1\TFTPRoot</pc>:</source>
+          <target>In the following example, the PXE server name is PXE-1 and the TFTP root directory is shared using a network path of <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />\PXE-1\TFTPRoot</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Copy the PXE boot files from the mounted directory to the \Boot folder.</source>
+          <target>Copy the PXE boot files from the mounted directory to the \Boot folder.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Copy the boot.sdi file to the PXE/TFTP server.</source>
+          <target>Copy the boot.sdi file to the PXE/TFTP server.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Copy the bootable Windows PE image (boot.wim) to the \Boot folder.</source>
+          <target>Copy the bootable Windows PE image (boot.wim) to the \Boot folder.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Step 2: Configure boot settings and copy the BCD file</source>
+          <target>Step 2: Configure boot settings and copy the BCD file</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Create a BCD store using bcdedit.exe:</source>
+          <target>Create a BCD store using bcdedit.exe:</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Configure RAMDISK settings:</source>
+          <target>Configure RAMDISK settings:</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Create a new boot application entry for the Windows PE image:</source>
+          <target>Create a new boot application entry for the Windows PE image:</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Configure BOOTMGR settings:</source>
+          <target>Configure BOOTMGR settings:</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Copy the BCD file to your TFTP server:</source>
+          <target>Copy the BCD file to your TFTP server:</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Your PXE/TFTP server is now configured.</source>
+          <target>Your PXE/TFTP server is now configured.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can view the BCD settings that have been configured using the command bcdedit /store <ph dataRef="id1" id="ph1" />BCD file location<ph dataRef="id2" id="ph2" /> /enum all.</source>
+          <target>You can view the BCD settings that have been configured using the command bcdedit /store <ph dataRef="id1" id="ph1" />BCD file location<ph dataRef="id2" id="ph2" /> /enum all.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>See the following example.</source>
+          <target>See the following example.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Note: Your GUID will be different than the one shown below.</source>
+          <target>Note: Your GUID will be different than the one shown below.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>PXE boot process summary</source>
+          <target>PXE boot process summary</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>The following summarizes the PXE client boot process.</source>
+          <target>The following summarizes the PXE client boot process.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>A client is directed by DHCP options 066 and 067 to download boot<ph dataRef="id1" id="ph1" />wdsnbp.com from the TFTP server.</source>
+          <target>A client is directed by DHCP options 066 and 067 to download boot<ph dataRef="id1" id="ph1" />wdsnbp.com from the TFTP server.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Wdsnbp.com validates the DHCP/PXE response packet and then the client downloads boot<ph dataRef="id1" id="ph1" />pxeboot.com.</source>
+          <target>Wdsnbp.com validates the DHCP/PXE response packet and then the client downloads boot<ph dataRef="id1" id="ph1" />pxeboot.com.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Pxeboot.com requires the client to press the F12 key to initiate a PXE boot.</source>
+          <target>Pxeboot.com requires the client to press the F12 key to initiate a PXE boot.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The client downloads boot<ph dataRef="id1" id="ph1" />bootmgr.exe and the boot<ph dataRef="id2" id="ph2" />BCD file from the TFTP server.</source>
+          <target>The client downloads boot<ph dataRef="id1" id="ph1" />bootmgr.exe and the boot<ph dataRef="id2" id="ph2" />BCD file from the TFTP server.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Note: The BCD store must reside in the <ph dataRef="id1" id="ph1" />boot directory on the TFTP server and must be named BCD.</source>
+          <target>Note: The BCD store must reside in the <ph dataRef="id1" id="ph1" />boot directory on the TFTP server and must be named BCD.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Bootmgr.exe reads the BCD operating system entries and downloads boot<ph dataRef="id1" id="ph1" />boot.sdi and the Windows PE image (boot<ph dataRef="id2" id="ph2" />boot.wim).</source>
+          <target>Bootmgr.exe reads the BCD operating system entries and downloads boot<ph dataRef="id1" id="ph1" />boot.sdi and the Windows PE image (boot<ph dataRef="id2" id="ph2" />boot.wim).</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\_</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Optional files that can also be downloaded include true type fonts (boot<ph dataRef="id1" id="ph1" />Fonts<ph dataRef="id2" id="ph2" />wgl4<ph dataRef="id3" id="ph3" />boot.ttf) and the hibernation state file (<ph dataRef="id4" id="ph4" />hiberfil.sys) if these files are present.</source>
+          <target>Optional files that can also be downloaded include true type fonts (boot<ph dataRef="id1" id="ph1" />Fonts<ph dataRef="id2" id="ph2" />wgl4<ph dataRef="id3" id="ph3" />boot.ttf) and the hibernation state file (<ph dataRef="id4" id="ph4" />hiberfil.sys) if these files are present.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Bootmgr.exe starts Windows PE by calling winload.exe within the Windows PE image.</source>
+          <target>Bootmgr.exe starts Windows PE by calling winload.exe within the Windows PE image.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Windows PE loads, a command prompt opens and wpeinit.exe is run to initialize Windows PE.</source>
+          <target>Windows PE loads, a command prompt opens and wpeinit.exe is run to initialize Windows PE.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>The Windows PE client provides access to tools like imagex, diskpart, and bcdboot using the Windows PE command prompt.</source>
+          <target>The Windows PE client provides access to tools like imagex, diskpart, and bcdboot using the Windows PE command prompt.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Using these tools together with a Windows 10 image file, the destination computer can be formatted properly to load a full Windows 10 operating system.</source>
+          <target>Using these tools together with a Windows 10 image file, the destination computer can be formatted properly to load a full Windows 10 operating system.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Concepts</source>
+          <target>Concepts</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Windows PE Walkthroughs</source>
+          <target>Windows PE Walkthroughs</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

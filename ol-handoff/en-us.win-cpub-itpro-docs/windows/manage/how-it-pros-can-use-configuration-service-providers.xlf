@@ -1,0 +1,1316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\manage\how-it-pros-can-use-configuration-service-providers.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">ab9d888fdaedc6d54214615d5a0d4f316afae66d</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Introduction to configuration service providers (CSPs) for IT pros (Windows 10)</source>
+          <target>Introduction to configuration service providers (CSPs) for IT pros (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Configuration service providers (CSPs) expose device configuration settings in Windows 10.</source>
+          <target>Configuration service providers (CSPs) expose device configuration settings in Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Introduction to configuration service providers (CSPs) for IT pros</source>
+          <target>Introduction to configuration service providers (CSPs) for IT pros</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows 10 Mobile</source>
+          <target>Windows 10 Mobile</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Configuration service providers (CSPs) expose device configuration settings in Windows 10.</source>
+          <target>Configuration service providers (CSPs) expose device configuration settings in Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>This topic is written for people who have no experience with CSPs.</source>
+          <target>This topic is written for people who have no experience with CSPs.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=717390)</data>
+        </originalData>
+        <segment state="initial">
+          <source>The CSPs are documented on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Hardware Dev Center</pc> because CSPs are used by mobile device management (MDM) service providers.</source>
+          <target>The CSPs are documented on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Hardware Dev Center</pc> because CSPs are used by mobile device management (MDM) service providers.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>This topic explains how IT pros and system administrators can take advantage of many settings available through CSPs to configure devices running Windows 10 and Windows 10 Mobile in their organizations.</source>
+          <target>This topic explains how IT pros and system administrators can take advantage of many settings available through CSPs to configure devices running Windows 10 and Windows 10 Mobile in their organizations.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>The explanation of CSPs and CSP documentation also apply to Windows Mobile 5, Windows Mobile 6, Windows Phone 7, and Windows Phone 8, but links to current CSPs are for Windows 10 and Windows 10 Mobile.</source>
+          <target>The explanation of CSPs and CSP documentation also apply to Windows Mobile 5, Windows Mobile 6, Windows Phone 7, and Windows Phone 8, but links to current CSPs are for Windows 10 and Windows 10 Mobile.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>What is a CSP?</source>
+          <target>What is a CSP?</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>A CSP is an interface in the client operating system between configuration settings specified in a provisioning document and configuration settings on the device.</source>
+          <target>A CSP is an interface in the client operating system between configuration settings specified in a provisioning document and configuration settings on the device.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Their function is similar to that of Group Policy client-side extensions in that they provide an interface to read, set, modify, or delete configuration settings for a given feature.</source>
+          <target>Their function is similar to that of Group Policy client-side extensions in that they provide an interface to read, set, modify, or delete configuration settings for a given feature.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Typically, these settings map to registry keys, files or permissions.</source>
+          <target>Typically, these settings map to registry keys, files or permissions.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Some of these settings are configurable and some are read-only.</source>
+          <target>Some of these settings are configurable and some are read-only.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Starting in Windows Mobile 5.0, CSPs were used to manage Windows mobile devices.</source>
+          <target>Starting in Windows Mobile 5.0, CSPs were used to manage Windows mobile devices.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>In the Windows 10 platform, the management approach for both desktop and mobile devices converges, taking advantage of the same CSPs to configure and manage all devices running Windows 10.</source>
+          <target>In the Windows 10 platform, the management approach for both desktop and mobile devices converges, taking advantage of the same CSPs to configure and manage all devices running Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Each CSP provides access to specific settings.</source>
+          <target>Each CSP provides access to specific settings.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=717438)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Wi-Fi CSP</pc> contains the settings to create a Wi-Fi profile.</source>
+          <target>For example, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Wi-Fi CSP</pc> contains the settings to create a Wi-Fi profile.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>CSPs are behind many of the management tasks and policies for Windows 10 in Microsoft Intune and non-Microsoft MDM service providers.</source>
+          <target>CSPs are behind many of the management tasks and policies for Windows 10 in Microsoft Intune and non-Microsoft MDM service providers.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](http://go.microsoft.com/fwlink/p/?LinkID=623244)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, in Intune, the policy to allow search suggestions in the Microsoft Edge address bar uses <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browser/AllowSearchSuggestionsinAddressBar</pc> in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy CSP</pc>.</source>
+          <target>For example, in Intune, the policy to allow search suggestions in the Microsoft Edge address bar uses <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browser/AllowSearchSuggestionsinAddressBar</pc> in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy CSP</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>how intune maps to csp</source>
+          <target>how intune maps to csp</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>CSPs receive configuration policies in the XML-based SyncML format pushed to it from an MDM-compliant management server such as Microsoft Intune.</source>
+          <target>CSPs receive configuration policies in the XML-based SyncML format pushed to it from an MDM-compliant management server such as Microsoft Intune.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Traditional enterprise management systems, such as System Center Configuration Manager, can also target CSPs by using a client-side WMI-to-CSP bridge.</source>
+          <target>Traditional enterprise management systems, such as System Center Configuration Manager, can also target CSPs by using a client-side WMI-to-CSP bridge.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Synchronization Markup Language (SyncML)</source>
+          <target>Synchronization Markup Language (SyncML)</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>The Open Mobile Alliance Device Management (OMA-DM) protocol uses the XML-based Synchronization Markup Language (SyncML) for data exchange between compliant servers and clients.</source>
+          <target>The Open Mobile Alliance Device Management (OMA-DM) protocol uses the XML-based Synchronization Markup Language (SyncML) for data exchange between compliant servers and clients.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>SyncML offers an open standard to use as an alternative to vendor-specific management solutions (such as WMI).</source>
+          <target>SyncML offers an open standard to use as an alternative to vendor-specific management solutions (such as WMI).</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>The value for enterprises adopting industry standard management protocols is that it allows the management of a broader set of vendor devices using a single platform (such as Microsoft Intune).</source>
+          <target>The value for enterprises adopting industry standard management protocols is that it allows the management of a broader set of vendor devices using a single platform (such as Microsoft Intune).</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Device policies, including VPN connection profiles, are delivered to client devices formatted as in SyncML.</source>
+          <target>Device policies, including VPN connection profiles, are delivered to client devices formatted as in SyncML.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>The target CSP reads this information and applies the necessary configurations.</source>
+          <target>The target CSP reads this information and applies the necessary configurations.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>The WMI-to-CSP Bridge</source>
+          <target>The WMI-to-CSP Bridge</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>The WMI-to-CSP Bridge is a component allowing configuration of Windows 10 CSPs via scripts and traditional enterprise management software such as Configuration Manager using Windows Management Instrumentation (WMI).</source>
+          <target>The WMI-to-CSP Bridge is a component allowing configuration of Windows 10 CSPs via scripts and traditional enterprise management software such as Configuration Manager using Windows Management Instrumentation (WMI).</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>The bridge is responsible for reading WMI commands and through a component called the common device configurator pass them to a CSP for application on the device.</source>
+          <target>The bridge is responsible for reading WMI commands and through a component called the common device configurator pass them to a CSP for application on the device.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Learn how to use the WMI Bridge Provider with PowerShell.</source>
+          <target>Learn how to use the WMI Bridge Provider with PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Why should you learn about CSPs?</source>
+          <target>Why should you learn about CSPs?</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Generally, enterprises rely on Group Policy or MDM to configure and manage devices.</source>
+          <target>Generally, enterprises rely on Group Policy or MDM to configure and manage devices.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>For devices running Windows, MDM services use CSPs to configure your devices.</source>
+          <target>For devices running Windows, MDM services use CSPs to configure your devices.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>In addition, you may have unmanaged devices, or a large number of devices that you want to configure before enrolling them in management, or you want to apply custom settings that aren't available through your MDM service.</source>
+          <target>In addition, you may have unmanaged devices, or a large number of devices that you want to configure before enrolling them in management, or you want to apply custom settings that aren't available through your MDM service.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-csp-doc)</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CSP documentation</pc> can help you understand the settings that can be configured or queried.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CSP documentation</pc> can help you understand the settings that can be configured or queried.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../index.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](manage-cortana-in-enterprise.md)</data>
+          <data id="id5">[</data>
+          <data id="id6">](http://go.microsoft.com/fwlink/p/?LinkID=623244)</data>
+        </originalData>
+        <segment state="initial">
+          <source>In addition, some of the topics in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 10 and Windows 10 Mobile</pc> library on Technet include links to applicable CSP reference topics, such as <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Cortana integration in your business or enterprise</pc> which links to the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Policy CSP</pc>.</source>
+          <target>In addition, some of the topics in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 10 and Windows 10 Mobile</pc> library on Technet include links to applicable CSP reference topics, such as <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Cortana integration in your business or enterprise</pc> which links to the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Policy CSP</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>In the CSP topics, you can learn about all of the available configuration settings.</source>
+          <target>In the CSP topics, you can learn about all of the available configuration settings.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>CSPs in Windows Imaging and Configuration Designer (ICD)</source>
+          <target>CSPs in Windows Imaging and Configuration Designer (ICD)</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=717466)</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use Windows Imaging and Configuration Designer (ICD) to create <pc dataRefEnd="id2" dataRefStart="id1" id="p1">provisioning packages</pc> to apply settings to devices during the out-of-box-experience (OOBE) and after devices are set up.</source>
+          <target>You can use Windows Imaging and Configuration Designer (ICD) to create <pc dataRefEnd="id2" dataRefStart="id1" id="p1">provisioning packages</pc> to apply settings to devices during the out-of-box-experience (OOBE) and after devices are set up.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>You can use provisioning packages to configure a device's connectivity and enroll the device in MDM.</source>
+          <target>You can use provisioning packages to configure a device's connectivity and enroll the device in MDM.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Many of the runtime settings in Windows ICD are based on CSPs.</source>
+          <target>Many of the runtime settings in Windows ICD are based on CSPs.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Many settings in Windows ICD will display documentation for that setting in the center pane, and will include a reference to the CSP if the setting uses one, as shown in the following image.</source>
+          <target>Many settings in Windows ICD will display documentation for that setting in the center pane, and will include a reference to the CSP if the setting uses one, as shown in the following image.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>how help content appears in icd</source>
+          <target>how help content appears in icd</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](configure-devices-without-mdm.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure devices without MDM</pc> explains how to use the Windows ICD tool included in the Windows Assessment and Deployment Kit (ADK) for Windows 10 to create a runtime provisioning package.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure devices without MDM</pc> explains how to use the Windows ICD tool included in the Windows Assessment and Deployment Kit (ADK) for Windows 10 to create a runtime provisioning package.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>CSPs in MDM</source>
+          <target>CSPs in MDM</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Most, if not all, CSPs are surfaced through your MDM service.</source>
+          <target>Most, if not all, CSPs are surfaced through your MDM service.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>If you see a CSP that provides a capability that you want to make use of and cannot find that capability in your MDM service, contact your MDM provider for assistance.</source>
+          <target>If you see a CSP that provides a capability that you want to make use of and cannot find that capability in your MDM service, contact your MDM provider for assistance.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>It might simply be named differently than you expected.</source>
+          <target>It might simply be named differently than you expected.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=717390)</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can see the CSPs supported by MDM in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration service provider reference</pc>.</source>
+          <target>You can see the CSPs supported by MDM in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration service provider reference</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>When a CSP is available but is not explicitly included in your MDM solution, you may be able to make use of the CSP by using OMA-URI settings.</source>
+          <target>When a CSP is available but is not explicitly included in your MDM solution, you may be able to make use of the CSP by using OMA-URI settings.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkID=616316)</data>
+        </originalData>
+        <segment state="initial">
+          <source>In Intune, for example, you can use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">custom policy settings</pc> to deploy settings.</source>
+          <target>In Intune, for example, you can use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">custom policy settings</pc> to deploy settings.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkID=616317)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Intune documents <pc dataRefEnd="id2" dataRefStart="id1" id="p1">a partial list of settings</pc> that you can enter in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OMA-URI Settings</pc> section of a custom policy, if your MDM service provides that extension.</source>
+          <target>Intune documents <pc dataRefEnd="id2" dataRefStart="id1" id="p1">a partial list of settings</pc> that you can enter in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OMA-URI Settings</pc> section of a custom policy, if your MDM service provides that extension.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=717390)</data>
+        </originalData>
+        <segment state="initial">
+          <source>You'll notice that the list doesn't explain the meanings of the allowed and default values, so use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CSP reference documentation</pc> to locate that information.</source>
+          <target>You'll notice that the list doesn't explain the meanings of the allowed and default values, so use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CSP reference documentation</pc> to locate that information.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>CSPs in Lockdown XML</source>
+          <target>CSPs in Lockdown XML</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Lockdown XML can be used to configure devices running Windows 10 Mobile.</source>
+          <target>Lockdown XML can be used to configure devices running Windows 10 Mobile.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](lockdown-xml.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](http://go.microsoft.com/fwlink/p/?LinkID=618601)</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can manually author a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lockdown XML file</pc> to make use of the configuration settings available through the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">EnterpriseAssignedAccess configuration service provider (CSP)</pc>.</source>
+          <target>You can manually author a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lockdown XML file</pc> to make use of the configuration settings available through the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">EnterpriseAssignedAccess configuration service provider (CSP)</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>How do you use the CSP documentation?</source>
+          <target>How do you use the CSP documentation?</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=717390)</data>
+        </originalData>
+        <segment state="initial">
+          <source>All CSPs in Windows 10 are documented in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration service provider reference</pc>.</source>
+          <target>All CSPs in Windows 10 are documented in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration service provider reference</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=717390)</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">main CSP topic</pc> tells you which CSPs are supported on each edition of Windows 10, and links to the documentation for each individual CSP.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">main CSP topic</pc> tells you which CSPs are supported on each edition of Windows 10, and links to the documentation for each individual CSP.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>csp per windows edition</source>
+          <target>csp per windows edition</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>The documentation for each CSP follows the same structure.</source>
+          <target>The documentation for each CSP follows the same structure.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>After an introduction that explains the purpose of the CSP, a diagram shows the parts of the CSP in tree format.</source>
+          <target>After an introduction that explains the purpose of the CSP, a diagram shows the parts of the CSP in tree format.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>The full path to a specific configuration setting is represented by its Open Mobile Alliance - Uniform Resource Identifier (OMA-URI).</source>
+          <target>The full path to a specific configuration setting is represented by its Open Mobile Alliance - Uniform Resource Identifier (OMA-URI).</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>The URI is relative to the devices’ root node (MSFT, for example).</source>
+          <target>The URI is relative to the devices’ root node (MSFT, for example).</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Features supported by a particular CSP can be set by addressing the complete OMA-URI path.</source>
+          <target>Features supported by a particular CSP can be set by addressing the complete OMA-URI path.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkID=626608)</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following example shows the diagram for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AssignedAccess CSP</pc>.</source>
+          <target>The following example shows the diagram for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AssignedAccess CSP</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>The diagram maps to the XML for that CSP.</source>
+          <target>The diagram maps to the XML for that CSP.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Notice the different shapes in the diagram: rounded elements are nodes and rectangular elements are settings or policies for which a value must be supplied.</source>
+          <target>Notice the different shapes in the diagram: rounded elements are nodes and rectangular elements are settings or policies for which a value must be supplied.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>assigned access csp tree</source>
+          <target>assigned access csp tree</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>The element in the tree diagram after the root node tells you the name of the CSP.</source>
+          <target>The element in the tree diagram after the root node tells you the name of the CSP.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Knowing this structure, you would recognize in XML the parts of the URI path for that CSP and, if you saw it in XML, you would know which CSP reference to look up.</source>
+          <target>Knowing this structure, you would recognize in XML the parts of the URI path for that CSP and, if you saw it in XML, you would know which CSP reference to look up.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkID=626608)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, in the following OMS-URI path for the kiosk mode app settings, you can see it uses the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AssignedAccess CSP</pc>.</source>
+          <target>For example, in the following OMS-URI path for the kiosk mode app settings, you can see it uses the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AssignedAccess CSP</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>When an element in the diagram uses italic font, it indicates a placeholder for specific information, such as the tenant ID in the following example.</source>
+          <target>When an element in the diagram uses italic font, it indicates a placeholder for specific information, such as the tenant ID in the following example.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>placeholder in csp tree</source>
+          <target>placeholder in csp tree</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>After the diagram, the documentation describes each element.</source>
+          <target>After the diagram, the documentation describes each element.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>For each policy or setting, the valid values are listed.</source>
+          <target>For each policy or setting, the valid values are listed.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkID=626608)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AssignedAccess CSP</pc>, the setting is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">KioskModeApp</pc>.</source>
+          <target>For example, in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AssignedAccess CSP</pc>, the setting is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">KioskModeApp</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The documentation tells you that the value for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">KioskModeApp</pc> is a JSON string that contains the user account name and Application User Model ID (AUMID) of the Kiosk mode app.</source>
+          <target>The documentation tells you that the value for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">KioskModeApp</pc> is a JSON string that contains the user account name and Application User Model ID (AUMID) of the Kiosk mode app.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>The documentation for most CSPs will also include an XML example.</source>
+          <target>The documentation for most CSPs will also include an XML example.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>CSP examples</source>
+          <target>CSP examples</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>CSPs provide access to a number of settings useful to enterprises.</source>
+          <target>CSPs provide access to a number of settings useful to enterprises.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>This section introduces two CSPs that an enterprise might find particularly useful.</source>
+          <target>This section introduces two CSPs that an enterprise might find particularly useful.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>EnterpriseAssignedAccess CSP</source>
+          <target>EnterpriseAssignedAccess CSP</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>The EnterpriseAssignedAccess configuration service provider allows IT administrators to configure settings on a Windows 10 Mobile device.</source>
+          <target>The EnterpriseAssignedAccess configuration service provider allows IT administrators to configure settings on a Windows 10 Mobile device.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>An enterprise can make use of this CSP to create single-use or limited-use mobile devices, such as a handheld device that only runs a price-checking app.</source>
+          <target>An enterprise can make use of this CSP to create single-use or limited-use mobile devices, such as a handheld device that only runs a price-checking app.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>In addition to lockscreen wallpaper, theme, time zone, and language, the EnterpriseAssignedAccess CSP includes AssignedAccessXml which can be used to lock down the device through the following settings:</source>
+          <target>In addition to lockscreen wallpaper, theme, time zone, and language, the EnterpriseAssignedAccess CSP includes AssignedAccessXml which can be used to lock down the device through the following settings:</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Enabling or disabling the Action Center.</source>
+          <target>Enabling or disabling the Action Center.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Configuring the number of tile columns in the Start layout.</source>
+          <target>Configuring the number of tile columns in the Start layout.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Restricting the apps that will be available on the device.</source>
+          <target>Restricting the apps that will be available on the device.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Restricting the settings that the user can access.</source>
+          <target>Restricting the settings that the user can access.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Restricting the hardware buttons that will be operable.</source>
+          <target>Restricting the hardware buttons that will be operable.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>Restricting access to the context menu.</source>
+          <target>Restricting access to the context menu.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Enabling or disabling tile manipulation.</source>
+          <target>Enabling or disabling tile manipulation.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Creating role-specific configurations.</source>
+          <target>Creating role-specific configurations.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Policy CSP</source>
+          <target>Policy CSP</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>The Policy configuration service provider enables the enterprise to configure policies on Windows 10 and Windows 10 Mobile.</source>
+          <target>The Policy configuration service provider enables the enterprise to configure policies on Windows 10 and Windows 10 Mobile.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Some of these policy settings can also be applied using Group Policy, and the CSP documentation lists the equivalent Group Policy settings.</source>
+          <target>Some of these policy settings can also be applied using Group Policy, and the CSP documentation lists the equivalent Group Policy settings.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Some of the settings available in the Policy CSP include the following:</source>
+          <target>Some of the settings available in the Policy CSP include the following:</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Accounts</pc>, such as whether a non-Microsoft account can be added to the device</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Accounts</pc>, such as whether a non-Microsoft account can be added to the device</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application management</pc>, such as whether only Windows Store apps are allowed</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application management</pc>, such as whether only Windows Store apps are allowed</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Bluetooth</pc>, such as the services allowed to use it</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Bluetooth</pc>, such as the services allowed to use it</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browser</pc>, such as restricting InPrivate browsing</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browser</pc>, such as restricting InPrivate browsing</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Connectivity</pc>, such as whether the device can be connected to a computer by USB</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Connectivity</pc>, such as whether the device can be connected to a computer by USB</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Defender</pc> (for desktop only), such as day and time to scan</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Defender</pc> (for desktop only), such as day and time to scan</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device lock</pc>, such as the type of PIN or password required to unlock the device</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device lock</pc>, such as the type of PIN or password required to unlock the device</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Experience</pc>, such as allowing Cortana</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Experience</pc>, such as allowing Cortana</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security</pc>, such as whether provisioning packages are allowed</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security</pc>, such as whether provisioning packages are allowed</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc>, such as allowing the user to change VPN settings</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc>, such as allowing the user to change VPN settings</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, such as applying a standard Start layout</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, such as applying a standard Start layout</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">System</pc>, such as allowing the user to reset the device</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">System</pc>, such as allowing the user to reset the device</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Text input</pc>, such as allowing the device to send anonymized user text input data samples to Microsoft</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Text input</pc>, such as allowing the device to send anonymized user text input data samples to Microsoft</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update</pc>, such as specifying whether the device could use Microsoft Update, Windows Server Update Services (WSUS), or Windows Store</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update</pc>, such as specifying whether the device could use Microsoft Update, Windows Server Update Services (WSUS), or Windows Store</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WiFi</pc>, such as whether to enable Internet sharing</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WiFi</pc>, such as whether to enable Internet sharing</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Here is a list of CSPs supported on Windows 10 Enterprise, Windows 10 Mobile Enterprise, or both:</source>
+          <target>Here is a list of CSPs supported on Windows 10 Enterprise, Windows 10 Mobile Enterprise, or both:</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>ActiveSync CSP</source>
+          <target>ActiveSync CSP</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Application CSP</source>
+          <target>Application CSP</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>AppLocker CSP</source>
+          <target>AppLocker CSP</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>AssignedAccess CSP</source>
+          <target>AssignedAccess CSP</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Bootstrap CSP</source>
+          <target>Bootstrap CSP</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>BrowserFavorite CSP</source>
+          <target>BrowserFavorite CSP</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>CellularSettings CSP</source>
+          <target>CellularSettings CSP</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>CertificateStore CSP</source>
+          <target>CertificateStore CSP</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>ClientCertificateInstall CSP</source>
+          <target>ClientCertificateInstall CSP</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CM<ph dataRef="id1" id="ph1" />CellularEntries CSP</source>
+          <target>CM<ph dataRef="id1" id="ph1" />CellularEntries CSP</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CM<ph dataRef="id1" id="ph1" />ProxyEntries CSP</source>
+          <target>CM<ph dataRef="id1" id="ph1" />ProxyEntries CSP</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>CMPolicy CSP</source>
+          <target>CMPolicy CSP</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>Defender CSP</source>
+          <target>Defender CSP</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>DevDetail CSP</source>
+          <target>DevDetail CSP</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>DeviceInstanceService CSP</source>
+          <target>DeviceInstanceService CSP</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>DeviceLock CSP</source>
+          <target>DeviceLock CSP</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>DeviceStatus CSP</source>
+          <target>DeviceStatus CSP</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>DevInfo CSP</source>
+          <target>DevInfo CSP</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>DiagnosticLog CSP</source>
+          <target>DiagnosticLog CSP</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>DMAcc CSP</source>
+          <target>DMAcc CSP</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>DMClient CSP</source>
+          <target>DMClient CSP</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Email2 CSP</source>
+          <target>Email2 CSP</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>EnterpriseAPN CSP</source>
+          <target>EnterpriseAPN CSP</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>EnterpriseAppManagement CSP</source>
+          <target>EnterpriseAppManagement CSP</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>EnterpriseAssignedAccess CSP</source>
+          <target>EnterpriseAssignedAccess CSP</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>EnterpriseDesktopAppManagement CSP</source>
+          <target>EnterpriseDesktopAppManagement CSP</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>EnterpriseExt CSP</source>
+          <target>EnterpriseExt CSP</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>EnterpriseExtFileSystem CSP</source>
+          <target>EnterpriseExtFileSystem CSP</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>EnterpriseModernAppManagement CSP</source>
+          <target>EnterpriseModernAppManagement CSP</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>FileSystem CSP</source>
+          <target>FileSystem CSP</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>HealthAttestation CSP</source>
+          <target>HealthAttestation CSP</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>HotSpot CSP</source>
+          <target>HotSpot CSP</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>Maps CSP</source>
+          <target>Maps CSP</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>NAP CSP</source>
+          <target>NAP CSP</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>NAPDEF CSP</source>
+          <target>NAPDEF CSP</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>NodeCache CSP</source>
+          <target>NodeCache CSP</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>PassportForWork CSP</source>
+          <target>PassportForWork CSP</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Policy CSP</source>
+          <target>Policy CSP</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>PolicyManager CSP</source>
+          <target>PolicyManager CSP</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>Provisioning CSP</source>
+          <target>Provisioning CSP</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>Proxy CSP</source>
+          <target>Proxy CSP</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>PXLOGICAL CSP</source>
+          <target>PXLOGICAL CSP</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Registry CSP</source>
+          <target>Registry CSP</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>RemoteFind CSP</source>
+          <target>RemoteFind CSP</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>RemoteWipe CSP</source>
+          <target>RemoteWipe CSP</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>Reporting CSP</source>
+          <target>Reporting CSP</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>RootCATrustedCertificates CSP</source>
+          <target>RootCATrustedCertificates CSP</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>SecurityPolicy CSP</source>
+          <target>SecurityPolicy CSP</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>Storage CSP</source>
+          <target>Storage CSP</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>SUPL CSP</source>
+          <target>SUPL CSP</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>UnifiedWriteFilter CSP</source>
+          <target>UnifiedWriteFilter CSP</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>Update CSP</source>
+          <target>Update CSP</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>VPN CSP</source>
+          <target>VPN CSP</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>VPNv2 CSP</source>
+          <target>VPNv2 CSP</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>Wi-Fi CSP</source>
+          <target>Wi-Fi CSP</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>WindowsLicensing CSP</source>
+          <target>WindowsLicensing CSP</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>WindowsSecurityAuditing CSP</source>
+          <target>WindowsSecurityAuditing CSP</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>Lock down Windows 10</source>
+          <target>Lock down Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>Manage corporate devices</source>
+          <target>Manage corporate devices</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>New policies for Windows 10</source>
+          <target>New policies for Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>Windows 10 Mobile and MDM</source>
+          <target>Windows 10 Mobile and MDM</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>Changes to Group Policy settings for Start in Windows 10</source>
+          <target>Changes to Group Policy settings for Start in Windows 10</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

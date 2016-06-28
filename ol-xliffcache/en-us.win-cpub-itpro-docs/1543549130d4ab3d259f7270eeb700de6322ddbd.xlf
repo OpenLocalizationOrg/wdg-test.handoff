@@ -1,0 +1,1444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\tpm-fundamentals.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">1543549130d4ab3d259f7270eeb700de6322ddbd</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>TPM fundamentals (Windows 10)</source>
+          <target>TPM fundamentals (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic for the IT professional provides a description of the components of the Trusted Platform Module (TPM 1.2 and TPM 2.0) and explains how they are used to mitigate dictionary attacks.</source>
+          <target>This topic for the IT professional provides a description of the components of the Trusted Platform Module (TPM 1.2 and TPM 2.0) and explains how they are used to mitigate dictionary attacks.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>TPM fundamentals</source>
+          <target>TPM fundamentals</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic for the IT professional provides a description of the components of the Trusted Platform Module (TPM 1.2 and TPM 2.0) and explains how they are used to mitigate dictionary attacks.</source>
+          <target>This topic for the IT professional provides a description of the components of the Trusted Platform Module (TPM 1.2 and TPM 2.0) and explains how they are used to mitigate dictionary attacks.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>A Trusted Platform Module (TPM) is a microchip designed to provide basic security-related functions, primarily involving encryption keys.</source>
+          <target>A Trusted Platform Module (TPM) is a microchip designed to provide basic security-related functions, primarily involving encryption keys.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The TPM is usually installed on the motherboard of a computer, and it communicates with the remainder of the system by using a hardware bus.</source>
+          <target>The TPM is usually installed on the motherboard of a computer, and it communicates with the remainder of the system by using a hardware bus.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Computers that incorporate a TPM can create cryptographic keys and encrypt them so that they can only be decrypted by the TPM.</source>
+          <target>Computers that incorporate a TPM can create cryptographic keys and encrypt them so that they can only be decrypted by the TPM.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>This process, often called wrapping or binding a key, can help protect the key from disclosure.</source>
+          <target>This process, often called wrapping or binding a key, can help protect the key from disclosure.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Each TPM has a master wrapping key, called the storage root key, which is stored within the TPM itself.</source>
+          <target>Each TPM has a master wrapping key, called the storage root key, which is stored within the TPM itself.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>The private portion of a storage root key or endorsement key that is created in a TPM is never exposed to any other component, software, process, or user.</source>
+          <target>The private portion of a storage root key or endorsement key that is created in a TPM is never exposed to any other component, software, process, or user.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>You can specify whether encryption keys that are created by the TPM can be migrated or not.</source>
+          <target>You can specify whether encryption keys that are created by the TPM can be migrated or not.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>If you specify that they can be migrated, the public and private portions of the key can be exposed to other components, software, processes, or users.</source>
+          <target>If you specify that they can be migrated, the public and private portions of the key can be exposed to other components, software, processes, or users.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>If you specify that encryption keys cannot be migrated, the private portion of the key is never exposed outside the TPM.</source>
+          <target>If you specify that encryption keys cannot be migrated, the private portion of the key is never exposed outside the TPM.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Computers that incorporate a TPM can also create a key that has not only been wrapped, but is also tied to certain platform measurements.</source>
+          <target>Computers that incorporate a TPM can also create a key that has not only been wrapped, but is also tied to certain platform measurements.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>This type of key can be unwrapped only when those platform measurements have the same values that they had when the key was created.</source>
+          <target>This type of key can be unwrapped only when those platform measurements have the same values that they had when the key was created.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>This process is referred to as “sealing the key to the TPM.”</source>
+          <target>This process is referred to as “sealing the key to the TPM.”</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Decrypting the key is called unsealing.</source>
+          <target>Decrypting the key is called unsealing.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>The TPM can also seal and unseal data that is generated outside the TPM.</source>
+          <target>The TPM can also seal and unseal data that is generated outside the TPM.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>With this sealed key and software, such as BitLocker Drive Encryption, you can lock data until specific hardware or software conditions are met.</source>
+          <target>With this sealed key and software, such as BitLocker Drive Encryption, you can lock data until specific hardware or software conditions are met.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>With a TPM, private portions of key pairs are kept separate from the memory that is controlled by the operating system.</source>
+          <target>With a TPM, private portions of key pairs are kept separate from the memory that is controlled by the operating system.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Keys can be sealed to the TPM, and certain assurances about the state of a system (assurances that define the trustworthiness of a system) can be made before the keys are unsealed and released for use.</source>
+          <target>Keys can be sealed to the TPM, and certain assurances about the state of a system (assurances that define the trustworthiness of a system) can be made before the keys are unsealed and released for use.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Because the TPM uses its own internal firmware and logic circuits to process instructions, it does not rely on the operating system, and it is not exposed to vulnerabilities that might exist in the operating system or application software.</source>
+          <target>Because the TPM uses its own internal firmware and logic circuits to process instructions, it does not rely on the operating system, and it is not exposed to vulnerabilities that might exist in the operating system or application software.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](trusted-platform-module-overview.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For info about which versions of Windows support which versions of the TPM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trusted Platform Module technology overview</pc>.</source>
+          <target>For info about which versions of Windows support which versions of the TPM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trusted Platform Module technology overview</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>The features that are available in the versions are defined in specifications by the Trusted Computing Group (TCG).</source>
+          <target>The features that are available in the versions are defined in specifications by the Trusted Computing Group (TCG).</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://www.trustedcomputinggroup.org/developers/trusted_platform_module)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see the Trusted Platform Module page on the Trusted Computing Group website: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trusted Platform Module</pc>.</source>
+          <target>For more info, see the Trusted Platform Module page on the Trusted Computing Group website: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trusted Platform Module</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>The following sections provide an overview of the technologies that support the TPM:</source>
+          <target>The following sections provide an overview of the technologies that support the TPM:</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>TPM-based Virtual Smart Card</source>
+          <target>TPM-based Virtual Smart Card</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Measured Boot with support for attestation</source>
+          <target>Measured Boot with support for attestation</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Automated provisioning and management of the TPM</source>
+          <target>Automated provisioning and management of the TPM</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>TPM-based certificate storage</source>
+          <target>TPM-based certificate storage</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Physical presence interface</source>
+          <target>Physical presence interface</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>TPM Cmdlets</source>
+          <target>TPM Cmdlets</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>TPM Owner Authorization Value</source>
+          <target>TPM Owner Authorization Value</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>States of existence in a TPM</source>
+          <target>States of existence in a TPM</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Endorsement keys</source>
+          <target>Endorsement keys</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>TPM Key Attestation</source>
+          <target>TPM Key Attestation</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>How the TPM mitigates dictionary attacks</source>
+          <target>How the TPM mitigates dictionary attacks</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>How do I check the state of my TPM?</source>
+          <target>How do I check the state of my TPM?</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>What can I do if my TPM is in reduced functionality mode?</source>
+          <target>What can I do if my TPM is in reduced functionality mode?</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](trusted-platform-module-services-group-policy-settings.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following topic describes the TPM Services that can be controlled centrally by using Group Policy settings: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trusted Platform Module Services Group Policy Settings</pc></source>
+          <target>The following topic describes the TPM Services that can be controlled centrally by using Group Policy settings: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trusted Platform Module Services Group Policy Settings</pc></target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Automated provisioning and management of the TPM</source>
+          <target>Automated provisioning and management of the TPM</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>TPM provisioning can be streamlined to make it easier to deploy systems that are ready for BitLocker and other TPM-dependent features.</source>
+          <target>TPM provisioning can be streamlined to make it easier to deploy systems that are ready for BitLocker and other TPM-dependent features.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>These enhancements include simplifying the TPM state model to report <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ready</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Ready with reduced functionality</pc>, or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Not ready</pc>.</source>
+          <target>These enhancements include simplifying the TPM state model to report <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ready</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Ready with reduced functionality</pc>, or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Not ready</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can also automatically provision TPMs in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ready</pc> state, remote provisioning to remove the requirement for the physical presence of a technician for the initial deployment.</source>
+          <target>You can also automatically provision TPMs in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ready</pc> state, remote provisioning to remove the requirement for the physical presence of a technician for the initial deployment.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>In addition, the TPM stack is available in the Windows Preinstallation Environment (Windows PE).</source>
+          <target>In addition, the TPM stack is available in the Windows Preinstallation Environment (Windows PE).</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>A number of management settings have been added for easier management and configuration of the TPM through Group Policy.</source>
+          <target>A number of management settings have been added for easier management and configuration of the TPM through Group Policy.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>The primary new settings include Active Directory-based backup of TPM owner authentication, the level of owner authentication that should be stored locally on the TPM, and the software-based TPM lockout settings for standard users.</source>
+          <target>The primary new settings include Active Directory-based backup of TPM owner authentication, the level of owner authentication that should be stored locally on the TPM, and the software-based TPM lockout settings for standard users.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](ad-ds-schema-extensions-to-support-tpm-backup.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info about backing up owner authentication to Windows Server 2008 R2 AD DS domains, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AD DS schema extensions to support TPM backup</pc>.</source>
+          <target>For more info about backing up owner authentication to Windows Server 2008 R2 AD DS domains, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AD DS schema extensions to support TPM backup</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Measured Boot with support for attestation</source>
+          <target>Measured Boot with support for attestation</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>The Measured Boot feature provides antimalware software with a trusted (resistant to spoofing and tampering) log of all boot components.</source>
+          <target>The Measured Boot feature provides antimalware software with a trusted (resistant to spoofing and tampering) log of all boot components.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Antimalware software can use the log to determine whether components that ran before it are trustworthy versus infected with malware.</source>
+          <target>Antimalware software can use the log to determine whether components that ran before it are trustworthy versus infected with malware.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>It can also send the Measured Boot logs to a remote server for evaluation.</source>
+          <target>It can also send the Measured Boot logs to a remote server for evaluation.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>The remote server can initiate remediation actions by interacting with software on the client or through out-of-band mechanisms, as appropriate.</source>
+          <target>The remote server can initiate remediation actions by interacting with software on the client or through out-of-band mechanisms, as appropriate.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>TPM-based Virtual Smart Card</source>
+          <target>TPM-based Virtual Smart Card</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>The Virtual Smart Card emulates the functionality of traditional smart cards, but Virtual Smart Cards use the TPM chip that is available on an organization’s computers, rather than requiring the use of a separate physical smart card and reader.</source>
+          <target>The Virtual Smart Card emulates the functionality of traditional smart cards, but Virtual Smart Cards use the TPM chip that is available on an organization’s computers, rather than requiring the use of a separate physical smart card and reader.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>This greatly reduces the management and deployment cost of smart cards in an enterprise.</source>
+          <target>This greatly reduces the management and deployment cost of smart cards in an enterprise.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>To the end user, the Virtual Smart Card is always available on the computer.</source>
+          <target>To the end user, the Virtual Smart Card is always available on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>If a user needs to use more than one computer, a Virtual Smart Card must be issued to the user for each computer.</source>
+          <target>If a user needs to use more than one computer, a Virtual Smart Card must be issued to the user for each computer.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>A computer that is shared among multiple users can host multiple Virtual Smart Cards, one for each user.</source>
+          <target>A computer that is shared among multiple users can host multiple Virtual Smart Cards, one for each user.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>TPM-based certificate storage</source>
+          <target>TPM-based certificate storage</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>The TPM can be used to protect certificates and RSA keys.</source>
+          <target>The TPM can be used to protect certificates and RSA keys.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>The TPM key storage provider (KSP) provides easy, convenient use of the TPM as a way of strongly protecting private keys.</source>
+          <target>The TPM key storage provider (KSP) provides easy, convenient use of the TPM as a way of strongly protecting private keys.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>The TPM KSP can be used to generate keys when an organization enrolls for certificates, and the KSP is managed by templates in the UI.</source>
+          <target>The TPM KSP can be used to generate keys when an organization enrolls for certificates, and the KSP is managed by templates in the UI.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>The TPM can also be used to protect certificates that are imported from an outside source.</source>
+          <target>The TPM can also be used to protect certificates that are imported from an outside source.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>TPM-based certificates can be used exactly as standard certificates with the added functionality that the certificate can never leave the TPM from which the keys were generated.</source>
+          <target>TPM-based certificates can be used exactly as standard certificates with the added functionality that the certificate can never leave the TPM from which the keys were generated.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>The TPM can now be used for crypto-operations through Cryptography API: Next Generation (CNG).</source>
+          <target>The TPM can now be used for crypto-operations through Cryptography API: Next Generation (CNG).</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://msdn.microsoft.com/library/windows/desktop/aa376210.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cryptography API: Next Generation</pc>.</source>
+          <target>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cryptography API: Next Generation</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>TPM Owner Authorization Value</source>
+          <target>TPM Owner Authorization Value</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>For Windows 8 a change to how the TPM owner authorization value is stored in AD DS was implemented in the AD DS schema.</source>
+          <target>For Windows 8 a change to how the TPM owner authorization value is stored in AD DS was implemented in the AD DS schema.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>The TPM owner authorization value is now stored in a separate object which is linked to the Computer object.</source>
+          <target>The TPM owner authorization value is now stored in a separate object which is linked to the Computer object.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>This value was stored as a property in the Computer object itself for the default Windows Server 2008 R2 schemas.</source>
+          <target>This value was stored as a property in the Computer object itself for the default Windows Server 2008 R2 schemas.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Windows Server 2012 domain controllers have the default schema to backup TPM owner authorization information in the separate object.</source>
+          <target>Windows Server 2012 domain controllers have the default schema to backup TPM owner authorization information in the separate object.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>If you are not upgrading your domain controller to Windows Server 2012 you need to extend the schema to support this change.</source>
+          <target>If you are not upgrading your domain controller to Windows Server 2012 you need to extend the schema to support this change.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>If Active Directory backup of the TPM owner authorization value is enabled in a Windows Server 2008 R2 environment without extending the schema, the TPM provisioning will fail and the TPM will remain in a Not Ready state for computers running Windows 8.</source>
+          <target>If Active Directory backup of the TPM owner authorization value is enabled in a Windows Server 2008 R2 environment without extending the schema, the TPM provisioning will fail and the TPM will remain in a Not Ready state for computers running Windows 8.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>If your computer is not being joined to a domain the TPM owner authorization value will be stored in the local computer registry.</source>
+          <target>If your computer is not being joined to a domain the TPM owner authorization value will be stored in the local computer registry.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Using BitLocker to encrypt the operating system drive will protect the owner authorization value from being disclosed when the computer is at rest, but there is a risk that a malicious user could obtain the TPM owner authorization value when the computer is unlocked.</source>
+          <target>Using BitLocker to encrypt the operating system drive will protect the owner authorization value from being disclosed when the computer is at rest, but there is a risk that a malicious user could obtain the TPM owner authorization value when the computer is unlocked.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Therefore, we recommend that in this situation you configure your computer to automatically lock after 30 seconds of inactivity.</source>
+          <target>Therefore, we recommend that in this situation you configure your computer to automatically lock after 30 seconds of inactivity.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>If automatic locking is not used, then you should consider removing full owner authorization from the computer registry.</source>
+          <target>If automatic locking is not used, then you should consider removing full owner authorization from the computer registry.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Registry information</source>
+          <target>Registry information</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Registry key: HKEY<ph dataRef="id1" id="ph1" />LOCAL<ph dataRef="id2" id="ph2" />MACHINE<ph dataRef="id3" id="ph3" />SOFTWARE<ph dataRef="id4" id="ph4" />Policies<ph dataRef="id5" id="ph5" />Microsoft<ph dataRef="id6" id="ph6" />TPM DWORD: OSManagedAuthLevel</source>
+          <target>Registry key: HKEY<ph dataRef="id1" id="ph1" />LOCAL<ph dataRef="id2" id="ph2" />MACHINE<ph dataRef="id3" id="ph3" />SOFTWARE<ph dataRef="id4" id="ph4" />Policies<ph dataRef="id5" id="ph5" />Microsoft<ph dataRef="id6" id="ph6" />TPM DWORD: OSManagedAuthLevel</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Value Data</source>
+          <target>Value Data</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Setting</source>
+          <target>Setting</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>0</source>
+          <target>0</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>None</source>
+          <target>None</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>2</source>
+          <target>2</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Delegated</source>
+          <target>Delegated</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>4</source>
+          <target>4</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Full</source>
+          <target>Full</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  If the operating system managed TPM authentication setting is changed from "Full" to "Delegated" the full TPM owner authorization value will be regenerated and any copies of the original TPM owner authorization value will be invalid.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  If the operating system managed TPM authentication setting is changed from "Full" to "Delegated" the full TPM owner authorization value will be regenerated and any copies of the original TPM owner authorization value will be invalid.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>If you are backing up the TPM owner authorization value to AD DS, the new owner authorization value will be automatically backed up to AD DS when it is changed.</source>
+          <target>If you are backing up the TPM owner authorization value to AD DS, the new owner authorization value will be automatically backed up to AD DS when it is changed.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>TPM Cmdlets</source>
+          <target>TPM Cmdlets</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>If you are using PowerShell to script and manage your computers, you can now manage the TPM using Windows PowerShell as well.</source>
+          <target>If you are using PowerShell to script and manage your computers, you can now manage the TPM using Windows PowerShell as well.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>To install the TPM cmdlets use the following command:</source>
+          <target>To install the TPM cmdlets use the following command:</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/jj603116.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For details about the individual cmdlets, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TPM Cmdlets in Windows PowerShell</pc></source>
+          <target>For details about the individual cmdlets, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TPM Cmdlets in Windows PowerShell</pc></target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Physical presence interface</source>
+          <target>Physical presence interface</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>The TCG specifications for TPMs require physical presence to perform some TPM administrative functions, such as turning on and turning off the TPM.</source>
+          <target>The TCG specifications for TPMs require physical presence to perform some TPM administrative functions, such as turning on and turning off the TPM.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Physical presence means a person must physically interact with the system and the TPM interface to confirm or reject changes to TPM status.</source>
+          <target>Physical presence means a person must physically interact with the system and the TPM interface to confirm or reject changes to TPM status.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>This typically cannot be automated with scripts or other automation tools unless the individual OEM supplies them.</source>
+          <target>This typically cannot be automated with scripts or other automation tools unless the individual OEM supplies them.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Here are some are examples of TPM administrative tasks that require physical presence:</source>
+          <target>Here are some are examples of TPM administrative tasks that require physical presence:</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Activating the TPM</source>
+          <target>Activating the TPM</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Clearing the existing owner information from the TPM without the owner’s password</source>
+          <target>Clearing the existing owner information from the TPM without the owner’s password</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Deactivating the TPM</source>
+          <target>Deactivating the TPM</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Disabling the TPM temporarily without the owner’s password</source>
+          <target>Disabling the TPM temporarily without the owner’s password</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>States of existence in a TPM</source>
+          <target>States of existence in a TPM</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>For each of these TPM 1.2 states of existence, the TPM can transition into another state (for example, moving from disabled to enabled).</source>
+          <target>For each of these TPM 1.2 states of existence, the TPM can transition into another state (for example, moving from disabled to enabled).</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>The states are not exclusive.</source>
+          <target>The states are not exclusive.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>These states of existence do not apply for Trusted Platform Module 2.0 because it cannot be turned off from within the operating system environment.</source>
+          <target>These states of existence do not apply for Trusted Platform Module 2.0 because it cannot be turned off from within the operating system environment.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>State</source>
+          <target>State</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Enabled</source>
+          <target>Enabled</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Most features of the TPM are available.</source>
+          <target>Most features of the TPM are available.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>The TPM can be enabled and disabled multiple times within a boot period, if ownership is taken.</source>
+          <target>The TPM can be enabled and disabled multiple times within a boot period, if ownership is taken.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Disabled</source>
+          <target>Disabled</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>The TPM restricts most operations.</source>
+          <target>The TPM restricts most operations.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Exceptions include the ability to report TPM capabilities, extend and reset Platform Configuration Register (PCR) functions, and perform hashing and basic initialization.</source>
+          <target>Exceptions include the ability to report TPM capabilities, extend and reset Platform Configuration Register (PCR) functions, and perform hashing and basic initialization.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>The TPM can be enabled and disabled multiple times within a start-up period.</source>
+          <target>The TPM can be enabled and disabled multiple times within a start-up period.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Activated</source>
+          <target>Activated</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Most features of the TPM are available.</source>
+          <target>Most features of the TPM are available.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>The TPM can be activated and deactivated only through physical presence, which requires a restart.</source>
+          <target>The TPM can be activated and deactivated only through physical presence, which requires a restart.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Deactivated</source>
+          <target>Deactivated</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Similar to the disabled state, with the exception that ownership can be taken when the TPM is deactivated and enabled.</source>
+          <target>Similar to the disabled state, with the exception that ownership can be taken when the TPM is deactivated and enabled.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>The TPM can be activated and deactivated only through physical presence, which requires a restart.</source>
+          <target>The TPM can be activated and deactivated only through physical presence, which requires a restart.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Owned</source>
+          <target>Owned</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Most features of the TPM are available.</source>
+          <target>Most features of the TPM are available.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>The TPM has an endorsement key and storage root key, and the owner knows information about owner authorization data.</source>
+          <target>The TPM has an endorsement key and storage root key, and the owner knows information about owner authorization data.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Unowned</source>
+          <target>Unowned</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>The TPM does not have a storage root key, and it may or may not have an endorsement key.</source>
+          <target>The TPM does not have a storage root key, and it may or may not have an endorsement key.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  Applications cannot use the TPM until the state is enabled, activated, and owned.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  Applications cannot use the TPM until the state is enabled, activated, and owned.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>All operations are available only when the TPM is in this state.</source>
+          <target>All operations are available only when the TPM is in this state.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>The state of the TPM exists independently of the computer’s operating system.</source>
+          <target>The state of the TPM exists independently of the computer’s operating system.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>When the TPM is enabled, activated, and owned, the state of the TPM is preserved if the operating system is reinstalled.</source>
+          <target>When the TPM is enabled, activated, and owned, the state of the TPM is preserved if the operating system is reinstalled.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Endorsement keys</source>
+          <target>Endorsement keys</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>For a TPM to be usable by a trusted application, it must contain an endorsement key, which is an RSA key pair.</source>
+          <target>For a TPM to be usable by a trusted application, it must contain an endorsement key, which is an RSA key pair.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>The private half of the key pair is held inside the TPM, and it is never revealed or accessible outside the TPM.</source>
+          <target>The private half of the key pair is held inside the TPM, and it is never revealed or accessible outside the TPM.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>If the TPM does not contain an endorsement key, the application might cause the TPM to generate one automatically as part of the setup.</source>
+          <target>If the TPM does not contain an endorsement key, the application might cause the TPM to generate one automatically as part of the setup.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>An endorsement key can be created at various points in the TPM’s lifecycle, but it needs to be created only once for the lifetime of the TPM.</source>
+          <target>An endorsement key can be created at various points in the TPM’s lifecycle, but it needs to be created only once for the lifetime of the TPM.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>The existence of an endorsement key is a requirement before TPM ownership can be taken.</source>
+          <target>The existence of an endorsement key is a requirement before TPM ownership can be taken.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Key attestation</source>
+          <target>Key attestation</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>TPM key attestation allows a certification authority to verify that a private key is actually protected by a TPM and that the TPM is one that the certification authority trusts.</source>
+          <target>TPM key attestation allows a certification authority to verify that a private key is actually protected by a TPM and that the TPM is one that the certification authority trusts.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Endorsement keys which have been proven valid can be used to bind the user identity to a device.</source>
+          <target>Endorsement keys which have been proven valid can be used to bind the user identity to a device.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Moreover, the user certificate with a TPM attested key provides higher security assurance backed up by the non-exportability, anti-hammering, and isolation of keys provided by a TPM.</source>
+          <target>Moreover, the user certificate with a TPM attested key provides higher security assurance backed up by the non-exportability, anti-hammering, and isolation of keys provided by a TPM.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>How the TPM mitigates dictionary attacks</source>
+          <target>How the TPM mitigates dictionary attacks</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>When a TPM processes a command, it does so in a protected environment, for example, a dedicated microcontroller on a discrete chip or a special hardware-protected mode on the main CPU.</source>
+          <target>When a TPM processes a command, it does so in a protected environment, for example, a dedicated microcontroller on a discrete chip or a special hardware-protected mode on the main CPU.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>A TPM can be used to create a cryptographic key that is not disclosed outside the TPM, but is able to be used in the TPM after the correct authorization value is provided.</source>
+          <target>A TPM can be used to create a cryptographic key that is not disclosed outside the TPM, but is able to be used in the TPM after the correct authorization value is provided.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>TPMs have dictionary attack logic that is designed to prevent brute force attacks that attempt to determine authorization values for using a key.</source>
+          <target>TPMs have dictionary attack logic that is designed to prevent brute force attacks that attempt to determine authorization values for using a key.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>The basic approach is for the TPM to allow only a limited number of authorization failures before it prevents more attempts to use keys and locks.</source>
+          <target>The basic approach is for the TPM to allow only a limited number of authorization failures before it prevents more attempts to use keys and locks.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Providing a failure count for individual keys is not technically practical, so TPMs have a global lockout when too many authorization failures occur.</source>
+          <target>Providing a failure count for individual keys is not technically practical, so TPMs have a global lockout when too many authorization failures occur.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Because many entities can use the TPM, a single authorization success cannot reset the TPM’s dictionary attack logic.</source>
+          <target>Because many entities can use the TPM, a single authorization success cannot reset the TPM’s dictionary attack logic.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>This prevents an attacker from creating a key with a known authorization value and then using it to reset the TPM’s dictionary attack logic.</source>
+          <target>This prevents an attacker from creating a key with a known authorization value and then using it to reset the TPM’s dictionary attack logic.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Generally TPMs are designed to forget about authorization failures after a period of time so the TPM does not enter a lockout state unnecessarily.</source>
+          <target>Generally TPMs are designed to forget about authorization failures after a period of time so the TPM does not enter a lockout state unnecessarily.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>A TPM owner password can be used to reset the TPM’s lockout logic.</source>
+          <target>A TPM owner password can be used to reset the TPM’s lockout logic.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>TPM 2.0 dictionary attack behavior</source>
+          <target>TPM 2.0 dictionary attack behavior</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>TPM 2.0 has well defined dictionary attack logic behavior.</source>
+          <target>TPM 2.0 has well defined dictionary attack logic behavior.</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>This is in contrast to TPM 1.2 for which the dictionary attack logic was set by the manufacturer, and the logic varied widely throughout the industry.</source>
+          <target>This is in contrast to TPM 1.2 for which the dictionary attack logic was set by the manufacturer, and the logic varied widely throughout the industry.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Warning:</pc>  For the purposes of this topic, Windows 8 Certified Hardware also pertains to Windows 8.1 systems.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Warning:</pc>  For the purposes of this topic, Windows 8 Certified Hardware also pertains to Windows 8.1 systems.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>The following references to “Windows” include these supported Windows versions.</source>
+          <target>The following references to “Windows” include these supported Windows versions.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>For Windows 8 Certified Hardware systems with TPM 2.0, the TPM is configured by Windows to lock after 32 authorization failures and to forget one authorization failure every two hours.</source>
+          <target>For Windows 8 Certified Hardware systems with TPM 2.0, the TPM is configured by Windows to lock after 32 authorization failures and to forget one authorization failure every two hours.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>This means that a user could quickly attempt to use a key with the wrong authorization value 32 times.</source>
+          <target>This means that a user could quickly attempt to use a key with the wrong authorization value 32 times.</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>For each of the 32 attempts, the TPM records if the authorization value was correct or not.</source>
+          <target>For each of the 32 attempts, the TPM records if the authorization value was correct or not.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>This inadvertently causes the TPM to enter a locked state after 32 failed attempts.</source>
+          <target>This inadvertently causes the TPM to enter a locked state after 32 failed attempts.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Attempts to use a key with an authorization value for the next two hours would not return success or failure; instead the response indicates that the TPM is locked.</source>
+          <target>Attempts to use a key with an authorization value for the next two hours would not return success or failure; instead the response indicates that the TPM is locked.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>After two hours, one authorization failure is forgotten and the number of authorization failures remembered by the TPM drops to 31, so the TPM leaves the locked state and returns to normal operation.</source>
+          <target>After two hours, one authorization failure is forgotten and the number of authorization failures remembered by the TPM drops to 31, so the TPM leaves the locked state and returns to normal operation.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>With the correct authorization value, keys could be used normally if no authorization failures occur during the next two hours.</source>
+          <target>With the correct authorization value, keys could be used normally if no authorization failures occur during the next two hours.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>If a period of 64 hours elapses with no authorization failures, the TPM does not remember any authorization failures, and 32 failed attempts could occur again.</source>
+          <target>If a period of 64 hours elapses with no authorization failures, the TPM does not remember any authorization failures, and 32 failed attempts could occur again.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>Windows 8 Certification does not require TPM 2.0 systems to forget about authorization failures when the system is fully powered off or when the system has hibernated.</source>
+          <target>Windows 8 Certification does not require TPM 2.0 systems to forget about authorization failures when the system is fully powered off or when the system has hibernated.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>Windows does require that authorization failures are forgotten when the system is running normally, in a sleep mode, or in low power states other than off.</source>
+          <target>Windows does require that authorization failures are forgotten when the system is running normally, in a sleep mode, or in low power states other than off.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>If a Windows system with TPM 2.0 is locked, the TPM leaves lockout mode if the system is left on for two hours.</source>
+          <target>If a Windows system with TPM 2.0 is locked, the TPM leaves lockout mode if the system is left on for two hours.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>The dictionary attack logic for TPM 2.0 can be fully reset immediately by sending a reset lockout command to the TPM and providing the TPM owner password.</source>
+          <target>The dictionary attack logic for TPM 2.0 can be fully reset immediately by sending a reset lockout command to the TPM and providing the TPM owner password.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>By default, Windows automatically provisions TPM 2.0 and stores the TPM owner password for use by system administrators.</source>
+          <target>By default, Windows automatically provisions TPM 2.0 and stores the TPM owner password for use by system administrators.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>In some enterprise situations, the TPM owner authorization value is configured to be stored centrally in Active Directory, and it is not stored on the local system.</source>
+          <target>In some enterprise situations, the TPM owner authorization value is configured to be stored centrally in Active Directory, and it is not stored on the local system.</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>An administrator can launch the TPM MMC and choose to reset the TPM lockout time.</source>
+          <target>An administrator can launch the TPM MMC and choose to reset the TPM lockout time.</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>If the TPM owner password is stored locally, it is used to reset the lockout time.</source>
+          <target>If the TPM owner password is stored locally, it is used to reset the lockout time.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>If the TPM owner password is not available on the local system, the administrator needs to provide it.</source>
+          <target>If the TPM owner password is not available on the local system, the administrator needs to provide it.</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>If an administrator attempts to reset the TPM lockout state with the wrong TPM owner password, the TPM does not allow another attempt to reset the lockout state for 24 hours.</source>
+          <target>If an administrator attempts to reset the TPM lockout state with the wrong TPM owner password, the TPM does not allow another attempt to reset the lockout state for 24 hours.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>TPM 2.0 allows some keys to be created without an authorization value associated with them.</source>
+          <target>TPM 2.0 allows some keys to be created without an authorization value associated with them.</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>These keys can be used when the TPM is locked.</source>
+          <target>These keys can be used when the TPM is locked.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>For example, BitLocker with a default TPM-only configuration is able to use a key in the TPM to start Windows, even when the TPM is locked.</source>
+          <target>For example, BitLocker with a default TPM-only configuration is able to use a key in the TPM to start Windows, even when the TPM is locked.</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>Rationale behind the Windows 8.1 and Windows 8 defaults</source>
+          <target>Rationale behind the Windows 8.1 and Windows 8 defaults</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>Windows relies on the TPM 2.0 dictionary attack protection for multiple features.</source>
+          <target>Windows relies on the TPM 2.0 dictionary attack protection for multiple features.</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>The defaults that are selected for Windows 8 balance trade-offs for different scenarios.</source>
+          <target>The defaults that are selected for Windows 8 balance trade-offs for different scenarios.</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>For example, when BitLocker is used with a TPM plus PIN configuration, it needs the number of PIN guesses to be limited over time.</source>
+          <target>For example, when BitLocker is used with a TPM plus PIN configuration, it needs the number of PIN guesses to be limited over time.</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>If the computer is lost, someone could make only 32 PIN guesses immediately, and then only one more guess every two hours.</source>
+          <target>If the computer is lost, someone could make only 32 PIN guesses immediately, and then only one more guess every two hours.</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>This totals about 4415 guesses per year.</source>
+          <target>This totals about 4415 guesses per year.</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>This makes a good standard for system administrators to determine how many PIN characters to use for BitLocker deployments.</source>
+          <target>This makes a good standard for system administrators to determine how many PIN characters to use for BitLocker deployments.</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <segment state="initial">
+          <source>The Windows TPM-based smart card, which is a virtual smart card, can be configured to allow sign in to the system.</source>
+          <target>The Windows TPM-based smart card, which is a virtual smart card, can be configured to allow sign in to the system.</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>In contrast with physical smart cards, the sign-in process uses a TPM-based key with an authorization value.</source>
+          <target>In contrast with physical smart cards, the sign-in process uses a TPM-based key with an authorization value.</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>The following list shows the advantages of virtual smart cards:</source>
+          <target>The following list shows the advantages of virtual smart cards:</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>Physical smart cards can enforce lockout for only the physical smart card PIN, and they can reset the lockout after the correct PIN is entered.</source>
+          <target>Physical smart cards can enforce lockout for only the physical smart card PIN, and they can reset the lockout after the correct PIN is entered.</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>With a virtual smart card, the TPM’s dictionary attack is not reset after a successful authentication.</source>
+          <target>With a virtual smart card, the TPM’s dictionary attack is not reset after a successful authentication.</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>The allowed number of authorization failures before the TPM enters lockout includes many factors.</source>
+          <target>The allowed number of authorization failures before the TPM enters lockout includes many factors.</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>Hardware manufacturers and software developers have the option to use the security features of the TPM to meet their requirements.</source>
+          <target>Hardware manufacturers and software developers have the option to use the security features of the TPM to meet their requirements.</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>The intent of selecting 32 failures as the lock-out threshold is so users rarely lock the TPM (even when learning to type new passwords or if they frequently lock and unlock their computers).</source>
+          <target>The intent of selecting 32 failures as the lock-out threshold is so users rarely lock the TPM (even when learning to type new passwords or if they frequently lock and unlock their computers).</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>If users lock the TPM, they must to wait two hours or use some other credential to sign in, such as a user name and password.</source>
+          <target>If users lock the TPM, they must to wait two hours or use some other credential to sign in, such as a user name and password.</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>How do I check the state of my TPM?</source>
+          <target>How do I check the state of my TPM?</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>You can check the state of the TPM on a PC by running the Trusted Platform Module snap-in (tpm.msc).</source>
+          <target>You can check the state of the TPM on a PC by running the Trusted Platform Module snap-in (tpm.msc).</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Status</pc> heading tells you the state of your TPM.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Status</pc> heading tells you the state of your TPM.</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The TPM can be in one of the following states: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ready for use</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Ready for use, with reduced functionality</pc>, and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Not ready for use</pc>.</source>
+          <target>The TPM can be in one of the following states: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ready for use</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Ready for use, with reduced functionality</pc>, and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Not ready for use</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To take advantage of most of the TPM features in Windows 10, the TPM must be <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ready for use</pc>.</source>
+          <target>To take advantage of most of the TPM features in Windows 10, the TPM must be <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ready for use</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>What can I do if my TPM is in reduced functionality mode?</source>
+          <target>What can I do if my TPM is in reduced functionality mode?</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>If your TPM is in reduced functionality mode, some features that rely on the TPM will not function correctly.</source>
+          <target>If your TPM is in reduced functionality mode, some features that rely on the TPM will not function correctly.</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>This is most often caused by doing a clean installation of Windows 10 on a device where Windows 8.1, Windows 8, or Windows 7 had previously been installed on the same hardware.</source>
+          <target>This is most often caused by doing a clean installation of Windows 10 on a device where Windows 8.1, Windows 8, or Windows 7 had previously been installed on the same hardware.</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If your TPM is in reduced functionality mode, the Status heading in the Trusted Platform Module snap-in shows <pc dataRefEnd="id2" dataRefStart="id1" id="p1">The TPM is ready for use, with reduced functionality</pc>.</source>
+          <target>If your TPM is in reduced functionality mode, the Status heading in the Trusted Platform Module snap-in shows <pc dataRefEnd="id2" dataRefStart="id1" id="p1">The TPM is ready for use, with reduced functionality</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>You can fix this by clearing the TPM.</source>
+          <target>You can fix this by clearing the TPM.</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>To clear the TPM</source>
+          <target>To clear the TPM</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>Open the Trusted Platform Module snap-in (tpm.msc).</source>
+          <target>Open the Trusted Platform Module snap-in (tpm.msc).</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Clear TPM</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Restart.</pc></source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Clear TPM</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Restart.</pc></target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>When the PC is restarting, you might be prompted to press a button on the keyboard to clear the TPM.</source>
+          <target>When the PC is restarting, you might be prompted to press a button on the keyboard to clear the TPM.</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>After the PC restarts, your TPM will be automatically prepared for use by Windows 10.</source>
+          <target>After the PC restarts, your TPM will be automatically prepared for use by Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Clearing the TPM causes you to lose all TPM keys and data protected by those keys, such as a virtual smart card.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Clearing the TPM causes you to lose all TPM keys and data protected by those keys, such as a virtual smart card.</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>You should not perform this procedure on a device you do not own, such as a work or school PC, without being instructed to do so by your IT administrator.</source>
+          <target>You should not perform this procedure on a device you do not own, such as a work or school PC, without being instructed to do so by your IT administrator.</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>Additional resources</source>
+          <target>Additional resources</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>Trusted Platform Module Technology Overview</source>
+          <target>Trusted Platform Module Technology Overview</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>Trusted Platform Module Services Group Policy Settings</source>
+          <target>Trusted Platform Module Services Group Policy Settings</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>TPM Cmdlets in Windows PowerShell</source>
+          <target>TPM Cmdlets in Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>Schema Extensions for Windows Server 2008 R2 to support AD DS backup of TPM information from Windows 8 clients</source>
+          <target>Schema Extensions for Windows Server 2008 R2 to support AD DS backup of TPM information from Windows 8 clients</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <segment state="initial">
+          <source>TPM WMI providers</source>
+          <target>TPM WMI providers</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <segment state="initial">
+          <source>Prepare your organization for BitLocker: Planning and Policies - TPM configurations</source>
+          <target>Prepare your organization for BitLocker: Planning and Policies - TPM configurations</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

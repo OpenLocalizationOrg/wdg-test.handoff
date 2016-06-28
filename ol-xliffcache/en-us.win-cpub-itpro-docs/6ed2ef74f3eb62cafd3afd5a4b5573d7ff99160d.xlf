@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\appv-v4\how-to-import-an-applicationserver.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">6ed2ef74f3eb62cafd3afd5a4b5573d7ff99160d</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>How to Import an Application</source>
+          <target>How to Import an Application</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>How to Import an Application</source>
+          <target>How to Import an Application</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>How to Import an Application</source>
+          <target>How to Import an Application</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Typically, you import applications to make them available to stream from an Application Virtualization Management Server.</source>
+          <target>Typically, you import applications to make them available to stream from an Application Virtualization Management Server.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>You can also add an application manually, but you must provide precise, detailed information about the application to do so.</source>
+          <target>You can also add an application manually, but you must provide precise, detailed information about the application to do so.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](how-to-manually-add-an-application.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Manually Add an Application</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Manually Add an Application</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>To import an application, you must have its sequenced Open Software Descriptor (OSD) file or its Sequencer Project (SPRJ) file available on the server.</source>
+          <target>To import an application, you must have its sequenced Open Software Descriptor (OSD) file or its Sequencer Project (SPRJ) file available on the server.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When importing an application, you should make sure the server is configured with a value in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Default Content Path</pc> field on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">General</pc> tab of the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">System Options</pc> dialog (accessible by right-clicking the <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Application Virtualization System</pc> node in the App-V Server Console).</source>
+          <target>When importing an application, you should make sure the server is configured with a value in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Default Content Path</pc> field on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">General</pc> tab of the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">System Options</pc> dialog (accessible by right-clicking the <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Application Virtualization System</pc> node in the App-V Server Console).</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>The default content path value defines where the applications will be imported, and during the import process, this value is used to modify the paths defined in the OSD file for the SFT file and for the icon shortcuts.</source>
+          <target>The default content path value defines where the applications will be imported, and during the import process, this value is used to modify the paths defined in the OSD file for the SFT file and for the icon shortcuts.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>In the OSD file, the path for the SFT file is specified in the CODEBASE HREF entry and the path for the icons is specified in the SHORTCUTS entry.</source>
+          <target>In the OSD file, the path for the SFT file is specified in the CODEBASE HREF entry and the path for the icons is specified in the SHORTCUTS entry.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>During the import process, the protocol, server, and, if present, port specified in these two paths in the OSD file will be replaced with the value from the default content path.</source>
+          <target>During the import process, the protocol, server, and, if present, port specified in these two paths in the OSD file will be replaced with the value from the default content path.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The following table provides an example of how the import path will be affected.</source>
+          <target>The following table provides an example of how the import path will be affected.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Default Content Path</source>
+          <target>Default Content Path</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>OSD File CODEBASE HREF</source>
+          <target>OSD File CODEBASE HREF</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Resulting Value</source>
+          <target>Resulting Value</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>server\content\</source>
+          <target>server\content\</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>http://WebServer/myFolder/package.sft</source>
+          <target>http://WebServer/myFolder/package.sft</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>server\content\myFolder\package.sft</source>
+          <target>server\content\myFolder\package.sft</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>To import an application</source>
+          <target>To import an application</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applications</pc> node in the left pane, and choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Import Applications</pc>.</source>
+          <target>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applications</pc> node in the left pane, and choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Import Applications</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Open</pc> dialog box, navigate to the application's SPRJ or OSD file.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Open</pc> dialog box, navigate to the application's SPRJ or OSD file.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Highlight the file and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Open</pc>.</source>
+          <target>Highlight the file and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Open</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">New Application Wizard</pc>, be sure the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enabled</pc> box is selected for applications you want to stream.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">New Application Wizard</pc>, be sure the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enabled</pc> box is selected for applications you want to stream.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>There you can also enter a description and verify the server and file paths.</source>
+          <target>There you can also enter a description and verify the server and file paths.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Also, if you have set up license and server groups, you can select those.</source>
+          <target>Also, if you have set up license and server groups, you can select those.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Published Shortcuts</pc> screen, select the boxes for the locations where you would like the application shortcuts to appear on the client computers.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Published Shortcuts</pc> screen, select the boxes for the locations where you would like the application shortcuts to appear on the client computers.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File Associations</pc> screen, you can add new file associations to this application.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File Associations</pc> screen, you can add new file associations to this application.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To do so, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc>, enter the extension (without a preceding dot), enter a description, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</source>
+          <target>To do so, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc>, enter the extension (without a preceding dot), enter a description, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Applications sequenced with Sequencer 4.0 populate the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File Associations</pc> dialog box when you import or create them through the management console.</source>
+          <target>Applications sequenced with Sequencer 4.0 populate the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File Associations</pc> dialog box when you import or create them through the management console.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Applications with previous Sequencer version packages do not.</source>
+          <target>Applications with previous Sequencer version packages do not.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Access Permissions</pc> screen, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Access Permissions</pc> screen, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Complete the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Groups</pc> dialog box.</source>
+          <target>Complete the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Groups</pc> dialog box.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you finish, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>When you finish, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Summary</pc> screen, you can review the import settings.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Summary</pc> screen, you can review the import settings.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc>, or click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Back</pc> to change the import or click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Cancel</pc> to cancel the import.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc>, or click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Back</pc> to change the import or click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Cancel</pc> to cancel the import.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>How to Manage Application Groups in the Server Management Console</source>
+          <target>How to Manage Application Groups in the Server Management Console</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>How to Manage Applications in the Server Management Console</source>
+          <target>How to Manage Applications in the Server Management Console</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>How to Manually Add an Application</source>
+          <target>How to Manually Add an Application</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

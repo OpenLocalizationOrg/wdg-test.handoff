@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\medv-v1\design-the-med-v-server-infrastructure.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">0ea2ce9d88cc90b08be4046f64f9908e36f6e44b</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Design the MED-V Server Infrastructure</source>
+          <target>Design the MED-V Server Infrastructure</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Design the MED-V Server Infrastructure</source>
+          <target>Design the MED-V Server Infrastructure</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Design the MED-V Server Infrastructure</source>
+          <target>Design the MED-V Server Infrastructure</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>In this topic, you will design the server infrastructure for each MED-V instance.</source>
+          <target>In this topic, you will design the server infrastructure for each MED-V instance.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>This includes determining whether the SQL Server instance will exist on the MED-V server or on a remote server, as well as the size of the SQL Server database.</source>
+          <target>This includes determining whether the SQL Server instance will exist on the MED-V server or on a remote server, as well as the size of the SQL Server database.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>You will also determine the location of the management console.</source>
+          <target>You will also determine the location of the management console.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Design and Place the Server for Each MED-V Instance</source>
+          <target>Design and Place the Server for Each MED-V Instance</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The MED-V server implements policies and stores state and history data about its clients.</source>
+          <target>The MED-V server implements policies and stores state and history data about its clients.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Form Factor</source>
+          <target>Form Factor</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>MED-V recommends using a 2.8-GHz dual core CPU server with 2 GB of RAM.</source>
+          <target>MED-V recommends using a 2.8-GHz dual core CPU server with 2 GB of RAM.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>This recommendation is based on the assumption that the MED-V server will run on a dedicated machine and that SQL Server and the MED-V management console will run on separate machines.</source>
+          <target>This recommendation is based on the assumption that the MED-V server will run on a dedicated machine and that SQL Server and the MED-V management console will run on separate machines.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Given this workload, the MED-V server should be relatively lightly loaded.</source>
+          <target>Given this workload, the MED-V server should be relatively lightly loaded.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>In the absence of specific architectural guidance on the server form factor, design the server using the MED-V recommendation, with memory that matches the organization’s standard form factor.</source>
+          <target>In the absence of specific architectural guidance on the server form factor, design the server using the MED-V recommendation, with memory that matches the organization’s standard form factor.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The MED-V server can be run on a virtual machine (VM) on Windows Server 2008 Hyper-V.</source>
+          <target>The MED-V server can be run on a virtual machine (VM) on Windows Server 2008 Hyper-V.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>If a VM will be used, ensure that it has access to CPU and memory resources equivalent to those specified for a physical machine.</source>
+          <target>If a VM will be used, ensure that it has access to CPU and memory resources equivalent to those specified for a physical machine.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>The disk capacity the MED-V server requires must be sufficient to store the MED-V workspace configuration files.</source>
+          <target>The disk capacity the MED-V server requires must be sufficient to store the MED-V workspace configuration files.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>A MED-V workspace can only use one VM, and one policy, for one or more users.</source>
+          <target>A MED-V workspace can only use one VM, and one policy, for one or more users.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Therefore, the number of MED-V workspaces that must be stored depends on the degree to which different policies are required for different users of the same VM, as well as the number of VMs that will be used.</source>
+          <target>Therefore, the number of MED-V workspaces that must be stored depends on the degree to which different policies are required for different users of the same VM, as well as the number of VMs that will be used.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>The MED-V workspace XML files are around 30 KB in size for a typical MED-V workspace.</source>
+          <target>The MED-V workspace XML files are around 30 KB in size for a typical MED-V workspace.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>To determine the required disk capacity, multiply 30 KB by the number of MED-V workspaces that the MED-V server will store.</source>
+          <target>To determine the required disk capacity, multiply 30 KB by the number of MED-V workspaces that the MED-V server will store.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>The MED-V server’s most important network connections are the links to its clients, therefore place the server in a network location that provides the most available bandwidth and the most robust links to its clients.</source>
+          <target>The MED-V server’s most important network connections are the links to its clients, therefore place the server in a network location that provides the most available bandwidth and the most robust links to its clients.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Fault Tolerance</source>
+          <target>Fault Tolerance</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>There can only be one active MED-V server in a MED-V instance, and MED-V does not include standard capabilities to place the server in a Microsoft Cluster Server (MSCS) cluster to provide fault tolerance.</source>
+          <target>There can only be one active MED-V server in a MED-V instance, and MED-V does not include standard capabilities to place the server in a Microsoft Cluster Server (MSCS) cluster to provide fault tolerance.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>A passive backup server can be manually configured.</source>
+          <target>A passive backup server can be manually configured.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>To decide whether a passive backup server should be manually configured for the MED-V instance, determine whether users will be permitted to use the MED-V images in offline mode.</source>
+          <target>To decide whether a passive backup server should be manually configured for the MED-V instance, determine whether users will be permitted to use the MED-V images in offline mode.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](how-to-configure-a-domain-user-or-groupmedvv2.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information on offline mode, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Configure a Domain User or Group</pc>.</source>
+          <target>For information on offline mode, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Configure a Domain User or Group</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>If users are not allowed to work offline, they will be unable to continue working in the event of a MED-V server failure, even if the MED-V workspace has already been started on the client.</source>
+          <target>If users are not allowed to work offline, they will be unable to continue working in the event of a MED-V server failure, even if the MED-V workspace has already been started on the client.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>If offline work is permitted, for each MED-V workspace, determine how long the client is allowed to work offline before it must authenticate.</source>
+          <target>If offline work is permitted, for each MED-V workspace, determine how long the client is allowed to work offline before it must authenticate.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>This is the maximum amount of time that the server can be unavailable.</source>
+          <target>This is the maximum amount of time that the server can be unavailable.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Design and Place the SQL Server Database</source>
+          <target>Design and Place the SQL Server Database</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>The MED-V server uses the SQL Server database to store client status and events.</source>
+          <target>The MED-V server uses the SQL Server database to store client status and events.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>You can install the SQL Server database on the same machine as the MED-V server or you can place it on a separate server running SQL Server, which can optionally be remote.</source>
+          <target>You can install the SQL Server database on the same machine as the MED-V server or you can place it on a separate server running SQL Server, which can optionally be remote.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>You can share the database with other MED-V instances, in which case events and alerts from those instances will be stored in the same database, and reports will include events from all instances.</source>
+          <target>You can share the database with other MED-V instances, in which case events and alerts from those instances will be stored in the same database, and reports will include events from all instances.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>You can install the database in an existing SQL Server instance, and the databases of other MED-V servers can reside in that same instance.</source>
+          <target>You can install the database in an existing SQL Server instance, and the databases of other MED-V servers can reside in that same instance.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>If you place the database server in a location that is remote from the MED-V server, across networks links that do not have sufficient bandwidth available, reports may be slow to load in the console and may not display the latest data from clients.</source>
+          <target>If you place the database server in a location that is remote from the MED-V server, across networks links that do not have sufficient bandwidth available, reports may be slow to load in the console and may not display the latest data from clients.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](define-the-project-scope.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Refer to the organization service level expectations that you determined in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Define the Project Scope</pc> and use that information to decide where to place the SQL Server database.</source>
+          <target>Refer to the organization service level expectations that you determined in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Define the Project Scope</pc> and use that information to decide where to place the SQL Server database.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Form Factor</source>
+          <target>Form Factor</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>If you will run SQL Server on the same server as MED-V, and if SQL Server will only be used to store data for that server, start with the MED-V recommendation and add resources for the SQL Server load.</source>
+          <target>If you will run SQL Server on the same server as MED-V, and if SQL Server will only be used to store data for that server, start with the MED-V recommendation and add resources for the SQL Server load.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=163302)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If SQL Server will store events and alerts from more than one MED-V instance, for information on how to scale up the server form factor, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Infrastructure Planning and Design Microsoft SQL Server 2008</pc> guide (http:// go.microsoft.com/fwlink/?LinkId=163302).</source>
+          <target>If SQL Server will store events and alerts from more than one MED-V instance, for information on how to scale up the server form factor, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Infrastructure Planning and Design Microsoft SQL Server 2008</pc> guide (http:// go.microsoft.com/fwlink/?LinkId=163302).</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>The size of the database depends on the number of client events that the database will store.</source>
+          <target>The size of the database depends on the number of client events that the database will store.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Events are created by normal operation of the client, such as when a MED-V workspace is started, or when there is an error in the MED-V workspace.</source>
+          <target>Events are created by normal operation of the client, such as when a MED-V workspace is started, or when there is an error in the MED-V workspace.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>The default interval at which the client sends events is 1 minute.</source>
+          <target>The default interval at which the client sends events is 1 minute.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>To estimate the size of the database, determine the following:</source>
+          <target>To estimate the size of the database, determine the following:</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Number of clients in the MED-V instance.</source>
+          <target>Number of clients in the MED-V instance.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>The maximum is 5,000.</source>
+          <target>The maximum is 5,000.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Typical event arrival rate.</source>
+          <target>Typical event arrival rate.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>This rate depends on client usage behavior but is approximately 15 to 20 events per day per client.</source>
+          <target>This rate depends on client usage behavior but is approximately 15 to 20 events per day per client.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Event size.</source>
+          <target>Event size.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>The size is typically around 200 bytes.</source>
+          <target>The size is typically around 200 bytes.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Storage amount.</source>
+          <target>Storage amount.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>The number of days for which events will be stored.</source>
+          <target>The number of days for which events will be stored.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Multiply these values together to calculate the size of the required data storage in bytes, and then add a safety factor to account for the following:</source>
+          <target>Multiply these values together to calculate the size of the required data storage in bytes, and then add a safety factor to account for the following:</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Errors, which could create a large number of events from a client in a short period of time.</source>
+          <target>Errors, which could create a large number of events from a client in a short period of time.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Database table and organizational space.</source>
+          <target>Database table and organizational space.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>To approximate the infrastructure optimization per second (IOPs) requirement, use the above values, multiplying the typical event arrival rate by the number of clients in the instance.</source>
+          <target>To approximate the infrastructure optimization per second (IOPs) requirement, use the above values, multiplying the typical event arrival rate by the number of clients in the instance.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>This yields the number of records that can be written per day.</source>
+          <target>This yields the number of records that can be written per day.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Divide that number by 86,400 to derive the number of records written per second.</source>
+          <target>Divide that number by 86,400 to derive the number of records written per second.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>If a write operations can be equated with a single infrastructure optimization (IO) operation, this number is the write IOPs required.</source>
+          <target>If a write operations can be equated with a single infrastructure optimization (IO) operation, this number is the write IOPs required.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Add a buffer to that for reporting activity.</source>
+          <target>Add a buffer to that for reporting activity.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>This is difficult to determine but depends on the number of consoles in use with the instance and the frequency with which they are used to generate reports.</source>
+          <target>This is difficult to determine but depends on the number of consoles in use with the instance and the frequency with which they are used to generate reports.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Fault Tolerance</source>
+          <target>Fault Tolerance</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>When MED-V client is running, if the server is unavailable, events will be backed up on the client and reports will be unavailable in the management console.</source>
+          <target>When MED-V client is running, if the server is unavailable, events will be backed up on the client and reports will be unavailable in the management console.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](define-the-project-scope.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Refer to the organization’s service level expectations determined in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Define the Project Scope</pc> to decide whether the design of a fault-tolerant SQL Server infrastructure is necessary.</source>
+          <target>Refer to the organization’s service level expectations determined in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Define the Project Scope</pc> to decide whether the design of a fault-tolerant SQL Server infrastructure is necessary.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>MED-V does not provide support for running SQL Server in an MSCS cluster.</source>
+          <target>MED-V does not provide support for running SQL Server in an MSCS cluster.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>In order to provide warm standby and to avoid data loss in the event of a failure, you can place SQL Server in a log shipping configuration.</source>
+          <target>In order to provide warm standby and to avoid data loss in the event of a failure, you can place SQL Server in a log shipping configuration.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=163302)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information on log shipping, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Infrastructure Planning and Design Microsoft SQL Server 2008</pc> guide (http://go.microsoft.com/fwlink/?LinkId=163302).</source>
+          <target>For information on log shipping, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Infrastructure Planning and Design Microsoft SQL Server 2008</pc> guide (http://go.microsoft.com/fwlink/?LinkId=163302).</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Design the Management Console</source>
+          <target>Design the Management Console</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Part of the functionality of the MED-V management console is to test VMs before they are packed for distribution to MED-V clients.</source>
+          <target>Part of the functionality of the MED-V management console is to test VMs before they are packed for distribution to MED-V clients.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Therefore, the management console should be designed with a form factor that resembles, as closely as possible, the form factor of a typical MED-V client machine.</source>
+          <target>Therefore, the management console should be designed with a form factor that resembles, as closely as possible, the form factor of a typical MED-V client machine.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>The management console application is installed together with the MED-V client and uses Microsoft Virtual PC 2007 SP1 with the hotfix that is described in Microsoft Knowledge Base article 974918.</source>
+          <target>The management console application is installed together with the MED-V client and uses Microsoft Virtual PC 2007 SP1 with the hotfix that is described in Microsoft Knowledge Base article 974918.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>A client operating system must be used; the MED-V management console cannot run on the same system as the MED-V server.</source>
+          <target>A client operating system must be used; the MED-V management console cannot run on the same system as the MED-V server.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>You cannot share a management console with multiple MED-V server instances.</source>
+          <target>You cannot share a management console with multiple MED-V server instances.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>The address of the MED-V server is specified during the installation of the management console’s MED-V client; this can be changed after installation, but at any time the management console can only work with a single MED-V server.</source>
+          <target>The address of the MED-V server is specified during the installation of the management console’s MED-V client; this can be changed after installation, but at any time the management console can only work with a single MED-V server.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>You can use multiple management consoles with a single MED-V server.</source>
+          <target>You can use multiple management consoles with a single MED-V server.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>To avoid conflicts, a mechanism is available that notifies other console users when one console has made changes to a MED-V workspace.</source>
+          <target>To avoid conflicts, a mechanism is available that notifies other console users when one console has made changes to a MED-V workspace.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>For each MED-V instance, determine how many management consoles will be needed and where they will be placed.</source>
+          <target>For each MED-V instance, determine how many management consoles will be needed and where they will be placed.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Select a typical MED-V client form factor to be used for the management console.</source>
+          <target>Select a typical MED-V client form factor to be used for the management console.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>MED-V 1.0 SP1 Supported Configurations</source>
+          <target>MED-V 1.0 SP1 Supported Configurations</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Configuring MED-V Server for Cluster Mode</source>
+          <target>Configuring MED-V Server for Cluster Mode</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>How to Install MED-V Client and MED-V Management Console</source>
+          <target>How to Install MED-V Client and MED-V Management Console</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Using the MED-V Management Console User Interface</source>
+          <target>Using the MED-V Management Console User Interface</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

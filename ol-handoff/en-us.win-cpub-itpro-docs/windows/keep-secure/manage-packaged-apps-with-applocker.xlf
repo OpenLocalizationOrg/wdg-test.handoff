@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\manage-packaged-apps-with-applocker.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">46d97e9a612d3b55a5802fab2efeb1d5e5a24c05</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Manage packaged apps with AppLocker (Windows 10)</source>
+          <target>Manage packaged apps with AppLocker (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic for IT professionals describes concepts and lists procedures to help you manage Packaged apps with AppLocker as part of your overall application control strategy.</source>
+          <target>This topic for IT professionals describes concepts and lists procedures to help you manage Packaged apps with AppLocker as part of your overall application control strategy.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Manage packaged apps with AppLocker</source>
+          <target>Manage packaged apps with AppLocker</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic for IT professionals describes concepts and lists procedures to help you manage Packaged apps with AppLocker as part of your overall application control strategy.</source>
+          <target>This topic for IT professionals describes concepts and lists procedures to help you manage Packaged apps with AppLocker as part of your overall application control strategy.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Understanding Packaged apps and Packaged app installers for AppLocker</source>
+          <target>Understanding Packaged apps and Packaged app installers for AppLocker</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Packaged apps, also known as Universal Windows apps, are based on a model that ensures all the files within an app package share the same identity.</source>
+          <target>Packaged apps, also known as Universal Windows apps, are based on a model that ensures all the files within an app package share the same identity.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>With classic Windows apps, each file within the app could have a unique identity.</source>
+          <target>With classic Windows apps, each file within the app could have a unique identity.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>With packaged apps, it is possible to control the entire app by using a single AppLocker rule.</source>
+          <target>With packaged apps, it is possible to control the entire app by using a single AppLocker rule.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  AppLocker supports only publisher rules for packaged apps.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  AppLocker supports only publisher rules for packaged apps.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>All packaged apps must be signed by the software publisher because Windows does not support unsigned packaged apps.</source>
+          <target>All packaged apps must be signed by the software publisher because Windows does not support unsigned packaged apps.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Typically, an app consists of multiple components: the installer that is used to install the app, and one or more exes, dlls, or scripts.</source>
+          <target>Typically, an app consists of multiple components: the installer that is used to install the app, and one or more exes, dlls, or scripts.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>With classic Windows apps, not all these components always share common attributes such as the software’s publisher name, product name, and product version.</source>
+          <target>With classic Windows apps, not all these components always share common attributes such as the software’s publisher name, product name, and product version.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Therefore, AppLocker controls each of these components separately through different rule collections, such as exe, dll, script, and Windows Installer rules.</source>
+          <target>Therefore, AppLocker controls each of these components separately through different rule collections, such as exe, dll, script, and Windows Installer rules.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>In contrast, all the components of a packaged app share the same publisher name, package name, and package version attributes.</source>
+          <target>In contrast, all the components of a packaged app share the same publisher name, package name, and package version attributes.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Therefore, you can control an entire app with a single rule.</source>
+          <target>Therefore, you can control an entire app with a single rule.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Comparing classic Windows apps and packaged apps</source>
+          <target>Comparing classic Windows apps and packaged apps</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>AppLocker policies for packaged apps can only be applied to apps installed on computers running at least Windows Server 2012 or Windows 8, but classic Windows apps can be controlled on devices running at least Windows Server 2008 R2 or Windows 7.</source>
+          <target>AppLocker policies for packaged apps can only be applied to apps installed on computers running at least Windows Server 2012 or Windows 8, but classic Windows apps can be controlled on devices running at least Windows Server 2008 R2 or Windows 7.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>The rules for classic Windows apps and packaged apps can be enforced in tandem.</source>
+          <target>The rules for classic Windows apps and packaged apps can be enforced in tandem.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>The differences between packaged apps and classic Windows apps that you should consider include:</source>
+          <target>The differences between packaged apps and classic Windows apps that you should consider include:</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installing the apps</pc>   All packaged apps can be installed by a standard user, whereas a number of classic Windows apps require administrative privileges to install.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installing the apps</pc>   All packaged apps can be installed by a standard user, whereas a number of classic Windows apps require administrative privileges to install.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>In an environment where most of the users are standard users, you might not have numerous exe rules (because classic Windows apps require administrative privileges to install), but you might want to have more explicit policies for packaged apps.</source>
+          <target>In an environment where most of the users are standard users, you might not have numerous exe rules (because classic Windows apps require administrative privileges to install), but you might want to have more explicit policies for packaged apps.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Changing the system state</pc>   Classic Windows apps can be written to change the system state if they are run with administrative privileges.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Changing the system state</pc>   Classic Windows apps can be written to change the system state if they are run with administrative privileges.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Most packaged apps cannot change the system state because they run with limited privileges.</source>
+          <target>Most packaged apps cannot change the system state because they run with limited privileges.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>When you design your AppLocker policies, it is important to understand whether an app that you are allowing can make system-wide changes.</source>
+          <target>When you design your AppLocker policies, it is important to understand whether an app that you are allowing can make system-wide changes.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Acquiring the apps</pc>   Packaged apps can be acquired through the Store, or by loading using Windows PowerShell cmdlets (which requires a special enterprise license).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Acquiring the apps</pc>   Packaged apps can be acquired through the Store, or by loading using Windows PowerShell cmdlets (which requires a special enterprise license).</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Classic Windows apps can be acquired through traditional means.</source>
+          <target>Classic Windows apps can be acquired through traditional means.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>AppLocker uses different rule collections to control packaged apps and classic Windows apps.</source>
+          <target>AppLocker uses different rule collections to control packaged apps and classic Windows apps.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>You have the choice to control one type, the other type, or both.</source>
+          <target>You have the choice to control one type, the other type, or both.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](administer-applocker.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For info about controlling classic Windows apps, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administer AppLocker</pc>.</source>
+          <target>For info about controlling classic Windows apps, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administer AppLocker</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](packaged-apps-and-packaged-app-installer-rules-in-applocker.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info about packaged apps, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Packaged apps and packaged app installer rules in AppLocker</pc>.</source>
+          <target>For more info about packaged apps, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Packaged apps and packaged app installer rules in AppLocker</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Design and deployment decisions</source>
+          <target>Design and deployment decisions</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use two methods to create an inventory of packaged apps on a computer: the AppLocker console or the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-AppxPackage</pc> Windows PowerShell cmdlet.</source>
+          <target>You can use two methods to create an inventory of packaged apps on a computer: the AppLocker console or the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-AppxPackage</pc> Windows PowerShell cmdlet.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Not all packaged apps are listed in AppLocker’s application inventory wizard.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Not all packaged apps are listed in AppLocker’s application inventory wizard.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Certain app packages are framework packages that are leveraged by other apps.</source>
+          <target>Certain app packages are framework packages that are leveraged by other apps.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>By themselves, these packages cannot do anything, but blocking such packages can inadvertently cause failure for apps that you want to allow.</source>
+          <target>By themselves, these packages cannot do anything, but blocking such packages can inadvertently cause failure for apps that you want to allow.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Instead, you can create Allow or Deny rules for the packaged apps that use these framework packages.</source>
+          <target>Instead, you can create Allow or Deny rules for the packaged apps that use these framework packages.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>The AppLocker user interface deliberately filters out all the packages that are registered as framework packages.</source>
+          <target>The AppLocker user interface deliberately filters out all the packages that are registered as framework packages.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](create-list-of-applications-deployed-to-each-business-group.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For info about how to create an inventory list, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create list of apps deployed to each business group</pc>.</source>
+          <target>For info about how to create an inventory list, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create list of apps deployed to each business group</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](http://technet.microsoft.com/library/hh847210.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For info about how to use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-AppxPackage</pc> Windows PowerShell cmdlet, see the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">AppLocker PowerShell Command Reference</pc>.</source>
+          <target>For info about how to use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-AppxPackage</pc> Windows PowerShell cmdlet, see the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">AppLocker PowerShell Command Reference</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](create-a-rule-for-packaged-apps.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For info about creating rules for Packaged apps, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create a rule for packaged apps</pc>.</source>
+          <target>For info about creating rules for Packaged apps, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create a rule for packaged apps</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Consider the following info when you are designing and deploying apps:</source>
+          <target>Consider the following info when you are designing and deploying apps:</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Because AppLocker supports only publisher rules for packaged apps, collecting the installation path information for packaged apps is not necessary.</source>
+          <target>Because AppLocker supports only publisher rules for packaged apps, collecting the installation path information for packaged apps is not necessary.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>You cannot create hash- or path-based rules for packaged apps because all packaged apps and packaged app installers are signed by the software publisher of the package.</source>
+          <target>You cannot create hash- or path-based rules for packaged apps because all packaged apps and packaged app installers are signed by the software publisher of the package.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Classic Windows apps were not always consistently signed; therefore, AppLocker has to support hash- or path-based rules.</source>
+          <target>Classic Windows apps were not always consistently signed; therefore, AppLocker has to support hash- or path-based rules.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>By default, if there are no rules in a particular rule collection, AppLocker allows every file that is included in that rule collection.</source>
+          <target>By default, if there are no rules in a particular rule collection, AppLocker allows every file that is included in that rule collection.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>For example, if there are no Windows Installer rules, AppLocker allows all .msi, .msp, and .mst files to run.</source>
+          <target>For example, if there are no Windows Installer rules, AppLocker allows all .msi, .msp, and .mst files to run.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>An existing AppLocker policy that was targeted at computers running Windows Server 2008 R2 and Windows 7 would not have rules for Packaged apps.</source>
+          <target>An existing AppLocker policy that was targeted at computers running Windows Server 2008 R2 and Windows 7 would not have rules for Packaged apps.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Therefore, when a computer running at least Windows Server 2012 or Windows 8 joins a domain where an AppLocker policy is already configured, users would be allowed to run any packaged app.</source>
+          <target>Therefore, when a computer running at least Windows Server 2012 or Windows 8 joins a domain where an AppLocker policy is already configured, users would be allowed to run any packaged app.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>This might be contrary to your design.</source>
+          <target>This might be contrary to your design.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>To prevent all packaged apps from running on a newly domain-joined computer, by default AppLocker blocks all packaged apps on a computer running at least Windows Server 2012 or Windows 8 if the existing domain policy has rules configured in the exe rule collection.</source>
+          <target>To prevent all packaged apps from running on a newly domain-joined computer, by default AppLocker blocks all packaged apps on a computer running at least Windows Server 2012 or Windows 8 if the existing domain policy has rules configured in the exe rule collection.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>You must take explicit action to allow packaged apps in your enterprise.</source>
+          <target>You must take explicit action to allow packaged apps in your enterprise.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>You can allow only a select set of packaged apps.</source>
+          <target>You can allow only a select set of packaged apps.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Or if you want to allow all packaged apps, you can create a default rule for the packaged apps collection.</source>
+          <target>Or if you want to allow all packaged apps, you can create a default rule for the packaged apps collection.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Using AppLocker to manage packaged apps</source>
+          <target>Using AppLocker to manage packaged apps</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Just as there are differences in managing each rule collection, you need to manage the packaged apps with the following strategy:</source>
+          <target>Just as there are differences in managing each rule collection, you need to manage the packaged apps with the following strategy:</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Gather information about which Packaged apps are running in your environment.</source>
+          <target>Gather information about which Packaged apps are running in your environment.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](create-list-of-applications-deployed-to-each-business-group.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about how to do this, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create list of apps deployed to each business group</pc>.</source>
+          <target>For information about how to do this, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create list of apps deployed to each business group</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Create AppLocker rules for specific packaged apps based on your policy strategies.</source>
+          <target>Create AppLocker rules for specific packaged apps based on your policy strategies.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](create-a-rule-for-packaged-apps.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](http://technet.microsoft.com/library/ee460941(WS.10).aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create a rule for packaged apps</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Packaged Apps Default Rules in AppLocker</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create a rule for packaged apps</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Packaged Apps Default Rules in AppLocker</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Continue to update the AppLocker policies as new package apps are introduced into your environment.</source>
+          <target>Continue to update the AppLocker policies as new package apps are introduced into your environment.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](add-rules-for-packaged-apps-to-existing-applocker-rule-set.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To do this, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add rules for packaged apps to existing AppLocker rule-set</pc>.</source>
+          <target>To do this, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add rules for packaged apps to existing AppLocker rule-set</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Continue to monitor your environment to verify the effectiveness of the rules that are deployed in AppLocker policies.</source>
+          <target>Continue to monitor your environment to verify the effectiveness of the rules that are deployed in AppLocker policies.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](monitor-application-usage-with-applocker.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To do this, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Monitor app usage with AppLocker</pc>.</source>
+          <target>To do this, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Monitor app usage with AppLocker</pc>.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

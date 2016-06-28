@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\checklist-creating-group-policy-objects.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">e7ed07ccdd878d1e6ef4825a2c3113a1cfab6455</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Checklist Creating Group Policy Objects (Windows 10)</source>
+          <target>Checklist Creating Group Policy Objects (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Checklist Creating Group Policy Objects</source>
+          <target>Checklist Creating Group Policy Objects</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Checklist: Creating Group Policy Objects</source>
+          <target>Checklist: Creating Group Policy Objects</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>To deploy firewall or IPsec settings or firewall or connection security rules, we recommend that you use Group Policy in AD DS.</source>
+          <target>To deploy firewall or IPsec settings or firewall or connection security rules, we recommend that you use Group Policy in AD DS.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>This section describes a tested, efficient method that requires some up-front work, but serves an administrator well in the long run by making GPO assignments as easy as dropping a device into a membership group.</source>
+          <target>This section describes a tested, efficient method that requires some up-front work, but serves an administrator well in the long run by making GPO assignments as easy as dropping a device into a membership group.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The checklists for firewall, domain isolation, and server isolation include a link to this checklist.</source>
+          <target>The checklists for firewall, domain isolation, and server isolation include a link to this checklist.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>About membership groups</source>
+          <target>About membership groups</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>For most GPO deployment tasks, you must determine which devices must receive and apply which GPOs.</source>
+          <target>For most GPO deployment tasks, you must determine which devices must receive and apply which GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Because different versions of Windows can support different settings and rules to achieve similar behavior, you might need multiple GPOs: one for each operating system that has settings different from the others to achieve the same result.</source>
+          <target>Because different versions of Windows can support different settings and rules to achieve similar behavior, you might need multiple GPOs: one for each operating system that has settings different from the others to achieve the same result.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>For example, Windows 10, Windows 8, Windows 7, Windows Vista, Windows Server 2012, Windows Server 2008, and Windows Server 2008 R2 use rules and settings that are incompatible with Windows 2000, Windows XP, and Windows Server 2003.</source>
+          <target>For example, Windows 10, Windows 8, Windows 7, Windows Vista, Windows Server 2012, Windows Server 2008, and Windows Server 2008 R2 use rules and settings that are incompatible with Windows 2000, Windows XP, and Windows Server 2003.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Therefore, if your network included those older operating systems you would need to create a GPO for each set of operating systems that can share common settings.</source>
+          <target>Therefore, if your network included those older operating systems you would need to create a GPO for each set of operating systems that can share common settings.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>To deploy typical domain isolation settings and rules, you might have five different GPOs for the versions of Windows discussed in this guide.</source>
+          <target>To deploy typical domain isolation settings and rules, you might have five different GPOs for the versions of Windows discussed in this guide.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>By following the procedures in this guide, you only need one membership group to manage all five GPOs.</source>
+          <target>By following the procedures in this guide, you only need one membership group to manage all five GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>The membership group is identified in the security group filter for all five GPOs.</source>
+          <target>The membership group is identified in the security group filter for all five GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>To apply the settings to a device, you make that device's account a member of the membership group.</source>
+          <target>To apply the settings to a device, you make that device's account a member of the membership group.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>WMI filters are used to ensure that the correct GPO is applied.</source>
+          <target>WMI filters are used to ensure that the correct GPO is applied.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>About exclusion groups</source>
+          <target>About exclusion groups</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>A Windows Firewall with Advanced Security design must often take into account domain-joined devices on the network that cannot or must not apply the rules and settings in the GPOs.</source>
+          <target>A Windows Firewall with Advanced Security design must often take into account domain-joined devices on the network that cannot or must not apply the rules and settings in the GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Because these devices are typically fewer in number than the devices that must apply the GPO, it is easier to use the Domain Members group in the GPO membership group, and then place these exception devices into an exclusion group that is denied Apply Group Policy permissions on the GPO.</source>
+          <target>Because these devices are typically fewer in number than the devices that must apply the GPO, it is easier to use the Domain Members group in the GPO membership group, and then place these exception devices into an exclusion group that is denied Apply Group Policy permissions on the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Because deny permissions take precedence over allow permissions, a device that is a member of both the membership group and the exception group is prevented from applying the GPO.</source>
+          <target>Because deny permissions take precedence over allow permissions, a device that is a member of both the membership group and the exception group is prevented from applying the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Devices typically found in a GPO exclusion group for domain isolation include the domain controllers, DHCP servers, and DNS servers.</source>
+          <target>Devices typically found in a GPO exclusion group for domain isolation include the domain controllers, DHCP servers, and DNS servers.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>You can also use a membership group for one zone as an exclusion group for another zone.</source>
+          <target>You can also use a membership group for one zone as an exclusion group for another zone.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>For example, devices in the boundary and encryption zones are technically in the main domain isolation zone, but must apply only the GPO for their assigned role.</source>
+          <target>For example, devices in the boundary and encryption zones are technically in the main domain isolation zone, but must apply only the GPO for their assigned role.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>To do this, the GPOs for the main isolation zone deny Apply Group Policy permissions to members of the boundary and encryption zones.</source>
+          <target>To do this, the GPOs for the main isolation zone deny Apply Group Policy permissions to members of the boundary and encryption zones.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Checklist: Creating Group Policy objects</source>
+          <target>Checklist: Creating Group Policy objects</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Task</source>
+          <target>Task</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Reference</source>
+          <target>Reference</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Review important concepts and examples for deploying GPOs in a way that best meets the needs of your organization.</source>
+          <target>Review important concepts and examples for deploying GPOs in a way that best meets the needs of your organization.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Identifying Your Windows Firewall with Advanced Security Deployment Goals</source>
+          <target>Identifying Your Windows Firewall with Advanced Security Deployment Goals</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Planning Group Policy Deployment for Your Isolation Zones</source>
+          <target>Planning Group Policy Deployment for Your Isolation Zones</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Create the membership group in AD DS that will be used to contain device accounts that must receive the GPO.</source>
+          <target>Create the membership group in AD DS that will be used to contain device accounts that must receive the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>If some devices in the membership group are running an operating system that does not support WMI filters, such as Windows 2000, create an exclusion group to contain the device accounts for the devices that cannot be blocked by using a WMI filter.</source>
+          <target>If some devices in the membership group are running an operating system that does not support WMI filters, such as Windows 2000, create an exclusion group to contain the device accounts for the devices that cannot be blocked by using a WMI filter.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Create a Group Account in Active Directory</source>
+          <target>Create a Group Account in Active Directory</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Create a GPO for each version of Windows that has different implementation requirements.</source>
+          <target>Create a GPO for each version of Windows that has different implementation requirements.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Create a Group Policy Object</source>
+          <target>Create a Group Policy Object</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Create security group filters to limit the GPO to only devices that are members of the membership group and to exclude devices that are members of the exclusion group.</source>
+          <target>Create security group filters to limit the GPO to only devices that are members of the membership group and to exclude devices that are members of the exclusion group.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Assign Security Group Filters to the GPO</source>
+          <target>Assign Security Group Filters to the GPO</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Create WMI filters to limit each GPO to only the devices that match the criteria in the filter.</source>
+          <target>Create WMI filters to limit each GPO to only the devices that match the criteria in the filter.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Create WMI Filters for the GPO</source>
+          <target>Create WMI Filters for the GPO</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>If you are working on a GPO that was copied from another, modify the group memberships and WMI filters so that they are correct for the new zone or version of Windows for which this GPO is intended.</source>
+          <target>If you are working on a GPO that was copied from another, modify the group memberships and WMI filters so that they are correct for the new zone or version of Windows for which this GPO is intended.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Modify GPO Filters to Apply to a Different Zone or Version of Windows</source>
+          <target>Modify GPO Filters to Apply to a Different Zone or Version of Windows</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Link the GPO to the domain level of the Active Directory organizational unit hierarchy.</source>
+          <target>Link the GPO to the domain level of the Active Directory organizational unit hierarchy.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Link the GPO to the Domain</source>
+          <target>Link the GPO to the Domain</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Before adding any rules or configuring the GPO, add a few test devices to the membership group, and make sure that the correct GPO is received and applied to each member of the group.</source>
+          <target>Before adding any rules or configuring the GPO, add a few test devices to the membership group, and make sure that the correct GPO is received and applied to each member of the group.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Add Test Devices to the Membership Group for a Zone</source>
+          <target>Add Test Devices to the Membership Group for a Zone</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

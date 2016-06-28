@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\basic-firewall-policy-design.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">9e1b7cd5914ca006371cbf8988fad571ec3892e1</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Basic Firewall Policy Design (Windows 10)</source>
+          <target>Basic Firewall Policy Design (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Basic Firewall Policy Design</source>
+          <target>Basic Firewall Policy Design</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Basic Firewall Policy Design</source>
+          <target>Basic Firewall Policy Design</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Many organizations have a network perimeter firewall that is designed to prevent the entry of malicious traffic in to the organization's network, but do not have a host-based firewall enabled on each device in the organization.</source>
+          <target>Many organizations have a network perimeter firewall that is designed to prevent the entry of malicious traffic in to the organization's network, but do not have a host-based firewall enabled on each device in the organization.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The Basic Firewall Policy Design helps you to protect the devices in your organization from unwanted network traffic that gets through the perimeter defenses, or that originates from inside your network.</source>
+          <target>The Basic Firewall Policy Design helps you to protect the devices in your organization from unwanted network traffic that gets through the perimeter defenses, or that originates from inside your network.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>In this design, you deploy firewall rules to each device in your organization to allow traffic that is required by the programs that are used.</source>
+          <target>In this design, you deploy firewall rules to each device in your organization to allow traffic that is required by the programs that are used.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Traffic that does not match the rules is dropped.</source>
+          <target>Traffic that does not match the rules is dropped.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Traffic can be blocked or permitted based on the characteristics of each network packet: its source or destination IP address, its source or destination port numbers, the program on the device that receives the inbound packet, and so on.</source>
+          <target>Traffic can be blocked or permitted based on the characteristics of each network packet: its source or destination IP address, its source or destination port numbers, the program on the device that receives the inbound packet, and so on.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>This design can also be deployed together with one or more of the other designs that add IPsec protection to the network traffic permitted.</source>
+          <target>This design can also be deployed together with one or more of the other designs that add IPsec protection to the network traffic permitted.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Many network administrators do not want to tackle the difficult task of determining all the appropriate rules for every program that is used by the organization, and then maintaining that list over time.</source>
+          <target>Many network administrators do not want to tackle the difficult task of determining all the appropriate rules for every program that is used by the organization, and then maintaining that list over time.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>In fact, most programs do not require specific firewall rules.</source>
+          <target>In fact, most programs do not require specific firewall rules.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>The default behavior of Windows and most contemporary applications makes this task easy:</source>
+          <target>The default behavior of Windows and most contemporary applications makes this task easy:</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>On client devices, the default firewall behavior already supports typical client programs.</source>
+          <target>On client devices, the default firewall behavior already supports typical client programs.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Programs create any required rules for you as part of the installation process.</source>
+          <target>Programs create any required rules for you as part of the installation process.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>You only have to create a rule if the client program must be able to receive unsolicited inbound network traffic from another device.</source>
+          <target>You only have to create a rule if the client program must be able to receive unsolicited inbound network traffic from another device.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>When you install a server program that must accept unsolicited inbound network traffic, the installation program likely creates or enables the appropriate rules on the server for you.</source>
+          <target>When you install a server program that must accept unsolicited inbound network traffic, the installation program likely creates or enables the appropriate rules on the server for you.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>For example, when you install a server role, the appropriate firewall rules are created and enabled automatically.</source>
+          <target>For example, when you install a server role, the appropriate firewall rules are created and enabled automatically.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>For other standard network behavior, the predefined rules that are built into Windows Server 2012, Windows Server 2008 R2, Windows Server 2008, Windows 8, Windows 7, and Windows Vista can easily be configured in a GPO and deployed to the devices in your organization.</source>
+          <target>For other standard network behavior, the predefined rules that are built into Windows Server 2012, Windows Server 2008 R2, Windows Server 2008, Windows 8, Windows 7, and Windows Vista can easily be configured in a GPO and deployed to the devices in your organization.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>For example, by using the predefined groups for Core Networking and File and Printer Sharing you can easily configure GPOs with rules for those frequently used networking protocols.</source>
+          <target>For example, by using the predefined groups for Core Networking and File and Printer Sharing you can easily configure GPOs with rules for those frequently used networking protocols.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>With few exceptions, the firewall can be enabled on all configurations.</source>
+          <target>With few exceptions, the firewall can be enabled on all configurations.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Therefore, we recommended that you enable the firewall on every device in your organization.</source>
+          <target>Therefore, we recommended that you enable the firewall on every device in your organization.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>This includes servers in your perimeter network, on mobile and remote clients that connect to the network, and on all servers and clients in your internal network.</source>
+          <target>This includes servers in your perimeter network, on mobile and remote clients that connect to the network, and on all servers and clients in your internal network.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Caution:</pc>  Stopping the service associated with Windows Firewall with Advanced Security is not supported by Microsoft.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Caution:</pc>  Stopping the service associated with Windows Firewall with Advanced Security is not supported by Microsoft.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>By default, in new installations, Windows Firewall is turned on in Windows Server 2012, Windows 8, and later.</source>
+          <target>By default, in new installations, Windows Firewall is turned on in Windows Server 2012, Windows 8, and later.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>If you turn off the Windows Firewall with Advanced Security service you lose other benefits provided by the service, such as the ability to use IPsec connection security rules, Windows Service Hardening, and network protection from forms of attacks that use network fingerprinting.</source>
+          <target>If you turn off the Windows Firewall with Advanced Security service you lose other benefits provided by the service, such as the ability to use IPsec connection security rules, Windows Service Hardening, and network protection from forms of attacks that use network fingerprinting.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Compatible third-party firewall software can programmatically disable only the parts of Windows Firewall with Advanced Security that might need to be disabled for compatibility.</source>
+          <target>Compatible third-party firewall software can programmatically disable only the parts of Windows Firewall with Advanced Security that might need to be disabled for compatibility.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>This is the recommended approach for third-party firewalls to coexist with the Windows Firewall; third-party party firewalls that comply with this recommendation have the certified logo from Microsoft.</source>
+          <target>This is the recommended approach for third-party firewalls to coexist with the Windows Firewall; third-party party firewalls that comply with this recommendation have the certified logo from Microsoft.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>An organization typically uses this design as a first step toward a more comprehensive Windows Firewall with Advanced Security design that adds server isolation and domain isolation.</source>
+          <target>An organization typically uses this design as a first step toward a more comprehensive Windows Firewall with Advanced Security design that adds server isolation and domain isolation.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>After implementing this design, you will have centralized management of the firewall rules applied to all devices that are running Windows in your organization.</source>
+          <target>After implementing this design, you will have centralized management of the firewall rules applied to all devices that are running Windows in your organization.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](domain-isolation-policy-design.md)</data>
+          <data id="id5">[</data>
+          <data id="id6">](server-isolation-policy-design.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  If you also intend to deploy the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Domain Isolation Policy Design</pc>, or the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Server Isolation Policy Design</pc>, we recommend that you do the design work for all three designs together, and then deploy in layers that correspond with each design.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  If you also intend to deploy the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Domain Isolation Policy Design</pc>, or the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Server Isolation Policy Design</pc>, we recommend that you do the design work for all three designs together, and then deploy in layers that correspond with each design.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>The basic firewall design can be applied to devices that are part of an Active Directory forest.</source>
+          <target>The basic firewall design can be applied to devices that are part of an Active Directory forest.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Active Directory is required to provide the centralized management and deployment of Group Policy objects that contain the firewall settings and rules.</source>
+          <target>Active Directory is required to provide the centralized management and deployment of Group Policy objects that contain the firewall settings and rules.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>For more information about this design:</source>
+          <target>For more information about this design:</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](protect-devices-from-unwanted-network-traffic.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>This design coincides with the deployment goal to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protect Devices from Unwanted Network Traffic</pc>.</source>
+          <target>This design coincides with the deployment goal to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protect Devices from Unwanted Network Traffic</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](firewall-policy-design-example.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more about this design, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Firewall Policy Design Example</pc>.</source>
+          <target>To learn more about this design, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Firewall Policy Design Example</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](designing-a-windows-firewall-with-advanced-security-strategy.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Before completing the design, gather the information described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Designing a Windows Firewall with Advanced Security Strategy</pc>.</source>
+          <target>Before completing the design, gather the information described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Designing a Windows Firewall with Advanced Security Strategy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](planning-settings-for-a-basic-firewall-policy.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To help you make the decisions required in this design, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning Settings for a Basic Firewall Policy</pc>.</source>
+          <target>To help you make the decisions required in this design, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning Settings for a Basic Firewall Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](checklist-implementing-a-basic-firewall-policy-design.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For a list of detailed tasks that you can use to deploy your basic firewall policy design, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Checklist: Implementing a Basic Firewall Policy Design</pc>.</source>
+          <target>For a list of detailed tasks that you can use to deploy your basic firewall policy design, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Checklist: Implementing a Basic Firewall Policy Design</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](domain-isolation-policy-design.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Domain Isolation Policy Design</pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Domain Isolation Policy Design</pc>
+          </target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

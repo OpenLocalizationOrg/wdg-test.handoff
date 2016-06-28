@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\applocker-architecture-and-components.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">b3847eb325403902f05c85bde28fc370b3aa7a85</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>AppLocker architecture and components (Windows 10)</source>
+          <target>AppLocker architecture and components (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic for IT professional describes AppLocker’s basic architecture and its major components.</source>
+          <target>This topic for IT professional describes AppLocker’s basic architecture and its major components.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>AppLocker architecture and components</source>
+          <target>AppLocker architecture and components</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic for IT professional describes AppLocker’s basic architecture and its major components.</source>
+          <target>This topic for IT professional describes AppLocker’s basic architecture and its major components.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>AppLocker relies on the Application Identity service to provide attributes for a file and to evaluate the AppLocker policy for the file.</source>
+          <target>AppLocker relies on the Application Identity service to provide attributes for a file and to evaluate the AppLocker policy for the file.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>AppLocker policies are conditional access control entries (ACEs), and policies are evaluated by using the attribute-based access control <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SeAccessCheckWithSecurityAttributes</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">AuthzAccessCheck</pc> functions.</source>
+          <target>AppLocker policies are conditional access control entries (ACEs), and policies are evaluated by using the attribute-based access control <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SeAccessCheckWithSecurityAttributes</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">AuthzAccessCheck</pc> functions.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>AppLocker provides three ways to intercept and validate if a file is allowed to execute according to an AppLocker policy.</source>
+          <target>AppLocker provides three ways to intercept and validate if a file is allowed to execute according to an AppLocker policy.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>A new process is created</source>
+          <target>A new process is created</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>When a new process is created, such as an executable file or a Universal Windows app is run, AppLocker invokes the Application Identity component to calculate the attributes of the main executable file used to create a new process.</source>
+          <target>When a new process is created, such as an executable file or a Universal Windows app is run, AppLocker invokes the Application Identity component to calculate the attributes of the main executable file used to create a new process.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>It then updates the new process's token with these attributes and checks the AppLocker policy to verify that the executable file is allowed to run.</source>
+          <target>It then updates the new process's token with these attributes and checks the AppLocker policy to verify that the executable file is allowed to run.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>A DLL is loaded</source>
+          <target>A DLL is loaded</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>When a new DLL loads, a notification is sent to AppLocker to verify that the DLL is allowed to load.</source>
+          <target>When a new DLL loads, a notification is sent to AppLocker to verify that the DLL is allowed to load.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>AppLocker calls the Application Identity component to calculate the file attributes.</source>
+          <target>AppLocker calls the Application Identity component to calculate the file attributes.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>It duplicates the existing process token and replaces those Application Identity attributes in the duplicated token with attributes of the loaded DLL.</source>
+          <target>It duplicates the existing process token and replaces those Application Identity attributes in the duplicated token with attributes of the loaded DLL.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>AppLocker then evaluates the policy for this DLL, and the duplicated token is discarded.</source>
+          <target>AppLocker then evaluates the policy for this DLL, and the duplicated token is discarded.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Depending on the result of this check, the system either continues to load the DLL or stops the process.</source>
+          <target>Depending on the result of this check, the system either continues to load the DLL or stops the process.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>A script is run</source>
+          <target>A script is run</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Before a script file is run, the script host (for example.</source>
+          <target>Before a script file is run, the script host (for example.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>for .ps1 files the script host is PowerShell) invokes AppLocker to verify the script.</source>
+          <target>for .ps1 files the script host is PowerShell) invokes AppLocker to verify the script.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>AppLocker invokes the Application Identity component in user-mode with the file name or file handle to calculate the file properties.</source>
+          <target>AppLocker invokes the Application Identity component in user-mode with the file name or file handle to calculate the file properties.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>The script file then is evaluated against the AppLocker policy to verify that it is allowed to run.</source>
+          <target>The script file then is evaluated against the AppLocker policy to verify that it is allowed to run.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>In each case, the actions taken by AppLocker are written to the event log.</source>
+          <target>In each case, the actions taken by AppLocker are written to the event log.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>AppLocker technical reference</source>
+          <target>AppLocker technical reference</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

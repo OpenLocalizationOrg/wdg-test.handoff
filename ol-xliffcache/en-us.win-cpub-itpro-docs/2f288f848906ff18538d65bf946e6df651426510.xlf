@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\domain-isolation-policy-design.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">2f288f848906ff18538d65bf946e6df651426510</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Domain Isolation Policy Design (Windows 10)</source>
+          <target>Domain Isolation Policy Design (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Domain Isolation Policy Design</source>
+          <target>Domain Isolation Policy Design</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Domain Isolation Policy Design</source>
+          <target>Domain Isolation Policy Design</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>In the domain isolation policy design, you configure the devices on your network to accept only connections coming from devices that are authenticated as members of the same isolated domain.</source>
+          <target>In the domain isolation policy design, you configure the devices on your network to accept only connections coming from devices that are authenticated as members of the same isolated domain.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](basic-firewall-policy-design.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>This design typically begins with a network configured as described in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Basic Firewall Policy Design</pc> section.</source>
+          <target>This design typically begins with a network configured as described in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Basic Firewall Policy Design</pc> section.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>For this design, you then add connection security and IPsec rules to configure devices in the isolated domain to accept only network traffic from other devices that can authenticate as a member of the isolated domain.</source>
+          <target>For this design, you then add connection security and IPsec rules to configure devices in the isolated domain to accept only network traffic from other devices that can authenticate as a member of the isolated domain.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>After implementing the new rules, your devices reject unsolicited network traffic from devices that are not members of the isolated domain.</source>
+          <target>After implementing the new rules, your devices reject unsolicited network traffic from devices that are not members of the isolated domain.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>The isolated domain might not be a single Active Directory domain.</source>
+          <target>The isolated domain might not be a single Active Directory domain.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>It can consist of all the domains in a forest, or domains in separate forests that have two-way trust relationships configured between them.</source>
+          <target>It can consist of all the domains in a forest, or domains in separate forests that have two-way trust relationships configured between them.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>By using connection security rules based on IPsec, you provide a logical barrier between devices even if they are connected to the same physical network segment.</source>
+          <target>By using connection security rules based on IPsec, you provide a logical barrier between devices even if they are connected to the same physical network segment.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The design is shown in the following illustration, with the arrows that show the permitted communication paths.</source>
+          <target>The design is shown in the following illustration, with the arrows that show the permitted communication paths.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>isolated domain boundary zone</source>
+          <target>isolated domain boundary zone</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Characteristics of this design, as shown in the diagram, include the following:</source>
+          <target>Characteristics of this design, as shown in the diagram, include the following:</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Isolated domain (area A) - Devices in the isolated domain receive unsolicited inbound traffic only from other members of the isolated domain or from devices referenced in authentication exemption rules.</source>
+          <target>Isolated domain (area A) - Devices in the isolated domain receive unsolicited inbound traffic only from other members of the isolated domain or from devices referenced in authentication exemption rules.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Devices in the isolated domain can send traffic to any device.</source>
+          <target>Devices in the isolated domain can send traffic to any device.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>This includes unauthenticated traffic to devices that are not in the isolated domain.</source>
+          <target>This includes unauthenticated traffic to devices that are not in the isolated domain.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Devices that cannot join an Active Directory domain, but that can use certificates for authentication, can be part of the isolated domain.</source>
+          <target>Devices that cannot join an Active Directory domain, but that can use certificates for authentication, can be part of the isolated domain.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](certificate-based-isolation-policy-design.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificate-based Isolation Policy Design</pc>.</source>
+          <target>For more info, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificate-based Isolation Policy Design</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Boundary zone (area B) - Devices in the boundary zone are part of the isolated domain but are allowed to accept inbound connections from untrusted devices, such as clients on the Internet.</source>
+          <target>Boundary zone (area B) - Devices in the boundary zone are part of the isolated domain but are allowed to accept inbound connections from untrusted devices, such as clients on the Internet.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Devices in the boundary zone request but do not require authentication to communicate.</source>
+          <target>Devices in the boundary zone request but do not require authentication to communicate.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>When a member of the isolated domain communicates with a boundary zone member the traffic is authenticated.</source>
+          <target>When a member of the isolated domain communicates with a boundary zone member the traffic is authenticated.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>When a device that is not part of the isolated domain communicates with a boundary zone member the traffic is not authenticated.</source>
+          <target>When a device that is not part of the isolated domain communicates with a boundary zone member the traffic is not authenticated.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Because boundary zone devices are exposed to network traffic from untrusted and potentially hostile devices, they must be carefully managed and secured.</source>
+          <target>Because boundary zone devices are exposed to network traffic from untrusted and potentially hostile devices, they must be carefully managed and secured.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Put only the devices that must be accessed by external devices in this zone.</source>
+          <target>Put only the devices that must be accessed by external devices in this zone.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Use firewall rules to ensure that network traffic is accepted only for services that you want exposed to non-domain member devices.</source>
+          <target>Use firewall rules to ensure that network traffic is accepted only for services that you want exposed to non-domain member devices.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Trusted non-domain members (area C) - Devices on the network that are not domain members or that cannot use IPsec authentication are allowed to communicate by configuring authentication exemption rules.</source>
+          <target>Trusted non-domain members (area C) - Devices on the network that are not domain members or that cannot use IPsec authentication are allowed to communicate by configuring authentication exemption rules.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>These rules enable devices in the isolated domain to accept inbound connections from these trusted non-domain member devices.</source>
+          <target>These rules enable devices in the isolated domain to accept inbound connections from these trusted non-domain member devices.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Untrusted non-domain members (area D) - Devices that are not managed by your organization and have an unknown security configuration must have access only to those devices required for your organization to correctly conduct its business.</source>
+          <target>Untrusted non-domain members (area D) - Devices that are not managed by your organization and have an unknown security configuration must have access only to those devices required for your organization to correctly conduct its business.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Domain isolation exists to put a logical barrier between these untrusted Devices and your organization's devices.</source>
+          <target>Domain isolation exists to put a logical barrier between these untrusted Devices and your organization's devices.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>After implementing this design, your administrative team will have centralized management of the firewall and connection security rules applied to the devices in your organization.</source>
+          <target>After implementing this design, your administrative team will have centralized management of the firewall and connection security rules applied to the devices in your organization.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](basic-firewall-policy-design.md)</data>
+          <data id="id5">[</data>
+          <data id="id6">](server-isolation-policy-design.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  This design builds on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Basic Firewall Policy Design</pc>, and in turn serves as the foundation for the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Server Isolation Policy Design</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  This design builds on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Basic Firewall Policy Design</pc>, and in turn serves as the foundation for the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Server Isolation Policy Design</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>If you plan to deploy all three, we recommend that you do the design work for all three together, and then deploy in the sequence presented.</source>
+          <target>If you plan to deploy all three, we recommend that you do the design work for all three together, and then deploy in the sequence presented.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>This design can be applied to Devices that are part of an Active Directory forest.</source>
+          <target>This design can be applied to Devices that are part of an Active Directory forest.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Active Directory is required to provide the centralized management and deployment of Group Policy objects that contain the connection security rules.</source>
+          <target>Active Directory is required to provide the centralized management and deployment of Group Policy objects that contain the connection security rules.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](certificate-based-isolation-policy-design.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>In order to expand the isolated domain to include Devices that cannot be part of an Active Directory domain, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificate-based Isolation Policy Design</pc>.</source>
+          <target>In order to expand the isolated domain to include Devices that cannot be part of an Active Directory domain, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificate-based Isolation Policy Design</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>For more info about this design:</source>
+          <target>For more info about this design:</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](protect-devices-from-unwanted-network-traffic.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](restrict-access-to-only-trusted-devices.md)</data>
+          <data id="id5">[</data>
+          <data id="id6">](require-encryption-when-accessing-sensitive-network-resources.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>This design coincides with the deployment goals to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protect Devices from Unwanted Network Traffic</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Restrict Access to Only Trusted Devices</pc>, and optionally <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Require Encryption When Accessing Sensitive Network Resources</pc>.</source>
+          <target>This design coincides with the deployment goals to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protect Devices from Unwanted Network Traffic</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Restrict Access to Only Trusted Devices</pc>, and optionally <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Require Encryption When Accessing Sensitive Network Resources</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](domain-isolation-policy-design-example.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more about this design, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Domain Isolation Policy Design Example</pc>.</source>
+          <target>To learn more about this design, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Domain Isolation Policy Design Example</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](designing-a-windows-firewall-with-advanced-security-strategy.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Before completing the design, gather the info described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Designing a Windows Firewall with Advanced Security Strategy</pc>.</source>
+          <target>Before completing the design, gather the info described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Designing a Windows Firewall with Advanced Security Strategy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](planning-domain-isolation-zones.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](planning-group-policy-deployment-for-your-isolation-zones.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To help you make the decisions required in this design, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning Domain Isolation Zones</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Planning Group Policy Deployment for Your Isolation Zones</pc>.</source>
+          <target>To help you make the decisions required in this design, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning Domain Isolation Zones</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Planning Group Policy Deployment for Your Isolation Zones</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](checklist-implementing-a-domain-isolation-policy-design.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For a list of tasks that you can use to deploy your domain isolation policy design, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Checklist: Implementing a Domain Isolation Policy Design</pc>.</source>
+          <target>For a list of tasks that you can use to deploy your domain isolation policy design, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Checklist: Implementing a Domain Isolation Policy Design</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](server-isolation-policy-design.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next:</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Server Isolation Policy Design</pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next:</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Server Isolation Policy Design</pc>
+          </target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

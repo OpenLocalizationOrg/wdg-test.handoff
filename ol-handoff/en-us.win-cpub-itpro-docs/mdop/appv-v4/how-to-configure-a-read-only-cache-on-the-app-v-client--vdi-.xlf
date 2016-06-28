@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\appv-v4\how-to-configure-a-read-only-cache-on-the-app-v-client--vdi-.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">9371ce398efb1f830ca6c1b9e3727205bf08649e</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>How to Configure a Read-only Cache on the App-V Client (VDI)</source>
+          <target>How to Configure a Read-only Cache on the App-V Client (VDI)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>How to Configure a Read-only Cache on the App-V Client (VDI)</source>
+          <target>How to Configure a Read-only Cache on the App-V Client (VDI)</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>How to Configure a Read-only Cache on the App-V Client (VDI)</source>
+          <target>How to Configure a Read-only Cache on the App-V Client (VDI)</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>In Microsoft Application Virtualization (App-V) 4.6 the Client supports using a shared read-only cache.</source>
+          <target>In Microsoft Application Virtualization (App-V) 4.6 the Client supports using a shared read-only cache.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>The shared read-only cache enables the Client to use disk space efficiently in a Virtual Desktop Infrastructure (VDI) system, where users run applications on Virtual Machines (VM) that are hosted in a data center server environment and share network storage on a Storage Area Network (SAN).</source>
+          <target>The shared read-only cache enables the Client to use disk space efficiently in a Virtual Desktop Infrastructure (VDI) system, where users run applications on Virtual Machines (VM) that are hosted in a data center server environment and share network storage on a Storage Area Network (SAN).</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>The following procedures provide an overview of the process that is required to implement the App-V Client in either of the primary VDI architectures, known as “Pooled VM” or “Static VM”.</source>
+          <target>The following procedures provide an overview of the process that is required to implement the App-V Client in either of the primary VDI architectures, known as “Pooled VM” or “Static VM”.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>It is assumed that you are familiar with the planning, deployment, and operation of the App-V system and its components, and also the operation and management of the VDI server.</source>
+          <target>It is assumed that you are familiar with the planning, deployment, and operation of the App-V system and its components, and also the operation and management of the VDI server.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=122939)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about App-V, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Virtualization</pc> (http://go.microsoft.com/fwlink/?LinkId=122939)</source>
+          <target>For more information about App-V, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Virtualization</pc> (http://go.microsoft.com/fwlink/?LinkId=122939)</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>The details outlined in these procedures are intended as examples only.</source>
+          <target>The details outlined in these procedures are intended as examples only.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>You might use different methods to complete the overall process.</source>
+          <target>You might use different methods to complete the overall process.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Deploying the App-V Client in a VDI Scenario</source>
+          <target>Deploying the App-V Client in a VDI Scenario</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>You can deploy the App-V Client in a VDI scenario by using a shared read-only cache that has been populated with all the applications required for all users.</source>
+          <target>You can deploy the App-V Client in a VDI scenario by using a shared read-only cache that has been populated with all the applications required for all users.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>You then configure the VDI Master VM Image so that all the App-V Clients use the same cache file.</source>
+          <target>You then configure the VDI Master VM Image so that all the App-V Clients use the same cache file.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Users are granted access to specific applications by using the App-V publishing process.</source>
+          <target>Users are granted access to specific applications by using the App-V publishing process.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Since the cache is already preloaded with all applications, no streaming occurs when a user starts an application.</source>
+          <target>Since the cache is already preloaded with all applications, no streaming occurs when a user starts an application.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>However, the packages used to prepopulate the cache must be put on an App-V server that supports Real Time Streaming Protocol (RTSP) streaming and that grants access permissions to the App-V Clients.</source>
+          <target>However, the packages used to prepopulate the cache must be put on an App-V server that supports Real Time Streaming Protocol (RTSP) streaming and that grants access permissions to the App-V Clients.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>If you publish the applications by using an App-V Management Server, you can use it to provide this streaming function.</source>
+          <target>If you publish the applications by using an App-V Management Server, you can use it to provide this streaming function.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>The deployment process consists of four primary tasks:</source>
+          <target>The deployment process consists of four primary tasks:</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Creating and populating the master shared cache file</source>
+          <target>Creating and populating the master shared cache file</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Copying the shared cache file to the VDI server storage</source>
+          <target>Copying the shared cache file to the VDI server storage</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Configuring the App-V client software on the VDI Master Image</source>
+          <target>Configuring the App-V client software on the VDI Master Image</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Managing the update deployment cycle for the shared cache file after the initial deployment</source>
+          <target>Managing the update deployment cycle for the shared cache file after the initial deployment</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>These tasks require careful planning.</source>
+          <target>These tasks require careful planning.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>We recommend that you prepare and document a methodical, reproducible process for your organization to follow.</source>
+          <target>We recommend that you prepare and document a methodical, reproducible process for your organization to follow.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>This is especially important for the initial preparation and deployment of the master shared cache file, and for the on-going management of application updates, each of which require an update to the master shared cache.</source>
+          <target>This is especially important for the initial preparation and deployment of the master shared cache file, and for the on-going management of application updates, each of which require an update to the master shared cache.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Use the following procedures to complete these primary tasks.</source>
+          <target>Use the following procedures to complete these primary tasks.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Although you can publish the applications by using several different methods, the following procedures are based on the use of an App-V Management Server for publishing.</source>
+          <target>Although you can publish the applications by using several different methods, the following procedures are based on the use of an App-V Management Server for publishing.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>To configure the read-only cache for initial deployment in a Pooled VM VDI or Static VM VDI scenario</source>
+          <target>To configure the read-only cache for initial deployment in a Pooled VM VDI or Static VM VDI scenario</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Set up and configure an App-V Management Server in a VM on the VDI server to provide user authentication and publishing support.</source>
+          <target>Set up and configure an App-V Management Server in a VM on the VDI server to provide user authentication and publishing support.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Populate the Content folder of this Management Server with all the application packages required for all users.</source>
+          <target>Populate the Content folder of this Management Server with all the application packages required for all users.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Set up a staging computer that has the App-V Client installed.</source>
+          <target>Set up a staging computer that has the App-V Client installed.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Log on to the staging computer with an account that has access to all applications so that the complete set of applications are published to the computer, and then stream the applications to cache so that they are fully loaded.</source>
+          <target>Log on to the staging computer with an account that has access to all applications so that the complete set of applications are published to the computer, and then stream the applications to cache so that they are fully loaded.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>The staging computer must use the same operating system type and system architecture as those used by the VMs on which the App-V Client will run.</source>
+          <target>The staging computer must use the same operating system type and system architecture as those used by the VMs on which the App-V Client will run.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Restart the staging computer in Safe Mode to ensure the drivers are not started, which would lock the cache file.</source>
+          <target>Restart the staging computer in Safe Mode to ensure the drivers are not started, which would lock the cache file.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Alternatively, you can stop and disable the Application Virtualization service, and then restart the computer.</source>
+          <target>Alternatively, you can stop and disable the Application Virtualization service, and then restart the computer.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>After the file has been copied, remember to enable and start the service again.</source>
+          <target>After the file has been copied, remember to enable and start the service again.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Copy the Sftfs.fsd cache file to the VDI server’s SAN where all the VMs can access it, such as in a shared folder.</source>
+          <target>Copy the Sftfs.fsd cache file to the VDI server’s SAN where all the VMs can access it, such as in a shared folder.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Set the folder access permissions to Read-only for the group Everyone and to Full Control for administrators who will manage the cache file updates.</source>
+          <target>Set the folder access permissions to Read-only for the group Everyone and to Full Control for administrators who will manage the cache file updates.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The location of the cache file can be obtained from the registry AppFS<ph dataRef="id1" id="ph1" />FileName.</source>
+          <target>The location of the cache file can be obtained from the registry AppFS<ph dataRef="id1" id="ph1" />FileName.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>You must put the FSD file in a location that has the responsiveness and reliability equivalent to locally attached storage performance, for example, a SAN.</source>
+          <target>You must put the FSD file in a location that has the responsiveness and reliability equivalent to locally attached storage performance, for example, a SAN.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Install the App-V Desktop Client on the VDI Master VM Image, and then configure it to use the read-only cache by adding the following registry key values to the AppFS key on the client.</source>
+          <target>Install the App-V Desktop Client on the VDI Master VM Image, and then configure it to use the read-only cache by adding the following registry key values to the AppFS key on the client.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\\[</data>
+          <data id="id5">\\\]</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+          <data id="id9">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The AppFS key is located at HKEY<ph dataRef="id1" id="ph1" />LOCAL<ph dataRef="id2" id="ph2" />MACHINE<ph dataRef="id3" id="ph3" />SOFTWARE<ph dataRef="id4" id="ph4" />Wow6432Node<ph dataRef="id5" id="ph5" />Microsoft<ph dataRef="id6" id="ph6" />SoftGrid<ph dataRef="id7" id="ph7" />4.5<ph dataRef="id8" id="ph8" />Client<ph dataRef="id9" id="ph9" />AppFS.</source>
+          <target>The AppFS key is located at HKEY<ph dataRef="id1" id="ph1" />LOCAL<ph dataRef="id2" id="ph2" />MACHINE<ph dataRef="id3" id="ph3" />SOFTWARE<ph dataRef="id4" id="ph4" />Wow6432Node<ph dataRef="id5" id="ph5" />Microsoft<ph dataRef="id6" id="ph6" />SoftGrid<ph dataRef="id7" id="ph7" />4.5<ph dataRef="id8" id="ph8" />Client<ph dataRef="id9" id="ph9" />AppFS.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Key</source>
+          <target>Key</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Type</source>
+          <target>Type</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Value</source>
+          <target>Value</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Purpose</source>
+          <target>Purpose</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>FileName</source>
+          <target>FileName</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>String</source>
+          <target>String</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>path to FSD</source>
+          <target>path to FSD</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specifies the path to the shared cache file, for example, <ph dataRef="id1" id="ph1" />VDIServername\Sharefolder\SFTFS.FSD (Required).</source>
+          <target>Specifies the path to the shared cache file, for example, <ph dataRef="id1" id="ph1" />VDIServername\Sharefolder\SFTFS.FSD (Required).</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>ReadOnlyFSD</source>
+          <target>ReadOnlyFSD</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>DWORD</source>
+          <target>DWORD</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>1</source>
+          <target>1</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Configures the client to operate in Read-Only mode.</source>
+          <target>Configures the client to operate in Read-Only mode.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>This ensures that the client will not attempt to stream updates to the package cache.</source>
+          <target>This ensures that the client will not attempt to stream updates to the package cache.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>(Required)</source>
+          <target>(Required)</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>ErrorLogLocation</source>
+          <target>ErrorLogLocation</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>String</source>
+          <target>String</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>path to error log (.etl) file</source>
+          <target>path to error log (.etl) file</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Entry used to specify the path to the error log.</source>
+          <target>Entry used to specify the path to the error log.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>(Recommended.</source>
+          <target>(Recommended.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Use a local path such as C:\Logs\Sftfs.etl).</source>
+          <target>Use a local path such as C:\Logs\Sftfs.etl).</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Configure the Master VM Image client to use the publishing server and to use publishing refresh at logon.</source>
+          <target>Configure the Master VM Image client to use the publishing server and to use publishing refresh at logon.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>As users log on to the VDI system and their VM is built from the Master VM Image, a publishing refresh cycle occurs and publishes all the applications for which their account is authorized.</source>
+          <target>As users log on to the VDI system and their VM is built from the Master VM Image, a publishing refresh cycle occurs and publishes all the applications for which their account is authorized.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>These applications are run from the shared cache.</source>
+          <target>These applications are run from the shared cache.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>To configure the client for package upgrade in a Pooled VM scenario</source>
+          <target>To configure the client for package upgrade in a Pooled VM scenario</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Complete the upgrade and testing of the application package.</source>
+          <target>Complete the upgrade and testing of the application package.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Upgrade the package on the App-V server.</source>
+          <target>Upgrade the package on the App-V server.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Then, publish and stream the new version of the applications to the client on the staging computer so that they are fully loaded into cache.</source>
+          <target>Then, publish and stream the new version of the applications to the client on the staging computer so that they are fully loaded into cache.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Restart the staging computer in Safe Mode to ensure the drivers are not started.</source>
+          <target>Restart the staging computer in Safe Mode to ensure the drivers are not started.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Alternatively, you can stop and disable the Application Virtualization service in the Services.msc, and then restart the computer.</source>
+          <target>Alternatively, you can stop and disable the Application Virtualization service in the Services.msc, and then restart the computer.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>After the file has been copied, remember to enable and start the service again.</source>
+          <target>After the file has been copied, remember to enable and start the service again.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Copy the Sftfs.fsd cache file to the VDI server’s SAN where all the VMs can access it, such as in a shared folder.</source>
+          <target>Copy the Sftfs.fsd cache file to the VDI server’s SAN where all the VMs can access it, such as in a shared folder.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use a different filename, for example, SFTFS<ph dataRef="id1" id="ph1" />V2.FSD, to distinguish the new version.</source>
+          <target>You can use a different filename, for example, SFTFS<ph dataRef="id1" id="ph1" />V2.FSD, to distinguish the new version.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">\\\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>To configure the App-V Desktop Client on the VDI Master VM Image to use the updated shared cache file, change the AppFS registry key FILENAME value to point to the location of the updated file, for example, <ph dataRef="id1" id="ph1" />VDIServername<ph dataRef="id2" id="ph2" />Sharefolder<ph dataRef="id3" id="ph3" />SFTFS<ph dataRef="id4" id="ph4" />V2.FSD.</source>
+          <target>To configure the App-V Desktop Client on the VDI Master VM Image to use the updated shared cache file, change the AppFS registry key FILENAME value to point to the location of the updated file, for example, <ph dataRef="id1" id="ph1" />VDIServername<ph dataRef="id2" id="ph2" />Sharefolder<ph dataRef="id3" id="ph3" />SFTFS<ph dataRef="id4" id="ph4" />V2.FSD.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>When users log off and then log on again, a new VM is created for them by using the updated Master Image.</source>
+          <target>When users log off and then log on again, a new VM is created for them by using the updated Master Image.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>All their user settings will be retained and applied to the new VM.</source>
+          <target>All their user settings will be retained and applied to the new VM.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Then they have access to the updated applications.</source>
+          <target>Then they have access to the updated applications.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>To configure the client for package upgrade in a Static VM scenario</source>
+          <target>To configure the client for package upgrade in a Static VM scenario</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Complete the upgrade and testing of the application package.</source>
+          <target>Complete the upgrade and testing of the application package.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Upgrade the package on the App-V server.</source>
+          <target>Upgrade the package on the App-V server.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Then, publish and stream the new version of the applications to the client on the staging computer so that the applications are fully loaded into cache.</source>
+          <target>Then, publish and stream the new version of the applications to the client on the staging computer so that the applications are fully loaded into cache.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Restart the staging computer in Safe Mode to ensure that the drivers are not started.</source>
+          <target>Restart the staging computer in Safe Mode to ensure that the drivers are not started.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Alternatively, you can stop and disable the Application Virtualization service in the Services.msc, and then restart the computer.</source>
+          <target>Alternatively, you can stop and disable the Application Virtualization service in the Services.msc, and then restart the computer.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>After the file has been copied, remember to enable and start the service again.</source>
+          <target>After the file has been copied, remember to enable and start the service again.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Copy the Sftfs.fsd cache file to the VDI server’s SAN where all the VMs can access it, such as in a shared folder.</source>
+          <target>Copy the Sftfs.fsd cache file to the VDI server’s SAN where all the VMs can access it, such as in a shared folder.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use a different filename, for example, SFTFS<ph dataRef="id1" id="ph1" />V2.FSD, to distinguish the new version.</source>
+          <target>You can use a different filename, for example, SFTFS<ph dataRef="id1" id="ph1" />V2.FSD, to distinguish the new version.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">\\\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>To configure the App-V Desktop Client on the VDI Master VM Image to use the updated shared cache file, change the AppFS registry key FILENAME value to point to the location of the updated file, for example, <ph dataRef="id1" id="ph1" />VDIServername<ph dataRef="id2" id="ph2" />Sharefolder<ph dataRef="id3" id="ph3" />SFTFS<ph dataRef="id4" id="ph4" />V2.FSD.</source>
+          <target>To configure the App-V Desktop Client on the VDI Master VM Image to use the updated shared cache file, change the AppFS registry key FILENAME value to point to the location of the updated file, for example, <ph dataRef="id1" id="ph1" />VDIServername<ph dataRef="id2" id="ph2" />Sharefolder<ph dataRef="id3" id="ph3" />SFTFS<ph dataRef="id4" id="ph4" />V2.FSD.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>This ensures that new users get the new version.</source>
+          <target>This ensures that new users get the new version.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">\\\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Create a script that edits the AppFS key FILENAME value to set it to the location of the updated cache, for example, <ph dataRef="id1" id="ph1" />VDIServername<ph dataRef="id2" id="ph2" />Sharefolder<ph dataRef="id3" id="ph3" />SFTFS<ph dataRef="id4" id="ph4" />V2.FSD.</source>
+          <target>Create a script that edits the AppFS key FILENAME value to set it to the location of the updated cache, for example, <ph dataRef="id1" id="ph1" />VDIServername<ph dataRef="id2" id="ph2" />Sharefolder<ph dataRef="id3" id="ph3" />SFTFS<ph dataRef="id4" id="ph4" />V2.FSD.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>Configure this script to run when the user logs off or logs on so that it runs before the App-V client drivers start, for example, by using Group Policy settings.</source>
+          <target>Configure this script to run when the user logs off or logs on so that it runs before the App-V client drivers start, for example, by using Group Policy settings.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>When users log off and log on again, their existing VM is updated, and they will use the updated copy of the cache.</source>
+          <target>When users log off and log on again, their existing VM is updated, and they will use the updated copy of the cache.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Then, they have access to the updated applications.</source>
+          <target>Then, they have access to the updated applications.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>How to Use Symbolic Links when Upgrading the Cache</source>
+          <target>How to Use Symbolic Links when Upgrading the Cache</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Instead of modifying the AppFS key FILENAME value every time that a new cache file is deployed that contains new or upgraded packages, you can use a symbolic link in the following operating systems: Windows Vista, Windows 7, and Windows Server 2008.</source>
+          <target>Instead of modifying the AppFS key FILENAME value every time that a new cache file is deployed that contains new or upgraded packages, you can use a symbolic link in the following operating systems: Windows Vista, Windows 7, and Windows Server 2008.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=157626)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about symbolic links, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Symbolic Links</pc> (http://go.microsoft.com/fwlink/?LinkId=157626).</source>
+          <target>For more information about symbolic links, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Symbolic Links</pc> (http://go.microsoft.com/fwlink/?LinkId=157626).</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>In contrast, Windows XP does not support the use of symbolic links, and you must use junction points instead.</source>
+          <target>In contrast, Windows XP does not support the use of symbolic links, and you must use junction points instead.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=182553)</data>
+          <data id="id3">[</data>
+          <data id="id4">](http://go.microsoft.com/fwlink/?LinkId=182554)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about junctions, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">article 205524</pc> in the Microsoft Knowledge Base (http://go.microsoft.com/fwlink/?LinkId=182553), and also the tool <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Junction v1.05</pc> (http://go.microsoft.com/fwlink/?LinkId=182554).</source>
+          <target>For more information about junctions, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">article 205524</pc> in the Microsoft Knowledge Base (http://go.microsoft.com/fwlink/?LinkId=182553), and also the tool <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Junction v1.05</pc> (http://go.microsoft.com/fwlink/?LinkId=182554).</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>To configure a symbolic link to reference the cache</source>
+          <target>To configure a symbolic link to reference the cache</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>During the initial deployment stage, open a Command Prompt window as a local administrator on the VDI server host operating system.</source>
+          <target>During the initial deployment stage, open a Command Prompt window as a local administrator on the VDI server host operating system.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Create a symbolic link by using the MKLINK command, and then configure it to point to the Sftfs.fsd file.</source>
+          <target>Create a symbolic link by using the MKLINK command, and then configure it to point to the Sftfs.fsd file.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">\\\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>mklink symlinkname <ph dataRef="id1" id="ph1" />vdihostserver<ph dataRef="id2" id="ph2" />sharefolder<ph dataRef="id3" id="ph3" />sftfs.fsd</source>
+          <target>mklink symlinkname <ph dataRef="id1" id="ph1" />vdihostserver<ph dataRef="id2" id="ph2" />sharefolder<ph dataRef="id3" id="ph3" />sftfs.fsd</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the VDI Master VM Image, open a Command Prompt window by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run as administrator</pc> option and grant remote link permissions so that the VM can access the symbolic link on the VDI Host operating system.</source>
+          <target>On the VDI Master VM Image, open a Command Prompt window by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run as administrator</pc> option and grant remote link permissions so that the VM can access the symbolic link on the VDI Host operating system.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>By default, remote link permissions are disabled.</source>
+          <target>By default, remote link permissions are disabled.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>fsutil behavior set SymlinkEvaluation R2R:1</source>
+          <target>fsutil behavior set SymlinkEvaluation R2R:1</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>On the storage server, appropriate link permissions must be enabled.</source>
+          <target>On the storage server, appropriate link permissions must be enabled.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Depending on the location of link and the Sftfs.fsd file, the permissions are <pc dataRefEnd="id2" dataRefStart="id1" id="p1">L2L:1</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">L2R:1</pc> or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">R2L:1</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">R2R:1</pc>.</source>
+          <target>Depending on the location of link and the Sftfs.fsd file, the permissions are <pc dataRefEnd="id2" dataRefStart="id1" id="p1">L2L:1</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">L2R:1</pc> or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">R2L:1</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">R2R:1</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <originalData>
+          <data id="id1">\\\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you configure the App-V Desktop Client on the VDI Master VM Image, set the AppFS key FILENAME value equal to the UNC path of the FSD file that is using the symbolic link; for example, set it to <ph dataRef="id1" id="ph1" />VDIHostserver<ph dataRef="id2" id="ph2" />Symlinkname.</source>
+          <target>When you configure the App-V Desktop Client on the VDI Master VM Image, set the AppFS key FILENAME value equal to the UNC path of the FSD file that is using the symbolic link; for example, set it to <ph dataRef="id1" id="ph1" />VDIHostserver<ph dataRef="id2" id="ph2" />Symlinkname.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>When the App-V client first accesses the cache, the symbolic link passes to the client a handle to the cache file.</source>
+          <target>When the App-V client first accesses the cache, the symbolic link passes to the client a handle to the cache file.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>The client continues to use that handle as long as the client is running.</source>
+          <target>The client continues to use that handle as long as the client is running.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>The value of the symbolic link can safely be updated even if existing clients have the old shared cache open.</source>
+          <target>The value of the symbolic link can safely be updated even if existing clients have the old shared cache open.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>When you must upgrade a package or to add a new package to the cache, follow steps 1 through 5 of the upgrade procedure for either the Static VM or Pooled VM scenario.</source>
+          <target>When you must upgrade a package or to add a new package to the cache, follow steps 1 through 5 of the upgrade procedure for either the Static VM or Pooled VM scenario.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Then, delete the symbolic link and re-create it to point to the new version of the shared cache file.</source>
+          <target>Then, delete the symbolic link and re-create it to point to the new version of the shared cache file.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>When the VM is restarted, the client receives a handle to the updated copy of the cache because the VM uses the path that contains the updated symbolic link.</source>
+          <target>When the VM is restarted, the client receives a handle to the updated copy of the cache because the VM uses the path that contains the updated symbolic link.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Then, the users have access to the new and updated applications.</source>
+          <target>Then, the users have access to the new and updated applications.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>How to Install Application Virtualization Management Server</source>
+          <target>How to Install Application Virtualization Management Server</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>How to Manually Install the Application Virtualization Client</source>
+          <target>How to Manually Install the Application Virtualization Client</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>How to Install the Client by Using the Command Line</source>
+          <target>How to Install the Client by Using the Command Line</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

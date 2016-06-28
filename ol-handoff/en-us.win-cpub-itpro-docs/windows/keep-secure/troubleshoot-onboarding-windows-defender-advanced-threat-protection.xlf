@@ -1,0 +1,1610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\troubleshoot-onboarding-windows-defender-advanced-threat-protection.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">2978bc34f22390f4641f7497e808c875951bbb31</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Troubleshoot Windows Defender ATP onboarding issues</source>
+          <target>Troubleshoot Windows Defender ATP onboarding issues</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Troubleshoot issues that might arise during the onboarding of endpoints or to the Windows Defender ATP service.</source>
+          <target>Troubleshoot issues that might arise during the onboarding of endpoints or to the Windows Defender ATP service.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Troubleshoot Windows Defender Advanced Threat Protection onboarding issues</source>
+          <target>Troubleshoot Windows Defender Advanced Threat Protection onboarding issues</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to:</source>
+          <target>Applies to:</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10 Insider Preview Build 14332 or later</source>
+          <target>Windows 10 Insider Preview Build 14332 or later</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Defender Advanced Threat Protection (Windows Defender ATP)</source>
+          <target>Windows Defender Advanced Threat Protection (Windows Defender ATP)</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>[Some information relates to pre-released product which may be substantially modified before it's commercially released.</source>
+          <target>[Some information relates to pre-released product which may be substantially modified before it's commercially released.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Microsoft makes no warranties, express or implied, with respect to the information provided here.]</source>
+          <target>Microsoft makes no warranties, express or implied, with respect to the information provided here.]</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>You might need to troubleshoot the Windows Defender Advanced Threat Protection onboarding process if you encounter issues.</source>
+          <target>You might need to troubleshoot the Windows Defender Advanced Threat Protection onboarding process if you encounter issues.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>This page provides detailed steps for troubleshooting endpoints that aren't reporting correctly, and common error codes encountered during onboarding.</source>
+          <target>This page provides detailed steps for troubleshooting endpoints that aren't reporting correctly, and common error codes encountered during onboarding.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Endpoints are not reporting to the service correctly</source>
+          <target>Endpoints are not reporting to the service correctly</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](investigate-machines-windows-defender-advanced-threat-protection.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you have completed the endpoint onboarding process and don't see endpoints in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Machines view</pc> after 20 minutes, it might indicate an endpoint onboarding or connectivity problem.</source>
+          <target>If you have completed the endpoint onboarding process and don't see endpoints in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Machines view</pc> after 20 minutes, it might indicate an endpoint onboarding or connectivity problem.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Go through the following verification topics to address this issue:</source>
+          <target>Go through the following verification topics to address this issue:</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Ensure the endpoint is onboarded successfully</source>
+          <target>Ensure the endpoint is onboarded successfully</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Ensure the Windows Defender ATP service is enabled</source>
+          <target>Ensure the Windows Defender ATP service is enabled</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Ensure the telemetry and diagnostics service is enabled</source>
+          <target>Ensure the telemetry and diagnostics service is enabled</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Ensure the endpoint has an Internet connection</source>
+          <target>Ensure the endpoint has an Internet connection</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Ensure the endpoint is onboarded successfully</source>
+          <target>Ensure the endpoint is onboarded successfully</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>If the endpoints aren't reporting correctly, you might need to check that the Windows Defender ATP service was successfully onboarded onto the endpoint.</source>
+          <target>If the endpoints aren't reporting correctly, you might need to check that the Windows Defender ATP service was successfully onboarded onto the endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Check the onboarding state in Registry</pc>:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Check the onboarding state in Registry</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run</pc>, and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run</pc>, and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>From the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run</pc> dialog box, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">regedit</pc> and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</source>
+          <target>From the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run</pc> dialog box, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">regedit</pc> and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Registry Editor</pc> navigate to the Status key under:</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Registry Editor</pc> navigate to the Status key under:</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Check the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OnboardingState</pc> value is set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1</pc>.</source>
+          <target>Check the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OnboardingState</pc> value is set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Image of OnboardingState status in Registry Editor</source>
+          <target>Image of OnboardingState status in Registry Editor</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OnboardingState</pc> value is not set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1</pc>, you can use Event Viewer to review errors on the endpoint.</source>
+          <target>If the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OnboardingState</pc> value is not set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1</pc>, you can use Event Viewer to review errors on the endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use Event Viewer to identify and adress onboarding errors</pc>:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use Event Viewer to identify and adress onboarding errors</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Event Viewer</pc>, and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Event Viewer</pc>, and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5"> &gt; </data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8"> &gt; </data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11"> &gt; </data>
+          <data id="id12">**</data>
+          <data id="id13">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Event Viewer (Local)</pc> pane, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Applications and Services Logs</pc><ph dataRef="id5" id="ph1" /><pc dataRefEnd="id7" dataRefStart="id6" id="p3">Microsoft</pc><ph dataRef="id8" id="ph2" /><pc dataRefEnd="id10" dataRefStart="id9" id="p4">Windows</pc><ph dataRef="id11" id="ph3" /><pc dataRefEnd="id13" dataRefStart="id12" id="p5">SENSE</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Event Viewer (Local)</pc> pane, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Applications and Services Logs</pc><ph dataRef="id5" id="ph1" /><pc dataRefEnd="id7" dataRefStart="id6" id="p3">Microsoft</pc><ph dataRef="id8" id="ph2" /><pc dataRefEnd="id10" dataRefStart="id9" id="p4">Windows</pc><ph dataRef="id11" id="ph3" /><pc dataRefEnd="id13" dataRefStart="id12" id="p5">SENSE</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;nbsp;&amp;nbsp;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>
+            <ph dataRef="id3" id="ph1" />SENSE is the internal name used to refer to the behavioral sensor that powers Windows Defender ATP.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>
+            <ph dataRef="id3" id="ph1" />SENSE is the internal name used to refer to the behavioral sensor that powers Windows Defender ATP.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operational</pc> to load the log.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operational</pc> to load the log.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc> pane, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Filter Current log</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc> pane, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Filter Current log</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">**</data>
+          <data id="id12">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Filter</pc> tab, under <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Event level:</pc> select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Critical</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Warning</pc>, and <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Error</pc>, and click <pc dataRefEnd="id12" dataRefStart="id11" id="p6">OK</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Filter</pc> tab, under <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Event level:</pc> select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Critical</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Warning</pc>, and <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Error</pc>, and click <pc dataRefEnd="id12" dataRefStart="id11" id="p6">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Image of Event Viewer log filter</source>
+          <target>Image of Event Viewer log filter</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Events which can indicate issues will appear in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operational</pc> pane.</source>
+          <target>Events which can indicate issues will appear in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operational</pc> pane.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>You can attempt to troubleshoot them based on the solutions in the following table:</source>
+          <target>You can attempt to troubleshoot them based on the solutions in the following table:</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Event ID</source>
+          <target>Event ID</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Message</source>
+          <target>Message</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Resolution steps</source>
+          <target>Resolution steps</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>5</source>
+          <target>5</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">_</data>
+          <data id="id2">_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Windows Advanced Threat Protection service failed to connect to the server at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">variable</pc></source>
+          <target>Windows Advanced Threat Protection service failed to connect to the server at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">variable</pc></target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#ensure-the-endpoint-has-an-internet-connection)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ensure the endpoint has Internet access</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ensure the endpoint has Internet access</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>6</source>
+          <target>6</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Windows Advanced Threat Protection service failed to read the onboarding parameters.</source>
+          <target>Windows Advanced Threat Protection service failed to read the onboarding parameters.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">_</data>
+          <data id="id2">_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Failure code: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">variable</pc></source>
+          <target>Failure code: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">variable</pc></target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](configure-endpoints-windows-defender-advanced-threat-protection.md#manual)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run the onboarding script again</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run the onboarding script again</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>7</source>
+          <target>7</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Windows Advanced Threat Protection service failed to read the onboarding parameters.</source>
+          <target>Windows Advanced Threat Protection service failed to read the onboarding parameters.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">_</data>
+          <data id="id2">_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Failure code: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">variable</pc></source>
+          <target>Failure code: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">variable</pc></target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#ensure-the-endpoint-has-an-internet-connection)</data>
+          <data id="id3">[</data>
+          <data id="id4">](configure-endpoints-windows-defender-advanced-threat-protection.md#manual)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ensure the endpoint has Internet access</pc>, then <pc dataRefEnd="id4" dataRefStart="id3" id="p2">run the onboarding script again</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ensure the endpoint has Internet access</pc>, then <pc dataRefEnd="id4" dataRefStart="id3" id="p2">run the onboarding script again</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>15</source>
+          <target>15</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">_</data>
+          <data id="id2">_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Windows Advanced Threat Protection cannot start command channel with URL: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">variable</pc></source>
+          <target>Windows Advanced Threat Protection cannot start command channel with URL: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">variable</pc></target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#ensure-the-endpoint-has-an-internet-connection)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ensure the endpoint has Internet access</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ensure the endpoint has Internet access</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Ensure the Windows Defender ATP service is enabled</source>
+          <target>Ensure the Windows Defender ATP service is enabled</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>If the endpoints aren't reporting correctly, you might need to check that the Windows Defender ATP service is set to automatically start and is running on the endpoint.</source>
+          <target>If the endpoints aren't reporting correctly, you might need to check that the Windows Defender ATP service is set to automatically start and is running on the endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>You can use the SC command line program for checking and managing the startup type and running state of the service.</source>
+          <target>You can use the SC command line program for checking and managing the startup type and running state of the service.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Check the Windows Defender ATP service startup type from the command line:</source>
+          <target>Check the Windows Defender ATP service startup type from the command line:</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Open an elevated command-line prompt on the endpoint:</source>
+          <target>Open an elevated command-line prompt on the endpoint:</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>a.</source>
+          <target>a.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>, and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>, and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>b.</source>
+          <target>b.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Enter the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>If the the service is running, then the result should look like the following screenshot:</source>
+          <target>If the the service is running, then the result should look like the following screenshot:</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Result of the sq query sense command</source>
+          <target>Result of the sq query sense command</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the service <pc dataRefEnd="id2" dataRefStart="id1" id="p1">START_TYPE</pc> is not set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">AUTO_START</pc>, then you'll need to set the service to automatically start.</source>
+          <target>If the service <pc dataRefEnd="id2" dataRefStart="id1" id="p1">START_TYPE</pc> is not set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">AUTO_START</pc>, then you'll need to set the service to automatically start.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Change the Windows Defender ATP service startup type from the command line:</source>
+          <target>Change the Windows Defender ATP service startup type from the command line:</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Open an elevated command-line prompt on the endpoint:</source>
+          <target>Open an elevated command-line prompt on the endpoint:</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>a.</source>
+          <target>a.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>, and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>, and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>b.</source>
+          <target>b.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Enter the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>A success message is displayed.</source>
+          <target>A success message is displayed.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Verify the change by entering the following command and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Verify the change by entering the following command and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Check the Windows Defender ATP service is running from the command line:</source>
+          <target>Check the Windows Defender ATP service is running from the command line:</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Open an elevated command-line prompt on the endpoint:</source>
+          <target>Open an elevated command-line prompt on the endpoint:</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>a.</source>
+          <target>a.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>, and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>, and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>b.</source>
+          <target>b.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Enter the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>If the service is running, the result should look like the following screenshot:</source>
+          <target>If the service is running, the result should look like the following screenshot:</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Result of the sc query sense command</source>
+          <target>Result of the sc query sense command</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the service <pc dataRefEnd="id2" dataRefStart="id1" id="p1">STATE</pc> is not set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">RUNNING</pc>, then you'll need to start it.</source>
+          <target>If the service <pc dataRefEnd="id2" dataRefStart="id1" id="p1">STATE</pc> is not set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">RUNNING</pc>, then you'll need to start it.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Start the Windows Defender ATP service from the command line:</source>
+          <target>Start the Windows Defender ATP service from the command line:</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Open an elevated command-line prompt on the endpoint:</source>
+          <target>Open an elevated command-line prompt on the endpoint:</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>a.</source>
+          <target>a.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>, and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>, and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>b.</source>
+          <target>b.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Enter the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>A success message is displayed.</source>
+          <target>A success message is displayed.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Verify the change by entering the following command and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Verify the change by entering the following command and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Ensure the telemetry and diagnostics service is enabled</source>
+          <target>Ensure the telemetry and diagnostics service is enabled</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>If the endpoints aren't reporting correctly, you might need to check that the Windows 10 telemetry and diagnostics service is set to automatically start and is running on the endpoint.</source>
+          <target>If the endpoints aren't reporting correctly, you might need to check that the Windows 10 telemetry and diagnostics service is set to automatically start and is running on the endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>The service may have been disabled by other programs or user configuration changes.</source>
+          <target>The service may have been disabled by other programs or user configuration changes.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>First, you should check that the service is set to start automatically when Windows starts, then you should check that the service is currently running (and start it if it isn't).</source>
+          <target>First, you should check that the service is set to start automatically when Windows starts, then you should check that the service is currently running (and start it if it isn't).</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Ensure the service is set to start</source>
+          <target>Ensure the service is set to start</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the command line to check the Windows 10 telemetry and diagnostics service startup type</pc>:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the command line to check the Windows 10 telemetry and diagnostics service startup type</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Open an elevated command-line prompt on the endpoint:</source>
+          <target>Open an elevated command-line prompt on the endpoint:</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>a.</source>
+          <target>a.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>, and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>, and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>b.</source>
+          <target>b.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Enter the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>If the service is enabled, then the result should look like the following screenshot:</source>
+          <target>If the service is enabled, then the result should look like the following screenshot:</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Result of the sc query command for diagtrack</source>
+          <target>Result of the sc query command for diagtrack</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">START_TYPE</pc> is not set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">AUTO_START</pc>, then you'll need to set the service to automatically start.</source>
+          <target>If the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">START_TYPE</pc> is not set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">AUTO_START</pc>, then you'll need to set the service to automatically start.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Use the command line to set the Windows 10 telemetry and diagnostics service to automatically start:</source>
+          <target>Use the command line to set the Windows 10 telemetry and diagnostics service to automatically start:</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Open an elevated command-line prompt on the endpoint:</source>
+          <target>Open an elevated command-line prompt on the endpoint:</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>a.</source>
+          <target>a.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>, and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>, and press <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>b.</source>
+          <target>b.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Enter the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>A success message is displayed.</source>
+          <target>A success message is displayed.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Verify the change by entering the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Verify the change by entering the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the Windows Services console to check the Windows 10 telemetry and diagnostics service startup type</pc>:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the Windows Services console to check the Windows 10 telemetry and diagnostics service startup type</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Open the services console:</source>
+          <target>Open the services console:</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>a.</source>
+          <target>a.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">services</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">services</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>b.</source>
+          <target>b.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc> to open the console.</source>
+          <target>Press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc> to open the console.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Scroll through the list of services until you find <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Connected User Experiences and Telemetry</pc>.</source>
+          <target>Scroll through the list of services until you find <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Connected User Experiences and Telemetry</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Check the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Startup type</pc> column - the service should be set as <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Automatic</pc>.</source>
+          <target>Check the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Startup type</pc> column - the service should be set as <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Automatic</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the startup type is not set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatic</pc>, you'll need to change it so the service starts when the endpoint does.</source>
+          <target>If the startup type is not set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatic</pc>, you'll need to change it so the service starts when the endpoint does.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Use the Windows Services console to set the Windows 10 telemetry and diagnostics service to automatically start:</source>
+          <target>Use the Windows Services console to set the Windows 10 telemetry and diagnostics service to automatically start:</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Open the services console:</source>
+          <target>Open the services console:</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>a.</source>
+          <target>a.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">services</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">services</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>b.</source>
+          <target>b.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc> to open the console.</source>
+          <target>Press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc> to open the console.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Scroll through the list of services until you find <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Connected User Experiences and Telemetry</pc>.</source>
+          <target>Scroll through the list of services until you find <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Connected User Experiences and Telemetry</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click on the entry and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc>.</source>
+          <target>Right-click on the entry and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> tab, change the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Startup type:</pc> to <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Automatic</pc>, as shown in the following image.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> tab, change the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Startup type:</pc> to <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Automatic</pc>, as shown in the following image.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Click OK.</source>
+          <target>Click OK.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Select Automatic to change the startup type in the Properties dialog box for the service</source>
+          <target>Select Automatic to change the startup type in the Properties dialog box for the service</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Ensure the service is running</source>
+          <target>Ensure the service is running</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the command line to check the Windows 10 telemetry and diagnostics service is running</pc>:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the command line to check the Windows 10 telemetry and diagnostics service is running</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>Open an elevated command-line prompt on the endpoint:</source>
+          <target>Open an elevated command-line prompt on the endpoint:</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>a.</source>
+          <target>a.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Click </pc>Start<pc dataRefEnd="id4" dataRefStart="id3" id="p2"> and type </pc>cmd<pc dataRefEnd="id6" dataRefStart="id5" id="p3">.</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Click </pc>Start<pc dataRefEnd="id4" dataRefStart="id3" id="p2"> and type </pc>cmd<pc dataRefEnd="id6" dataRefStart="id5" id="p3">.</pc></target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>b.</source>
+          <target>b.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Enter the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>If the service is running, the result should look like the following screenshot:</source>
+          <target>If the service is running, the result should look like the following screenshot:</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Result of the sc query command for sc query diagtrack</source>
+          <target>Result of the sc query command for sc query diagtrack</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the service <pc dataRefEnd="id2" dataRefStart="id1" id="p1">STATE</pc> is not set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">RUNNING</pc>, then you'll need to start it.</source>
+          <target>If the service <pc dataRefEnd="id2" dataRefStart="id1" id="p1">STATE</pc> is not set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">RUNNING</pc>, then you'll need to start it.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Use the command line to start the Windows 10 telemetry and diagnostics service:</source>
+          <target>Use the command line to start the Windows 10 telemetry and diagnostics service:</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Open an elevated command-line prompt on the endpoint:</source>
+          <target>Open an elevated command-line prompt on the endpoint:</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>a.</source>
+          <target>a.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Click </pc>Start<pc dataRefEnd="id4" dataRefStart="id3" id="p2"> and type </pc>cmd<pc dataRefEnd="id6" dataRefStart="id5" id="p3">.</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Click </pc>Start<pc dataRefEnd="id4" dataRefStart="id3" id="p2"> and type </pc>cmd<pc dataRefEnd="id6" dataRefStart="id5" id="p3">.</pc></target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>b.</source>
+          <target>b.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Enter the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>A success message is displayed.</source>
+          <target>A success message is displayed.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Verify the change by entering the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Verify the change by entering the following command, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the Windows Services console to check the Windows 10 telemetry and diagnostics service is running</pc>:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the Windows Services console to check the Windows 10 telemetry and diagnostics service is running</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>Open the services console:</source>
+          <target>Open the services console:</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>a.</source>
+          <target>a.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">services</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">services</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>b.</source>
+          <target>b.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc> to open the console.</source>
+          <target>Press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc> to open the console.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Scroll through the list of services until you find <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Connected User Experiences and Telemetry</pc>.</source>
+          <target>Scroll through the list of services until you find <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Connected User Experiences and Telemetry</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Check the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Status</pc> column - the service should be marked as <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Running</pc>.</source>
+          <target>Check the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Status</pc> column - the service should be marked as <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Running</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>If the service is not running, you'll need to start it.</source>
+          <target>If the service is not running, you'll need to start it.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>Use the Windows Services console to start the Windows 10 telemetry and diagnostics service:</source>
+          <target>Use the Windows Services console to start the Windows 10 telemetry and diagnostics service:</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>Open the services console:</source>
+          <target>Open the services console:</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>a.</source>
+          <target>a.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">services</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">services</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>b.</source>
+          <target>b.</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc> to open the console.</source>
+          <target>Press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc> to open the console.</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Scroll through the list of services until you find <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Connected User Experiences and Telemetry</pc>.</source>
+          <target>Scroll through the list of services until you find <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Connected User Experiences and Telemetry</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click on the entry and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, as shown in the following image.</source>
+          <target>Right-click on the entry and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, as shown in the following image.</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>Select Start to start the service</source>
+          <target>Select Start to start the service</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>Ensure the endpoint has an Internet connection</source>
+          <target>Ensure the endpoint has an Internet connection</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>The Window Defender ATP sensor requires Microsoft Windows HTTP (WinHTTP) to report telemetry and communicate with the Windows Defender ATP service.</source>
+          <target>The Window Defender ATP sensor requires Microsoft Windows HTTP (WinHTTP) to report telemetry and communicate with the Windows Defender ATP service.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>WinHTTP is independent of the Internet browsing proxy settings and other user context applications and must be able to detect the proxy servers that are available in your particular environment.</source>
+          <target>WinHTTP is independent of the Internet browsing proxy settings and other user context applications and must be able to detect the proxy servers that are available in your particular environment.</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](configure-proxy-internet-windows-defender-advanced-threat-protection.md#verify-client-connectivity-to-windows-defender-atp-service-urls)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To ensure that sensor has service connectivity, follow the steps described in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Verify client connectivity to Windows Defender ATP service URLs</pc> topic.</source>
+          <target>To ensure that sensor has service connectivity, follow the steps described in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Verify client connectivity to Windows Defender ATP service URLs</pc> topic.</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](configure-proxy-internet-windows-defender-advanced-threat-protection.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the verification fails and your environment is using a proxy to connect to the Internet, then follow the steps described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure proxy and Internet connectivity settings</pc> topic.</source>
+          <target>If the verification fails and your environment is using a proxy to connect to the Internet, then follow the steps described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure proxy and Internet connectivity settings</pc> topic.</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>Configure Windows Defender ATP endpoints</source>
+          <target>Configure Windows Defender ATP endpoints</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>Configure endpoint proxy and Internet connectivity settings</source>
+          <target>Configure endpoint proxy and Internet connectivity settings</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>Additional Windows Defender ATP configuration settings</source>
+          <target>Additional Windows Defender ATP configuration settings</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>Monitor the Windows Defender ATP onboarding</source>
+          <target>Monitor the Windows Defender ATP onboarding</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

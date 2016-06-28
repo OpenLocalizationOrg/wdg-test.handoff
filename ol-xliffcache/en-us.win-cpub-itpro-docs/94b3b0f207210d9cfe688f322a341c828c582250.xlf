@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\impersonate-a-client-after-authentication.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">94b3b0f207210d9cfe688f322a341c828c582250</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Impersonate a client after authentication (Windows 10)</source>
+          <target>Impersonate a client after authentication (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Describes the best practices, location, values, policy management, and security considerations for the Impersonate a client after authentication security policy setting.</source>
+          <target>Describes the best practices, location, values, policy management, and security considerations for the Impersonate a client after authentication security policy setting.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Impersonate a client after authentication</source>
+          <target>Impersonate a client after authentication</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Describes the best practices, location, values, policy management, and security considerations for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impersonate a client after authentication</pc> security policy setting.</source>
+          <target>Describes the best practices, location, values, policy management, and security considerations for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impersonate a client after authentication</pc> security policy setting.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Reference</source>
+          <target>Reference</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>This policy setting determines which programs are allowed to impersonate a user or another specified account and act on behalf of the user.</source>
+          <target>This policy setting determines which programs are allowed to impersonate a user or another specified account and act on behalf of the user.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>If this user right is required for this type of impersonation, an unauthorized user cannot cause a client to connect (for example, by remote procedure call (RPC) or named pipes) to a service that they have created to impersonate that client.</source>
+          <target>If this user right is required for this type of impersonation, an unauthorized user cannot cause a client to connect (for example, by remote procedure call (RPC) or named pipes) to a service that they have created to impersonate that client.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>(Such an action could elevate the unauthorized user's permissions to administrative or system levels.)</source>
+          <target>(Such an action could elevate the unauthorized user's permissions to administrative or system levels.)</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Impersonation is the ability of a thread to run in a security context that is different from the context of the process that owns the thread.</source>
+          <target>Impersonation is the ability of a thread to run in a security context that is different from the context of the process that owns the thread.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Impersonation is designed to meet the security requirements of client/server applications.</source>
+          <target>Impersonation is designed to meet the security requirements of client/server applications.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>When running in a client's security context, a service "is" the client, to some degree.</source>
+          <target>When running in a client's security context, a service "is" the client, to some degree.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>One of the service's threads uses an access token representing the client's credentials to obtain access to the objects to which the client has access.</source>
+          <target>One of the service's threads uses an access token representing the client's credentials to obtain access to the objects to which the client has access.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>The primary reason for impersonation is to cause access checks to be performed against the client's identity.</source>
+          <target>The primary reason for impersonation is to cause access checks to be performed against the client's identity.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Using the client's identity for access checks can cause access to be either restricted or expanded, depending on what the client has permission to do.</source>
+          <target>Using the client's identity for access checks can cause access to be either restricted or expanded, depending on what the client has permission to do.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Services that are started by the Service Control Manager have the built-in Service group added by default to their access tokens.</source>
+          <target>Services that are started by the Service Control Manager have the built-in Service group added by default to their access tokens.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>COM servers that are started by the COM infrastructure and configured to run under a specific account also have the Service group added to their access tokens.</source>
+          <target>COM servers that are started by the COM infrastructure and configured to run under a specific account also have the Service group added to their access tokens.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>As a result, these processes are assigned this user right when they are started.</source>
+          <target>As a result, these processes are assigned this user right when they are started.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Constant: SeImpersonatePrivilege</source>
+          <target>Constant: SeImpersonatePrivilege</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Possible values</source>
+          <target>Possible values</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>User-defined list of accounts</source>
+          <target>User-defined list of accounts</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Default values</source>
+          <target>Default values</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Not defined</source>
+          <target>Not defined</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Best practices</source>
+          <target>Best practices</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>A user can impersonate an access token if any of the following conditions exist:</source>
+          <target>A user can impersonate an access token if any of the following conditions exist:</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>The access token that is being impersonated is for this user.</source>
+          <target>The access token that is being impersonated is for this user.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>The user in this session logged on to the network with explicit credentials to create the access token.</source>
+          <target>The user in this session logged on to the network with explicit credentials to create the access token.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>The requested level is less than Impersonate, such as Anonymous or Identify.</source>
+          <target>The requested level is less than Impersonate, such as Anonymous or Identify.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Because of these factors, users do not usually need to have this user right assigned.</source>
+          <target>Because of these factors, users do not usually need to have this user right assigned.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Location</source>
+          <target>Location</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Computer Configuration<ph dataRef="id1" id="ph1" />Windows Settings<ph dataRef="id2" id="ph2" />Security Settings<ph dataRef="id3" id="ph3" />Local Policies<ph dataRef="id4" id="ph4" />User Rights Assignment</source>
+          <target>Computer Configuration<ph dataRef="id1" id="ph1" />Windows Settings<ph dataRef="id2" id="ph2" />Security Settings<ph dataRef="id3" id="ph3" />Local Policies<ph dataRef="id4" id="ph4" />User Rights Assignment</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Default values</source>
+          <target>Default values</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>By default, this setting is Administrators, Local Service, Network Service, and Service on domain controllers and stand-alone servers.</source>
+          <target>By default, this setting is Administrators, Local Service, Network Service, and Service on domain controllers and stand-alone servers.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>The following table lists the actual and effective default policy values.</source>
+          <target>The following table lists the actual and effective default policy values.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Default values are also listed on the policy’s property page.</source>
+          <target>Default values are also listed on the policy’s property page.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Server type or GPO</source>
+          <target>Server type or GPO</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Default value</source>
+          <target>Default value</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Default Domain Policy</source>
+          <target>Default Domain Policy</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Not defined</source>
+          <target>Not defined</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Default Domain Controller Policy</source>
+          <target>Default Domain Controller Policy</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Administrators</source>
+          <target>Administrators</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Local Service</source>
+          <target>Local Service</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Network Service</source>
+          <target>Network Service</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Service</source>
+          <target>Service</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Stand-Alone Server Default Settings</source>
+          <target>Stand-Alone Server Default Settings</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Administrators</source>
+          <target>Administrators</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Local Service</source>
+          <target>Local Service</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Network Service</source>
+          <target>Network Service</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Service</source>
+          <target>Service</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Domain Controller Effective Default Settings</source>
+          <target>Domain Controller Effective Default Settings</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Administrators</source>
+          <target>Administrators</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Local Service</source>
+          <target>Local Service</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Network Service</source>
+          <target>Network Service</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Service</source>
+          <target>Service</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Member Server Effective Default Settings</source>
+          <target>Member Server Effective Default Settings</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Administrators</source>
+          <target>Administrators</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Local Service</source>
+          <target>Local Service</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Network Service</source>
+          <target>Network Service</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Service</source>
+          <target>Service</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Client Computer Effective Default Settings</source>
+          <target>Client Computer Effective Default Settings</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Administrators</source>
+          <target>Administrators</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Local Service</source>
+          <target>Local Service</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Network Service</source>
+          <target>Network Service</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Service</source>
+          <target>Service</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Policy management</source>
+          <target>Policy management</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>This section describes features, tools, and guidance to help you manage this policy.</source>
+          <target>This section describes features, tools, and guidance to help you manage this policy.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>A restart of the computer is not required for this policy setting to be effective.</source>
+          <target>A restart of the computer is not required for this policy setting to be effective.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Any change to the user rights assignment for an account becomes effective the next time the owner of the account logs on.</source>
+          <target>Any change to the user rights assignment for an account becomes effective the next time the owner of the account logs on.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Group Policy</source>
+          <target>Group Policy</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Settings are applied in the following order through a Group Policy Object (GPO), which will overwrite settings on the local computer at the next Group Policy update:</source>
+          <target>Settings are applied in the following order through a Group Policy Object (GPO), which will overwrite settings on the local computer at the next Group Policy update:</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Local policy settings</source>
+          <target>Local policy settings</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Site policy settings</source>
+          <target>Site policy settings</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Domain policy settings</source>
+          <target>Domain policy settings</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>OU policy settings</source>
+          <target>OU policy settings</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>When a local setting is greyed out, it indicates that a GPO currently controls that setting.</source>
+          <target>When a local setting is greyed out, it indicates that a GPO currently controls that setting.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Security considerations</source>
+          <target>Security considerations</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>This section describes how an attacker might exploit a feature or its configuration, how to implement the countermeasure, and the possible negative consequences of countermeasure implementation.</source>
+          <target>This section describes how an attacker might exploit a feature or its configuration, how to implement the countermeasure, and the possible negative consequences of countermeasure implementation.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Vulnerability</source>
+          <target>Vulnerability</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>An attacker with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impersonate a client after authentication</pc> user right could create a service, mislead a client into connecting to the service, and then impersonate that computer to elevate the attacker's level of access to that of the device.</source>
+          <target>An attacker with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impersonate a client after authentication</pc> user right could create a service, mislead a client into connecting to the service, and then impersonate that computer to elevate the attacker's level of access to that of the device.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Countermeasure</source>
+          <target>Countermeasure</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On member servers, ensure that only the Administrators and Service groups (Local Service, Network Service, and Service) have the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impersonate a client after authentication</pc> user right assigned to them.</source>
+          <target>On member servers, ensure that only the Administrators and Service groups (Local Service, Network Service, and Service) have the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impersonate a client after authentication</pc> user right assigned to them.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Potential impact</source>
+          <target>Potential impact</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>In most cases, this configuration has no impact.</source>
+          <target>In most cases, this configuration has no impact.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">*</data>
+          <data id="id5">*</data>
+          <data id="id6">&amp;lt;</data>
+          <data id="id7">&amp;gt;</data>
+          <data id="id8">\_</data>
+          <data id="id9">\_</data>
+          <data id="id10">*</data>
+          <data id="id11">*</data>
+          <data id="id12">&amp;lt;</data>
+          <data id="id13">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you have installed optional components such as ASP.NET or IIS, you may need to assign the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impersonate a client after authentication</pc> user right to additional accounts that are required by those components, such as IUSR<ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2"><ph dataRef="id6" id="ph2" />ComputerName<ph dataRef="id7" id="ph3" /></pc>, IIS<ph dataRef="id8" id="ph4" />WPG, ASP.NET, or IWAM<ph dataRef="id9" id="ph5" /><pc dataRefEnd="id11" dataRefStart="id10" id="p3"><ph dataRef="id12" id="ph6" />ComputerName<ph dataRef="id13" id="ph7" /></pc>.</source>
+          <target>If you have installed optional components such as ASP.NET or IIS, you may need to assign the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impersonate a client after authentication</pc> user right to additional accounts that are required by those components, such as IUSR<ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2"><ph dataRef="id6" id="ph2" />ComputerName<ph dataRef="id7" id="ph3" /></pc>, IIS<ph dataRef="id8" id="ph4" />WPG, ASP.NET, or IWAM<ph dataRef="id9" id="ph5" /><pc dataRefEnd="id11" dataRefStart="id10" id="p3"><ph dataRef="id12" id="ph6" />ComputerName<ph dataRef="id13" id="ph7" /></pc>.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>User Rights Assignment</source>
+          <target>User Rights Assignment</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

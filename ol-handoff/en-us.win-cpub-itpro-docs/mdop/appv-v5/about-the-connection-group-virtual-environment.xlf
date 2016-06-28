@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\appv-v5\about-the-connection-group-virtual-environment.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">fa5b20dcbc1f29481a6663cef989951adb125137</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>About the Connection Group Virtual Environment</source>
+          <target>About the Connection Group Virtual Environment</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>About the Connection Group Virtual Environment</source>
+          <target>About the Connection Group Virtual Environment</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>About the Connection Group Virtual Environment</source>
+          <target>About the Connection Group Virtual Environment</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>In this topic:</source>
+          <target>In this topic:</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>How package priority is determined</source>
+          <target>How package priority is determined</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Merging identical package paths into one virtual directory in connection groups</source>
+          <target>Merging identical package paths into one virtual directory in connection groups</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>How package priority is determined</source>
+          <target>How package priority is determined</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The virtual environment and its current state are associated with the connection group, not with the individual packages.</source>
+          <target>The virtual environment and its current state are associated with the connection group, not with the individual packages.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>If an App-V package is removed from the connection group, the state that existed as part of the connection group will not migrate with the package.</source>
+          <target>If an App-V package is removed from the connection group, the state that existed as part of the connection group will not migrate with the package.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>If the same package is a part of two different connection groups, you have to indicate which connection group App-V should use.</source>
+          <target>If the same package is a part of two different connection groups, you have to indicate which connection group App-V should use.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>For example, you might have two packages in a connection group that each define the same registry DWORD value.</source>
+          <target>For example, you might have two packages in a connection group that each define the same registry DWORD value.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The connection group that is used is based on the order in which a package appears inside the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AppConnectionGroup</pc> XML document:</source>
+          <target>The connection group that is used is based on the order in which a package appears inside the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AppConnectionGroup</pc> XML document:</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The first package has the highest precedence.</source>
+          <target>The first package has the highest precedence.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The second package has the second highest precedence.</source>
+          <target>The second package has the second highest precedence.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Consider the following example section:</source>
+          <target>Consider the following example section:</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Assume that same DWORD value ABC (HKEY<ph dataRef="id1" id="ph1" />LOCAL<ph dataRef="id2" id="ph2" />MACHINE<ph dataRef="id3" id="ph3" />software<ph dataRef="id4" id="ph4" />contoso<ph dataRef="id5" id="ph5" />finapp<ph dataRef="id6" id="ph6" />region) is defined in the first and third package, such as:</source>
+          <target>Assume that same DWORD value ABC (HKEY<ph dataRef="id1" id="ph1" />LOCAL<ph dataRef="id2" id="ph2" />MACHINE<ph dataRef="id3" id="ph3" />software<ph dataRef="id4" id="ph4" />contoso<ph dataRef="id5" id="ph5" />finapp<ph dataRef="id6" id="ph6" />region) is defined in the first and third package, such as:</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Package 1 (A8731008-4523-4713-83A4-CD1363907160): HKEY<ph dataRef="id1" id="ph1" />LOCAL<ph dataRef="id2" id="ph2" />MACHINE<ph dataRef="id3" id="ph3" />software<ph dataRef="id4" id="ph4" />contoso<ph dataRef="id5" id="ph5" />finapp<ph dataRef="id6" id="ph6" />region=5</source>
+          <target>Package 1 (A8731008-4523-4713-83A4-CD1363907160): HKEY<ph dataRef="id1" id="ph1" />LOCAL<ph dataRef="id2" id="ph2" />MACHINE<ph dataRef="id3" id="ph3" />software<ph dataRef="id4" id="ph4" />contoso<ph dataRef="id5" id="ph5" />finapp<ph dataRef="id6" id="ph6" />region=5</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Package 3 (04220DCA-EE77-42BE-A9F5-96FD8E8593F2): HKEY<ph dataRef="id1" id="ph1" />LOCAL<ph dataRef="id2" id="ph2" />MACHINE<ph dataRef="id3" id="ph3" />software<ph dataRef="id4" id="ph4" />contoso<ph dataRef="id5" id="ph5" />finapp<ph dataRef="id6" id="ph6" />region=10</source>
+          <target>Package 3 (04220DCA-EE77-42BE-A9F5-96FD8E8593F2): HKEY<ph dataRef="id1" id="ph1" />LOCAL<ph dataRef="id2" id="ph2" />MACHINE<ph dataRef="id3" id="ph3" />software<ph dataRef="id4" id="ph4" />contoso<ph dataRef="id5" id="ph5" />finapp<ph dataRef="id6" id="ph6" />region=10</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Since Package 1 appears first, the AppConnectionGroup's virtual environment will have the single DWORD value of 5 (HKEY<ph dataRef="id1" id="ph1" />LOCAL<ph dataRef="id2" id="ph2" />MACHINE<ph dataRef="id3" id="ph3" />software<ph dataRef="id4" id="ph4" />contoso<ph dataRef="id5" id="ph5" />finapp<ph dataRef="id6" id="ph6" />region=5).</source>
+          <target>Since Package 1 appears first, the AppConnectionGroup's virtual environment will have the single DWORD value of 5 (HKEY<ph dataRef="id1" id="ph1" />LOCAL<ph dataRef="id2" id="ph2" />MACHINE<ph dataRef="id3" id="ph3" />software<ph dataRef="id4" id="ph4" />contoso<ph dataRef="id5" id="ph5" />finapp<ph dataRef="id6" id="ph6" />region=5).</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>This means that the virtual applications in Package 1, Package 2, and Package 3 will all see the value 5 when they query for HKEY<ph dataRef="id1" id="ph1" />LOCAL<ph dataRef="id2" id="ph2" />MACHINE<ph dataRef="id3" id="ph3" />software<ph dataRef="id4" id="ph4" />contoso<ph dataRef="id5" id="ph5" />finapp<ph dataRef="id6" id="ph6" />region.</source>
+          <target>This means that the virtual applications in Package 1, Package 2, and Package 3 will all see the value 5 when they query for HKEY<ph dataRef="id1" id="ph1" />LOCAL<ph dataRef="id2" id="ph2" />MACHINE<ph dataRef="id3" id="ph3" />software<ph dataRef="id4" id="ph4" />contoso<ph dataRef="id5" id="ph5" />finapp<ph dataRef="id6" id="ph6" />region.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Other virtual environment resources are resolved similarly, but the usual case is that the collisions occur in the registry.</source>
+          <target>Other virtual environment resources are resolved similarly, but the usual case is that the collisions occur in the registry.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Merging identical package paths into one virtual directory in connection groups</source>
+          <target>Merging identical package paths into one virtual directory in connection groups</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>If two or more packages in a connection group contain identical directory paths, the paths are merged into a single virtual directory inside the connection group virtual environment.</source>
+          <target>If two or more packages in a connection group contain identical directory paths, the paths are merged into a single virtual directory inside the connection group virtual environment.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>This merging of paths allows an application in one package to access files that are in a different package.</source>
+          <target>This merging of paths allows an application in one package to access files that are in a different package.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>When you remove a package from a connection group, the applications in that removed package are no longer able to access files in the remaining packages in the connection group.</source>
+          <target>When you remove a package from a connection group, the applications in that removed package are no longer able to access files in the remaining packages in the connection group.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>The order in which App-V looks up a file’s name in the connection group is specified by the order in which the App-V packages are listed in the connection group manifest file.</source>
+          <target>The order in which App-V looks up a file’s name in the connection group is specified by the order in which the App-V packages are listed in the connection group manifest file.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following example shows the order and relationship of a file name lookup in a connection group for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Package A</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Package B</pc>.</source>
+          <target>The following example shows the order and relationship of a file name lookup in a connection group for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Package A</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Package B</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Package A</source>
+          <target>Package A</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Package B</source>
+          <target>Package B</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>C:\Windows\System32</source>
+          <target>C:\Windows\System32</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>C:\Windows\System32</source>
+          <target>C:\Windows\System32</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>C:\AppTest</source>
+          <target>C:\AppTest</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>C:\AppTest</source>
+          <target>C:\AppTest</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>In the example above, when a virtualized application tries to find a specific file, Package A is searched first for a matching file path.</source>
+          <target>In the example above, when a virtualized application tries to find a specific file, Package A is searched first for a matching file path.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>If a matching path is not found, Package B is searched, using the following mapping rules:</source>
+          <target>If a matching path is not found, Package B is searched, using the following mapping rules:</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If a file named <pc dataRefEnd="id2" dataRefStart="id1" id="p1">test.txt</pc> exists in the same virtual folder hierarchy in both application packages, the first matching file is used.</source>
+          <target>If a file named <pc dataRefEnd="id2" dataRefStart="id1" id="p1">test.txt</pc> exists in the same virtual folder hierarchy in both application packages, the first matching file is used.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If a file named <pc dataRefEnd="id2" dataRefStart="id1" id="p1">bar.txt</pc> exists in the virtual folder hierarchy of one application package, but not in the other, the first matching file is used.</source>
+          <target>If a file named <pc dataRefEnd="id2" dataRefStart="id1" id="p1">bar.txt</pc> exists in the virtual folder hierarchy of one application package, but not in the other, the first matching file is used.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Got a suggestion for App-V?</source>
+          <target>Got a suggestion for App-V?</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add or vote on suggestions <pc dataRefEnd="id2" dataRefStart="id1" id="p1">here</pc>.</source>
+          <target>Add or vote on suggestions <pc dataRefEnd="id2" dataRefStart="id1" id="p1">here</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://social.technet.microsoft.com/Forums/home?forum=mdopappv)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For App-V issues, use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">App-V TechNet Forum</pc>.</source>
+          <target>For App-V issues, use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">App-V TechNet Forum</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Managing Connection Groups</source>
+          <target>Managing Connection Groups</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

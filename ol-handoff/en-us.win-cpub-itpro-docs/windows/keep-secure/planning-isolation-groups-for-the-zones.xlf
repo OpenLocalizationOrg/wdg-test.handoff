@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\planning-isolation-groups-for-the-zones.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">d6ac2001a878327b6c36813c900559a802171666</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Planning Isolation Groups for the Zones (Windows 10)</source>
+          <target>Planning Isolation Groups for the Zones (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Planning Isolation Groups for the Zones</source>
+          <target>Planning Isolation Groups for the Zones</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Planning Isolation Groups for the Zones</source>
+          <target>Planning Isolation Groups for the Zones</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Isolation groups in Active Directory are how you implement the various domain and server isolation zones.</source>
+          <target>Isolation groups in Active Directory are how you implement the various domain and server isolation zones.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>A device is assigned to a zone by adding its device account to the group which represents that zone.</source>
+          <target>A device is assigned to a zone by adding its device account to the group which represents that zone.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Caution:</pc>  Do not add devices to your groups yet.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Caution:</pc>  Do not add devices to your groups yet.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>If a device is in a group when the GPO is activated then that GPO is applied to the device.</source>
+          <target>If a device is in a group when the GPO is activated then that GPO is applied to the device.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>If the GPO is one that requires authentication, and the other devices have not yet received their GPOs, the device that uses the new GPO might not be able to communicate with the others.</source>
+          <target>If the GPO is one that requires authentication, and the other devices have not yet received their GPOs, the device that uses the new GPO might not be able to communicate with the others.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Universal groups are the best option to use for GPO assignment because they apply to the whole forest and reduce the number of groups that must be managed.</source>
+          <target>Universal groups are the best option to use for GPO assignment because they apply to the whole forest and reduce the number of groups that must be managed.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>However, if universal groups are unavailable, you can use domain global groups instead.</source>
+          <target>However, if universal groups are unavailable, you can use domain global groups instead.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The following table lists typical groups that can be used to manage the domain isolation zones discussed in the Woodgrove Bank example in this guide:</source>
+          <target>The following table lists typical groups that can be used to manage the domain isolation zones discussed in the Woodgrove Bank example in this guide:</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Group name</source>
+          <target>Group name</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>CG_DOMISO_No_IPsec</source>
+          <target>CG_DOMISO_No_IPsec</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>A universal group of device accounts that do not participate in the IPsec environment.</source>
+          <target>A universal group of device accounts that do not participate in the IPsec environment.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Typically consists of infrastructure device accounts that will also be included in exemption lists.</source>
+          <target>Typically consists of infrastructure device accounts that will also be included in exemption lists.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>This group is used in security group filters to ensure that GPOs with IPsec rules are not applied to group members.</source>
+          <target>This group is used in security group filters to ensure that GPOs with IPsec rules are not applied to group members.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>CG_DOMISO_IsolatedDomain</source>
+          <target>CG_DOMISO_IsolatedDomain</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>A universal group of device accounts that contains the members of the isolated domain.</source>
+          <target>A universal group of device accounts that contains the members of the isolated domain.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>During the early days of testing, this group might contain only a very small number of devices.</source>
+          <target>During the early days of testing, this group might contain only a very small number of devices.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>During production, it might contain the built-in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Domain Computers</pc> group to ensure that every device in the domain participates.</source>
+          <target>During production, it might contain the built-in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Domain Computers</pc> group to ensure that every device in the domain participates.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Members of this group receive the domain isolation GPO that requires authentication for inbound connections.</source>
+          <target>Members of this group receive the domain isolation GPO that requires authentication for inbound connections.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>CG_DOMISO_Boundary</source>
+          <target>CG_DOMISO_Boundary</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>A universal group of device accounts that contains the members of the boundary zone.</source>
+          <target>A universal group of device accounts that contains the members of the boundary zone.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Members of this group receive a GPO that specifies that authentication is requested, but not required.</source>
+          <target>Members of this group receive a GPO that specifies that authentication is requested, but not required.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>CG_DOMISO_Encryption</source>
+          <target>CG_DOMISO_Encryption</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>A universal group of device accounts that contains the members of the encryption zone.</source>
+          <target>A universal group of device accounts that contains the members of the encryption zone.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Members of this group receive a GPO that specifies that both authentication and encryption are required for all inbound connections.</source>
+          <target>Members of this group receive a GPO that specifies that both authentication and encryption are required for all inbound connections.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>CG_SRVISO_<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ServerRole</pc></source>
+          <target>CG_SRVISO_<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ServerRole</pc></target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>A universal group of device accounts that contains the members of the server isolation group.</source>
+          <target>A universal group of device accounts that contains the members of the server isolation group.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Members of this group receive the server isolation GPO that requires membership in a network access group in order to connect.</source>
+          <target>Members of this group receive the server isolation GPO that requires membership in a network access group in order to connect.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>There will be one group for each set of servers that have different user and device restriction requirements.</source>
+          <target>There will be one group for each set of servers that have different user and device restriction requirements.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Multiple GPOs might be delivered to each group.</source>
+          <target>Multiple GPOs might be delivered to each group.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Which one actually becomes applied depends on the security group filters assigned to the GPOs in addition to the results of any WMI filtering assigned to the GPOs.</source>
+          <target>Which one actually becomes applied depends on the security group filters assigned to the GPOs in addition to the results of any WMI filtering assigned to the GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](planning-the-gpos.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Details of the GPO layout are discussed in the section <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning the GPOs</pc>.</source>
+          <target>Details of the GPO layout are discussed in the section <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning the GPOs</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>If multiple GPOs are assigned to a group, and similar rules are applied, the rule that most specifically matches the network traffic is the one that is used by the device.</source>
+          <target>If multiple GPOs are assigned to a group, and similar rules are applied, the rule that most specifically matches the network traffic is the one that is used by the device.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>For example, if one IPsec rule says to request authentication for all IP traffic, and a second rule from a different GPO says to require authentication for IP traffic to and from a specific IP address, then the second rule takes precedence because it is more specific.</source>
+          <target>For example, if one IPsec rule says to request authentication for all IP traffic, and a second rule from a different GPO says to require authentication for IP traffic to and from a specific IP address, then the second rule takes precedence because it is more specific.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](planning-network-access-groups.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Planning Network Access Groups</pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Planning Network Access Groups</pc>
+          </target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

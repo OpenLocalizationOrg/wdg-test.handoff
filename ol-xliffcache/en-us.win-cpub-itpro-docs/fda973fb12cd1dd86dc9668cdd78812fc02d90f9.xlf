@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\planning-network-access-groups.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">fda973fb12cd1dd86dc9668cdd78812fc02d90f9</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Planning Network Access Groups (Windows 10)</source>
+          <target>Planning Network Access Groups (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Planning Network Access Groups</source>
+          <target>Planning Network Access Groups</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Planning Network Access Groups</source>
+          <target>Planning Network Access Groups</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>A network access group (NAG) is used to identify users and devices that have permission to access an isolated server.</source>
+          <target>A network access group (NAG) is used to identify users and devices that have permission to access an isolated server.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The server is configured with firewall rules that allow only network connections that are authenticated as originating from a device, and optionally a user, whose accounts are members of its NAG.</source>
+          <target>The server is configured with firewall rules that allow only network connections that are authenticated as originating from a device, and optionally a user, whose accounts are members of its NAG.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>A member of the isolated domain can belong to as many NAGs as required.</source>
+          <target>A member of the isolated domain can belong to as many NAGs as required.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Minimize the number of NAGs to limit the complexity of the solution.</source>
+          <target>Minimize the number of NAGs to limit the complexity of the solution.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>You need one NAG for each server isolation group to restrict the devices or users that are granted access.</source>
+          <target>You need one NAG for each server isolation group to restrict the devices or users that are granted access.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>You can optionally split the NAG into two different groups: one for authorized devices and one for authorized users.</source>
+          <target>You can optionally split the NAG into two different groups: one for authorized devices and one for authorized users.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The NAGs that you create and populate become active by referencing them in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Users and Computers</pc> tab of the firewall rules in the GPO assigned to the isolated servers.</source>
+          <target>The NAGs that you create and populate become active by referencing them in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Users and Computers</pc> tab of the firewall rules in the GPO assigned to the isolated servers.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The GPO must also contain connection security rules that require authentication to supply the credentials checked for NAG membership.</source>
+          <target>The GPO must also contain connection security rules that require authentication to supply the credentials checked for NAG membership.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>For the Woodgrove Bank scenario, access to the devices running SQL Server that support the WGBank application are restricted to the WGBank front-end servers and to approved administrative users logged on to specific authorized administrative devices.</source>
+          <target>For the Woodgrove Bank scenario, access to the devices running SQL Server that support the WGBank application are restricted to the WGBank front-end servers and to approved administrative users logged on to specific authorized administrative devices.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>They are also only accessed by the approved admin users and the service account that is used to the run the WGBank front end service.</source>
+          <target>They are also only accessed by the approved admin users and the service account that is used to the run the WGBank front end service.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>NAG Name</source>
+          <target>NAG Name</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>NAG Member Users, Computers, or Groups</source>
+          <target>NAG Member Users, Computers, or Groups</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>CG_NAG_<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ServerRole</pc>_Users</source>
+          <target>CG_NAG_<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ServerRole</pc>_Users</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Svr1AdminA</source>
+          <target>Svr1AdminA</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Svr1AdminB</source>
+          <target>Svr1AdminB</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Group_AppUsers</source>
+          <target>Group_AppUsers</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>AppSvcAccount</source>
+          <target>AppSvcAccount</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>This group is for all users who are authorized to make inbound IPsec connections to the isolated servers in this zone.</source>
+          <target>This group is for all users who are authorized to make inbound IPsec connections to the isolated servers in this zone.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>CG_NAG_<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ServerRole</pc>_Computers</source>
+          <target>CG_NAG_<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ServerRole</pc>_Computers</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Desktop1</source>
+          <target>Desktop1</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Desktop2</source>
+          <target>Desktop2</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>AdminDT1</source>
+          <target>AdminDT1</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>AppAdminDT1</source>
+          <target>AppAdminDT1</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>This group contains all devices that are authorized to make inbound IPsec connections to the isolated servers in this zone.</source>
+          <target>This group contains all devices that are authorized to make inbound IPsec connections to the isolated servers in this zone.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Membership in a NAG does not control the level of IPsec traffic protection.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Membership in a NAG does not control the level of IPsec traffic protection.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>The IKE negotiation is only aware of whether the device or user passed or failed the Kerberos V5 authentication process.</source>
+          <target>The IKE negotiation is only aware of whether the device or user passed or failed the Kerberos V5 authentication process.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>The connection security rules in the applied GPO control the security methods that are used for protecting traffic and are independent of the identity being authenticated by Kerberos V5.</source>
+          <target>The connection security rules in the applied GPO control the security methods that are used for protecting traffic and are independent of the identity being authenticated by Kerberos V5.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](planning-the-gpos.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Planning the GPOs</pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Planning the GPOs</pc>
+          </target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

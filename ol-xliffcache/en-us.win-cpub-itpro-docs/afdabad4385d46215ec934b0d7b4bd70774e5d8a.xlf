@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\appv-v4\how-to-use-the-differential-sft-file.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">afdabad4385d46215ec934b0d7b4bd70774e5d8a</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>How to Use the Differential SFT File</source>
+          <target>How to Use the Differential SFT File</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>How to Use the Differential SFT File</source>
+          <target>How to Use the Differential SFT File</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>How to Use the Differential SFT File</source>
+          <target>How to Use the Differential SFT File</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>When sequencing an application, the Microsoft Application Virtualization (App-V) Sequencer creates SFT files (.sft) to store all of the virtual application’s files content and configuration information.</source>
+          <target>When sequencing an application, the Microsoft Application Virtualization (App-V) Sequencer creates SFT files (.sft) to store all of the virtual application’s files content and configuration information.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>In version 4.5 of App-V, the Differential SFT (.dsft) file has been introduced.</source>
+          <target>In version 4.5 of App-V, the Differential SFT (.dsft) file has been introduced.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>After using the Sequencer to create an upgrade for an existing package, you can choose to generate this file to store only the differences between the original sequenced application package and the new version.</source>
+          <target>After using the Sequencer to create an upgrade for an existing package, you can choose to generate this file to store only the differences between the original sequenced application package and the new version.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>It is therefore much smaller than the full SFT file would be for the new version of the application and reduces the impact of sending package updates over low-bandwidth network connections.</source>
+          <target>It is therefore much smaller than the full SFT file would be for the new version of the application and reduces the impact of sending package updates over low-bandwidth network connections.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>However, its use is supported only in certain restricted situations.</source>
+          <target>However, its use is supported only in certain restricted situations.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>This feature was intended to be used specifically where you are using an electronic software distribution (ESD) system to manage a group of users with a local file server over a low-bandwidth connection and you are not using App-V streaming servers.</source>
+          <target>This feature was intended to be used specifically where you are using an electronic software distribution (ESD) system to manage a group of users with a local file server over a low-bandwidth connection and you are not using App-V streaming servers.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>You do not need to use the Differential SFT file if you are using Configuration Manager 2007 to manage the users, because Configuration Manager has support for low-bandwidth deployments already built in.</source>
+          <target>You do not need to use the Differential SFT file if you are using Configuration Manager 2007 to manage the users, because Configuration Manager has support for low-bandwidth deployments already built in.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>It is also not required if you are using Application Virtualization (App-V) Management or Streaming Servers with Active Upgrade because the client will retrieve only the differences between the old and new package versions.</source>
+          <target>It is also not required if you are using Application Virtualization (App-V) Management or Streaming Servers with Active Upgrade because the client will retrieve only the differences between the old and new package versions.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>The following procedure shows how to use the mkdiffpkg.exe that is included in the Sequencer installation to create the Differential SFT file, after completing the upgrade of the virtual application package, and to deploy the Differential SFT file.</source>
+          <target>The following procedure shows how to use the mkdiffpkg.exe that is included in the Sequencer installation to create the Differential SFT file, after completing the upgrade of the virtual application package, and to deploy the Differential SFT file.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Completing this procedure helps ensure that if the package is somehow unloaded from the client computer, the next time the user tries to run the application, the client will fall back to the override URL, which is set to stream the full package V2.sft from the local file share.</source>
+          <target>Completing this procedure helps ensure that if the package is somehow unloaded from the client computer, the next time the user tries to run the application, the client will fall back to the override URL, which is set to stream the full package V2.sft from the local file share.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>This will avoid any failure for the user when starting the application.</source>
+          <target>This will avoid any failure for the user when starting the application.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>If the entire client becomes corrupted or is uninstalled, it is recommended that the ESD system be configured to deploy the full version of the upgraded package, V2.sft, to the client.</source>
+          <target>If the entire client becomes corrupted or is uninstalled, it is recommended that the ESD system be configured to deploy the full version of the upgraded package, V2.sft, to the client.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">&lt;</data>
+          <data id="id2">&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about upgrading a package, see “How to Upgrade an Existing Virtual Application” in the App-V 4.5 Operations Guide at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://go.microsoft.com/fwlink/?LinkId=133129</pc></source>
+          <target>For more information about upgrading a package, see “How to Upgrade an Existing Virtual Application” in the App-V 4.5 Operations Guide at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://go.microsoft.com/fwlink/?LinkId=133129</pc></target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>As a prerequisite, all user computers being targeted by the ESD must have the V1.sft file fully loaded into their local cache, and file streaming must be enabled on all computers.</source>
+          <target>As a prerequisite, all user computers being targeted by the ESD must have the V1.sft file fully loaded into their local cache, and file streaming must be enabled on all computers.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>To use the Differential SFT file</source>
+          <target>To use the Differential SFT file</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Log on to the Sequencer computer by using an account with administrator rights.</source>
+          <target>Log on to the Sequencer computer by using an account with administrator rights.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Open the original package (V1) for upgrade in the Sequencer, and then upgrade the package to the new version (V2) and save it as a new V2.sft.</source>
+          <target>Open the original package (V1) for upgrade in the Sequencer, and then upgrade the package to the new version (V2) and save it as a new V2.sft.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Open a command window in the App-V 4.5 Sequencer installation folder, and run the following command:</source>
+          <target>Open a command window in the App-V 4.5 Sequencer installation folder, and run the following command:</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Using the ESD system or other file copy process, copy the full V2 package content file, V2.sft, to a local file share that is accessible to the user computers on a well-connected network connection.</source>
+          <target>Using the ESD system or other file copy process, copy the full V2 package content file, V2.sft, to a local file share that is accessible to the user computers on a well-connected network connection.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Using the ESD system, place a copy of the Differential SFT file, V2.dsft, on each user computer.</source>
+          <target>Using the ESD system, place a copy of the Differential SFT file, V2.dsft, on each user computer.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>To import the V2.dsft file, run the following SFTMIME command on each user computer:</source>
+          <target>To import the V2.dsft file, run the following SFTMIME command on each user computer:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Run the following SFTMIME command on each user computer to set the override URL to point to the V2.sft file:</source>
+          <target>Run the following SFTMIME command on each user computer to set the override URL to point to the V2.sft file:</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Differential SFT files must be applied to clients in the correct order.</source>
+          <target>Differential SFT files must be applied to clients in the correct order.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>For example, V2.dsft must be applied to a V1 application before V3.dsft is applied.</source>
+          <target>For example, V2.dsft must be applied to a V1 application before V3.dsft is applied.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Generate Microsoft Windows Installer (MSI) Package</pc> capability in the Sequencer cannot be used with the Differential SFT file.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Generate Microsoft Windows Installer (MSI) Package</pc> capability in the Sequencer cannot be used with the Differential SFT file.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>How to Create or Upgrade Virtual Applications Using the App-V Sequencer</source>
+          <target>How to Create or Upgrade Virtual Applications Using the App-V Sequencer</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

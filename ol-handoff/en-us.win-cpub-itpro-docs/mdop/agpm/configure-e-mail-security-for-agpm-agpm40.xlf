@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\agpm\configure-e-mail-security-for-agpm-agpm40.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">46404a7234e1f0a6e944e291bbe96b69c4c57b61</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Configure E-Mail Security for AGPM</source>
+          <target>Configure E-Mail Security for AGPM</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Configure E-Mail Security for AGPM</source>
+          <target>Configure E-Mail Security for AGPM</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Configure E-Mail Security for AGPM</source>
+          <target>Configure E-Mail Security for AGPM</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>By default, e-mail notifications sent because of actions in Advanced Group Policy Management (AGPM) are not encrypted and are sent through SMTP port 25.</source>
+          <target>By default, e-mail notifications sent because of actions in Advanced Group Policy Management (AGPM) are not encrypted and are sent through SMTP port 25.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>However, you can configure e-mail security for AGPM by using registry settings to specify whether to use Secure Sockets Layer (SSL) encryption and which SMTP port to use.</source>
+          <target>However, you can configure e-mail security for AGPM by using registry settings to specify whether to use Secure Sockets Layer (SSL) encryption and which SMTP port to use.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>By encrypting AGPM e-mail notifications, you can better protect those that could reveal sensitive information about your organization’s security.</source>
+          <target>By encrypting AGPM e-mail notifications, you can better protect those that could reveal sensitive information about your organization’s security.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Encrypting e-mail notifications is recommended when they are being relayed through remote mail servers, and may be required by some compliance regulations.</source>
+          <target>Encrypting e-mail notifications is recommended when they are being relayed through remote mail servers, and may be required by some compliance regulations.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Caution</source>
+          <target>Caution</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Incorrectly editing the registry may severely damage your system.</source>
+          <target>Incorrectly editing the registry may severely damage your system.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Before making changes to the registry, you should back up any valued data on the computer.</source>
+          <target>Before making changes to the registry, you should back up any valued data on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>A user account that has the AGPM Administrator (Full Control) role, the user account of the Approver who created the Group Policy Object (GPO) used in these procedures, or a user account that has the necessary permissions in AGPM is required to complete these procedures.</source>
+          <target>A user account that has the AGPM Administrator (Full Control) role, the user account of the Approver who created the Group Policy Object (GPO) used in these procedures, or a user account that has the necessary permissions in AGPM is required to complete these procedures.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Review the details in "Additional considerations" in this topic.</source>
+          <target>Review the details in "Additional considerations" in this topic.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>To configure e-mail security for AGPM by using Group Policy preferences</source>
+          <target>To configure e-mail security for AGPM by using Group Policy preferences</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Console</pc> tree, edit a GPO that is applied to all AGPM Servers for which you want to configure e-mail security.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Console</pc> tree, edit a GPO that is applied to all AGPM Servers for which you want to configure e-mail security.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](editing-a-gpo-agpm40.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>(For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Editing a GPO</pc>.)</source>
+          <target>(For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Editing a GPO</pc>.)</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Editor</pc> window, expand the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Computer Configuration</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Preferences</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Windows Settings</pc>, and <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Registry</pc> folders.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Editor</pc> window, expand the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Computer Configuration</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Preferences</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Windows Settings</pc>, and <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Registry</pc> folders.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the console tree, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Registry</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New</pc>, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Collection Item</pc>, and type <pc dataRefEnd="id8" dataRefStart="id7" id="p4">AGPM e-mail security</pc>.</source>
+          <target>In the console tree, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Registry</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New</pc>, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Collection Item</pc>, and type <pc dataRefEnd="id8" dataRefStart="id7" id="p4">AGPM e-mail security</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Create a Registry preference item to turn on encryption:</source>
+          <target>Create a Registry preference item to turn on encryption:</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the console tree, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM e-mail security</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Registry Item</pc>.</source>
+          <target>In the console tree, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM e-mail security</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Registry Item</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">New Registry Properties</pc> dialog box, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Update</pc> action.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">New Registry Properties</pc> dialog box, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Update</pc> action.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\_</data>
+          <data id="id6">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Hive</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">HKEY<ph dataRef="id5" id="ph1" />LOCAL<ph dataRef="id6" id="ph2" />MACHINE</pc>.</source>
+          <target>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Hive</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">HKEY<ph dataRef="id5" id="ph1" />LOCAL<ph dataRef="id6" id="ph2" />MACHINE</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Key Path</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SOFTWARE<ph dataRef="id5" id="ph1" />Microsoft<ph dataRef="id6" id="ph2" />AGPM</pc>.</source>
+          <target>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Key Path</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SOFTWARE<ph dataRef="id5" id="ph1" />Microsoft<ph dataRef="id6" id="ph2" />AGPM</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Value name</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">EncryptSmtp</pc>.</source>
+          <target>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Value name</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">EncryptSmtp</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Value type</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">REG<ph dataRef="id5" id="ph1" />DWORD</pc>.</source>
+          <target>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Value type</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">REG<ph dataRef="id5" id="ph1" />DWORD</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Base</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Decimal</pc>, and for <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Value data</pc>, type <pc dataRefEnd="id8" dataRefStart="id7" id="p4">1</pc> to use SSL encryption, or <pc dataRefEnd="id10" dataRefStart="id9" id="p5">0</pc> to let e-mail to be sent without encryption.</source>
+          <target>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Base</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Decimal</pc>, and for <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Value data</pc>, type <pc dataRefEnd="id8" dataRefStart="id7" id="p4">1</pc> to use SSL encryption, or <pc dataRefEnd="id10" dataRefStart="id9" id="p5">0</pc> to let e-mail to be sent without encryption.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>By default, e-mail is sent without encryption.</source>
+          <target>By default, e-mail is sent without encryption.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Create a Registry preference item to specify the SMTP port:</source>
+          <target>Create a Registry preference item to specify the SMTP port:</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the console tree, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM E-mail security</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Registry Item</pc>.</source>
+          <target>In the console tree, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM E-mail security</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Registry Item</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">New Registry Properties</pc> dialog box, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Update</pc> action.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">New Registry Properties</pc> dialog box, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Update</pc> action.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\_</data>
+          <data id="id6">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Hive</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">HKEY<ph dataRef="id5" id="ph1" />LOCAL<ph dataRef="id6" id="ph2" />MACHINE</pc>.</source>
+          <target>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Hive</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">HKEY<ph dataRef="id5" id="ph1" />LOCAL<ph dataRef="id6" id="ph2" />MACHINE</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Key Path</pc> dialog box, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SOFTWARE<ph dataRef="id5" id="ph1" />Microsoft<ph dataRef="id6" id="ph2" />AGPM</pc>.</source>
+          <target>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Key Path</pc> dialog box, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SOFTWARE<ph dataRef="id5" id="ph1" />Microsoft<ph dataRef="id6" id="ph2" />AGPM</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Value name</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SmtpPort</pc>.</source>
+          <target>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Value name</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SmtpPort</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Value type</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">REG<ph dataRef="id5" id="ph1" />DWORD</pc>.</source>
+          <target>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Value type</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">REG<ph dataRef="id5" id="ph1" />DWORD</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Base</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Decimal</pc>, and for <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Value data</pc>, type a port number for the SMTP port.</source>
+          <target>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Base</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Decimal</pc>, and for <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Value data</pc>, type a port number for the SMTP port.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>By default, the SMTP port is port 25 if encryption is not enabled or port 587 if SSL encryption is enabled.</source>
+          <target>By default, the SMTP port is port 25 if encryption is not enabled or port 587 if SSL encryption is enabled.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Close the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Editor</pc> window, and then check in and deploy the GPO.</source>
+          <target>Close the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Editor</pc> window, and then check in and deploy the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](deploy-a-gpo-agpm40.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy a GPO</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy a GPO</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Additional considerations</source>
+          <target>Additional considerations</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>You must be able to edit and deploy a GPO to configure registry settings by using Group Policy Preferences.</source>
+          <target>You must be able to edit and deploy a GPO to configure registry settings by using Group Policy Preferences.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](editing-a-gpo-agpm40.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](deploy-a-gpo-agpm40.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Editing a GPO</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Deploy a GPO</pc> for additional detail.</source>
+          <target>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Editing a GPO</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Deploy a GPO</pc> for additional detail.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Additional references</source>
+          <target>Additional references</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Configuring Advanced Group Policy Management</source>
+          <target>Configuring Advanced Group Policy Management</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\checklist-configuring-rules-for-servers-in-a-standalone-isolated-server-zone.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">ae801c97d696ff8aa975a944d1efa140f9be5c67</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Checklist Configuring Rules for Servers in a Standalone Isolated Server Zone (Windows 10)</source>
+          <target>Checklist Configuring Rules for Servers in a Standalone Isolated Server Zone (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Checklist Configuring Rules for Servers in a Standalone Isolated Server Zone</source>
+          <target>Checklist Configuring Rules for Servers in a Standalone Isolated Server Zone</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Checklist: Configuring Rules for Servers in a Standalone Isolated Server Zone</source>
+          <target>Checklist: Configuring Rules for Servers in a Standalone Isolated Server Zone</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>This checklist includes tasks for configuring connection security rules and IPsec settings in your GPOs for servers in a standalone isolated server zone that is not part of an isolated domain.</source>
+          <target>This checklist includes tasks for configuring connection security rules and IPsec settings in your GPOs for servers in a standalone isolated server zone that is not part of an isolated domain.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>In addition to requiring authentication and optionally encryption, servers in a server isolation zone are accessible only by users or devices that are authenticated as members of a network access group (NAG).</source>
+          <target>In addition to requiring authentication and optionally encryption, servers in a server isolation zone are accessible only by users or devices that are authenticated as members of a network access group (NAG).</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The GPOs described here apply only to the isolated servers, not to the client devices that connect to them.</source>
+          <target>The GPOs described here apply only to the isolated servers, not to the client devices that connect to them.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](checklist-creating-rules-for-clients-of-a-standalone-isolated-server-zone.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the GPOs for the client devices, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Checklist: Creating Rules for Clients of a Standalone Isolated Server Zone</pc>.</source>
+          <target>For the GPOs for the client devices, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Checklist: Creating Rules for Clients of a Standalone Isolated Server Zone</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>The GPOs for isolated servers are similar to those for an isolated domain.</source>
+          <target>The GPOs for isolated servers are similar to those for an isolated domain.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>This checklist refers you to those procedures for the creation of some of the rules.</source>
+          <target>This checklist refers you to those procedures for the creation of some of the rules.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The other procedures in this checklist are for creating the restrictions that allow only members of the server access group to connect to the server.</source>
+          <target>The other procedures in this checklist are for creating the restrictions that allow only members of the server access group to connect to the server.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Checklist: Configuring rules for isolated servers</source>
+          <target>Checklist: Configuring rules for isolated servers</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Task</source>
+          <target>Task</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Reference</source>
+          <target>Reference</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Create a GPO for the devices that need to have access restricted to the same set of client devices.</source>
+          <target>Create a GPO for the devices that need to have access restricted to the same set of client devices.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>If there are multiple servers running different versions of the Windows operating system, start by creating the GPO for one version of Windows.</source>
+          <target>If there are multiple servers running different versions of the Windows operating system, start by creating the GPO for one version of Windows.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>After you have finished the tasks in this checklist and configured the GPO for that version of Windows, you can create a copy of it.</source>
+          <target>After you have finished the tasks in this checklist and configured the GPO for that version of Windows, you can create a copy of it.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Checklist: Creating Group Policy Objects</source>
+          <target>Checklist: Creating Group Policy Objects</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Copy a GPO to Create a New GPO</source>
+          <target>Copy a GPO to Create a New GPO</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>If you are working on a copy of a GPO, modify the group memberships and WMI filters so that they are correct for the devices for which this GPO is intended.</source>
+          <target>If you are working on a copy of a GPO, modify the group memberships and WMI filters so that they are correct for the devices for which this GPO is intended.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Modify GPO Filters to Apply to a Different Zone or Version of Windows</source>
+          <target>Modify GPO Filters to Apply to a Different Zone or Version of Windows</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Configure IPsec to exempt all ICMP network traffic from IPsec protection.</source>
+          <target>Configure IPsec to exempt all ICMP network traffic from IPsec protection.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Exempt ICMP from Authentication</source>
+          <target>Exempt ICMP from Authentication</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Create a rule that exempts all network traffic to and from devices on the exemption list from IPsec.</source>
+          <target>Create a rule that exempts all network traffic to and from devices on the exemption list from IPsec.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Create an Authentication Exemption List Rule</source>
+          <target>Create an Authentication Exemption List Rule</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Configure the key exchange (main mode) security methods and algorithms to be used.</source>
+          <target>Configure the key exchange (main mode) security methods and algorithms to be used.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Configure Key Exchange (Main Mode) Settings</source>
+          <target>Configure Key Exchange (Main Mode) Settings</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Configure the data protection (quick mode) algorithm combinations to be used.</source>
+          <target>Configure the data protection (quick mode) algorithm combinations to be used.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Configure Data Protection (Quick Mode) Settings</source>
+          <target>Configure Data Protection (Quick Mode) Settings</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Configure the authentication methods to be used.</source>
+          <target>Configure the authentication methods to be used.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>This procedure sets the default settings for the device.</source>
+          <target>This procedure sets the default settings for the device.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>If you want to set authentication on a per-rule basis, this procedure is optional.</source>
+          <target>If you want to set authentication on a per-rule basis, this procedure is optional.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Configure Authentication Methods</source>
+          <target>Configure Authentication Methods</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Create a rule that requests authentication for all inbound network traffic.</source>
+          <target>Create a rule that requests authentication for all inbound network traffic.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  Just as in an isolated domain, do not set the rules to require authentication until your testing is complete.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  Just as in an isolated domain, do not set the rules to require authentication until your testing is complete.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>That way, if the rules do not work as expected, communications are not affected by a failure to authenticate.</source>
+          <target>That way, if the rules do not work as expected, communications are not affected by a failure to authenticate.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Create an Authentication Request Rule</source>
+          <target>Create an Authentication Request Rule</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>If your design requires encryption in addition to authentication for access to the isolated servers, then modify the rule to require it.</source>
+          <target>If your design requires encryption in addition to authentication for access to the isolated servers, then modify the rule to require it.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Configure the Rules to Require Encryption</source>
+          <target>Configure the Rules to Require Encryption</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Create the NAG to contain the device or user accounts that are allowed to access the isolated servers.</source>
+          <target>Create the NAG to contain the device or user accounts that are allowed to access the isolated servers.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>If you have multiple groups of isolated servers that are accessed by different client devices, then create a NAG for each set of servers.</source>
+          <target>If you have multiple groups of isolated servers that are accessed by different client devices, then create a NAG for each set of servers.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Create a Group Account in Active Directory</source>
+          <target>Create a Group Account in Active Directory</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Create a firewall rule that allows inbound network traffic only if it is authenticated from a user or device that is a member of the zone’s NAG.</source>
+          <target>Create a firewall rule that allows inbound network traffic only if it is authenticated from a user or device that is a member of the zone’s NAG.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Restrict Server Access to Members of a Group Only</source>
+          <target>Restrict Server Access to Members of a Group Only</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Link the GPO to the domain level of the Active Directory organizational unit hierarchy.</source>
+          <target>Link the GPO to the domain level of the Active Directory organizational unit hierarchy.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Link the GPO to the Domain</source>
+          <target>Link the GPO to the Domain</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Add your test server to the membership group for the isolated server zone.</source>
+          <target>Add your test server to the membership group for the isolated server zone.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Be sure to add at least one for each operating system supported by a different GPO in the group.</source>
+          <target>Be sure to add at least one for each operating system supported by a different GPO in the group.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Add Test Devices to the Membership Group for a Zone</source>
+          <target>Add Test Devices to the Membership Group for a Zone</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Do not change the rules for any of your zones to require authentication until all zones have been set up and thoroughly tested.</source>
+          <target>Do not change the rules for any of your zones to require authentication until all zones have been set up and thoroughly tested.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

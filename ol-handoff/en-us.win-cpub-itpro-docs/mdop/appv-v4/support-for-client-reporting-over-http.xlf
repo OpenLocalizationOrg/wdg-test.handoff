@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\appv-v4\support-for-client-reporting-over-http.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">d1458aee1b18542b2847be51a4a347f374055093</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Support for Client Reporting over HTTP</source>
+          <target>Support for Client Reporting over HTTP</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Support for Client Reporting over HTTP</source>
+          <target>Support for Client Reporting over HTTP</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Support for Client Reporting over HTTP</source>
+          <target>Support for Client Reporting over HTTP</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Version 4.6 of the App-V client now supports the use of HTTP communication when sending client reporting data to the publishing server.</source>
+          <target>Version 4.6 of the App-V client now supports the use of HTTP communication when sending client reporting data to the publishing server.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>This feature supports scenarios where a customer has implemented a custom HTTP(S) publishing server that is configured to collect and process client data.</source>
+          <target>This feature supports scenarios where a customer has implemented a custom HTTP(S) publishing server that is configured to collect and process client data.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">&lt;</data>
+          <data id="id2">&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information on HTTP publishing servers, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://go.microsoft.com/fwlink/?LinkId=157426</pc></source>
+          <target>For more information on HTTP publishing servers, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://go.microsoft.com/fwlink/?LinkId=157426</pc></target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Client Reporting over HTTP</source>
+          <target>Client Reporting over HTTP</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The client starts collecting data when it receives a “REPORTING=”TRUE””attribute in the publishing refresh response XML from the publishing server.</source>
+          <target>The client starts collecting data when it receives a “REPORTING=”TRUE””attribute in the publishing refresh response XML from the publishing server.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>When this attribute is received, the client sends any accumulated data to the publishing server that sent the publishing refresh.</source>
+          <target>When this attribute is received, the client sends any accumulated data to the publishing server that sent the publishing refresh.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>The details of this process are as follows:</source>
+          <target>The details of this process are as follows:</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>The client sends an HTTP GET request to the publishing server for a publishing refresh.</source>
+          <target>The client sends an HTTP GET request to the publishing server for a publishing refresh.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>The header of this message contains an “AppV-Op:Refresh” custom header that the custom HTTP(S) publishing server uses to identify the message type.</source>
+          <target>The header of this message contains an “AppV-Op:Refresh” custom header that the custom HTTP(S) publishing server uses to identify the message type.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The publishing server then sends the publishing refresh response XML that contains a “REPORTING=”TRUE”” value.</source>
+          <target>The publishing server then sends the publishing refresh response XML that contains a “REPORTING=”TRUE”” value.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The client then sends an HTTP POST request to the publishing server along with the reporting data that has been gathered since the previous refresh.</source>
+          <target>The client then sends an HTTP POST request to the publishing server along with the reporting data that has been gathered since the previous refresh.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>The header of this message contains an “AppV-Op:Report” custom header that the custom HTTP(S) publishing server uses to identify the message type.</source>
+          <target>The header of this message contains an “AppV-Op:Report” custom header that the custom HTTP(S) publishing server uses to identify the message type.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>The following schema gives specific details of the package and the application data that is sent to the server.</source>
+          <target>The following schema gives specific details of the package and the application data that is sent to the server.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\understanding-applocker-allow-and-deny-actions-on-rules.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">4e4d9033d7a80c4bdc94cd630c0e27b5694b86f4</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Understanding AppLocker allow and deny actions on rules (Windows 10)</source>
+          <target>Understanding AppLocker allow and deny actions on rules (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic explains the differences between allow and deny actions on AppLocker rules.</source>
+          <target>This topic explains the differences between allow and deny actions on AppLocker rules.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Understanding AppLocker allow and deny actions on rules</source>
+          <target>Understanding AppLocker allow and deny actions on rules</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic explains the differences between allow and deny actions on AppLocker rules.</source>
+          <target>This topic explains the differences between allow and deny actions on AppLocker rules.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Allow action versus deny action on rules</source>
+          <target>Allow action versus deny action on rules</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Unlike Software Restriction Policies (SRP), each AppLocker rule collection functions as an allowed list of files.</source>
+          <target>Unlike Software Restriction Policies (SRP), each AppLocker rule collection functions as an allowed list of files.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Only the files that are listed within the rule collection are allowed to run.</source>
+          <target>Only the files that are listed within the rule collection are allowed to run.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>This configuration makes it easier to determine what will occur when an AppLocker rule is applied.</source>
+          <target>This configuration makes it easier to determine what will occur when an AppLocker rule is applied.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>You can also create rules that use the deny action.</source>
+          <target>You can also create rules that use the deny action.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>When applying rules, AppLocker first checks whether any explicit deny actions are specified in the rule list.</source>
+          <target>When applying rules, AppLocker first checks whether any explicit deny actions are specified in the rule list.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>If you have denied a file from running in a rule collection, the deny action will take precedence over any allow action, regardless of which Group Policy Object (GPO) the rule was originally applied in.</source>
+          <target>If you have denied a file from running in a rule collection, the deny action will take precedence over any allow action, regardless of which Group Policy Object (GPO) the rule was originally applied in.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Because AppLocker functions as an allowed list by default, if no rule explicitly allows or denies a file from running, AppLocker's default deny action will block the file.</source>
+          <target>Because AppLocker functions as an allowed list by default, if no rule explicitly allows or denies a file from running, AppLocker's default deny action will block the file.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Deny rule considerations</source>
+          <target>Deny rule considerations</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Although you can use AppLocker to create a rule to allow all files to run and then use rules to deny specific files, this configuration is not recommended.</source>
+          <target>Although you can use AppLocker to create a rule to allow all files to run and then use rules to deny specific files, this configuration is not recommended.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>The deny action is generally less secure than the allow action because a malicious user could modify the file to invalidate the rule.</source>
+          <target>The deny action is generally less secure than the allow action because a malicious user could modify the file to invalidate the rule.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Deny actions can also be circumvented.</source>
+          <target>Deny actions can also be circumvented.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>For example, if you configure a deny action for a file or folder path, the user can still run the file from any other path.</source>
+          <target>For example, if you configure a deny action for a file or folder path, the user can still run the file from any other path.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>The following table details security concerns for different rule conditions with deny actions.</source>
+          <target>The following table details security concerns for different rule conditions with deny actions.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Rule condition</source>
+          <target>Rule condition</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Security concern with deny action</source>
+          <target>Security concern with deny action</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Publisher</source>
+          <target>Publisher</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>A user could modify the properties of a file (for example, re-signing the file with a different certificate).</source>
+          <target>A user could modify the properties of a file (for example, re-signing the file with a different certificate).</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>File hash</source>
+          <target>File hash</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>A user could modify the hash for a file.</source>
+          <target>A user could modify the hash for a file.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Path</source>
+          <target>Path</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>A user could move the denied file to a different location and run it from there.</source>
+          <target>A user could move the denied file to a different location and run it from there.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  If you choose to use the deny action on rules, you must ensure that you first create rules that allow the Windows system files to run.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  If you choose to use the deny action on rules, you must ensure that you first create rules that allow the Windows system files to run.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>AppLocker enforces rules for allowed applications by default, so after one or more rules have been created for a rule collection (affecting the Windows system files), only the apps that are listed as being allowed will be permitted to run.</source>
+          <target>AppLocker enforces rules for allowed applications by default, so after one or more rules have been created for a rule collection (affecting the Windows system files), only the apps that are listed as being allowed will be permitted to run.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Therefore, creating a single rule in a rule collection to deny a malicious file from running will also deny all other files on the computer from running.</source>
+          <target>Therefore, creating a single rule in a rule collection to deny a malicious file from running will also deny all other files on the computer from running.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>How AppLocker works</source>
+          <target>How AppLocker works</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

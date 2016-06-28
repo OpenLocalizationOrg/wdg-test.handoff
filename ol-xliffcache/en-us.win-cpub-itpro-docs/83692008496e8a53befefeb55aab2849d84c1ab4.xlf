@@ -1,0 +1,1165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\agpm\technical-overview-of-agpm.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">83692008496e8a53befefeb55aab2849d84c1ab4</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Technical Overview of AGPM</source>
+          <target>Technical Overview of AGPM</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Technical Overview of AGPM</source>
+          <target>Technical Overview of AGPM</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Technical Overview of AGPM</source>
+          <target>Technical Overview of AGPM</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Microsoft Advanced Group Policy Management (AGPM) is a client/server application.</source>
+          <target>Microsoft Advanced Group Policy Management (AGPM) is a client/server application.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>The AGPM Server stores Group Policy Objects (GPOs) offline in the archive that AGPM creates on the server's file system.</source>
+          <target>The AGPM Server stores Group Policy Objects (GPOs) offline in the archive that AGPM creates on the server's file system.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Group Policy administrators use the AGPM snap-in for the Group Policy Management Console (GPMC) to work with GPOs on the server that hosts the archive.</source>
+          <target>Group Policy administrators use the AGPM snap-in for the Group Policy Management Console (GPMC) to work with GPOs on the server that hosts the archive.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Understanding the parts of AGPM and related items, how they store GPOs in the file system, and how permissions control the actions available to each user role can improve Group Policy administrators' effectiveness with AGPM.</source>
+          <target>Understanding the parts of AGPM and related items, how they store GPOs in the file system, and how permissions control the actions available to each user role can improve Group Policy administrators' effectiveness with AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Terminology</source>
+          <target>Terminology</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The following explains the basic AGPM terms.</source>
+          <target>The following explains the basic AGPM terms.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Client:</pc> A computer that runs the AGPM snap-in for the Group Policy Management Console (GPMC) and from which Group Policy administrators manage GPOs.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Client:</pc> A computer that runs the AGPM snap-in for the Group Policy Management Console (GPMC) and from which Group Policy administrators manage GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM snap-in:</pc> The software component of AGPM installed on AGPM Clients so that they can manage GPOs.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM snap-in:</pc> The software component of AGPM installed on AGPM Clients so that they can manage GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Server:</pc> A server that runs the AGPM Service and manages an archive.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Server:</pc> A server that runs the AGPM Service and manages an archive.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Each AGPM Server can manage only one archive, but one AGPM Server can manage archive data for multiple domains in one archive.</source>
+          <target>Each AGPM Server can manage only one archive, but one AGPM Server can manage archive data for multiple domains in one archive.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>An archive can be hosted on a computer other than an AGPM Server.</source>
+          <target>An archive can be hosted on a computer other than an AGPM Server.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Service:</pc> The software component of AGPM that runs on an AGPM Server as a service.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Service:</pc> The software component of AGPM that runs on an AGPM Server as a service.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>The service manages GPOs in the archive and in the production environment in that forest.</source>
+          <target>The service manages GPOs in the archive and in the production environment in that forest.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Archive:</pc> In AGPM, a central store that contains the controlled GPOs that the associated AGPM Server manages, in addition to the history for each of those GPOs.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Archive:</pc> In AGPM, a central store that contains the controlled GPOs that the associated AGPM Server manages, in addition to the history for each of those GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>This includes all previous controlled versions of each GPO.</source>
+          <target>This includes all previous controlled versions of each GPO.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>An archive consists of an archive index file and associated archive data that may include data for GPOs in multiple domains.</source>
+          <target>An archive consists of an archive index file and associated archive data that may include data for GPOs in multiple domains.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>An archive can be hosted on a computer other than an AGPM Server.</source>
+          <target>An archive can be hosted on a computer other than an AGPM Server.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled GPO:</pc> A GPO that is being managed by AGPM.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled GPO:</pc> A GPO that is being managed by AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>AGPM manages the history and permissions of controlled GPOs, which it stores in the archive.</source>
+          <target>AGPM manages the history and permissions of controlled GPOs, which it stores in the archive.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Uncontrolled GPO:</pc> A GPO in the production environment for a domain and not managed by AGPM.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Uncontrolled GPO:</pc> A GPO in the production environment for a domain and not managed by AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>What AGPM installs, creates, and affects</source>
+          <target>What AGPM installs, creates, and affects</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>On an AGPM Server, the AGPM Setup program installs the AGPM Service.</source>
+          <target>On an AGPM Server, the AGPM Setup program installs the AGPM Service.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>AGPM does not alter the Active Directory® directory service or the schema.</source>
+          <target>AGPM does not alter the Active Directory® directory service or the schema.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>By default, the AGPM Server program files are installed in %ProgramFiles%<ph dataRef="id1" id="ph1" />Microsoft<ph dataRef="id2" id="ph2" />AGPM<ph dataRef="id3" id="ph3" />Server.</source>
+          <target>By default, the AGPM Server program files are installed in %ProgramFiles%<ph dataRef="id1" id="ph1" />Microsoft<ph dataRef="id2" id="ph2" />AGPM<ph dataRef="id3" id="ph3" />Server.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>You can install the AGPM Service on a domain controller if you have to; however, we recommend that you install the AGPM Service on a member server.</source>
+          <target>You can install the AGPM Service on a domain controller if you have to; however, we recommend that you install the AGPM Service on a member server.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On an AGPM Client, the AGPM Setup program installs the AGPM snap-in, adding a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Change Control</pc> folder to each domain that appears in the GPMC.</source>
+          <target>On an AGPM Client, the AGPM Setup program installs the AGPM snap-in, adding a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Change Control</pc> folder to each domain that appears in the GPMC.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>By default, the AGPM Client program files are installed in %ProgramFiles%<ph dataRef="id1" id="ph1" />Microsoft<ph dataRef="id2" id="ph2" />AGPM<ph dataRef="id3" id="ph3" />Client.</source>
+          <target>By default, the AGPM Client program files are installed in %ProgramFiles%<ph dataRef="id1" id="ph1" />Microsoft<ph dataRef="id2" id="ph2" />AGPM<ph dataRef="id3" id="ph3" />Client.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Table 1 describes both the items that AGPM installs or creates and the parts of the operating system that affect AGPM operation.</source>
+          <target>Table 1 describes both the items that AGPM installs or creates and the parts of the operating system that affect AGPM operation.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Table 1: Items installed, created, or affected by AGPM</source>
+          <target>Table 1: Items installed, created, or affected by AGPM</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Item</source>
+          <target>Item</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>AGPM Service</source>
+          <target>AGPM Service</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>The AGPM Service runs on the AGPM Server.</source>
+          <target>The AGPM Service runs on the AGPM Server.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>The service manages the archive, which contains offline GPOs, and controlled GPOs in the production environment.</source>
+          <target>The service manages the archive, which contains offline GPOs, and controlled GPOs in the production environment.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>The default configuration of the AGPM Service is as follows:</source>
+          <target>The default configuration of the AGPM Service is as follows:</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Service name:<ph dataRef="id1" id="ph1" /> AGPM Service</source>
+          <target>Service name:<ph dataRef="id1" id="ph1" /> AGPM Service</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Display name:<ph dataRef="id1" id="ph1" /> AGPM Service</source>
+          <target>Display name:<ph dataRef="id1" id="ph1" /> AGPM Service</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Path to executable:<ph dataRef="id1" id="ph1" /> %ProgramFiles%\Microsoft\AGPM\Server\Agpm.exe</source>
+          <target>Path to executable:<ph dataRef="id1" id="ph1" /> %ProgramFiles%\Microsoft\AGPM\Server\Agpm.exe</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Startup:<ph dataRef="id1" id="ph1" /> Automatic</source>
+          <target>Startup:<ph dataRef="id1" id="ph1" /> Automatic</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;strong&gt;</data>
+          <data id="id3">&lt;/strong&gt;</data>
+          <data id="id4">&lt;strong&gt;</data>
+          <data id="id5">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Log on as:<ph dataRef="id1" id="ph1" /> AGPM Service Account specified during installation of AGPM Server, which can be changed using <ph dataRef="id2" id="ph2" />Programs and Features<ph dataRef="id3" id="ph3" /> in the <ph dataRef="id4" id="ph4" />Control Panel<ph dataRef="id5" id="ph5" />.</source>
+          <target>Log on as:<ph dataRef="id1" id="ph1" /> AGPM Service Account specified during installation of AGPM Server, which can be changed using <ph dataRef="id2" id="ph2" />Programs and Features<ph dataRef="id3" id="ph3" /> in the <ph dataRef="id4" id="ph4" />Control Panel<ph dataRef="id5" id="ph5" />.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>AGPM archive</source>
+          <target>AGPM archive</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>By default, AGPM creates the archive in %ProgramData%\Microsoft\AGPM on the AGPM Server.</source>
+          <target>By default, AGPM creates the archive in %ProgramData%\Microsoft\AGPM on the AGPM Server.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>The archive provides storage for offline GPOs, and it can store multiple versions of each GPO.</source>
+          <target>The archive provides storage for offline GPOs, and it can store multiple versions of each GPO.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Changes that AGPM makes to GPOs in the archive do not affect the production environment until an AGPM Administrator or Approver deploys the GPO to the production environment and links the GPO to an organizational unit (OU).</source>
+          <target>Changes that AGPM makes to GPOs in the archive do not affect the production environment until an AGPM Administrator or Approver deploys the GPO to the production environment and links the GPO to an organizational unit (OU).</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Windows Firewall</source>
+          <target>Windows Firewall</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>During installation, AGPM enables an inbound Windows Firewall rule that allows the AGPM Client to communicate with the AGPM Server.</source>
+          <target>During installation, AGPM enables an inbound Windows Firewall rule that allows the AGPM Client to communicate with the AGPM Server.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>The default Windows Firewall rule is the following:</source>
+          <target>The default Windows Firewall rule is the following:</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Name:<ph dataRef="id1" id="ph1" /> AGPM Service</source>
+          <target>Name:<ph dataRef="id1" id="ph1" /> AGPM Service</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Action:<ph dataRef="id1" id="ph1" /> Allow the connection</source>
+          <target>Action:<ph dataRef="id1" id="ph1" /> Allow the connection</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Programs:<ph dataRef="id1" id="ph1" /> All programs that meet the specified conditions</source>
+          <target>Programs:<ph dataRef="id1" id="ph1" /> All programs that meet the specified conditions</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Protocol type:<ph dataRef="id1" id="ph1" /> TCP</source>
+          <target>Protocol type:<ph dataRef="id1" id="ph1" /> TCP</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Local port:<ph dataRef="id1" id="ph1" /> 4600</source>
+          <target>Local port:<ph dataRef="id1" id="ph1" /> 4600</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Remote port:<ph dataRef="id1" id="ph1" /> All ports</source>
+          <target>Remote port:<ph dataRef="id1" id="ph1" /> All ports</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Local IP address:<ph dataRef="id1" id="ph1" /> Any</source>
+          <target>Local IP address:<ph dataRef="id1" id="ph1" /> Any</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Remote IP address:<ph dataRef="id1" id="ph1" /> Any</source>
+          <target>Remote IP address:<ph dataRef="id1" id="ph1" /> Any</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>E-mail server</source>
+          <target>E-mail server</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>AGPM uses Simple Mail Transfer Protocol (SMTP) to send e-mail requests to the addresses configured on the <ph dataRef="id1" id="ph1" />Domain Delegation<ph dataRef="id2" id="ph2" /> tab.</source>
+          <target>AGPM uses Simple Mail Transfer Protocol (SMTP) to send e-mail requests to the addresses configured on the <ph dataRef="id1" id="ph1" />Domain Delegation<ph dataRef="id2" id="ph2" /> tab.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, when an Editor requests that a new GPO be created, AGPM notifies each e-mail address specified on the <ph dataRef="id1" id="ph1" />Domain Delegation<ph dataRef="id2" id="ph2" /> tab.</source>
+          <target>For example, when an Editor requests that a new GPO be created, AGPM notifies each e-mail address specified on the <ph dataRef="id1" id="ph1" />Domain Delegation<ph dataRef="id2" id="ph2" /> tab.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>AGPM snap-in</source>
+          <target>AGPM snap-in</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>The AGPM snap-in for the GPMC runs on AGPM Clients and is used by Group Policy administrators to manage GPOs.</source>
+          <target>The AGPM snap-in for the GPMC runs on AGPM Clients and is used by Group Policy administrators to manage GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The snap-in appears in the GPMC as a <ph dataRef="id1" id="ph1" />Change Control<ph dataRef="id2" id="ph2" /> folder in each domain.</source>
+          <target>The snap-in appears in the GPMC as a <ph dataRef="id1" id="ph1" />Change Control<ph dataRef="id2" id="ph2" /> folder in each domain.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Additional references</source>
+          <target>Additional references</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=160060)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about the files installed by AGPM, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning Guide for AGPM</pc>.</source>
+          <target>For more information about the files installed by AGPM, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning Guide for AGPM</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Archive</source>
+          <target>Archive</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>By default, the AGPM Server installation process creates the archive on the local hard disk of the AGPM Server at %ProgramData%<ph dataRef="id1" id="ph1" />Microsoft<ph dataRef="id2" id="ph2" />AGPM.</source>
+          <target>By default, the AGPM Server installation process creates the archive on the local hard disk of the AGPM Server at %ProgramData%<ph dataRef="id1" id="ph1" />Microsoft<ph dataRef="id2" id="ph2" />AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>However, you can change the path during installation and even create the archive on a server other than the AGPM Server.</source>
+          <target>However, you can change the path during installation and even create the archive on a server other than the AGPM Server.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>The archive contains a subfolder for each version of each GPO the archive contains.</source>
+          <target>The archive contains a subfolder for each version of each GPO the archive contains.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>The name of each subfolder is a GUID that identifies a version of the GPO.</source>
+          <target>The name of each subfolder is a GUID that identifies a version of the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>The gpostate.xml file records the state of each GPO in the archive.</source>
+          <target>The gpostate.xml file records the state of each GPO in the archive.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>The file is a manifest that describes the contents of the archive.</source>
+          <target>The file is a manifest that describes the contents of the archive.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>For example, a GPO can have many versions, and each version is in its own subfolder in the archive.</source>
+          <target>For example, a GPO can have many versions, and each version is in its own subfolder in the archive.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>The gpostate.xml file indicates which subfolders contain different versions of a single GPO.</source>
+          <target>The gpostate.xml file indicates which subfolders contain different versions of a single GPO.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Additionally, GPO templates have subfolders in the archive, but gpostate.xml indicates that these are templates and not controlled GPOs.</source>
+          <target>Additionally, GPO templates have subfolders in the archive, but gpostate.xml indicates that these are templates and not controlled GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Similarly, when Group Policy administrators delete GPOs, AGPM changes their states in gpostate.xml to indicate that they are in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recycle Bin</pc> but does not actually remove the GPOs' subfolders from the archive.</source>
+          <target>Similarly, when Group Policy administrators delete GPOs, AGPM changes their states in gpostate.xml to indicate that they are in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recycle Bin</pc> but does not actually remove the GPOs' subfolders from the archive.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Caution</source>
+          <target>Caution</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Do not manually edit gpostate.xml or the GPOs the archive contains.</source>
+          <target>Do not manually edit gpostate.xml or the GPOs the archive contains.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>This information is provided only to enhance understanding of the AGPM archive.</source>
+          <target>This information is provided only to enhance understanding of the AGPM archive.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Instead, use the AGPM snap-in to change GPOs.</source>
+          <target>Instead, use the AGPM snap-in to change GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>When AGPM creates the archive, it gives Full Control to SYSTEM, Administrators, and the AGPM Service Account (specified in the setup of AGPM Server).</source>
+          <target>When AGPM creates the archive, it gives Full Control to SYSTEM, Administrators, and the AGPM Service Account (specified in the setup of AGPM Server).</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Changing permissions by using the AGPM user interface on the AGPM snap-in does not alter permissions on the archive, because the AGPM Service Account performs all operations on behalf of the logged-on user.</source>
+          <target>Changing permissions by using the AGPM user interface on the AGPM snap-in does not alter permissions on the archive, because the AGPM Service Account performs all operations on behalf of the logged-on user.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Additional references</source>
+          <target>Additional references</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=160061)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about how to back up the archive, restore the archive from a backup, or move both the AGPM Server and the archive, see the "Performing AGPM Administrator Tasks" section in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operations Guide for AGPM</pc>.</source>
+          <target>For information about how to back up the archive, restore the archive from a backup, or move both the AGPM Server and the archive, see the "Performing AGPM Administrator Tasks" section in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operations Guide for AGPM</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Roles and permissions</source>
+          <target>Roles and permissions</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Roles simplify delegation.</source>
+          <target>Roles simplify delegation.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Instead of assigning detailed permissions to Group Policy administrators, AGPM Administrators can assign one of four roles to Group Policy administrators to let them perform work related to that role:</source>
+          <target>Instead of assigning detailed permissions to Group Policy administrators, AGPM Administrators can assign one of four roles to Group Policy administrators to let them perform work related to that role:</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Administrator:</pc> Group Policy administrators assigned the AGPM Administrator (Full Control) role can perform any task in AGPM.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Administrator:</pc> Group Policy administrators assigned the AGPM Administrator (Full Control) role can perform any task in AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>AGPM Administrators can configure domain-wide options and delegate permissions to other Group Policy administrators.</source>
+          <target>AGPM Administrators can configure domain-wide options and delegate permissions to other Group Policy administrators.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Approver:</pc> Group Policy administrators assigned the Approver role can deploy GPOs to the production environment for a domain.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Approver:</pc> Group Policy administrators assigned the Approver role can deploy GPOs to the production environment for a domain.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Approvers can also create and delete GPOs and approve or reject requests from Editors.</source>
+          <target>Approvers can also create and delete GPOs and approve or reject requests from Editors.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Approvers can view the list of GPOs in a domain, view the policy settings in GPOs, and create and view reports of the policy settings in a GPO.</source>
+          <target>Approvers can view the list of GPOs in a domain, view the policy settings in GPOs, and create and view reports of the policy settings in a GPO.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>They cannot edit the policy settings in GPOs unless they are also assigned the Editor role.</source>
+          <target>They cannot edit the policy settings in GPOs unless they are also assigned the Editor role.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Editor:</pc> Group Policy administrators assigned the Editor role can view the list of GPOs in a domain, view the policy settings in GPOs, edit the policy settings in GPOs, and create and view reports of the policy settings in a GPO.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Editor:</pc> Group Policy administrators assigned the Editor role can view the list of GPOs in a domain, view the policy settings in GPOs, edit the policy settings in GPOs, and create and view reports of the policy settings in a GPO.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Unless they are also assigned the Approver role, Editors cannot create, deploy, or delete GPOs.</source>
+          <target>Unless they are also assigned the Approver role, Editors cannot create, deploy, or delete GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>However, they can request that GPOs be created, deployed, or deleted.</source>
+          <target>However, they can request that GPOs be created, deployed, or deleted.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reviewer:</pc> Group Policy administrators assigned the Reviewer role can view the list of GPOs in a domain and create and view reports of the policy settings in a GPO.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reviewer:</pc> Group Policy administrators assigned the Reviewer role can view the list of GPOs in a domain and create and view reports of the policy settings in a GPO.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Unless they are also assigned the Editor role, they cannot edit policy settings in a GPO.</source>
+          <target>Unless they are also assigned the Editor role, they cannot edit policy settings in a GPO.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>AGPM gives AGPM Administrators the flexibility to configure permissions at a more detailed level than roles by using the AGPM snap-in.</source>
+          <target>AGPM gives AGPM Administrators the flexibility to configure permissions at a more detailed level than roles by using the AGPM snap-in.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Table 2 describes these permissions and indicates the permissions granted to each role by default.</source>
+          <target>Table 2 describes these permissions and indicates the permissions granted to each role by default.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Permission</source>
+          <target>Permission</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>AGPM Administrator</source>
+          <target>AGPM Administrator</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Approver</source>
+          <target>Approver</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Editor</source>
+          <target>Editor</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Reviewer</source>
+          <target>Reviewer</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Full Control</source>
+          <target>Full Control</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Have all permissions.</source>
+          <target>Have all permissions.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Create GPO</source>
+          <target>Create GPO</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Create GPOs in a domain.</source>
+          <target>Create GPOs in a domain.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>List Contents</source>
+          <target>List Contents</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>List the GPOs in a domain.</source>
+          <target>List the GPOs in a domain.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Read Settings</source>
+          <target>Read Settings</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Read the policy settings within a GPO.</source>
+          <target>Read the policy settings within a GPO.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Edit Settings</source>
+          <target>Edit Settings</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Change the policy settings in a GPO.</source>
+          <target>Change the policy settings in a GPO.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Delete GPO</source>
+          <target>Delete GPO</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Delete a GPO.</source>
+          <target>Delete a GPO.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Modify Security</source>
+          <target>Modify Security</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Delegate domain-level access, delegate access to a single GPO, and delegate access to the production environment.</source>
+          <target>Delegate domain-level access, delegate access to a single GPO, and delegate access to the production environment.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Deploy GPO</source>
+          <target>Deploy GPO</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Deploy a GPO from the archive to the production environment.</source>
+          <target>Deploy a GPO from the archive to the production environment.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Create Template</source>
+          <target>Create Template</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Create a GPO template in AGPM.</source>
+          <target>Create a GPO template in AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>Modify Options</source>
+          <target>Modify Options</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Configure AGPM e-mail notification and limit the GPO versions stored in the archive.</source>
+          <target>Configure AGPM e-mail notification and limit the GPO versions stored in the archive.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Export GPO</source>
+          <target>Export GPO</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Export a GPO to a file.</source>
+          <target>Export a GPO to a file.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>Import GPO</source>
+          <target>Import GPO</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>Import a GPO from a file.</source>
+          <target>Import a GPO from a file.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Export GPO</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Import GPO</pc> permissions are not available in AGPM 3.0 or 2.5.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Export GPO</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Import GPO</pc> permissions are not available in AGPM 3.0 or 2.5.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>The ability to delegate access to GPOs in the production environment for a domain and the ability to limit the number of GPO versions stored are not available in AGPM 2.5.</source>
+          <target>The ability to delegate access to GPOs in the production environment for a domain and the ability to limit the number of GPO versions stored are not available in AGPM 2.5.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>Additional references</source>
+          <target>Additional references</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=160061)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about what tasks can be performed by Group Policy administrators assigned a particular role or about which permissions are required to perform a specific task, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operations Guide for AGPM</pc>.</source>
+          <target>For information about what tasks can be performed by Group Policy administrators assigned a particular role or about which permissions are required to perform a specific task, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operations Guide for AGPM</pc>.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

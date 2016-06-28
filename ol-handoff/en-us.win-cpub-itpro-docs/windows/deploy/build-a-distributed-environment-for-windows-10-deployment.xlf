@@ -1,0 +1,1482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\deploy\build-a-distributed-environment-for-windows-10-deployment.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">f7f3087984cb747e21945b11a616f374cea6f581</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Build a distributed environment for Windows 10 deployment (Windows 10)</source>
+          <target>Build a distributed environment for Windows 10 deployment (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>In this topic, you will learn how to replicate your Windows 10 deployment shares to facilitate the deployment of Windows 10 in remote or branch locations.</source>
+          <target>In this topic, you will learn how to replicate your Windows 10 deployment shares to facilitate the deployment of Windows 10 in remote or branch locations.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Build a distributed environment for Windows 10 deployment</source>
+          <target>Build a distributed environment for Windows 10 deployment</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>In this topic, you will learn how to replicate your Windows 10 deployment shares to facilitate the deployment of Windows 10 in remote or branch locations.</source>
+          <target>In this topic, you will learn how to replicate your Windows 10 deployment shares to facilitate the deployment of Windows 10 in remote or branch locations.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>If you work in a distributed environment, replicating the deployment shares is an important part of the deployment solution.</source>
+          <target>If you work in a distributed environment, replicating the deployment shares is an important part of the deployment solution.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>With images reaching 5 GB in size or more, you can't deploy machines in a remote office over the wire.</source>
+          <target>With images reaching 5 GB in size or more, you can't deploy machines in a remote office over the wire.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>You need to replicate the content, so that the clients can do local deployments.</source>
+          <target>You need to replicate the content, so that the clients can do local deployments.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>We will use four machines for this topic: DC01, MDT01, MDT02, and PC0006.</source>
+          <target>We will use four machines for this topic: DC01, MDT01, MDT02, and PC0006.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>DC01 is a domain controller, MDT01 is a Windows Server 2012 R2 standard server, and PC0006 is a blank machine to which you will deploy Windows 10.</source>
+          <target>DC01 is a domain controller, MDT01 is a Windows Server 2012 R2 standard server, and PC0006 is a blank machine to which you will deploy Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>You will configure a second deployment server (MDT02) for a remote site (Stockholm) by replicating the deployment share in the original site (New York).</source>
+          <target>You will configure a second deployment server (MDT02) for a remote site (Stockholm) by replicating the deployment share in the original site (New York).</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>MDT01, MDT02, and PC0006 are members of the domain contoso.com for the fictitious Contoso Corporation.</source>
+          <target>MDT01, MDT02, and PC0006 are members of the domain contoso.com for the fictitious Contoso Corporation.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](deploy-windows-10-with-the-microsoft-deployment-toolkit.md#proof)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more details on the setup for this topic, please see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy Windows 10 with the Microsoft Deployment Toolkit</pc>.</source>
+          <target>For more details on the setup for this topic, please see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy Windows 10 with the Microsoft Deployment Toolkit</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>figure 1</source>
+          <target>figure 1</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Figure 1.</source>
+          <target>Figure 1.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>The machines used in this topic.</source>
+          <target>The machines used in this topic.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Replicate deployment shares</source>
+          <target>Replicate deployment shares</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Replicating the content between MDT01 (New York) and MDT02 (Stockholm) can be done in a number of different ways.</source>
+          <target>Replicating the content between MDT01 (New York) and MDT02 (Stockholm) can be done in a number of different ways.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>The most common content replication solutions with Microsoft Deployment Toolkit (MDT) 2013 use either the Linked Deployment Shares (LDS) feature or Distributed File System Replication (DFS-R).</source>
+          <target>The most common content replication solutions with Microsoft Deployment Toolkit (MDT) 2013 use either the Linked Deployment Shares (LDS) feature or Distributed File System Replication (DFS-R).</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Some organizations have used a simple robocopy script for replication of the content.</source>
+          <target>Some organizations have used a simple robocopy script for replication of the content.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Robocopy has options that allow for synchronization between folders.</source>
+          <target>Robocopy has options that allow for synchronization between folders.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>It has a simple reporting function; it supports transmission retry; and, by default, it will only copy/remove files from the source that are newer than files on the target.</source>
+          <target>It has a simple reporting function; it supports transmission retry; and, by default, it will only copy/remove files from the source that are newer than files on the target.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Linked deployment shares in MDT 2013 Update 2</source>
+          <target>Linked deployment shares in MDT 2013 Update 2</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>LDS is a built-in feature in MDT for replicating content.</source>
+          <target>LDS is a built-in feature in MDT for replicating content.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>However, LDS works best with strong connections such as LAN connections with low latency.</source>
+          <target>However, LDS works best with strong connections such as LAN connections with low latency.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>For most WAN links, DFS-R is the better option.</source>
+          <target>For most WAN links, DFS-R is the better option.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Why DFS-R is a better option</source>
+          <target>Why DFS-R is a better option</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>DFS-R is not only very fast and reliable, but it also offers central monitoring, bandwidth control, and a great delta replication engine.</source>
+          <target>DFS-R is not only very fast and reliable, but it also offers central monitoring, bandwidth control, and a great delta replication engine.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>DFS-R will work equally well whether you have 2 sites or 90.</source>
+          <target>DFS-R will work equally well whether you have 2 sites or 90.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>When using DFS-R for MDT, we recommend running your deployment servers on Windows Server 2008 R2 or higher.</source>
+          <target>When using DFS-R for MDT, we recommend running your deployment servers on Windows Server 2008 R2 or higher.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>From that version on, you can configure the replication target(s) as read-only, which is exactly what you want for MDT.</source>
+          <target>From that version on, you can configure the replication target(s) as read-only, which is exactly what you want for MDT.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>This way, you can have your master deployment share centralized and replicate out changes as they happen.</source>
+          <target>This way, you can have your master deployment share centralized and replicate out changes as they happen.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>DFS-R will quickly pick up changes at the central deployment share in MDT01 and replicate the delta changes to MDT02.</source>
+          <target>DFS-R will quickly pick up changes at the central deployment share in MDT01 and replicate the delta changes to MDT02.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Set up Distributed File System Replication (DFS-R) for replication</source>
+          <target>Set up Distributed File System Replication (DFS-R) for replication</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Setting up DFS-R for replication is a quick and straightforward process.</source>
+          <target>Setting up DFS-R for replication is a quick and straightforward process.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>You prepare the deployment servers and then create a replication group.</source>
+          <target>You prepare the deployment servers and then create a replication group.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>To complete the setup, you configure some replication settings.</source>
+          <target>To complete the setup, you configure some replication settings.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Prepare MDT01 for replication</source>
+          <target>Prepare MDT01 for replication</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, using Server Manager, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add roles and features</pc>.</source>
+          <target>On MDT01, using Server Manager, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add roles and features</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select installation type</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Role-based or feature-based installation</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select installation type</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Role-based or feature-based installation</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select destination server</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDT01.contoso.com</pc> and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select destination server</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDT01.contoso.com</pc> and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select server roles</pc> page, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">File and Storage Services (Installed)</pc> and expand <pc dataRefEnd="id6" dataRefStart="id5" id="p3">File and iSCSI Services (Installed)</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select server roles</pc> page, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">File and Storage Services (Installed)</pc> and expand <pc dataRefEnd="id6" dataRefStart="id5" id="p3">File and iSCSI Services (Installed)</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Roles</pc> list, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">DFS Replication</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Roles</pc> list, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">DFS Replication</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Roles and Features Wizard</pc> dialog box, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add Features</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Roles and Features Wizard</pc> dialog box, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add Features</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>figure 2</source>
+          <target>figure 2</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Figure 2.</source>
+          <target>Figure 2.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Adding the DFS Replication role to MDT01.</source>
+          <target>Adding the DFS Replication role to MDT01.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select features</pc> page, accept the default settings, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select features</pc> page, accept the default settings, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Confirm installation selections</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Confirm installation selections</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installation progress</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installation progress</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Prepare MDT02 for replication</source>
+          <target>Prepare MDT02 for replication</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT02, using Server Manager, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add roles and features</pc>.</source>
+          <target>On MDT02, using Server Manager, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add roles and features</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select installation type</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Role-based or feature-based installation</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select installation type</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Role-based or feature-based installation</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select destination server</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDT02.contoso.com</pc> and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select destination server</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDT02.contoso.com</pc> and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select server roles</pc> page, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">File and Storage Services (Installed)</pc> and expand <pc dataRefEnd="id6" dataRefStart="id5" id="p3">File and iSCSI Services (Installed)</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select server roles</pc> page, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">File and Storage Services (Installed)</pc> and expand <pc dataRefEnd="id6" dataRefStart="id5" id="p3">File and iSCSI Services (Installed)</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Roles</pc> list, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">DFS Replication</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Roles</pc> list, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">DFS Replication</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Roles and Features Wizard</pc> dialog box, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add Features</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Roles and Features Wizard</pc> dialog box, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add Features</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select features</pc> page, accept the default settings, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select features</pc> page, accept the default settings, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Confirm installation selections</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Confirm installation selections</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installation progress</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installation progress</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Create the MDTProduction folder on MDT02</source>
+          <target>Create the MDTProduction folder on MDT02</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT02, using File Explorer, create the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />MDTProduction</pc> folder.</source>
+          <target>On MDT02, using File Explorer, create the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />MDTProduction</pc> folder.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Share the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />MDTProduction</pc> folder as <pc dataRefEnd="id5" dataRefStart="id4" id="p2">MDTProduction$</pc>.</source>
+          <target>Share the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />MDTProduction</pc> folder as <pc dataRefEnd="id5" dataRefStart="id4" id="p2">MDTProduction$</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Use the default permissions.</source>
+          <target>Use the default permissions.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>figure 3</source>
+          <target>figure 3</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Figure 3.</source>
+          <target>Figure 3.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Sharing the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />MDTProduction folder</pc> on MDT02.</source>
+          <target>Sharing the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />MDTProduction folder</pc> on MDT02.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Configure the deployment share</source>
+          <target>Configure the deployment share</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>When you have multiple deployment servers sharing the same content, you need to configure the Bootstrap.ini file with information about which server to connect to based on where the client is located.</source>
+          <target>When you have multiple deployment servers sharing the same content, you need to configure the Bootstrap.ini file with information about which server to connect to based on where the client is located.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>In MDT, that can be done by using the DefaultGateway property.</source>
+          <target>In MDT, that can be done by using the DefaultGateway property.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, using Notepad, navigate to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />MDTProduction<ph dataRef="id4" id="ph2" />Control</pc> folder and modify the Boostrap.ini file to look like this:</source>
+          <target>On MDT01, using Notepad, navigate to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />MDTProduction<ph dataRef="id4" id="ph2" />Control</pc> folder and modify the Boostrap.ini file to look like this:</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>The DeployRoot value needs to go into the Bootstrap.ini file, but you can use the same logic in the CustomSettings.ini file.</source>
+          <target>The DeployRoot value needs to go into the Bootstrap.ini file, but you can use the same logic in the CustomSettings.ini file.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>For example, you can redirect the logs to the local deployment server (SLSHARE), or have the User State Migration Tool (USMT) migration store (UDDIR) local.</source>
+          <target>For example, you can redirect the logs to the local deployment server (SLSHARE), or have the User State Migration Tool (USMT) migration store (UDDIR) local.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](refresh-a-windows-7-computer-with-windows-10.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](replace-a-windows-7-computer-with-a-windows-10-computer.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more about USMT, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh a Windows 7 computer with Windows 10</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Replace a Windows 7 computer with a Windows 10 computer</pc>.</source>
+          <target>To learn more about USMT, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh a Windows 7 computer with Windows 10</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Replace a Windows 7 computer with a Windows 10 computer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Save the Bootstrap.ini file.</source>
+          <target>Save the Bootstrap.ini file.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the Deployment Workbench, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT Production</pc> deployment share and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Update Deployment Share</pc>.</source>
+          <target>Using the Deployment Workbench, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT Production</pc> deployment share and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Update Deployment Share</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>figure 4</source>
+          <target>figure 4</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Figure 4.</source>
+          <target>Figure 4.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Updating the MDT Production deployment share.</source>
+          <target>Updating the MDT Production deployment share.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Use the default settings for the Update Deployment Share Wizard.</source>
+          <target>Use the default settings for the Update Deployment Share Wizard.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>After the update is complete, use the Windows Deployment Services console.</source>
+          <target>After the update is complete, use the Windows Deployment Services console.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Boot Images</pc> node, right-click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDT Production x64</pc> boot image and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Replace Image</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Boot Images</pc> node, right-click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDT Production x64</pc> boot image and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Replace Image</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>figure 5</source>
+          <target>figure 5</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Figure 5.</source>
+          <target>Figure 5.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Replacing the updated boot image in WDS.</source>
+          <target>Replacing the updated boot image in WDS.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Browse and select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />MDTProduction<ph dataRef="id4" id="ph2" />Boot<ph dataRef="id5" id="ph3" />LiteTouchPE<ph dataRef="id6" id="ph4" />x64.wim</pc> boot image, and then complete Replace Boot Image Wizard using the default settings.</source>
+          <target>Browse and select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />MDTProduction<ph dataRef="id4" id="ph2" />Boot<ph dataRef="id5" id="ph3" />LiteTouchPE<ph dataRef="id6" id="ph4" />x64.wim</pc> boot image, and then complete Replace Boot Image Wizard using the default settings.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Replicate the content</source>
+          <target>Replicate the content</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Once the MDT01 and MDT02 servers are prepared, you are ready to configure the actual replication.</source>
+          <target>Once the MDT01 and MDT02 servers are prepared, you are ready to configure the actual replication.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Create the replication group</source>
+          <target>Create the replication group</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, using DFS Management, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Replication</pc>, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Replication Group</pc>.</source>
+          <target>On MDT01, using DFS Management, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Replication</pc>, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Replication Group</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Replication Group Type</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Multipurpose replication group</pc>, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Replication Group Type</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Multipurpose replication group</pc>, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name and Domain</pc> page, assign the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDTProduction</pc> name, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name and Domain</pc> page, assign the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDTProduction</pc> name, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Replication Group Members</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc>, add <pc dataRefEnd="id6" dataRefStart="id5" id="p3">MDT01</pc> and <pc dataRefEnd="id8" dataRefStart="id7" id="p4">MDT02</pc>, and then click <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Replication Group Members</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc>, add <pc dataRefEnd="id6" dataRefStart="id5" id="p3">MDT01</pc> and <pc dataRefEnd="id8" dataRefStart="id7" id="p4">MDT02</pc>, and then click <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>figure 6</source>
+          <target>figure 6</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>Figure 6.</source>
+          <target>Figure 6.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Adding the Replication Group Members.</source>
+          <target>Adding the Replication Group Members.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Topology Selection</pc> page, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Full mesh</pc> option and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Topology Selection</pc> page, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Full mesh</pc> option and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Replication Group Schedule and Bandwidth</pc> page, accept the default settings and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Replication Group Schedule and Bandwidth</pc> page, accept the default settings and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Primary Member</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDT01</pc> and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Primary Member</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDT01</pc> and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">\\</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Folders to Replicate</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc>, type in <pc dataRefEnd="id6" dataRefStart="id5" id="p3">E:<ph dataRef="id7" id="ph1" />MDTProduction</pc> as the folder to replicate, click <pc dataRefEnd="id9" dataRefStart="id8" id="p4">OK</pc>, and then click <pc dataRefEnd="id11" dataRefStart="id10" id="p5">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Folders to Replicate</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc>, type in <pc dataRefEnd="id6" dataRefStart="id5" id="p3">E:<ph dataRef="id7" id="ph1" />MDTProduction</pc> as the folder to replicate, click <pc dataRefEnd="id9" dataRefStart="id8" id="p4">OK</pc>, and then click <pc dataRefEnd="id11" dataRefStart="id10" id="p5">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Local Path of MDTProduction</pc> on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Other Members</pc> page, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">MDT02</pc>, and click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Edit</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Local Path of MDTProduction</pc> on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Other Members</pc> page, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">MDT02</pc>, and click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Edit</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">\\</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">**</data>
+          <data id="id12">**</data>
+          <data id="id13">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Edit</pc> page, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enabled</pc> option, type in <pc dataRefEnd="id6" dataRefStart="id5" id="p3">E:<ph dataRef="id7" id="ph1" />MDTProduction</pc> as the local path of folder, select the <pc dataRefEnd="id9" dataRefStart="id8" id="p4">Make the selected replicated folder on this member read-only</pc> check box, click <pc dataRefEnd="id11" dataRefStart="id10" id="p5">OK</pc>, and then click <pc dataRefEnd="id13" dataRefStart="id12" id="p6">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Edit</pc> page, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enabled</pc> option, type in <pc dataRefEnd="id6" dataRefStart="id5" id="p3">E:<ph dataRef="id7" id="ph1" />MDTProduction</pc> as the local path of folder, select the <pc dataRefEnd="id9" dataRefStart="id8" id="p4">Make the selected replicated folder on this member read-only</pc> check box, click <pc dataRefEnd="id11" dataRefStart="id10" id="p5">OK</pc>, and then click <pc dataRefEnd="id13" dataRefStart="id12" id="p6">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>figure 7</source>
+          <target>figure 7</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Figure 7.</source>
+          <target>Figure 7.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Configure the MDT02 member.</source>
+          <target>Configure the MDT02 member.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Review Settings and Create Replication Group</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Review Settings and Create Replication Group</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Confirmation</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Confirmation</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Configure replicated folders</source>
+          <target>Configure replicated folders</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, using DFS Management, expand <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Replication</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDTProduction</pc>.</source>
+          <target>On MDT01, using DFS Management, expand <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Replication</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDTProduction</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the middle pane, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT01</pc> member and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc>.</source>
+          <target>In the middle pane, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT01</pc> member and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT01 (MDTProduction) Properties</pc> page, configure the following and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT01 (MDTProduction) Properties</pc> page, configure the following and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Staging</pc> tab, set the quota to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">20480 MB</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Staging</pc> tab, set the quota to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">20480 MB</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced</pc> tab, set the quota to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">8192 MB</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced</pc> tab, set the quota to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">8192 MB</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>In this scenario the size of the deployment share is known, but you might need to change the values for your environment.</source>
+          <target>In this scenario the size of the deployment share is known, but you might need to change the values for your environment.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>A good rule of thumb is to get the size of the 16 largest files and make sure they fit in the staging area.</source>
+          <target>A good rule of thumb is to get the size of the 16 largest files and make sure they fit in the staging area.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Here is a Windows PowerShell example that calculates the size of the 16 largest files in the E:<ph dataRef="id1" id="ph1" />MDTProduction deployment share:</source>
+          <target>Here is a Windows PowerShell example that calculates the size of the 16 largest files in the E:<ph dataRef="id1" id="ph1" />MDTProduction deployment share:</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>figure 8</source>
+          <target>figure 8</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Figure 8.</source>
+          <target>Figure 8.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Configure the Staging settings.</source>
+          <target>Configure the Staging settings.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the middle pane, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT02</pc> member and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc>.</source>
+          <target>In the middle pane, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT02</pc> member and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT02 (MDTProduction) Properties</pc> page, configure the following and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT02 (MDTProduction) Properties</pc> page, configure the following and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Staging</pc> tab, set the quota to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">20480 MB</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Staging</pc> tab, set the quota to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">20480 MB</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced</pc> tab, set the quota to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">8192 MB</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced</pc> tab, set the quota to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">8192 MB</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>It will take some time for the replication configuration to be picked up by the replication members (MDT01 and MDT02).</source>
+          <target>It will take some time for the replication configuration to be picked up by the replication members (MDT01 and MDT02).</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>The time for the initial sync will depend on the WAN link speed between the sites.</source>
+          <target>The time for the initial sync will depend on the WAN link speed between the sites.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>After that, delta changes are replicated quickly.</source>
+          <target>After that, delta changes are replicated quickly.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Verify replication</source>
+          <target>Verify replication</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT02, wait until you start to see content appear in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />MDTProduction</pc> folder.</source>
+          <target>On MDT02, wait until you start to see content appear in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />MDTProduction</pc> folder.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using DFS Management, expand <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Replication</pc>, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDTProduction</pc>, and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Create Diagnostics Report</pc>.</source>
+          <target>Using DFS Management, expand <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Replication</pc>, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDTProduction</pc>, and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Create Diagnostics Report</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the Diagnostics Report Wizard, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Type of Diagnostics Report or Test</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Health report</pc> and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>In the Diagnostics Report Wizard, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Type of Diagnostics Report or Test</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Health report</pc> and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Path and Name</pc> page, accept the default settings and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Path and Name</pc> page, accept the default settings and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Members to Include</pc> page, accept the default settings and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Members to Include</pc> page, accept the default settings and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Options</pc> page, accept the default settings and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Options</pc> page, accept the default settings and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Review Settings and Create Report</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Review Settings and Create Report</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the report in Internet Explorer, and if necessary, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow blocked content</pc> option.</source>
+          <target>Open the report in Internet Explorer, and if necessary, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow blocked content</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>figure 9</source>
+          <target>figure 9</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>Figure 9.</source>
+          <target>Figure 9.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>The DFS Replication Health Report.</source>
+          <target>The DFS Replication Health Report.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Configure Windows Deployment Services (WDS) in a remote site</source>
+          <target>Configure Windows Deployment Services (WDS) in a remote site</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Like you did in the previous topic for MDT01, you need to add the MDT Production Lite Touch x64 Boot image to Windows Deployment Services on MDT02.</source>
+          <target>Like you did in the previous topic for MDT01, you need to add the MDT Production Lite Touch x64 Boot image to Windows Deployment Services on MDT02.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>For the following steps, we assume that WDS has already been installed on MDT02.</source>
+          <target>For the following steps, we assume that WDS has already been installed on MDT02.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT02, using the WDS console, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Boot Images</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add Boot Image</pc>.</source>
+          <target>On MDT02, using the WDS console, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Boot Images</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add Boot Image</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Browse to the E:<ph dataRef="id1" id="ph1" />MDTProduction<ph dataRef="id2" id="ph2" />Boot<ph dataRef="id3" id="ph3" />LiteTouchPE<ph dataRef="id4" id="ph4" />x64.wim file and add the image with the default settings.</source>
+          <target>Browse to the E:<ph dataRef="id1" id="ph1" />MDTProduction<ph dataRef="id2" id="ph2" />Boot<ph dataRef="id3" id="ph3" />LiteTouchPE<ph dataRef="id4" id="ph4" />x64.wim file and add the image with the default settings.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Deploy the Windows 10 client to the remote site</source>
+          <target>Deploy the Windows 10 client to the remote site</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Now you should have a solution ready for deploying the Windows 10 client to the remote site, Stockholm, connecting to the MDT Production deployment share replica on MDT02.</source>
+          <target>Now you should have a solution ready for deploying the Windows 10 client to the remote site, Stockholm, connecting to the MDT Production deployment share replica on MDT02.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Create a virtual machine with the following settings:</source>
+          <target>Create a virtual machine with the following settings:</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Name: PC0006</source>
+          <target>Name: PC0006</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Location: C:<ph dataRef="id1" id="ph1" />VMs</source>
+          <target>Location: C:<ph dataRef="id1" id="ph1" />VMs</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>Generation: 2</source>
+          <target>Generation: 2</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>Memory: 2048 MB</source>
+          <target>Memory: 2048 MB</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Hard disk: 60 GB (dynamic disk)</source>
+          <target>Hard disk: 60 GB (dynamic disk)</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Start the PC0006 virtual machine, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc> to start the Pre-Boot Execution Environment (PXE) boot.</source>
+          <target>Start the PC0006 virtual machine, and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc> to start the Pre-Boot Execution Environment (PXE) boot.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>The machine will now load the Windows PE boot image from the WDS server.</source>
+          <target>The machine will now load the Windows PE boot image from the WDS server.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>After Windows Preinstallation Environment (Windows PE) has booted, complete the Windows Deployment Wizard using the following settings:</source>
+          <target>After Windows Preinstallation Environment (Windows PE) has booted, complete the Windows Deployment Wizard using the following settings:</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>Password: P@ssw0rd</source>
+          <target>Password: P@ssw0rd</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>Select a task sequence to execute on this computer:</source>
+          <target>Select a task sequence to execute on this computer:</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>Windows 10 Enterprise x64 RTM Custom Image</source>
+          <target>Windows 10 Enterprise x64 RTM Custom Image</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>Computer Name: PC0006</source>
+          <target>Computer Name: PC0006</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Applications: Select the Install - Adobe Reader XI - x86 application</source>
+          <target>Applications: Select the Install - Adobe Reader XI - x86 application</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>The setup will now start and do the following:</source>
+          <target>The setup will now start and do the following:</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>Install the Windows 10 Enterprise operating system.</source>
+          <target>Install the Windows 10 Enterprise operating system.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>Install the added application.</source>
+          <target>Install the added application.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>Update the operating system via your local Windows Server Update Services (WSUS) server.</source>
+          <target>Update the operating system via your local Windows Server Update Services (WSUS) server.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>Get started with the Microsoft Deployment Toolkit (MDT)</source>
+          <target>Get started with the Microsoft Deployment Toolkit (MDT)</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Create a Windows 10 reference image</source>
+          <target>Create a Windows 10 reference image</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>Deploy a Windows 10 image using MDT 2013 Update 2</source>
+          <target>Deploy a Windows 10 image using MDT 2013 Update 2</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>Refresh a Windows 7 computer with Windows 10</source>
+          <target>Refresh a Windows 7 computer with Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>Replace a Windows 7 computer with a Windows 10 computer</source>
+          <target>Replace a Windows 7 computer with a Windows 10 computer</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>Configure MDT settings</source>
+          <target>Configure MDT settings</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

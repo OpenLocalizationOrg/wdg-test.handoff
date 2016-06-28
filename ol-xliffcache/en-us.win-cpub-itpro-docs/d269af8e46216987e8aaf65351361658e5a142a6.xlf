@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\medv-v2\detecting-network-changes-that-affect-med-v.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">d269af8e46216987e8aaf65351361658e5a142a6</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Detecting Network Changes that Affect MED-V</source>
+          <target>Detecting Network Changes that Affect MED-V</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Detecting Network Changes that Affect MED-V</source>
+          <target>Detecting Network Changes that Affect MED-V</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Detecting Network Changes that Affect MED-V</source>
+          <target>Detecting Network Changes that Affect MED-V</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>The Microsoft Enterprise Desktop Virtualization (MED-V) 2.0 solution lets you configure your environment to detect certain network changes that might occur after MED-V workspaces are deployed and that can affect MED-V.</source>
+          <target>The Microsoft Enterprise Desktop Virtualization (MED-V) 2.0 solution lets you configure your environment to detect certain network changes that might occur after MED-V workspaces are deployed and that can affect MED-V.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>The feature includes a component running in the guest operating system that is notified of network configuration changes on the host computer.</source>
+          <target>The feature includes a component running in the guest operating system that is notified of network configuration changes on the host computer.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>It allows a non-Microsoft ESD or other application that is running in the guest to resolve to the same network endpoints that the host ESD or application resolves to.</source>
+          <target>It allows a non-Microsoft ESD or other application that is running in the guest to resolve to the same network endpoints that the host ESD or application resolves to.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>This feature is only available if the virtual machine is configured for network address translation (NAT) mode.</source>
+          <target>This feature is only available if the virtual machine is configured for network address translation (NAT) mode.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>If the virtual machine is configured for BRIDGED mode, no change indications are generated.</source>
+          <target>If the virtual machine is configured for BRIDGED mode, no change indications are generated.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>This section provides information and instruction to assist you in monitoring those network changes that can affect MED-V.</source>
+          <target>This section provides information and instruction to assist you in monitoring those network changes that can affect MED-V.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>To detect network changes for MED-V</source>
+          <target>To detect network changes for MED-V</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>After you have deployed your MED-V workspaces, you can monitor changes to certain network configurations by preforming the following tasks:</source>
+          <target>After you have deployed your MED-V workspaces, you can monitor changes to certain network configurations by preforming the following tasks:</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Create a Managed Object Format (MOF) file that will look for the network configuration changes that you want to monitor.</source>
+          <target>Create a Managed Object Format (MOF) file that will look for the network configuration changes that you want to monitor.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The following code shows an example of the MOF file that you can create.</source>
+          <target>The following code shows an example of the MOF file that you can create.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Compile the MOF file.</source>
+          <target>Compile the MOF file.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Install the MOF file in the guest.</source>
+          <target>Install the MOF file in the guest.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>After you have installed the MOF file, you can create an event subscription that subscribes to Windows Management Instrumentation (WMI) creation, modification, or deletion events for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CCM<ph dataRef="id3" id="ph1" />NetworkAdapters</pc> class.</source>
+          <target>After you have installed the MOF file, you can create an event subscription that subscribes to Windows Management Instrumentation (WMI) creation, modification, or deletion events for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CCM<ph dataRef="id3" id="ph1" />NetworkAdapters</pc> class.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>This detects the following changes to the host:</source>
+          <target>This detects the following changes to the host:</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Are there any configuration changes to the network, such as changes to the IP address or network adapter?</source>
+          <target>Are there any configuration changes to the network, such as changes to the IP address or network adapter?</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Is the network available or unavailable?</source>
+          <target>Is the network available or unavailable?</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Was the network setup changed from BRIDGED mode to NAT mode?</source>
+          <target>Was the network setup changed from BRIDGED mode to NAT mode?</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Was the network setup changed from NAT mode to BRIDGED mode?</source>
+          <target>Was the network setup changed from NAT mode to BRIDGED mode?</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>A MED-V component on the host monitors the network for these changes and then signals the guest of the change.</source>
+          <target>A MED-V component on the host monitors the network for these changes and then signals the guest of the change.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>A component in the guest creates a WMI instance to monitor the MED-V workspace for these changes.</source>
+          <target>A component in the guest creates a WMI instance to monitor the MED-V workspace for these changes.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>The event subscription you created provides notification through the WMI system when one or more of these network changes – creation, modification, or deletion – occurs.</source>
+          <target>The event subscription you created provides notification through the WMI system when one or more of these network changes – creation, modification, or deletion – occurs.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Monitor MED-V Workspaces</source>
+          <target>Monitor MED-V Workspaces</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Manage MED-V Workspace Settings</source>
+          <target>Manage MED-V Workspace Settings</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

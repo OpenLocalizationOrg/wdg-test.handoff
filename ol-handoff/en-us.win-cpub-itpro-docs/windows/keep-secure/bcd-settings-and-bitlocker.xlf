@@ -1,0 +1,3559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\bcd-settings-and-bitlocker.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">310d7086848923787077d39e8eb8c819c78954ed</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>BCD settings and BitLocker (Windows 10)</source>
+          <target>BCD settings and BitLocker (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic for IT professionals describes the BCD settings that are used by BitLocker.</source>
+          <target>This topic for IT professionals describes the BCD settings that are used by BitLocker.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>BCD settings and BitLocker</source>
+          <target>BCD settings and BitLocker</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic for IT professionals describes the BCD settings that are used by BitLocker.</source>
+          <target>This topic for IT professionals describes the BCD settings that are used by BitLocker.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>When protecting data at rest on an operating system volume, during the boot process BitLocker verifies that the security sensitive boot configuration data (BCD) settings have not changed since BitLocker was last enabled, resumed, or recovered.</source>
+          <target>When protecting data at rest on an operating system volume, during the boot process BitLocker verifies that the security sensitive boot configuration data (BCD) settings have not changed since BitLocker was last enabled, resumed, or recovered.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>BitLocker and BCD Settings</source>
+          <target>BitLocker and BCD Settings</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>In Windows 7 and Windows Server 2008 R2, BitLocker validated nearly all BCD settings with the winload, winresume, and memtest prefixes.</source>
+          <target>In Windows 7 and Windows Server 2008 R2, BitLocker validated nearly all BCD settings with the winload, winresume, and memtest prefixes.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>However, this high degree of validation caused BitLocker to go into recovery mode for benign setting changes, for example, when applying a language pack BitLocker would enter recovery.</source>
+          <target>However, this high degree of validation caused BitLocker to go into recovery mode for benign setting changes, for example, when applying a language pack BitLocker would enter recovery.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>In Windows 8, Windows Server 2012, and later operating systems BitLocker narrows the set of BCD settings validated to reduce the chance of benign changes causing a BCD validation problem.</source>
+          <target>In Windows 8, Windows Server 2012, and later operating systems BitLocker narrows the set of BCD settings validated to reduce the chance of benign changes causing a BCD validation problem.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>If you believe that there is a risk in excluding a particular BCD setting from the validation profile, you can increase BCD validation coverage to suit your validation preferences.</source>
+          <target>If you believe that there is a risk in excluding a particular BCD setting from the validation profile, you can increase BCD validation coverage to suit your validation preferences.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Alternatively, if a default BCD setting is persistently triggering recovery for benign changes, then you can exclude that BCD setting from the validation profile.</source>
+          <target>Alternatively, if a default BCD setting is persistently triggering recovery for benign changes, then you can exclude that BCD setting from the validation profile.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>When secure boot is enabled</source>
+          <target>When secure boot is enabled</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Computers with UEFI firmware can use Secure Boot to provide enhanced boot security.</source>
+          <target>Computers with UEFI firmware can use Secure Boot to provide enhanced boot security.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When BitLocker is able to use Secure Boot for platform and BCD integrity validation, as defined by the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow Secure Boot for integrity validation</pc> group policy setting, the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Use enhanced Boot Configuration Data validation profile</pc> group policy is ignored.</source>
+          <target>When BitLocker is able to use Secure Boot for platform and BCD integrity validation, as defined by the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow Secure Boot for integrity validation</pc> group policy setting, the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Use enhanced Boot Configuration Data validation profile</pc> group policy is ignored.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>One of the benefits of using Secure Boot is that it can correct BCD settings during boot without triggering recovery events.</source>
+          <target>One of the benefits of using Secure Boot is that it can correct BCD settings during boot without triggering recovery events.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Secure Boot enforces the same BCD settings as BitLocker.</source>
+          <target>Secure Boot enforces the same BCD settings as BitLocker.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Secure Boot BCD enforcement is not configurable from within the operating system.</source>
+          <target>Secure Boot BCD enforcement is not configurable from within the operating system.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Customizing BCD validation settings</source>
+          <target>Customizing BCD validation settings</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To modify the BCD settings BitLocker validates the IT Pro will add or exclude BCD settings from the platform validation profile by enabling and configuring the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use enhanced Boot Configuration Data validation profile</pc> Group Policy setting.</source>
+          <target>To modify the BCD settings BitLocker validates the IT Pro will add or exclude BCD settings from the platform validation profile by enabling and configuring the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use enhanced Boot Configuration Data validation profile</pc> Group Policy setting.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>For the purposes of BitLocker validation, BCD settings are associated with a specific set of Microsoft boot applications.</source>
+          <target>For the purposes of BitLocker validation, BCD settings are associated with a specific set of Microsoft boot applications.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>BCD settings are either associated with a specific boot application or can apply to all boot applications by associating a prefix to the BCD setting entered in the Group Policy setting.</source>
+          <target>BCD settings are either associated with a specific boot application or can apply to all boot applications by associating a prefix to the BCD setting entered in the Group Policy setting.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Prefix values include:</source>
+          <target>Prefix values include:</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>winresume</source>
+          <target>winresume</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>memtest</source>
+          <target>memtest</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>All BCD settings are specified by combining the prefix value with either a hexadecimal (hex) value or a “friendly name.”</source>
+          <target>All BCD settings are specified by combining the prefix value with either a hexadecimal (hex) value or a “friendly name.”</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>The BCD setting hex value is reported when BitLocker enters recovery mode and is stored in the event log (event ID 523).</source>
+          <target>The BCD setting hex value is reported when BitLocker enters recovery mode and is stored in the event log (event ID 523).</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>The hex value uniquely identifies which BCD setting caused the recovery event.</source>
+          <target>The hex value uniquely identifies which BCD setting caused the recovery event.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">`bcdedit.exe /enum all`</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can quickly obtain the friendly name for the BCD settings on your computer by using the command “<ph dataRef="id1" id="ph1" />”.</source>
+          <target>You can quickly obtain the friendly name for the BCD settings on your computer by using the command “<ph dataRef="id1" id="ph1" />”.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Not all BCD settings have friendly names, for those settings the hex value is the only way to configure an exclusion policy.</source>
+          <target>Not all BCD settings have friendly names, for those settings the hex value is the only way to configure an exclusion policy.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When specifying BCD values in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use enhanced Boot Configuration Data validation profile</pc> Group Policy setting, use the following syntax:</source>
+          <target>When specifying BCD values in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use enhanced Boot Configuration Data validation profile</pc> Group Policy setting, use the following syntax:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Prefix the setting with the boot application prefix</source>
+          <target>Prefix the setting with the boot application prefix</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Append a colon ‘:’</source>
+          <target>Append a colon ‘:’</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Append either the hex value or the friendly name</source>
+          <target>Append either the hex value or the friendly name</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>If entering more than one BCD setting, you will need to enter each BCD setting on a new line</source>
+          <target>If entering more than one BCD setting, you will need to enter each BCD setting on a new line</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">`winload:hypervisordebugport`</data>
+          <data id="id2">`winload:0x250000f4`</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, either “<ph dataRef="id1" id="ph1" />” or “<ph dataRef="id2" id="ph2" />” yield the same value.</source>
+          <target>For example, either “<ph dataRef="id1" id="ph1" />” or “<ph dataRef="id2" id="ph2" />” yield the same value.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Setting that applies to all boot applications may be applied only to an individual application, however the reverse is not true.</source>
+          <target>Setting that applies to all boot applications may be applied only to an individual application, however the reverse is not true.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">`all:locale`</data>
+          <data id="id2">`winresume:locale`</data>
+          <data id="id3">`win-pe`</data>
+          <data id="id4">`winload:winpe`</data>
+          <data id="id5">`all:winpe`</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, one can specify either: “<ph dataRef="id1" id="ph1" />” or “<ph dataRef="id2" id="ph2" />”, but as the bcd setting “<ph dataRef="id3" id="ph3" />” does not apply to all boot applications, “<ph dataRef="id4" id="ph4" />” is valid, but “<ph dataRef="id5" id="ph5" />” is not valid.</source>
+          <target>For example, one can specify either: “<ph dataRef="id1" id="ph1" />” or “<ph dataRef="id2" id="ph2" />”, but as the bcd setting “<ph dataRef="id3" id="ph3" />” does not apply to all boot applications, “<ph dataRef="id4" id="ph4" />” is valid, but “<ph dataRef="id5" id="ph5" />” is not valid.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">`bootdebug`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The setting that controls boot debugging (“<ph dataRef="id1" id="ph1" />” or 0x16000010) will always be validated and will have no effect if it is included in the provided fields.</source>
+          <target>The setting that controls boot debugging (“<ph dataRef="id1" id="ph1" />” or 0x16000010) will always be validated and will have no effect if it is included in the provided fields.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Take care when configuring BCD entries in the Group Policy setting.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Take care when configuring BCD entries in the Group Policy setting.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>The Local Group Policy Editor does not validate the correctness of the BCD entry.</source>
+          <target>The Local Group Policy Editor does not validate the correctness of the BCD entry.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>BitLocker will fail to be enabled if the Group Policy setting specified is invalid.</source>
+          <target>BitLocker will fail to be enabled if the Group Policy setting specified is invalid.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Default BCD validation profile</source>
+          <target>Default BCD validation profile</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>The following table contains the default BCD validation profile used by BitLocker in Windows 8, Windows Server 2012, and later operating systems:</source>
+          <target>The following table contains the default BCD validation profile used by BitLocker in Windows 8, Windows Server 2012, and later operating systems:</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Hex Value</source>
+          <target>Hex Value</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Prefix</source>
+          <target>Prefix</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Friendly Name</source>
+          <target>Friendly Name</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>0x11000001</source>
+          <target>0x11000001</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>device</source>
+          <target>device</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>0x12000002</source>
+          <target>0x12000002</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>path</source>
+          <target>path</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>0x12000030</source>
+          <target>0x12000030</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>loadoptions</source>
+          <target>loadoptions</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>0x16000010</source>
+          <target>0x16000010</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>bootdebug</source>
+          <target>bootdebug</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>0x16000040</source>
+          <target>0x16000040</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>advancedoptions</source>
+          <target>advancedoptions</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>0x16000041</source>
+          <target>0x16000041</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>optionsedit</source>
+          <target>optionsedit</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>0x16000048</source>
+          <target>0x16000048</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>nointegritychecks</source>
+          <target>nointegritychecks</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>0x16000049</source>
+          <target>0x16000049</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>testsigning</source>
+          <target>testsigning</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>0x16000060</source>
+          <target>0x16000060</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>isolatedcontext</source>
+          <target>isolatedcontext</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>0x1600007b</source>
+          <target>0x1600007b</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>forcefipscrypto</source>
+          <target>forcefipscrypto</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>0x22000002</source>
+          <target>0x22000002</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>systemroot</source>
+          <target>systemroot</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>0x22000011</source>
+          <target>0x22000011</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>kernel</source>
+          <target>kernel</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>0x22000012</source>
+          <target>0x22000012</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>hal</source>
+          <target>hal</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>0x22000053</source>
+          <target>0x22000053</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>evstore</source>
+          <target>evstore</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>0x25000020</source>
+          <target>0x25000020</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>nx</source>
+          <target>nx</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>0x25000052</source>
+          <target>0x25000052</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>restrictapiccluster</source>
+          <target>restrictapiccluster</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>0x26000022</source>
+          <target>0x26000022</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>winpe</source>
+          <target>winpe</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>0x26000025</source>
+          <target>0x26000025</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>lastknowngood</source>
+          <target>lastknowngood</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>0x26000081</source>
+          <target>0x26000081</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>safebootalternateshell</source>
+          <target>safebootalternateshell</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>0x260000a0</source>
+          <target>0x260000a0</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>debug</source>
+          <target>debug</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>0x260000f2</source>
+          <target>0x260000f2</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>hypervisordebug</source>
+          <target>hypervisordebug</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>0x26000116</source>
+          <target>0x26000116</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>hypervisorusevapic</source>
+          <target>hypervisorusevapic</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>0x21000001</source>
+          <target>0x21000001</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>winresume</source>
+          <target>winresume</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>filedevice</source>
+          <target>filedevice</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>0x22000002</source>
+          <target>0x22000002</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>winresume</source>
+          <target>winresume</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>filepath</source>
+          <target>filepath</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>0x26000006</source>
+          <target>0x26000006</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>winresume</source>
+          <target>winresume</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>debugoptionenabled</source>
+          <target>debugoptionenabled</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Full list of friendly names for ignored BCD settings</source>
+          <target>Full list of friendly names for ignored BCD settings</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>This following is a full list of BCD settings with friendly names which are ignored by default.</source>
+          <target>This following is a full list of BCD settings with friendly names which are ignored by default.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>These settings are not part of the default BitLocker validation profile, but can be added if you see a need to validate any of these settings before allowing a BitLocker–protected operating system drive to be unlocked.</source>
+          <target>These settings are not part of the default BitLocker validation profile, but can be added if you see a need to validate any of these settings before allowing a BitLocker–protected operating system drive to be unlocked.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Additional BCD settings exist that have hex values but do not have friendly names.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Additional BCD settings exist that have hex values but do not have friendly names.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>These settings are not included in this list.</source>
+          <target>These settings are not included in this list.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Hex Value</source>
+          <target>Hex Value</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Prefix</source>
+          <target>Prefix</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>Friendly Name</source>
+          <target>Friendly Name</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>0x12000004</source>
+          <target>0x12000004</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>description</source>
+          <target>description</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>0x12000005</source>
+          <target>0x12000005</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>locale</source>
+          <target>locale</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>0x12000016</source>
+          <target>0x12000016</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>targetname</source>
+          <target>targetname</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>0x12000019</source>
+          <target>0x12000019</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>busparams</source>
+          <target>busparams</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>0x1200001d</source>
+          <target>0x1200001d</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>key</source>
+          <target>key</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>0x1200004a</source>
+          <target>0x1200004a</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>fontpath</source>
+          <target>fontpath</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>0x14000006</source>
+          <target>0x14000006</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>inherit</source>
+          <target>inherit</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>0x14000008</source>
+          <target>0x14000008</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>recoverysequence</source>
+          <target>recoverysequence</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>0x15000007</source>
+          <target>0x15000007</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>truncatememory</source>
+          <target>truncatememory</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>0x1500000c</source>
+          <target>0x1500000c</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>firstmegabytepolicy</source>
+          <target>firstmegabytepolicy</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>0x1500000d</source>
+          <target>0x1500000d</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>relocatephysical</source>
+          <target>relocatephysical</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>0x1500000e</source>
+          <target>0x1500000e</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>avoidlowmemory</source>
+          <target>avoidlowmemory</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>0x15000011</source>
+          <target>0x15000011</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>debugtype</source>
+          <target>debugtype</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>0x15000012</source>
+          <target>0x15000012</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>debugaddress</source>
+          <target>debugaddress</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>0x15000013</source>
+          <target>0x15000013</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>debugport</source>
+          <target>debugport</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>0x15000014</source>
+          <target>0x15000014</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>baudrate</source>
+          <target>baudrate</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>0x15000015</source>
+          <target>0x15000015</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>channel</source>
+          <target>channel</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>0x15000018</source>
+          <target>0x15000018</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <segment state="initial">
+          <source>debugstart</source>
+          <target>debugstart</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>0x1500001a</source>
+          <target>0x1500001a</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>hostip</source>
+          <target>hostip</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>0x1500001b</source>
+          <target>0x1500001b</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>port</source>
+          <target>port</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>0x15000022</source>
+          <target>0x15000022</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>emsport</source>
+          <target>emsport</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>0x15000023</source>
+          <target>0x15000023</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>emsbaudrate</source>
+          <target>emsbaudrate</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>0x15000042</source>
+          <target>0x15000042</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>keyringaddress</source>
+          <target>keyringaddress</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>0x15000047</source>
+          <target>0x15000047</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>configaccesspolicy</source>
+          <target>configaccesspolicy</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>0x1500004b</source>
+          <target>0x1500004b</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <segment state="initial">
+          <source>integrityservices</source>
+          <target>integrityservices</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>0x1500004c</source>
+          <target>0x1500004c</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <segment state="initial">
+          <source>volumebandid</source>
+          <target>volumebandid</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>0x15000051</source>
+          <target>0x15000051</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>initialconsoleinput</source>
+          <target>initialconsoleinput</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>0x15000052</source>
+          <target>0x15000052</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>graphicsresolution</source>
+          <target>graphicsresolution</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <segment state="initial">
+          <source>0x15000065</source>
+          <target>0x15000065</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <segment state="initial">
+          <source>displaymessage</source>
+          <target>displaymessage</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <segment state="initial">
+          <source>0x15000066</source>
+          <target>0x15000066</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <segment state="initial">
+          <source>displaymessageoverride</source>
+          <target>displaymessageoverride</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <segment state="initial">
+          <source>0x16000009</source>
+          <target>0x16000009</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <segment state="initial">
+          <source>recoveryenabled</source>
+          <target>recoveryenabled</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>0x1600000b</source>
+          <target>0x1600000b</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>badmemoryaccess</source>
+          <target>badmemoryaccess</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <segment state="initial">
+          <source>0x1600000f</source>
+          <target>0x1600000f</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <segment state="initial">
+          <source>traditionalkseg</source>
+          <target>traditionalkseg</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <segment state="initial">
+          <source>0x16000017</source>
+          <target>0x16000017</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <segment state="initial">
+          <source>noumex</source>
+          <target>noumex</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <segment state="initial">
+          <source>0x1600001c</source>
+          <target>0x1600001c</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <segment state="initial">
+          <source>dhcp</source>
+          <target>dhcp</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <segment state="initial">
+          <source>0x1600001e</source>
+          <target>0x1600001e</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <segment state="initial">
+          <source>vm</source>
+          <target>vm</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <segment state="initial">
+          <source>0x16000020</source>
+          <target>0x16000020</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <segment state="initial">
+          <source>bootems</source>
+          <target>bootems</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <segment state="initial">
+          <source>0x16000046</source>
+          <target>0x16000046</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <segment state="initial">
+          <source>graphicsmodedisabled</source>
+          <target>graphicsmodedisabled</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <segment state="initial">
+          <source>0x16000050</source>
+          <target>0x16000050</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <segment state="initial">
+          <source>extendedinput</source>
+          <target>extendedinput</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <segment state="initial">
+          <source>0x16000053</source>
+          <target>0x16000053</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <segment state="initial">
+          <source>restartonfailure</source>
+          <target>restartonfailure</target>
+        </segment>
+      </unit>
+      <unit id="354">
+        <segment state="initial">
+          <source>0x16000054</source>
+          <target>0x16000054</target>
+        </segment>
+      </unit>
+      <unit id="355">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="356">
+        <segment state="initial">
+          <source>highestmode</source>
+          <target>highestmode</target>
+        </segment>
+      </unit>
+      <unit id="357">
+        <segment state="initial">
+          <source>0x1600006c</source>
+          <target>0x1600006c</target>
+        </segment>
+      </unit>
+      <unit id="358">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="359">
+        <segment state="initial">
+          <source>bootuxdisabled</source>
+          <target>bootuxdisabled</target>
+        </segment>
+      </unit>
+      <unit id="360">
+        <segment state="initial">
+          <source>0x16000072</source>
+          <target>0x16000072</target>
+        </segment>
+      </unit>
+      <unit id="361">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="362">
+        <segment state="initial">
+          <source>nokeyboard</source>
+          <target>nokeyboard</target>
+        </segment>
+      </unit>
+      <unit id="363">
+        <segment state="initial">
+          <source>0x16000074</source>
+          <target>0x16000074</target>
+        </segment>
+      </unit>
+      <unit id="364">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="365">
+        <segment state="initial">
+          <source>bootshutdowndisabled</source>
+          <target>bootshutdowndisabled</target>
+        </segment>
+      </unit>
+      <unit id="366">
+        <segment state="initial">
+          <source>0x1700000a</source>
+          <target>0x1700000a</target>
+        </segment>
+      </unit>
+      <unit id="367">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="368">
+        <segment state="initial">
+          <source>badmemorylist</source>
+          <target>badmemorylist</target>
+        </segment>
+      </unit>
+      <unit id="369">
+        <segment state="initial">
+          <source>0x17000077</source>
+          <target>0x17000077</target>
+        </segment>
+      </unit>
+      <unit id="370">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="371">
+        <segment state="initial">
+          <source>allowedinmemorysettings</source>
+          <target>allowedinmemorysettings</target>
+        </segment>
+      </unit>
+      <unit id="372">
+        <segment state="initial">
+          <source>0x22000040</source>
+          <target>0x22000040</target>
+        </segment>
+      </unit>
+      <unit id="373">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="374">
+        <segment state="initial">
+          <source>fverecoveryurl</source>
+          <target>fverecoveryurl</target>
+        </segment>
+      </unit>
+      <unit id="375">
+        <segment state="initial">
+          <source>0x22000041</source>
+          <target>0x22000041</target>
+        </segment>
+      </unit>
+      <unit id="376">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="377">
+        <segment state="initial">
+          <source>fverecoverymessage</source>
+          <target>fverecoverymessage</target>
+        </segment>
+      </unit>
+      <unit id="378">
+        <segment state="initial">
+          <source>0x31000003</source>
+          <target>0x31000003</target>
+        </segment>
+      </unit>
+      <unit id="379">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="380">
+        <segment state="initial">
+          <source>ramdisksdidevice</source>
+          <target>ramdisksdidevice</target>
+        </segment>
+      </unit>
+      <unit id="381">
+        <segment state="initial">
+          <source>0x32000004</source>
+          <target>0x32000004</target>
+        </segment>
+      </unit>
+      <unit id="382">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="383">
+        <segment state="initial">
+          <source>ramdisksdipath</source>
+          <target>ramdisksdipath</target>
+        </segment>
+      </unit>
+      <unit id="384">
+        <segment state="initial">
+          <source>0x35000001</source>
+          <target>0x35000001</target>
+        </segment>
+      </unit>
+      <unit id="385">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="386">
+        <segment state="initial">
+          <source>ramdiskimageoffset</source>
+          <target>ramdiskimageoffset</target>
+        </segment>
+      </unit>
+      <unit id="387">
+        <segment state="initial">
+          <source>0x35000002</source>
+          <target>0x35000002</target>
+        </segment>
+      </unit>
+      <unit id="388">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="389">
+        <segment state="initial">
+          <source>ramdisktftpclientport</source>
+          <target>ramdisktftpclientport</target>
+        </segment>
+      </unit>
+      <unit id="390">
+        <segment state="initial">
+          <source>0x35000005</source>
+          <target>0x35000005</target>
+        </segment>
+      </unit>
+      <unit id="391">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="392">
+        <segment state="initial">
+          <source>ramdiskimagelength</source>
+          <target>ramdiskimagelength</target>
+        </segment>
+      </unit>
+      <unit id="393">
+        <segment state="initial">
+          <source>0x35000007</source>
+          <target>0x35000007</target>
+        </segment>
+      </unit>
+      <unit id="394">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="395">
+        <segment state="initial">
+          <source>ramdisktftpblocksize</source>
+          <target>ramdisktftpblocksize</target>
+        </segment>
+      </unit>
+      <unit id="396">
+        <segment state="initial">
+          <source>0x35000008</source>
+          <target>0x35000008</target>
+        </segment>
+      </unit>
+      <unit id="397">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="398">
+        <segment state="initial">
+          <source>ramdisktftpwindowsize</source>
+          <target>ramdisktftpwindowsize</target>
+        </segment>
+      </unit>
+      <unit id="399">
+        <segment state="initial">
+          <source>0x36000006</source>
+          <target>0x36000006</target>
+        </segment>
+      </unit>
+      <unit id="400">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="401">
+        <segment state="initial">
+          <source>exportascd</source>
+          <target>exportascd</target>
+        </segment>
+      </unit>
+      <unit id="402">
+        <segment state="initial">
+          <source>0x36000009</source>
+          <target>0x36000009</target>
+        </segment>
+      </unit>
+      <unit id="403">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="404">
+        <segment state="initial">
+          <source>ramdiskmcenabled</source>
+          <target>ramdiskmcenabled</target>
+        </segment>
+      </unit>
+      <unit id="405">
+        <segment state="initial">
+          <source>0x3600000a</source>
+          <target>0x3600000a</target>
+        </segment>
+      </unit>
+      <unit id="406">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="407">
+        <segment state="initial">
+          <source>ramdiskmctftpfallback</source>
+          <target>ramdiskmctftpfallback</target>
+        </segment>
+      </unit>
+      <unit id="408">
+        <segment state="initial">
+          <source>0x3600000b</source>
+          <target>0x3600000b</target>
+        </segment>
+      </unit>
+      <unit id="409">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="410">
+        <segment state="initial">
+          <source>ramdisktftpvarwindow</source>
+          <target>ramdisktftpvarwindow</target>
+        </segment>
+      </unit>
+      <unit id="411">
+        <segment state="initial">
+          <source>0x21000001</source>
+          <target>0x21000001</target>
+        </segment>
+      </unit>
+      <unit id="412">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="413">
+        <segment state="initial">
+          <source>osdevice</source>
+          <target>osdevice</target>
+        </segment>
+      </unit>
+      <unit id="414">
+        <segment state="initial">
+          <source>0x22000013</source>
+          <target>0x22000013</target>
+        </segment>
+      </unit>
+      <unit id="415">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="416">
+        <segment state="initial">
+          <source>dbgtransport</source>
+          <target>dbgtransport</target>
+        </segment>
+      </unit>
+      <unit id="417">
+        <segment state="initial">
+          <source>0x220000f9</source>
+          <target>0x220000f9</target>
+        </segment>
+      </unit>
+      <unit id="418">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="419">
+        <segment state="initial">
+          <source>hypervisorbusparams</source>
+          <target>hypervisorbusparams</target>
+        </segment>
+      </unit>
+      <unit id="420">
+        <segment state="initial">
+          <source>0x22000110</source>
+          <target>0x22000110</target>
+        </segment>
+      </unit>
+      <unit id="421">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="422">
+        <segment state="initial">
+          <source>hypervisorusekey</source>
+          <target>hypervisorusekey</target>
+        </segment>
+      </unit>
+      <unit id="423">
+        <segment state="initial">
+          <source>0x23000003</source>
+          <target>0x23000003</target>
+        </segment>
+      </unit>
+      <unit id="424">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="425">
+        <segment state="initial">
+          <source>resumeobject</source>
+          <target>resumeobject</target>
+        </segment>
+      </unit>
+      <unit id="426">
+        <segment state="initial">
+          <source>0x25000021</source>
+          <target>0x25000021</target>
+        </segment>
+      </unit>
+      <unit id="427">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="428">
+        <segment state="initial">
+          <source>pae</source>
+          <target>pae</target>
+        </segment>
+      </unit>
+      <unit id="429">
+        <segment state="initial">
+          <source>0x25000031</source>
+          <target>0x25000031</target>
+        </segment>
+      </unit>
+      <unit id="430">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="431">
+        <segment state="initial">
+          <source>removememory</source>
+          <target>removememory</target>
+        </segment>
+      </unit>
+      <unit id="432">
+        <segment state="initial">
+          <source>0x25000032</source>
+          <target>0x25000032</target>
+        </segment>
+      </unit>
+      <unit id="433">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="434">
+        <segment state="initial">
+          <source>increaseuserva</source>
+          <target>increaseuserva</target>
+        </segment>
+      </unit>
+      <unit id="435">
+        <segment state="initial">
+          <source>0x25000033</source>
+          <target>0x25000033</target>
+        </segment>
+      </unit>
+      <unit id="436">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="437">
+        <segment state="initial">
+          <source>perfmem</source>
+          <target>perfmem</target>
+        </segment>
+      </unit>
+      <unit id="438">
+        <segment state="initial">
+          <source>0x25000050</source>
+          <target>0x25000050</target>
+        </segment>
+      </unit>
+      <unit id="439">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="440">
+        <segment state="initial">
+          <source>clustermodeaddressing</source>
+          <target>clustermodeaddressing</target>
+        </segment>
+      </unit>
+      <unit id="441">
+        <segment state="initial">
+          <source>0x25000055</source>
+          <target>0x25000055</target>
+        </segment>
+      </unit>
+      <unit id="442">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="443">
+        <segment state="initial">
+          <source>x2apicpolicy</source>
+          <target>x2apicpolicy</target>
+        </segment>
+      </unit>
+      <unit id="444">
+        <segment state="initial">
+          <source>0x25000061</source>
+          <target>0x25000061</target>
+        </segment>
+      </unit>
+      <unit id="445">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="446">
+        <segment state="initial">
+          <source>numproc</source>
+          <target>numproc</target>
+        </segment>
+      </unit>
+      <unit id="447">
+        <segment state="initial">
+          <source>0x25000063</source>
+          <target>0x25000063</target>
+        </segment>
+      </unit>
+      <unit id="448">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="449">
+        <segment state="initial">
+          <source>configflags</source>
+          <target>configflags</target>
+        </segment>
+      </unit>
+      <unit id="450">
+        <segment state="initial">
+          <source>0x25000066</source>
+          <target>0x25000066</target>
+        </segment>
+      </unit>
+      <unit id="451">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="452">
+        <segment state="initial">
+          <source>groupsize</source>
+          <target>groupsize</target>
+        </segment>
+      </unit>
+      <unit id="453">
+        <segment state="initial">
+          <source>0x25000071</source>
+          <target>0x25000071</target>
+        </segment>
+      </unit>
+      <unit id="454">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="455">
+        <segment state="initial">
+          <source>msi</source>
+          <target>msi</target>
+        </segment>
+      </unit>
+      <unit id="456">
+        <segment state="initial">
+          <source>0x25000072</source>
+          <target>0x25000072</target>
+        </segment>
+      </unit>
+      <unit id="457">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="458">
+        <segment state="initial">
+          <source>pciexpress</source>
+          <target>pciexpress</target>
+        </segment>
+      </unit>
+      <unit id="459">
+        <segment state="initial">
+          <source>0x25000080</source>
+          <target>0x25000080</target>
+        </segment>
+      </unit>
+      <unit id="460">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="461">
+        <segment state="initial">
+          <source>safeboot</source>
+          <target>safeboot</target>
+        </segment>
+      </unit>
+      <unit id="462">
+        <segment state="initial">
+          <source>0x250000a6</source>
+          <target>0x250000a6</target>
+        </segment>
+      </unit>
+      <unit id="463">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="464">
+        <segment state="initial">
+          <source>tscsyncpolicy</source>
+          <target>tscsyncpolicy</target>
+        </segment>
+      </unit>
+      <unit id="465">
+        <segment state="initial">
+          <source>0x250000c1</source>
+          <target>0x250000c1</target>
+        </segment>
+      </unit>
+      <unit id="466">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="467">
+        <segment state="initial">
+          <source>driverloadfailurepolicy</source>
+          <target>driverloadfailurepolicy</target>
+        </segment>
+      </unit>
+      <unit id="468">
+        <segment state="initial">
+          <source>0x250000c2</source>
+          <target>0x250000c2</target>
+        </segment>
+      </unit>
+      <unit id="469">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="470">
+        <segment state="initial">
+          <source>bootmenupolicy</source>
+          <target>bootmenupolicy</target>
+        </segment>
+      </unit>
+      <unit id="471">
+        <segment state="initial">
+          <source>0x250000e0</source>
+          <target>0x250000e0</target>
+        </segment>
+      </unit>
+      <unit id="472">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="473">
+        <segment state="initial">
+          <source>bootstatuspolicy</source>
+          <target>bootstatuspolicy</target>
+        </segment>
+      </unit>
+      <unit id="474">
+        <segment state="initial">
+          <source>0x250000f0</source>
+          <target>0x250000f0</target>
+        </segment>
+      </unit>
+      <unit id="475">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="476">
+        <segment state="initial">
+          <source>hypervisorlaunchtype</source>
+          <target>hypervisorlaunchtype</target>
+        </segment>
+      </unit>
+      <unit id="477">
+        <segment state="initial">
+          <source>0x250000f3</source>
+          <target>0x250000f3</target>
+        </segment>
+      </unit>
+      <unit id="478">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="479">
+        <segment state="initial">
+          <source>hypervisordebugtype</source>
+          <target>hypervisordebugtype</target>
+        </segment>
+      </unit>
+      <unit id="480">
+        <segment state="initial">
+          <source>0x250000f4</source>
+          <target>0x250000f4</target>
+        </segment>
+      </unit>
+      <unit id="481">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="482">
+        <segment state="initial">
+          <source>hypervisordebugport</source>
+          <target>hypervisordebugport</target>
+        </segment>
+      </unit>
+      <unit id="483">
+        <segment state="initial">
+          <source>0x250000f5</source>
+          <target>0x250000f5</target>
+        </segment>
+      </unit>
+      <unit id="484">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="485">
+        <segment state="initial">
+          <source>hypervisorbaudrate</source>
+          <target>hypervisorbaudrate</target>
+        </segment>
+      </unit>
+      <unit id="486">
+        <segment state="initial">
+          <source>0x250000f6</source>
+          <target>0x250000f6</target>
+        </segment>
+      </unit>
+      <unit id="487">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="488">
+        <segment state="initial">
+          <source>hypervisorchannel</source>
+          <target>hypervisorchannel</target>
+        </segment>
+      </unit>
+      <unit id="489">
+        <segment state="initial">
+          <source>0x250000f7</source>
+          <target>0x250000f7</target>
+        </segment>
+      </unit>
+      <unit id="490">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="491">
+        <segment state="initial">
+          <source>bootux</source>
+          <target>bootux</target>
+        </segment>
+      </unit>
+      <unit id="492">
+        <segment state="initial">
+          <source>0x250000fa</source>
+          <target>0x250000fa</target>
+        </segment>
+      </unit>
+      <unit id="493">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="494">
+        <segment state="initial">
+          <source>hypervisornumproc</source>
+          <target>hypervisornumproc</target>
+        </segment>
+      </unit>
+      <unit id="495">
+        <segment state="initial">
+          <source>0x250000fb</source>
+          <target>0x250000fb</target>
+        </segment>
+      </unit>
+      <unit id="496">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="497">
+        <segment state="initial">
+          <source>hypervisorrootprocpernode</source>
+          <target>hypervisorrootprocpernode</target>
+        </segment>
+      </unit>
+      <unit id="498">
+        <segment state="initial">
+          <source>0x250000fd</source>
+          <target>0x250000fd</target>
+        </segment>
+      </unit>
+      <unit id="499">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="500">
+        <segment state="initial">
+          <source>hypervisorhostip</source>
+          <target>hypervisorhostip</target>
+        </segment>
+      </unit>
+      <unit id="501">
+        <segment state="initial">
+          <source>0x250000fe</source>
+          <target>0x250000fe</target>
+        </segment>
+      </unit>
+      <unit id="502">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="503">
+        <segment state="initial">
+          <source>hypervisorhostport</source>
+          <target>hypervisorhostport</target>
+        </segment>
+      </unit>
+      <unit id="504">
+        <segment state="initial">
+          <source>0x25000100</source>
+          <target>0x25000100</target>
+        </segment>
+      </unit>
+      <unit id="505">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="506">
+        <segment state="initial">
+          <source>tpmbootentropy</source>
+          <target>tpmbootentropy</target>
+        </segment>
+      </unit>
+      <unit id="507">
+        <segment state="initial">
+          <source>0x25000113</source>
+          <target>0x25000113</target>
+        </segment>
+      </unit>
+      <unit id="508">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="509">
+        <segment state="initial">
+          <source>hypervisorrootproc</source>
+          <target>hypervisorrootproc</target>
+        </segment>
+      </unit>
+      <unit id="510">
+        <segment state="initial">
+          <source>0x25000115</source>
+          <target>0x25000115</target>
+        </segment>
+      </unit>
+      <unit id="511">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="512">
+        <segment state="initial">
+          <source>hypervisoriommupolicy</source>
+          <target>hypervisoriommupolicy</target>
+        </segment>
+      </unit>
+      <unit id="513">
+        <segment state="initial">
+          <source>0x25000120</source>
+          <target>0x25000120</target>
+        </segment>
+      </unit>
+      <unit id="514">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="515">
+        <segment state="initial">
+          <source>xsavepolicy</source>
+          <target>xsavepolicy</target>
+        </segment>
+      </unit>
+      <unit id="516">
+        <segment state="initial">
+          <source>0x25000121</source>
+          <target>0x25000121</target>
+        </segment>
+      </unit>
+      <unit id="517">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="518">
+        <segment state="initial">
+          <source>xsaveaddfeature0</source>
+          <target>xsaveaddfeature0</target>
+        </segment>
+      </unit>
+      <unit id="519">
+        <segment state="initial">
+          <source>0x25000122</source>
+          <target>0x25000122</target>
+        </segment>
+      </unit>
+      <unit id="520">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="521">
+        <segment state="initial">
+          <source>xsaveaddfeature1</source>
+          <target>xsaveaddfeature1</target>
+        </segment>
+      </unit>
+      <unit id="522">
+        <segment state="initial">
+          <source>0x25000123</source>
+          <target>0x25000123</target>
+        </segment>
+      </unit>
+      <unit id="523">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="524">
+        <segment state="initial">
+          <source>xsaveaddfeature2</source>
+          <target>xsaveaddfeature2</target>
+        </segment>
+      </unit>
+      <unit id="525">
+        <segment state="initial">
+          <source>0x25000124</source>
+          <target>0x25000124</target>
+        </segment>
+      </unit>
+      <unit id="526">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="527">
+        <segment state="initial">
+          <source>xsaveaddfeature3</source>
+          <target>xsaveaddfeature3</target>
+        </segment>
+      </unit>
+      <unit id="528">
+        <segment state="initial">
+          <source>0x25000125</source>
+          <target>0x25000125</target>
+        </segment>
+      </unit>
+      <unit id="529">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="530">
+        <segment state="initial">
+          <source>xsaveaddfeature4</source>
+          <target>xsaveaddfeature4</target>
+        </segment>
+      </unit>
+      <unit id="531">
+        <segment state="initial">
+          <source>0x25000126</source>
+          <target>0x25000126</target>
+        </segment>
+      </unit>
+      <unit id="532">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="533">
+        <segment state="initial">
+          <source>xsaveaddfeature5</source>
+          <target>xsaveaddfeature5</target>
+        </segment>
+      </unit>
+      <unit id="534">
+        <segment state="initial">
+          <source>0x25000127</source>
+          <target>0x25000127</target>
+        </segment>
+      </unit>
+      <unit id="535">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="536">
+        <segment state="initial">
+          <source>xsaveaddfeature6</source>
+          <target>xsaveaddfeature6</target>
+        </segment>
+      </unit>
+      <unit id="537">
+        <segment state="initial">
+          <source>0x25000128</source>
+          <target>0x25000128</target>
+        </segment>
+      </unit>
+      <unit id="538">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="539">
+        <segment state="initial">
+          <source>xsaveaddfeature7</source>
+          <target>xsaveaddfeature7</target>
+        </segment>
+      </unit>
+      <unit id="540">
+        <segment state="initial">
+          <source>0x25000129</source>
+          <target>0x25000129</target>
+        </segment>
+      </unit>
+      <unit id="541">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="542">
+        <segment state="initial">
+          <source>xsaveremovefeature</source>
+          <target>xsaveremovefeature</target>
+        </segment>
+      </unit>
+      <unit id="543">
+        <segment state="initial">
+          <source>0x2500012a</source>
+          <target>0x2500012a</target>
+        </segment>
+      </unit>
+      <unit id="544">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="545">
+        <segment state="initial">
+          <source>xsaveprocessorsmask</source>
+          <target>xsaveprocessorsmask</target>
+        </segment>
+      </unit>
+      <unit id="546">
+        <segment state="initial">
+          <source>0x2500012b</source>
+          <target>0x2500012b</target>
+        </segment>
+      </unit>
+      <unit id="547">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="548">
+        <segment state="initial">
+          <source>xsavedisable</source>
+          <target>xsavedisable</target>
+        </segment>
+      </unit>
+      <unit id="549">
+        <segment state="initial">
+          <source>0x25000130</source>
+          <target>0x25000130</target>
+        </segment>
+      </unit>
+      <unit id="550">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="551">
+        <segment state="initial">
+          <source>claimedtpmcounter</source>
+          <target>claimedtpmcounter</target>
+        </segment>
+      </unit>
+      <unit id="552">
+        <segment state="initial">
+          <source>0x26000004</source>
+          <target>0x26000004</target>
+        </segment>
+      </unit>
+      <unit id="553">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="554">
+        <segment state="initial">
+          <source>stampdisks</source>
+          <target>stampdisks</target>
+        </segment>
+      </unit>
+      <unit id="555">
+        <segment state="initial">
+          <source>0x26000010</source>
+          <target>0x26000010</target>
+        </segment>
+      </unit>
+      <unit id="556">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="557">
+        <segment state="initial">
+          <source>detecthal</source>
+          <target>detecthal</target>
+        </segment>
+      </unit>
+      <unit id="558">
+        <segment state="initial">
+          <source>0x26000024</source>
+          <target>0x26000024</target>
+        </segment>
+      </unit>
+      <unit id="559">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="560">
+        <segment state="initial">
+          <source>nocrashautoreboot</source>
+          <target>nocrashautoreboot</target>
+        </segment>
+      </unit>
+      <unit id="561">
+        <segment state="initial">
+          <source>0x26000030</source>
+          <target>0x26000030</target>
+        </segment>
+      </unit>
+      <unit id="562">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="563">
+        <segment state="initial">
+          <source>nolowmem</source>
+          <target>nolowmem</target>
+        </segment>
+      </unit>
+      <unit id="564">
+        <segment state="initial">
+          <source>0x26000040</source>
+          <target>0x26000040</target>
+        </segment>
+      </unit>
+      <unit id="565">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="566">
+        <segment state="initial">
+          <source>vga</source>
+          <target>vga</target>
+        </segment>
+      </unit>
+      <unit id="567">
+        <segment state="initial">
+          <source>0x26000041</source>
+          <target>0x26000041</target>
+        </segment>
+      </unit>
+      <unit id="568">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="569">
+        <segment state="initial">
+          <source>quietboot</source>
+          <target>quietboot</target>
+        </segment>
+      </unit>
+      <unit id="570">
+        <segment state="initial">
+          <source>0x26000042</source>
+          <target>0x26000042</target>
+        </segment>
+      </unit>
+      <unit id="571">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="572">
+        <segment state="initial">
+          <source>novesa</source>
+          <target>novesa</target>
+        </segment>
+      </unit>
+      <unit id="573">
+        <segment state="initial">
+          <source>0x26000043</source>
+          <target>0x26000043</target>
+        </segment>
+      </unit>
+      <unit id="574">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="575">
+        <segment state="initial">
+          <source>novga</source>
+          <target>novga</target>
+        </segment>
+      </unit>
+      <unit id="576">
+        <segment state="initial">
+          <source>0x26000051</source>
+          <target>0x26000051</target>
+        </segment>
+      </unit>
+      <unit id="577">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="578">
+        <segment state="initial">
+          <source>usephysicaldestination</source>
+          <target>usephysicaldestination</target>
+        </segment>
+      </unit>
+      <unit id="579">
+        <segment state="initial">
+          <source>0x26000054</source>
+          <target>0x26000054</target>
+        </segment>
+      </unit>
+      <unit id="580">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="581">
+        <segment state="initial">
+          <source>uselegacyapicmode</source>
+          <target>uselegacyapicmode</target>
+        </segment>
+      </unit>
+      <unit id="582">
+        <segment state="initial">
+          <source>0x26000060</source>
+          <target>0x26000060</target>
+        </segment>
+      </unit>
+      <unit id="583">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="584">
+        <segment state="initial">
+          <source>onecpu</source>
+          <target>onecpu</target>
+        </segment>
+      </unit>
+      <unit id="585">
+        <segment state="initial">
+          <source>0x26000062</source>
+          <target>0x26000062</target>
+        </segment>
+      </unit>
+      <unit id="586">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="587">
+        <segment state="initial">
+          <source>maxproc</source>
+          <target>maxproc</target>
+        </segment>
+      </unit>
+      <unit id="588">
+        <segment state="initial">
+          <source>0x26000064</source>
+          <target>0x26000064</target>
+        </segment>
+      </unit>
+      <unit id="589">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="590">
+        <segment state="initial">
+          <source>maxgroup</source>
+          <target>maxgroup</target>
+        </segment>
+      </unit>
+      <unit id="591">
+        <segment state="initial">
+          <source>0x26000065</source>
+          <target>0x26000065</target>
+        </segment>
+      </unit>
+      <unit id="592">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="593">
+        <segment state="initial">
+          <source>groupaware</source>
+          <target>groupaware</target>
+        </segment>
+      </unit>
+      <unit id="594">
+        <segment state="initial">
+          <source>0x26000070</source>
+          <target>0x26000070</target>
+        </segment>
+      </unit>
+      <unit id="595">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="596">
+        <segment state="initial">
+          <source>usefirmwarepcisettings</source>
+          <target>usefirmwarepcisettings</target>
+        </segment>
+      </unit>
+      <unit id="597">
+        <segment state="initial">
+          <source>0x26000090</source>
+          <target>0x26000090</target>
+        </segment>
+      </unit>
+      <unit id="598">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="599">
+        <segment state="initial">
+          <source>bootlog</source>
+          <target>bootlog</target>
+        </segment>
+      </unit>
+      <unit id="600">
+        <segment state="initial">
+          <source>0x26000091</source>
+          <target>0x26000091</target>
+        </segment>
+      </unit>
+      <unit id="601">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="602">
+        <segment state="initial">
+          <source>sos</source>
+          <target>sos</target>
+        </segment>
+      </unit>
+      <unit id="603">
+        <segment state="initial">
+          <source>0x260000a1</source>
+          <target>0x260000a1</target>
+        </segment>
+      </unit>
+      <unit id="604">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="605">
+        <segment state="initial">
+          <source>halbreakpoint</source>
+          <target>halbreakpoint</target>
+        </segment>
+      </unit>
+      <unit id="606">
+        <segment state="initial">
+          <source>0x260000a2</source>
+          <target>0x260000a2</target>
+        </segment>
+      </unit>
+      <unit id="607">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="608">
+        <segment state="initial">
+          <source>useplatformclock</source>
+          <target>useplatformclock</target>
+        </segment>
+      </unit>
+      <unit id="609">
+        <segment state="initial">
+          <source>0x260000a3</source>
+          <target>0x260000a3</target>
+        </segment>
+      </unit>
+      <unit id="610">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="611">
+        <segment state="initial">
+          <source>forcelegacyplatform</source>
+          <target>forcelegacyplatform</target>
+        </segment>
+      </unit>
+      <unit id="612">
+        <segment state="initial">
+          <source>0x260000a4</source>
+          <target>0x260000a4</target>
+        </segment>
+      </unit>
+      <unit id="613">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="614">
+        <segment state="initial">
+          <source>useplatformtick</source>
+          <target>useplatformtick</target>
+        </segment>
+      </unit>
+      <unit id="615">
+        <segment state="initial">
+          <source>0x260000a5</source>
+          <target>0x260000a5</target>
+        </segment>
+      </unit>
+      <unit id="616">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="617">
+        <segment state="initial">
+          <source>disabledynamictick</source>
+          <target>disabledynamictick</target>
+        </segment>
+      </unit>
+      <unit id="618">
+        <segment state="initial">
+          <source>0x260000b0</source>
+          <target>0x260000b0</target>
+        </segment>
+      </unit>
+      <unit id="619">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="620">
+        <segment state="initial">
+          <source>ems</source>
+          <target>ems</target>
+        </segment>
+      </unit>
+      <unit id="621">
+        <segment state="initial">
+          <source>0x260000c3</source>
+          <target>0x260000c3</target>
+        </segment>
+      </unit>
+      <unit id="622">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="623">
+        <segment state="initial">
+          <source>onetimeadvancedoptions</source>
+          <target>onetimeadvancedoptions</target>
+        </segment>
+      </unit>
+      <unit id="624">
+        <segment state="initial">
+          <source>0x260000c4</source>
+          <target>0x260000c4</target>
+        </segment>
+      </unit>
+      <unit id="625">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="626">
+        <segment state="initial">
+          <source>onetimeoptionsedit</source>
+          <target>onetimeoptionsedit</target>
+        </segment>
+      </unit>
+      <unit id="627">
+        <segment state="initial">
+          <source>0x260000e1</source>
+          <target>0x260000e1</target>
+        </segment>
+      </unit>
+      <unit id="628">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="629">
+        <segment state="initial">
+          <source>disableelamdrivers</source>
+          <target>disableelamdrivers</target>
+        </segment>
+      </unit>
+      <unit id="630">
+        <segment state="initial">
+          <source>0x260000f8</source>
+          <target>0x260000f8</target>
+        </segment>
+      </unit>
+      <unit id="631">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="632">
+        <segment state="initial">
+          <source>hypervisordisableslat</source>
+          <target>hypervisordisableslat</target>
+        </segment>
+      </unit>
+      <unit id="633">
+        <segment state="initial">
+          <source>0x260000fc</source>
+          <target>0x260000fc</target>
+        </segment>
+      </unit>
+      <unit id="634">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="635">
+        <segment state="initial">
+          <source>hypervisoruselargevtlb</source>
+          <target>hypervisoruselargevtlb</target>
+        </segment>
+      </unit>
+      <unit id="636">
+        <segment state="initial">
+          <source>0x26000114</source>
+          <target>0x26000114</target>
+        </segment>
+      </unit>
+      <unit id="637">
+        <segment state="initial">
+          <source>winload</source>
+          <target>winload</target>
+        </segment>
+      </unit>
+      <unit id="638">
+        <segment state="initial">
+          <source>hypervisordhcp</source>
+          <target>hypervisordhcp</target>
+        </segment>
+      </unit>
+      <unit id="639">
+        <segment state="initial">
+          <source>0x21000005</source>
+          <target>0x21000005</target>
+        </segment>
+      </unit>
+      <unit id="640">
+        <segment state="initial">
+          <source>winresume</source>
+          <target>winresume</target>
+        </segment>
+      </unit>
+      <unit id="641">
+        <segment state="initial">
+          <source>associatedosdevice</source>
+          <target>associatedosdevice</target>
+        </segment>
+      </unit>
+      <unit id="642">
+        <segment state="initial">
+          <source>0x25000007</source>
+          <target>0x25000007</target>
+        </segment>
+      </unit>
+      <unit id="643">
+        <segment state="initial">
+          <source>winresume</source>
+          <target>winresume</target>
+        </segment>
+      </unit>
+      <unit id="644">
+        <segment state="initial">
+          <source>bootux</source>
+          <target>bootux</target>
+        </segment>
+      </unit>
+      <unit id="645">
+        <segment state="initial">
+          <source>0x25000008</source>
+          <target>0x25000008</target>
+        </segment>
+      </unit>
+      <unit id="646">
+        <segment state="initial">
+          <source>winresume</source>
+          <target>winresume</target>
+        </segment>
+      </unit>
+      <unit id="647">
+        <segment state="initial">
+          <source>bootmenupolicy</source>
+          <target>bootmenupolicy</target>
+        </segment>
+      </unit>
+      <unit id="648">
+        <segment state="initial">
+          <source>0x26000003</source>
+          <target>0x26000003</target>
+        </segment>
+      </unit>
+      <unit id="649">
+        <segment state="initial">
+          <source>winresume</source>
+          <target>winresume</target>
+        </segment>
+      </unit>
+      <unit id="650">
+        <segment state="initial">
+          <source>customsettings</source>
+          <target>customsettings</target>
+        </segment>
+      </unit>
+      <unit id="651">
+        <segment state="initial">
+          <source>0x26000004</source>
+          <target>0x26000004</target>
+        </segment>
+      </unit>
+      <unit id="652">
+        <segment state="initial">
+          <source>winresume</source>
+          <target>winresume</target>
+        </segment>
+      </unit>
+      <unit id="653">
+        <segment state="initial">
+          <source>pae</source>
+          <target>pae</target>
+        </segment>
+      </unit>
+      <unit id="654">
+        <segment state="initial">
+          <source>0x25000001</source>
+          <target>0x25000001</target>
+        </segment>
+      </unit>
+      <unit id="655">
+        <segment state="initial">
+          <source>memtest</source>
+          <target>memtest</target>
+        </segment>
+      </unit>
+      <unit id="656">
+        <segment state="initial">
+          <source>passcount</source>
+          <target>passcount</target>
+        </segment>
+      </unit>
+      <unit id="657">
+        <segment state="initial">
+          <source>0x25000002</source>
+          <target>0x25000002</target>
+        </segment>
+      </unit>
+      <unit id="658">
+        <segment state="initial">
+          <source>memtest</source>
+          <target>memtest</target>
+        </segment>
+      </unit>
+      <unit id="659">
+        <segment state="initial">
+          <source>testmix</source>
+          <target>testmix</target>
+        </segment>
+      </unit>
+      <unit id="660">
+        <segment state="initial">
+          <source>0x25000005</source>
+          <target>0x25000005</target>
+        </segment>
+      </unit>
+      <unit id="661">
+        <segment state="initial">
+          <source>memtest</source>
+          <target>memtest</target>
+        </segment>
+      </unit>
+      <unit id="662">
+        <segment state="initial">
+          <source>stridefailcount</source>
+          <target>stridefailcount</target>
+        </segment>
+      </unit>
+      <unit id="663">
+        <segment state="initial">
+          <source>0x25000006</source>
+          <target>0x25000006</target>
+        </segment>
+      </unit>
+      <unit id="664">
+        <segment state="initial">
+          <source>memtest</source>
+          <target>memtest</target>
+        </segment>
+      </unit>
+      <unit id="665">
+        <segment state="initial">
+          <source>invcfailcount</source>
+          <target>invcfailcount</target>
+        </segment>
+      </unit>
+      <unit id="666">
+        <segment state="initial">
+          <source>0x25000007</source>
+          <target>0x25000007</target>
+        </segment>
+      </unit>
+      <unit id="667">
+        <segment state="initial">
+          <source>memtest</source>
+          <target>memtest</target>
+        </segment>
+      </unit>
+      <unit id="668">
+        <segment state="initial">
+          <source>matsfailcount</source>
+          <target>matsfailcount</target>
+        </segment>
+      </unit>
+      <unit id="669">
+        <segment state="initial">
+          <source>0x25000008</source>
+          <target>0x25000008</target>
+        </segment>
+      </unit>
+      <unit id="670">
+        <segment state="initial">
+          <source>memtest</source>
+          <target>memtest</target>
+        </segment>
+      </unit>
+      <unit id="671">
+        <segment state="initial">
+          <source>randfailcount</source>
+          <target>randfailcount</target>
+        </segment>
+      </unit>
+      <unit id="672">
+        <segment state="initial">
+          <source>0x25000009</source>
+          <target>0x25000009</target>
+        </segment>
+      </unit>
+      <unit id="673">
+        <segment state="initial">
+          <source>memtest</source>
+          <target>memtest</target>
+        </segment>
+      </unit>
+      <unit id="674">
+        <segment state="initial">
+          <source>chckrfailcount</source>
+          <target>chckrfailcount</target>
+        </segment>
+      </unit>
+      <unit id="675">
+        <segment state="initial">
+          <source>0x26000003</source>
+          <target>0x26000003</target>
+        </segment>
+      </unit>
+      <unit id="676">
+        <segment state="initial">
+          <source>memtest</source>
+          <target>memtest</target>
+        </segment>
+      </unit>
+      <unit id="677">
+        <segment state="initial">
+          <source>cacheenable</source>
+          <target>cacheenable</target>
+        </segment>
+      </unit>
+      <unit id="678">
+        <segment state="initial">
+          <source>0x26000004</source>
+          <target>0x26000004</target>
+        </segment>
+      </unit>
+      <unit id="679">
+        <segment state="initial">
+          <source>memtest</source>
+          <target>memtest</target>
+        </segment>
+      </unit>
+      <unit id="680">
+        <segment state="initial">
+          <source>failuresenabled</source>
+          <target>failuresenabled</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

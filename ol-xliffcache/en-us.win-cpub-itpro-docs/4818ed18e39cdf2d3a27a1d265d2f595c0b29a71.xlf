@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\agpm\release-notes-for-microsoft-advanced-group-policy-management-40-sp3.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">4818ed18e39cdf2d3a27a1d265d2f595c0b29a71</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Release Notes for Microsoft Advanced Group Policy Management 4.0 SP3</source>
+          <target>Release Notes for Microsoft Advanced Group Policy Management 4.0 SP3</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Release Notes for Microsoft Advanced Group Policy Management 4.0 SP3</source>
+          <target>Release Notes for Microsoft Advanced Group Policy Management 4.0 SP3</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Release Notes for Microsoft Advanced Group Policy Management 4.0 SP3</source>
+          <target>Release Notes for Microsoft Advanced Group Policy Management 4.0 SP3</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>To search these release notes, press Ctrl+F.</source>
+          <target>To search these release notes, press Ctrl+F.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Read these release notes thoroughly before you install Microsoft Advanced Group Policy Management (AGPM) 4.0 Service Pack 3 (SP3).</source>
+          <target>Read these release notes thoroughly before you install Microsoft Advanced Group Policy Management (AGPM) 4.0 Service Pack 3 (SP3).</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>These release notes contain information that is required to successfully install AGPM 4.0 SP3 and contain information that is not available in the product documentation.</source>
+          <target>These release notes contain information that is required to successfully install AGPM 4.0 SP3 and contain information that is not available in the product documentation.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>If there is a difference between these release notes and other AGPM documentation, consider the latest change authoritative.</source>
+          <target>If there is a difference between these release notes and other AGPM documentation, consider the latest change authoritative.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>These release notes supersede the content included with this product.</source>
+          <target>These release notes supersede the content included with this product.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>AGPM 4.0 SP3 known issues</source>
+          <target>AGPM 4.0 SP3 known issues</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>This section describes the known issues for AGPM 4.0 SP3.</source>
+          <target>This section describes the known issues for AGPM 4.0 SP3.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>AGPM installation fails in Windows 10</source>
+          <target>AGPM installation fails in Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>AGPM internally enables the Windows Communication Foundation (WCF)-NonHTTP-Activation feature during installation.</source>
+          <target>AGPM internally enables the Windows Communication Foundation (WCF)-NonHTTP-Activation feature during installation.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>In Windows 10, WCF now includes a requirement to restart Windows after enabling the WCF NonHTTP-Activation feature.</source>
+          <target>In Windows 10, WCF now includes a requirement to restart Windows after enabling the WCF NonHTTP-Activation feature.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>However, the current AGPM installer code does not handle this restart requirement and stops responding while it waits for the service to be activated.</source>
+          <target>However, the current AGPM installer code does not handle this restart requirement and stops responding while it waits for the service to be activated.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> Before you run the AGPM installer, enable the WCF Non-HTTP Activation feature and then restart Windows.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> Before you run the AGPM installer, enable the WCF Non-HTTP Activation feature and then restart Windows.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Control Panel’s “Uninstall” tool may not work when you try to change AGPM Server settings</source>
+          <target>Control Panel’s “Uninstall” tool may not work when you try to change AGPM Server settings</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>The tool in Control Panel that you use to uninstall or change a program may not work when you try to change AGPM Server settings.</source>
+          <target>The tool in Control Panel that you use to uninstall or change a program may not work when you try to change AGPM Server settings.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> Before you try to change AGPM Server settings by using Control Panel, make a copy of the AGPM Archive folder.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> Before you try to change AGPM Server settings by using Control Panel, make a copy of the AGPM Archive folder.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>You can then use Setup.exe to reinstall the AGPM Server and choose the configuration parameters that you want.</source>
+          <target>You can then use Setup.exe to reinstall the AGPM Server and choose the configuration parameters that you want.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Reports do not display the links that were added to a Group Policy Object</source>
+          <target>Reports do not display the links that were added to a Group Policy Object</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>The AGPM settings and difference reports do not display the links that were added to a Group Policy Object (GPO).</source>
+          <target>The AGPM settings and difference reports do not display the links that were added to a Group Policy Object (GPO).</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> To view the links in the reports, select the GPO in the Group Policy Management Console (GPMC), and then click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Settings</pc> tab in the right pane.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> To view the links in the reports, select the GPO in the Group Policy Management Console (GPMC), and then click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Settings</pc> tab in the right pane.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Reports do not display all Choice Options Properties settings</source>
+          <target>Reports do not display all Choice Options Properties settings</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The AGPM settings and difference reports do not display all of the settings that were selected in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Choice Options Properties</pc> window in the Group Policy Object Editor.</source>
+          <target>The AGPM settings and difference reports do not display all of the settings that were selected in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Choice Options Properties</pc> window in the Group Policy Object Editor.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> Use the GPMC to view the selected <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Choice Options Properties</pc> settings in the reports.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> Use the GPMC to view the selected <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Choice Options Properties</pc> settings in the reports.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Reports may not display the Show and Hide tabs in certain browsers</source>
+          <target>Reports may not display the Show and Hide tabs in certain browsers</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Show</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Hide</pc> tabs, on the right side of the AGPM settings and difference reports, may not appear when you view the reports in Google Chrome or Mozilla Firefox.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Show</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Hide</pc> tabs, on the right side of the AGPM settings and difference reports, may not appear when you view the reports in Google Chrome or Mozilla Firefox.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> View the reports by using the Internet Explorer browser.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> View the reports by using the Internet Explorer browser.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>AGPM settings and difference reports may show different content from GPMC reports</source>
+          <target>AGPM settings and difference reports may show different content from GPMC reports</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>The AGPM settings and difference reports may not show the same content as reports in the GPMC.</source>
+          <target>The AGPM settings and difference reports may not show the same content as reports in the GPMC.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> Use the GPMC to view the AGPM reports.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> Use the GPMC to view the AGPM reports.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>AGPM Service does not start if the domain controller is offline</source>
+          <target>AGPM Service does not start if the domain controller is offline</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>When the AGPM Service is installed on a domain controller on the Windows® 8 operating systems or later operating systems, the service does not start if the domain controller is offline.</source>
+          <target>When the AGPM Service is installed on a domain controller on the Windows® 8 operating systems or later operating systems, the service does not start if the domain controller is offline.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> Manually start the AGPM Service after the domain controller is online.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> Manually start the AGPM Service after the domain controller is online.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Upgrade of AGPM Server to AGPM 4.0 SP2 is blocked when you upgrade from the AGPM 4.0 release plus hotfix 1</source>
+          <target>Upgrade of AGPM Server to AGPM 4.0 SP2 is blocked when you upgrade from the AGPM 4.0 release plus hotfix 1</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>If you try to upgrade the AGPM server to AGPM 4.0.</source>
+          <target>If you try to upgrade the AGPM server to AGPM 4.0.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=254474)</data>
+        </originalData>
+        <segment state="initial">
+          <source>SP2 after installing AGPM 4.0 Server and then installing the AGPM hotfix named AGPM 4.0 reports incorrect differences in the HTML report (see Knowledge Base article <pc dataRefEnd="id2" dataRefStart="id1" id="p1">2643502</pc>), the upgrade fails and cannot be completed.</source>
+          <target>SP2 after installing AGPM 4.0 Server and then installing the AGPM hotfix named AGPM 4.0 reports incorrect differences in the HTML report (see Knowledge Base article <pc dataRefEnd="id2" dataRefStart="id1" id="p1">2643502</pc>), the upgrade fails and cannot be completed.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> Uninstall the AGPM 4.0 Server and then install AGPM 4.0 SP2.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> Uninstall the AGPM 4.0 Server and then install AGPM 4.0 SP2.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Reports do not display organizational unit links</source>
+          <target>Reports do not display organizational unit links</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>If you link an uncontrolled GPO to an organizational unit and then control that GPO by using AGPM, the AGPM settings and difference reports do not display the organizational unit links.</source>
+          <target>If you link an uncontrolled GPO to an organizational unit and then control that GPO by using AGPM, the AGPM settings and difference reports do not display the organizational unit links.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> On the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Controlled</pc> tab of the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Change Settings</pc> node, right-click the GPO, click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Settings</pc>, and then click <pc dataRefEnd="id10" dataRefStart="id9" id="p5">GPO Links</pc> to view the organizational links.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> On the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Controlled</pc> tab of the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Change Settings</pc> node, right-click the GPO, click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Settings</pc>, and then click <pc dataRefEnd="id10" dataRefStart="id9" id="p5">GPO Links</pc> to view the organizational links.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Alternatively, you can use the GPMC to view the links to a GPO from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Scope</pc> tab.</source>
+          <target>Alternatively, you can use the GPMC to view the links to a GPO from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Scope</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>AGPM displays an error if you click the Back button from the Change, Repair, or Remove AGPM Client dialog box</source>
+          <target>AGPM displays an error if you click the Back button from the Change, Repair, or Remove AGPM Client dialog box</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you browse to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Programs and Features</pc> in Control Panel and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft Advanced Group Policy Management – Client</pc>, AGPM displays an error if you click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Modify</pc> and then click the <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Back</pc> button in the <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Change, Repair, or Remove AGPM Client</pc> dialog box.</source>
+          <target>If you browse to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Programs and Features</pc> in Control Panel and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft Advanced Group Policy Management – Client</pc>, AGPM displays an error if you click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Modify</pc> and then click the <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Back</pc> button in the <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Change, Repair, or Remove AGPM Client</pc> dialog box.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> Click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Cancel</pc> to clear the error, and then start the process again.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> Click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Cancel</pc> to clear the error, and then start the process again.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Do not click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Back</pc> button after you click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Modify</pc> .</source>
+          <target>Do not click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Back</pc> button after you click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Modify</pc> .</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Comment fails to appear in the History window when the Approver deploys a GPO and enters a comment</source>
+          <target>Comment fails to appear in the History window when the Approver deploys a GPO and enters a comment</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If a user who has the Editor role submits a request to deploy a GPO, and the user who has the Approver role then deploys the GPO and enters a comment, the comment fails to appear in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">History</pc> window.</source>
+          <target>If a user who has the Editor role submits a request to deploy a GPO, and the user who has the Approver role then deploys the GPO and enters a comment, the comment fails to appear in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">History</pc> window.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> None.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workaround:</pc> None.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Advanced Group Policy Management</source>
+          <target>Advanced Group Policy Management</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>What's New in AGPM 4.0 SP3</source>
+          <target>What's New in AGPM 4.0 SP3</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

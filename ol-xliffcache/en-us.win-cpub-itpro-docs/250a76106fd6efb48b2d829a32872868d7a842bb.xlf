@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\planning-server-isolation-zones.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">250a76106fd6efb48b2d829a32872868d7a842bb</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Planning Server Isolation Zones (Windows 10)</source>
+          <target>Planning Server Isolation Zones (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Planning Server Isolation Zones</source>
+          <target>Planning Server Isolation Zones</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Planning Server Isolation Zones</source>
+          <target>Planning Server Isolation Zones</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Sometimes a server hosts data that is sensitive.</source>
+          <target>Sometimes a server hosts data that is sensitive.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>If your servers host data that must not be compromised, you have several options to help protect that data.</source>
+          <target>If your servers host data that must not be compromised, you have several options to help protect that data.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>One was already addressed: adding the server to the encryption zone.</source>
+          <target>One was already addressed: adding the server to the encryption zone.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Membership in that zone prevents the server from being accessed by any devices that are outside the isolated domain, and encrypts all network connections to server.</source>
+          <target>Membership in that zone prevents the server from being accessed by any devices that are outside the isolated domain, and encrypts all network connections to server.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>The second option is to additionally restrict access to the server, not just to members of the isolated domain, but to only those users or devices who have business reasons to access the resources on the server.</source>
+          <target>The second option is to additionally restrict access to the server, not just to members of the isolated domain, but to only those users or devices who have business reasons to access the resources on the server.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>You can specify only approved users, or you can additionally specify that the approved users can only access the server from approved devices.</source>
+          <target>You can specify only approved users, or you can additionally specify that the approved users can only access the server from approved devices.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>To grant access, you add the approved user and device accounts to network access groups (NAGs) that are referenced in a firewall rule on this server.</source>
+          <target>To grant access, you add the approved user and device accounts to network access groups (NAGs) that are referenced in a firewall rule on this server.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>When the user sends a request to the server, the standard domain isolation rules are invoked.</source>
+          <target>When the user sends a request to the server, the standard domain isolation rules are invoked.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>This causes IKE to use Kerberos V5 to exchange credentials with the server.</source>
+          <target>This causes IKE to use Kerberos V5 to exchange credentials with the server.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>The additional firewall rule on the server causes Windows to check the provided device and user accounts for group membership in the NAGs.</source>
+          <target>The additional firewall rule on the server causes Windows to check the provided device and user accounts for group membership in the NAGs.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>If either the user or device is not a member of a required NAG then the network connection is refused.</source>
+          <target>If either the user or device is not a member of a required NAG then the network connection is refused.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Isolated domains and isolated servers</source>
+          <target>Isolated domains and isolated servers</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>If you are using an isolated domain, the client devices already have the IPsec rules to enable them to authenticate traffic when the server requires it.</source>
+          <target>If you are using an isolated domain, the client devices already have the IPsec rules to enable them to authenticate traffic when the server requires it.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>If you add an isolated server, it must have a GPO applied to its group with the appropriate connection security and firewall rules.</source>
+          <target>If you add an isolated server, it must have a GPO applied to its group with the appropriate connection security and firewall rules.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>The rules enforce authentication and restrict access to only connections that are authenticated as coming from an authorized device or user.</source>
+          <target>The rules enforce authentication and restrict access to only connections that are authenticated as coming from an authorized device or user.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>If you are not using an isolated domain, but still want to isolate a server that uses IPsec, you must configure the client devices that you want to access the server to use the appropriate IPsec rules.</source>
+          <target>If you are not using an isolated domain, but still want to isolate a server that uses IPsec, you must configure the client devices that you want to access the server to use the appropriate IPsec rules.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>If the client devices are members of an Active Directory domain, you can still use Group Policy to configure the clients.</source>
+          <target>If the client devices are members of an Active Directory domain, you can still use Group Policy to configure the clients.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Instead of applying the GPO to the whole domain, you apply the GPO to only members of the NAG.</source>
+          <target>Instead of applying the GPO to the whole domain, you apply the GPO to only members of the NAG.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Creating multiple isolated server zones</source>
+          <target>Creating multiple isolated server zones</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Each set of servers that must be accessed by different sets of users should be set up in its own isolated server zone.</source>
+          <target>Each set of servers that must be accessed by different sets of users should be set up in its own isolated server zone.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>After one set of GPOs for one isolated server zone has been successfully created and verified, you can copy the GPOs to a new set.</source>
+          <target>After one set of GPOs for one isolated server zone has been successfully created and verified, you can copy the GPOs to a new set.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>You must change the GPO names to reflect the new zone, the name and membership of the isolated server zone group to which the GPOs are applied, and the names and membership of the NAG groups that determine which clients can access the servers in the isolated server zone.</source>
+          <target>You must change the GPO names to reflect the new zone, the name and membership of the isolated server zone group to which the GPOs are applied, and the names and membership of the NAG groups that determine which clients can access the servers in the isolated server zone.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Creating the GPOs</source>
+          <target>Creating the GPOs</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](planning-group-policy-deployment-for-your-isolation-zones.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Creation of the groups and how to link them to the GPOs that apply the rules to members of the groups are discussed in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning Group Policy Deployment for Your Isolation Zones</pc> section.</source>
+          <target>Creation of the groups and how to link them to the GPOs that apply the rules to members of the groups are discussed in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning Group Policy Deployment for Your Isolation Zones</pc> section.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>An isolated server is often a member of the encryption zone.</source>
+          <target>An isolated server is often a member of the encryption zone.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Therefore, copying that GPO set serves as a good starting point.</source>
+          <target>Therefore, copying that GPO set serves as a good starting point.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>You then modify the rules to additionally restrict access to only NAG members.</source>
+          <target>You then modify the rules to additionally restrict access to only NAG members.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>GPO settings for isolated servers running at least Windows Server 2008</source>
+          <target>GPO settings for isolated servers running at least Windows Server 2008</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>GPOs for devices running at least Windows Server 2008 should include the following:</source>
+          <target>GPOs for devices running at least Windows Server 2008 should include the following:</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  The connection security rules described here are identical to the ones for the encryption zone.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  The connection security rules described here are identical to the ones for the encryption zone.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>If you do not want to encrypt access and also restrict access to NAG members, you can use connection security rules identical to the main isolated domain.</source>
+          <target>If you do not want to encrypt access and also restrict access to NAG members, you can use connection security rules identical to the main isolated domain.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>You must still add the firewall rule described at the end of this list to change it into an isolated server zone.</source>
+          <target>You must still add the firewall rule described at the end of this list to change it into an isolated server zone.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>IPsec default settings that specify the following options:</source>
+          <target>IPsec default settings that specify the following options:</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Exempt all ICMP traffic from IPsec.</source>
+          <target>Exempt all ICMP traffic from IPsec.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Key exchange (main mode) security methods and algorithm.</source>
+          <target>Key exchange (main mode) security methods and algorithm.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>We recommend that you do not include Diffie-Hellman Group 1, DES, or MD5 in any setting.</source>
+          <target>We recommend that you do not include Diffie-Hellman Group 1, DES, or MD5 in any setting.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>They are included only for compatibility with previous versions of Windows.</source>
+          <target>They are included only for compatibility with previous versions of Windows.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Use the strongest algorithm combinations that are common to all your supported operating systems.</source>
+          <target>Use the strongest algorithm combinations that are common to all your supported operating systems.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Data protection (quick mode) algorithm combinations.</source>
+          <target>Data protection (quick mode) algorithm combinations.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Check <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Require encryption for all connection security rules that use these settings</pc>, and then specify one or more integrity and encryption combinations.</source>
+          <target>Check <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Require encryption for all connection security rules that use these settings</pc>, and then specify one or more integrity and encryption combinations.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>We recommend that you do not include DES or MD5 in any setting.</source>
+          <target>We recommend that you do not include DES or MD5 in any setting.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>They are included only for compatibility with previous versions of Windows.</source>
+          <target>They are included only for compatibility with previous versions of Windows.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Use the strongest algorithm combinations that are common to all your supported operating systems.</source>
+          <target>Use the strongest algorithm combinations that are common to all your supported operating systems.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>If any NAT devices are present on your networks, do not use AH because it cannot traverse NAT devices.</source>
+          <target>If any NAT devices are present on your networks, do not use AH because it cannot traverse NAT devices.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>If isolated servers must communicate with hosts in the encryption zone, include an algorithm that is compatible with the requirements of the encryption zone GPOs.</source>
+          <target>If isolated servers must communicate with hosts in the encryption zone, include an algorithm that is compatible with the requirements of the encryption zone GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Authentication methods.</source>
+          <target>Authentication methods.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Include at least device-based Kerberos V5 authentication for compatibility with the rest of the isolated domain.</source>
+          <target>Include at least device-based Kerberos V5 authentication for compatibility with the rest of the isolated domain.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>If you want to restrict access to specific user accounts, also include user-based Kerberos V5 authentication as an optional authentication method.</source>
+          <target>If you want to restrict access to specific user accounts, also include user-based Kerberos V5 authentication as an optional authentication method.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Do not make the user-based authentication method mandatory, or else devices that cannot use AuthIP instead of IKE, including Windows XP and Windows Server 2003, cannot communicate.</source>
+          <target>Do not make the user-based authentication method mandatory, or else devices that cannot use AuthIP instead of IKE, including Windows XP and Windows Server 2003, cannot communicate.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Likewise, if any of your domain isolation members cannot use Kerberos V5, include certificate-based authentication as an optional authentication method.</source>
+          <target>Likewise, if any of your domain isolation members cannot use Kerberos V5, include certificate-based authentication as an optional authentication method.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>The following connection security and firewall rules:</source>
+          <target>The following connection security and firewall rules:</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>A connection security rule that exempts all devices on the exemption list from authentication.</source>
+          <target>A connection security rule that exempts all devices on the exemption list from authentication.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Be sure to include all your Active Directory domain controllers on this list.</source>
+          <target>Be sure to include all your Active Directory domain controllers on this list.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Enter subnet addresses, if applicable in your environment.</source>
+          <target>Enter subnet addresses, if applicable in your environment.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>A connection security rule, from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Any IP address</pc> to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Any IP address</pc>, that requires inbound and requests outbound authentication by using Kerberos V5 authentication.</source>
+          <target>A connection security rule, from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Any IP address</pc> to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Any IP address</pc>, that requires inbound and requests outbound authentication by using Kerberos V5 authentication.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  Be sure to begin operations by using request in and request out behavior until you are sure that all the devices in your IPsec environment are communicating successfully by using IPsec.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  Be sure to begin operations by using request in and request out behavior until you are sure that all the devices in your IPsec environment are communicating successfully by using IPsec.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>After confirming that IPsec is operating as expected, you can change the GPO to require in, request out.</source>
+          <target>After confirming that IPsec is operating as expected, you can change the GPO to require in, request out.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>A firewall rule that specifies <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow only secure connections</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Require encryption</pc>, and on the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Users and Computers</pc> tab includes references to both device and user network access groups.</source>
+          <target>A firewall rule that specifies <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow only secure connections</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Require encryption</pc>, and on the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Users and Computers</pc> tab includes references to both device and user network access groups.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>A registry policy that includes the following values:</source>
+          <target>A registry policy that includes the following values:</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Enable PMTU discovery.</source>
+          <target>Enable PMTU discovery.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Enabling this setting allows TCP/IP to dynamically determine the largest packet size supported across a connection.</source>
+          <target>Enabling this setting allows TCP/IP to dynamically determine the largest packet size supported across a connection.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The value is found at HKLM<ph dataRef="id1" id="ph1" />System<ph dataRef="id2" id="ph2" />CurrentControlSet<ph dataRef="id3" id="ph3" />Services<ph dataRef="id4" id="ph4" />TCPIP<ph dataRef="id5" id="ph5" />Parameters<ph dataRef="id6" id="ph6" />EnablePMTUDiscovery (dword).</source>
+          <target>The value is found at HKLM<ph dataRef="id1" id="ph1" />System<ph dataRef="id2" id="ph2" />CurrentControlSet<ph dataRef="id3" id="ph3" />Services<ph dataRef="id4" id="ph4" />TCPIP<ph dataRef="id5" id="ph5" />Parameters<ph dataRef="id6" id="ph6" />EnablePMTUDiscovery (dword).</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](appendix-a-sample-gpo-template-files-for-settings-used-in-this-guide.md)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The sample GPO preferences XML file in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix A: Sample GPO Template Files for Settings Used in this Guide</pc> sets the value to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1</pc>.</source>
+          <target>The sample GPO preferences XML file in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix A: Sample GPO Template Files for Settings Used in this Guide</pc> sets the value to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](appendix-a-sample-gpo-template-files-for-settings-used-in-this-guide.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  For a sample template for these registry settings, see <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Appendix A: Sample GPO Template Files for Settings Used in this Guide</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  For a sample template for these registry settings, see <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Appendix A: Sample GPO Template Files for Settings Used in this Guide</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](planning-certificate-based-authentication.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Planning Certificate-based Authentication</pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Planning Certificate-based Authentication</pc>
+          </target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

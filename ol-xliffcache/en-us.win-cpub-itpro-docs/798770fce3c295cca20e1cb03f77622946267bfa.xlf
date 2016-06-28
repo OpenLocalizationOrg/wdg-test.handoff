@@ -1,0 +1,1586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\uev-v2\deploy-required-features-for-ue-v-2x-new-uevv2.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">798770fce3c295cca20e1cb03f77622946267bfa</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Deploy Required Features for UE-V 2.x</source>
+          <target>Deploy Required Features for UE-V 2.x</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Deploy Required Features for UE-V 2.x</source>
+          <target>Deploy Required Features for UE-V 2.x</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Deploy Required Features for UE-V 2.x</source>
+          <target>Deploy Required Features for UE-V 2.x</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>All Microsoft User Experience Virtualization (UE-V) 2.0, 2.1, and 2.1 SP1 deployments require these features</source>
+          <target>All Microsoft User Experience Virtualization (UE-V) 2.0, 2.1, and 2.1 SP1 deployments require these features</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#ssl)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy a Settings Storage Location</pc> that is accessible to end users.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy a Settings Storage Location</pc> that is accessible to end users.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This is a standard network share that stores and retrieves user settings.</source>
+          <target>This is a standard network share that stores and retrieves user settings.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Choose the Configuration Method for UE-V</source>
+          <target>Choose the Configuration Method for UE-V</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>UE-V can be deployed and configured using common management tools including group policy, Configuration Manager, or Windows Management Infrastructure and Powershell.</source>
+          <target>UE-V can be deployed and configured using common management tools including group policy, Configuration Manager, or Windows Management Infrastructure and Powershell.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#agent)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy a UE-V Agent</pc> to be installed on every computer that synchronizes settings.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy a UE-V Agent</pc> to be installed on every computer that synchronizes settings.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>This monitors registered applications and the operating system for any settings changes and synchronizes those settings between computers.</source>
+          <target>This monitors registered applications and the operating system for any settings changes and synchronizes those settings between computers.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>The topics in this section describe how to deploy these features.</source>
+          <target>The topics in this section describe how to deploy these features.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Deploy a UE-V Settings Storage Location</source>
+          <target>Deploy a UE-V Settings Storage Location</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>UE-V requires a location in which to store user settings in settings package files.</source>
+          <target>UE-V requires a location in which to store user settings in settings package files.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>You can configure this settings storage location in one of these ways:</source>
+          <target>You can configure this settings storage location in one of these ways:</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Create your own settings storage location</source>
+          <target>Create your own settings storage location</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Use existing Active Directory for your settings storage location</source>
+          <target>Use existing Active Directory for your settings storage location</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>If you don’t create a settings storage location, the UE-V Agent will use Active Directory (AD) by default.</source>
+          <target>If you don’t create a settings storage location, the UE-V Agent will use Active Directory (AD) by default.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/dn458932.aspx#capacity)</data>
+        </originalData>
+        <segment state="initial">
+          <source>As a matter of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">performance and capacity planning</pc> and to reduce problems with network latency, create settings storage locations on the same local networks where the users’ computers reside.</source>
+          <target>As a matter of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">performance and capacity planning</pc> and to reduce problems with network latency, create settings storage locations on the same local networks where the users’ computers reside.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>We recommend 20 MB of disk space per user for the settings storage location.</source>
+          <target>We recommend 20 MB of disk space per user for the settings storage location.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Create a UE-V Settings Storage Location</source>
+          <target>Create a UE-V Settings Storage Location</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Before you define the settings storage location, you must create a root directory with read/write permissions for users who store settings on the share.</source>
+          <target>Before you define the settings storage location, you must create a root directory with read/write permissions for users who store settings on the share.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>The UE-V Agent creates user-specific folders under this root directory.</source>
+          <target>The UE-V Agent creates user-specific folders under this root directory.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>The settings storage location is defined by setting the SettingsStoragePath configuration option, which you can configure by using one of these methods:</source>
+          <target>The settings storage location is defined by setting the SettingsStoragePath configuration option, which you can configure by using one of these methods:</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#agent)</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy the UE-V Agent</pc> through a command-line parameter or in a batch script</source>
+          <target>When you <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy the UE-V Agent</pc> through a command-line parameter or in a batch script</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/dn458893.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Through <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy</pc> settings</source>
+          <target>Through <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy</pc> settings</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/dn458917.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>With the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">System Center Configuration Pack</pc> for UE-V</source>
+          <target>With the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">System Center Configuration Pack</pc> for UE-V</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/dn458937.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>After installation of the UE-V Agent, by using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows PowerShell or Windows Management Instrumentation (WMI)</pc></source>
+          <target>After installation of the UE-V Agent, by using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows PowerShell or Windows Management Instrumentation (WMI)</pc></target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>The path must be in a universal naming convention (UNC) path of the server and share.</source>
+          <target>The path must be in a universal naming convention (UNC) path of the server and share.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />Server<ph dataRef="id4" id="ph2" />Settingsshare<ph dataRef="id5" id="ph3" /></pc>.</source>
+          <target>For example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />Server<ph dataRef="id4" id="ph2" />Settingsshare<ph dataRef="id5" id="ph3" /></pc>.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>This configuration option supports the use of variables to enable specific synchronization scenarios.</source>
+          <target>This configuration option supports the use of variables to enable specific synchronization scenarios.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">`%username%\%computername%`</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, you can use the <ph dataRef="id1" id="ph1" /> variables to preserve the end user settings experience in these scenarios:</source>
+          <target>For example, you can use the <ph dataRef="id1" id="ph1" /> variables to preserve the end user settings experience in these scenarios:</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>End users that use multiple physical computers in your enterprise</source>
+          <target>End users that use multiple physical computers in your enterprise</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Enterprise computers that are used by multiple end users</source>
+          <target>Enterprise computers that are used by multiple end users</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">`SettingsPackages`</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The UE-V Agent dynamically creates a user-specific settings storage path, with a hidden system folder named <ph dataRef="id1" id="ph1" />, based on the configuration setting of <pc dataRefEnd="id3" dataRefStart="id2" id="p1">SettingsStoragePath</pc>.</source>
+          <target>The UE-V Agent dynamically creates a user-specific settings storage path, with a hidden system folder named <ph dataRef="id1" id="ph1" />, based on the configuration setting of <pc dataRefEnd="id3" dataRefStart="id2" id="p1">SettingsStoragePath</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>The agent reads and writes settings to this location as defined by the registered UE-V settings location templates.</source>
+          <target>The agent reads and writes settings to this location as defined by the registered UE-V settings location templates.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UE-V settings are determined by a "Last write wins" rule:</pc> If the settings storage location is the same for user with multiple managed computers, one UE-V Agent reads and writes to the settings location independently of agents running on other computers.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UE-V settings are determined by a "Last write wins" rule:</pc> If the settings storage location is the same for user with multiple managed computers, one UE-V Agent reads and writes to the settings location independently of agents running on other computers.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>The last written settings and values are the ones applied when the next agent reads from the settings storage location.</source>
+          <target>The last written settings and values are the ones applied when the next agent reads from the settings storage location.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy the settings storage location:</pc> Follow these steps to define the settings storage location rather than using your existing Active Directory service.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy the settings storage location:</pc> Follow these steps to define the settings storage location rather than using your existing Active Directory service.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>You should limit access to the settings storage share to those users that require it, as shown in the tables below.</source>
+          <target>You should limit access to the settings storage share to those users that require it, as shown in the tables below.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>To deploy the UE-V network share</source>
+          <target>To deploy the UE-V network share</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Create a new security group for UE-V users.</source>
+          <target>Create a new security group for UE-V users.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Create a new folder on the centrally located computer that stores the UE-V settings packages, and then grant the UE-V users access with group permissions to the folder.</source>
+          <target>Create a new folder on the centrally located computer that stores the UE-V settings packages, and then grant the UE-V users access with group permissions to the folder.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>The administrator who supports UE-V must have permissions to this shared folder.</source>
+          <target>The administrator who supports UE-V must have permissions to this shared folder.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Set the following share-level Server Message Block (SMB) permissions for the settings storage location folder.</source>
+          <target>Set the following share-level Server Message Block (SMB) permissions for the settings storage location folder.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>User account</source>
+          <target>User account</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Recommended permissions</source>
+          <target>Recommended permissions</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Everyone</source>
+          <target>Everyone</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>No permissions</source>
+          <target>No permissions</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Security group of UE-V users</source>
+          <target>Security group of UE-V users</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Full control</source>
+          <target>Full control</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Set the following NTFS file system permissions for the settings storage location folder.</source>
+          <target>Set the following NTFS file system permissions for the settings storage location folder.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>User account</source>
+          <target>User account</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Recommended permissions</source>
+          <target>Recommended permissions</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Folder</source>
+          <target>Folder</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Creator/owner</source>
+          <target>Creator/owner</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Full control</source>
+          <target>Full control</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Subfolders and files only</source>
+          <target>Subfolders and files only</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Security group of UE-V users</source>
+          <target>Security group of UE-V users</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>List folder/read data, create folders/append data</source>
+          <target>List folder/read data, create folders/append data</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>This folder only</source>
+          <target>This folder only</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>With this configuration, the UE-V Agent creates and secures a Settingspackage folder while it runs in the context of the user, and grants each user permission to create folders for settings storage.</source>
+          <target>With this configuration, the UE-V Agent creates and secures a Settingspackage folder while it runs in the context of the user, and grants each user permission to create folders for settings storage.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Users receive full control to their Settingspackage folder while other users cannot access it.</source>
+          <target>Users receive full control to their Settingspackage folder while other users cannot access it.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>If you create the settings storage share on a computer running a Windows Server operating system, configure UE-V to verify that either the local Administrators group or the current user is the owner of the folder where settings packages are stored.</source>
+          <target>If you create the settings storage share on a computer running a Windows Server operating system, configure UE-V to verify that either the local Administrators group or the current user is the owner of the folder where settings packages are stored.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>To enable this additional security, specify this setting in the Windows Server Registry Editor:</source>
+          <target>To enable this additional security, specify this setting in the Windows Server Registry Editor:</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">\_</data>
+          <data id="id9">\_</data>
+          <data id="id10">\\</data>
+          <data id="id11">\\</data>
+          <data id="id12">\\</data>
+          <data id="id13">\\</data>
+          <data id="id14">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">REG<ph dataRef="id3" id="ph1" />DWORD</pc> registry key named <pc dataRefEnd="id5" dataRefStart="id4" id="p2">"RepositoryOwnerCheckEnabled"</pc> to <pc dataRefEnd="id7" dataRefStart="id6" id="p3">HKEY<ph dataRef="id8" id="ph2" />LOCAL<ph dataRef="id9" id="ph3" />MACHINE<ph dataRef="id10" id="ph4" />Software<ph dataRef="id11" id="ph5" />Microsoft<ph dataRef="id12" id="ph6" />UEV<ph dataRef="id13" id="ph7" />Agent<ph dataRef="id14" id="ph8" />Configuration</pc>.</source>
+          <target>Add a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">REG<ph dataRef="id3" id="ph1" />DWORD</pc> registry key named <pc dataRefEnd="id5" dataRefStart="id4" id="p2">"RepositoryOwnerCheckEnabled"</pc> to <pc dataRefEnd="id7" dataRefStart="id6" id="p3">HKEY<ph dataRef="id8" id="ph2" />LOCAL<ph dataRef="id9" id="ph3" />MACHINE<ph dataRef="id10" id="ph4" />Software<ph dataRef="id11" id="ph5" />Microsoft<ph dataRef="id12" id="ph6" />UEV<ph dataRef="id13" id="ph7" />Agent<ph dataRef="id14" id="ph8" />Configuration</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set the registry key value to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">1</pc>.</source>
+          <target>Set the registry key value to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">1</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Use Active Directory with UE-V 2.x</source>
+          <target>Use Active Directory with UE-V 2.x</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>The UE-V Agent uses Active Directory (AD) by default if a settings storage location is not otherwise defined.</source>
+          <target>The UE-V Agent uses Active Directory (AD) by default if a settings storage location is not otherwise defined.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>In these cases, the UE-V Agent dynamically creates the settings storage folder under the root of the AD home directory of each user.</source>
+          <target>In these cases, the UE-V Agent dynamically creates the settings storage folder under the root of the AD home directory of each user.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>But, if a custom directory setting is configured in AD, then that directory is used instead.</source>
+          <target>But, if a custom directory setting is configured in AD, then that directory is used instead.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Choose the Configuration Method for UE-V 2.x</source>
+          <target>Choose the Configuration Method for UE-V 2.x</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>You want to figure out which configuration method you'll use to manage UE-V after deployment since this will be the configuration method you use to deploy the UE-V Agent.</source>
+          <target>You want to figure out which configuration method you'll use to manage UE-V after deployment since this will be the configuration method you use to deploy the UE-V Agent.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Typically, this is the configuration method that you already use in your environment, such as Windows PowerShell or Configuration Manager.</source>
+          <target>Typically, this is the configuration method that you already use in your environment, such as Windows PowerShell or Configuration Manager.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>You can configure UE-V before, during, or after UE-V Agent installation, depending on the configuration method that you use.</source>
+          <target>You can configure UE-V before, during, or after UE-V Agent installation, depending on the configuration method that you use.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/dn458893.aspx)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">:</pc> You can use your existing Group Policy infrastructure to configure UE-V before or after UE-V Agent deployment.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">:</pc> You can use your existing Group Policy infrastructure to configure UE-V before or after UE-V Agent deployment.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>The UE-V Group Policy ADMX template enables the central management of common UE-V Agent configuration options, and it includes settings to configure UE-V synchronization.</source>
+          <target>The UE-V Group Policy ADMX template enables the central management of common UE-V Agent configuration options, and it includes settings to configure UE-V synchronization.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installing the UE-V Group Policy ADMX Templates:</pc> Group Policy ADMX templates for UE-V configure the synchronization settings for the UE-V Agent and enable the central management of common UE-V Agent configuration settings by using an existing Group Policy infrastructure.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installing the UE-V Group Policy ADMX Templates:</pc> Group Policy ADMX templates for UE-V configure the synchronization settings for the UE-V Agent and enable the central management of common UE-V Agent configuration settings by using an existing Group Policy infrastructure.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Supported operating systems for the domain controller that deploys the Group Policy Objects include the following:</source>
+          <target>Supported operating systems for the domain controller that deploys the Group Policy Objects include the following:</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Windows Server 2008 R2</source>
+          <target>Windows Server 2008 R2</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Windows Server 2012 and Windows Server 2012 R2</source>
+          <target>Windows Server 2012 and Windows Server 2012 R2</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/dn458917.aspx)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Manager</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">:</pc> The UE-V Configuration Pack lets you use the Compliance Settings feature of System Center Configuration Manager 2012 SP1 or later to apply consistent configurations across sites where UE-V and Configuration Manager are installed.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Manager</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">:</pc> The UE-V Configuration Pack lets you use the Compliance Settings feature of System Center Configuration Manager 2012 SP1 or later to apply consistent configurations across sites where UE-V and Configuration Manager are installed.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/dn458937.aspx)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows PowerShell and WMI</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">:</pc> You can use scripted commands for Windows PowerShell and Windows Management Instrumentation (WMI) to modify configurations after you install the UE-V Agent.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows PowerShell and WMI</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">:</pc> You can use scripted commands for Windows PowerShell and Windows Management Instrumentation (WMI) to modify configurations after you install the UE-V Agent.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Registry modification can result in data loss, or the computer becomes unresponsive.</source>
+          <target>Registry modification can result in data loss, or the computer becomes unresponsive.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>We recommend that you use other configuration methods.</source>
+          <target>We recommend that you use other configuration methods.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](#agent)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command-line or Batch Script Installation:</pc> Parameters that are used when you <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Deploy the UE-V Agent</pc> configure many UE-V settings.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command-line or Batch Script Installation:</pc> Parameters that are used when you <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Deploy the UE-V Agent</pc> configure many UE-V settings.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Electronic software distribution systems, such as System Center 2012 Configuration Manager, use these parameters to configure their clients when they deploy and install the UE-V Agent software.</source>
+          <target>Electronic software distribution systems, such as System Center 2012 Configuration Manager, use these parameters to configure their clients when they deploy and install the UE-V Agent software.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Deploy the UE-V 2.x Agent</source>
+          <target>Deploy the UE-V 2.x Agent</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>The UE-V Agent is the core of a UE-V deployment and must run on each computer that uses UE-V to synchronize application and Windows settings.</source>
+          <target>The UE-V Agent is the core of a UE-V deployment and must run on each computer that uses UE-V to synchronize application and Windows settings.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UE-V Agent Installation Files:</pc> A single installation file, AgentSetup.exe, installs the UE-V Agent on both 32-bit and 64-bit operating systems.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UE-V Agent Installation Files:</pc> A single installation file, AgentSetup.exe, installs the UE-V Agent on both 32-bit and 64-bit operating systems.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>In addition, AgentSetupx86.msi or AgentSetupx64.msi architecture-specific Windows Installer files are provided, and since they are smaller, they might streamline the agent deployments.</source>
+          <target>In addition, AgentSetupx86.msi or AgentSetupx64.msi architecture-specific Windows Installer files are provided, and since they are smaller, they might streamline the agent deployments.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#params)</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">command-line parameters for the AgentSetup.exe installer</pc> are supported for the Windows Installer installation as well.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">command-line parameters for the AgentSetup.exe installer</pc> are supported for the Windows Installer installation as well.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>During UE-V Agent installation or uninstallation, you can either use the AgentSetup.exe file or the AgentSetup<ph dataRef="id1" id="ph1" />arch<ph dataRef="id2" id="ph2" />.msi file, but not both.</source>
+          <target>During UE-V Agent installation or uninstallation, you can either use the AgentSetup.exe file or the AgentSetup<ph dataRef="id1" id="ph1" />arch<ph dataRef="id2" id="ph2" />.msi file, but not both.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>The same file must be used to uninstall the UE-V Agent that was used to install the UE-V Agent.</source>
+          <target>The same file must be used to uninstall the UE-V Agent that was used to install the UE-V Agent.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>To Deploy the UE-V Agent</source>
+          <target>To Deploy the UE-V Agent</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>You can use the following methods to deploy the UE-V Agent:</source>
+          <target>You can use the following methods to deploy the UE-V Agent:</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>An electronic software distribution (ESD) solution system, such as Configuration Manager, that can install a Windows Installer (.msi) file.</source>
+          <target>An electronic software distribution (ESD) solution system, such as Configuration Manager, that can install a Windows Installer (.msi) file.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>An installation script that references the Windows Installer (.msi) file that is stored centrally on a share.</source>
+          <target>An installation script that references the Windows Installer (.msi) file that is stored centrally on a share.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>An installation program that you run manually on the computer.</source>
+          <target>An installation program that you run manually on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Use the following procedure to deploy the UE-V Agent from a network share.</source>
+          <target>Use the following procedure to deploy the UE-V Agent from a network share.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>To install and configure the UE-V Agent from a network share</source>
+          <target>To install and configure the UE-V Agent from a network share</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Stage the UE-V Agent installation file AgentSetup.exe on a network share to which users have Read permission.</source>
+          <target>Stage the UE-V Agent installation file AgentSetup.exe on a network share to which users have Read permission.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Deploy a script to user computers that installs the UE-V Agent.</source>
+          <target>Deploy a script to user computers that installs the UE-V Agent.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>The script should specify the settings storage location.</source>
+          <target>The script should specify the settings storage location.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment options:</pc> Be sure to use the correct variable format when you install the UE-V Agent.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment options:</pc> Be sure to use the correct variable format when you install the UE-V Agent.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>The following table provides examples of deployment options for using the AgentSetup.exe or the Windows Installer (.msi) files.</source>
+          <target>The following table provides examples of deployment options for using the AgentSetup.exe or the Windows Installer (.msi) files.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Deployment type</source>
+          <target>Deployment type</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Deployment description</source>
+          <target>Deployment description</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Command prompt</source>
+          <target>Command prompt</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you install the UE-V Agent at a command prompt, use the <ph dataRef="id1" id="ph1" />%^username%<ph dataRef="id2" id="ph2" /> variable format.</source>
+          <target>When you install the UE-V Agent at a command prompt, use the <ph dataRef="id1" id="ph1" />%^username%<ph dataRef="id2" id="ph2" /> variable format.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>If quotation marks are required because of spaces in the settings storage path, use a batch script file for deployment.</source>
+          <target>If quotation marks are required because of spaces in the settings storage path, use a batch script file for deployment.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Batch script</source>
+          <target>Batch script</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you install the UE-V Agent from a batch script file, use the <ph dataRef="id1" id="ph1" />%%username%%<ph dataRef="id2" id="ph2" /> variable format.</source>
+          <target>When you install the UE-V Agent from a batch script file, use the <ph dataRef="id1" id="ph1" />%%username%%<ph dataRef="id2" id="ph2" /> variable format.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>If you use this installation method, you must escape the variable with the %% characters.</source>
+          <target>If you use this installation method, you must escape the variable with the %% characters.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Without this character, the script expands the <ph dataRef="id1" id="ph1" />username<ph dataRef="id2" id="ph2" /> variable at installation time, rather than at run time, which causes UE-V to use a single settings storage location for all users.</source>
+          <target>Without this character, the script expands the <ph dataRef="id1" id="ph1" />username<ph dataRef="id2" id="ph2" /> variable at installation time, rather than at run time, which causes UE-V to use a single settings storage location for all users.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Windows PowerShell</source>
+          <target>Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you install the UE-V Agent from a Windows PowerShell prompt or a Windows PowerShell script, use the <ph dataRef="id1" id="ph1" />%username%<ph dataRef="id2" id="ph2" /> variable format.</source>
+          <target>When you install the UE-V Agent from a Windows PowerShell prompt or a Windows PowerShell script, use the <ph dataRef="id1" id="ph1" />%username%<ph dataRef="id2" id="ph2" /> variable format.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Electronic software distribution, such as deployment of Configuration Manager Software Deployment</source>
+          <target>Electronic software distribution, such as deployment of Configuration Manager Software Deployment</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you install the UE-V Agent by using Configuration Manager, use the <ph dataRef="id1" id="ph1" />^%username^%<ph dataRef="id2" id="ph2" /> variable format.</source>
+          <target>When you install the UE-V Agent by using Configuration Manager, use the <ph dataRef="id1" id="ph1" />^%username^%<ph dataRef="id2" id="ph2" /> variable format.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>The installation of the UE-V Agent requires administrator rights, and the computer requires a restart before the UE-V Agent can run.</source>
+          <target>The installation of the UE-V Agent requires administrator rights, and the computer requires a restart before the UE-V Agent can run.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Command-line parameters for UE-V Agent deployment</source>
+          <target>Command-line parameters for UE-V Agent deployment</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>The command-line parameters of the UE-V Agent are as follows.</source>
+          <target>The command-line parameters of the UE-V Agent are as follows.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Command-line parameter</source>
+          <target>Command-line parameter</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Definition</source>
+          <target>Definition</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Notes</source>
+          <target>Notes</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>/help or /h or /?</source>
+          <target>/help or /h or /?</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Displays the AgentSetup.exe usage dialog box.</source>
+          <target>Displays the AgentSetup.exe usage dialog box.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>SettingsStoragePath</source>
+          <target>SettingsStoragePath</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Indicates the Universal Naming Convention (UNC) path that defines where settings are stored.</source>
+          <target>Indicates the Universal Naming Convention (UNC) path that defines where settings are stored.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>You must specify a SettingsStoragePath in UE-V 2.1 and UE-V 2.1 SP1.</source>
+          <target>You must specify a SettingsStoragePath in UE-V 2.1 and UE-V 2.1 SP1.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>You can set the AdHomePath string to specify that the user's Active Directory home path is used.</source>
+          <target>You can set the AdHomePath string to specify that the user's Active Directory home path is used.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <originalData>
+          <data id="id1">&lt;code&gt;SettingsStoragePath = \\share\path|AdHomePath&lt;/code&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, <ph dataRef="id1" id="ph1" />.</source>
+          <target>For example, <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>In UE-V 2.0, you can leave SettingsStoragePath blank to use the Active Directory home path instead.</source>
+          <target>In UE-V 2.0, you can leave SettingsStoragePath blank to use the Active Directory home path instead.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>%username% or %computername% environment variables are accepted.</source>
+          <target>%username% or %computername% environment variables are accepted.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>Scripting can require escaped variables.</source>
+          <target>Scripting can require escaped variables.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Default<ph dataRef="id1" id="ph1" />: <ph dataRef="id2" id="ph2" />none</source>
+          <target>Default<ph dataRef="id1" id="ph1" />: <ph dataRef="id2" id="ph2" />none</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>SettingsStoragePathReg</source>
+          <target>SettingsStoragePathReg</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Gets the SettingsStoragePath value from the registry during installation.</source>
+          <target>Gets the SettingsStoragePath value from the registry during installation.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>At the command prompt, type the following example to force UE-V to use the Active Directory home path instead of a specific UNC.</source>
+          <target>At the command prompt, type the following example to force UE-V to use the Active Directory home path instead of a specific UNC.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>SettingsTemplateCatalogPath</source>
+          <target>SettingsTemplateCatalogPath</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Indicates the Universal Naming Convention (UNC) path that defines the location that was checked for new settings location templates.</source>
+          <target>Indicates the Universal Naming Convention (UNC) path that defines the location that was checked for new settings location templates.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Only required for custom settings location templates</source>
+          <target>Only required for custom settings location templates</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>RegisterMSTemplates</source>
+          <target>RegisterMSTemplates</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Specifies whether the default Microsoft templates should be registered during installation.</source>
+          <target>Specifies whether the default Microsoft templates should be registered during installation.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>True | False</source>
+          <target>True | False</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Default<ph dataRef="id1" id="ph1" />: True</source>
+          <target>Default<ph dataRef="id1" id="ph1" />: True</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>SyncMethod</source>
+          <target>SyncMethod</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>Specifies which synchronization method should be used.</source>
+          <target>Specifies which synchronization method should be used.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>SyncProvider | None</source>
+          <target>SyncProvider | None</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Default<ph dataRef="id1" id="ph1" />: SyncProvider</source>
+          <target>Default<ph dataRef="id1" id="ph1" />: SyncProvider</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>SyncTimeoutInMilliseconds</source>
+          <target>SyncTimeoutInMilliseconds</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Specifies the number of milliseconds that the computer waits before time-out when it retrieves user settings from the settings storage location.</source>
+          <target>Specifies the number of milliseconds that the computer waits before time-out when it retrieves user settings from the settings storage location.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Default<ph dataRef="id1" id="ph1" />: 2000 milliseconds</source>
+          <target>Default<ph dataRef="id1" id="ph1" />: 2000 milliseconds</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>(wait up to 2 seconds)</source>
+          <target>(wait up to 2 seconds)</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>SyncEnabled</source>
+          <target>SyncEnabled</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>Specifies whether UE-V synchronization is enabled or disabled.</source>
+          <target>Specifies whether UE-V synchronization is enabled or disabled.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>True | False</source>
+          <target>True | False</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Default<ph dataRef="id1" id="ph1" />: True</source>
+          <target>Default<ph dataRef="id1" id="ph1" />: True</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>MaxPackageSizeInBytes</source>
+          <target>MaxPackageSizeInBytes</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>Specifies a settings package file size in bytes when the UE-V Agent reports that files exceed the threshold.</source>
+          <target>Specifies a settings package file size in bytes when the UE-V Agent reports that files exceed the threshold.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>size</source>
+          <target>size</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Default<ph dataRef="id1" id="ph1" />: none (no warning threshold)</source>
+          <target>Default<ph dataRef="id1" id="ph1" />: none (no warning threshold)</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>CEIPEnabled</source>
+          <target>CEIPEnabled</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Specifies the setting for participation in the Customer Experience Improvement program.</source>
+          <target>Specifies the setting for participation in the Customer Experience Improvement program.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If set to <ph dataRef="id1" id="ph1" />True<ph dataRef="id2" id="ph2" />, installer information is uploaded to the Microsoft Customer Experience Improvement Program site.</source>
+          <target>If set to <ph dataRef="id1" id="ph1" />True<ph dataRef="id2" id="ph2" />, installer information is uploaded to the Microsoft Customer Experience Improvement Program site.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If set to <ph dataRef="id1" id="ph1" />False<ph dataRef="id2" id="ph2" />, no information is uploaded.</source>
+          <target>If set to <ph dataRef="id1" id="ph1" />False<ph dataRef="id2" id="ph2" />, no information is uploaded.</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>True | False</source>
+          <target>True | False</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Default<ph dataRef="id1" id="ph1" />: False</source>
+          <target>Default<ph dataRef="id1" id="ph1" />: False</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>NoRestart</source>
+          <target>NoRestart</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>Supports deferral of the restart of the computer after the UE-V Agent is installed.</source>
+          <target>Supports deferral of the restart of the computer after the UE-V Agent is installed.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>INSTALLFOLDER</source>
+          <target>INSTALLFOLDER</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>Enables a different installation folder to be set for the UE-V Agent or UE-V Generator.</source>
+          <target>Enables a different installation folder to be set for the UE-V Agent or UE-V Generator.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>MUENABLED</source>
+          <target>MUENABLED</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>Enables Setup to accept the option to be included in the Microsoft Update program.</source>
+          <target>Enables Setup to accept the option to be included in the Microsoft Update program.</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>ACCEPTLICENSETERMS</source>
+          <target>ACCEPTLICENSETERMS</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>Lets UE-V be installed silently.</source>
+          <target>Lets UE-V be installed silently.</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>This must be set to <ph dataRef="id1" id="ph1" />True<ph dataRef="id2" id="ph2" /> to install UE-V silently and bypass the requirement that the user accepts the UE-V license terms.</source>
+          <target>This must be set to <ph dataRef="id1" id="ph1" />True<ph dataRef="id2" id="ph2" /> to install UE-V silently and bypass the requirement that the user accepts the UE-V license terms.</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If set to <ph dataRef="id1" id="ph1" />False<ph dataRef="id2" id="ph2" /> or left empty, the user receives an error message and UE-V is not installed.</source>
+          <target>If set to <ph dataRef="id1" id="ph1" />False<ph dataRef="id2" id="ph2" /> or left empty, the user receives an error message and UE-V is not installed.</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>This parameter is required to install UE-V silently.</source>
+          <target>This parameter is required to install UE-V silently.</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <segment state="initial">
+          <source>NORESTART</source>
+          <target>NORESTART</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>Prevents a mandatory restart after the UE-V Agent is installed.</source>
+          <target>Prevents a mandatory restart after the UE-V Agent is installed.</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>Update the UE-V Agent</source>
+          <target>Update the UE-V Agent</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>Updates for the UE-V Agent software are provided through Microsoft Update.</source>
+          <target>Updates for the UE-V Agent software are provided through Microsoft Update.</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>You can deploy UE-V Agent updates by using Enterprise Software Distribution (ESD) infrastructure systems.</source>
+          <target>You can deploy UE-V Agent updates by using Enterprise Software Distribution (ESD) infrastructure systems.</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>During a UE-V Agent upgrade, the default group of settings location templates for common Microsoft applications and Windows settings can be updated.</source>
+          <target>During a UE-V Agent upgrade, the default group of settings location templates for common Microsoft applications and Windows settings can be updated.</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>Upgrade the UE-V 2.x Agent</source>
+          <target>Upgrade the UE-V 2.x Agent</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>The UE-V 2.x Agent introduces many new features and modifies how and when the agent uploads content to the settings storage share.</source>
+          <target>The UE-V 2.x Agent introduces many new features and modifies how and when the agent uploads content to the settings storage share.</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>The upgrade process automates these changes.</source>
+          <target>The upgrade process automates these changes.</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>To upgrade the UE-V Agent, run the UE-V Agent install package (AgentSetup.exe, AgentSetupx86.msi, or AgentSetupx64.msi) on users’ computers.</source>
+          <target>To upgrade the UE-V Agent, run the UE-V Agent install package (AgentSetup.exe, AgentSetupx86.msi, or AgentSetupx64.msi) on users’ computers.</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>When you upgrade the UE-V Agent, you must use the same installer type (.exe file or .msi packet) that installed the previous UE-V Agent.</source>
+          <target>When you upgrade the UE-V Agent, you must use the same installer type (.exe file or .msi packet) that installed the previous UE-V Agent.</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>For example, use the UE-V 2 AgentSetup.exe to upgrade UE-V 1.0 Agents that were installed by using AgentSetup.exe.</source>
+          <target>For example, use the UE-V 2 AgentSetup.exe to upgrade UE-V 1.0 Agents that were installed by using AgentSetup.exe.</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>The following configurations are preserved when the Agent Setup program runs:</source>
+          <target>The following configurations are preserved when the Agent Setup program runs:</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>Settings storage path</source>
+          <target>Settings storage path</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>Registry settings</source>
+          <target>Registry settings</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>Scheduled tasks (Interval settings are reset to their defaults)</source>
+          <target>Scheduled tasks (Interval settings are reset to their defaults)</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>A computer with UE-V 2.x settings location templates that are registered in the UE-V 1.0 Agent register errors in the Windows Event Log.</source>
+          <target>A computer with UE-V 2.x settings location templates that are registered in the UE-V 1.0 Agent register errors in the Windows Event Log.</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>You can use Microsoft System Center 2012 Configuration Manager or another enterprise software distribution tool to automate and distribute the UE-V Agent upgrade.</source>
+          <target>You can use Microsoft System Center 2012 Configuration Manager or another enterprise software distribution tool to automate and distribute the UE-V Agent upgrade.</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recommendations:</pc> We recommend that you upgrade all of the UE-V 1.0 Agents in a computing environment, but it is not required.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recommendations:</pc> We recommend that you upgrade all of the UE-V 1.0 Agents in a computing environment, but it is not required.</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <segment state="initial">
+          <source>UE-V 2.x settings location templates can interact with a UE-V 1.0 Agent because they only share the settings from the settings storage path.</source>
+          <target>UE-V 2.x settings location templates can interact with a UE-V 1.0 Agent because they only share the settings from the settings storage path.</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>We recommend, however, that you move the deployments to a single agent version to simplify management and to support UE-V.</source>
+          <target>We recommend, however, that you move the deployments to a single agent version to simplify management and to support UE-V.</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>Repair the UE-V Agent after an unsuccessful upgrade</source>
+          <target>Repair the UE-V Agent after an unsuccessful upgrade</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <segment state="initial">
+          <source>You might experience errors after you attempt one of the following operations:</source>
+          <target>You might experience errors after you attempt one of the following operations:</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>Upgrade from UE-V 1.0 to UE-V 2</source>
+          <target>Upgrade from UE-V 1.0 to UE-V 2</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>Upgrade to a newer version of Windows, for example, from Windows 7 to Windows 8 or from Windows 8 to Windows 8.1.</source>
+          <target>Upgrade to a newer version of Windows, for example, from Windows 7 to Windows 8 or from Windows 8 to Windows 8.1.</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>Uninstall the agent after upgrading the UE-V Agent</source>
+          <target>Uninstall the agent after upgrading the UE-V Agent</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>To resolve any issues, attempt to repair the UE-V Agent by entering this command at a command prompt on the computer where the agent is installed.</source>
+          <target>To resolve any issues, attempt to repair the UE-V Agent by entering this command at a command prompt on the computer where the agent is installed.</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>You can then retry the uninstall process or upgrade by installing the newer version of the UE-V Agent.</source>
+          <target>You can then retry the uninstall process or upgrade by installing the newer version of the UE-V Agent.</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>Got a suggestion for UE-V?</source>
+          <target>Got a suggestion for UE-V?</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://uev.uservoice.com/forums/280428-microsoft-user-experience-virtualization)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add or vote on suggestions <pc dataRefEnd="id2" dataRefStart="id1" id="p1">here</pc>.</source>
+          <target>Add or vote on suggestions <pc dataRefEnd="id2" dataRefStart="id1" id="p1">here</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://social.technet.microsoft.com/Forums/home?forum=mdopuev)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For UE-V issues, use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UE-V TechNet Forum</pc>.</source>
+          <target>For UE-V issues, use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UE-V TechNet Forum</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <segment state="initial">
+          <source>Prepare a UE-V 2.x Deployment</source>
+          <target>Prepare a UE-V 2.x Deployment</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <segment state="initial">
+          <source>Deploy UE-V 2.x for Custom Applications</source>
+          <target>Deploy UE-V 2.x for Custom Applications</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

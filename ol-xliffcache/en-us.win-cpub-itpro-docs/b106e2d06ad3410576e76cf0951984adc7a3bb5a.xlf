@@ -1,0 +1,995 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\uev-v2\managing-ue-v-2x-settings-location-templates-using-windows-powershell-and-wmi-both-uevv2.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">b106e2d06ad3410576e76cf0951984adc7a3bb5a</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Managing UE-V 2.x Settings Location Templates Using Windows PowerShell and WMI</source>
+          <target>Managing UE-V 2.x Settings Location Templates Using Windows PowerShell and WMI</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Managing UE-V 2.x Settings Location Templates Using Windows PowerShell and WMI</source>
+          <target>Managing UE-V 2.x Settings Location Templates Using Windows PowerShell and WMI</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Managing UE-V 2.x Settings Location Templates Using Windows PowerShell and WMI</source>
+          <target>Managing UE-V 2.x Settings Location Templates Using Windows PowerShell and WMI</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Microsoft User Experience Virtualization (UE-V) 2.0, 2.1, and 2.1 SP1 use XML settings location templates to define the settings that User Experience Virtualization captures and applies.</source>
+          <target>Microsoft User Experience Virtualization (UE-V) 2.0, 2.1, and 2.1 SP1 use XML settings location templates to define the settings that User Experience Virtualization captures and applies.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>UE-V includes a set of standard settings location templates.</source>
+          <target>UE-V includes a set of standard settings location templates.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>It also includes the UE-V Generator tool that enables you to create custom settings location templates.</source>
+          <target>It also includes the UE-V Generator tool that enables you to create custom settings location templates.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>After you create and deploy settings location templates, you can manage those templates by using Windows PowerShell and the Windows Management Instrumentation (WMI).</source>
+          <target>After you create and deploy settings location templates, you can manage those templates by using Windows PowerShell and the Windows Management Instrumentation (WMI).</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=393495)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For a complete list of UE-V PowerShell cmdlets, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UE-V 2 Cmdlet Reference</pc> (http://go.microsoft.com/fwlink/p/?LinkId=393495).</source>
+          <target>For a complete list of UE-V PowerShell cmdlets, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UE-V 2 Cmdlet Reference</pc> (http://go.microsoft.com/fwlink/p/?LinkId=393495).</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Manage UE-V 2 settings location templates by using Windows PowerShell</source>
+          <target>Manage UE-V 2 settings location templates by using Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>The WMI and Windows PowerShell features of UE-V include the ability to enable, disable, register, update, and unregister settings location templates.</source>
+          <target>The WMI and Windows PowerShell features of UE-V include the ability to enable, disable, register, update, and unregister settings location templates.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>By using these features, you can automate the process of registering, updating, or unregistering templates with the UE-V Agent.</source>
+          <target>By using these features, you can automate the process of registering, updating, or unregistering templates with the UE-V Agent.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>You can also manually register templates by using WMI and Windows PowerShell commands.</source>
+          <target>You can also manually register templates by using WMI and Windows PowerShell commands.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>By using these features in conjunction with an electronic software distribution solution, Group Policy, or another automated deployment method such as a script, you can further automate that process.</source>
+          <target>By using these features in conjunction with an electronic software distribution solution, Group Policy, or another automated deployment method such as a script, you can further automate that process.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>You must have administrator permissions to update, register, or unregister a settings location template.</source>
+          <target>You must have administrator permissions to update, register, or unregister a settings location template.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Administrator permissions are not required to enable, disable, or list templates.</source>
+          <target>Administrator permissions are not required to enable, disable, or list templates.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>****To manage settings location templates by using Windows PowerShell****</source>
+          <target>****To manage settings location templates by using Windows PowerShell****</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Use an account with administrator rights to open a Windows PowerShell command prompt.</source>
+          <target>Use an account with administrator rights to open a Windows PowerShell command prompt.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Use the following Windows PowerShell cmdlets to register and manage the UE-V settings location templates.</source>
+          <target>Use the following Windows PowerShell cmdlets to register and manage the UE-V settings location templates.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Windows PowerShell command</source>
+          <target>Windows PowerShell command</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Lists all the settings location templates that are registered on the computer.</source>
+          <target>Lists all the settings location templates that are registered on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Lists all the settings location templates that are registered on the computer where the application name or template name contains <ph dataRef="id1" id="ph1" />string<ph dataRef="id2" id="ph2" />.</source>
+          <target>Lists all the settings location templates that are registered on the computer where the application name or template name contains <ph dataRef="id1" id="ph1" />string<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Lists all the settings location templates that are registered on the computer where the template ID contains <ph dataRef="id1" id="ph1" />string<ph dataRef="id2" id="ph2" />.</source>
+          <target>Lists all the settings location templates that are registered on the computer where the template ID contains <ph dataRef="id1" id="ph1" />string<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Lists all the settings location templates that are registered on the computer where the application or template name, or template ID contains <ph dataRef="id1" id="ph1" />string<ph dataRef="id2" id="ph2" />.</source>
+          <target>Lists all the settings location templates that are registered on the computer where the application or template name, or template ID contains <ph dataRef="id1" id="ph1" />string<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Gets the name of the program and version information, which depend on the template ID.</source>
+          <target>Gets the name of the program and version information, which depend on the template ID.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Gets the effective list of Windows apps.</source>
+          <target>Gets the effective list of Windows apps.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Gets the list of Windows apps that are configured for the computer.</source>
+          <target>Gets the list of Windows apps that are configured for the computer.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Gets the list of Windows apps that are configured for the current user.</source>
+          <target>Gets the list of Windows apps that are configured for the current user.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Registers one or more settings location template with UE-V by using relative paths and/or wildcard characters in file paths.</source>
+          <target>Registers one or more settings location template with UE-V by using relative paths and/or wildcard characters in file paths.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>After a template is registered, UE-V synchronizes the settings that are defined in the template between computers that have the template registered.</source>
+          <target>After a template is registered, UE-V synchronizes the settings that are defined in the template between computers that have the template registered.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Registers one or more settings location template with UE-V by using literal paths, where no characters can be interpreted as wildcard characters.</source>
+          <target>Registers one or more settings location template with UE-V by using literal paths, where no characters can be interpreted as wildcard characters.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>After a template is registered, UE-V synchronizes the settings that are defined in the template between computers that have the template registered.</source>
+          <target>After a template is registered, UE-V synchronizes the settings that are defined in the template between computers that have the template registered.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Unregisters a settings location template with UE-V.</source>
+          <target>Unregisters a settings location template with UE-V.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>When a template is unregistered, UE-V no longer synchronizes the settings that are defined in the template between computers.</source>
+          <target>When a template is unregistered, UE-V no longer synchronizes the settings that are defined in the template between computers.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Unregisters all settings location templates with UE-V.</source>
+          <target>Unregisters all settings location templates with UE-V.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>When a template is unregistered, UE-V no longer synchronizes the settings that are defined in the template between computers.</source>
+          <target>When a template is unregistered, UE-V no longer synchronizes the settings that are defined in the template between computers.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Updates one or more settings location templates with a more recent version of the template.</source>
+          <target>Updates one or more settings location templates with a more recent version of the template.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Use relative paths and/or wildcard characters in the file paths.</source>
+          <target>Use relative paths and/or wildcard characters in the file paths.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>The new template should be a newer version than the existing template.</source>
+          <target>The new template should be a newer version than the existing template.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Updates one or more settings location templates with a more recent version of the template.</source>
+          <target>Updates one or more settings location templates with a more recent version of the template.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Use full paths to template files, where no characters can be interpreted as wildcard characters.</source>
+          <target>Use full paths to template files, where no characters can be interpreted as wildcard characters.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>The new template should be a newer version than the existing template.</source>
+          <target>The new template should be a newer version than the existing template.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Removes one or more Windows apps from the computer Windows app list.</source>
+          <target>Removes one or more Windows apps from the computer Windows app list.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Removes Windows app from the current user Windows app list.</source>
+          <target>Removes Windows app from the current user Windows app list.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Removes all Windows apps from the computer Windows app list.</source>
+          <target>Removes all Windows apps from the computer Windows app list.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Removes one or more Windows apps from the current user Windows app list.</source>
+          <target>Removes one or more Windows apps from the current user Windows app list.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Removes all Windows apps from the current user Windows app list.</source>
+          <target>Removes all Windows apps from the current user Windows app list.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Disables a settings location template for the current user of the computer.</source>
+          <target>Disables a settings location template for the current user of the computer.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Disables one or more Windows apps in the computer Windows app list.</source>
+          <target>Disables one or more Windows apps in the computer Windows app list.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Disables one or more Windows apps in the current user Windows app list.</source>
+          <target>Disables one or more Windows apps in the current user Windows app list.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Enables a settings location template for the current user of the computer.</source>
+          <target>Enables a settings location template for the current user of the computer.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Enables one or more Windows apps in the computer Windows app list.</source>
+          <target>Enables one or more Windows apps in the computer Windows app list.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Enables one or more Windows apps in the current user Windows app list.</source>
+          <target>Enables one or more Windows apps in the current user Windows app list.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Determines whether one or more settings location templates comply with its XML schema.</source>
+          <target>Determines whether one or more settings location templates comply with its XML schema.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Can use relative paths and wildcard characters.</source>
+          <target>Can use relative paths and wildcard characters.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Determines whether one or more settings location templates comply with its XML schema.</source>
+          <target>Determines whether one or more settings location templates comply with its XML schema.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>The path must be a full path to the template file, but does not include wildcard characters.</source>
+          <target>The path must be a full path to the template file, but does not include wildcard characters.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>The UE-V Windows PowerShell features enable you to manage a group of settings templates that are deployed in your enterprise.</source>
+          <target>The UE-V Windows PowerShell features enable you to manage a group of settings templates that are deployed in your enterprise.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Use the following procedure to manage a group of templates by using Windows PowerShell.</source>
+          <target>Use the following procedure to manage a group of templates by using Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>To manage a group of settings location templates by using Windows PowerShell</source>
+          <target>To manage a group of settings location templates by using Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Modify or update the desired settings location templates.</source>
+          <target>Modify or update the desired settings location templates.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>If you want to modify or update the settings location templates, deploy those settings location templates to a folder that is accessible to the local computer.</source>
+          <target>If you want to modify or update the settings location templates, deploy those settings location templates to a folder that is accessible to the local computer.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>On the local computer, open a Windows PowerShell window with administrator rights.</source>
+          <target>On the local computer, open a Windows PowerShell window with administrator rights.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Unregister all the previously registered versions of the templates by typing the following command.</source>
+          <target>Unregister all the previously registered versions of the templates by typing the following command.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>This command unregisters all active templates on the computer.</source>
+          <target>This command unregisters all active templates on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Register the updated templates by typing the following command.</source>
+          <target>Register the updated templates by typing the following command.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>This command registers all of the settings location templates that are located in the specified template folder.</source>
+          <target>This command registers all of the settings location templates that are located in the specified template folder.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Windows app list</source>
+          <target>Windows app list</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>By listing a Windows app in the Windows app list, you specify whether that app is enabled or disabled for settings synchronization.</source>
+          <target>By listing a Windows app in the Windows app list, you specify whether that app is enabled or disabled for settings synchronization.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Apps are identified in the list by their Package Family name and whether settings synchronization should be enabled or disabled for that app.</source>
+          <target>Apps are identified in the list by their Package Family name and whether settings synchronization should be enabled or disabled for that app.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>When you use these settings along with the Unlisted Default Sync Behavior setting, you can control whether Windows apps are synchronized.</source>
+          <target>When you use these settings along with the Unlisted Default Sync Behavior setting, you can control whether Windows apps are synchronized.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>To display the Package Family Name of installed Windows apps, at a Windows PowerShell command prompt, enter:</source>
+          <target>To display the Package Family Name of installed Windows apps, at a Windows PowerShell command prompt, enter:</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>To display a list of Windows apps that can synchronize settings on a computer with their package family name, enabled status, and enabled source, at a Windows PowerShell command prompt, enter:</source>
+          <target>To display a list of Windows apps that can synchronize settings on a computer with their package family name, enabled status, and enabled source, at a Windows PowerShell command prompt, enter:</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Definitions of Get-UevAppxPackage properties</source>
+          <target>Definitions of Get-UevAppxPackage properties</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>DisplayName</source>
+          <target>DisplayName</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>The name that is displayed to the user in the Company Settings Center application.</source>
+          <target>The name that is displayed to the user in the Company Settings Center application.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">`DisplayName`</data>
+          <data id="id2">`PackageFamilyName`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> property is derived from the <ph dataRef="id2" id="ph2" /> property.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> property is derived from the <ph dataRef="id2" id="ph2" /> property.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>PackageFamilyName</source>
+          <target>PackageFamilyName</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>The name of the package that is installed for the current user.</source>
+          <target>The name of the package that is installed for the current user.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Enabled</source>
+          <target>Enabled</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Defines whether the settings for the app are configured to synchronize.</source>
+          <target>Defines whether the settings for the app are configured to synchronize.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>EnabledSource</source>
+          <target>EnabledSource</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>The location where the configuration that enables or disables the app is set.</source>
+          <target>The location where the configuration that enables or disables the app is set.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">*</data>
+          <data id="id4">*</data>
+          <data id="id5">*</data>
+          <data id="id6">*</data>
+          <data id="id7">*</data>
+          <data id="id8">*</data>
+          <data id="id9">*</data>
+          <data id="id10">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Possible values are: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NotSet</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">LocalMachine</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">LocalUser</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">PolicyMachine</pc>, and <pc dataRefEnd="id10" dataRefStart="id9" id="p5">PolicyUser</pc>.</source>
+          <target>Possible values are: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NotSet</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">LocalMachine</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">LocalUser</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">PolicyMachine</pc>, and <pc dataRefEnd="id10" dataRefStart="id9" id="p5">PolicyUser</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>NotSet</source>
+          <target>NotSet</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>The policy is not configured to synchronize this app.</source>
+          <target>The policy is not configured to synchronize this app.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>LocalMachine</source>
+          <target>LocalMachine</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>The enabled state is set in the local computer section of the registry.</source>
+          <target>The enabled state is set in the local computer section of the registry.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>LocalUser</source>
+          <target>LocalUser</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>The enabled state is set in the current user section of the registry.</source>
+          <target>The enabled state is set in the current user section of the registry.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>PolicyMachine</source>
+          <target>PolicyMachine</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>The enabled state is set in the policy section of the local computer section of the registry.</source>
+          <target>The enabled state is set in the policy section of the local computer section of the registry.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>To get the user-configured list of Windows apps, at the Windows PowerShell command prompt, enter:</source>
+          <target>To get the user-configured list of Windows apps, at the Windows PowerShell command prompt, enter:</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>To get the computer-configured list of Windows apps, at the Windows PowerShell command prompt, enter:</source>
+          <target>To get the computer-configured list of Windows apps, at the Windows PowerShell command prompt, enter:</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>For either parameter, CurrentComputerUser or Computer, the cmdlet returns a list of the Windows apps that are configured at the user or at the computer level.</source>
+          <target>For either parameter, CurrentComputerUser or Computer, the cmdlet returns a list of the Windows apps that are configured at the user or at the computer level.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Definitions of properties</source>
+          <target>Definitions of properties</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>DisplayName</source>
+          <target>DisplayName</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>The name that is displayed to the user in the Company Settings Center application.</source>
+          <target>The name that is displayed to the user in the Company Settings Center application.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <originalData>
+          <data id="id1">`DisplayName`</data>
+          <data id="id2">`PackageFamilyName`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> property is derived from the <ph dataRef="id2" id="ph2" /> property.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> property is derived from the <ph dataRef="id2" id="ph2" /> property.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>PackageFamilyName</source>
+          <target>PackageFamilyName</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>The name of the package that is installed for the current user.</source>
+          <target>The name of the package that is installed for the current user.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Enabled</source>
+          <target>Enabled</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Defines whether the settings for the app are configured to synchronize for the specified switch, that is, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">user</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">computer</pc>.</source>
+          <target>Defines whether the settings for the app are configured to synchronize for the specified switch, that is, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">user</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">computer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Installed</source>
+          <target>Installed</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>True if the app, that is, the PackageFamilyName is installed for the current user.</source>
+          <target>True if the app, that is, the PackageFamilyName is installed for the current user.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Manage UE-V 2 settings location templates by using WMI</source>
+          <target>Manage UE-V 2 settings location templates by using WMI</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>User Experience Virtualization provides the following set of WMI commands.</source>
+          <target>User Experience Virtualization provides the following set of WMI commands.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Administrators can use these interfaces to manage settings location templates from Windows PowerShell and automate template administrative tasks.</source>
+          <target>Administrators can use these interfaces to manage settings location templates from Windows PowerShell and automate template administrative tasks.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>To manage settings location templates by using WMI</source>
+          <target>To manage settings location templates by using WMI</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Use an account with administrator rights to open a Windows PowerShell window.</source>
+          <target>Use an account with administrator rights to open a Windows PowerShell window.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Use the following WMI commands to register and manage the UE-V settings location templates.</source>
+          <target>Use the following WMI commands to register and manage the UE-V settings location templates.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Lists all the settings location templates that are registered for the computer.</source>
+          <target>Lists all the settings location templates that are registered for the computer.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Gets the name of the program and version information, which depends on the template name.</source>
+          <target>Gets the name of the program and version information, which depends on the template name.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Gets the effective list of Windows apps.</source>
+          <target>Gets the effective list of Windows apps.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Get-WmiObject -Namespace root\Microsoft\UEV MachineConfiguredWindows8App</source>
+          <target>Get-WmiObject -Namespace root\Microsoft\UEV MachineConfiguredWindows8App</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Gets the list of Windows apps that are configured for the computer.</source>
+          <target>Gets the list of Windows apps that are configured for the computer.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Gets the list of Windows apps that are configured for the current user.</source>
+          <target>Gets the list of Windows apps that are configured for the current user.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Registers a settings location template with UE-V.</source>
+          <target>Registers a settings location template with UE-V.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Unregisters a settings location template with UE-V.</source>
+          <target>Unregisters a settings location template with UE-V.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>As soon as a template is unregistered, UE-V no longer synchronizes the settings that are defined in the template between computers.</source>
+          <target>As soon as a template is unregistered, UE-V no longer synchronizes the settings that are defined in the template between computers.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Updates a settings location template with UE-V.</source>
+          <target>Updates a settings location template with UE-V.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>The new template should be a newer version than the existing one.</source>
+          <target>The new template should be a newer version than the existing one.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Removes one or more Windows apps from the computer Windows app list.</source>
+          <target>Removes one or more Windows apps from the computer Windows app list.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Removes one or more Windows apps from the current user Windows app list.</source>
+          <target>Removes one or more Windows apps from the current user Windows app list.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Disables one or more settings location templates with UE-V.</source>
+          <target>Disables one or more settings location templates with UE-V.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Disables one or more Windows apps in the computer Windows app list.</source>
+          <target>Disables one or more Windows apps in the computer Windows app list.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Disables one or more Windows apps in the current user Windows app list.</source>
+          <target>Disables one or more Windows apps in the current user Windows app list.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Enables a settings location template with UE-V.</source>
+          <target>Enables a settings location template with UE-V.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Enables Windows apps in the computer Windows app list.</source>
+          <target>Enables Windows apps in the computer Windows app list.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Enables Windows apps in the current user Windows app list.</source>
+          <target>Enables Windows apps in the current user Windows app list.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Determines whether a given settings location template complies with its XML schema.</source>
+          <target>Determines whether a given settings location template complies with its XML schema.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <originalData>
+          <data id="id1">`"&lt;package family name | package family name&gt;"`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Where a list of Package Family Names is called by the WMI command, the list must be in quotes and separated by a pipe symbol, for example, <ph dataRef="id1" id="ph1" />.</source>
+          <target>Where a list of Package Family Names is called by the WMI command, the list must be in quotes and separated by a pipe symbol, for example, <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Deploying the UE-V Agent using Windows PowerShell</source>
+          <target>Deploying the UE-V Agent using Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>How to deploy the UE-V Agent by using Windows PowerShell</source>
+          <target>How to deploy the UE-V Agent by using Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Stage the UE-V Agent installation package in an accessible network share.</source>
+          <target>Stage the UE-V Agent installation package in an accessible network share.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Use AgentSetup.exe to deploy both 32-bit and 64-bit versions of the UE-V Agent.</source>
+          <target>Use AgentSetup.exe to deploy both 32-bit and 64-bit versions of the UE-V Agent.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>The Windows Installer packages, AgentSetupx86.msi and AgentSetupx64.msi, are available for each architecture.</source>
+          <target>The Windows Installer packages, AgentSetupx86.msi and AgentSetupx64.msi, are available for each architecture.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>To uninstall the UE-V Agent at a later time by using the installation file, you must use the same file type.</source>
+          <target>To uninstall the UE-V Agent at a later time by using the installation file, you must use the same file type.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Use one of the following Windows PowerShell commands to install the UE-V Agent.</source>
+          <target>Use one of the following Windows PowerShell commands to install the UE-V Agent.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Got a suggestion for UE-V</pc>?</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Got a suggestion for UE-V</pc>?</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://uev.uservoice.com/forums/280428-microsoft-user-experience-virtualization)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add or vote on suggestions <pc dataRefEnd="id2" dataRefStart="id1" id="p1">here</pc>.</source>
+          <target>Add or vote on suggestions <pc dataRefEnd="id2" dataRefStart="id1" id="p1">here</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Got a UE-V issue</pc>?</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Got a UE-V issue</pc>?</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://social.technet.microsoft.com/Forums/home?forum=mdopuev)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UE-V TechNet Forum</pc>.</source>
+          <target>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UE-V TechNet Forum</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Administering UE-V 2.x with Windows PowerShell and WMI</source>
+          <target>Administering UE-V 2.x with Windows PowerShell and WMI</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Administering UE-V 2.x</source>
+          <target>Administering UE-V 2.x</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

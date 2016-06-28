@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\appv-v4\installing-app-v-management-server-or-streaming-server-securely.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">a96ce478d318dbcbbe6c2312603c16b42c987da5</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Installing App-V Management Server or Streaming Server Securely</source>
+          <target>Installing App-V Management Server or Streaming Server Securely</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Installing App-V Management Server or Streaming Server Securely</source>
+          <target>Installing App-V Management Server or Streaming Server Securely</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Installing App-V Management Server or Streaming Server Securely</source>
+          <target>Installing App-V Management Server or Streaming Server Securely</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>The topics in this section provide information for installing an enhanced security version of the App-V Management Server or the App-V Streaming Server.</source>
+          <target>The topics in this section provide information for installing an enhanced security version of the App-V Management Server or the App-V Streaming Server.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Installing or configuring an App-V Management or Streaming Server to use enhanced security (for example, Transport Layer Security, or TLS) requires that an X.509 V3 certificate has been provisioned to the App-V server.</source>
+          <target>Installing or configuring an App-V Management or Streaming Server to use enhanced security (for example, Transport Layer Security, or TLS) requires that an X.509 V3 certificate has been provisioned to the App-V server.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>When you prepare to install or configure a secure Management or Streaming Server, consider the following technical requirements:</source>
+          <target>When you prepare to install or configure a secure Management or Streaming Server, consider the following technical requirements:</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The certificate must be valid.</source>
+          <target>The certificate must be valid.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>If the certificate is not valid, the client ends the connection.</source>
+          <target>If the certificate is not valid, the client ends the connection.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>The certificate must contain the correct <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enhanced Key Usage</pc> (EKU)—Server Authentication (OID 1.3.6.1.5.5.7.3.1).</source>
+          <target>The certificate must contain the correct <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enhanced Key Usage</pc> (EKU)—Server Authentication (OID 1.3.6.1.5.5.7.3.1).</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>If the certificate does not contain this EKU, the client ends the connection.</source>
+          <target>If the certificate does not contain this EKU, the client ends the connection.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>The certificate fully qualified domain name (FQDN) must match the server on which it is installed.</source>
+          <target>The certificate fully qualified domain name (FQDN) must match the server on which it is installed.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">`RTSPS://Myserver.mycompany.com/content/MyApp.sft`</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">`Server1.mycompany.com`</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, if the client is calling <ph dataRef="id1" id="ph1" /> and the certificate <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Issued To</pc> field is set to <ph dataRef="id4" id="ph2" />, the client will not connect to the server and the session ends.</source>
+          <target>For example, if the client is calling <ph dataRef="id1" id="ph1" /> and the certificate <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Issued To</pc> field is set to <ph dataRef="id4" id="ph2" />, the client will not connect to the server and the session ends.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The failure is reported to the user.</source>
+          <target>The failure is reported to the user.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>If you are using App-V in a Network Load Balancing cluster, you must configure the certificate with Subject Alternate Names (SANs) to support RTSPS.</source>
+          <target>If you are using App-V in a Network Load Balancing cluster, you must configure the certificate with Subject Alternate Names (SANs) to support RTSPS.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">&lt;</data>
+          <data id="id2">&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about configuring the certification authority (CA) and creating certificates with SANs, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://go.microsoft.com/fwlink/?LinkId=133228</pc>.</source>
+          <target>For information about configuring the certification authority (CA) and creating certificates with SANs, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://go.microsoft.com/fwlink/?LinkId=133228</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>The client and the server need to trust the root CA—The CA issuing the certificate to the App-V server must by trusted by the client connecting to the server.</source>
+          <target>The client and the server need to trust the root CA—The CA issuing the certificate to the App-V server must by trusted by the client connecting to the server.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>If not, the client ends the connection.</source>
+          <target>If not, the client ends the connection.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>The certificate’s private key must have permissions changed to allow the App-V Service account to access the certificate.</source>
+          <target>The certificate’s private key must have permissions changed to allow the App-V Service account to access the certificate.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>By default, App-V uses the Network Service account, and by default, the Network Service account does not have permission to access the private key, which will prevent secure connections.</source>
+          <target>By default, App-V uses the Network Service account, and by default, the Network Service account does not have permission to access the private key, which will prevent secure connections.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>In This Section</source>
+          <target>In This Section</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Configuring Certificates to Support Secure Streaming</source>
+          <target>Configuring Certificates to Support Secure Streaming</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Provides information about obtaining, configuring, and installing certificates to support secure streaming.</source>
+          <target>Provides information about obtaining, configuring, and installing certificates to support secure streaming.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>How to Modify Private Key Permissions to Support Management Server or Streaming Server</source>
+          <target>How to Modify Private Key Permissions to Support Management Server or Streaming Server</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Provides procedures you can use to modify keys in Windows Server 2003 and Windows Server 2008.</source>
+          <target>Provides procedures you can use to modify keys in Windows Server 2003 and Windows Server 2008.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Configuring Certificates to Support App-V Management Server or Streaming Server</source>
+          <target>Configuring Certificates to Support App-V Management Server or Streaming Server</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Provides information about configuring certificates for the App-V Management or Streaming Servers, including information about configuring certificates for Network Load Balancing environments.</source>
+          <target>Provides information about configuring certificates for the App-V Management or Streaming Servers, including information about configuring certificates for Network Load Balancing environments.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

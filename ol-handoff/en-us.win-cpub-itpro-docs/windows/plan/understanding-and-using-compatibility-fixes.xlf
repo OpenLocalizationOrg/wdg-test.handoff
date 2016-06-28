@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\plan\understanding-and-using-compatibility-fixes.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">44a3800848ca0b457f7e4f6d5ddc9051bf31252d</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Understanding and Using Compatibility Fixes (Windows 10)</source>
+          <target>Understanding and Using Compatibility Fixes (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>As the Windows operating system evolves to support new technology and functionality, the implementations of some functions may change.</source>
+          <target>As the Windows operating system evolves to support new technology and functionality, the implementations of some functions may change.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Understanding and Using Compatibility Fixes</source>
+          <target>Understanding and Using Compatibility Fixes</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Windows 8</source>
+          <target>Windows 8</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Windows 7</source>
+          <target>Windows 7</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Windows Server 2012</source>
+          <target>Windows Server 2012</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Windows Server 2008 R2</source>
+          <target>Windows Server 2008 R2</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>As the Windows operating system evolves to support new technology and functionality, the implementations of some functions may change.</source>
+          <target>As the Windows operating system evolves to support new technology and functionality, the implementations of some functions may change.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>This can cause problems for applications that relied upon the original implementation.</source>
+          <target>This can cause problems for applications that relied upon the original implementation.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>You can avoid compatibility issues by using the Microsoft Windows Application Compatibility (Compatibility Fix) infrastructure to create a specific application fix for a particular version of an application.</source>
+          <target>You can avoid compatibility issues by using the Microsoft Windows Application Compatibility (Compatibility Fix) infrastructure to create a specific application fix for a particular version of an application.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>How the Compatibility Fix Infrastructure Works</source>
+          <target>How the Compatibility Fix Infrastructure Works</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>The Compatibility Fix infrastructure uses the linking ability of APIs to redirect an application from Windows code directly to alternative code that implements the compatibility fix.</source>
+          <target>The Compatibility Fix infrastructure uses the linking ability of APIs to redirect an application from Windows code directly to alternative code that implements the compatibility fix.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>The Windows Portable Executable File Format includes headers that contain the data directories that are used to provide a layer of indirection between the application and the linked file.</source>
+          <target>The Windows Portable Executable File Format includes headers that contain the data directories that are used to provide a layer of indirection between the application and the linked file.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>API calls to the external binary files take place through the Import Address Table (IAT), which then directly calls the Windows operating system, as shown in the following figure.</source>
+          <target>API calls to the external binary files take place through the Import Address Table (IAT), which then directly calls the Windows operating system, as shown in the following figure.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>act app calls operating system through iat</source>
+          <target>act app calls operating system through iat</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Specifically, the process modifies the address of the affected Windows function in the IAT to point to the compatibility fix code, as shown in the following figure.</source>
+          <target>Specifically, the process modifies the address of the affected Windows function in the IAT to point to the compatibility fix code, as shown in the following figure.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>act app redirect with compatibility fix</source>
+          <target>act app redirect with compatibility fix</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>For statically linked DLLs, the code redirection occurs as the application loads.</source>
+          <target>For statically linked DLLs, the code redirection occurs as the application loads.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>You can also fix dynamically linked DLLs by hooking into the GetProcAddress API.</source>
+          <target>You can also fix dynamically linked DLLs by hooking into the GetProcAddress API.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Design Implications of the Compatibility Fix Infrastructure</source>
+          <target>Design Implications of the Compatibility Fix Infrastructure</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>There are important considerations to keep in mind when determining your application fix strategy, due to certain characteristics of the Compatibility Fix infrastructure.</source>
+          <target>There are important considerations to keep in mind when determining your application fix strategy, due to certain characteristics of the Compatibility Fix infrastructure.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>The compatibility fix is not part of the Windows operating system (as shown in the previous figure).</source>
+          <target>The compatibility fix is not part of the Windows operating system (as shown in the previous figure).</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Therefore, the same security restrictions apply to the compatibility fix as apply to the application code, which means that you cannot use compatibility fixes to bypass any of the security mechanisms of the operating system.</source>
+          <target>Therefore, the same security restrictions apply to the compatibility fix as apply to the application code, which means that you cannot use compatibility fixes to bypass any of the security mechanisms of the operating system.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Therefore, compatibility fixes do not increase your security exposure, nor do you need to lower your security settings to accommodate compatibility fixes.</source>
+          <target>Therefore, compatibility fixes do not increase your security exposure, nor do you need to lower your security settings to accommodate compatibility fixes.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>The Compatibility Fix infrastructure injects additional code into the application before it calls the operating system.</source>
+          <target>The Compatibility Fix infrastructure injects additional code into the application before it calls the operating system.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>This means that any remedy that can be accomplished by a compatibility fix can also be addressed by fixing the application code.</source>
+          <target>This means that any remedy that can be accomplished by a compatibility fix can also be addressed by fixing the application code.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>The compatibility fixes run as user-mode code inside of a user-mode application process.</source>
+          <target>The compatibility fixes run as user-mode code inside of a user-mode application process.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>This means that you cannot use a compatibility fix to fix kernel-mode code issues.</source>
+          <target>This means that you cannot use a compatibility fix to fix kernel-mode code issues.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>For example, you cannot use a compatibility fix to resolve device-driver issues.</source>
+          <target>For example, you cannot use a compatibility fix to resolve device-driver issues.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Some antivirus, firewall, and anti-spyware code runs in kernel mode.</source>
+          <target>Some antivirus, firewall, and anti-spyware code runs in kernel mode.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Determining When to Use a Compatibility Fix</source>
+          <target>Determining When to Use a Compatibility Fix</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>The decision to use compatibility fixes to remedy your compatibility issues may involve more than just technical issues.</source>
+          <target>The decision to use compatibility fixes to remedy your compatibility issues may involve more than just technical issues.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>The following scenarios reflect other common reasons for using a compatibility fix.</source>
+          <target>The following scenarios reflect other common reasons for using a compatibility fix.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Scenario 1</source>
+          <target>Scenario 1</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>The compatibility issue exists on an application which is no longer supported by the vendor.</source>
+          <target>The compatibility issue exists on an application which is no longer supported by the vendor.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>As in many companies, you may run applications for which the vendor has ended support.</source>
+          <target>As in many companies, you may run applications for which the vendor has ended support.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>In this situation, you cannot have the vendor make the fix, nor can you access the source code to modify the issue yourself.</source>
+          <target>In this situation, you cannot have the vendor make the fix, nor can you access the source code to modify the issue yourself.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>However, it is possible that the use of a compatibility fix might resolve the compatibility issue.</source>
+          <target>However, it is possible that the use of a compatibility fix might resolve the compatibility issue.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Scenario 2</source>
+          <target>Scenario 2</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>The compatibility issue exists on an internally created application.</source>
+          <target>The compatibility issue exists on an internally created application.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>While it is preferable to fix the application code to resolve the issue, this is not always possible.</source>
+          <target>While it is preferable to fix the application code to resolve the issue, this is not always possible.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Your internal team might not be able to fix all of the issues prior to the deployment of the new operating system.</source>
+          <target>Your internal team might not be able to fix all of the issues prior to the deployment of the new operating system.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Instead, they might choose to employ a compatibility fix anywhere that it is possible.</source>
+          <target>Instead, they might choose to employ a compatibility fix anywhere that it is possible.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>They can then fix the code only for issues that cannot be resolved in this manner.</source>
+          <target>They can then fix the code only for issues that cannot be resolved in this manner.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Through this method, your team can modify the application as time permits, without delaying the deployment of the new operating system into your environment.</source>
+          <target>Through this method, your team can modify the application as time permits, without delaying the deployment of the new operating system into your environment.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Scenario 3</source>
+          <target>Scenario 3</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>The compatibility issue exists on an application for which a compatible version is to be released in the near future, or an application that is not critical to the organization, regardless of its version.</source>
+          <target>The compatibility issue exists on an application for which a compatible version is to be released in the near future, or an application that is not critical to the organization, regardless of its version.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>In the situation where an application is either unimportant to your organization, or for which a newer, compatible version is to be released shortly, you can use a compatibility fix as a temporary solution.</source>
+          <target>In the situation where an application is either unimportant to your organization, or for which a newer, compatible version is to be released shortly, you can use a compatibility fix as a temporary solution.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>This means that you can continue to use the application without delaying the deployment of a new operating system, with the intention of updating your configuration as soon as the new version is released.</source>
+          <target>This means that you can continue to use the application without delaying the deployment of a new operating system, with the intention of updating your configuration as soon as the new version is released.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Determining Which Version of an Application to Fix</source>
+          <target>Determining Which Version of an Application to Fix</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>You can apply a compatibility fix to a particular version of an application, either by using the "up to or including" clause or by selecting that specific version.</source>
+          <target>You can apply a compatibility fix to a particular version of an application, either by using the "up to or including" clause or by selecting that specific version.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>This means that the next version of the application will not have the compatibility fix automatically applied.</source>
+          <target>This means that the next version of the application will not have the compatibility fix automatically applied.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>This is important, because it allows you to continue to use your application, but it also encourages the vendor to fix the application.</source>
+          <target>This is important, because it allows you to continue to use your application, but it also encourages the vendor to fix the application.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Support for Compatibility Fixes</source>
+          <target>Support for Compatibility Fixes</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Compatibility fixes are shipped as part of the Windows operating system and are updated by using Windows Update.</source>
+          <target>Compatibility fixes are shipped as part of the Windows operating system and are updated by using Windows Update.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Therefore, they receive the same level of support as Windows itself.</source>
+          <target>Therefore, they receive the same level of support as Windows itself.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>You can apply the compatibility fixes to any of your applications.</source>
+          <target>You can apply the compatibility fixes to any of your applications.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>However, Microsoft does not provide the tools to use the Compatibility Fix infrastructure to create your own custom fixes.</source>
+          <target>However, Microsoft does not provide the tools to use the Compatibility Fix infrastructure to create your own custom fixes.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Managing Application-Compatibility Fixes and Custom Fix Databases</source>
+          <target>Managing Application-Compatibility Fixes and Custom Fix Databases</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

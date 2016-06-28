@@ -1,0 +1,3264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\deploy\create-a-windows-10-reference-image.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">09c528cef2d1d230b903114840885064bc1c301f</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Create a Windows 10 reference image (Windows 10)</source>
+          <target>Create a Windows 10 reference image (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Creating a reference image is important because that image serves as the foundation for the devices in your organization.</source>
+          <target>Creating a reference image is important because that image serves as the foundation for the devices in your organization.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Create a Windows 10 reference image</source>
+          <target>Create a Windows 10 reference image</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Creating a reference image is important because that image serves as the foundation for the devices in your organization.</source>
+          <target>Creating a reference image is important because that image serves as the foundation for the devices in your organization.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>In this topic, you will learn how to create a Windows 10 reference image using the Microsoft Deployment Toolkit (MDT) 2013 Update 2.</source>
+          <target>In this topic, you will learn how to create a Windows 10 reference image using the Microsoft Deployment Toolkit (MDT) 2013 Update 2.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>You will create a deployment share, configure rules and settings, and import all the applications and operating system files required to build a Windows 10 reference image.</source>
+          <target>You will create a deployment share, configure rules and settings, and import all the applications and operating system files required to build a Windows 10 reference image.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>After completing the steps outlined in this topic, you will have a Windows 10 reference image that can be used in your deployment solution.</source>
+          <target>After completing the steps outlined in this topic, you will have a Windows 10 reference image that can be used in your deployment solution.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>For the purposes of this topic, we will use four machines: DC01, MDT01, HV01, and PC0001.</source>
+          <target>For the purposes of this topic, we will use four machines: DC01, MDT01, HV01, and PC0001.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>DC01 is a domain controller, PC0001 is a Windows 10 Enterprise x64 client, and MDT01 is a Windows Server 2012 R2 standard server.</source>
+          <target>DC01 is a domain controller, PC0001 is a Windows 10 Enterprise x64 client, and MDT01 is a Windows Server 2012 R2 standard server.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>HV01 is a Hyper-V host server, but HV01 could be replaced by PC0001 as long as PC0001 has enough memory and is capable of running Hyper-V.</source>
+          <target>HV01 is a Hyper-V host server, but HV01 could be replaced by PC0001 as long as PC0001 has enough memory and is capable of running Hyper-V.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>MDT01, HV01, and PC0001 are members of the domain contoso.com for the fictitious Contoso Corporation.</source>
+          <target>MDT01, HV01, and PC0001 are members of the domain contoso.com for the fictitious Contoso Corporation.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](deploy-windows-10-with-the-microsoft-deployment-toolkit.md#proof)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For important details about the setup for the steps outlined in this article, please see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy Windows 10 with the Microsoft Deployment Toolkit</pc>.</source>
+          <target>For important details about the setup for the steps outlined in this article, please see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy Windows 10 with the Microsoft Deployment Toolkit</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>figure 1</source>
+          <target>figure 1</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Figure 1.</source>
+          <target>Figure 1.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>The machines used in this topic.</source>
+          <target>The machines used in this topic.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>The reference image</source>
+          <target>The reference image</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>The reference image described in this documentation is designed primarily for deployment to physical machines.</source>
+          <target>The reference image described in this documentation is designed primarily for deployment to physical machines.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>However, the reference image is created on a virtual platform, before being automatically run through the System Preparation (Sysprep) tool process and captured to a Windows Imaging (WIM) file.</source>
+          <target>However, the reference image is created on a virtual platform, before being automatically run through the System Preparation (Sysprep) tool process and captured to a Windows Imaging (WIM) file.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>The reasons for creating the reference image on a virtual platform are the following:</source>
+          <target>The reasons for creating the reference image on a virtual platform are the following:</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>You reduce development time and can use snapshots to test different configurations quickly.</source>
+          <target>You reduce development time and can use snapshots to test different configurations quickly.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>You rule out hardware issues.</source>
+          <target>You rule out hardware issues.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>You simply get the best possible image, and if you have a problem, it's not likely to be hardware related.</source>
+          <target>You simply get the best possible image, and if you have a problem, it's not likely to be hardware related.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>It ensures that you won't have unwanted applications that could be installed as part of a driver install but not removed by the Sysprep process.</source>
+          <target>It ensures that you won't have unwanted applications that could be installed as part of a driver install but not removed by the Sysprep process.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>It's easy to move between lab, test, and production.</source>
+          <target>It's easy to move between lab, test, and production.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Set up the MDT build lab deployment share</source>
+          <target>Set up the MDT build lab deployment share</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>With Windows 10, there is no hard requirement to create reference images; however, to reduce the time needed for deployment, you may want to create a reference image that contains a few base applications as well as all of the latest updates.</source>
+          <target>With Windows 10, there is no hard requirement to create reference images; however, to reduce the time needed for deployment, you may want to create a reference image that contains a few base applications as well as all of the latest updates.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>This section will show you how to create and configure the MDT Build Lab deployment share to create a Windows 10 reference image.</source>
+          <target>This section will show you how to create and configure the MDT Build Lab deployment share to create a Windows 10 reference image.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Because reference images will be deployed only to virtual machines during the creation process and have specific settings (rules), you should always create a separate deployment share specifically for this process.</source>
+          <target>Because reference images will be deployed only to virtual machines during the creation process and have specific settings (rules), you should always create a separate deployment share specifically for this process.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Create the MDT build lab deployment share</source>
+          <target>Create the MDT build lab deployment share</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, log on as Administrator in the CONTOSO domain using a password of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">P@ssw0rd</pc>.</source>
+          <target>On MDT01, log on as Administrator in the CONTOSO domain using a password of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">P@ssw0rd</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the Deployment Workbench, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Shares</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Deployment Share</pc>.</source>
+          <target>Using the Deployment Workbench, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Shares</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Deployment Share</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Use the following settings for the New Deployment Share Wizard:</source>
+          <target>Use the following settings for the New Deployment Share Wizard:</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Deployment share path: E:<ph dataRef="id1" id="ph1" />MDTBuildLab</source>
+          <target>Deployment share path: E:<ph dataRef="id1" id="ph1" />MDTBuildLab</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Share name: MDTBuildLab$</source>
+          <target>Share name: MDTBuildLab$</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Deployment share description: MDT Build Lab</source>
+          <target>Deployment share description: MDT Build Lab</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>default</source>
+          <target>default</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">\\\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Verify that you can access the <ph dataRef="id1" id="ph1" />MDT01<ph dataRef="id2" id="ph2" />MDTBuildLab$ share.</source>
+          <target>Verify that you can access the <ph dataRef="id1" id="ph1" />MDT01<ph dataRef="id2" id="ph2" />MDTBuildLab$ share.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>figure 2</source>
+          <target>figure 2</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Figure 2.</source>
+          <target>Figure 2.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>The Deployment Workbench with the MDT Build Lab deployment share created.</source>
+          <target>The Deployment Workbench with the MDT Build Lab deployment share created.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Configure permissions for the deployment share</source>
+          <target>Configure permissions for the deployment share</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In order to write the reference image back to the deployment share, you need to assign Modify permissions to the MDT Build Account (MDT<ph dataRef="id1" id="ph1" />BA) for the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Captures</pc> subfolder in the <pc dataRefEnd="id5" dataRefStart="id4" id="p2">E:<ph dataRef="id6" id="ph2" />MDTBuildLab</pc> folder</source>
+          <target>In order to write the reference image back to the deployment share, you need to assign Modify permissions to the MDT Build Account (MDT<ph dataRef="id1" id="ph1" />BA) for the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Captures</pc> subfolder in the <pc dataRefEnd="id5" dataRefStart="id4" id="p2">E:<ph dataRef="id6" id="ph2" />MDTBuildLab</pc> folder</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</source>
+          <target>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Modify the NTFS permissions for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />MDTBuildLab<ph dataRef="id4" id="ph2" />Captures</pc> folder by running the following command in an elevated Windows PowerShell prompt:</source>
+          <target>Modify the NTFS permissions for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />MDTBuildLab<ph dataRef="id4" id="ph2" />Captures</pc> folder by running the following command in an elevated Windows PowerShell prompt:</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>figure 3</source>
+          <target>figure 3</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Figure 3.</source>
+          <target>Figure 3.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Permissions configured for the MDT<ph dataRef="id1" id="ph1" />BA user.</source>
+          <target>Permissions configured for the MDT<ph dataRef="id1" id="ph1" />BA user.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Add the setup files</source>
+          <target>Add the setup files</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>This section will show you how to populate the MDT 2013 Update 2 deployment share with the Windows 10 operating system source files, commonly referred to as setup files, which will be used to create a reference image.</source>
+          <target>This section will show you how to populate the MDT 2013 Update 2 deployment share with the Windows 10 operating system source files, commonly referred to as setup files, which will be used to create a reference image.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Setup files are used during the reference image creation process and are the foundation for the reference image.</source>
+          <target>Setup files are used during the reference image creation process and are the foundation for the reference image.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Add the Windows 10 installation files</source>
+          <target>Add the Windows 10 installation files</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>MDT 2013 supports adding both full source Windows 10 DVDs (ISOs) and custom images that you have created.</source>
+          <target>MDT 2013 supports adding both full source Windows 10 DVDs (ISOs) and custom images that you have created.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>In this case, you create a reference image, so you add the full source setup files from Microsoft.</source>
+          <target>In this case, you create a reference image, so you add the full source setup files from Microsoft.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Due to the Windows limits on path length, we are purposely keeping the operating system destination directory short, using the folder name W10EX64RTM rather than a more descriptive name like Windows 10 Enterprise x64 RTM.</source>
+          <target>Due to the Windows limits on path length, we are purposely keeping the operating system destination directory short, using the folder name W10EX64RTM rather than a more descriptive name like Windows 10 Enterprise x64 RTM.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Add Windows 10 Enterprise x64 (full source)</source>
+          <target>Add Windows 10 Enterprise x64 (full source)</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In these steps we assume that you have copied the content of a Windows 10 Enterprise x64 ISO to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />Downloads<ph dataRef="id4" id="ph2" />Windows 10 Enterprise x64</pc> folder.</source>
+          <target>In these steps we assume that you have copied the content of a Windows 10 Enterprise x64 ISO to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />Downloads<ph dataRef="id4" id="ph2" />Windows 10 Enterprise x64</pc> folder.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</source>
+          <target>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the Deployment Workbench, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Shares</pc> node, and then expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDT Build Lab</pc>.</source>
+          <target>Using the Deployment Workbench, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Shares</pc> node, and then expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDT Build Lab</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating Systems</pc> node, and create a new folder named <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10</pc>.</source>
+          <target>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating Systems</pc> node, and create a new folder named <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating Systems</pc> node, right-click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10</pc> folder, and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Import Operating System</pc>.</source>
+          <target>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating Systems</pc> node, right-click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10</pc> folder, and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Import Operating System</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Use the following settings for the Import Operating System Wizard:</source>
+          <target>Use the following settings for the Import Operating System Wizard:</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Full set of source files</source>
+          <target>Full set of source files</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Source directory: E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />Windows 10 Enterprise x64</source>
+          <target>Source directory: E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />Windows 10 Enterprise x64</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Destination directory name: W10EX64RTM</source>
+          <target>Destination directory name: W10EX64RTM</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After adding the operating system, in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating Systems / Windows 10</pc> folder, double-click the added operating system name in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Operating System</pc> node and change the name to the following: <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows 10 Enterprise x64 RTM Default Image</pc></source>
+          <target>After adding the operating system, in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating Systems / Windows 10</pc> folder, double-click the added operating system name in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Operating System</pc> node and change the name to the following: <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows 10 Enterprise x64 RTM Default Image</pc></target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>figure 4</source>
+          <target>figure 4</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Figure 4.</source>
+          <target>Figure 4.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>The imported Windows 10 operating system after renaming it.</source>
+          <target>The imported Windows 10 operating system after renaming it.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Add applications</source>
+          <target>Add applications</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Before you create an MDT task sequence, you need to add all of the applications and other sample scripts to the MDT Build Lab share.</source>
+          <target>Before you create an MDT task sequence, you need to add all of the applications and other sample scripts to the MDT Build Lab share.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>The steps in this section use a strict naming standard for your MDT applications.</source>
+          <target>The steps in this section use a strict naming standard for your MDT applications.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>You add the "Install - " prefix for typical application installations that run a setup installer of some kind, and you use the "Configure - " prefix when an application configures a setting in the operating system.</source>
+          <target>You add the "Install - " prefix for typical application installations that run a setup installer of some kind, and you use the "Configure - " prefix when an application configures a setting in the operating system.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>You also add an " - x86", " - x64", or "- x86-x64" suffix to indicate the application's architecture (some applications have installers for both architectures).</source>
+          <target>You also add an " - x86", " - x64", or "- x86-x64" suffix to indicate the application's architecture (some applications have installers for both architectures).</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Using a script naming standard is always recommended when using MDT as it helps maintain order and consistency.</source>
+          <target>Using a script naming standard is always recommended when using MDT as it helps maintain order and consistency.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>By storing configuration items as MDT applications, it is easy to move these objects between various solutions, or between test and production environments.</source>
+          <target>By storing configuration items as MDT applications, it is easy to move these objects between various solutions, or between test and production environments.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>In this topic's step-by-step sections, you will add the following applications:</source>
+          <target>In this topic's step-by-step sections, you will add the following applications:</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Install - Microsoft Office 2013 Pro Plus - x86</source>
+          <target>Install - Microsoft Office 2013 Pro Plus - x86</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Install - Microsoft Silverlight 5.0 - x64</source>
+          <target>Install - Microsoft Silverlight 5.0 - x64</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Install - Microsoft Visual C++ 2005 SP1 - x86</source>
+          <target>Install - Microsoft Visual C++ 2005 SP1 - x86</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Install - Microsoft Visual C++ 2005 SP1 - x64</source>
+          <target>Install - Microsoft Visual C++ 2005 SP1 - x64</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Install - Microsoft Visual C++ 2008 SP1 - x86</source>
+          <target>Install - Microsoft Visual C++ 2008 SP1 - x86</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Install - Microsoft Visual C++ 2008 SP1 - x64</source>
+          <target>Install - Microsoft Visual C++ 2008 SP1 - x64</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Install - Microsoft Visual C++ 2010 SP1 - x86</source>
+          <target>Install - Microsoft Visual C++ 2010 SP1 - x86</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Install - Microsoft Visual C++ 2010 SP1 - x64</source>
+          <target>Install - Microsoft Visual C++ 2010 SP1 - x64</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Install - Microsoft Visual C++ 2012 Update 4 - x86</source>
+          <target>Install - Microsoft Visual C++ 2012 Update 4 - x86</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Install - Microsoft Visual C++ 2012 Update 4 - x64</source>
+          <target>Install - Microsoft Visual C++ 2012 Update 4 - x64</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In these examples, we assume that you downloaded the software in this list to the E:<ph dataRef="id1" id="ph1" />Downloads folder.</source>
+          <target>In these examples, we assume that you downloaded the software in this list to the E:<ph dataRef="id1" id="ph1" />Downloads folder.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>The first application is added using the UI, but because MDT supports Windows PowerShell, you add the other applications using Windows PowerShell.</source>
+          <target>The first application is added using the UI, but because MDT supports Windows PowerShell, you add the other applications using Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=619523)</data>
+        </originalData>
+        <segment state="initial">
+          <source>All the Microsoft Visual C++ downloads can be found on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">The latest supported Visual C++ downloads</pc>.</source>
+          <target>All the Microsoft Visual C++ downloads can be found on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">The latest supported Visual C++ downloads</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Create the install: Microsoft Office Professional Plus 2013 x86</source>
+          <target>Create the install: Microsoft Office Professional Plus 2013 x86</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>You can customize Office 2013.</source>
+          <target>You can customize Office 2013.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>In the volume license versions of Office 2013, there is an Office Customization Tool you can use to customize the Office installation.</source>
+          <target>In the volume license versions of Office 2013, there is an Office Customization Tool you can use to customize the Office installation.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In these steps we assume you have copied the Office 2013 installation files to the E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />Office2013 folder.</source>
+          <target>In these steps we assume you have copied the Office 2013 installation files to the E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />Office2013 folder.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Add the Microsoft Office Professional Plus 2013 x86 installation files</source>
+          <target>Add the Microsoft Office Professional Plus 2013 x86 installation files</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>After adding the Microsoft Office Professional Plus 2013 x86 application, you then automate its setup by running the Office Customization Tool.</source>
+          <target>After adding the Microsoft Office Professional Plus 2013 x86 application, you then automate its setup by running the Office Customization Tool.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>In fact, MDT 2013 detects that you added the Office Professional Plus 2013 x86 application and creates a shortcut for doing this.</source>
+          <target>In fact, MDT 2013 detects that you added the Office Professional Plus 2013 x86 application and creates a shortcut for doing this.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>You also can customize the Office installation using a Config.xml file.</source>
+          <target>You also can customize the Office installation using a Config.xml file.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>But we recommend that you use the Office Customization Tool as described in the following steps, as it provides a much richer way of controlling Office 2013 settings.</source>
+          <target>But we recommend that you use the Office Customization Tool as described in the following steps, as it provides a much richer way of controlling Office 2013 settings.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the Deployment Workbench in the MDT Build Lab deployment share, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applications / Microsoft</pc> node, and double-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install - Microsoft Office 2013 Pro Plus x86</pc>.</source>
+          <target>Using the Deployment Workbench in the MDT Build Lab deployment share, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applications / Microsoft</pc> node, and double-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install - Microsoft Office 2013 Pro Plus x86</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Office Products</pc> tab, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Office Customization Tool</pc>, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc> in the <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Information</pc> dialog box.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Office Products</pc> tab, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Office Customization Tool</pc>, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc> in the <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Information</pc> dialog box.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>figure 5</source>
+          <target>figure 5</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Figure 5.</source>
+          <target>Figure 5.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>The Install - Microsoft Office 2013 Pro Plus - x86 application properties.</source>
+          <target>The Install - Microsoft Office 2013 Pro Plus - x86 application properties.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>If you don't see the Office Products tab, verify that you are using a volume license version of Office.</source>
+          <target>If you don't see the Office Products tab, verify that you are using a volume license version of Office.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>If you are deploying Office 365, you need to download the Admin folder from Microsoft.</source>
+          <target>If you are deploying Office 365, you need to download the Admin folder from Microsoft.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>In the Office Customization Tool dialog box, select the Create a new Setup customization file for the following product option, select the Microsoft Office Professional Plus 2013 (32-bit) product, and click OK.</source>
+          <target>In the Office Customization Tool dialog box, select the Create a new Setup customization file for the following product option, select the Microsoft Office Professional Plus 2013 (32-bit) product, and click OK.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Use the following settings to configure the Office 2013 setup to be fully unattended:</source>
+          <target>Use the following settings to configure the Office 2013 setup to be fully unattended:</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Install location and organization name</source>
+          <target>Install location and organization name</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Organization name: Contoso</source>
+          <target>Organization name: Contoso</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Licensing and user interface</source>
+          <target>Licensing and user interface</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Select Use KMS client key</source>
+          <target>Select Use KMS client key</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Select I accept the terms in the License Agreement.</source>
+          <target>Select I accept the terms in the License Agreement.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Select Display level: None</source>
+          <target>Select Display level: None</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>figure 6</source>
+          <target>figure 6</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Figure 6.</source>
+          <target>Figure 6.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>The licensing and user interface screen in the Microsoft Office Customization Tool</source>
+          <target>The licensing and user interface screen in the Microsoft Office Customization Tool</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Modify Setup properties</source>
+          <target>Modify Setup properties</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SETUP<ph dataRef="id3" id="ph1" />REBOOT</pc> property and set the value to <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Never</pc>.</source>
+          <target>Add the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SETUP<ph dataRef="id3" id="ph1" />REBOOT</pc> property and set the value to <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Never</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Modify user settings</source>
+          <target>Modify user settings</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Office 2013</pc> node, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Privacy</pc>, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Trust Center</pc>, and enable the Disable Opt-in Wizard on first run setting.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Office 2013</pc> node, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Privacy</pc>, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Trust Center</pc>, and enable the Disable Opt-in Wizard on first run setting.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\_</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">\\</data>
+          <data id="id9">\\</data>
+          <data id="id10">\\</data>
+          <data id="id11">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>From the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc> menu, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Save</pc>, and save the configuration as 0<ph dataRef="id5" id="ph1" />Office2013ProPlusx86.msp in the <pc dataRefEnd="id7" dataRefStart="id6" id="p3">E:<ph dataRef="id8" id="ph2" />MDTBuildLab<ph dataRef="id9" id="ph3" />Applications<ph dataRef="id10" id="ph4" />Install - Microsoft Office 2013 Pro Plus - x86<ph dataRef="id11" id="ph5" />Updates</pc> folder.</source>
+          <target>From the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc> menu, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Save</pc>, and save the configuration as 0<ph dataRef="id5" id="ph1" />Office2013ProPlusx86.msp in the <pc dataRefEnd="id7" dataRefStart="id6" id="p3">E:<ph dataRef="id8" id="ph2" />MDTBuildLab<ph dataRef="id9" id="ph3" />Applications<ph dataRef="id10" id="ph4" />Install - Microsoft Office 2013 Pro Plus - x86<ph dataRef="id11" id="ph5" />Updates</pc> folder.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>The reason for naming the file with a 0 (zero) at the beginning is that the Updates folder also handles Microsoft Office updates, and they are installed in alphabetical order.</source>
+          <target>The reason for naming the file with a 0 (zero) at the beginning is that the Updates folder also handles Microsoft Office updates, and they are installed in alphabetical order.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>The Office 2013 setup works best if the customization file is installed before any updates.</source>
+          <target>The Office 2013 setup works best if the customization file is installed before any updates.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Close the Office Customization Tool, click Yes in the dialog box, and in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install - Microsoft Office 2013 Pro Plus - x86 Properties</pc> window, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</source>
+          <target>Close the Office Customization Tool, click Yes in the dialog box, and in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install - Microsoft Office 2013 Pro Plus - x86 Properties</pc> window, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Connect to the deployment share using Windows PowerShell</source>
+          <target>Connect to the deployment share using Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>If you need to add many applications, you can take advantage of the PowerShell support that MDT has.</source>
+          <target>If you need to add many applications, you can take advantage of the PowerShell support that MDT has.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>To start using PowerShell against the deployment share, you must first load the MDT PowerShell snap-in and then make the deployment share a PowerShell drive (PSDrive).</source>
+          <target>To start using PowerShell against the deployment share, you must first load the MDT PowerShell snap-in and then make the deployment share a PowerShell drive (PSDrive).</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</source>
+          <target>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Import the snap-in and create the PSDrive by running the following commands in an elevated PowerShell prompt:</source>
+          <target>Import the snap-in and create the PSDrive by running the following commands in an elevated PowerShell prompt:</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Create the install: Microsoft Visual C++ 2005 SP1 x86</source>
+          <target>Create the install: Microsoft Visual C++ 2005 SP1 x86</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>In these steps we assume that you have downloaded Microsoft Visual C++ 2005 SP1 x86.</source>
+          <target>In these steps we assume that you have downloaded Microsoft Visual C++ 2005 SP1 x86.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>You might need to modify the path to the source folder to reflect your current environment.</source>
+          <target>You might need to modify the path to the source folder to reflect your current environment.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this example, the source path is set to E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />VC++2005SP1x86.</source>
+          <target>In this example, the source path is set to E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />VC++2005SP1x86.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</source>
+          <target>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Create the application by running the following commands in an elevated PowerShell prompt:</source>
+          <target>Create the application by running the following commands in an elevated PowerShell prompt:</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Create the install: Microsoft Visual C++ 2005 SP1 x64</source>
+          <target>Create the install: Microsoft Visual C++ 2005 SP1 x64</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>In these steps we assume that you have downloaded Microsoft Visual C++ 2005 SP1 x64.</source>
+          <target>In these steps we assume that you have downloaded Microsoft Visual C++ 2005 SP1 x64.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>You might need to modify the path to the source folder to reflect your current environment.</source>
+          <target>You might need to modify the path to the source folder to reflect your current environment.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this example, the source path is set to E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />VC++2005SP1x64.</source>
+          <target>In this example, the source path is set to E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />VC++2005SP1x64.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</source>
+          <target>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Create the application by running the following commands in an elevated PowerShell prompt:</source>
+          <target>Create the application by running the following commands in an elevated PowerShell prompt:</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Create the install: Microsoft Visual C++ 2008 SP1 x86</source>
+          <target>Create the install: Microsoft Visual C++ 2008 SP1 x86</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>In these steps we assume that you have downloaded Microsoft Visual C++ 2008 SP1 x86.</source>
+          <target>In these steps we assume that you have downloaded Microsoft Visual C++ 2008 SP1 x86.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>You might need to modify the path to the source folder to reflect your current environment.</source>
+          <target>You might need to modify the path to the source folder to reflect your current environment.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this example, the source path is set to E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />VC++2008SP1x86.</source>
+          <target>In this example, the source path is set to E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />VC++2008SP1x86.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</source>
+          <target>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>Create the application by running the following commands in an elevated PowerShell prompt:</source>
+          <target>Create the application by running the following commands in an elevated PowerShell prompt:</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Create the install: Microsoft Visual C++ 2008 SP1 x64</source>
+          <target>Create the install: Microsoft Visual C++ 2008 SP1 x64</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>In these steps we assume that you have downloaded Microsoft Visual C++ 2008 SP1 x64.</source>
+          <target>In these steps we assume that you have downloaded Microsoft Visual C++ 2008 SP1 x64.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>You might need to modify the path to the source folder to reflect your current environment.</source>
+          <target>You might need to modify the path to the source folder to reflect your current environment.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this example, the source path is set to E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />VC++2008SP1x64.</source>
+          <target>In this example, the source path is set to E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />VC++2008SP1x64.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</source>
+          <target>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>Create the application by running the following commands in an elevated PowerShell prompt:</source>
+          <target>Create the application by running the following commands in an elevated PowerShell prompt:</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>Create the install: Microsoft Visual C++ 2010 SP1 x86</source>
+          <target>Create the install: Microsoft Visual C++ 2010 SP1 x86</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>In these steps we assume that you have downloaded Microsoft Visual C++ 2010 SP1 x86.</source>
+          <target>In these steps we assume that you have downloaded Microsoft Visual C++ 2010 SP1 x86.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>You might need to modify the path to the source folder to reflect your current environment.</source>
+          <target>You might need to modify the path to the source folder to reflect your current environment.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this example, the source path is set to E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />VC++2010SP1x86.</source>
+          <target>In this example, the source path is set to E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />VC++2010SP1x86.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</source>
+          <target>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>Create the application by running the following commands in an elevated PowerShell prompt:</source>
+          <target>Create the application by running the following commands in an elevated PowerShell prompt:</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>Create the install: Microsoft Visual C++ 2010 SP1 x64</source>
+          <target>Create the install: Microsoft Visual C++ 2010 SP1 x64</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>In these steps we assume that you have downloaded Microsoft Visual C++ 2010 SP1 x64.</source>
+          <target>In these steps we assume that you have downloaded Microsoft Visual C++ 2010 SP1 x64.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>You might need to modify the path to the source folder to reflect your current environment.</source>
+          <target>You might need to modify the path to the source folder to reflect your current environment.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this example, the source path is set to E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />VC++2010SP1x64.</source>
+          <target>In this example, the source path is set to E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />VC++2010SP1x64.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</source>
+          <target>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>Create the application by running the following commands in an elevated PowerShell prompt:</source>
+          <target>Create the application by running the following commands in an elevated PowerShell prompt:</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>Create the install: Microsoft Visual C++ 2012 Update 4 x86</source>
+          <target>Create the install: Microsoft Visual C++ 2012 Update 4 x86</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>In these steps we assume that you have downloaded Microsoft Visual C++ 2012 Update 4 x86.</source>
+          <target>In these steps we assume that you have downloaded Microsoft Visual C++ 2012 Update 4 x86.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>You might need to modify the path to the source folder to reflect your current environment.</source>
+          <target>You might need to modify the path to the source folder to reflect your current environment.</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this example, the source path is set to E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />VC++2012Ux86.</source>
+          <target>In this example, the source path is set to E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />VC++2012Ux86.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</source>
+          <target>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>Create the application by running the following commands in an elevated PowerShell prompt:</source>
+          <target>Create the application by running the following commands in an elevated PowerShell prompt:</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>Create the install: Microsoft Visual C++ 2012 Update 4 x64</source>
+          <target>Create the install: Microsoft Visual C++ 2012 Update 4 x64</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>In these steps we assume that you have downloaded Microsoft Visual C++ 2012 Update 4 x64.</source>
+          <target>In these steps we assume that you have downloaded Microsoft Visual C++ 2012 Update 4 x64.</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>You might need to modify the path to the source folder to reflect your current environment.</source>
+          <target>You might need to modify the path to the source folder to reflect your current environment.</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this example, the source path is set to E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />VC++2012Ux64.</source>
+          <target>In this example, the source path is set to E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />VC++2012Ux64.</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</source>
+          <target>On MDT01, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />Administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>Create the application by running the following commands in an elevated PowerShell prompt:</source>
+          <target>Create the application by running the following commands in an elevated PowerShell prompt:</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>Create the reference image task sequence</source>
+          <target>Create the reference image task sequence</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>In order to build and capture your Windows 10 reference image for deployment using MDT, you will create a task sequence.</source>
+          <target>In order to build and capture your Windows 10 reference image for deployment using MDT, you will create a task sequence.</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <segment state="initial">
+          <source>The task sequence will reference the operating system and applications that you previously imported into the MDT Build Lab deployment share to build a Windows 10 reference image.</source>
+          <target>The task sequence will reference the operating system and applications that you previously imported into the MDT Build Lab deployment share to build a Windows 10 reference image.</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>After creating the task sequence, you configure it to enable patching against the Windows Server Update Services (WSUS) server.</source>
+          <target>After creating the task sequence, you configure it to enable patching against the Windows Server Update Services (WSUS) server.</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>The Task Sequence Windows Update action supports getting updates directly from Microsoft Update, but you get more stable patching if you use a local WSUS server.</source>
+          <target>The Task Sequence Windows Update action supports getting updates directly from Microsoft Update, but you get more stable patching if you use a local WSUS server.</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>WSUS also allows for an easy process of approving the patches that you are deploying.</source>
+          <target>WSUS also allows for an easy process of approving the patches that you are deploying.</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>Drivers and the reference image</source>
+          <target>Drivers and the reference image</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>Because we use modern virtual platforms for creating our reference images, we don’t need to worry about drivers when creating reference images for Windows 10.</source>
+          <target>Because we use modern virtual platforms for creating our reference images, we don’t need to worry about drivers when creating reference images for Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>We use Hyper-V in our environment, and Windows Preinstallation Environment (Windows PE) already has all the needed drivers built-in for Hyper-V.</source>
+          <target>We use Hyper-V in our environment, and Windows Preinstallation Environment (Windows PE) already has all the needed drivers built-in for Hyper-V.</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>Create a task sequence for Windows 10 Enterprise</source>
+          <target>Create a task sequence for Windows 10 Enterprise</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>To create a Windows 10 reference image task sequence, the process is as follows:</source>
+          <target>To create a Windows 10 reference image task sequence, the process is as follows:</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the Deployment Workbench in the MDT Build Lab deployment share, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task Sequences</pc>, and create a new folder named <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10</pc>.</source>
+          <target>Using the Deployment Workbench in the MDT Build Lab deployment share, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task Sequences</pc>, and create a new folder named <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task Sequences</pc> node, right-click the new <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10</pc> folder and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">New Task Sequence</pc>.</source>
+          <target>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task Sequences</pc> node, right-click the new <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10</pc> folder and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">New Task Sequence</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>Use the following settings for the New Task Sequence Wizard:</source>
+          <target>Use the following settings for the New Task Sequence Wizard:</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>Task sequence ID: REFW10X64-001</source>
+          <target>Task sequence ID: REFW10X64-001</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>Task sequence name: Windows 10 Enterprise x64 RTM Default Image</source>
+          <target>Task sequence name: Windows 10 Enterprise x64 RTM Default Image</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>Task sequence comments: Reference Build</source>
+          <target>Task sequence comments: Reference Build</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>Template: Standard Client Task Sequence</source>
+          <target>Template: Standard Client Task Sequence</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>Select OS: Windows 10 Enterprise x64 RTM Default Image</source>
+          <target>Select OS: Windows 10 Enterprise x64 RTM Default Image</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>Specify Product Key: Do not specify a product key at this time</source>
+          <target>Specify Product Key: Do not specify a product key at this time</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>Full Name: Contoso</source>
+          <target>Full Name: Contoso</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>Organization: Contoso</source>
+          <target>Organization: Contoso</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>Internet Explorer home page: http://www.contoso.com</source>
+          <target>Internet Explorer home page: http://www.contoso.com</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <segment state="initial">
+          <source>Admin Password: Do not specify an Administrator Password at this time</source>
+          <target>Admin Password: Do not specify an Administrator Password at this time</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>Edit the Windows 10 task sequence</source>
+          <target>Edit the Windows 10 task sequence</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>The steps below walk you through the process of editing the Windows 10 reference image task sequence to include the actions required to update the reference image with the latest updates from WSUS, install roles and features, and utilities, and install Microsoft Office 2013.</source>
+          <target>The steps below walk you through the process of editing the Windows 10 reference image task sequence to include the actions required to update the reference image with the latest updates from WSUS, install roles and features, and utilities, and install Microsoft Office 2013.</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <segment state="initial">
+          <source>In the Task Sequences / Windows 10 folder, right-click the Windows 10 Enterprise x64 RTM Default Image task sequence, and select Properties.</source>
+          <target>In the Task Sequences / Windows 10 folder, right-click the Windows 10 Enterprise x64 RTM Default Image task sequence, and select Properties.</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task Sequence</pc> tab, configure the Windows 10 Enterprise x64 RTM Default Image task sequence with the following settings:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task Sequence</pc> tab, configure the Windows 10 Enterprise x64 RTM Default Image task sequence with the following settings:</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>State Restore.</source>
+          <target>State Restore.</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>Enable the Windows Update (Pre-Application Installation) action.</source>
+          <target>Enable the Windows Update (Pre-Application Installation) action.</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>Enable an action by going to the Options tab and clearing the Disable this step check box.</source>
+          <target>Enable an action by going to the Options tab and clearing the Disable this step check box.</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>State Restore.</source>
+          <target>State Restore.</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <segment state="initial">
+          <source>Enable the Windows Update (Post-Application Installation) action.</source>
+          <target>Enable the Windows Update (Post-Application Installation) action.</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <segment state="initial">
+          <source>State Restore.</source>
+          <target>State Restore.</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <segment state="initial">
+          <source>Enable the Windows Update (Post-Application Installation) action.</source>
+          <target>Enable the Windows Update (Post-Application Installation) action.</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <segment state="initial">
+          <source>State Restore.</source>
+          <target>State Restore.</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Tattoo</pc> action, add a new <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Group</pc> action with the following setting:</source>
+          <target>After the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Tattoo</pc> action, add a new <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Group</pc> action with the following setting:</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <segment state="initial">
+          <source>Name: Custom Tasks (Pre-Windows Update)</source>
+          <target>Name: Custom Tasks (Pre-Windows Update)</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <segment state="initial">
+          <source>State Restore.</source>
+          <target>State Restore.</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <segment state="initial">
+          <source>After Windows Update (Post-Application Installation) action, rename Custom Tasks to Custom Tasks (Post-Windows Update).</source>
+          <target>After Windows Update (Post-Application Installation) action, rename Custom Tasks to Custom Tasks (Post-Windows Update).</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>The reason for adding the applications after the Tattoo action but before running Windows Update is simply to save time during the deployment.</source>
+          <target>The reason for adding the applications after the Tattoo action but before running Windows Update is simply to save time during the deployment.</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <segment state="initial">
+          <source>This way we can add all applications that will upgrade some of the built-in components and avoid unnecessary updating.</source>
+          <target>This way we can add all applications that will upgrade some of the built-in components and avoid unnecessary updating.</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>State Restore / Custom Tasks (Pre-Windows Update).</source>
+          <target>State Restore / Custom Tasks (Pre-Windows Update).</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <segment state="initial">
+          <source>Add a new Install Roles and Features action with the following settings:</source>
+          <target>Add a new Install Roles and Features action with the following settings:</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <segment state="initial">
+          <source>Name: Install - Microsoft NET Framework 3.5.1</source>
+          <target>Name: Install - Microsoft NET Framework 3.5.1</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <segment state="initial">
+          <source>Select the operating system for which roles are to be installed: Windows 8.1</source>
+          <target>Select the operating system for which roles are to be installed: Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <segment state="initial">
+          <source>Select the roles and features that should be installed: .NET Framework 3.5 (includes .NET 2.0 and 3.0)</source>
+          <target>Select the roles and features that should be installed: .NET Framework 3.5 (includes .NET 2.0 and 3.0)</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <segment state="initial">
+          <source>This is probably the most important step when creating a reference image.</source>
+          <target>This is probably the most important step when creating a reference image.</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <segment state="initial">
+          <source>Many applications need the .NET Framework, and we strongly recommend having it available in the image.</source>
+          <target>Many applications need the .NET Framework, and we strongly recommend having it available in the image.</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <segment state="initial">
+          <source>The one thing that makes this different from other components is that .NET Framework 3.5.1 is not included in the WIM file.</source>
+          <target>The one thing that makes this different from other components is that .NET Framework 3.5.1 is not included in the WIM file.</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>It is installed from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sources<ph dataRef="id3" id="ph1" />SxS</pc> folder on the media, and that makes it more difficult to add after the image has been deployed.</source>
+          <target>It is installed from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sources<ph dataRef="id3" id="ph1" />SxS</pc> folder on the media, and that makes it more difficult to add after the image has been deployed.</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <segment state="initial">
+          <source>figure 7</source>
+          <target>figure 7</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <segment state="initial">
+          <source>Figure 7.</source>
+          <target>Figure 7.</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <segment state="initial">
+          <source>The task sequence after creating the Custom Tasks (Pre-Windows Update) group and adding the Install - Microsoft NET Framework 3.5.1 action.</source>
+          <target>The task sequence after creating the Custom Tasks (Pre-Windows Update) group and adding the Install - Microsoft NET Framework 3.5.1 action.</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <segment state="initial">
+          <source>State Restore - Custom Tasks (Pre-Windows Update).</source>
+          <target>State Restore - Custom Tasks (Pre-Windows Update).</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install - Microsoft NET Framework 3.5.1</pc> action, add a new <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install Application</pc> action with the following settings:</source>
+          <target>After the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install - Microsoft NET Framework 3.5.1</pc> action, add a new <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install Application</pc> action with the following settings:</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <segment state="initial">
+          <source>Name: Install - Microsoft Visual C++ 2005 SP1 - x86</source>
+          <target>Name: Install - Microsoft Visual C++ 2005 SP1 - x86</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <segment state="initial">
+          <source>Install a Single Application: Install - Microsoft Visual C++ 2005 SP1 - x86-x64</source>
+          <target>Install a Single Application: Install - Microsoft Visual C++ 2005 SP1 - x86-x64</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Repeat the previous step (add a new <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install Application</pc>) to add the following applications:</source>
+          <target>Repeat the previous step (add a new <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install Application</pc>) to add the following applications:</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <segment state="initial">
+          <source>Install - Microsoft Visual C++ 2005 SP1 - x64</source>
+          <target>Install - Microsoft Visual C++ 2005 SP1 - x64</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <segment state="initial">
+          <source>Install - Microsoft Visual C++ 2008 SP1 - x86</source>
+          <target>Install - Microsoft Visual C++ 2008 SP1 - x86</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <segment state="initial">
+          <source>Install - Microsoft Visual C++ 2008 SP1 - x64</source>
+          <target>Install - Microsoft Visual C++ 2008 SP1 - x64</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <segment state="initial">
+          <source>Install - Microsoft Visual C++ 2010 SP1 - x86</source>
+          <target>Install - Microsoft Visual C++ 2010 SP1 - x86</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <segment state="initial">
+          <source>Install - Microsoft Visual C++ 2010 SP1 - x64</source>
+          <target>Install - Microsoft Visual C++ 2010 SP1 - x64</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>Install - Microsoft Visual C++ 2012 Update 4 - x86</source>
+          <target>Install - Microsoft Visual C++ 2012 Update 4 - x86</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <segment state="initial">
+          <source>Install - Microsoft Visual C++ 2012 Update 4 - x64</source>
+          <target>Install - Microsoft Visual C++ 2012 Update 4 - x64</target>
+        </segment>
+      </unit>
+      <unit id="354">
+        <segment state="initial">
+          <source>Install - Microsoft Office 2013 Pro Plus - x86</source>
+          <target>Install - Microsoft Office 2013 Pro Plus - x86</target>
+        </segment>
+      </unit>
+      <unit id="355">
+        <segment state="initial">
+          <source>After the Install - Microsoft Office 2013 Pro Plus - x86 action, add a new Restart computer action.</source>
+          <target>After the Install - Microsoft Office 2013 Pro Plus - x86 action, add a new Restart computer action.</target>
+        </segment>
+      </unit>
+      <unit id="356">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="357">
+        <segment state="initial">
+          <source>Optional configuration: Add a suspend action</source>
+          <target>Optional configuration: Add a suspend action</target>
+        </segment>
+      </unit>
+      <unit id="358">
+        <segment state="initial">
+          <source>The goal when creating a reference image is of course to automate everything.</source>
+          <target>The goal when creating a reference image is of course to automate everything.</target>
+        </segment>
+      </unit>
+      <unit id="359">
+        <segment state="initial">
+          <source>But sometimes you have a special configuration or application setup that is too time-consuming to automate.</source>
+          <target>But sometimes you have a special configuration or application setup that is too time-consuming to automate.</target>
+        </segment>
+      </unit>
+      <unit id="360">
+        <segment state="initial">
+          <source>If you need to do some manual configuration, you can add a little-known feature called Lite Touch Installation (LTI) Suspend.</source>
+          <target>If you need to do some manual configuration, you can add a little-known feature called Lite Touch Installation (LTI) Suspend.</target>
+        </segment>
+      </unit>
+      <unit id="361">
+        <segment state="initial">
+          <source>If you add the LTISuspend.wsf script as a custom action in the task sequence, it will suspend the task sequence until you click the Resume Task Sequence shortcut icon on the desktop.</source>
+          <target>If you add the LTISuspend.wsf script as a custom action in the task sequence, it will suspend the task sequence until you click the Resume Task Sequence shortcut icon on the desktop.</target>
+        </segment>
+      </unit>
+      <unit id="362">
+        <segment state="initial">
+          <source>In addition to using the LTI Suspend feature for manual configuration or installation, you can also use it simply for verifying a reference image before you allow the task sequence to continue and use Sysprep and capture the virtual machine.</source>
+          <target>In addition to using the LTI Suspend feature for manual configuration or installation, you can also use it simply for verifying a reference image before you allow the task sequence to continue and use Sysprep and capture the virtual machine.</target>
+        </segment>
+      </unit>
+      <unit id="363">
+        <segment state="initial">
+          <source>figure 8</source>
+          <target>figure 8</target>
+        </segment>
+      </unit>
+      <unit id="364">
+        <segment state="initial">
+          <source>Figure 8.</source>
+          <target>Figure 8.</target>
+        </segment>
+      </unit>
+      <unit id="365">
+        <segment state="initial">
+          <source>A task sequence with optional Suspend action (LTISuspend.wsf) added.</source>
+          <target>A task sequence with optional Suspend action (LTISuspend.wsf) added.</target>
+        </segment>
+      </unit>
+      <unit id="366">
+        <segment state="initial">
+          <source>figure 9</source>
+          <target>figure 9</target>
+        </segment>
+      </unit>
+      <unit id="367">
+        <segment state="initial">
+          <source>Figure 9.</source>
+          <target>Figure 9.</target>
+        </segment>
+      </unit>
+      <unit id="368">
+        <segment state="initial">
+          <source>The Windows 10 desktop with the Resume Task Sequence shortcut.</source>
+          <target>The Windows 10 desktop with the Resume Task Sequence shortcut.</target>
+        </segment>
+      </unit>
+      <unit id="369">
+        <segment state="initial">
+          <source>Edit the Unattend.xml file for Windows 10 Enterprise</source>
+          <target>Edit the Unattend.xml file for Windows 10 Enterprise</target>
+        </segment>
+      </unit>
+      <unit id="370">
+        <segment state="initial">
+          <source>When using MDT, you don't need to edit the Unattend.xml file very often because most configurations are taken care of by MDT.</source>
+          <target>When using MDT, you don't need to edit the Unattend.xml file very often because most configurations are taken care of by MDT.</target>
+        </segment>
+      </unit>
+      <unit id="371">
+        <segment state="initial">
+          <source>However if, for example, you want to configure Internet Explorer 11 behavior, then you can edit the Unattend.xml for this.</source>
+          <target>However if, for example, you want to configure Internet Explorer 11 behavior, then you can edit the Unattend.xml for this.</target>
+        </segment>
+      </unit>
+      <unit id="372">
+        <segment state="initial">
+          <source>Editing the Unattend.xml for basic Internet Explorer settings is easy, but for more advanced settings, you will want to use Internet Explorer Administration Kit (IEAK).</source>
+          <target>Editing the Unattend.xml for basic Internet Explorer settings is easy, but for more advanced settings, you will want to use Internet Explorer Administration Kit (IEAK).</target>
+        </segment>
+      </unit>
+      <unit id="373">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="374">
+        <segment state="initial">
+          <source>You also can use the Unattend.xml to enable components in Windows 10, like the Telnet Client or Hyper-V client.</source>
+          <target>You also can use the Unattend.xml to enable components in Windows 10, like the Telnet Client or Hyper-V client.</target>
+        </segment>
+      </unit>
+      <unit id="375">
+        <segment state="initial">
+          <source>Normally we prefer to do this via the Install Roles and Features action, or using Deployment Image Servicing and Management (DISM) command-line tools, because then we can add that as an application, being dynamic, having conditions, and so forth.</source>
+          <target>Normally we prefer to do this via the Install Roles and Features action, or using Deployment Image Servicing and Management (DISM) command-line tools, because then we can add that as an application, being dynamic, having conditions, and so forth.</target>
+        </segment>
+      </unit>
+      <unit id="376">
+        <segment state="initial">
+          <source>Also, if you are adding packages via Unattend.xml, it is version specific, so Unattend.xml must match the exact version of the operating system you are servicing.</source>
+          <target>Also, if you are adding packages via Unattend.xml, it is version specific, so Unattend.xml must match the exact version of the operating system you are servicing.</target>
+        </segment>
+      </unit>
+      <unit id="377">
+        <segment state="initial">
+          <source>Follow these steps to configure Internet Explorer settings in Unattend.xml for the Windows 10 Enterprise x64 RTM Default Image task sequence:</source>
+          <target>Follow these steps to configure Internet Explorer settings in Unattend.xml for the Windows 10 Enterprise x64 RTM Default Image task sequence:</target>
+        </segment>
+      </unit>
+      <unit id="378">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the Deployment Workbench, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 10 Enterprise x64 RTM Default Image</pc> task sequence and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc>.</source>
+          <target>Using the Deployment Workbench, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 10 Enterprise x64 RTM Default Image</pc> task sequence and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="379">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OS Info</pc> tab, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Edit Unattend.xml</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OS Info</pc> tab, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Edit Unattend.xml</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="380">
+        <segment state="initial">
+          <source>MDT now generates a catalog file.</source>
+          <target>MDT now generates a catalog file.</target>
+        </segment>
+      </unit>
+      <unit id="381">
+        <segment state="initial">
+          <source>This will take a few minutes, and then Windows System Image Manager (Windows SIM) will start.</source>
+          <target>This will take a few minutes, and then Windows System Image Manager (Windows SIM) will start.</target>
+        </segment>
+      </unit>
+      <unit id="382">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\_</data>
+          <data id="id6">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>In Windows SIM, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">4 specialize</pc> node in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Answer File</pc> pane and select the amd64<ph dataRef="id5" id="ph1" />Microsoft-Windows-IE-InternetExplorer<ph dataRef="id6" id="ph2" />neutral entry.</source>
+          <target>In Windows SIM, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">4 specialize</pc> node in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Answer File</pc> pane and select the amd64<ph dataRef="id5" id="ph1" />Microsoft-Windows-IE-InternetExplorer<ph dataRef="id6" id="ph2" />neutral entry.</target>
+        </segment>
+      </unit>
+      <unit id="383">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">amd64<ph dataRef="id3" id="ph1" />Microsoft-Windows-IE-InternetExplorer<ph dataRef="id4" id="ph2" />neutral properties</pc> window (right-hand window), set the following values:</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">amd64<ph dataRef="id3" id="ph1" />Microsoft-Windows-IE-InternetExplorer<ph dataRef="id4" id="ph2" />neutral properties</pc> window (right-hand window), set the following values:</target>
+        </segment>
+      </unit>
+      <unit id="384">
+        <segment state="initial">
+          <source>DisableDevTools: true</source>
+          <target>DisableDevTools: true</target>
+        </segment>
+      </unit>
+      <unit id="385">
+        <segment state="initial">
+          <source>Save the Unattend.xml file, and close Windows SIM.</source>
+          <target>Save the Unattend.xml file, and close Windows SIM.</target>
+        </segment>
+      </unit>
+      <unit id="386">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the Windows 10 Enterprise x64 RTM Default Image Properties, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>On the Windows 10 Enterprise x64 RTM Default Image Properties, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="387">
+        <segment state="initial">
+          <source>figure 10</source>
+          <target>figure 10</target>
+        </segment>
+      </unit>
+      <unit id="388">
+        <segment state="initial">
+          <source>Figure 10.</source>
+          <target>Figure 10.</target>
+        </segment>
+      </unit>
+      <unit id="389">
+        <segment state="initial">
+          <source>Windows System Image Manager with the Windows 10 Unattend.xml.</source>
+          <target>Windows System Image Manager with the Windows 10 Unattend.xml.</target>
+        </segment>
+      </unit>
+      <unit id="390">
+        <segment state="initial">
+          <source>Configure the MDT deployment share rules</source>
+          <target>Configure the MDT deployment share rules</target>
+        </segment>
+      </unit>
+      <unit id="391">
+        <segment state="initial">
+          <source>Understanding rules is critical to successfully using MDT.</source>
+          <target>Understanding rules is critical to successfully using MDT.</target>
+        </segment>
+      </unit>
+      <unit id="392">
+        <segment state="initial">
+          <source>Rules are configured using the Rules tab of the deployment share's properties.</source>
+          <target>Rules are configured using the Rules tab of the deployment share's properties.</target>
+        </segment>
+      </unit>
+      <unit id="393">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The Rules tab is essentially a shortcut to edit the CustomSettings.ini file that exists in the E:<ph dataRef="id1" id="ph1" />MDTBuildLab<ph dataRef="id2" id="ph2" />Control folder.</source>
+          <target>The Rules tab is essentially a shortcut to edit the CustomSettings.ini file that exists in the E:<ph dataRef="id1" id="ph1" />MDTBuildLab<ph dataRef="id2" id="ph2" />Control folder.</target>
+        </segment>
+      </unit>
+      <unit id="394">
+        <segment state="initial">
+          <source>This section discusses how to configure the MDT deployment share rules as part of your Windows 10 Enterprise deployment.</source>
+          <target>This section discusses how to configure the MDT deployment share rules as part of your Windows 10 Enterprise deployment.</target>
+        </segment>
+      </unit>
+      <unit id="395">
+        <segment state="initial">
+          <source>MDT deployment share rules overview</source>
+          <target>MDT deployment share rules overview</target>
+        </segment>
+      </unit>
+      <unit id="396">
+        <segment state="initial">
+          <source>In MDT, there are always two rule files: the CustomSettings.ini file and the Bootstrap.ini file.</source>
+          <target>In MDT, there are always two rule files: the CustomSettings.ini file and the Bootstrap.ini file.</target>
+        </segment>
+      </unit>
+      <unit id="397">
+        <segment state="initial">
+          <source>You can add almost any rule to either; however, the Bootstrap.ini file is copied from the Control folder to the boot image, so the boot image needs to be updated every time you change that file.</source>
+          <target>You can add almost any rule to either; however, the Bootstrap.ini file is copied from the Control folder to the boot image, so the boot image needs to be updated every time you change that file.</target>
+        </segment>
+      </unit>
+      <unit id="398">
+        <segment state="initial">
+          <source>For that reason, add only a minimal set of rules to Bootstrap.ini, such as which deployment server and share to connect to - the DEPLOYROOT value.</source>
+          <target>For that reason, add only a minimal set of rules to Bootstrap.ini, such as which deployment server and share to connect to - the DEPLOYROOT value.</target>
+        </segment>
+      </unit>
+      <unit id="399">
+        <segment state="initial">
+          <source>Put the other rules in CustomSettings.ini because that file is updated immediately when you click OK.</source>
+          <target>Put the other rules in CustomSettings.ini because that file is updated immediately when you click OK.</target>
+        </segment>
+      </unit>
+      <unit id="400">
+        <segment state="initial">
+          <source>By taking the following steps, you will configure the rules for the MDT Build Lab deployment share:</source>
+          <target>By taking the following steps, you will configure the rules for the MDT Build Lab deployment share:</target>
+        </segment>
+      </unit>
+      <unit id="401">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the Deployment Workbench, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT Build Lab deployment share</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc>.</source>
+          <target>Using the Deployment Workbench, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT Build Lab deployment share</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="402">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Rules</pc> tab and modify using the following information:</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Rules</pc> tab and modify using the following information:</target>
+        </segment>
+      </unit>
+      <unit id="403">
+        <segment state="initial">
+          <source>figure 11</source>
+          <target>figure 11</target>
+        </segment>
+      </unit>
+      <unit id="404">
+        <segment state="initial">
+          <source>Figure 11.</source>
+          <target>Figure 11.</target>
+        </segment>
+      </unit>
+      <unit id="405">
+        <segment state="initial">
+          <source>The server-side rules for the MDT Build Lab deployment share.</source>
+          <target>The server-side rules for the MDT Build Lab deployment share.</target>
+        </segment>
+      </unit>
+      <unit id="406">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Edit Bootstrap.ini</pc> and modify using the following information:</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Edit Bootstrap.ini</pc> and modify using the following information:</target>
+        </segment>
+      </unit>
+      <unit id="407">
+        <segment state="initial">
+          <source>figure 12</source>
+          <target>figure 12</target>
+        </segment>
+      </unit>
+      <unit id="408">
+        <segment state="initial">
+          <source>Figure 12.</source>
+          <target>Figure 12.</target>
+        </segment>
+      </unit>
+      <unit id="409">
+        <segment state="initial">
+          <source>The boot image rules for the MDT Build Lab deployment share.</source>
+          <target>The boot image rules for the MDT Build Lab deployment share.</target>
+        </segment>
+      </unit>
+      <unit id="410">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="411">
+        <segment state="initial">
+          <source>For security reasons, you normally don't add the password to the Bootstrap.ini file; however, because this deployment share is for creating reference image builds only, and should not be published to the production network, it is acceptable to do so in this situation.</source>
+          <target>For security reasons, you normally don't add the password to the Bootstrap.ini file; however, because this deployment share is for creating reference image builds only, and should not be published to the production network, it is acceptable to do so in this situation.</target>
+        </segment>
+      </unit>
+      <unit id="412">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows PE</pc> tab, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Platform</pc> drop-down list, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">x86</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows PE</pc> tab, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Platform</pc> drop-down list, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">x86</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="413">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lite Touch Boot Image Settings</pc> area, configure the following settings:</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lite Touch Boot Image Settings</pc> area, configure the following settings:</target>
+        </segment>
+      </unit>
+      <unit id="414">
+        <segment state="initial">
+          <source>Image description: MDT Build Lab x86</source>
+          <target>Image description: MDT Build Lab x86</target>
+        </segment>
+      </unit>
+      <unit id="415">
+        <segment state="initial">
+          <source>ISO file name: MDT Build Lab x86.iso</source>
+          <target>ISO file name: MDT Build Lab x86.iso</target>
+        </segment>
+      </unit>
+      <unit id="416">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows PE</pc> tab, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Platform</pc> drop-down list, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">x64</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows PE</pc> tab, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Platform</pc> drop-down list, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">x64</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="417">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lite Touch Boot Image Settings</pc> area, configure the following settings:</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lite Touch Boot Image Settings</pc> area, configure the following settings:</target>
+        </segment>
+      </unit>
+      <unit id="418">
+        <segment state="initial">
+          <source>Image description: MDT Build Lab x64</source>
+          <target>Image description: MDT Build Lab x64</target>
+        </segment>
+      </unit>
+      <unit id="419">
+        <segment state="initial">
+          <source>ISO file name: MDT Build Lab x64.iso</source>
+          <target>ISO file name: MDT Build Lab x64.iso</target>
+        </segment>
+      </unit>
+      <unit id="420">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="421">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="422">
+        <segment state="initial">
+          <source>In MDT, the x86 boot image can deploy both x86 and x64 operating systems (except on computers based on Unified Extensible Firmware Interface).</source>
+          <target>In MDT, the x86 boot image can deploy both x86 and x64 operating systems (except on computers based on Unified Extensible Firmware Interface).</target>
+        </segment>
+      </unit>
+      <unit id="423">
+        <segment state="initial">
+          <source>Update the deployment share</source>
+          <target>Update the deployment share</target>
+        </segment>
+      </unit>
+      <unit id="424">
+        <segment state="initial">
+          <source>After the deployment share has been configured, it needs to be updated.</source>
+          <target>After the deployment share has been configured, it needs to be updated.</target>
+        </segment>
+      </unit>
+      <unit id="425">
+        <segment state="initial">
+          <source>This is the process when the Windows Windows PE boot images are created.</source>
+          <target>This is the process when the Windows Windows PE boot images are created.</target>
+        </segment>
+      </unit>
+      <unit id="426">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the Deployment Workbench, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT Build Lab deployment share</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Update Deployment Share</pc>.</source>
+          <target>Using the Deployment Workbench, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT Build Lab deployment share</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Update Deployment Share</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="427">
+        <segment state="initial">
+          <source>Use the default options for the Update Deployment Share Wizard.</source>
+          <target>Use the default options for the Update Deployment Share Wizard.</target>
+        </segment>
+      </unit>
+      <unit id="428">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="429">
+        <segment state="initial">
+          <source>The update process will take 5 to 10 minutes.</source>
+          <target>The update process will take 5 to 10 minutes.</target>
+        </segment>
+      </unit>
+      <unit id="430">
+        <segment state="initial">
+          <source>The rules explained</source>
+          <target>The rules explained</target>
+        </segment>
+      </unit>
+      <unit id="431">
+        <segment state="initial">
+          <source>Now that the MDT Build Lab deployment share (the share used to create the reference images) has been configured, it is time to explain the various settings used in the Bootstrap.ini and CustomSettings.ini files.</source>
+          <target>Now that the MDT Build Lab deployment share (the share used to create the reference images) has been configured, it is time to explain the various settings used in the Bootstrap.ini and CustomSettings.ini files.</target>
+        </segment>
+      </unit>
+      <unit id="432">
+        <segment state="initial">
+          <source>The Bootstrap.ini and CustomSettings.ini files work together.</source>
+          <target>The Bootstrap.ini and CustomSettings.ini files work together.</target>
+        </segment>
+      </unit>
+      <unit id="433">
+        <segment state="initial">
+          <source>The Bootstrap.ini file is always present on the boot image and is read first.</source>
+          <target>The Bootstrap.ini file is always present on the boot image and is read first.</target>
+        </segment>
+      </unit>
+      <unit id="434">
+        <segment state="initial">
+          <source>The basic purpose for Bootstrap.ini is to provide just enough information for MDT to find the CustomSettings.ini.</source>
+          <target>The basic purpose for Bootstrap.ini is to provide just enough information for MDT to find the CustomSettings.ini.</target>
+        </segment>
+      </unit>
+      <unit id="435">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The CustomSettings.ini file is normally stored on the server, in the Deployment share<ph dataRef="id1" id="ph1" />Control folder, but also can be stored on the media (when using offline media).</source>
+          <target>The CustomSettings.ini file is normally stored on the server, in the Deployment share<ph dataRef="id1" id="ph1" />Control folder, but also can be stored on the media (when using offline media).</target>
+        </segment>
+      </unit>
+      <unit id="436">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="437">
+        <segment state="initial">
+          <source>The settings, or properties, that are used in the rules (CustomSettings.ini and Bootstrap.ini) are listed in the MDT documentation, in the Microsoft Deployment Toolkit Reference / Properties / Property Definition section.</source>
+          <target>The settings, or properties, that are used in the rules (CustomSettings.ini and Bootstrap.ini) are listed in the MDT documentation, in the Microsoft Deployment Toolkit Reference / Properties / Property Definition section.</target>
+        </segment>
+      </unit>
+      <unit id="438">
+        <segment state="initial">
+          <source>The Bootstrap.ini file</source>
+          <target>The Bootstrap.ini file</target>
+        </segment>
+      </unit>
+      <unit id="439">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The Bootstrap.ini file is available via the deployment share's Properties dialog box, or via the E:<ph dataRef="id1" id="ph1" />MDTBuildLab<ph dataRef="id2" id="ph2" />Control folder on MDT01.</source>
+          <target>The Bootstrap.ini file is available via the deployment share's Properties dialog box, or via the E:<ph dataRef="id1" id="ph1" />MDTBuildLab<ph dataRef="id2" id="ph2" />Control folder on MDT01.</target>
+        </segment>
+      </unit>
+      <unit id="440">
+        <segment state="initial">
+          <source>So, what are these settings?</source>
+          <target>So, what are these settings?</target>
+        </segment>
+      </unit>
+      <unit id="441">
+        <segment state="initial">
+          <source>Priority.</source>
+          <target>Priority.</target>
+        </segment>
+      </unit>
+      <unit id="442">
+        <segment state="initial">
+          <source>This determines the order in which different sections are read.</source>
+          <target>This determines the order in which different sections are read.</target>
+        </segment>
+      </unit>
+      <unit id="443">
+        <originalData>
+          <data id="id1">\[</data>
+          <data id="id2">\]</data>
+        </originalData>
+        <segment state="initial">
+          <source>This Bootstrap.ini has only one section, named <ph dataRef="id1" id="ph1" />Default<ph dataRef="id2" id="ph2" />.</source>
+          <target>This Bootstrap.ini has only one section, named <ph dataRef="id1" id="ph1" />Default<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="444">
+        <segment state="initial">
+          <source>DeployRoot.</source>
+          <target>DeployRoot.</target>
+        </segment>
+      </unit>
+      <unit id="445">
+        <segment state="initial">
+          <source>This is the location of the deployment share.</source>
+          <target>This is the location of the deployment share.</target>
+        </segment>
+      </unit>
+      <unit id="446">
+        <segment state="initial">
+          <source>Normally, this value is set by MDT, but you need to update the DeployRoot value if you move to another server or other share.</source>
+          <target>Normally, this value is set by MDT, but you need to update the DeployRoot value if you move to another server or other share.</target>
+        </segment>
+      </unit>
+      <unit id="447">
+        <segment state="initial">
+          <source>If you don't specify a value, the Windows Deployment Wizard prompts you for a location.</source>
+          <target>If you don't specify a value, the Windows Deployment Wizard prompts you for a location.</target>
+        </segment>
+      </unit>
+      <unit id="448">
+        <segment state="initial">
+          <source>UserDomain, UserID, and UserPassword.</source>
+          <target>UserDomain, UserID, and UserPassword.</target>
+        </segment>
+      </unit>
+      <unit id="449">
+        <segment state="initial">
+          <source>These values are used for automatic log on to the deployment share.</source>
+          <target>These values are used for automatic log on to the deployment share.</target>
+        </segment>
+      </unit>
+      <unit id="450">
+        <segment state="initial">
+          <source>Again, if they are not specified, the wizard prompts you.</source>
+          <target>Again, if they are not specified, the wizard prompts you.</target>
+        </segment>
+      </unit>
+      <unit id="451">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="452">
+        <segment state="initial">
+          <source>Caution is advised.</source>
+          <target>Caution is advised.</target>
+        </segment>
+      </unit>
+      <unit id="453">
+        <segment state="initial">
+          <source>These values are stored in clear text on the boot image.</source>
+          <target>These values are stored in clear text on the boot image.</target>
+        </segment>
+      </unit>
+      <unit id="454">
+        <segment state="initial">
+          <source>Use them only for the MDT Build Lab deployment share and not for the MDT Production deployment share that you learn to create in the next topic.</source>
+          <target>Use them only for the MDT Build Lab deployment share and not for the MDT Production deployment share that you learn to create in the next topic.</target>
+        </segment>
+      </unit>
+      <unit id="455">
+        <segment state="initial">
+          <source>SkipBDDWelcome.</source>
+          <target>SkipBDDWelcome.</target>
+        </segment>
+      </unit>
+      <unit id="456">
+        <segment state="initial">
+          <source>Even if it is nice to be welcomed every time we start a deployment, we prefer to skip the initial welcome page of the Windows Deployment Wizard.</source>
+          <target>Even if it is nice to be welcomed every time we start a deployment, we prefer to skip the initial welcome page of the Windows Deployment Wizard.</target>
+        </segment>
+      </unit>
+      <unit id="457">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="458">
+        <segment state="initial">
+          <source>All properties beginning with "Skip" control only whether to display that pane in the Windows Deployment Wizard.</source>
+          <target>All properties beginning with "Skip" control only whether to display that pane in the Windows Deployment Wizard.</target>
+        </segment>
+      </unit>
+      <unit id="459">
+        <segment state="initial">
+          <source>Most of the panes also require you to actually set one or more values.</source>
+          <target>Most of the panes also require you to actually set one or more values.</target>
+        </segment>
+      </unit>
+      <unit id="460">
+        <segment state="initial">
+          <source>The CustomSettings.ini file</source>
+          <target>The CustomSettings.ini file</target>
+        </segment>
+      </unit>
+      <unit id="461">
+        <segment state="initial">
+          <source>The CustomSettings.ini file, whose content you see on the Rules tab of the deployment share Properties dialog box, contains most of the properties used in the configuration.</source>
+          <target>The CustomSettings.ini file, whose content you see on the Rules tab of the deployment share Properties dialog box, contains most of the properties used in the configuration.</target>
+        </segment>
+      </unit>
+      <unit id="462">
+        <segment state="initial">
+          <source>Priority.</source>
+          <target>Priority.</target>
+        </segment>
+      </unit>
+      <unit id="463">
+        <segment state="initial">
+          <source>Has the same function as in Bootstrap.ini.</source>
+          <target>Has the same function as in Bootstrap.ini.</target>
+        </segment>
+      </unit>
+      <unit id="464">
+        <segment state="initial">
+          <source>Priority determines the order in which different sections are read.</source>
+          <target>Priority determines the order in which different sections are read.</target>
+        </segment>
+      </unit>
+      <unit id="465">
+        <originalData>
+          <data id="id1">\[</data>
+          <data id="id2">\]</data>
+        </originalData>
+        <segment state="initial">
+          <source>This CustomSettings.ini has only one section, named <ph dataRef="id1" id="ph1" />Default<ph dataRef="id2" id="ph2" />.</source>
+          <target>This CustomSettings.ini has only one section, named <ph dataRef="id1" id="ph1" />Default<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="466">
+        <segment state="initial">
+          <source>In general, if you have multiple sections that set the same value, the value from the first section (higher priority) wins.</source>
+          <target>In general, if you have multiple sections that set the same value, the value from the first section (higher priority) wins.</target>
+        </segment>
+      </unit>
+      <unit id="467">
+        <segment state="initial">
+          <source>The rare exceptions are listed in the ZTIGather.xml file.</source>
+          <target>The rare exceptions are listed in the ZTIGather.xml file.</target>
+        </segment>
+      </unit>
+      <unit id="468">
+        <segment state="initial">
+          <source>SMSTSORGNAME.</source>
+          <target>SMSTSORGNAME.</target>
+        </segment>
+      </unit>
+      <unit id="469">
+        <segment state="initial">
+          <source>The organization name displayed in the task sequence progress bar window during deployment.</source>
+          <target>The organization name displayed in the task sequence progress bar window during deployment.</target>
+        </segment>
+      </unit>
+      <unit id="470">
+        <segment state="initial">
+          <source>UserDataLocation.</source>
+          <target>UserDataLocation.</target>
+        </segment>
+      </unit>
+      <unit id="471">
+        <segment state="initial">
+          <source>Controls the settings for user state backup.</source>
+          <target>Controls the settings for user state backup.</target>
+        </segment>
+      </unit>
+      <unit id="472">
+        <segment state="initial">
+          <source>You do not need to use when building and capturing a reference image.</source>
+          <target>You do not need to use when building and capturing a reference image.</target>
+        </segment>
+      </unit>
+      <unit id="473">
+        <segment state="initial">
+          <source>DoCapture.</source>
+          <target>DoCapture.</target>
+        </segment>
+      </unit>
+      <unit id="474">
+        <segment state="initial">
+          <source>Configures the task sequence to run the System Preparation (Sysprep) tool and capture the image to a file when the operating system is installed.</source>
+          <target>Configures the task sequence to run the System Preparation (Sysprep) tool and capture the image to a file when the operating system is installed.</target>
+        </segment>
+      </unit>
+      <unit id="475">
+        <segment state="initial">
+          <source>OSInstall.</source>
+          <target>OSInstall.</target>
+        </segment>
+      </unit>
+      <unit id="476">
+        <segment state="initial">
+          <source>Must be set to Y or YES (the code actually just looks for the Y character) for the setup to proceed.</source>
+          <target>Must be set to Y or YES (the code actually just looks for the Y character) for the setup to proceed.</target>
+        </segment>
+      </unit>
+      <unit id="477">
+        <segment state="initial">
+          <source>AdminPassword.</source>
+          <target>AdminPassword.</target>
+        </segment>
+      </unit>
+      <unit id="478">
+        <segment state="initial">
+          <source>Sets the local Administrator account password.</source>
+          <target>Sets the local Administrator account password.</target>
+        </segment>
+      </unit>
+      <unit id="479">
+        <segment state="initial">
+          <source>TimeZoneName.</source>
+          <target>TimeZoneName.</target>
+        </segment>
+      </unit>
+      <unit id="480">
+        <segment state="initial">
+          <source>Establishes the time zone to use.</source>
+          <target>Establishes the time zone to use.</target>
+        </segment>
+      </unit>
+      <unit id="481">
+        <segment state="initial">
+          <source>Don't confuse this value with TimeZone, which is only for legacy operating systems (Windows 7 and Windows Server 2003).</source>
+          <target>Don't confuse this value with TimeZone, which is only for legacy operating systems (Windows 7 and Windows Server 2003).</target>
+        </segment>
+      </unit>
+      <unit id="482">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="483">
+        <segment state="initial">
+          <source>The easiest way to find the current time zone name on a Windows 10 machine is to run tzutil /g in a command prompt.</source>
+          <target>The easiest way to find the current time zone name on a Windows 10 machine is to run tzutil /g in a command prompt.</target>
+        </segment>
+      </unit>
+      <unit id="484">
+        <segment state="initial">
+          <source>You can also run tzutil /l to get a listing of all available time zone names.</source>
+          <target>You can also run tzutil /l to get a listing of all available time zone names.</target>
+        </segment>
+      </unit>
+      <unit id="485">
+        <segment state="initial">
+          <source>JoinWorkgroup.</source>
+          <target>JoinWorkgroup.</target>
+        </segment>
+      </unit>
+      <unit id="486">
+        <segment state="initial">
+          <source>Configures Windows to join a workgroup.</source>
+          <target>Configures Windows to join a workgroup.</target>
+        </segment>
+      </unit>
+      <unit id="487">
+        <segment state="initial">
+          <source>HideShell.</source>
+          <target>HideShell.</target>
+        </segment>
+      </unit>
+      <unit id="488">
+        <segment state="initial">
+          <source>Hides the Windows Shell during deployment.</source>
+          <target>Hides the Windows Shell during deployment.</target>
+        </segment>
+      </unit>
+      <unit id="489">
+        <segment state="initial">
+          <source>This is especially useful for Windows 8.1 deployments in which the deployment wizard will otherwise appear behind the tiles.</source>
+          <target>This is especially useful for Windows 8.1 deployments in which the deployment wizard will otherwise appear behind the tiles.</target>
+        </segment>
+      </unit>
+      <unit id="490">
+        <segment state="initial">
+          <source>FinishAction.</source>
+          <target>FinishAction.</target>
+        </segment>
+      </unit>
+      <unit id="491">
+        <segment state="initial">
+          <source>Instructs MDT what to do when the task sequence is complete.</source>
+          <target>Instructs MDT what to do when the task sequence is complete.</target>
+        </segment>
+      </unit>
+      <unit id="492">
+        <segment state="initial">
+          <source>DoNotCreateExtraPartition.</source>
+          <target>DoNotCreateExtraPartition.</target>
+        </segment>
+      </unit>
+      <unit id="493">
+        <segment state="initial">
+          <source>Configures the task sequence not to create the extra partition for BitLocker.</source>
+          <target>Configures the task sequence not to create the extra partition for BitLocker.</target>
+        </segment>
+      </unit>
+      <unit id="494">
+        <segment state="initial">
+          <source>There is no need to do this for your reference image.</source>
+          <target>There is no need to do this for your reference image.</target>
+        </segment>
+      </unit>
+      <unit id="495">
+        <segment state="initial">
+          <source>WSUSServer.</source>
+          <target>WSUSServer.</target>
+        </segment>
+      </unit>
+      <unit id="496">
+        <segment state="initial">
+          <source>Specifies which Windows Server Update Services (WSUS) server (and port, if needed) to use during the deployment.</source>
+          <target>Specifies which Windows Server Update Services (WSUS) server (and port, if needed) to use during the deployment.</target>
+        </segment>
+      </unit>
+      <unit id="497">
+        <segment state="initial">
+          <source>Without this option MDT will use Microsoft Update directly, which will increase deployment time and limit your options of controlling which updates are applied.</source>
+          <target>Without this option MDT will use Microsoft Update directly, which will increase deployment time and limit your options of controlling which updates are applied.</target>
+        </segment>
+      </unit>
+      <unit id="498">
+        <segment state="initial">
+          <source>SLSHARE.</source>
+          <target>SLSHARE.</target>
+        </segment>
+      </unit>
+      <unit id="499">
+        <segment state="initial">
+          <source>Instructs MDT to copy the log files to a server share if something goes wrong during deployment, or when a deployment is successfully completed.</source>
+          <target>Instructs MDT to copy the log files to a server share if something goes wrong during deployment, or when a deployment is successfully completed.</target>
+        </segment>
+      </unit>
+      <unit id="500">
+        <segment state="initial">
+          <source>ApplyGPOPack.</source>
+          <target>ApplyGPOPack.</target>
+        </segment>
+      </unit>
+      <unit id="501">
+        <segment state="initial">
+          <source>Allows you to deploy local group policies created by Microsoft Security Compliance Manager (SCM).</source>
+          <target>Allows you to deploy local group policies created by Microsoft Security Compliance Manager (SCM).</target>
+        </segment>
+      </unit>
+      <unit id="502">
+        <segment state="initial">
+          <source>SkipAdminPassword.</source>
+          <target>SkipAdminPassword.</target>
+        </segment>
+      </unit>
+      <unit id="503">
+        <segment state="initial">
+          <source>Skips the pane that asks for the Administrator password.</source>
+          <target>Skips the pane that asks for the Administrator password.</target>
+        </segment>
+      </unit>
+      <unit id="504">
+        <segment state="initial">
+          <source>SkipProductKey.</source>
+          <target>SkipProductKey.</target>
+        </segment>
+      </unit>
+      <unit id="505">
+        <segment state="initial">
+          <source>Skips the pane that asks for the product key.</source>
+          <target>Skips the pane that asks for the product key.</target>
+        </segment>
+      </unit>
+      <unit id="506">
+        <segment state="initial">
+          <source>SkipComputerName.</source>
+          <target>SkipComputerName.</target>
+        </segment>
+      </unit>
+      <unit id="507">
+        <segment state="initial">
+          <source>Skips the Computer Name pane.</source>
+          <target>Skips the Computer Name pane.</target>
+        </segment>
+      </unit>
+      <unit id="508">
+        <segment state="initial">
+          <source>SkipDomainMemberShip.</source>
+          <target>SkipDomainMemberShip.</target>
+        </segment>
+      </unit>
+      <unit id="509">
+        <segment state="initial">
+          <source>Skips the Domain Membership pane.</source>
+          <target>Skips the Domain Membership pane.</target>
+        </segment>
+      </unit>
+      <unit id="510">
+        <segment state="initial">
+          <source>If set to Yes, you need to configure either the JoinWorkgroup value or the JoinDomain, DomainAdmin, DomainAdminDomain, and DomainAdminPassword properties.</source>
+          <target>If set to Yes, you need to configure either the JoinWorkgroup value or the JoinDomain, DomainAdmin, DomainAdminDomain, and DomainAdminPassword properties.</target>
+        </segment>
+      </unit>
+      <unit id="511">
+        <segment state="initial">
+          <source>SkipUserData.</source>
+          <target>SkipUserData.</target>
+        </segment>
+      </unit>
+      <unit id="512">
+        <segment state="initial">
+          <source>Skips the pane for user state migration.</source>
+          <target>Skips the pane for user state migration.</target>
+        </segment>
+      </unit>
+      <unit id="513">
+        <segment state="initial">
+          <source>SkipLocaleSelection.</source>
+          <target>SkipLocaleSelection.</target>
+        </segment>
+      </unit>
+      <unit id="514">
+        <segment state="initial">
+          <source>Skips the pane for selecting language and keyboard settings.</source>
+          <target>Skips the pane for selecting language and keyboard settings.</target>
+        </segment>
+      </unit>
+      <unit id="515">
+        <segment state="initial">
+          <source>SkipTimeZone.</source>
+          <target>SkipTimeZone.</target>
+        </segment>
+      </unit>
+      <unit id="516">
+        <segment state="initial">
+          <source>Skips the pane for setting the time zone.</source>
+          <target>Skips the pane for setting the time zone.</target>
+        </segment>
+      </unit>
+      <unit id="517">
+        <segment state="initial">
+          <source>SkipApplications.</source>
+          <target>SkipApplications.</target>
+        </segment>
+      </unit>
+      <unit id="518">
+        <segment state="initial">
+          <source>Skips the Applications pane.</source>
+          <target>Skips the Applications pane.</target>
+        </segment>
+      </unit>
+      <unit id="519">
+        <segment state="initial">
+          <source>SkipBitLocker.</source>
+          <target>SkipBitLocker.</target>
+        </segment>
+      </unit>
+      <unit id="520">
+        <segment state="initial">
+          <source>Skips the BitLocker pane.</source>
+          <target>Skips the BitLocker pane.</target>
+        </segment>
+      </unit>
+      <unit id="521">
+        <segment state="initial">
+          <source>SkipSummary.</source>
+          <target>SkipSummary.</target>
+        </segment>
+      </unit>
+      <unit id="522">
+        <segment state="initial">
+          <source>Skips the initial Windows Deployment Wizard summary pane.</source>
+          <target>Skips the initial Windows Deployment Wizard summary pane.</target>
+        </segment>
+      </unit>
+      <unit id="523">
+        <segment state="initial">
+          <source>SkipRoles.</source>
+          <target>SkipRoles.</target>
+        </segment>
+      </unit>
+      <unit id="524">
+        <segment state="initial">
+          <source>Skips the Install Roles and Features pane.</source>
+          <target>Skips the Install Roles and Features pane.</target>
+        </segment>
+      </unit>
+      <unit id="525">
+        <segment state="initial">
+          <source>SkipCapture.</source>
+          <target>SkipCapture.</target>
+        </segment>
+      </unit>
+      <unit id="526">
+        <segment state="initial">
+          <source>Skips the Capture pane.</source>
+          <target>Skips the Capture pane.</target>
+        </segment>
+      </unit>
+      <unit id="527">
+        <segment state="initial">
+          <source>SkipFinalSummary.</source>
+          <target>SkipFinalSummary.</target>
+        </segment>
+      </unit>
+      <unit id="528">
+        <segment state="initial">
+          <source>Skips the final Windows Deployment Wizard summary.</source>
+          <target>Skips the final Windows Deployment Wizard summary.</target>
+        </segment>
+      </unit>
+      <unit id="529">
+        <segment state="initial">
+          <source>Because you use FinishAction=Shutdown, you don't want the wizard to stop in the end so that you need to click OK before the machine shuts down.</source>
+          <target>Because you use FinishAction=Shutdown, you don't want the wizard to stop in the end so that you need to click OK before the machine shuts down.</target>
+        </segment>
+      </unit>
+      <unit id="530">
+        <segment state="initial">
+          <source>Build the Windows 10 reference image</source>
+          <target>Build the Windows 10 reference image</target>
+        </segment>
+      </unit>
+      <unit id="531">
+        <segment state="initial">
+          <source>Once you have created your task sequence, you are ready to create the Windows 10 reference image.</source>
+          <target>Once you have created your task sequence, you are ready to create the Windows 10 reference image.</target>
+        </segment>
+      </unit>
+      <unit id="532">
+        <segment state="initial">
+          <source>This will be performed by launching the task sequence from a virtual machine which will then automatically perform the reference image creation and capture process.</source>
+          <target>This will be performed by launching the task sequence from a virtual machine which will then automatically perform the reference image creation and capture process.</target>
+        </segment>
+      </unit>
+      <unit id="533">
+        <segment state="initial">
+          <source>This steps below outline the process used to boot a virtual machine using an ISO boot image created by MDT, and then execute the reference image task sequence image to create and capture the Windows 10 reference image.</source>
+          <target>This steps below outline the process used to boot a virtual machine using an ISO boot image created by MDT, and then execute the reference image task sequence image to create and capture the Windows 10 reference image.</target>
+        </segment>
+      </unit>
+      <unit id="534">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Copy the E:<ph dataRef="id1" id="ph1" />MDTBuildLab<ph dataRef="id2" id="ph2" />Boot<ph dataRef="id3" id="ph3" />MDT Build Lab x86.iso on MDT01 to C:<ph dataRef="id4" id="ph4" />ISO on the Hyper-V host.</source>
+          <target>Copy the E:<ph dataRef="id1" id="ph1" />MDTBuildLab<ph dataRef="id2" id="ph2" />Boot<ph dataRef="id3" id="ph3" />MDT Build Lab x86.iso on MDT01 to C:<ph dataRef="id4" id="ph4" />ISO on the Hyper-V host.</target>
+        </segment>
+      </unit>
+      <unit id="535">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="536">
+        <segment state="initial">
+          <source>Remember, in MDT you can use the x86 boot image to deploy both x86 and x64 operating system images.</source>
+          <target>Remember, in MDT you can use the x86 boot image to deploy both x86 and x64 operating system images.</target>
+        </segment>
+      </unit>
+      <unit id="537">
+        <segment state="initial">
+          <source>That's why you can use the x86 boot image instead of the x64 boot image.</source>
+          <target>That's why you can use the x86 boot image instead of the x64 boot image.</target>
+        </segment>
+      </unit>
+      <unit id="538">
+        <segment state="initial">
+          <source>Create a virtual machine with the following settings:</source>
+          <target>Create a virtual machine with the following settings:</target>
+        </segment>
+      </unit>
+      <unit id="539">
+        <segment state="initial">
+          <source>Name: REFW10X64-001</source>
+          <target>Name: REFW10X64-001</target>
+        </segment>
+      </unit>
+      <unit id="540">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Location: C:<ph dataRef="id1" id="ph1" />VMs</source>
+          <target>Location: C:<ph dataRef="id1" id="ph1" />VMs</target>
+        </segment>
+      </unit>
+      <unit id="541">
+        <segment state="initial">
+          <source>Memory: 1024 MB</source>
+          <target>Memory: 1024 MB</target>
+        </segment>
+      </unit>
+      <unit id="542">
+        <segment state="initial">
+          <source>Network: External (The network that is connected to the same infrastructure as MDT01 is)</source>
+          <target>Network: External (The network that is connected to the same infrastructure as MDT01 is)</target>
+        </segment>
+      </unit>
+      <unit id="543">
+        <segment state="initial">
+          <source>Hard disk: 60 GB (dynamic disk)</source>
+          <target>Hard disk: 60 GB (dynamic disk)</target>
+        </segment>
+      </unit>
+      <unit id="544">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Image file: C:<ph dataRef="id1" id="ph1" />ISO<ph dataRef="id2" id="ph2" />MDT Build Lab x86.iso</source>
+          <target>Image file: C:<ph dataRef="id1" id="ph1" />ISO<ph dataRef="id2" id="ph2" />MDT Build Lab x86.iso</target>
+        </segment>
+      </unit>
+      <unit id="545">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Take a snapshot of the REFW10X64-001 virtual machine, and name it <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Clean with MDT Build Lab x86 ISO</pc>.</source>
+          <target>Take a snapshot of the REFW10X64-001 virtual machine, and name it <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Clean with MDT Build Lab x86 ISO</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="546">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="547">
+        <segment state="initial">
+          <source>Taking a snapshot is useful if you need to restart the process and want to make sure you can start clean.</source>
+          <target>Taking a snapshot is useful if you need to restart the process and want to make sure you can start clean.</target>
+        </segment>
+      </unit>
+      <unit id="548">
+        <segment state="initial">
+          <source>Start the REFW10X64-001 virtual machine.</source>
+          <target>Start the REFW10X64-001 virtual machine.</target>
+        </segment>
+      </unit>
+      <unit id="549">
+        <segment state="initial">
+          <source>After booting into Windows PE, complete the Windows Deployment Wizard using the following settings:</source>
+          <target>After booting into Windows PE, complete the Windows Deployment Wizard using the following settings:</target>
+        </segment>
+      </unit>
+      <unit id="550">
+        <segment state="initial">
+          <source>Select a task sequence to execute on this computer: Windows 10 Enterprise x64 RTM Default Image</source>
+          <target>Select a task sequence to execute on this computer: Windows 10 Enterprise x64 RTM Default Image</target>
+        </segment>
+      </unit>
+      <unit id="551">
+        <segment state="initial">
+          <source>Specify whether to capture an image: Capture an image of this reference computer</source>
+          <target>Specify whether to capture an image: Capture an image of this reference computer</target>
+        </segment>
+      </unit>
+      <unit id="552">
+        <originalData>
+          <data id="id1">\\\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Location: <ph dataRef="id1" id="ph1" />MDT01<ph dataRef="id2" id="ph2" />MDTBuildLab$<ph dataRef="id3" id="ph3" />Captures</source>
+          <target>Location: <ph dataRef="id1" id="ph1" />MDT01<ph dataRef="id2" id="ph2" />MDTBuildLab$<ph dataRef="id3" id="ph3" />Captures</target>
+        </segment>
+      </unit>
+      <unit id="553">
+        <segment state="initial">
+          <source>File name: REFW10X64-001.wim</source>
+          <target>File name: REFW10X64-001.wim</target>
+        </segment>
+      </unit>
+      <unit id="554">
+        <segment state="initial">
+          <source>figure 13</source>
+          <target>figure 13</target>
+        </segment>
+      </unit>
+      <unit id="555">
+        <segment state="initial">
+          <source>Figure 13.</source>
+          <target>Figure 13.</target>
+        </segment>
+      </unit>
+      <unit id="556">
+        <segment state="initial">
+          <source>The Windows Deployment Wizard for the Windows 10 reference image.</source>
+          <target>The Windows Deployment Wizard for the Windows 10 reference image.</target>
+        </segment>
+      </unit>
+      <unit id="557">
+        <segment state="initial">
+          <source>The setup now starts and does the following:</source>
+          <target>The setup now starts and does the following:</target>
+        </segment>
+      </unit>
+      <unit id="558">
+        <segment state="initial">
+          <source>Installs the Windows 10 Enterprise operating system.</source>
+          <target>Installs the Windows 10 Enterprise operating system.</target>
+        </segment>
+      </unit>
+      <unit id="559">
+        <segment state="initial">
+          <source>Installs the added applications, roles, and features.</source>
+          <target>Installs the added applications, roles, and features.</target>
+        </segment>
+      </unit>
+      <unit id="560">
+        <segment state="initial">
+          <source>Updates the operating system via your local Windows Server Update Services (WSUS) server.</source>
+          <target>Updates the operating system via your local Windows Server Update Services (WSUS) server.</target>
+        </segment>
+      </unit>
+      <unit id="561">
+        <segment state="initial">
+          <source>Stages Windows PE on the local disk.</source>
+          <target>Stages Windows PE on the local disk.</target>
+        </segment>
+      </unit>
+      <unit id="562">
+        <segment state="initial">
+          <source>Runs System Preparation (Sysprep) and reboots into Windows PE.</source>
+          <target>Runs System Preparation (Sysprep) and reboots into Windows PE.</target>
+        </segment>
+      </unit>
+      <unit id="563">
+        <segment state="initial">
+          <source>Captures the installation to a Windows Imaging (WIM) file.</source>
+          <target>Captures the installation to a Windows Imaging (WIM) file.</target>
+        </segment>
+      </unit>
+      <unit id="564">
+        <segment state="initial">
+          <source>Turns off the virtual machine.</source>
+          <target>Turns off the virtual machine.</target>
+        </segment>
+      </unit>
+      <unit id="565">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>After some time, you will have a Windows 10 Enterprise x64 image that is fully patched and has run through Sysprep, located in the E:<ph dataRef="id1" id="ph1" />MDTBuildLab<ph dataRef="id2" id="ph2" />Captures folder on your deployment server.</source>
+          <target>After some time, you will have a Windows 10 Enterprise x64 image that is fully patched and has run through Sysprep, located in the E:<ph dataRef="id1" id="ph1" />MDTBuildLab<ph dataRef="id2" id="ph2" />Captures folder on your deployment server.</target>
+        </segment>
+      </unit>
+      <unit id="566">
+        <segment state="initial">
+          <source>The file name is REFW10X64-001.wim.</source>
+          <target>The file name is REFW10X64-001.wim.</target>
+        </segment>
+      </unit>
+      <unit id="567">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="568">
+        <segment state="initial">
+          <source>Get started with the Microsoft Deployment Toolkit (MDT)</source>
+          <target>Get started with the Microsoft Deployment Toolkit (MDT)</target>
+        </segment>
+      </unit>
+      <unit id="569">
+        <segment state="initial">
+          <source>Deploy a Windows 10 image using MDT 2013 Update 2</source>
+          <target>Deploy a Windows 10 image using MDT 2013 Update 2</target>
+        </segment>
+      </unit>
+      <unit id="570">
+        <segment state="initial">
+          <source>Build a distributed environment for Windows 10 deployment</source>
+          <target>Build a distributed environment for Windows 10 deployment</target>
+        </segment>
+      </unit>
+      <unit id="571">
+        <segment state="initial">
+          <source>Refresh a Windows 7 computer with Windows 10</source>
+          <target>Refresh a Windows 7 computer with Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="572">
+        <segment state="initial">
+          <source>Replace a Windows 7 computer with a Windows 10 computer</source>
+          <target>Replace a Windows 7 computer with a Windows 10 computer</target>
+        </segment>
+      </unit>
+      <unit id="573">
+        <segment state="initial">
+          <source>Configure MDT settings</source>
+          <target>Configure MDT settings</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

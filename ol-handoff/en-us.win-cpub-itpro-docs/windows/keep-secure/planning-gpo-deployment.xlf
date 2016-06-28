@@ -1,0 +1,833 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\planning-gpo-deployment.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">399cc74aa4c57fe22bfb0bb0714e6166051b7a9d</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Planning GPO Deployment (Windows 10)</source>
+          <target>Planning GPO Deployment (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Planning GPO Deployment</source>
+          <target>Planning GPO Deployment</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Planning GPO Deployment</source>
+          <target>Planning GPO Deployment</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>You can control which GPOs are applied to devices in Active Directory in a combination of three ways:</source>
+          <target>You can control which GPOs are applied to devices in Active Directory in a combination of three ways:</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Active Directory organizational unit hierarchy</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Active Directory organizational unit hierarchy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>This involves linking the GPO to a specific OU in the Active Directory OU hierarchy.</source>
+          <target>This involves linking the GPO to a specific OU in the Active Directory OU hierarchy.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>All devices in the OU and its subordinate containers receive and apply the GPO.</source>
+          <target>All devices in the OU and its subordinate containers receive and apply the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Controlling GPO application through linking to OUs is typically used when you can organize the OU hierarchy according to your domain isolation zone requirements.</source>
+          <target>Controlling GPO application through linking to OUs is typically used when you can organize the OU hierarchy according to your domain isolation zone requirements.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>GPOs can apply settings to devices based on their location within Active Directory.</source>
+          <target>GPOs can apply settings to devices based on their location within Active Directory.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>If a device is moved from one OU to another, the policy linked to the second OU will eventually take effect when Group Policy detects the change during polling.</source>
+          <target>If a device is moved from one OU to another, the policy linked to the second OU will eventually take effect when Group Policy detects the change during polling.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security group filtering</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security group filtering</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>This involves linking the GPOs to the domain level (or other parent OU) in the OU hierarchy, and then selecting which devices receive the GPO by using permissions that only allow correct group members to apply the GPO.</source>
+          <target>This involves linking the GPOs to the domain level (or other parent OU) in the OU hierarchy, and then selecting which devices receive the GPO by using permissions that only allow correct group members to apply the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>The security group filters are attached to the GPOs themselves.</source>
+          <target>The security group filters are attached to the GPOs themselves.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>A group is added to the security group filter of the GPO in Active Directory, and then assigned Read and Apply Group Policy permissions.</source>
+          <target>A group is added to the security group filter of the GPO in Active Directory, and then assigned Read and Apply Group Policy permissions.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Other groups can be explicitly denied Read and Apply Group Policy permissions.</source>
+          <target>Other groups can be explicitly denied Read and Apply Group Policy permissions.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Only those devices whose group membership are granted Read and Apply Group Policy permissions without any explicit deny permissions can apply the GPO.</source>
+          <target>Only those devices whose group membership are granted Read and Apply Group Policy permissions without any explicit deny permissions can apply the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WMI filtering</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WMI filtering</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>A WMI filter is a query that is run dynamically when the GPO is evaluated.</source>
+          <target>A WMI filter is a query that is run dynamically when the GPO is evaluated.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>If a device is a member of the result set when the WMI filter query runs, the GPO is applied to the device.</source>
+          <target>If a device is a member of the result set when the WMI filter query runs, the GPO is applied to the device.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>A WMI filter consists of one or more conditions that are evaluated against the local device.</source>
+          <target>A WMI filter consists of one or more conditions that are evaluated against the local device.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>You can check almost any characteristic of the device, its operating system, and its installed programs.</source>
+          <target>You can check almost any characteristic of the device, its operating system, and its installed programs.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>If all of the specified conditions are true for the device, the GPO is applied; otherwise the GPO is ignored.</source>
+          <target>If all of the specified conditions are true for the device, the GPO is applied; otherwise the GPO is ignored.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>This guide uses a combination of security group filtering and WMI filtering to provide the most flexible options.</source>
+          <target>This guide uses a combination of security group filtering and WMI filtering to provide the most flexible options.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>If you follow this guidance, even though there might be five different GPOs linked to a specific group because of operating system version differences, only the correct GPO is applied.</source>
+          <target>If you follow this guidance, even though there might be five different GPOs linked to a specific group because of operating system version differences, only the correct GPO is applied.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>General considerations</source>
+          <target>General considerations</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Deploy your GPOs before you add any device accounts to the groups that receive the GPOs.</source>
+          <target>Deploy your GPOs before you add any device accounts to the groups that receive the GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>That way you can add your devices to the groups in a controlled manner.</source>
+          <target>That way you can add your devices to the groups in a controlled manner.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Be sure to add only a few test devices at first.</source>
+          <target>Be sure to add only a few test devices at first.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Before adding many group members, examine the results on the test devices and verify that the configured firewall and connection security rules have the effect that you want.</source>
+          <target>Before adding many group members, examine the results on the test devices and verify that the configured firewall and connection security rules have the effect that you want.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>See the following sections for some suggestions on what to test before you continue.</source>
+          <target>See the following sections for some suggestions on what to test before you continue.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Test your deployed groups and GPOs</source>
+          <target>Test your deployed groups and GPOs</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>After you have deployed your GPOs and added some test devices to the groups, confirm the following before you continue with more group members:</source>
+          <target>After you have deployed your GPOs and added some test devices to the groups, confirm the following before you continue with more group members:</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Examine the GPOs that are both assigned to and filtered from the device.</source>
+          <target>Examine the GPOs that are both assigned to and filtered from the device.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Run the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">gpresult</pc> tool at a command prompt.</source>
+          <target>Run the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">gpresult</pc> tool at a command prompt.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Examine the rules deployed to the device.</source>
+          <target>Examine the rules deployed to the device.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the Windows Firewall with Advanced Security MMC snap-in, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Monitoring</pc> node, and then expand the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Firewall</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Connection Security</pc> nodes.</source>
+          <target>Open the Windows Firewall with Advanced Security MMC snap-in, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Monitoring</pc> node, and then expand the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Firewall</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Connection Security</pc> nodes.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Verify that communications are authenticated.</source>
+          <target>Verify that communications are authenticated.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the Windows Firewall with Advanced Security MMC snap-in, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Monitoring</pc> node, expand the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Security Associations</pc> node, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Main Mode</pc>.</source>
+          <target>Open the Windows Firewall with Advanced Security MMC snap-in, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Monitoring</pc> node, expand the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Security Associations</pc> node, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Main Mode</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Verify that communications are encrypted when the devices require it.</source>
+          <target>Verify that communications are encrypted when the devices require it.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the Windows Firewall with Advanced Security MMC snap-in, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Monitoring</pc> node, expand the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Security Associations</pc> node, and then select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Quick Mode</pc>.</source>
+          <target>Open the Windows Firewall with Advanced Security MMC snap-in, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Monitoring</pc> node, expand the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Security Associations</pc> node, and then select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Quick Mode</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Encrypted connections display a value other than <pc dataRefEnd="id2" dataRefStart="id1" id="p1">None</pc> in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ESP Confidentiality</pc> column.</source>
+          <target>Encrypted connections display a value other than <pc dataRefEnd="id2" dataRefStart="id1" id="p1">None</pc> in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ESP Confidentiality</pc> column.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Verify that your programs are unaffected.</source>
+          <target>Verify that your programs are unaffected.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Run them and confirm that they still work as expected.</source>
+          <target>Run them and confirm that they still work as expected.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>After you have confirmed that the GPOs have been correctly applied, and that the devices are now communicating by using IPsec network traffic in request mode, you can begin to add more devices to the group accounts, in manageable numbers at a time.</source>
+          <target>After you have confirmed that the GPOs have been correctly applied, and that the devices are now communicating by using IPsec network traffic in request mode, you can begin to add more devices to the group accounts, in manageable numbers at a time.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Continue to monitor and confirm the correct application of the GPOs to the devices.</source>
+          <target>Continue to monitor and confirm the correct application of the GPOs to the devices.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Do not enable require mode until deployment is complete</source>
+          <target>Do not enable require mode until deployment is complete</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>If you deploy a GPO that requires authentication to a device before the other devices have a GPO deployed, communication between them might not be possible.</source>
+          <target>If you deploy a GPO that requires authentication to a device before the other devices have a GPO deployed, communication between them might not be possible.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Wait until you have all the zones and their GPOs deployed in request mode and confirm (as described in the previous section) that the devices are successfully communicating by using IPsec.</source>
+          <target>Wait until you have all the zones and their GPOs deployed in request mode and confirm (as described in the previous section) that the devices are successfully communicating by using IPsec.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>If there are problems with GPO deployment, or errors in configuration of one or more of the IPsec GPOs, devices can continue to operate, because request mode enables any device to fall back to clear communications.</source>
+          <target>If there are problems with GPO deployment, or errors in configuration of one or more of the IPsec GPOs, devices can continue to operate, because request mode enables any device to fall back to clear communications.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Only after you have added all of the devices to their zones, and you have confirmed that communications are working as expected, you can start changing the request mode rules to require mode rules where it is required in the zones.</source>
+          <target>Only after you have added all of the devices to their zones, and you have confirmed that communications are working as expected, you can start changing the request mode rules to require mode rules where it is required in the zones.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>We recommend that you enable require mode in the zones one zone at a time, pausing to confirm that they are functioning properly before you continue.</source>
+          <target>We recommend that you enable require mode in the zones one zone at a time, pausing to confirm that they are functioning properly before you continue.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Turn the required mode setting on for the server isolation zones first, then the encryption zone, and then the isolated domain.</source>
+          <target>Turn the required mode setting on for the server isolation zones first, then the encryption zone, and then the isolated domain.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Do not change the boundary zone GPO, because it must stay in request mode for both inbound and outbound connections.</source>
+          <target>Do not change the boundary zone GPO, because it must stay in request mode for both inbound and outbound connections.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>If you create other zones that require either inbound or outbound require mode, make the setting change in a manner that applies the setting in stages from the smaller groups of devices to the larger groups.</source>
+          <target>If you create other zones that require either inbound or outbound require mode, make the setting change in a manner that applies the setting in stages from the smaller groups of devices to the larger groups.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Example Woodgrove Bank deployment plans</source>
+          <target>Example Woodgrove Bank deployment plans</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Woodgrove Bank links all its GPOs to the domain level container in the Active Directory OU hierarchy.</source>
+          <target>Woodgrove Bank links all its GPOs to the domain level container in the Active Directory OU hierarchy.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>It then uses the following WMI filters and security group filters to control the application of the GPOs to the correct subset of devices.</source>
+          <target>It then uses the following WMI filters and security group filters to control the application of the GPOs to the correct subset of devices.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>All of the GPOs have the User Configuration section disabled to improve performance.</source>
+          <target>All of the GPOs have the User Configuration section disabled to improve performance.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>GPO<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />Firewall</source>
+          <target>GPO<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />Firewall</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WMI filter</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WMI filter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>The WMI filter allows this GPO to apply only to devices that match the following WMI query:</source>
+          <target>The WMI filter allows this GPO to apply only to devices that match the following WMI query:</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  This excludes domain controllers (which report a ProductType value of 2).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  This excludes domain controllers (which report a ProductType value of 2).</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Do not include domain controllers in the isolated domain if there are devices running versions of Windows earlier than Windows Vista and Windows Server 2008.</source>
+          <target>Do not include domain controllers in the isolated domain if there are devices running versions of Windows earlier than Windows Vista and Windows Server 2008.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security filter</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security filter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>This GPO grants Read and Apply Group Policy permissions only to devices that are members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />IsolatedDomain.</source>
+          <target>This GPO grants Read and Apply Group Policy permissions only to devices that are members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />IsolatedDomain.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The GPO also explicitly denies Read and Apply Group Policy permissions to members of the CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />NO<ph dataRef="id3" id="ph3" />IPSEC.</source>
+          <target>The GPO also explicitly denies Read and Apply Group Policy permissions to members of the CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />NO<ph dataRef="id3" id="ph3" />IPSEC.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>GPO<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />IsolatedDomain<ph dataRef="id3" id="ph3" />Clients</source>
+          <target>GPO<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />IsolatedDomain<ph dataRef="id3" id="ph3" />Clients</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WMI filter</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WMI filter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>The WMI filter allows this GPO to apply only to devices that match the following WMI query:</source>
+          <target>The WMI filter allows this GPO to apply only to devices that match the following WMI query:</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security filter</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security filter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>This GPO grants Read and Apply Group Policy permissions only to devices that are members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />IsolatedDomain.</source>
+          <target>This GPO grants Read and Apply Group Policy permissions only to devices that are members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />IsolatedDomain.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The GPO also explicitly denies Read and Apply Group Policy permissions to members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />NO<ph dataRef="id3" id="ph3" />IPSEC.</source>
+          <target>The GPO also explicitly denies Read and Apply Group Policy permissions to members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />NO<ph dataRef="id3" id="ph3" />IPSEC.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>GPO<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />IsolatedDomain<ph dataRef="id3" id="ph3" />Servers</source>
+          <target>GPO<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />IsolatedDomain<ph dataRef="id3" id="ph3" />Servers</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WMI filter</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WMI filter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>The WMI filter allows this GPO to apply only to devices that match the following WMI query:</source>
+          <target>The WMI filter allows this GPO to apply only to devices that match the following WMI query:</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  This excludes domain controllers (which report a ProductType value of 2).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  This excludes domain controllers (which report a ProductType value of 2).</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Do not include domain controllers in the isolated domain if there are devices that are running versions of Windows earlier than Windows Vista and Windows Server 2008.</source>
+          <target>Do not include domain controllers in the isolated domain if there are devices that are running versions of Windows earlier than Windows Vista and Windows Server 2008.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security filter</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security filter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>This GPO grants Read and Apply Group Policy permissions only to devices that are members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />IsolatedDomain.</source>
+          <target>This GPO grants Read and Apply Group Policy permissions only to devices that are members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />IsolatedDomain.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The GPO also explicitly denies Read and Apply Group Policy permissions to members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />NO<ph dataRef="id3" id="ph3" />IPSEC.</source>
+          <target>The GPO also explicitly denies Read and Apply Group Policy permissions to members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />NO<ph dataRef="id3" id="ph3" />IPSEC.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>GPO<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />Boundary</source>
+          <target>GPO<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />Boundary</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WMI filter</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WMI filter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>The WMI filter allows this GPO to apply only to devices that match the following WMI query:</source>
+          <target>The WMI filter allows this GPO to apply only to devices that match the following WMI query:</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  This excludes domain controllers (which report a ProductType value of 2).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  This excludes domain controllers (which report a ProductType value of 2).</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Do not include domain controllers in the isolated domain if there are devices that are running versions of Windows earlier than Windows Vista and Windows Server 2008.</source>
+          <target>Do not include domain controllers in the isolated domain if there are devices that are running versions of Windows earlier than Windows Vista and Windows Server 2008.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security filter</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security filter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>This GPO grants Read and Apply Group Policy permissions only to devices that are members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />Boundary.</source>
+          <target>This GPO grants Read and Apply Group Policy permissions only to devices that are members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />Boundary.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The GPO also explicitly denies Read and Apply Group Policy permissions to members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />NO<ph dataRef="id3" id="ph3" />IPSEC.</source>
+          <target>The GPO also explicitly denies Read and Apply Group Policy permissions to members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />NO<ph dataRef="id3" id="ph3" />IPSEC.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>GPO<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />Encryption</source>
+          <target>GPO<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />Encryption</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WMI filter</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WMI filter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>The WMI filter allows this GPO to apply only to devices that match the following WMI query:</source>
+          <target>The WMI filter allows this GPO to apply only to devices that match the following WMI query:</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  This excludes domain controllers (which report a ProductType value of 2).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  This excludes domain controllers (which report a ProductType value of 2).</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Do not include domain controllers in the isolated domain if there are devices that are running versions of Windows earlier than Windows Vista and Windows Server 2008.</source>
+          <target>Do not include domain controllers in the isolated domain if there are devices that are running versions of Windows earlier than Windows Vista and Windows Server 2008.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security filter</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security filter</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>This GPO grants Read and Apply permissions in Group Policy only to devices that are members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />Encryption.</source>
+          <target>This GPO grants Read and Apply permissions in Group Policy only to devices that are members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />Encryption.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The GPO also explicitly denies Read and Apply permissions in Group Policy to members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />NO<ph dataRef="id3" id="ph3" />IPSEC.</source>
+          <target>The GPO also explicitly denies Read and Apply permissions in Group Policy to members of the group CG<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />NO<ph dataRef="id3" id="ph3" />IPSEC.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

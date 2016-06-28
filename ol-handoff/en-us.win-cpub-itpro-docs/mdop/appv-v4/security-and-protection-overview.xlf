@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\appv-v4\security-and-protection-overview.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">0051a348f81f2b54038a2886ad50a59a133a48cf</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Security and Protection Overview</source>
+          <target>Security and Protection Overview</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Security and Protection Overview</source>
+          <target>Security and Protection Overview</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Security and Protection Overview</source>
+          <target>Security and Protection Overview</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Microsoft Application Virtualization 4.5 provides the following enhanced security features to help you plan and implement a more secure deployment strategy:</source>
+          <target>Microsoft Application Virtualization 4.5 provides the following enhanced security features to help you plan and implement a more secure deployment strategy:</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Application Virtualization now supports Transport Layer Security (TLS) using X.509 V3 certificates.</source>
+          <target>Application Virtualization now supports Transport Layer Security (TLS) using X.509 V3 certificates.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Provided that a server certificate has been provisioned to the planned Application Virtualization Management or Streaming Server, the installation will default to secure, using the RTSPS protocol over port 322.</source>
+          <target>Provided that a server certificate has been provisioned to the planned Application Virtualization Management or Streaming Server, the installation will default to secure, using the RTSPS protocol over port 322.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Using RTSPS ensures that communication between the Application Virtualization Servers and the Application Virtualization Clients is signed and encrypted.</source>
+          <target>Using RTSPS ensures that communication between the Application Virtualization Servers and the Application Virtualization Clients is signed and encrypted.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>If no certificate is assigned to the server during the Application Virtualization Server installation, the communication will be set to RTSP over port 554.</source>
+          <target>If no certificate is assigned to the server during the Application Virtualization Server installation, the communication will be set to RTSP over port 554.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Security Note:</source>
+          <target>Security Note:</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>To help provide a secure setup of the server, you must make sure that RTSP ports are disabled even if you have all packages configured to use RTSPS.</source>
+          <target>To help provide a secure setup of the server, you must make sure that RTSP ports are disabled even if you have all packages configured to use RTSPS.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>If you add security certificates to the server after installing the server, the server might not detect the certificates.</source>
+          <target>If you add security certificates to the server after installing the server, the server might not detect the certificates.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>To help ensure security certificate detection, restart the server after adding the certificates.</source>
+          <target>To help ensure security certificate detection, restart the server after adding the certificates.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The client must be configured to use the same protocol and port as the server, or it will not be able to communicate with the server.</source>
+          <target>The client must be configured to use the same protocol and port as the server, or it will not be able to communicate with the server.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The client must also trust the issuer of the certificate and ships with several of the primary providers in its Trusted Root Store.</source>
+          <target>The client must also trust the issuer of the certificate and ships with several of the primary providers in its Trusted Root Store.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>You can use self-signed certificates, but you will need to update the clients.</source>
+          <target>You can use self-signed certificates, but you will need to update the clients.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>When configuring IIS servers to use the HTTPS protocol for streaming, you will need to set up Secure Sockets Layer (SSL) on the IIS server and provision the certificate for the server.</source>
+          <target>When configuring IIS servers to use the HTTPS protocol for streaming, you will need to set up Secure Sockets Layer (SSL) on the IIS server and provision the certificate for the server.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>The clients will also need to be configured to trust the root certification authority that issued the server certificate.</source>
+          <target>The clients will also need to be configured to trust the root certification authority that issued the server certificate.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Kerberos authentication has been added to Microsoft Application Virtualization as the default authentication mechanism.</source>
+          <target>Kerberos authentication has been added to Microsoft Application Virtualization as the default authentication mechanism.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Earlier versions relied upon NTLM V2 for authentication.</source>
+          <target>Earlier versions relied upon NTLM V2 for authentication.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Using Kerberos Authentication strengthens the security of the communication between the client and the Application Virtualization server.</source>
+          <target>Using Kerberos Authentication strengthens the security of the communication between the client and the Application Virtualization server.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>When a connection has been initiated from the client, the Application Virtualization Server verifies the session ticket with the Key Distribution Center (KDC).</source>
+          <target>When a connection has been initiated from the client, the Application Virtualization Server verifies the session ticket with the Key Distribution Center (KDC).</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Because of the support for using server certificates and using the RTSPS or HTTPS protocols, you can now support clients outside of the corporate network.</source>
+          <target>Because of the support for using server certificates and using the RTSPS or HTTPS protocols, you can now support clients outside of the corporate network.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>This can help eliminate the need for mobile users to set up a secure connection to the corporate network (VPN, RAS, and so on) prior to launching Application Virtualization provisioned applications.</source>
+          <target>This can help eliminate the need for mobile users to set up a secure connection to the corporate network (VPN, RAS, and so on) prior to launching Application Virtualization provisioned applications.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Other important security considerations to consider include the following:</source>
+          <target>Other important security considerations to consider include the following:</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Always keep servers fully updated and protected.</source>
+          <target>Always keep servers fully updated and protected.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>To add a certificate to enable more secure communications to the Application Virtualization Management Server, the following criteria must be met:</source>
+          <target>To add a certificate to enable more secure communications to the Application Virtualization Management Server, the following criteria must be met:</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>The user who will be adding the certificate must be an administrator on the server where the certificate store is located.</source>
+          <target>The user who will be adding the certificate must be an administrator on the server where the certificate store is located.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>The server service must be started.</source>
+          <target>The server service must be started.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Port 139 on the Management Server must be open to the Web Service server’s IP.</source>
+          <target>Port 139 on the Management Server must be open to the Web Service server’s IP.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Use access control lists (ACLs) to ensure that the application packages and all package files are protected and cannot be tampered.</source>
+          <target>Use access control lists (ACLs) to ensure that the application packages and all package files are protected and cannot be tampered.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>ACLs restrict access to the location or folder where you store the packages, allowing access only to certain accounts.</source>
+          <target>ACLs restrict access to the location or folder where you store the packages, allowing access only to certain accounts.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Make sure that the channel between the Application Virtualization Management Server and the database is secured—for example, by using IPsec.</source>
+          <target>Make sure that the channel between the Application Virtualization Management Server and the database is secured—for example, by using IPsec.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>If packages are stored on a SAN or NAS, ensure the connection between the central storage device and the Application Virtualization Servers is protected.</source>
+          <target>If packages are stored on a SAN or NAS, ensure the connection between the central storage device and the Application Virtualization Servers is protected.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>All communication channels to the client should be protected—including connections to the publishing server, the Application Virtualization Server, and the path to the OSD and ICO files—by using a protocol such as HTTPS or IPsec.</source>
+          <target>All communication channels to the client should be protected—including connections to the publishing server, the Application Virtualization Server, and the path to the OSD and ICO files—by using a protocol such as HTTPS or IPsec.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Client permissions should be configured to help ensure that packages cannot be tampered with by users.</source>
+          <target>Client permissions should be configured to help ensure that packages cannot be tampered with by users.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>It is especially important that you do not grant users permission to add or update packages on systems, such as Remote Desktop Session Host (RD Session Host) servers, that are shared with multiple users.</source>
+          <target>It is especially important that you do not grant users permission to add or update packages on systems, such as Remote Desktop Session Host (RD Session Host) servers, that are shared with multiple users.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Kerberos authentication must be permitted across domain or forest environments for the Server Management Console to work correctly.</source>
+          <target>Kerberos authentication must be permitted across domain or forest environments for the Server Management Console to work correctly.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>This release of the software does not support hosting a Kerberos-based RTSP server and a Microsoft NTLM-only-based IIS server on the same computer.</source>
+          <target>This release of the software does not support hosting a Kerberos-based RTSP server and a Microsoft NTLM-only-based IIS server on the same computer.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>To host an RTSP server and an IIS server on the same computer, remove the SPN from the IIS server and use NTLM authentication.</source>
+          <target>To host an RTSP server and an IIS server on the same computer, remove the SPN from the IIS server and use NTLM authentication.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Planning for Application Virtualization System Deployment</source>
+          <target>Planning for Application Virtualization System Deployment</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

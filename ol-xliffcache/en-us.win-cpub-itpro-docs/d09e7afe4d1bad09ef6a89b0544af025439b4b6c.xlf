@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\monitor-application-usage-with-applocker.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">d09e7afe4d1bad09ef6a89b0544af025439b4b6c</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Monitor app usage with AppLocker (Windows 10)</source>
+          <target>Monitor app usage with AppLocker (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic for IT professionals describes how to monitor app usage when AppLocker policies are applied.</source>
+          <target>This topic for IT professionals describes how to monitor app usage when AppLocker policies are applied.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Monitor app usage with AppLocker</source>
+          <target>Monitor app usage with AppLocker</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic for IT professionals describes how to monitor app usage when AppLocker policies are applied.</source>
+          <target>This topic for IT professionals describes how to monitor app usage when AppLocker policies are applied.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Once you set rules and deploy the AppLocker policies, it is good practice to determine if the policy implementation is what you expected.</source>
+          <target>Once you set rules and deploy the AppLocker policies, it is good practice to determine if the policy implementation is what you expected.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Discover the effect of an AppLocker policy</source>
+          <target>Discover the effect of an AppLocker policy</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>You can evaluate how the AppLocker policy is currently implemented for documentation or audit purposes, or before you modify the policy.</source>
+          <target>You can evaluate how the AppLocker policy is currently implemented for documentation or audit purposes, or before you modify the policy.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Updating your AppLocker Policy Deployment Planning document will help you track your findings.</source>
+          <target>Updating your AppLocker Policy Deployment Planning document will help you track your findings.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](create-your-applocker-planning-document.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about creating this document, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create your AppLocker planning document</pc>.</source>
+          <target>For information about creating this document, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create your AppLocker planning document</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>You can perform one or more of the following steps to understand what application controls are currently enforced through AppLocker rules.</source>
+          <target>You can perform one or more of the following steps to understand what application controls are currently enforced through AppLocker rules.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Analyze the AppLocker logs in Event Viewer</source>
+          <target>Analyze the AppLocker logs in Event Viewer</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When AppLocker policy enforcement is set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enforce rules</pc>, rules are enforced for the rule collection and all events are audited.</source>
+          <target>When AppLocker policy enforcement is set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enforce rules</pc>, rules are enforced for the rule collection and all events are audited.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When AppLocker policy enforcement is set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Audit only</pc>, rules are not enforced but are still evaluated to generate audit event data that is written to the AppLocker logs.</source>
+          <target>When AppLocker policy enforcement is set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Audit only</pc>, rules are not enforced but are still evaluated to generate audit event data that is written to the AppLocker logs.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-applkr-view-log)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the procedure to access the log, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">View the AppLocker Log in Event Viewer</pc>.</source>
+          <target>For the procedure to access the log, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">View the AppLocker Log in Event Viewer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Enable the Audit only AppLocker enforcement setting</source>
+          <target>Enable the Audit only AppLocker enforcement setting</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>By using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Audit only</pc> enforcement setting, you can ensure that the AppLocker rules are properly configured for your organization.</source>
+          <target>By using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Audit only</pc> enforcement setting, you can ensure that the AppLocker rules are properly configured for your organization.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When AppLocker policy enforcement is set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Audit only</pc>, rules are only evaluated but all events generated from that evaluation are written to the AppLocker log.</source>
+          <target>When AppLocker policy enforcement is set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Audit only</pc>, rules are only evaluated but all events generated from that evaluation are written to the AppLocker log.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](configure-an-applocker-policy-for-audit-only.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the procedure to do this, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure an AppLocker policy for audit only</pc>.</source>
+          <target>For the procedure to do this, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure an AppLocker policy for audit only</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Review AppLocker events with Get-AppLockerFileInformation</source>
+          <target>Review AppLocker events with Get-AppLockerFileInformation</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For both event subscriptions and local events, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-AppLockerFileInformation</pc> Windows PowerShell cmdlet to determine which files have been blocked or would have been blocked (if you are using the audit-only enforcement mode) and how many times the event has occurred for each file.</source>
+          <target>For both event subscriptions and local events, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-AppLockerFileInformation</pc> Windows PowerShell cmdlet to determine which files have been blocked or would have been blocked (if you are using the audit-only enforcement mode) and how many times the event has occurred for each file.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-applkr-review-events)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the procedure to do this, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Review AppLocker Events with Get-AppLockerFileInformation</pc>.</source>
+          <target>For the procedure to do this, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Review AppLocker Events with Get-AppLockerFileInformation</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Review AppLocker events with Test-AppLockerPolicy</source>
+          <target>Review AppLocker events with Test-AppLockerPolicy</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Test-AppLockerPolicy</pc> Windows PowerShell cmdlet to determine whether any of the rules in your rule collections will be blocked on your reference device or the device on which you maintain policies.</source>
+          <target>You can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Test-AppLockerPolicy</pc> Windows PowerShell cmdlet to determine whether any of the rules in your rule collections will be blocked on your reference device or the device on which you maintain policies.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](test-an-applocker-policy-by-using-test-applockerpolicy.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the procedure to do this, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Test an AppLocker policy by using Test-AppLockerPolicy</pc>.</source>
+          <target>For the procedure to do this, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Test an AppLocker policy by using Test-AppLockerPolicy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Review AppLocker events with Get-AppLockerFileInformation</source>
+          <target>Review AppLocker events with Get-AppLockerFileInformation</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For both event subscriptions and local events, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-AppLockerFileInformation</pc> Windows PowerShell cmdlet to determine which files have been blocked or would have been blocked (if the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Audit only</pc> enforcement setting is applied) and how many times the event has occurred for each file.</source>
+          <target>For both event subscriptions and local events, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-AppLockerFileInformation</pc> Windows PowerShell cmdlet to determine which files have been blocked or would have been blocked (if the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Audit only</pc> enforcement setting is applied) and how many times the event has occurred for each file.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Membership in the local <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administrators</pc> group, or equivalent, is the minimum required to complete this procedure.</source>
+          <target>Membership in the local <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administrators</pc> group, or equivalent, is the minimum required to complete this procedure.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  If the AppLocker logs are not on your local device, you will need permission to view the logs.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  If the AppLocker logs are not on your local device, you will need permission to view the logs.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>If the output is saved to a file, you will need permission to read that file.</source>
+          <target>If the output is saved to a file, you will need permission to read that file.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>To review AppLocker events with Get-AppLockerFileInformation</source>
+          <target>To review AppLocker events with Get-AppLockerFileInformation</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>At the command prompt, type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PowerShell</pc>, and then press ENTER.</source>
+          <target>At the command prompt, type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PowerShell</pc>, and then press ENTER.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Run the following command to review how many times a file would have been blocked from running if rules were enforced:</source>
+          <target>Run the following command to review how many times a file would have been blocked from running if rules were enforced:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Run the following command to review how many times a file has been allowed to run or prevented from running:</source>
+          <target>Run the following command to review how many times a file has been allowed to run or prevented from running:</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>View the AppLocker Log in Event Viewer</source>
+          <target>View the AppLocker Log in Event Viewer</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When AppLocker policy enforcement is set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enforce rules</pc>, rules are enforced for the rule collection and all events are audited.</source>
+          <target>When AppLocker policy enforcement is set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enforce rules</pc>, rules are enforced for the rule collection and all events are audited.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When AppLocker policy enforcement is set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Audit only</pc>, rules are only evaluated but all events generated from that evaluation are written to the AppLocker log.</source>
+          <target>When AppLocker policy enforcement is set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Audit only</pc>, rules are only evaluated but all events generated from that evaluation are written to the AppLocker log.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Membership in the local <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administrators</pc> group, or equivalent, is the minimum required to complete this procedure.</source>
+          <target>Membership in the local <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administrators</pc> group, or equivalent, is the minimum required to complete this procedure.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>To view events in the AppLocker log by using Event Viewer</source>
+          <target>To view events in the AppLocker log by using Event Viewer</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Open Event Viewer.</source>
+          <target>Open Event Viewer.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To do this, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">eventvwr.msc</pc>, and then press ENTER.</source>
+          <target>To do this, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">eventvwr.msc</pc>, and then press ENTER.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the console tree under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application and Services Logs<ph dataRef="id3" id="ph1" />Microsoft<ph dataRef="id4" id="ph2" />Windows</pc>, double-click <pc dataRefEnd="id6" dataRefStart="id5" id="p2">AppLocker</pc>.</source>
+          <target>In the console tree under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application and Services Logs<ph dataRef="id3" id="ph1" />Microsoft<ph dataRef="id4" id="ph2" />Windows</pc>, double-click <pc dataRefEnd="id6" dataRefStart="id5" id="p2">AppLocker</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>AppLocker events are listed in either the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EXE and DLL</pc> log, the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MSI and Script</pc> log, or the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Packaged app-Deployment</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Packaged app-Execution</pc> log.</source>
+          <target>AppLocker events are listed in either the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EXE and DLL</pc> log, the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MSI and Script</pc> log, or the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Packaged app-Deployment</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Packaged app-Execution</pc> log.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Event information includes the enforcement setting, file name, date and time, and user name.</source>
+          <target>Event information includes the enforcement setting, file name, date and time, and user name.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>The logs can be exported to other file formats for further analysis.</source>
+          <target>The logs can be exported to other file formats for further analysis.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>AppLocker</source>
+          <target>AppLocker</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

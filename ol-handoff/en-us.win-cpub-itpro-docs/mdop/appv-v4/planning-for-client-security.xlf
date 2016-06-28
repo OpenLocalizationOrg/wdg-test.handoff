@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\appv-v4\planning-for-client-security.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">5fc12d2ae3440019e3dc4ecf03562c6cacb0b8ac</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Planning for Client Security</source>
+          <target>Planning for Client Security</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Planning for Client Security</source>
+          <target>Planning for Client Security</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Planning for Client Security</source>
+          <target>Planning for Client Security</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>The App-V Client provides several security enhancements that were not present in previous versions of the product.</source>
+          <target>The App-V Client provides several security enhancements that were not present in previous versions of the product.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>These changes provide improved security after installation and through later configuration of the client settings.</source>
+          <target>These changes provide improved security after installation and through later configuration of the client settings.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic describes some of those enhancements and identifies several important security-related configuration settings that you should consider during your planning process.</source>
+          <target>This topic describes some of those enhancements and identifies several important security-related configuration settings that you should consider during your planning process.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>It is important to remember that virtual applications are still executables, so you must ensure that these assets cannot be tampered with by unauthorized people.</source>
+          <target>It is important to remember that virtual applications are still executables, so you must ensure that these assets cannot be tampered with by unauthorized people.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>For this reason, the Open Software Descriptor (OSD) file cache is protected as described later in this topic, and we strongly recommend that you use RTSPS, HTTPS, and IPsec to protect publishing and streaming.</source>
+          <target>For this reason, the Open Software Descriptor (OSD) file cache is protected as described later in this topic, and we strongly recommend that you use RTSPS, HTTPS, and IPsec to protect publishing and streaming.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>App-V Client Security</source>
+          <target>App-V Client Security</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>By default, at installation the App-V client is configured with the minimum permissions required to allow a user to perform a publishing refresh and to start applications.</source>
+          <target>By default, at installation the App-V client is configured with the minimum permissions required to allow a user to perform a publishing refresh and to start applications.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Other security enhancements provided in the App-V client include the following:</source>
+          <target>Other security enhancements provided in the App-V client include the following:</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>By default, the OSD file cache can be updated only by administrators and by using the publishing refresh process.</source>
+          <target>By default, the OSD file cache can be updated only by administrators and by using the publishing refresh process.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The log file (sftlog.txt) is accessible only by accounts with local administrative access to the client.</source>
+          <target>The log file (sftlog.txt) is accessible only by accounts with local administrative access to the client.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The log file now has a maximum size.</source>
+          <target>The log file now has a maximum size.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>File Type Associations</source>
+          <target>File Type Associations</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>By default, the installation of the client registers file type associations (FTAs) for OSD files, which enables users to start applications directly from OSD files instead of the published shortcuts.</source>
+          <target>By default, the installation of the client registers file type associations (FTAs) for OSD files, which enables users to start applications directly from OSD files instead of the published shortcuts.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If a user with local administrator rights receives an OSD file containing malicious code, either in e-mail or downloaded from a Web site, the user can open the OSD file and start the application even if the client has been set to restrict the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Application</pc> permission.</source>
+          <target>If a user with local administrator rights receives an OSD file containing malicious code, either in e-mail or downloaded from a Web site, the user can open the OSD file and start the application even if the client has been set to restrict the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Application</pc> permission.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>You can unregister the FTAs for the OSD to reduce this risk.</source>
+          <target>You can unregister the FTAs for the OSD to reduce this risk.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Also, consider blocking this extension in the e-mail system and at the firewall.</source>
+          <target>Also, consider blocking this extension in the e-mail system and at the firewall.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">&lt;</data>
+          <data id="id2">&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about configuring Outlook to block extensions, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://go.microsoft.com/fwlink/?LinkId=133278</pc>.</source>
+          <target>For more information about configuring Outlook to block extensions, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://go.microsoft.com/fwlink/?LinkId=133278</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Security Note:</source>
+          <target>Security Note:</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Starting with App-V version 4.6, the file type association is no longer created for OSD files during a new installation of the client, although the existing settings will be maintained during an upgrade from version 4.2 or 4.5 of the App-V client.</source>
+          <target>Starting with App-V version 4.6, the file type association is no longer created for OSD files during a new installation of the client, although the existing settings will be maintained during an upgrade from version 4.2 or 4.5 of the App-V client.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>If for any reason it is essential to create the file type association, you can create the following registry keys and set their values as shown:</source>
+          <target>If for any reason it is essential to create the file type association, you can create the following registry keys and set their values as shown:</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Authorization</source>
+          <target>Authorization</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>During installation, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">RequireAuthorizationIfCached</pc> parameter to configure the client to require authorization from the server when the user tries to start an application.</source>
+          <target>During installation, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">RequireAuthorizationIfCached</pc> parameter to configure the client to require authorization from the server when the user tries to start an application.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>You should consider carefully how to set this parameter.</source>
+          <target>You should consider carefully how to set this parameter.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>If the App-V server is unavailable for any reason, the application will use the most recent stored state of this parameter to control user access to the application.</source>
+          <target>If the App-V server is unavailable for any reason, the application will use the most recent stored state of this parameter to control user access to the application.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>If the user has not launched the application successfully before the App-V server becomes unavailable, they will not be able to launch the application until they can communicate with the server and receive authorization.</source>
+          <target>If the user has not launched the application successfully before the App-V server becomes unavailable, they will not be able to launch the application until they can communicate with the server and receive authorization.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>However, if you set the parameter so that the client does not require authorization and if the server is unavailable, all previously cached applications can be started whether authorized or not.</source>
+          <target>However, if you set the parameter so that the client does not require authorization and if the server is unavailable, all previously cached applications can be started whether authorized or not.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Also, if the user has permission to change the client to Work Offline mode through permissions or if the user is a local administrator, the user would be able to open all cached packages as if the App-V infrastructure was unavailable.</source>
+          <target>Also, if the user has permission to change the client to Work Offline mode through permissions or if the user is a local administrator, the user would be able to open all cached packages as if the App-V infrastructure was unavailable.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Antivirus Scanning</source>
+          <target>Antivirus Scanning</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Antivirus software running on an App-V Client computer can detect and report an infected file in the virtual environment.</source>
+          <target>Antivirus software running on an App-V Client computer can detect and report an infected file in the virtual environment.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>However, it cannot disinfect the file.</source>
+          <target>However, it cannot disinfect the file.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>If a virus is detected in the virtual environment, the antivirus software would perform the configured quarantine or repair operation in the cache, not in the actual package.</source>
+          <target>If a virus is detected in the virtual environment, the antivirus software would perform the configured quarantine or repair operation in the cache, not in the actual package.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Configure the antivirus software with an exception for the sftfs.fsd file.</source>
+          <target>Configure the antivirus software with an exception for the sftfs.fsd file.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>This file is the cache file that stores packages on the App-V Client.</source>
+          <target>This file is the cache file that stores packages on the App-V Client.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Security Note:</source>
+          <target>Security Note:</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>If a virus is detected in an application or package deployed in the production environment, replace the application or package with a virus-free version.</source>
+          <target>If a virus is detected in an application or package deployed in the production environment, replace the application or package with a virus-free version.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Communication Between Client and Server</source>
+          <target>Communication Between Client and Server</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Publishing refreshes and package streaming are also areas where security considerations relating to client-server communication are important.</source>
+          <target>Publishing refreshes and package streaming are also areas where security considerations relating to client-server communication are important.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Publishing Refresh</source>
+          <target>Publishing Refresh</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>When the client communicates with the server to perform a publishing refresh, it uses the credentials of the logged on user to request information about the application packages.</source>
+          <target>When the client communicates with the server to perform a publishing refresh, it uses the credentials of the logged on user to request information about the application packages.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>You should secure the communication that occurs between the App-V client and App-V Management Server to ensure that none of the publishing information can be tampered with in transit.</source>
+          <target>You should secure the communication that occurs between the App-V client and App-V Management Server to ensure that none of the publishing information can be tampered with in transit.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>This is done by using the Enhanced Security option, which will use RTSPS/HTTPS.</source>
+          <target>This is done by using the Enhanced Security option, which will use RTSPS/HTTPS.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Communication between the Client and the location where the ICO and OSD files are stored should use IPsec for SMB/CIFS shares and HTTPS for an IIS server.</source>
+          <target>Communication between the Client and the location where the ICO and OSD files are stored should use IPsec for SMB/CIFS shares and HTTPS for an IIS server.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>If you are using IIS to publish the ICO and OSD files, configure a MIME type for OSD=TXT; otherwise, IIS will refuse to serve the ICO and OSD files to clients.</source>
+          <target>If you are using IIS to publish the ICO and OSD files, configure a MIME type for OSD=TXT; otherwise, IIS will refuse to serve the ICO and OSD files to clients.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Package Streaming</source>
+          <target>Package Streaming</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>When a user launches an application for the first time, or if auto-loading parameters have been set on the client, the application package is streamed from a server to the client cache.</source>
+          <target>When a user launches an application for the first time, or if auto-loading parameters have been set on the client, the application package is streamed from a server to the client cache.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>This process supports the RTSP/RTSPS, HTTP/HTTPS, and SMB/CIFS protocols.</source>
+          <target>This process supports the RTSP/RTSPS, HTTP/HTTPS, and SMB/CIFS protocols.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The OSD files control which protocols are used, unless the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ApplicationSourceRoot</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OverrideURL</pc> setting has been configured on the clients.</source>
+          <target>The OSD files control which protocols are used, unless the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ApplicationSourceRoot</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OverrideURL</pc> setting has been configured on the clients.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>You should configure communication to occur over RTSPS, HTTPS, or IPsec for SMB/CIFS to achieve higher levels of security.</source>
+          <target>You should configure communication to occur over RTSPS, HTTPS, or IPsec for SMB/CIFS to achieve higher levels of security.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">&lt;</data>
+          <data id="id2">&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about choosing which communication method to use, see the App-V Planning and Deployment Guide at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://go.microsoft.com/fwlink/?LinkId=122063</pc>.</source>
+          <target>For more information about choosing which communication method to use, see the App-V Planning and Deployment Guide at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://go.microsoft.com/fwlink/?LinkId=122063</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>If you are using IIS to publish packages (SFT files), configure a MIME type for SFT=Binary; otherwise, IIS will refuse to serve the SFT files to clients.</source>
+          <target>If you are using IIS to publish packages (SFT files), configure a MIME type for SFT=Binary; otherwise, IIS will refuse to serve the SFT files to clients.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Roaming Profiles and Folder Redirection</source>
+          <target>Roaming Profiles and Folder Redirection</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The App-V system stores user-specific changes to packages in the usrvol<ph dataRef="id1" id="ph1" />sftfs<ph dataRef="id2" id="ph2" />v1.pkg file.</source>
+          <target>The App-V system stores user-specific changes to packages in the usrvol<ph dataRef="id1" id="ph1" />sftfs<ph dataRef="id2" id="ph2" />v1.pkg file.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>This file is located in the Application Data folder of a user’s profile.</source>
+          <target>This file is located in the Application Data folder of a user’s profile.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Because the profile or a redirected Application Data folder is transferred between the client and the server, use IPsec to secure the communication.</source>
+          <target>Because the profile or a redirected Application Data folder is transferred between the client and the server, use IPsec to secure the communication.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Considerations for Internet-Facing Clients</source>
+          <target>Considerations for Internet-Facing Clients</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>For Internet-facing clients, it is important to consider whether the client is domain joined or non-domain joined.</source>
+          <target>For Internet-facing clients, it is important to consider whether the client is domain joined or non-domain joined.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Domain Joined Client</source>
+          <target>Domain Joined Client</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>By default, App-V Clients use Kerberos tickets that were issued by Active Directory Domain Services for authentication and authorization on the intranet.</source>
+          <target>By default, App-V Clients use Kerberos tickets that were issued by Active Directory Domain Services for authentication and authorization on the intranet.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>These Kerberos tickets are valid for 10 hours by default.</source>
+          <target>These Kerberos tickets are valid for 10 hours by default.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>The client will use this ticket to access the App-V server for as long as the ticket is valid, even if the computer is unable to connect to the domain controller to refresh the ticket.</source>
+          <target>The client will use this ticket to access the App-V server for as long as the ticket is valid, even if the computer is unable to connect to the domain controller to refresh the ticket.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>If the Kerberos ticket expires, the App-V client will revert to NTLM authentication and use the user’s cached credentials.</source>
+          <target>If the Kerberos ticket expires, the App-V client will revert to NTLM authentication and use the user’s cached credentials.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Non-Domain Joined Client</source>
+          <target>Non-Domain Joined Client</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>If a user is home-based and the computer is not joined to the company domain, App-V can still support delivering applications.</source>
+          <target>If a user is home-based and the computer is not joined to the company domain, App-V can still support delivering applications.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>To authenticate and authorize a user to perform a publishing refresh and to start applications, configure the user account on the client computer to store the user name and password that has access to the App-V environment and to provide appropriate permissions to the applications.</source>
+          <target>To authenticate and authorize a user to perform a publishing refresh and to start applications, configure the user account on the client computer to store the user name and password that has access to the App-V environment and to provide appropriate permissions to the applications.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Planning for Security and Protection</source>
+          <target>Planning for Security and Protection</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

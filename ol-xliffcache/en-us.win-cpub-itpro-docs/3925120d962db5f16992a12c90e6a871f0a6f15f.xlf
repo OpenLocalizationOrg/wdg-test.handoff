@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\maintain-applocker-policies.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">3925120d962db5f16992a12c90e6a871f0a6f15f</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Maintain AppLocker policies (Windows 10)</source>
+          <target>Maintain AppLocker policies (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic describes how to maintain rules within AppLocker policies.</source>
+          <target>This topic describes how to maintain rules within AppLocker policies.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Maintain AppLocker policies</source>
+          <target>Maintain AppLocker policies</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic describes how to maintain rules within AppLocker policies.</source>
+          <target>This topic describes how to maintain rules within AppLocker policies.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Common AppLocker maintenance scenarios include:</source>
+          <target>Common AppLocker maintenance scenarios include:</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>A new app is deployed, and you need to update an AppLocker policy.</source>
+          <target>A new app is deployed, and you need to update an AppLocker policy.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>A new version of an app is deployed, and you need to either update an AppLocker policy or create a new rule to update the policy.</source>
+          <target>A new version of an app is deployed, and you need to either update an AppLocker policy or create a new rule to update the policy.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>An app is no longer supported by your organization, so you need to prevent it from being used.</source>
+          <target>An app is no longer supported by your organization, so you need to prevent it from being used.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>An app appears to be blocked but should be allowed.</source>
+          <target>An app appears to be blocked but should be allowed.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>An app appears to be allowed but should be blocked.</source>
+          <target>An app appears to be allowed but should be blocked.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>A single user or small subset of users needs to use a specific app that is blocked.</source>
+          <target>A single user or small subset of users needs to use a specific app that is blocked.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>There are two methods you can use to maintain AppLocker policies:</source>
+          <target>There are two methods you can use to maintain AppLocker policies:</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Maintaining AppLocker policies by using Group Policy</source>
+          <target>Maintaining AppLocker policies by using Group Policy</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Maintaining AppLocker policies on the local computer</source>
+          <target>Maintaining AppLocker policies on the local computer</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>As new apps are deployed or existing apps are removed by your organization or updated by the software publisher, you might need to make revisions to your rules and update the Group Policy Object (GPO) to ensure that your policy is current.</source>
+          <target>As new apps are deployed or existing apps are removed by your organization or updated by the software publisher, you might need to make revisions to your rules and update the Group Policy Object (GPO) to ensure that your policy is current.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>You can edit an AppLocker policy by adding, changing, or removing rules.</source>
+          <target>You can edit an AppLocker policy by adding, changing, or removing rules.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>However, you cannot specify a version for the AppLocker policy by importing additional rules.</source>
+          <target>However, you cannot specify a version for the AppLocker policy by importing additional rules.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>To ensure version control when modifying an AppLocker policy, use Group Policy management software that allows you to create versions of GPOs.</source>
+          <target>To ensure version control when modifying an AppLocker policy, use Group Policy management software that allows you to create versions of GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Caution:</pc>  You should not edit an AppLocker rule collection while it is being enforced in Group Policy.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Caution:</pc>  You should not edit an AppLocker rule collection while it is being enforced in Group Policy.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Because AppLocker controls what files are allowed to run, making changes to a live policy can create unexpected behavior.</source>
+          <target>Because AppLocker controls what files are allowed to run, making changes to a live policy can create unexpected behavior.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Maintaining AppLocker policies by using Group Policy</source>
+          <target>Maintaining AppLocker policies by using Group Policy</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>For every scenario, the steps to maintain an AppLocker policy distributed by Group Policy include the following tasks.</source>
+          <target>For every scenario, the steps to maintain an AppLocker policy distributed by Group Policy include the following tasks.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Step 1: Understand the current behavior of the policy</source>
+          <target>Step 1: Understand the current behavior of the policy</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Before modifying a policy, evaluate how the policy is currently implemented.</source>
+          <target>Before modifying a policy, evaluate how the policy is currently implemented.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, if a new version of the application is deployed, you can use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Test-AppLockerPolicy</pc> to verify the effectiveness of your current policy for that app.</source>
+          <target>For example, if a new version of the application is deployed, you can use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Test-AppLockerPolicy</pc> to verify the effectiveness of your current policy for that app.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Step 2: Export the AppLocker policy from the GPO</source>
+          <target>Step 2: Export the AppLocker policy from the GPO</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Updating an AppLocker policy that is currently enforced in your production environment can have unintended results.</source>
+          <target>Updating an AppLocker policy that is currently enforced in your production environment can have unintended results.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Therefore, export the policy from the GPO and update the rule or rules by using AppLocker on your AppLocker reference or test computer.</source>
+          <target>Therefore, export the policy from the GPO and update the rule or rules by using AppLocker on your AppLocker reference or test computer.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](export-an-applocker-policy-from-a-gpo.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To prepare an AppLocker policy for modification, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Export an AppLocker policy from a GPO</pc></source>
+          <target>To prepare an AppLocker policy for modification, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Export an AppLocker policy from a GPO</pc></target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Step 3: Update the AppLocker policy by editing the appropriate AppLocker rule</source>
+          <target>Step 3: Update the AppLocker policy by editing the appropriate AppLocker rule</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>After the AppLocker policy has been exported from the GPO into the AppLocker reference or test computer, or has been accessed on the local computer, the specific rules can be modified as required.</source>
+          <target>After the AppLocker policy has been exported from the GPO into the AppLocker reference or test computer, or has been accessed on the local computer, the specific rules can be modified as required.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>To modify AppLocker rules, see the following:</source>
+          <target>To modify AppLocker rules, see the following:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Edit AppLocker rules</source>
+          <target>Edit AppLocker rules</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](merge-applocker-policies-by-using-set-applockerpolicy.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](merge-applocker-policies-manually.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Merge AppLocker policies by using Set-ApplockerPolicy</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Merge AppLocker policies manually</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Merge AppLocker policies by using Set-ApplockerPolicy</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Merge AppLocker policies manually</pc></target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Delete an AppLocker rule</source>
+          <target>Delete an AppLocker rule</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Enforce AppLocker rules</source>
+          <target>Enforce AppLocker rules</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Step 4: Test the AppLocker policy</source>
+          <target>Step 4: Test the AppLocker policy</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>You should test each collection of rules to ensure that the rules perform as intended.</source>
+          <target>You should test each collection of rules to ensure that the rules perform as intended.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](test-and-update-an-applocker-policy.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>(Because AppLocker rules are inherited from linked GPOs, you should deploy all rules for simultaneous testing in all test GPOs.) For steps to perform this testing, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Test and update an AppLocker policy</pc>.</source>
+          <target>(Because AppLocker rules are inherited from linked GPOs, you should deploy all rules for simultaneous testing in all test GPOs.) For steps to perform this testing, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Test and update an AppLocker policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Step 5: Import the AppLocker policy into the GPO</source>
+          <target>Step 5: Import the AppLocker policy into the GPO</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>After testing, import the AppLocker policy back into the GPO for implementation.</source>
+          <target>After testing, import the AppLocker policy back into the GPO for implementation.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](import-an-applocker-policy-into-a-gpo.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To update the GPO with a modified AppLocker policy, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Import an AppLocker policy into a GPO</pc>.</source>
+          <target>To update the GPO with a modified AppLocker policy, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Import an AppLocker policy into a GPO</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Step 6: Monitor the resulting policy behavior</source>
+          <target>Step 6: Monitor the resulting policy behavior</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>After deploying a policy, evaluate the policy's effectiveness.</source>
+          <target>After deploying a policy, evaluate the policy's effectiveness.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Maintaining AppLocker policies by using the Local Security Policy snap-in</source>
+          <target>Maintaining AppLocker policies by using the Local Security Policy snap-in</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>For every scenario, the steps to maintain an AppLocker policy by using the Local Group Policy Editor or the Local Security Policy snap-in include the following tasks.</source>
+          <target>For every scenario, the steps to maintain an AppLocker policy by using the Local Group Policy Editor or the Local Security Policy snap-in include the following tasks.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Step 1: Understand the current behavior of the policy</source>
+          <target>Step 1: Understand the current behavior of the policy</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Before modifying a policy, evaluate how the policy is currently implemented.</source>
+          <target>Before modifying a policy, evaluate how the policy is currently implemented.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Step 2: Update the AppLocker policy by modifying the appropriate AppLocker rule</source>
+          <target>Step 2: Update the AppLocker policy by modifying the appropriate AppLocker rule</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Rules are grouped into a collection, which can have the policy enforcement setting applied to it.</source>
+          <target>Rules are grouped into a collection, which can have the policy enforcement setting applied to it.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>By default, AppLocker rules do not allow users to open or run any files that are not specifically allowed.</source>
+          <target>By default, AppLocker rules do not allow users to open or run any files that are not specifically allowed.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](administer-applocker.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To modify AppLocker rules, see the appropriate topic listed on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administer AppLocker</pc>.</source>
+          <target>To modify AppLocker rules, see the appropriate topic listed on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administer AppLocker</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Step 3: Test the AppLocker policy</source>
+          <target>Step 3: Test the AppLocker policy</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>You should test each collection of rules to ensure that the rules perform as intended.</source>
+          <target>You should test each collection of rules to ensure that the rules perform as intended.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](test-and-update-an-applocker-policy.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For steps to perform this testing, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Test and update an AppLocker policy</pc>.</source>
+          <target>For steps to perform this testing, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Test and update an AppLocker policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Step 4: Deploy the policy with the modified rule</source>
+          <target>Step 4: Deploy the policy with the modified rule</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>You can export and then import AppLocker policies to deploy the policy to other computers running Windows 8 or later.</source>
+          <target>You can export and then import AppLocker policies to deploy the policy to other computers running Windows 8 or later.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](export-an-applocker-policy-to-an-xml-file.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](import-an-applocker-policy-from-another-computer.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To perform this task, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Export an AppLocker policy to an XML file</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Import an AppLocker policy from another computer</pc>.</source>
+          <target>To perform this task, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Export an AppLocker policy to an XML file</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Import an AppLocker policy from another computer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Step 5: Monitor the resulting policy behavior</source>
+          <target>Step 5: Monitor the resulting policy behavior</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>After deploying a policy, evaluate the policy's effectiveness.</source>
+          <target>After deploying a policy, evaluate the policy's effectiveness.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Additional resources</source>
+          <target>Additional resources</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](administer-applocker.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For steps to perform other AppLocker policy tasks, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administer AppLocker</pc>.</source>
+          <target>For steps to perform other AppLocker policy tasks, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administer AppLocker</pc>.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,3130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\agpm\step-by-step-guide-for-microsoft-advanced-group-policy-management-40.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">cd032aeae075eb8e368bef2126b7e039217f6f41</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Step-by-Step Guide for Microsoft Advanced Group Policy Management 4.0</source>
+          <target>Step-by-Step Guide for Microsoft Advanced Group Policy Management 4.0</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Step-by-Step Guide for Microsoft Advanced Group Policy Management 4.0</source>
+          <target>Step-by-Step Guide for Microsoft Advanced Group Policy Management 4.0</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Step-by-Step Guide for Microsoft Advanced Group Policy Management 4.0</source>
+          <target>Step-by-Step Guide for Microsoft Advanced Group Policy Management 4.0</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This step-by-step guide demonstrates advanced techniques for Group Policy management that use the Group Policy Management Console (GPMC) and Microsoft Advanced Group Policy Management (AGPM).</source>
+          <target>This step-by-step guide demonstrates advanced techniques for Group Policy management that use the Group Policy Management Console (GPMC) and Microsoft Advanced Group Policy Management (AGPM).</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>AGPM increases the capabilities of the GPMC, providing:</source>
+          <target>AGPM increases the capabilities of the GPMC, providing:</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Standard roles for delegating permissions to manage Group Policy Objects (GPOs) to multiple Group Policy administrators, in addition to the ability to delegate access to GPOs in the production environment.</source>
+          <target>Standard roles for delegating permissions to manage Group Policy Objects (GPOs) to multiple Group Policy administrators, in addition to the ability to delegate access to GPOs in the production environment.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>An archive to enable Group Policy administrators to create and modify GPOs offline before the GPOs are deployed into a production environment.</source>
+          <target>An archive to enable Group Policy administrators to create and modify GPOs offline before the GPOs are deployed into a production environment.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The ability to roll back to any earlier version of a GPO in the archive and to limit the number of versions stored in the archive.</source>
+          <target>The ability to roll back to any earlier version of a GPO in the archive and to limit the number of versions stored in the archive.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Check-in and check-out capability for GPOs to make sure that Group Policy administrators do not unintentionally overwrite each other's work.</source>
+          <target>Check-in and check-out capability for GPOs to make sure that Group Policy administrators do not unintentionally overwrite each other's work.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>The ability to search for GPOs with specific attributes and to filter the list of GPOs displayed.</source>
+          <target>The ability to search for GPOs with specific attributes and to filter the list of GPOs displayed.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>AGPM scenario overview</source>
+          <target>AGPM scenario overview</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>For this scenario, you will use a separate user account for each role in AGPM to demonstrate how Group Policy can be managed in an environment that has multiple Group Policy administrators who have different levels of permissions.</source>
+          <target>For this scenario, you will use a separate user account for each role in AGPM to demonstrate how Group Policy can be managed in an environment that has multiple Group Policy administrators who have different levels of permissions.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Specifically, you will perform the following tasks:</source>
+          <target>Specifically, you will perform the following tasks:</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Using an account that is a member of the Domain Admins group, install AGPM Server and assign the AGPM Administrator role to an account or group.</source>
+          <target>Using an account that is a member of the Domain Admins group, install AGPM Server and assign the AGPM Administrator role to an account or group.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Using accounts to which you will assign AGPM roles, install AGPM Client.</source>
+          <target>Using accounts to which you will assign AGPM roles, install AGPM Client.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Using an account that has the AGPM Administrator role, configure AGPM and delegate access to GPOs by assigning roles to other accounts.</source>
+          <target>Using an account that has the AGPM Administrator role, configure AGPM and delegate access to GPOs by assigning roles to other accounts.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>From an account that has the Editor role, request that a new GPO be created that you then approve by using an account that has the Approver role.</source>
+          <target>From an account that has the Editor role, request that a new GPO be created that you then approve by using an account that has the Approver role.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Use the Editor account to check the GPO out of the archive, edit the GPO, check the GPO into the archive, and then request deployment.</source>
+          <target>Use the Editor account to check the GPO out of the archive, edit the GPO, check the GPO into the archive, and then request deployment.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Using an account that has the Approver role, review the GPO and deploy it to your production environment.</source>
+          <target>Using an account that has the Approver role, review the GPO and deploy it to your production environment.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Using an account that has the Editor role, create a GPO template and use it as a starting point to create a new GPO.</source>
+          <target>Using an account that has the Editor role, create a GPO template and use it as a starting point to create a new GPO.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Using an account that has the Approver role, delete and restore a GPO.</source>
+          <target>Using an account that has the Approver role, delete and restore a GPO.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>group policy object development process</source>
+          <target>group policy object development process</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Requirements</source>
+          <target>Requirements</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Computers on which you want to install AGPM must meet the following requirements, and you must create accounts for use in this scenario.</source>
+          <target>Computers on which you want to install AGPM must meet the following requirements, and you must create accounts for use in this scenario.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>If you have AGPM 2.5 installed and are upgrading from Windows Server® 2003 to Windows Server 2008 R2 or Windows Server 2008, or are upgrading from Windows Vista with no service packs installed to Windows 7 or Windows Vista® with Service Pack 1 (SP1), you must upgrade the operating system before you can upgrade to AGPM 4.0.</source>
+          <target>If you have AGPM 2.5 installed and are upgrading from Windows Server® 2003 to Windows Server 2008 R2 or Windows Server 2008, or are upgrading from Windows Vista with no service packs installed to Windows 7 or Windows Vista® with Service Pack 1 (SP1), you must upgrade the operating system before you can upgrade to AGPM 4.0.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>If you have AGPM 3.0 installed, you do not have to upgrade the operating system before you upgrade to AGPM 4.0</source>
+          <target>If you have AGPM 3.0 installed, you do not have to upgrade the operating system before you upgrade to AGPM 4.0</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>In a mixed environment that includes both newer and older operating systems, there are some limitations to functionality, as indicated in the following table.</source>
+          <target>In a mixed environment that includes both newer and older operating systems, there are some limitations to functionality, as indicated in the following table.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Operating system on which AGPM Server 4.0 runs</source>
+          <target>Operating system on which AGPM Server 4.0 runs</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Operating system on which AGPM Client 4.0 runs</source>
+          <target>Operating system on which AGPM Client 4.0 runs</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Status of AGPM 4.0 support</source>
+          <target>Status of AGPM 4.0 support</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Windows Server 2008 R2 or Windows 7</source>
+          <target>Windows Server 2008 R2 or Windows 7</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Windows Server 2008 R2 or Windows 7</source>
+          <target>Windows Server 2008 R2 or Windows 7</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Supported</source>
+          <target>Supported</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Windows Server 2008 R2 or Windows 7</source>
+          <target>Windows Server 2008 R2 or Windows 7</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Windows Server 2008 or Windows Vista with SP1</source>
+          <target>Windows Server 2008 or Windows Vista with SP1</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Supported, but cannot edit policy settings or preference items that exist only in Windows Server 2008 R2 or Windows 7</source>
+          <target>Supported, but cannot edit policy settings or preference items that exist only in Windows Server 2008 R2 or Windows 7</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Windows Server 2008 or Windows Vista with SP1</source>
+          <target>Windows Server 2008 or Windows Vista with SP1</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Windows Server 2008 R2 or Windows 7</source>
+          <target>Windows Server 2008 R2 or Windows 7</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Unsupported</source>
+          <target>Unsupported</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Windows Server 2008 or Windows Vista with SP1</source>
+          <target>Windows Server 2008 or Windows Vista with SP1</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Windows Server 2008 or Windows Vista with SP1</source>
+          <target>Windows Server 2008 or Windows Vista with SP1</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Supported, but cannot report or edit policy settings or preference items that exist only in Windows Server 2008 R2 or Windows 7</source>
+          <target>Supported, but cannot report or edit policy settings or preference items that exist only in Windows Server 2008 R2 or Windows 7</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>AGPM Server requirements</source>
+          <target>AGPM Server requirements</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>AGPM Server 4.0 requires Windows Server 2008 R2, Windows Server 2008, Windows 7 and the GPMC from Remote Server Administration Tools (RSAT), or Windows Vista with SP1 and the GPMC from RSAT installed.</source>
+          <target>AGPM Server 4.0 requires Windows Server 2008 R2, Windows Server 2008, Windows 7 and the GPMC from Remote Server Administration Tools (RSAT), or Windows Vista with SP1 and the GPMC from RSAT installed.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Both 32-bit and 64-bit versions are supported.</source>
+          <target>Both 32-bit and 64-bit versions are supported.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Before you install AGPM Server, you must be a member of the Domain Admins group and the following Windows features must be present unless otherwise noted:</source>
+          <target>Before you install AGPM Server, you must be a member of the Domain Admins group and the following Windows features must be present unless otherwise noted:</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>GPMC</source>
+          <target>GPMC</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Windows Server 2008 R2 or Windows Server 2008: If the GPMC is not present, it is automatically installed by AGPM.</source>
+          <target>Windows Server 2008 R2 or Windows Server 2008: If the GPMC is not present, it is automatically installed by AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Windows 7: You must install the GPMC from RSAT before you install AGPM.</source>
+          <target>Windows 7: You must install the GPMC from RSAT before you install AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkID=131280)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Server Administration Tools for Windows 7</pc> (http://go.microsoft.com/fwlink/?LinkID=131280).</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Server Administration Tools for Windows 7</pc> (http://go.microsoft.com/fwlink/?LinkID=131280).</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Windows Vista with SP1: You must install the GPMC from RSAT before you install AGPM.</source>
+          <target>Windows Vista with SP1: You must install the GPMC from RSAT before you install AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkID=116179)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Server Administration Tools for Windows Vista with Service Pack 1</pc> (http://go.microsoft.com/fwlink/?LinkID=116179).</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Server Administration Tools for Windows Vista with Service Pack 1</pc> (http://go.microsoft.com/fwlink/?LinkID=116179).</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>The .NET Framework 3.5 or later versions</source>
+          <target>The .NET Framework 3.5 or later versions</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Windows Server 2008 R2 or Windows 7: If the .NET Framework 3.5 or later version is not present, the .NET Framework 3.5 is automatically installed by AGPM.</source>
+          <target>Windows Server 2008 R2 or Windows 7: If the .NET Framework 3.5 or later version is not present, the .NET Framework 3.5 is automatically installed by AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Windows Server 2008 or Windows Vista with SP1: You must install the .NET Framework 3.5 or a later version before you install AGPM.</source>
+          <target>Windows Server 2008 or Windows Vista with SP1: You must install the .NET Framework 3.5 or a later version before you install AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>The following Windows features are required by AGPM Server and will be automatically installed if they are not present:</source>
+          <target>The following Windows features are required by AGPM Server and will be automatically installed if they are not present:</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>WCF Activation; Non-HTTP Activation</source>
+          <target>WCF Activation; Non-HTTP Activation</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Windows Process Activation Service</source>
+          <target>Windows Process Activation Service</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Process Model</source>
+          <target>Process Model</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>The .NET Environment</source>
+          <target>The .NET Environment</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Configuration APIs</source>
+          <target>Configuration APIs</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>AGPM Client requirements</source>
+          <target>AGPM Client requirements</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>AGPM Client 4.0 requires Windows Server 2008 R2, Windows Server 2008, Windows 7 and the GPMC from RSAT, or Windows Vista with SP1 and the GPMC from RSAT installed.</source>
+          <target>AGPM Client 4.0 requires Windows Server 2008 R2, Windows Server 2008, Windows 7 and the GPMC from RSAT, or Windows Vista with SP1 and the GPMC from RSAT installed.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Both 32-bit and 64-bit versions are supported.</source>
+          <target>Both 32-bit and 64-bit versions are supported.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>AGPM Client can be installed on a computer that is running AGPM Server.</source>
+          <target>AGPM Client can be installed on a computer that is running AGPM Server.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>The following Windows features are required by AGPM Client and unless otherwise noted are automatically installed if they are not present:</source>
+          <target>The following Windows features are required by AGPM Client and unless otherwise noted are automatically installed if they are not present:</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>GPMC</source>
+          <target>GPMC</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Windows Server 2008 R2 or Windows Server 2008: If the GPMC is not present, it is automatically installed by AGPM.</source>
+          <target>Windows Server 2008 R2 or Windows Server 2008: If the GPMC is not present, it is automatically installed by AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Windows 7: You must install the GPMC from RSAT before you install AGPM.</source>
+          <target>Windows 7: You must install the GPMC from RSAT before you install AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkID=131280)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Server Administration Tools for Windows 7</pc> (http://go.microsoft.com/fwlink/?LinkID=131280).</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Server Administration Tools for Windows 7</pc> (http://go.microsoft.com/fwlink/?LinkID=131280).</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Windows Vista with SP1: You must install the GPMC from RSAT before you install AGPM.</source>
+          <target>Windows Vista with SP1: You must install the GPMC from RSAT before you install AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkID=116179)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Server Administration Tools for Windows Vista with Service Pack 1</pc> (http://go.microsoft.com/fwlink/?LinkID=116179).</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Server Administration Tools for Windows Vista with Service Pack 1</pc> (http://go.microsoft.com/fwlink/?LinkID=116179).</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>The .NET Framework 3.0 or later version</source>
+          <target>The .NET Framework 3.0 or later version</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Windows Server 2008 R2 or Windows 7: If the .NET Framework 3.0 or later version is not present, the .NET Framework 3.5 is automatically installed by AGPM.</source>
+          <target>Windows Server 2008 R2 or Windows 7: If the .NET Framework 3.0 or later version is not present, the .NET Framework 3.5 is automatically installed by AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Windows Server 2008 or Windows Vista with SP1: If the .NET Framework 3.0 or later version is not present, the .NET Framework 3.0 is automatically installed by AGPM.</source>
+          <target>Windows Server 2008 or Windows Vista with SP1: If the .NET Framework 3.0 or later version is not present, the .NET Framework 3.0 is automatically installed by AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Scenario requirements</source>
+          <target>Scenario requirements</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Before you begin this scenario, create four user accounts.</source>
+          <target>Before you begin this scenario, create four user accounts.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>During the scenario, you will assign one of the following AGPM roles to each of these accounts: AGPM Administrator (Full Control), Approver, Editor, and Reviewer.</source>
+          <target>During the scenario, you will assign one of the following AGPM roles to each of these accounts: AGPM Administrator (Full Control), Approver, Editor, and Reviewer.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>These accounts must be able to send and receive e-mail messages.</source>
+          <target>These accounts must be able to send and receive e-mail messages.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Assign <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Link GPOs</pc> permission to the accounts that have the AGPM Administrator, Approver, and (optionally) Editor roles.</source>
+          <target>Assign <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Link GPOs</pc> permission to the accounts that have the AGPM Administrator, Approver, and (optionally) Editor roles.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Link GPOs</pc> permission is assigned to members of Domain Administrators and Enterprise Administrators by default.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Link GPOs</pc> permission is assigned to members of Domain Administrators and Enterprise Administrators by default.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To assign <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Link GPOs</pc> permission to additional users or groups (such as accounts that have the roles of AGPM Administrator or Approver), click the node for the domain and then click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Delegation</pc> tab, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Link GPOs</pc>, click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Add</pc>, and select users or groups to which you want to assign the permission.</source>
+          <target>To assign <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Link GPOs</pc> permission to additional users or groups (such as accounts that have the roles of AGPM Administrator or Approver), click the node for the domain and then click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Delegation</pc> tab, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Link GPOs</pc>, click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Add</pc>, and select users or groups to which you want to assign the permission.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Steps for installing and configuring AGPM</source>
+          <target>Steps for installing and configuring AGPM</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>You must complete the following steps to install and configure AGPM.</source>
+          <target>You must complete the following steps to install and configure AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Step 1: Install AGPM Server</source>
+          <target>Step 1: Install AGPM Server</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Step 2: Install AGPM Client</source>
+          <target>Step 2: Install AGPM Client</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Step 3: Configure an AGPM Server connection</source>
+          <target>Step 3: Configure an AGPM Server connection</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Step 4: Configure e-mail notification</source>
+          <target>Step 4: Configure e-mail notification</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Step 5: Delegate access</source>
+          <target>Step 5: Delegate access</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Step 1: Install AGPM Server</source>
+          <target>Step 1: Install AGPM Server</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>In this step, you install AGPM Server on the member server or domain controller that will run the AGPM Service, and you configure the archive.</source>
+          <target>In this step, you install AGPM Server on the member server or domain controller that will run the AGPM Service, and you configure the archive.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>All AGPM operations are managed through this Windows service and are executed with the service's credentials.</source>
+          <target>All AGPM operations are managed through this Windows service and are executed with the service's credentials.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>The archive managed by an AGPM Server can be hosted on that server or on another server in the same forest.</source>
+          <target>The archive managed by an AGPM Server can be hosted on that server or on another server in the same forest.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>To install AGPM Server on the computer that will host the AGPM Service</source>
+          <target>To install AGPM Server on the computer that will host the AGPM Service</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Log on with an account that is a member of the Domain Admins group.</source>
+          <target>Log on with an account that is a member of the Domain Admins group.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Start the Microsoft Desktop Optimization Pack CD and follow the instructions on screen to select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced Group Policy Management - Server</pc>.</source>
+          <target>Start the Microsoft Desktop Optimization Pack CD and follow the instructions on screen to select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced Group Policy Management - Server</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Welcome</pc> dialog box, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Welcome</pc> dialog box, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Software License Terms</pc> dialog box, accept the terms and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Software License Terms</pc> dialog box, accept the terms and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Path</pc> dialog box, select a location in which to install AGPM Server.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Path</pc> dialog box, select a location in which to install AGPM Server.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>The computer on which AGPM Server is installed will host the AGPM Service and manage the archive.</source>
+          <target>The computer on which AGPM Server is installed will host the AGPM Service and manage the archive.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Archive Path</pc> dialog box, select a location for the archive in relation to the AGPM Server.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Archive Path</pc> dialog box, select a location for the archive in relation to the AGPM Server.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>The archive path can point to a folder on the AGPM Server or elsewhere.</source>
+          <target>The archive path can point to a folder on the AGPM Server or elsewhere.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>However, you should select a location with sufficient space to store all GPOs and history data managed by this AGPM Server.</source>
+          <target>However, you should select a location with sufficient space to store all GPOs and history data managed by this AGPM Server.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Service Account</pc> dialog box, select a service account under which the AGPM Service will run and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Service Account</pc> dialog box, select a service account under which the AGPM Service will run and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>This account must be a member of the either the Domain Admins group or, for a least-privilege configuration, the following groups in each domain managed by the AGPM Server:</source>
+          <target>This account must be a member of the either the Domain Admins group or, for a least-privilege configuration, the following groups in each domain managed by the AGPM Server:</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Group Policy Creator Owners</source>
+          <target>Group Policy Creator Owners</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Backup Operators</source>
+          <target>Backup Operators</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Additionally, this account requires Full Control permission for the following folders:</source>
+          <target>Additionally, this account requires Full Control permission for the following folders:</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>The AGPM archive folder, for which this permission is automatically granted during the installation of AGPM Server if it is installed on a local drive.</source>
+          <target>The AGPM archive folder, for which this permission is automatically granted during the installation of AGPM Server if it is installed on a local drive.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The local system temp folder, typically %windir%<ph dataRef="id1" id="ph1" />temp.</source>
+          <target>The local system temp folder, typically %windir%<ph dataRef="id1" id="ph1" />temp.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Archive Owner</pc> dialog box, select an account or group to which you assign the AGPM Administrator (Full Control) role.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Archive Owner</pc> dialog box, select an account or group to which you assign the AGPM Administrator (Full Control) role.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>AGPM Administrators can assign AGPM roles and permissions to other Group Policy administrators, so that later you can assign the role of AGPM Administrator to additional Group Policy administrators.</source>
+          <target>AGPM Administrators can assign AGPM roles and permissions to other Group Policy administrators, so that later you can assign the role of AGPM Administrator to additional Group Policy administrators.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>For this scenario, select the account to serve in the AGPM Administrator role.</source>
+          <target>For this scenario, select the account to serve in the AGPM Administrator role.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Port Configuration</pc> dialog box, type a port on which the AGPM Service should listen.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Port Configuration</pc> dialog box, type a port on which the AGPM Service should listen.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Do not clear the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add port exception to firewall</pc> check box unless you manually configure port exceptions or use rules to configure port exceptions.</source>
+          <target>Do not clear the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add port exception to firewall</pc> check box unless you manually configure port exceptions or use rules to configure port exceptions.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Languages</pc> dialog box, select one or more display languages to install for AGPM Server.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Languages</pc> dialog box, select one or more display languages to install for AGPM Server.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc> to exit the Setup Wizard.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc> to exit the Setup Wizard.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Caution</source>
+          <target>Caution</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Do not change settings for the AGPM Service through <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administrative Tools</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Services</pc> in the operating system.</source>
+          <target>Do not change settings for the AGPM Service through <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administrative Tools</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Services</pc> in the operating system.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Doing this can prevent the AGPM Service from starting.</source>
+          <target>Doing this can prevent the AGPM Service from starting.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>For information about how to change settings for the service, see Help for Advanced Group Policy Management.</source>
+          <target>For information about how to change settings for the service, see Help for Advanced Group Policy Management.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Step 2: Install AGPM Client</source>
+          <target>Step 2: Install AGPM Client</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Each Group Policy administrator—anyone who creates, edits, deploys, reviews, or deletes GPOs—must have AGPM Client installed on computers that they use to manage GPOs.</source>
+          <target>Each Group Policy administrator—anyone who creates, edits, deploys, reviews, or deletes GPOs—must have AGPM Client installed on computers that they use to manage GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>The Change Control node, which you use to perform many of the GPO management tasks, appears in the Group Policy Management Console only if you install the AGPM Client.</source>
+          <target>The Change Control node, which you use to perform many of the GPO management tasks, appears in the Group Policy Management Console only if you install the AGPM Client.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>For this scenario, you install AGPM Client on at least one computer.</source>
+          <target>For this scenario, you install AGPM Client on at least one computer.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>You do not need to install AGPM Client on the computers of end users who do not perform Group Policy administration.</source>
+          <target>You do not need to install AGPM Client on the computers of end users who do not perform Group Policy administration.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>To install AGPM Client on the computer of a Group Policy administrator</source>
+          <target>To install AGPM Client on the computer of a Group Policy administrator</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Start the Microsoft Desktop Optimization Pack CD and follow the instructions on screen to select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced Group Policy Management - Client</pc>.</source>
+          <target>Start the Microsoft Desktop Optimization Pack CD and follow the instructions on screen to select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced Group Policy Management - Client</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Welcome</pc> dialog box, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Welcome</pc> dialog box, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Software License Terms</pc> dialog box, accept the terms and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Software License Terms</pc> dialog box, accept the terms and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Path</pc> dialog box, select a location in which to install AGPM Client.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Path</pc> dialog box, select a location in which to install AGPM Client.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Server</pc> dialog box, type the DNS name or IP address for the AGPM Server and the port to which you want to connect.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Server</pc> dialog box, type the DNS name or IP address for the AGPM Server and the port to which you want to connect.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>The default port for the AGPM Service is 4600.</source>
+          <target>The default port for the AGPM Service is 4600.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Do not clear the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow Microsoft Management Console through the firewall</pc> check box unless you manually configure port exceptions or use rules to configure port exceptions.</source>
+          <target>Do not clear the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow Microsoft Management Console through the firewall</pc> check box unless you manually configure port exceptions or use rules to configure port exceptions.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Languages</pc> dialog box, select one or more display languages to install for AGPM Client.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Languages</pc> dialog box, select one or more display languages to install for AGPM Client.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc> to exit the Setup Wizard.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc> to exit the Setup Wizard.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>Step 3: Configure an AGPM Server connection</source>
+          <target>Step 3: Configure an AGPM Server connection</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>AGPM stores all versions of each controlled Group Policy Object (GPO), that is, each GPO for which AGPM provides change control, in a central archive.</source>
+          <target>AGPM stores all versions of each controlled Group Policy Object (GPO), that is, each GPO for which AGPM provides change control, in a central archive.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>This lets Group Policy administrators view and change GPOs offline without immediately affecting the deployed version of each GPO.</source>
+          <target>This lets Group Policy administrators view and change GPOs offline without immediately affecting the deployed version of each GPO.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>In this step, you configure an AGPM Server connection and ensure that all Group Policy administrators connect to the same AGPM Server.</source>
+          <target>In this step, you configure an AGPM Server connection and ensure that all Group Policy administrators connect to the same AGPM Server.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>(For information about how to configure multiple AGPM Servers, see Help for Advanced Group Policy Management.)</source>
+          <target>(For information about how to configure multiple AGPM Servers, see Help for Advanced Group Policy Management.)</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>To configure an AGPM Server connection for all Group Policy administrators</source>
+          <target>To configure an AGPM Server connection for all Group Policy administrators</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>On a computer on which you have installed AGPM Client, log on with the user account that you selected as the Archive Owner.</source>
+          <target>On a computer on which you have installed AGPM Client, log on with the user account that you selected as the Archive Owner.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>This user has the role of AGPM Administrator (Full Control).</source>
+          <target>This user has the role of AGPM Administrator (Full Control).</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Administrative Tools</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Group Policy Management</pc> to open the GPMC.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Administrative Tools</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Group Policy Management</pc> to open the GPMC.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>Edit a GPO that is applied to all Group Policy administrators.</source>
+          <target>Edit a GPO that is applied to all Group Policy administrators.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">**</data>
+          <data id="id12">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Editor</pc> window, double-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User Configuration</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Policies</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Administrative Templates</pc>, <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Windows Components</pc>, and <pc dataRefEnd="id12" dataRefStart="id11" id="p6">AGPM</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Editor</pc> window, double-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User Configuration</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Policies</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Administrative Templates</pc>, <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Windows Components</pc>, and <pc dataRefEnd="id12" dataRefStart="id11" id="p6">AGPM</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the details pane, double-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM: Specify default AGPM Server (all domains)</pc>.</source>
+          <target>In the details pane, double-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM: Specify default AGPM Server (all domains)</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc> window, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enabled</pc> and type the DNS name or IP address and port (for example, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">server.contoso.com:4600</pc>) for the server hosting the archive.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc> window, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enabled</pc> and type the DNS name or IP address and port (for example, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">server.contoso.com:4600</pc>) for the server hosting the archive.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>By default, the AGPM Service uses port 4600.</source>
+          <target>By default, the AGPM Service uses port 4600.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>, and then close the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Group Policy Management Editor</pc> window.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>, and then close the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Group Policy Management Editor</pc> window.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>When Group Policy is updated, the AGPM Server connection is configured for each Group Policy administrator.</source>
+          <target>When Group Policy is updated, the AGPM Server connection is configured for each Group Policy administrator.</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>Step 4: Configure e-mail notification</source>
+          <target>Step 4: Configure e-mail notification</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>As an AGPM Administrator (Full Control), you designate the e-mail addresses of Approvers and AGPM Administrators to whom an e-mail message that contains a request is sent when an Editor tries to create, deploy, or delete a GPO.</source>
+          <target>As an AGPM Administrator (Full Control), you designate the e-mail addresses of Approvers and AGPM Administrators to whom an e-mail message that contains a request is sent when an Editor tries to create, deploy, or delete a GPO.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>You also determine the alias from which these messages are sent.</source>
+          <target>You also determine the alias from which these messages are sent.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>To configure e-mail notification for AGPM</source>
+          <target>To configure e-mail notification for AGPM</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the details pane, click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Domain Delegation</pc> tab.</source>
+          <target>In the details pane, click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Domain Delegation</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">From e-mail address</pc> field, type the e-mail alias for AGPM from which notifications should be sent.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">From e-mail address</pc> field, type the e-mail alias for AGPM from which notifications should be sent.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">To e-mail address</pc> field, type the e-mail address for the user account to which you intend to assign the Approver role.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">To e-mail address</pc> field, type the e-mail address for the user account to which you intend to assign the Approver role.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SMTP server</pc> field, type a valid SMTP mail server.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SMTP server</pc> field, type a valid SMTP mail server.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">User name</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Password</pc> fields, type the credentials of a user who has access to the SMTP service.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">User name</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Password</pc> fields, type the credentials of a user who has access to the SMTP service.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apply</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apply</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>Step 5: Delegate access</source>
+          <target>Step 5: Delegate access</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>As an AGPM Administrator (Full Control), you delegate domain-level access to GPOs, assigning roles to the account of each Group Policy administrator.</source>
+          <target>As an AGPM Administrator (Full Control), you delegate domain-level access to GPOs, assigning roles to the account of each Group Policy administrator.</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>You can also delegate access at the GPO level instead of the domain level.</source>
+          <target>You can also delegate access at the GPO level instead of the domain level.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>For more information, see Help for Advanced Group Policy Management.</source>
+          <target>For more information, see Help for Advanced Group Policy Management.</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>You should restrict membership in the Group Policy Creator Owners group so that it cannot be used to circumvent AGPM management of access to GPOs.</source>
+          <target>You should restrict membership in the Group Policy Creator Owners group so that it cannot be used to circumvent AGPM management of access to GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>(In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Group Policy Objects</pc> in the forest and domain in which you want to manage GPOs, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Delegation</pc>, and then configure the settings to meet the needs of your organization.)</source>
+          <target>(In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Group Policy Objects</pc> in the forest and domain in which you want to manage GPOs, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Delegation</pc>, and then configure the settings to meet the needs of your organization.)</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>To delegate access to all GPOs throughout a domain</source>
+          <target>To delegate access to all GPOs throughout a domain</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Domain Delegation</pc> tab, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc> button, select the user account of the Group Policy administrator to serve as Approver, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Domain Delegation</pc> tab, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc> button, select the user account of the Group Policy administrator to serve as Approver, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Group or User</pc> dialog box, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Approver</pc> role to assign that role to the account, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Group or User</pc> dialog box, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Approver</pc> role to assign that role to the account, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>(This role includes the Reviewer role.)</source>
+          <target>(This role includes the Reviewer role.)</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc> button, select the user account of the Group Policy administrator to serve as Editor, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</source>
+          <target>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc> button, select the user account of the Group Policy administrator to serve as Editor, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Group or User</pc> dialog box, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Editor</pc> role to assign that role to the account, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Group or User</pc> dialog box, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Editor</pc> role to assign that role to the account, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>(This role includes the Reviewer role.)</source>
+          <target>(This role includes the Reviewer role.)</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc> button, select the user account of the Group Policy administrator to serve as Reviewer, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</source>
+          <target>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc> button, select the user account of the Group Policy administrator to serve as Reviewer, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Group or User</pc> dialog box, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Reviewer</pc> role to assign only that role to the account.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Group or User</pc> dialog box, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Reviewer</pc> role to assign only that role to the account.</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>Steps for managing GPOs</source>
+          <target>Steps for managing GPOs</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>You must complete the following steps to create, edit, review, and deploy GPOs by using AGPM.</source>
+          <target>You must complete the following steps to create, edit, review, and deploy GPOs by using AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>Additionally, you will create a template, delete a GPO, and restore a deleted GPO.</source>
+          <target>Additionally, you will create a template, delete a GPO, and restore a deleted GPO.</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>Step 1: Create a GPO</source>
+          <target>Step 1: Create a GPO</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>Step 2: Edit a GPO</source>
+          <target>Step 2: Edit a GPO</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>Step 3: Review and deploy a GPO</source>
+          <target>Step 3: Review and deploy a GPO</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>Step 4: Use a template to create a GPO</source>
+          <target>Step 4: Use a template to create a GPO</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>Step 5: Delete and restore a GPO</source>
+          <target>Step 5: Delete and restore a GPO</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>Step 1: Create a GPO</source>
+          <target>Step 1: Create a GPO</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>In an environment that has multiple Group Policy administrators, those with the Editor role can request that new GPOs be created.</source>
+          <target>In an environment that has multiple Group Policy administrators, those with the Editor role can request that new GPOs be created.</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>However, that request must be approved by someone with the Approver role.</source>
+          <target>However, that request must be approved by someone with the Approver role.</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>In this step, you use an account that has the Editor role to request that a new GPO be created.</source>
+          <target>In this step, you use an account that has the Editor role to request that a new GPO be created.</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>Using an account that has the Approver role, you approve this request to create the GPO.</source>
+          <target>Using an account that has the Approver role, you approve this request to create the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>To request that a new GPO be created and managed through AGPM</source>
+          <target>To request that a new GPO be created and managed through AGPM</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>On a computer on which you have installed AGPM Client, log on with a user account that is assigned the Editor role in AGPM.</source>
+          <target>On a computer on which you have installed AGPM Client, log on with a user account that is assigned the Editor role in AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Console</pc> tree, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Change Control</pc> in the forest and domain in which you want to manage GPOs.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Console</pc> tree, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Change Control</pc> in the forest and domain in which you want to manage GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Change Control</pc> node, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Controlled GPO</pc>.</source>
+          <target>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Change Control</pc> node, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Controlled GPO</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">New Controlled GPO</pc> dialog box:</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">New Controlled GPO</pc> dialog box:</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To receive a copy of the request, type your e-mail address in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cc</pc> field.</source>
+          <target>To receive a copy of the request, type your e-mail address in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cc</pc> field.</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc> as the name for the new GPO.</source>
+          <target>Type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc> as the name for the new GPO.</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <segment state="initial">
+          <source>Type a comment for the new GPO.</source>
+          <target>Type a comment for the new GPO.</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create live</pc> so that the new GPO will be deployed to the production environment immediately upon approval.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create live</pc> so that the new GPO will be deployed to the production environment immediately upon approval.</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Submit</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Submit</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The new GPO is displayed on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Pending</pc> tab.</source>
+          <target>The new GPO is displayed on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Pending</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>To approve the pending request to create a GPO</source>
+          <target>To approve the pending request to create a GPO</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>On a computer on which you have installed AGPM Client, log on with a user account that has the role of Approver in AGPM.</source>
+          <target>On a computer on which you have installed AGPM Client, log on with a user account that has the role of Approver in AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>Open the e-mail inbox for the account, and notice that you have received an e-mail message from the AGPM alias with the Editor's request to create a GPO.</source>
+          <target>Open the e-mail inbox for the account, and notice that you have received an e-mail message from the AGPM alias with the Editor's request to create a GPO.</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Console</pc> tree, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Change Control</pc> in the forest and domain in which you want to manage GPOs.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Console</pc> tree, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Change Control</pc> in the forest and domain in which you want to manage GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contents</pc> tab, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Pending</pc> tab to display the pending GPOs.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contents</pc> tab, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Pending</pc> tab to display the pending GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Approve</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Approve</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to confirm approval and move the GPO to the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Controlled</pc> tab.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to confirm approval and move the GPO to the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Controlled</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <segment state="initial">
+          <source>Step 2: Edit a GPO</source>
+          <target>Step 2: Edit a GPO</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <segment state="initial">
+          <source>You can use GPOs to configure computer or user settings and deploy them to many computers or users.</source>
+          <target>You can use GPOs to configure computer or user settings and deploy them to many computers or users.</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <segment state="initial">
+          <source>In this step, you use an account that has the Editor role to check out a GPO from the archive, edit the GPO offline, check the edited GPO into the archive, and request deployment of the GPO to the production environment.</source>
+          <target>In this step, you use an account that has the Editor role to check out a GPO from the archive, edit the GPO offline, check the edited GPO into the archive, and request deployment of the GPO to the production environment.</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <segment state="initial">
+          <source>For this scenario, you configure a setting in the GPO to require that the password be at least eight characters long.</source>
+          <target>For this scenario, you configure a setting in the GPO to require that the password be at least eight characters long.</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <segment state="initial">
+          <source>To check the GPO out from the archive for editing</source>
+          <target>To check the GPO out from the archive for editing</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <segment state="initial">
+          <source>On a computer on which you have installed AGPM Client, log on with a user account that has the role of Editor in AGPM.</source>
+          <target>On a computer on which you have installed AGPM Client, log on with a user account that has the role of Editor in AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Console</pc> tree, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Change Control</pc> in the forest and domain in which you want to manage GPOs.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Console</pc> tree, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Change Control</pc> in the forest and domain in which you want to manage GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contents</pc> tab in the details pane, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Controlled</pc> tab to display the controlled GPOs.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contents</pc> tab in the details pane, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Controlled</pc> tab to display the controlled GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Check Out</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Check Out</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Type a comment to be displayed in the history of the GPO while it is checked out, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Type a comment to be displayed in the history of the GPO while it is checked out, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, the state of the GPO is identified as <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Checked Out</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, the state of the GPO is identified as <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Checked Out</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <segment state="initial">
+          <source>To edit the GPO offline and configure the minimum password length</source>
+          <target>To edit the GPO offline and configure the minimum password length</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyGPO</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Edit</pc> to open the <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Group Policy Management Editor</pc> window and change an offline copy of the GPO.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyGPO</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Edit</pc> to open the <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Group Policy Management Editor</pc> window and change an offline copy of the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <segment state="initial">
+          <source>For this scenario, configure the minimum password length:</source>
+          <target>For this scenario, configure the minimum password length:</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">**</data>
+          <data id="id12">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer Configuration</pc>, double-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policies</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows Settings</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Security Settings</pc>, <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Account Policies</pc>, and <pc dataRefEnd="id12" dataRefStart="id11" id="p6">Password Policy</pc>.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer Configuration</pc>, double-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policies</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows Settings</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Security Settings</pc>, <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Account Policies</pc>, and <pc dataRefEnd="id12" dataRefStart="id11" id="p6">Password Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the details pane, double-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Minimum password length</pc>.</source>
+          <target>In the details pane, double-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Minimum password length</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the properties window, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Define this policy setting</pc> check box, set the number of characters to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">8</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</source>
+          <target>In the properties window, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Define this policy setting</pc> check box, set the number of characters to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">8</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Close the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Editor</pc> window.</source>
+          <target>Close the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Editor</pc> window.</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <segment state="initial">
+          <source>To check the GPO into the archive</source>
+          <target>To check the GPO into the archive</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyGPO</pc> and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Check In</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyGPO</pc> and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Check In</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Type a comment, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Type a comment, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, the state of the GPO is identified as <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Checked In</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, the state of the GPO is identified as <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Checked In</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <segment state="initial">
+          <source>To request the deployment of the GPO to the production environment</source>
+          <target>To request the deployment of the GPO to the production environment</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyGPO</pc> and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Deploy</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyGPO</pc> and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Deploy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <segment state="initial">
+          <source>Because this account is not an Approver or AGPM Administrator, you must submit a request for deployment.</source>
+          <target>Because this account is not an Approver or AGPM Administrator, you must submit a request for deployment.</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To receive a copy of the request, type your e-mail address in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cc</pc> field.</source>
+          <target>To receive a copy of the request, type your e-mail address in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cc</pc> field.</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Type a comment to be displayed in the history of the GPO, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Submit</pc>.</source>
+          <target>Type a comment to be displayed in the history of the GPO, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Submit</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc> is displayed on the list of GPOs on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Pending</pc> tab.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc> is displayed on the list of GPOs on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Pending</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <segment state="initial">
+          <source>Step 3: Review and deploy a GPO</source>
+          <target>Step 3: Review and deploy a GPO</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>In this step, you act as an Approver, creating reports and analyzing the settings and changes to settings in the GPO to determine whether you should approve them.</source>
+          <target>In this step, you act as an Approver, creating reports and analyzing the settings and changes to settings in the GPO to determine whether you should approve them.</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <segment state="initial">
+          <source>After you evaluate the GPO, you deploy it to the production environment and link the GPO to a domain or an organizational unit (OU).</source>
+          <target>After you evaluate the GPO, you deploy it to the production environment and link the GPO to a domain or an organizational unit (OU).</target>
+        </segment>
+      </unit>
+      <unit id="354">
+        <segment state="initial">
+          <source>The GPO takes effect when Group Policy is refreshed for computers in that domain or OU.</source>
+          <target>The GPO takes effect when Group Policy is refreshed for computers in that domain or OU.</target>
+        </segment>
+      </unit>
+      <unit id="355">
+        <segment state="initial">
+          <source>To review settings in the GPO</source>
+          <target>To review settings in the GPO</target>
+        </segment>
+      </unit>
+      <unit id="356">
+        <segment state="initial">
+          <source>On a computer on which you have installed AGPM Client, log on with a user account that is assigned the role of Approver in AGPM.</source>
+          <target>On a computer on which you have installed AGPM Client, log on with a user account that is assigned the role of Approver in AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="357">
+        <segment state="initial">
+          <source>Any Group Policy administrator with the Reviewer role, which is included in all of the other roles, can review the settings in a GPO.</source>
+          <target>Any Group Policy administrator with the Reviewer role, which is included in all of the other roles, can review the settings in a GPO.</target>
+        </segment>
+      </unit>
+      <unit id="358">
+        <segment state="initial">
+          <source>Open the e-mail inbox for the account and notice that you have received an e-mail message from the AGPM alias with an Editor's request to deploy a GPO.</source>
+          <target>Open the e-mail inbox for the account and notice that you have received an e-mail message from the AGPM alias with an Editor's request to deploy a GPO.</target>
+        </segment>
+      </unit>
+      <unit id="359">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Console</pc> tree, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Change Control</pc> in the forest and domain in which you want to manage GPOs.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Console</pc> tree, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Change Control</pc> in the forest and domain in which you want to manage GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="360">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contents</pc> tab in the details pane, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Pending</pc> tab.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contents</pc> tab in the details pane, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Pending</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="361">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Double-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc> to display its history.</source>
+          <target>Double-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc> to display its history.</target>
+        </segment>
+      </unit>
+      <unit id="362">
+        <segment state="initial">
+          <source>Review the settings in the most recent version of MyGPO:</source>
+          <target>Review the settings in the most recent version of MyGPO:</target>
+        </segment>
+      </unit>
+      <unit id="363">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">History</pc> window, right-click the GPO version with the most recent time stamp, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Settings</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">HTML Report</pc> to display a summary of the GPO's settings.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">History</pc> window, right-click the GPO version with the most recent time stamp, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Settings</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">HTML Report</pc> to display a summary of the GPO's settings.</target>
+        </segment>
+      </unit>
+      <unit id="364">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the Web browser, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">show all</pc> to display all the settings in the GPO.</source>
+          <target>In the Web browser, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">show all</pc> to display all the settings in the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="365">
+        <segment state="initial">
+          <source>Close the browser.</source>
+          <target>Close the browser.</target>
+        </segment>
+      </unit>
+      <unit id="366">
+        <segment state="initial">
+          <source>Compare the most recent version of MyGPO to the first version checked in to the archive:</source>
+          <target>Compare the most recent version of MyGPO to the first version checked in to the archive:</target>
+        </segment>
+      </unit>
+      <unit id="367">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">History</pc> window, click the GPO version with the most recent time stamp.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">History</pc> window, click the GPO version with the most recent time stamp.</target>
+        </segment>
+      </unit>
+      <unit id="368">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Press CTRL and then click the oldest GPO version for which the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer Version</pc> is not <pc dataRefEnd="id4" dataRefStart="id3" id="p2"><ph dataRef="id5" id="ph1" /></pc>.</source>
+          <target>Press CTRL and then click the oldest GPO version for which the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer Version</pc> is not <pc dataRefEnd="id4" dataRefStart="id3" id="p2"><ph dataRef="id5" id="ph1" /></pc>.</target>
+        </segment>
+      </unit>
+      <unit id="369">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Differences</pc> button.</source>
+          <target>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Differences</pc> button.</target>
+        </segment>
+      </unit>
+      <unit id="370">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\[+\]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Account Policies/Password Policy</pc> section is highlighted in green and preceded by <pc dataRefEnd="id4" dataRefStart="id3" id="p2"><ph dataRef="id5" id="ph1" /></pc>.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Account Policies/Password Policy</pc> section is highlighted in green and preceded by <pc dataRefEnd="id4" dataRefStart="id3" id="p2"><ph dataRef="id5" id="ph1" /></pc>.</target>
+        </segment>
+      </unit>
+      <unit id="371">
+        <segment state="initial">
+          <source>This indicates that the setting is configured only in the latter version of the GPO.</source>
+          <target>This indicates that the setting is configured only in the latter version of the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="372">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Account Policies/Password Policy</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Account Policies/Password Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="373">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\[+\]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Minimum password length</pc> setting is also highlighted in green and preceded by <pc dataRefEnd="id4" dataRefStart="id3" id="p2"><ph dataRef="id5" id="ph1" /></pc>, indicating that it is configured only in the latter version of the GPO.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Minimum password length</pc> setting is also highlighted in green and preceded by <pc dataRefEnd="id4" dataRefStart="id3" id="p2"><ph dataRef="id5" id="ph1" /></pc>, indicating that it is configured only in the latter version of the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="374">
+        <segment state="initial">
+          <source>Close the Web browser.</source>
+          <target>Close the Web browser.</target>
+        </segment>
+      </unit>
+      <unit id="375">
+        <segment state="initial">
+          <source>To deploy the GPO to the production environment</source>
+          <target>To deploy the GPO to the production environment</target>
+        </segment>
+      </unit>
+      <unit id="376">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Pending</pc> tab, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyGPO</pc> and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Approve</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Pending</pc> tab, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyGPO</pc> and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Approve</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="377">
+        <segment state="initial">
+          <source>Type a comment to include in the history of the GPO.</source>
+          <target>Type a comment to include in the history of the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="378">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="379">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="380">
+        <segment state="initial">
+          <source>The GPO is deployed to the production environment.</source>
+          <target>The GPO is deployed to the production environment.</target>
+        </segment>
+      </unit>
+      <unit id="381">
+        <segment state="initial">
+          <source>To link the GPO to a domain or organizational unit</source>
+          <target>To link the GPO to a domain or organizational unit</target>
+        </segment>
+      </unit>
+      <unit id="382">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the GPMC, right-click either the domain or an organizational unit (OU) to which you want to apply the GPO that you configured, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Link an Existing GPO</pc>.</source>
+          <target>In the GPMC, right-click either the domain or an organizational unit (OU) to which you want to apply the GPO that you configured, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Link an Existing GPO</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="383">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select GPO</pc> dialog box, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyGPO</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select GPO</pc> dialog box, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyGPO</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="384">
+        <segment state="initial">
+          <source>Step 4: Use a template to create a GPO</source>
+          <target>Step 4: Use a template to create a GPO</target>
+        </segment>
+      </unit>
+      <unit id="385">
+        <segment state="initial">
+          <source>In this step, you use an account that has the Editor role to create and use a template.</source>
+          <target>In this step, you use an account that has the Editor role to create and use a template.</target>
+        </segment>
+      </unit>
+      <unit id="386">
+        <segment state="initial">
+          <source>That template is a static version of a GPO for use as a starting point for creating new GPOs.</source>
+          <target>That template is a static version of a GPO for use as a starting point for creating new GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="387">
+        <segment state="initial">
+          <source>Although you cannot edit a template, you can create a new GPO based on a template.</source>
+          <target>Although you cannot edit a template, you can create a new GPO based on a template.</target>
+        </segment>
+      </unit>
+      <unit id="388">
+        <segment state="initial">
+          <source>Templates are useful for quickly creating multiple GPOs that include many of the same policy settings.</source>
+          <target>Templates are useful for quickly creating multiple GPOs that include many of the same policy settings.</target>
+        </segment>
+      </unit>
+      <unit id="389">
+        <segment state="initial">
+          <source>To create a template based on an existing GPO</source>
+          <target>To create a template based on an existing GPO</target>
+        </segment>
+      </unit>
+      <unit id="390">
+        <segment state="initial">
+          <source>On a computer on which you have installed AGPM Client, log on with a user account that is assigned the role of Editor in AGPM.</source>
+          <target>On a computer on which you have installed AGPM Client, log on with a user account that is assigned the role of Editor in AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="391">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Console</pc> tree, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Change Control</pc> in the forest and domain in which you want to manage GPOs.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Console</pc> tree, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Change Control</pc> in the forest and domain in which you want to manage GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="392">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contents</pc> tab in the details pane, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Controlled</pc> tab.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contents</pc> tab in the details pane, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Controlled</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="393">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Save as Template</pc> to create a template incorporating all settings currently in MyGPO.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Save as Template</pc> to create a template incorporating all settings currently in MyGPO.</target>
+        </segment>
+      </unit>
+      <unit id="394">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyTemplate</pc> as the name for the template and a comment, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</source>
+          <target>Type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyTemplate</pc> as the name for the template and a comment, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="395">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="396">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The new template appears on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Templates</pc> tab.</source>
+          <target>The new template appears on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Templates</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="397">
+        <segment state="initial">
+          <source>To request that a new GPO be created and managed through AGPM</source>
+          <target>To request that a new GPO be created and managed through AGPM</target>
+        </segment>
+      </unit>
+      <unit id="398">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab.</source>
+          <target>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="399">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Change Control</pc> node, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Controlled GPO</pc>.</source>
+          <target>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Change Control</pc> node, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Controlled GPO</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="400">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">New Controlled GPO</pc> dialog box:</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">New Controlled GPO</pc> dialog box:</target>
+        </segment>
+      </unit>
+      <unit id="401">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To receive a copy of the request, type your e-mail address in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cc</pc> field.</source>
+          <target>To receive a copy of the request, type your e-mail address in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cc</pc> field.</target>
+        </segment>
+      </unit>
+      <unit id="402">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyOtherGPO</pc> as the name for the new GPO.</source>
+          <target>Type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyOtherGPO</pc> as the name for the new GPO.</target>
+        </segment>
+      </unit>
+      <unit id="403">
+        <segment state="initial">
+          <source>Type a comment for the new GPO.</source>
+          <target>Type a comment for the new GPO.</target>
+        </segment>
+      </unit>
+      <unit id="404">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create live</pc> so that the new GPO will be deployed to the production environment immediately upon approval.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create live</pc> so that the new GPO will be deployed to the production environment immediately upon approval.</target>
+        </segment>
+      </unit>
+      <unit id="405">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">From GPO template</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyTemplate</pc>.</source>
+          <target>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">From GPO template</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyTemplate</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="406">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Submit</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Submit</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="407">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="408">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The new GPO is displayed on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Pending</pc> tab.</source>
+          <target>The new GPO is displayed on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Pending</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="409">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-manage1)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use an account that is assigned the role of Approver to approve the pending request to create the GPO as you did in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Step 1: Create a GPO</pc>.</source>
+          <target>Use an account that is assigned the role of Approver to approve the pending request to create the GPO as you did in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Step 1: Create a GPO</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="410">
+        <segment state="initial">
+          <source>MyTemplate incorporates all the settings that you configured in MyGPO.</source>
+          <target>MyTemplate incorporates all the settings that you configured in MyGPO.</target>
+        </segment>
+      </unit>
+      <unit id="411">
+        <segment state="initial">
+          <source>Because MyOtherGPO was created using MyTemplate, it at first contains all the settings that MyGPO contained at the time that MyTemplate was created.</source>
+          <target>Because MyOtherGPO was created using MyTemplate, it at first contains all the settings that MyGPO contained at the time that MyTemplate was created.</target>
+        </segment>
+      </unit>
+      <unit id="412">
+        <segment state="initial">
+          <source>You can confirm this by generating a difference report to compare MyOtherGPO to MyTemplate.</source>
+          <target>You can confirm this by generating a difference report to compare MyOtherGPO to MyTemplate.</target>
+        </segment>
+      </unit>
+      <unit id="413">
+        <segment state="initial">
+          <source>To check the GPO out from the archive for editing</source>
+          <target>To check the GPO out from the archive for editing</target>
+        </segment>
+      </unit>
+      <unit id="414">
+        <segment state="initial">
+          <source>On a computer on which you have installed AGPM Client, log on with a user account that is assigned the role of Editor in AGPM.</source>
+          <target>On a computer on which you have installed AGPM Client, log on with a user account that is assigned the role of Editor in AGPM.</target>
+        </segment>
+      </unit>
+      <unit id="415">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyOtherGPO</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Check Out</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyOtherGPO</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Check Out</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="416">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Type a comment to be displayed in the history of the GPO while it is checked out, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Type a comment to be displayed in the history of the GPO while it is checked out, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="417">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="418">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, the state of the GPO is identified as <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Checked Out</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, the state of the GPO is identified as <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Checked Out</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="419">
+        <segment state="initial">
+          <source>To edit the GPO offline and configure the account lockout duration</source>
+          <target>To edit the GPO offline and configure the account lockout duration</target>
+        </segment>
+      </unit>
+      <unit id="420">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyOtherGPO</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Edit</pc> to open the <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Group Policy Management Editor</pc> window and change an offline copy of the GPO.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyOtherGPO</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Edit</pc> to open the <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Group Policy Management Editor</pc> window and change an offline copy of the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="421">
+        <segment state="initial">
+          <source>For this scenario, configure the minimum password length:</source>
+          <target>For this scenario, configure the minimum password length:</target>
+        </segment>
+      </unit>
+      <unit id="422">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">**</data>
+          <data id="id12">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer Configuration</pc>, double-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policies</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows Settings</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Security Settings</pc>, <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Account Policies</pc>, and <pc dataRefEnd="id12" dataRefStart="id11" id="p6">Account Lockout Policy</pc>.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer Configuration</pc>, double-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policies</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows Settings</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Security Settings</pc>, <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Account Policies</pc>, and <pc dataRefEnd="id12" dataRefStart="id11" id="p6">Account Lockout Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="423">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the details pane, double-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Account lockout duration</pc>.</source>
+          <target>In the details pane, double-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Account lockout duration</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="424">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the properties window, check <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Define this policy setting</pc>, set the duration to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">30</pc> minutes, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</source>
+          <target>In the properties window, check <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Define this policy setting</pc>, set the duration to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">30</pc> minutes, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="425">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Close the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Editor</pc> window.</source>
+          <target>Close the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Editor</pc> window.</target>
+        </segment>
+      </unit>
+      <unit id="426">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-manage2)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Check MyOtherGPO into the archive and request deployment as you did for MyGPO in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Step 2: Edit a GPO</pc>.</source>
+          <target>Check MyOtherGPO into the archive and request deployment as you did for MyGPO in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Step 2: Edit a GPO</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="427">
+        <segment state="initial">
+          <source>You can compare MyOtherGPO to MyGPO or to MyTemplate by using difference reports.</source>
+          <target>You can compare MyOtherGPO to MyGPO or to MyTemplate by using difference reports.</target>
+        </segment>
+      </unit>
+      <unit id="428">
+        <originalData>
+          <data id="id1">\[</data>
+          <data id="id2">\]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Any account that includes the Reviewer role (AGPM Administrator <ph dataRef="id1" id="ph1" />Full Control<ph dataRef="id2" id="ph2" />, Approver, Editor, or Reviewer) can generate reports.</source>
+          <target>Any account that includes the Reviewer role (AGPM Administrator <ph dataRef="id1" id="ph1" />Full Control<ph dataRef="id2" id="ph2" />, Approver, Editor, or Reviewer) can generate reports.</target>
+        </segment>
+      </unit>
+      <unit id="429">
+        <segment state="initial">
+          <source>To compare a GPO to another GPO and to a template</source>
+          <target>To compare a GPO to another GPO and to a template</target>
+        </segment>
+      </unit>
+      <unit id="430">
+        <segment state="initial">
+          <source>To compare MyGPO and MyOtherGPO:</source>
+          <target>To compare MyGPO and MyOtherGPO:</target>
+        </segment>
+      </unit>
+      <unit id="431">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyGPO</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyGPO</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="432">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Press CTRL and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyOtherGPO</pc>.</source>
+          <target>Press CTRL and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyOtherGPO</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="433">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyOtherGPO</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Differences</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">HTML Report</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyOtherGPO</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Differences</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">HTML Report</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="434">
+        <segment state="initial">
+          <source>To compare MyOtherGPO and MyTemplate:</source>
+          <target>To compare MyOtherGPO and MyTemplate:</target>
+        </segment>
+      </unit>
+      <unit id="435">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyOtherGPO</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyOtherGPO</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="436">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyOtherGPO</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Differences</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Template</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyOtherGPO</pc>, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Differences</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Template</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="437">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyTemplate</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">HTML Report</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyTemplate</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">HTML Report</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="438">
+        <segment state="initial">
+          <source>Step 5: Delete and restore a GPO</source>
+          <target>Step 5: Delete and restore a GPO</target>
+        </segment>
+      </unit>
+      <unit id="439">
+        <segment state="initial">
+          <source>In this step, you act as an Approver to delete a GPO.</source>
+          <target>In this step, you act as an Approver to delete a GPO.</target>
+        </segment>
+      </unit>
+      <unit id="440">
+        <segment state="initial">
+          <source>To delete a GPO</source>
+          <target>To delete a GPO</target>
+        </segment>
+      </unit>
+      <unit id="441">
+        <segment state="initial">
+          <source>On a computer on which you have installed AGPM Client, log on with a user account that is assigned the role of Approver.</source>
+          <target>On a computer on which you have installed AGPM Client, log on with a user account that is assigned the role of Approver.</target>
+        </segment>
+      </unit>
+      <unit id="442">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Console</pc> tree, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Change Control</pc> in the forest and domain in which you want to manage GPOs.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group Policy Management Console</pc> tree, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Change Control</pc> in the forest and domain in which you want to manage GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="443">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contents</pc> tab, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Controlled</pc> tab to display the controlled GPOs.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contents</pc> tab, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Controlled</pc> tab to display the controlled GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="444">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Delete</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Delete</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="445">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Delete GPO from archive and production</pc> to delete both the version in the archive and the deployed version of the GPO in the production environment.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Delete GPO from archive and production</pc> to delete both the version in the archive and the deployed version of the GPO in the production environment.</target>
+        </segment>
+      </unit>
+      <unit id="446">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Type a comment to be displayed in the audit trail for the GPO, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Type a comment to be displayed in the audit trail for the GPO, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="447">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="448">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The GPO is removed from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab and is displayed on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Recycle Bin</pc> tab, where it can be restored or destroyed.</source>
+          <target>The GPO is removed from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Controlled</pc> tab and is displayed on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Recycle Bin</pc> tab, where it can be restored or destroyed.</target>
+        </segment>
+      </unit>
+      <unit id="449">
+        <segment state="initial">
+          <source>Occasionally you may discover after you delete a GPO that it is still needed.</source>
+          <target>Occasionally you may discover after you delete a GPO that it is still needed.</target>
+        </segment>
+      </unit>
+      <unit id="450">
+        <segment state="initial">
+          <source>In this step, you act as an Approver to restore a GPO that was deleted.</source>
+          <target>In this step, you act as an Approver to restore a GPO that was deleted.</target>
+        </segment>
+      </unit>
+      <unit id="451">
+        <segment state="initial">
+          <source>To restore a deleted GPO</source>
+          <target>To restore a deleted GPO</target>
+        </segment>
+      </unit>
+      <unit id="452">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contents</pc> tab, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Recycle Bin</pc> tab to display deleted GPOs.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contents</pc> tab, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Recycle Bin</pc> tab to display deleted GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="453">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Restore</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Restore</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="454">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Type a comment to be displayed in the history of the GPO, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Type a comment to be displayed in the history of the GPO, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="455">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AGPM Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="456">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The GPO is removed from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recycle Bin</pc> tab and is displayed on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Controlled</pc> tab.</source>
+          <target>The GPO is removed from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recycle Bin</pc> tab and is displayed on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Controlled</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="457">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="458">
+        <segment state="initial">
+          <source>Restoring a GPO to the archive does not automatically redeploy it to the production environment.</source>
+          <target>Restoring a GPO to the archive does not automatically redeploy it to the production environment.</target>
+        </segment>
+      </unit>
+      <unit id="459">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-manage3)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To return the GPO to the production environment, deploy the GPO as in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Step 3: Review and deploy a GPO</pc>.</source>
+          <target>To return the GPO to the production environment, deploy the GPO as in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Step 3: Review and deploy a GPO</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="460">
+        <segment state="initial">
+          <source>After editing and deploying a GPO, you may discover that recent changes to the GPO are causing a problem.</source>
+          <target>After editing and deploying a GPO, you may discover that recent changes to the GPO are causing a problem.</target>
+        </segment>
+      </unit>
+      <unit id="461">
+        <segment state="initial">
+          <source>In this step, you act as an Approver to roll back to an earlier version of the GPO.</source>
+          <target>In this step, you act as an Approver to roll back to an earlier version of the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="462">
+        <segment state="initial">
+          <source>You can roll back to any version in the history of the GPO.</source>
+          <target>You can roll back to any version in the history of the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="463">
+        <segment state="initial">
+          <source>You can use comments and labels to identify known good versions and when specific changes were made.</source>
+          <target>You can use comments and labels to identify known good versions and when specific changes were made.</target>
+        </segment>
+      </unit>
+      <unit id="464">
+        <segment state="initial">
+          <source>To roll back to an earlier version of a GPO</source>
+          <target>To roll back to an earlier version of a GPO</target>
+        </segment>
+      </unit>
+      <unit id="465">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contents</pc> tab, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Controlled</pc> tab to display the controlled GPOs.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contents</pc> tab, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Controlled</pc> tab to display the controlled GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="466">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Double-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc> to display its history.</source>
+          <target>Double-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyGPO</pc> to display its history.</target>
+        </segment>
+      </unit>
+      <unit id="467">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the version to be deployed, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Yes</pc>.</source>
+          <target>Right-click the version to be deployed, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Yes</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="468">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Progress</pc> window indicates that overall progress is complete, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="469">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">History</pc> window, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">History</pc> window, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="470">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="471">
+        <segment state="initial">
+          <source>To verify that the version that was redeployed is the version intended, examine a difference report for the two versions.</source>
+          <target>To verify that the version that was redeployed is the version intended, examine a difference report for the two versions.</target>
+        </segment>
+      </unit>
+      <unit id="472">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">History</pc> window for the GPO, select the two versions, right-click them, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Difference</pc>, and then click either <pc dataRefEnd="id6" dataRefStart="id5" id="p3">HTML Report</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">XML Report</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">History</pc> window for the GPO, select the two versions, right-click them, point to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Difference</pc>, and then click either <pc dataRefEnd="id6" dataRefStart="id5" id="p3">HTML Report</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">XML Report</pc>.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

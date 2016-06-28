@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\checklist-configuring-rules-for-the-boundary-zone.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">7973dc7b4429a643d105ef82faacf4f9ea886bed</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Checklist Configuring Rules for the Boundary Zone (Windows 10)</source>
+          <target>Checklist Configuring Rules for the Boundary Zone (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Checklist Configuring Rules for the Boundary Zone</source>
+          <target>Checklist Configuring Rules for the Boundary Zone</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Checklist: Configuring Rules for the Boundary Zone</source>
+          <target>Checklist: Configuring Rules for the Boundary Zone</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>The following checklists include tasks for configuring connection security rules and IPsec settings in your GPOs to implement the boundary zone in an isolated domain.</source>
+          <target>The following checklists include tasks for configuring connection security rules and IPsec settings in your GPOs to implement the boundary zone in an isolated domain.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Rules for the boundary zone are typically the same as those for the isolated domain, with the exception that the final rule is left to only request, not require, authentication.</source>
+          <target>Rules for the boundary zone are typically the same as those for the isolated domain, with the exception that the final rule is left to only request, not require, authentication.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Checklist: Configuring boundary zone rules</source>
+          <target>Checklist: Configuring boundary zone rules</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](checklist-implementing-a-domain-isolation-policy-design.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>This checklist assumes that you have already created the GPO for the isolated domain as described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Checklist: Implementing a Domain Isolation Policy Design</pc>.</source>
+          <target>This checklist assumes that you have already created the GPO for the isolated domain as described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Checklist: Implementing a Domain Isolation Policy Design</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>After you create a copy for the boundary zone, make sure that you do not change the rule from request authentication to require authentication when you create the other GPOs.</source>
+          <target>After you create a copy for the boundary zone, make sure that you do not change the rule from request authentication to require authentication when you create the other GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Task</source>
+          <target>Task</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Reference</source>
+          <target>Reference</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Make a copy of the domain isolation GPO for this version of Windows to serve as a starting point for the GPO for the boundary zone.</source>
+          <target>Make a copy of the domain isolation GPO for this version of Windows to serve as a starting point for the GPO for the boundary zone.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Unlike the GPO for the main isolated domain zone, this copy is not changed after deployment to require authentication.</source>
+          <target>Unlike the GPO for the main isolated domain zone, this copy is not changed after deployment to require authentication.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Copy a GPO to Create a New GPO</source>
+          <target>Copy a GPO to Create a New GPO</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>If you are working on a copy of a GPO, modify the group memberships and WMI filters so that they are correct for the boundary zone and version of Windows for which this GPO is intended.</source>
+          <target>If you are working on a copy of a GPO, modify the group memberships and WMI filters so that they are correct for the boundary zone and version of Windows for which this GPO is intended.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Modify GPO Filters to Apply to a Different Zone or Version of Windows</source>
+          <target>Modify GPO Filters to Apply to a Different Zone or Version of Windows</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Link the GPO to the domain level of the Active Directory organizational unit hierarchy.</source>
+          <target>Link the GPO to the domain level of the Active Directory organizational unit hierarchy.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Link the GPO to the Domain</source>
+          <target>Link the GPO to the Domain</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Add your test computers to the membership group for the boundary zone.</source>
+          <target>Add your test computers to the membership group for the boundary zone.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Be sure to add at least one for each operating system supported by a different GPO in the group.</source>
+          <target>Be sure to add at least one for each operating system supported by a different GPO in the group.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Add Test Computers to the Membership Group for a Zone</source>
+          <target>Add Test Computers to the Membership Group for a Zone</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Verify that the connection security configuration is protecting network traffic with authentication when it can, and that unauthenticated traffic is accepted.</source>
+          <target>Verify that the connection security configuration is protecting network traffic with authentication when it can, and that unauthenticated traffic is accepted.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Verify That Network Traffic Is Authenticated</source>
+          <target>Verify That Network Traffic Is Authenticated</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

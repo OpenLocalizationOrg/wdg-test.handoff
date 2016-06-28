@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\create-inbound-rules-to-support-rpc.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">a57de44bdc3a05c920b939e7da80f2acabfe7852</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Create Inbound Rules to Support RPC (Windows 10)</source>
+          <target>Create Inbound Rules to Support RPC (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Create Inbound Rules to Support RPC</source>
+          <target>Create Inbound Rules to Support RPC</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Create Inbound Rules to Support RPC</source>
+          <target>Create Inbound Rules to Support RPC</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>To allow inbound remote procedure call (RPC) network traffic, use the Windows Firewall with Advanced Security node in the Group Policy Management console to create two firewall rules.</source>
+          <target>To allow inbound remote procedure call (RPC) network traffic, use the Windows Firewall with Advanced Security node in the Group Policy Management console to create two firewall rules.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The first rule allows incoming network packets on TCP port 135 to the RPC Endpoint Mapper service.</source>
+          <target>The first rule allows incoming network packets on TCP port 135 to the RPC Endpoint Mapper service.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The incoming traffic consists of requests to communicate with a specified network service.</source>
+          <target>The incoming traffic consists of requests to communicate with a specified network service.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>The RPC Endpoint Mapper replies with a dynamically-assigned port number that the client must use to communicate with the service.</source>
+          <target>The RPC Endpoint Mapper replies with a dynamically-assigned port number that the client must use to communicate with the service.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>The second rule allows the network traffic that is sent to the dynamically-assigned port number.</source>
+          <target>The second rule allows the network traffic that is sent to the dynamically-assigned port number.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Using the two rules configured as described in this topic helps to protect your device by allowing network traffic only from devices that have received RPC dynamic port redirection and to only those TCP port numbers assigned by the RPC Endpoint Mapper.</source>
+          <target>Using the two rules configured as described in this topic helps to protect your device by allowing network traffic only from devices that have received RPC dynamic port redirection and to only those TCP port numbers assigned by the RPC Endpoint Mapper.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Administrative credentials</source>
+          <target>Administrative credentials</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>To complete these procedures, you must be a member of the Domain Administrators group, or otherwise be delegated permissions to modify the GPOs.</source>
+          <target>To complete these procedures, you must be a member of the Domain Administrators group, or otherwise be delegated permissions to modify the GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>This topic describes how to create rules that allow inbound RPC network traffic.</source>
+          <target>This topic describes how to create rules that allow inbound RPC network traffic.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>For other inbound port rule types, see:</source>
+          <target>For other inbound port rule types, see:</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Create an Inbound Port Rule</source>
+          <target>Create an Inbound Port Rule</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Create an Inbound ICMP Rule</source>
+          <target>Create an Inbound ICMP Rule</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>In this topic:</source>
+          <target>In this topic:</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>To create a rule to allow inbound network traffic to the RPC Endpoint Mapper service</source>
+          <target>To create a rule to allow inbound network traffic to the RPC Endpoint Mapper service</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>To create a rule to allow inbound network traffic to RPC-enabled network services</source>
+          <target>To create a rule to allow inbound network traffic to RPC-enabled network services</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>To create a rule to allow inbound network traffic to the RPC Endpoint Mapper service</source>
+          <target>To create a rule to allow inbound network traffic to the RPC Endpoint Mapper service</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](open-the-group-policy-management-console-to-windows-firewall-with-advanced-security.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Open the Group Policy Management Console to Windows Firewall with Advanced Security</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Open the Group Policy Management Console to Windows Firewall with Advanced Security</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the navigation pane, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Inbound Rules</pc>.</source>
+          <target>In the navigation pane, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Inbound Rules</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New rule</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New rule</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Rule Type</pc> page of the New Inbound Rule Wizard, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Custom</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Rule Type</pc> page of the New Inbound Rule Wizard, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Custom</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Program</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">This Program Path</pc>, and then type <pc dataRefEnd="id6" dataRefStart="id5" id="p3">%systemroot%<ph dataRef="id7" id="ph1" />system32<ph dataRef="id8" id="ph2" />svchost.exe</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Program</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">This Program Path</pc>, and then type <pc dataRefEnd="id6" dataRefStart="id5" id="p3">%systemroot%<ph dataRef="id7" id="ph1" />system32<ph dataRef="id8" id="ph2" />svchost.exe</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">**</data>
+          <data id="id12">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize Service Settings</pc> dialog box, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apply to this service</pc>, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Remote Procedure Call (RPC)</pc> with a short name of <pc dataRefEnd="id8" dataRefStart="id7" id="p4">RpcSs</pc>, click <pc dataRefEnd="id10" dataRefStart="id9" id="p5">OK</pc>, and then click <pc dataRefEnd="id12" dataRefStart="id11" id="p6">Next</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize Service Settings</pc> dialog box, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apply to this service</pc>, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Remote Procedure Call (RPC)</pc> with a short name of <pc dataRefEnd="id8" dataRefStart="id7" id="p4">RpcSs</pc>, click <pc dataRefEnd="id10" dataRefStart="id9" id="p5">OK</pc>, and then click <pc dataRefEnd="id12" dataRefStart="id11" id="p6">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the warning about Windows service-hardening rules, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>.</source>
+          <target>On the warning about Windows service-hardening rules, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protocol and Ports</pc> dialog box, for <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Protocol type</pc>, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">TCP</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protocol and Ports</pc> dialog box, for <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Protocol type</pc>, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">TCP</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Local port</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">RPC Endpoint Mapper</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Local port</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">RPC Endpoint Mapper</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Scope</pc> page, you can specify that the rule applies only to network traffic to or from the IP addresses entered on this page.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Scope</pc> page, you can specify that the rule applies only to network traffic to or from the IP addresses entered on this page.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Configure as appropriate for your design, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Configure as appropriate for your design, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Allow the connection</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Allow the connection</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Profile</pc> page, select the network location types to which this rule applies, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Profile</pc> page, select the network location types to which this rule applies, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> page, type a name and description for your rule, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> page, type a name and description for your rule, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>To create a rule to allow inbound network traffic to RPC-enabled network services</source>
+          <target>To create a rule to allow inbound network traffic to RPC-enabled network services</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the same GPO you edited in the preceding procedure, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New rule</pc>.</source>
+          <target>On the same GPO you edited in the preceding procedure, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New rule</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Rule Type</pc> page of the New Inbound Rule Wizard, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Custom</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Rule Type</pc> page of the New Inbound Rule Wizard, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Custom</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Program</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">This Program Path</pc>, and then type the path to the executable file that hosts the network service.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Program</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">This Program Path</pc>, and then type the path to the executable file that hosts the network service.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize Service Settings</pc> dialog box, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apply to this service</pc>, and then select the service that you want to allow.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize Service Settings</pc> dialog box, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apply to this service</pc>, and then select the service that you want to allow.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the service does not appear in the list, then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apply to service with this service short name</pc>, and then type the short name of the service in the text box.</source>
+          <target>If the service does not appear in the list, then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apply to service with this service short name</pc>, and then type the short name of the service in the text box.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protocol and Ports</pc> dialog box, for <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Protocol type</pc>, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">TCP</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protocol and Ports</pc> dialog box, for <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Protocol type</pc>, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">TCP</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Local port</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">RPC Dynamic Ports</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Local port</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">RPC Dynamic Ports</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Scope</pc> page, you can specify that the rule applies only to network traffic to or from the IP addresses entered on this page.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Scope</pc> page, you can specify that the rule applies only to network traffic to or from the IP addresses entered on this page.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Configure as appropriate for your design, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Configure as appropriate for your design, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Allow the connection</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Allow the connection</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Profile</pc> page, select the network location types to which this rule applies, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Profile</pc> page, select the network location types to which this rule applies, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> page, type a name and description for your rule, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> page, type a name and description for your rule, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc>.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

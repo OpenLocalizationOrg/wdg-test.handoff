@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\packaged-apps-and-packaged-app-installer-rules-in-applocker.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">21fd8a4df54b0945bf45c20c0458b6f6d9a4c37e</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Packaged apps and packaged app installer rules in AppLocker (Windows 10)</source>
+          <target>Packaged apps and packaged app installer rules in AppLocker (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic explains the AppLocker rule collection for packaged app installers and packaged apps.</source>
+          <target>This topic explains the AppLocker rule collection for packaged app installers and packaged apps.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Packaged apps and packaged app installer rules in AppLocker</source>
+          <target>Packaged apps and packaged app installer rules in AppLocker</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic explains the AppLocker rule collection for packaged app installers and packaged apps.</source>
+          <target>This topic explains the AppLocker rule collection for packaged app installers and packaged apps.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Universal Windows apps can be installed through the Windows Store or can be sideloaded using the Windows PowerShell cmdlets.</source>
+          <target>Universal Windows apps can be installed through the Windows Store or can be sideloaded using the Windows PowerShell cmdlets.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Universal Windows apps can be installed by a standard user unlike some Classic Windows applications that sometimes require administrative privileges for installation.</source>
+          <target>Universal Windows apps can be installed by a standard user unlike some Classic Windows applications that sometimes require administrative privileges for installation.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Typically, an app consists of multiple components – the installer used to install the app and one or more exes, dlls or scripts.</source>
+          <target>Typically, an app consists of multiple components – the installer used to install the app and one or more exes, dlls or scripts.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>With Classic Windows applications, not all those components always share common attributes such as the publisher name, product name and product version.</source>
+          <target>With Classic Windows applications, not all those components always share common attributes such as the publisher name, product name and product version.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Therefore, AppLocker has to control each of these components separately through different rule collections – exe, dll, script and Windows Installers.</source>
+          <target>Therefore, AppLocker has to control each of these components separately through different rule collections – exe, dll, script and Windows Installers.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>In contrast, all the components of a Universal Windows app share the same attributes: Publisher name, Package name and Package version.</source>
+          <target>In contrast, all the components of a Universal Windows app share the same attributes: Publisher name, Package name and Package version.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>It is therefore possible to control an entire app with a single rule.</source>
+          <target>It is therefore possible to control an entire app with a single rule.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>AppLocker enforces rules for Universal Windows apps separately from Classic Windows applications.</source>
+          <target>AppLocker enforces rules for Universal Windows apps separately from Classic Windows applications.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>A single AppLocker rule for a Universal Windows app can control both the installation and the running of an app.</source>
+          <target>A single AppLocker rule for a Universal Windows app can control both the installation and the running of an app.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Because all Universal Windows apps are signed, AppLocker supports only publisher rules for Universal Windows apps.</source>
+          <target>Because all Universal Windows apps are signed, AppLocker supports only publisher rules for Universal Windows apps.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>A publisher rule for a Universal Windows app is based on the following attributes of the app:</source>
+          <target>A publisher rule for a Universal Windows app is based on the following attributes of the app:</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Publisher name</source>
+          <target>Publisher name</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Package name</source>
+          <target>Package name</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Package version</source>
+          <target>Package version</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>In summary, including AppLocker rules for Universal Windows apps in your policy design provides:</source>
+          <target>In summary, including AppLocker rules for Universal Windows apps in your policy design provides:</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>The ability to control the installation and running of the app</source>
+          <target>The ability to control the installation and running of the app</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>The ability to control all the components of the app with a single rule rather than controlling individual binaries within the app</source>
+          <target>The ability to control all the components of the app with a single rule rather than controlling individual binaries within the app</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>The ability to create application control policies that survive app updates</source>
+          <target>The ability to create application control policies that survive app updates</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Management of Universal Windows apps through Group Policy.</source>
+          <target>Management of Universal Windows apps through Group Policy.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

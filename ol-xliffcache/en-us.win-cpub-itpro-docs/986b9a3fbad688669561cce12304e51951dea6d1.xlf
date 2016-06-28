@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\mbam-v1\how-to-deploy-the-mbam-client-as-part-of-a-windows-deployment-mbam-1.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">986b9a3fbad688669561cce12304e51951dea6d1</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>How to Deploy the MBAM Client as Part of a Windows Deployment</source>
+          <target>How to Deploy the MBAM Client as Part of a Windows Deployment</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>How to Deploy the MBAM Client as Part of a Windows Deployment</source>
+          <target>How to Deploy the MBAM Client as Part of a Windows Deployment</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>How to Deploy the MBAM Client as Part of a Windows Deployment</source>
+          <target>How to Deploy the MBAM Client as Part of a Windows Deployment</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>The Microsoft BitLocker Administration and Monitoring (MBAM) Client enables administrators to enforce and monitor BitLocker drive encryption on computers in the enterprise.</source>
+          <target>The Microsoft BitLocker Administration and Monitoring (MBAM) Client enables administrators to enforce and monitor BitLocker drive encryption on computers in the enterprise.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>The BitLocker Client can be integrated into an organization by enabling BitLocker management and encryption on client computers during the computer imaging and Windows deployment process.</source>
+          <target>The BitLocker Client can be integrated into an organization by enabling BitLocker management and encryption on client computers during the computer imaging and Windows deployment process.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](mbam-10-supported-configurations.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To review the MBAM Client system requirements, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM 1.0 Supported Configurations</pc>.</source>
+          <target>To review the MBAM Client system requirements, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM 1.0 Supported Configurations</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Encryption of client computers with BitLocker during the initial imaging stage of a Windows deployment can lower the administrative overhead for MBAM implementation.</source>
+          <target>Encryption of client computers with BitLocker during the initial imaging stage of a Windows deployment can lower the administrative overhead for MBAM implementation.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>This approach also ensures that every computer that is deployed already has BitLocker running and is configured correctly.</source>
+          <target>This approach also ensures that every computer that is deployed already has BitLocker running and is configured correctly.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Warning</source>
+          <target>Warning</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>This topic describes how to change the Windows registry by using Registry Editor.</source>
+          <target>This topic describes how to change the Windows registry by using Registry Editor.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>If you change the Windows registry incorrectly, you can cause serious problems that might require you to reinstall Windows.</source>
+          <target>If you change the Windows registry incorrectly, you can cause serious problems that might require you to reinstall Windows.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>You should make a backup copy of the registry files (System.dat and User.dat) before you change the registry.</source>
+          <target>You should make a backup copy of the registry files (System.dat and User.dat) before you change the registry.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Microsoft cannot guarantee that the problems that might occur when you change the registry can be resolved.</source>
+          <target>Microsoft cannot guarantee that the problems that might occur when you change the registry can be resolved.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Change the registry at your own risk.</source>
+          <target>Change the registry at your own risk.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>To encrypt a computer as part of Windows deployment</source>
+          <target>To encrypt a computer as part of Windows deployment</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>If your organization plans to use the Trusted Platform Module (TPM) protector or the TPM + PIN protector options in BitLocker, you must activate the TPM chip before the initial deployment of MBAM.</source>
+          <target>If your organization plans to use the Trusted Platform Module (TPM) protector or the TPM + PIN protector options in BitLocker, you must activate the TPM chip before the initial deployment of MBAM.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>When you activate the TPM chip, you avoid a reboot later in the process, and you ensure that the TPM chips are correctly configured according to the requirements of your organization.</source>
+          <target>When you activate the TPM chip, you avoid a reboot later in the process, and you ensure that the TPM chips are correctly configured according to the requirements of your organization.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>You must activate the TPM chip manually in the computer's BIOS.</source>
+          <target>You must activate the TPM chip manually in the computer's BIOS.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Refer to the manufacturer documentation for more details about how to configure the TPM chip.</source>
+          <target>Refer to the manufacturer documentation for more details about how to configure the TPM chip.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Install the MBAM client agent.</source>
+          <target>Install the MBAM client agent.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>We recommend that you join the computer to a domain...</source>
+          <target>We recommend that you join the computer to a domain...</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>If the computer is not joined to a domain, the recovery password is not stored in the MBAM Key Recovery service.</source>
+          <target>If the computer is not joined to a domain, the recovery password is not stored in the MBAM Key Recovery service.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>By default, MBAM does not allow encryption to occur unless the recovery key can be stored.</source>
+          <target>By default, MBAM does not allow encryption to occur unless the recovery key can be stored.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>If a computer starts in recovery mode before the recovery key is stored on the MBAM server, the computer has to be reimaged.</source>
+          <target>If a computer starts in recovery mode before the recovery key is stored on the MBAM server, the computer has to be reimaged.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>No recovery method is available.</source>
+          <target>No recovery method is available.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open a command prompt as an administrator, stop the MBAM service, and then set the service to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">manual</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">on demand</pc>.</source>
+          <target>Open a command prompt as an administrator, stop the MBAM service, and then set the service to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">manual</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">on demand</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Then, run the following commands:</source>
+          <target>Then, run the following commands:</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>net stop mbamagent</source>
+          <target>net stop mbamagent</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>sc config mbamagent start= demand</source>
+          <target>sc config mbamagent start= demand</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set the registry settings for the MBAM agent to ignore Group Policy and run the TPM for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">operating system only encryption</pc> To do this, run <pc dataRefEnd="id4" dataRefStart="id3" id="p2">regedit</pc>, and then import the registry key template from C:<ph dataRef="id5" id="ph1" />Program Files<ph dataRef="id6" id="ph2" />Microsoft<ph dataRef="id7" id="ph3" />MDOP MBAM<ph dataRef="id8" id="ph4" />MBAMDeploymentKeyTemplate.reg.</source>
+          <target>Set the registry settings for the MBAM agent to ignore Group Policy and run the TPM for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">operating system only encryption</pc> To do this, run <pc dataRefEnd="id4" dataRefStart="id3" id="p2">regedit</pc>, and then import the registry key template from C:<ph dataRef="id5" id="ph1" />Program Files<ph dataRef="id6" id="ph2" />Microsoft<ph dataRef="id7" id="ph3" />MDOP MBAM<ph dataRef="id8" id="ph4" />MBAMDeploymentKeyTemplate.reg.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In regedit, go to HKLM<ph dataRef="id1" id="ph1" />SOFTWARE<ph dataRef="id2" id="ph2" />Microsoft<ph dataRef="id3" id="ph3" />MBAM and configure the settings that are listed in the following table.</source>
+          <target>In regedit, go to HKLM<ph dataRef="id1" id="ph1" />SOFTWARE<ph dataRef="id2" id="ph2" />Microsoft<ph dataRef="id3" id="ph3" />MBAM and configure the settings that are listed in the following table.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Registry entry</source>
+          <target>Registry entry</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Configuration settings</source>
+          <target>Configuration settings</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>DeploymentTime</source>
+          <target>DeploymentTime</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>0 = OFF</source>
+          <target>0 = OFF</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>1 = Use deployment time policy settings (default)</source>
+          <target>1 = Use deployment time policy settings (default)</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>UseKeyRecoveryService</source>
+          <target>UseKeyRecoveryService</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>0 = Do not use key escrow (The next two registry entries are not required in this case.)</source>
+          <target>0 = Do not use key escrow (The next two registry entries are not required in this case.)</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>1 = Use key escrow in Key Recovery system (default)</source>
+          <target>1 = Use key escrow in Key Recovery system (default)</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Recommended: The computer must be able to communicate with the Key Recovery service.</source>
+          <target>Recommended: The computer must be able to communicate with the Key Recovery service.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Verify that the computer can communicate with the service before you proceed.</source>
+          <target>Verify that the computer can communicate with the service before you proceed.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>KeyRecoveryOptions</source>
+          <target>KeyRecoveryOptions</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>0 = Upload Recovery Key Only</source>
+          <target>0 = Upload Recovery Key Only</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>1 = Upload Recovery Key and Key Recovery Package (default)</source>
+          <target>1 = Upload Recovery Key and Key Recovery Package (default)</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>KeyRecoveryServiceEndPoint</source>
+          <target>KeyRecoveryServiceEndPoint</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Set this value to the URL for the Key Recovery web server.</source>
+          <target>Set this value to the URL for the Key Recovery web server.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Example: http://<ph dataRef="id1" id="ph1" />computer name<ph dataRef="id2" id="ph2" />/MBAMRecoveryAndHardwareService/CoreService.svc.</source>
+          <target>Example: http://<ph dataRef="id1" id="ph1" />computer name<ph dataRef="id2" id="ph2" />/MBAMRecoveryAndHardwareService/CoreService.svc.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>MBAM policy or registry values can be set here to override the previously set values.</source>
+          <target>MBAM policy or registry values can be set here to override the previously set values.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>The MBAM agent restarts the system during MBAM client deployment.</source>
+          <target>The MBAM agent restarts the system during MBAM client deployment.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>When you are ready for this reboot, run the following command at a command prompt as an administrator:</source>
+          <target>When you are ready for this reboot, run the following command at a command prompt as an administrator:</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>net start mbamagent</source>
+          <target>net start mbamagent</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>When the computers restarts and the BIOS prompts you to accept a TPM change, accept the change.</source>
+          <target>When the computers restarts and the BIOS prompts you to accept a TPM change, accept the change.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>During the Windows client operating system imaging process, when you are ready to start encryption, restart the MBAM agent service.</source>
+          <target>During the Windows client operating system imaging process, when you are ready to start encryption, restart the MBAM agent service.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Then, to set start to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">automatic</pc>, open a command prompt as an administrator and run the following commands:</source>
+          <target>Then, to set start to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">automatic</pc>, open a command prompt as an administrator and run the following commands:</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>sc config mbamagent start= auto</source>
+          <target>sc config mbamagent start= auto</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>net start mbamagent</source>
+          <target>net start mbamagent</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Remove the bypass registry values.</source>
+          <target>Remove the bypass registry values.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To do this, run regedit, browse to the HKLM<ph dataRef="id1" id="ph1" />SOFTWARE<ph dataRef="id2" id="ph2" />Microsoft registry entry, right-click the <pc dataRefEnd="id4" dataRefStart="id3" id="p1">MBAM</pc> node, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p2">Delete</pc>.</source>
+          <target>To do this, run regedit, browse to the HKLM<ph dataRef="id1" id="ph1" />SOFTWARE<ph dataRef="id2" id="ph2" />Microsoft registry entry, right-click the <pc dataRefEnd="id4" dataRefStart="id3" id="p1">MBAM</pc> node, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p2">Delete</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Deploying the MBAM 1.0 Client</source>
+          <target>Deploying the MBAM 1.0 Client</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

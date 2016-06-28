@@ -1,0 +1,1949 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\deploy\understanding-migration-xml-files.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">6e4fcdea2e53b4fc2a1760c95fdb39696568e953</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Understanding Migration XML Files (Windows 10)</source>
+          <target>Understanding Migration XML Files (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Understanding Migration XML Files</source>
+          <target>Understanding Migration XML Files</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Understanding Migration XML Files</source>
+          <target>Understanding Migration XML Files</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>You can modify the behavior of a basic User State Migration Tool (USMT)10.0 migration by using XML files; these files provide instructions on where and how the USMT tools should gather and apply files and settings.</source>
+          <target>You can modify the behavior of a basic User State Migration Tool (USMT)10.0 migration by using XML files; these files provide instructions on where and how the USMT tools should gather and apply files and settings.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>USMT includes three XML files that you can use to customize a basic migration: the MigDocs.xml and MigUser.xml files, which modify how files are discovered on the source computer, and the MigApps.xml file, which is required in order to migrate supported application settings.</source>
+          <target>USMT includes three XML files that you can use to customize a basic migration: the MigDocs.xml and MigUser.xml files, which modify how files are discovered on the source computer, and the MigApps.xml file, which is required in order to migrate supported application settings.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>You can also create and edit custom XML files and a Config.xml file to further customize your migration.</source>
+          <target>You can also create and edit custom XML files and a Config.xml file to further customize your migration.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>This topic provides an overview of the default and custom migration XML files and includes guidelines for creating and editing a customized version of the MigDocs.xml file.</source>
+          <target>This topic provides an overview of the default and custom migration XML files and includes guidelines for creating and editing a customized version of the MigDocs.xml file.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The MigDocs.xml file uses the new <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GenerateDocPatterns</pc> function available in USMT to automatically find user documents on a source computer.</source>
+          <target>The MigDocs.xml file uses the new <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GenerateDocPatterns</pc> function available in USMT to automatically find user documents on a source computer.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>In This Topic</source>
+          <target>In This Topic</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Overview of the Config.xml file</source>
+          <target>Overview of the Config.xml file</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Overview of the MigApp.xml file</source>
+          <target>Overview of the MigApp.xml file</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Overview of the MigDocs.xml file</source>
+          <target>Overview of the MigDocs.xml file</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Overview of the MigUser.xml file</source>
+          <target>Overview of the MigUser.xml file</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Using multiple XML files</source>
+          <target>Using multiple XML files</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>XML rules for migrating user files</source>
+          <target>XML rules for migrating user files</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>The GenerateDocPatterns function</source>
+          <target>The GenerateDocPatterns function</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Understanding the system and user context</source>
+          <target>Understanding the system and user context</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Sample migration rules for customized versions of XML files</source>
+          <target>Sample migration rules for customized versions of XML files</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Exclude rules usage examples</source>
+          <target>Exclude rules usage examples</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Include rules usage examples</source>
+          <target>Include rules usage examples</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Next Steps</source>
+          <target>Next Steps</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Overview of the Config.xml file</source>
+          <target>Overview of the Config.xml file</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">`/genconfig`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The Config.xml file is the configuration file created by the <ph dataRef="id1" id="ph1" /> option of the ScanState tool; it can be used to modify which operating-system components are migrated by USMT.</source>
+          <target>The Config.xml file is the configuration file created by the <ph dataRef="id1" id="ph1" /> option of the ScanState tool; it can be used to modify which operating-system components are migrated by USMT.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">`scanstate /i:migapps.xml /i:migdocs.xml /genconfig:c:\myFolder\config.xml`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The Config.xml file can be used in conjunction with other XML files, such as in the following example: <ph dataRef="id1" id="ph1" />.</source>
+          <target>The Config.xml file can be used in conjunction with other XML files, such as in the following example: <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>When used this way, the Config.xml file tightly controls aspects of the migration, including user profiles, data, and settings, without modifying or creating other XML files.</source>
+          <target>When used this way, the Config.xml file tightly controls aspects of the migration, including user profiles, data, and settings, without modifying or creating other XML files.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-customize-xml-files.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](usmt-configxml-file.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about the Config.xml file, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize USMT XML Files</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Config.xml File</pc>.</source>
+          <target>For more information about the Config.xml file, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize USMT XML Files</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Config.xml File</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When modifying the XML elements in the Config.xml file, you should edit an element and set the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">migrate</pc> property to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">no</pc>, rather than deleting the element from the file.</source>
+          <target>When modifying the XML elements in the Config.xml file, you should edit an element and set the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">migrate</pc> property to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">no</pc>, rather than deleting the element from the file.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>If you delete the element instead of setting the property, the component may still be migrated by rules in other XML files.</source>
+          <target>If you delete the element instead of setting the property, the component may still be migrated by rules in other XML files.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Overview of the MigApp.xml file</source>
+          <target>Overview of the MigApp.xml file</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-what-does-usmt-migrate.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>The MigApp.xml file installed with USMT includes instructions to migrate the settings for the applications listed in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">What Does USMT Migrate?</pc>.</source>
+          <target>The MigApp.xml file installed with USMT includes instructions to migrate the settings for the applications listed in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">What Does USMT Migrate?</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">`/i`</data>
+        </originalData>
+        <segment state="initial">
+          <source>You must include the MigApp.xml file when using the ScanState and LoadState tools, by using the <ph dataRef="id1" id="ph1" /> option in order to migrate application settings.</source>
+          <target>You must include the MigApp.xml file when using the ScanState and LoadState tools, by using the <ph dataRef="id1" id="ph1" /> option in order to migrate application settings.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>The MigDocs.xml and MigUser.xml files do not migrate application settings.</source>
+          <target>The MigDocs.xml and MigUser.xml files do not migrate application settings.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>You can create a custom XML file to include additional applications.</source>
+          <target>You can create a custom XML file to include additional applications.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-customize-xml-files.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize USMT XML Files</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize USMT XML Files</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>The MigApps.xml file will only detect and migrate .pst files that are linked to Microsoft Office Outlook.</source>
+          <target>The MigApps.xml file will only detect and migrate .pst files that are linked to Microsoft Office Outlook.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-samples)</data>
+        </originalData>
+        <segment state="initial">
+          <source>See the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sample migration rules for customized versions of XML files</pc> section of this document for more information about migrating .pst files that are not linked to Outlook.</source>
+          <target>See the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sample migration rules for customized versions of XML files</pc> section of this document for more information about migrating .pst files that are not linked to Outlook.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Overview of the MigDocs.xml file</source>
+          <target>Overview of the MigDocs.xml file</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The MigDocs.xml file uses the new <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GenerateDocPatterns</pc> helper function to create instructions for USMT to migrate files from the source computer, based on the location of the files.</source>
+          <target>The MigDocs.xml file uses the new <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GenerateDocPatterns</pc> helper function to create instructions for USMT to migrate files from the source computer, based on the location of the files.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>You can use the MigDocs.xml file with the ScanState and LoadState tools to perform a more targeted migration than using USMT without XML instructions.</source>
+          <target>You can use the MigDocs.xml file with the ScanState and LoadState tools to perform a more targeted migration than using USMT without XML instructions.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>The default MigDocs.xml file migrates the following:</source>
+          <target>The default MigDocs.xml file migrates the following:</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>All files on the root of the drive except %WINDIR%, %PROGRAMFILES%, %PROGRAMDATA%, or %USERS%.</source>
+          <target>All files on the root of the drive except %WINDIR%, %PROGRAMFILES%, %PROGRAMDATA%, or %USERS%.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>All folders in the root directory of all fixed drives.</source>
+          <target>All folders in the root directory of all fixed drives.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example: c:<ph dataRef="id1" id="ph1" />data<ph dataRef="id2" id="ph2" />mail</source>
+          <target>For example: c:<ph dataRef="id1" id="ph1" />data<ph dataRef="id2" id="ph2" />mail</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>All files from the root of the Profiles folder, except for files in the system profile.</source>
+          <target>All files from the root of the Profiles folder, except for files in the system profile.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\[</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example: c:<ph dataRef="id1" id="ph1" />users<ph dataRef="id2" id="ph2" />name<ph dataRef="id3" id="ph3" />mail.pst</source>
+          <target>For example: c:<ph dataRef="id1" id="ph1" />users<ph dataRef="id2" id="ph2" />name<ph dataRef="id3" id="ph3" />mail.pst</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>All folders from the root of the Profiles folder, except for the system-profile folders.</source>
+          <target>All folders from the root of the Profiles folder, except for the system-profile folders.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example: c:<ph dataRef="id1" id="ph1" />users<ph dataRef="id2" id="ph2" />name<ph dataRef="id3" id="ph3" />new folder</source>
+          <target>For example: c:<ph dataRef="id1" id="ph1" />users<ph dataRef="id2" id="ph2" />name<ph dataRef="id3" id="ph3" />new folder</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Standard shared folders:</source>
+          <target>Standard shared folders:</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />DESKTOPDIRECTORY</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />DESKTOPDIRECTORY</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />FAVORITES</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />FAVORITES</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />DOCUMENTS</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />DOCUMENTS</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />MUSIC</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />MUSIC</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />PICTURES</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />PICTURES</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />VIDEO</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />VIDEO</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>FOLDERID<ph dataRef="id1" id="ph1" />PublicDownloads</source>
+          <target>FOLDERID<ph dataRef="id1" id="ph1" />PublicDownloads</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Standard user-profile folders for each user:</source>
+          <target>Standard user-profile folders for each user:</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />MYDOCUMENTS</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />MYDOCUMENTS</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />MYPICTURES</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />MYPICTURES</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>FOLDERID<ph dataRef="id1" id="ph1" />OriginalImages</source>
+          <target>FOLDERID<ph dataRef="id1" id="ph1" />OriginalImages</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />MYMUSIC</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />MYMUSIC</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />MYVIDEO</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />MYVIDEO</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />FAVORITES</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />FAVORITES</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />DESKTOP</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />DESKTOP</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />QUICKLAUNCH</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />QUICKLAUNCH</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>FOLDERID<ph dataRef="id1" id="ph1" />Contacts</source>
+          <target>FOLDERID<ph dataRef="id1" id="ph1" />Contacts</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>FOLDERID<ph dataRef="id1" id="ph1" />Libraries</source>
+          <target>FOLDERID<ph dataRef="id1" id="ph1" />Libraries</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>FOLDERID<ph dataRef="id1" id="ph1" />Downloads</source>
+          <target>FOLDERID<ph dataRef="id1" id="ph1" />Downloads</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>FOLDERID<ph dataRef="id1" id="ph1" />SavedGames</source>
+          <target>FOLDERID<ph dataRef="id1" id="ph1" />SavedGames</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>FOLDERID<ph dataRef="id1" id="ph1" />RecordedTV</source>
+          <target>FOLDERID<ph dataRef="id1" id="ph1" />RecordedTV</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>The default MigDocs.xml file will not migrate the following:</source>
+          <target>The default MigDocs.xml file will not migrate the following:</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Files tagged with both the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">hidden</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">system</pc> attributes.</source>
+          <target>Files tagged with both the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">hidden</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">system</pc> attributes.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Files and folders on removable drives.</source>
+          <target>Files and folders on removable drives.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Data from the %WINDIR%, %PROGRAMDATA%, and %PROGRAMFILES% folders.</source>
+          <target>Data from the %WINDIR%, %PROGRAMDATA%, and %PROGRAMFILES% folders.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Folders that contain installed applications.</source>
+          <target>Folders that contain installed applications.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can also use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/genmigxml</pc> option with the ScanState tool to review and modify what files will be migrated.</source>
+          <target>You can also use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/genmigxml</pc> option with the ScanState tool to review and modify what files will be migrated.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Overview of the MigUser.xml file</source>
+          <target>Overview of the MigUser.xml file</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>The MigUser.xml file includes instructions for USMT to migrate user files based on file name extensions.</source>
+          <target>The MigUser.xml file includes instructions for USMT to migrate user files based on file name extensions.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>You can use the MigUser.xml file with the ScanState and LoadState tools to perform a more targeted migration than using USMT without XML instructions.</source>
+          <target>You can use the MigUser.xml file with the ScanState and LoadState tools to perform a more targeted migration than using USMT without XML instructions.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>The MigUser.xml file will gather all files from the standard user-profile folders, as well as any files on the computer with the specified file name extensions.</source>
+          <target>The MigUser.xml file will gather all files from the standard user-profile folders, as well as any files on the computer with the specified file name extensions.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>The default MigUser.xml file migrates the following:</source>
+          <target>The default MigUser.xml file migrates the following:</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>All files from the standard user-profile folders which are described as:</source>
+          <target>All files from the standard user-profile folders which are described as:</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />MYVIDEO</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />MYVIDEO</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />MYMUSIC</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />MYMUSIC</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />DESKTOP</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />DESKTOP</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />STARTMENU</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />STARTMENU</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />PERSONAL</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />PERSONAL</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />MYPICTURES</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />MYPICTURES</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />FAVORITES</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />FAVORITES</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />QUICK LAUNCH</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />QUICK LAUNCH</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Files with the following extensions:</source>
+          <target>Files with the following extensions:</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <originalData>
+          <data id="id1">\*</data>
+          <data id="id2">\*</data>
+          <data id="id3">\*</data>
+          <data id="id4">\*</data>
+          <data id="id5">\*</data>
+          <data id="id6">\*</data>
+          <data id="id7">\*</data>
+          <data id="id8">\*</data>
+          <data id="id9">\*</data>
+        </originalData>
+        <segment state="initial">
+          <source>.qdf, .qsd, .qel, .qph, .doc<ph dataRef="id1" id="ph1" />, .dot<ph dataRef="id2" id="ph2" />, .rtf, .mcw, .wps, .scd, .wri, .wpd, .xl<ph dataRef="id3" id="ph3" />, .csv, .iqy, .dqy, .oqy, .rqy, .wk<ph dataRef="id4" id="ph4" />, .wq1, .slk, .dif, .ppt<ph dataRef="id5" id="ph5" />, .pps<ph dataRef="id6" id="ph6" />, .pot<ph dataRef="id7" id="ph7" />, .sh3, .ch3, .pre, .ppa, .txt, .pst, .one<ph dataRef="id8" id="ph8" />, .vl<ph dataRef="id9" id="ph9" />, .vsd, .mpp, .or6, .accdb, .mdb, .pub</source>
+          <target>.qdf, .qsd, .qel, .qph, .doc<ph dataRef="id1" id="ph1" />, .dot<ph dataRef="id2" id="ph2" />, .rtf, .mcw, .wps, .scd, .wri, .wpd, .xl<ph dataRef="id3" id="ph3" />, .csv, .iqy, .dqy, .oqy, .rqy, .wk<ph dataRef="id4" id="ph4" />, .wq1, .slk, .dif, .ppt<ph dataRef="id5" id="ph5" />, .pps<ph dataRef="id6" id="ph6" />, .pot<ph dataRef="id7" id="ph7" />, .sh3, .ch3, .pre, .ppa, .txt, .pst, .one<ph dataRef="id8" id="ph8" />, .vl<ph dataRef="id9" id="ph9" />, .vsd, .mpp, .or6, .accdb, .mdb, .pub</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>The default MigUser.xml file does not migrate the following:</source>
+          <target>The default MigUser.xml file does not migrate the following:</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Files tagged with both the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">hidden</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">system</pc> attributes.</source>
+          <target>Files tagged with both the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">hidden</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">system</pc> attributes.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Files and folders on removable drives,</source>
+          <target>Files and folders on removable drives,</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Data from the %WINDIR%, %PROGRAMFILES%, %PROGRAMDATA% folders.</source>
+          <target>Data from the %WINDIR%, %PROGRAMFILES%, %PROGRAMDATA% folders.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>ACLS for files in folders outside the user profile.</source>
+          <target>ACLS for files in folders outside the user profile.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>You can make a copy of the MigUser.xml file and modify it to include or exclude standard user-profile folders and file name extensions.</source>
+          <target>You can make a copy of the MigUser.xml file and modify it to include or exclude standard user-profile folders and file name extensions.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>If you know all of the extensions for the files you want to migrate from the source computer, use the MigUser.xml file to move all of your relevant data, regardless of the location of the files.</source>
+          <target>If you know all of the extensions for the files you want to migrate from the source computer, use the MigUser.xml file to move all of your relevant data, regardless of the location of the files.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>However, this may result in a migration that contains more files than intended.</source>
+          <target>However, this may result in a migration that contains more files than intended.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>For example, if you choose to migrate all .jpg files, you may migrate image files such as thumbnails and logos from legacy applications that are installed on the source computer.</source>
+          <target>For example, if you choose to migrate all .jpg files, you may migrate image files such as thumbnails and logos from legacy applications that are installed on the source computer.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Each file name extension you include in the rules within the MigUser.xml file increases the amount of time needed for the ScanState tool to gather the files for the migration.</source>
+          <target>Each file name extension you include in the rules within the MigUser.xml file increases the amount of time needed for the ScanState tool to gather the files for the migration.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>If you are migrating more than three hundred file types, you may experience a slow migration.</source>
+          <target>If you are migrating more than three hundred file types, you may experience a slow migration.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-multiple)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about other ways to organize the migration of your data, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Using multiple XML files</pc> section of this document.</source>
+          <target>For more information about other ways to organize the migration of your data, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Using multiple XML files</pc> section of this document.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Using multiple XML files</source>
+          <target>Using multiple XML files</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>You can use multiple XML files with the ScanState and LoadState tools.</source>
+          <target>You can use multiple XML files with the ScanState and LoadState tools.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Each of the default XML files included with or generated by USMT is configured for a specific component of the migration.</source>
+          <target>Each of the default XML files included with or generated by USMT is configured for a specific component of the migration.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>You can also use custom XML files to supplement these default files with additional migration rules.</source>
+          <target>You can also use custom XML files to supplement these default files with additional migration rules.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>XML migration file</source>
+          <target>XML migration file</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Modifies the following components:</source>
+          <target>Modifies the following components:</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Config.xml file</source>
+          <target>Config.xml file</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Operating-system components such as desktop wallpaper and background theme.</source>
+          <target>Operating-system components such as desktop wallpaper and background theme.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>You can also overload config.xml to include some application and document settings by generating the config.xml file with the other default XML files.</source>
+          <target>You can also overload config.xml to include some application and document settings by generating the config.xml file with the other default XML files.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-customize-xml-files.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](usmt-configxml-file.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize USMT XML Files</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Config.xml File</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize USMT XML Files</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Config.xml File</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>MigApps.xml file</source>
+          <target>MigApps.xml file</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Applications settings.</source>
+          <target>Applications settings.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>MigUser.xml or MigDocs.xml files</source>
+          <target>MigUser.xml or MigDocs.xml files</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>User files and profile settings.</source>
+          <target>User files and profile settings.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Custom XML files</source>
+          <target>Custom XML files</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Application settings, user profile settings, or user files, beyond the rules contained in the other XML files.</source>
+          <target>Application settings, user profile settings, or user files, beyond the rules contained in the other XML files.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>For example, you can use all of the XML migration file types for a single migration, as in the following example:</source>
+          <target>For example, you can use all of the XML migration file types for a single migration, as in the following example:</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>XML rules for migrating user files</source>
+          <target>XML rules for migrating user files</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>You should not use the MigUser.xml and MigDocs.xml files together in the same command.</source>
+          <target>You should not use the MigUser.xml and MigDocs.xml files together in the same command.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Using both XML files can result in duplication of some migrated files.</source>
+          <target>Using both XML files can result in duplication of some migrated files.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>This occurs when conflicting target-location instructions are given in each XML file.</source>
+          <target>This occurs when conflicting target-location instructions are given in each XML file.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>The target file will be stored once during the migration, but will be applied by each XML file to a different location on the destination computer.</source>
+          <target>The target file will be stored once during the migration, but will be applied by each XML file to a different location on the destination computer.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>If your data set is unknown or if many files are stored outside of the standard user-profile folders, the MigDocs.xml is a better choice than the MigUser.xml file, because the MigDocs.xml file will gather a broader scope of data.</source>
+          <target>If your data set is unknown or if many files are stored outside of the standard user-profile folders, the MigDocs.xml is a better choice than the MigUser.xml file, because the MigDocs.xml file will gather a broader scope of data.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>The MigDocs.xml file migrates folders of data based on location.</source>
+          <target>The MigDocs.xml file migrates folders of data based on location.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>The MigUser.xml file migrates only the files with the specified file name extensions.</source>
+          <target>The MigUser.xml file migrates only the files with the specified file name extensions.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>If you want more control over the migration, you can create custom XML files.</source>
+          <target>If you want more control over the migration, you can create custom XML files.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-createxml)</data>
+        </originalData>
+        <segment state="initial">
+          <source>See the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Creating and editing a custom ,xml file</pc> section of this document.</source>
+          <target>See the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Creating and editing a custom ,xml file</pc> section of this document.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Creating and editing a custom XML file</source>
+          <target>Creating and editing a custom XML file</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/genmigxml</pc> command-line option to determine which files will be included in your migration.</source>
+          <target>You can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/genmigxml</pc> command-line option to determine which files will be included in your migration.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/genmigxml</pc> option creates a file in a location you specify, so that you can review the XML rules and make modifications as necessary.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/genmigxml</pc> option creates a file in a location you specify, so that you can review the XML rules and make modifications as necessary.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>If you reinstall USMT, the default migration XML files will be overwritten and any customizations you make directly to these files will be lost.</source>
+          <target>If you reinstall USMT, the default migration XML files will be overwritten and any customizations you make directly to these files will be lost.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Consider creating separate XML files for your custom migration rules and saving them in a secure location.</source>
+          <target>Consider creating separate XML files for your custom migration rules and saving them in a secure location.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>To generate the XML migration rules file for a source computer:</source>
+          <target>To generate the XML migration rules file for a source computer:</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">All Programs</pc>, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Accessories</pc>, right-click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Command Prompt</pc>, and then click <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Run as</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">All Programs</pc>, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Accessories</pc>, right-click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Command Prompt</pc>, and then click <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Run as</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select an account with administrator privileges, supply a password, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Select an account with administrator privileges, supply a password, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>At the command prompt, type:</source>
+          <target>At the command prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+          <data id="id5">*</data>
+          <data id="id6">*</data>
+          <data id="id7">&amp;lt;</data>
+          <data id="id8">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Where <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />USMTpath<ph dataRef="id4" id="ph2" /></pc> is the location on your source computer where you have saved the USMT files and tools, and <pc dataRefEnd="id6" dataRefStart="id5" id="p2"><ph dataRef="id7" id="ph3" />filepath.xml<ph dataRef="id8" id="ph4" /></pc> is the full path to a file where you can save the report.</source>
+          <target>Where <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />USMTpath<ph dataRef="id4" id="ph2" /></pc> is the location on your source computer where you have saved the USMT files and tools, and <pc dataRefEnd="id6" dataRefStart="id5" id="p2"><ph dataRef="id7" id="ph3" />filepath.xml<ph dataRef="id8" id="ph4" /></pc> is the full path to a file where you can save the report.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>For example, type:</source>
+          <target>For example, type:</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>The GenerateDocPatterns function</source>
+          <target>The GenerateDocPatterns function</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The MigDocs.xml file calls the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GenerateDocPatterns</pc> function, which takes three Boolean values.</source>
+          <target>The MigDocs.xml file calls the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GenerateDocPatterns</pc> function, which takes three Boolean values.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>You can change the settings to modify the way the MigDocs.xml file generates the XML rules for migration.</source>
+          <target>You can change the settings to modify the way the MigDocs.xml file generates the XML rules for migration.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Setting</source>
+          <target>Setting</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Value</source>
+          <target>Value</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Default Value</source>
+          <target>Default Value</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>ScanProgramFiles</source>
+          <target>ScanProgramFiles</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" />ScanProgramFiles<ph dataRef="id2" id="ph2" /> argument is valid only when the <ph dataRef="id3" id="ph3" />GenerateDocPatterns<ph dataRef="id4" id="ph4" /> function is called in a system context.</source>
+          <target>The <ph dataRef="id1" id="ph1" />ScanProgramFiles<ph dataRef="id2" id="ph2" /> argument is valid only when the <ph dataRef="id3" id="ph3" />GenerateDocPatterns<ph dataRef="id4" id="ph4" /> function is called in a system context.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>This argument determines whether or not to scan the Program Files directory to gather registered file name extensions for known applications.</source>
+          <target>This argument determines whether or not to scan the Program Files directory to gather registered file name extensions for known applications.</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, when set to <ph dataRef="id1" id="ph1" />TRUE<ph dataRef="id2" id="ph2" />, the function discovers and migrates .doc files under the Microsoft Office directory, because .doc is a file name extension registered to a Microsoft Office application.</source>
+          <target>For example, when set to <ph dataRef="id1" id="ph1" />TRUE<ph dataRef="id2" id="ph2" />, the function discovers and migrates .doc files under the Microsoft Office directory, because .doc is a file name extension registered to a Microsoft Office application.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" />GenerateDocPatterns<ph dataRef="id2" id="ph2" /> function generates this inclusion pattern for .doc files:</source>
+          <target>The <ph dataRef="id1" id="ph1" />GenerateDocPatterns<ph dataRef="id2" id="ph2" /> function generates this inclusion pattern for .doc files:</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>If a child folder of an included folder contains an installed application, ScanProgramFiles will also create an exclusion rule for the child folder.</source>
+          <target>If a child folder of an included folder contains an installed application, ScanProgramFiles will also create an exclusion rule for the child folder.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>All folders under the application folder will be scanned recursively for registered file name extensions.</source>
+          <target>All folders under the application folder will be scanned recursively for registered file name extensions.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>False</source>
+          <target>False</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>IncludePatterns</source>
+          <target>IncludePatterns</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" />IncludePatterns<ph dataRef="id2" id="ph2" /> argument determines whether to generate exclude or include patterns in the XML.</source>
+          <target>The <ph dataRef="id1" id="ph1" />IncludePatterns<ph dataRef="id2" id="ph2" /> argument determines whether to generate exclude or include patterns in the XML.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+          <data id="id5">&amp;lt;</data>
+          <data id="id6">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>When this argument is set to <ph dataRef="id1" id="ph1" />TRUE<ph dataRef="id2" id="ph2" />, the <ph dataRef="id3" id="ph3" />GenerateDocPatterns<ph dataRef="id4" id="ph4" /> function generates include patterns and the function must be added under the <ph dataRef="id5" id="ph5" />include<ph dataRef="id6" id="ph6" /> element.</source>
+          <target>When this argument is set to <ph dataRef="id1" id="ph1" />TRUE<ph dataRef="id2" id="ph2" />, the <ph dataRef="id3" id="ph3" />GenerateDocPatterns<ph dataRef="id4" id="ph4" /> function generates include patterns and the function must be added under the <ph dataRef="id5" id="ph5" />include<ph dataRef="id6" id="ph6" /> element.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Changing this argument to <ph dataRef="id1" id="ph1" />FALSE<ph dataRef="id2" id="ph2" /> generates exclude patterns and the function must be added under the <ph dataRef="id3" id="ph3" />exclude<ph dataRef="id4" id="ph4" /> element.</source>
+          <target>Changing this argument to <ph dataRef="id1" id="ph1" />FALSE<ph dataRef="id2" id="ph2" /> generates exclude patterns and the function must be added under the <ph dataRef="id3" id="ph3" />exclude<ph dataRef="id4" id="ph4" /> element.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>True</source>
+          <target>True</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>SystemDrive</source>
+          <target>SystemDrive</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" />SystemDrive<ph dataRef="id2" id="ph2" /> argument determines whether to generate patterns for all fixed drives or only for the system drive.</source>
+          <target>The <ph dataRef="id1" id="ph1" />SystemDrive<ph dataRef="id2" id="ph2" /> argument determines whether to generate patterns for all fixed drives or only for the system drive.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Changing this argument to <ph dataRef="id1" id="ph1" />TRUE<ph dataRef="id2" id="ph2" /> restricts all patterns to the system drive.</source>
+          <target>Changing this argument to <ph dataRef="id1" id="ph1" />TRUE<ph dataRef="id2" id="ph2" /> restricts all patterns to the system drive.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>False</source>
+          <target>False</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Usage:</source>
+          <target>Usage:</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>To create include data patterns for only the system drive:</source>
+          <target>To create include data patterns for only the system drive:</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>To create an include rule to gather files for registered extensions from the %PROGRAMFILES% directory:</source>
+          <target>To create an include rule to gather files for registered extensions from the %PROGRAMFILES% directory:</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>To create exclude data patterns:</source>
+          <target>To create exclude data patterns:</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>Understanding the system and user context</source>
+          <target>Understanding the system and user context</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The migration XML files contain two <ph dataRef="id1" id="ph1" />component<ph dataRef="id2" id="ph2" /> elements with different <pc dataRefEnd="id4" dataRefStart="id3" id="p1">context</pc> settings.</source>
+          <target>The migration XML files contain two <ph dataRef="id1" id="ph1" />component<ph dataRef="id2" id="ph2" /> elements with different <pc dataRefEnd="id4" dataRefStart="id3" id="p1">context</pc> settings.</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>The system context applies to files on the computer that are not stored in the User Profiles directory, while the user context applies to files that are particular to an individual user.</source>
+          <target>The system context applies to files on the computer that are not stored in the User Profiles directory, while the user context applies to files that are particular to an individual user.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>System context</source>
+          <target>System context</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>The system context includes rules for data outside of the User Profiles directory.</source>
+          <target>The system context includes rules for data outside of the User Profiles directory.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, when called in a system context in the MigDocs.xml file, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GenerateDocPatterns</pc> function creates patterns for all common shell folders, files in the root directory of hard drives, and folders located at the root of hard drives.</source>
+          <target>For example, when called in a system context in the MigDocs.xml file, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GenerateDocPatterns</pc> function creates patterns for all common shell folders, files in the root directory of hard drives, and folders located at the root of hard drives.</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>The following folders are included:</source>
+          <target>The following folders are included:</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />DESKTOPDIRECTORY</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />DESKTOPDIRECTORY</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />FAVORITES</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />FAVORITES</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />DOCUMENTS</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />DOCUMENTS</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />MUSIC</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />MUSIC</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />PICTURES</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />PICTURES</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />VIDEO</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />COMMON<ph dataRef="id2" id="ph2" />VIDEO</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>FOLDERID<ph dataRef="id1" id="ph1" />PublicDownloads</source>
+          <target>FOLDERID<ph dataRef="id1" id="ph1" />PublicDownloads</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>User context</source>
+          <target>User context</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>The user context includes rules for data in the User Profiles directory.</source>
+          <target>The user context includes rules for data in the User Profiles directory.</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When called in a user context in the MigDocs.xml file, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GenerateDocPatterns</pc> function creates patterns for all user shell folders, files located at the root of the profile, and folders located at the root of the profile.</source>
+          <target>When called in a user context in the MigDocs.xml file, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GenerateDocPatterns</pc> function creates patterns for all user shell folders, files located at the root of the profile, and folders located at the root of the profile.</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>The following folders are included:</source>
+          <target>The following folders are included:</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />MYDOCUMENTS</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />MYDOCUMENTS</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />MYPICTURES</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />MYPICTURES</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>FOLDERID<ph dataRef="id1" id="ph1" />OriginalImages</source>
+          <target>FOLDERID<ph dataRef="id1" id="ph1" />OriginalImages</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />MYMUSIC</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />MYMUSIC</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />MYVIDEO</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />MYVIDEO</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />FAVORITES</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />FAVORITES</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />DESKTOP</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />DESKTOP</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>CSIDL<ph dataRef="id1" id="ph1" />QUICKLAUNCH</source>
+          <target>CSIDL<ph dataRef="id1" id="ph1" />QUICKLAUNCH</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>FOLDERID<ph dataRef="id1" id="ph1" />Contacts</source>
+          <target>FOLDERID<ph dataRef="id1" id="ph1" />Contacts</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>FOLDERID<ph dataRef="id1" id="ph1" />Libraries</source>
+          <target>FOLDERID<ph dataRef="id1" id="ph1" />Libraries</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>FOLDERID<ph dataRef="id1" id="ph1" />Downloads</source>
+          <target>FOLDERID<ph dataRef="id1" id="ph1" />Downloads</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>FOLDERID<ph dataRef="id1" id="ph1" />SavedGames</source>
+          <target>FOLDERID<ph dataRef="id1" id="ph1" />SavedGames</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>FOLDERID<ph dataRef="id1" id="ph1" />RecordedTV</source>
+          <target>FOLDERID<ph dataRef="id1" id="ph1" />RecordedTV</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>Rules contained in a component that is assigned the user context will be run for each user profile on the computer.</source>
+          <target>Rules contained in a component that is assigned the user context will be run for each user profile on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>Files that are scanned multiple times by the MigDocs.xml files will only be copied to the migration store once; however, a large number of rules in the user context can slow down the migration.</source>
+          <target>Files that are scanned multiple times by the MigDocs.xml files will only be copied to the migration store once; however, a large number of rules in the user context can slow down the migration.</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <segment state="initial">
+          <source>Use the system context when it is applicable.</source>
+          <target>Use the system context when it is applicable.</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>Sample migration rules for customized versions of XML files</source>
+          <target>Sample migration rules for customized versions of XML files</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-customize-xml-files.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](usmt-general-conventions.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For best practices and requirements for customized XML files in USMT, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize USMT XML Files</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">General Conventions</pc>.</source>
+          <target>For best practices and requirements for customized XML files in USMT, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize USMT XML Files</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">General Conventions</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>Exclude rules usage examples</source>
+          <target>Exclude rules usage examples</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>In the examples below, the source computer has a .txt file called "new text document" in a directory called "new folder".</source>
+          <target>In the examples below, the source computer has a .txt file called "new text document" in a directory called "new folder".</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>The default MigDocs.xml behavior migrates the new text document.txt file and all files contained in the "new folder" directory.</source>
+          <target>The default MigDocs.xml behavior migrates the new text document.txt file and all files contained in the "new folder" directory.</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>The rules generated by the function are:</source>
+          <target>The rules generated by the function are:</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>Rule 1</source>
+          <target>Rule 1</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>Rule 2</source>
+          <target>Rule 2</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <segment state="initial">
+          <source>To exclude the new text document.txt file as well as any .txt files in “new folder”, you can do the following:</source>
+          <target>To exclude the new text document.txt file as well as any .txt files in “new folder”, you can do the following:</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <segment state="initial">
+          <source>Example 1: Exclude all .txt files in a folder</source>
+          <target>Example 1: Exclude all .txt files in a folder</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <segment state="initial">
+          <source>To exclude Rule 1, there needs to be an exact match of the file name.</source>
+          <target>To exclude Rule 1, there needs to be an exact match of the file name.</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <segment state="initial">
+          <source>However, for Rule 2, you can create a pattern to exclude files by using the file name extension.</source>
+          <target>However, for Rule 2, you can create a pattern to exclude files by using the file name extension.</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <segment state="initial">
+          <source>Example 2: Use the UnconditionalExclude element to give a rule precedence over include rules</source>
+          <target>Example 2: Use the UnconditionalExclude element to give a rule precedence over include rules</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you do not know the file name or location of the file, but you do know the file name extension, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GenerateDrivePatterns</pc> function.</source>
+          <target>If you do not know the file name or location of the file, but you do know the file name extension, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GenerateDrivePatterns</pc> function.</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <segment state="initial">
+          <source>However, the rule will be less specific than the default include rule generated by the MigDocs.xml file, so it will not have precedence.</source>
+          <target>However, the rule will be less specific than the default include rule generated by the MigDocs.xml file, so it will not have precedence.</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You must use the <ph dataRef="id1" id="ph1" />UnconditionalExclude<ph dataRef="id2" id="ph2" /> element to give this rule precedence over the default include rule.</source>
+          <target>You must use the <ph dataRef="id1" id="ph1" />UnconditionalExclude<ph dataRef="id2" id="ph2" /> element to give this rule precedence over the default include rule.</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-conflicts-and-precedence.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about the order of precedence for XML migration rules, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Conflicts and Precedence</pc>.</source>
+          <target>For more information about the order of precedence for XML migration rules, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Conflicts and Precedence</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>Example 3 : Use a UserandSystem context component to run rules in both contexts</source>
+          <target>Example 3 : Use a UserandSystem context component to run rules in both contexts</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you want the <ph dataRef="id1" id="ph1" />UnconditionalExclude<ph dataRef="id2" id="ph2" /> element to apply to both the system and user context, you can create a third component using the <pc dataRefEnd="id4" dataRefStart="id3" id="p1">UserandSystem</pc> context.</source>
+          <target>If you want the <ph dataRef="id1" id="ph1" />UnconditionalExclude<ph dataRef="id2" id="ph2" /> element to apply to both the system and user context, you can create a third component using the <pc dataRefEnd="id4" dataRefStart="id3" id="p1">UserandSystem</pc> context.</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>Rules in this component will be run in both contexts.</source>
+          <target>Rules in this component will be run in both contexts.</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-exclude-files-and-settings.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more examples of exclude rules that you can use in custom migration XML files, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exclude Files and Settings</pc>.</source>
+          <target>For more examples of exclude rules that you can use in custom migration XML files, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exclude Files and Settings</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <segment state="initial">
+          <source>Include rules usage examples</source>
+          <target>Include rules usage examples</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <segment state="initial">
+          <source>The application data directory is the most common location that you would need to add an include rule for.</source>
+          <target>The application data directory is the most common location that you would need to add an include rule for.</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GenerateDocPatterns</pc> function excludes this location by default.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GenerateDocPatterns</pc> function excludes this location by default.</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <segment state="initial">
+          <source>If your company uses an application that saves important data to this location, you can create include rules to migrate the data.</source>
+          <target>If your company uses an application that saves important data to this location, you can create include rules to migrate the data.</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <originalData>
+          <data id="id1">`%CSIDL_LOCAL_APPDATA%\Microsoft\Outlook`</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, the default location for .pst files is: <ph dataRef="id1" id="ph1" />.</source>
+          <target>For example, the default location for .pst files is: <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <segment state="initial">
+          <source>The Migapp.xml file contains migration rules to move only those .pst files that are linked to Microsoft Outlook.</source>
+          <target>The Migapp.xml file contains migration rules to move only those .pst files that are linked to Microsoft Outlook.</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <segment state="initial">
+          <source>To include .pst files that are not linked, you can do the following:</source>
+          <target>To include .pst files that are not linked, you can do the following:</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <segment state="initial">
+          <source>Example 1: Include a file name extension in a known user folder</source>
+          <target>Example 1: Include a file name extension in a known user folder</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <segment state="initial">
+          <source>This rule will include .pst files that are located in the default location, but are not linked to Microsoft Outlook.</source>
+          <target>This rule will include .pst files that are located in the default location, but are not linked to Microsoft Outlook.</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <segment state="initial">
+          <source>Use the user context to run this rule for each user on the computer.</source>
+          <target>Use the user context to run this rule for each user on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <segment state="initial">
+          <source>Example 2: Include a file name extension in Program Files</source>
+          <target>Example 2: Include a file name extension in Program Files</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <segment state="initial">
+          <source>For locations outside the user profile, such as the Program Files folder, you can add the rule to the system context component.</source>
+          <target>For locations outside the user profile, such as the Program Files folder, you can add the rule to the system context component.</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-include-files-and-settings.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more examples of include rules that you can use in custom migration XML files, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Include Files and Settings</pc>.</source>
+          <target>For more examples of include rules that you can use in custom migration XML files, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Include Files and Settings</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-conflicts-and-precedence.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about the order of precedence for XML migration rules, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Conflicts and Precedence</pc>.</source>
+          <target>For more information about the order of precedence for XML migration rules, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Conflicts and Precedence</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <segment state="initial">
+          <source>Next steps</source>
+          <target>Next steps</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <segment state="initial">
+          <source>You can include additional rules for the migration in the MigDocs.xml file or other XML migration files.</source>
+          <target>You can include additional rules for the migration in the MigDocs.xml file or other XML migration files.</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, you can use the <ph dataRef="id1" id="ph1" />locationModify<ph dataRef="id2" id="ph2" /> element to move files from the folder where they were gathered to a different folder, when they are applied to the destination computer.</source>
+          <target>For example, you can use the <ph dataRef="id1" id="ph1" />locationModify<ph dataRef="id2" id="ph2" /> element to move files from the folder where they were gathered to a different folder, when they are applied to the destination computer.</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <segment state="initial">
+          <source>You can use an XML schema (MigXML.xsd) file to validate the syntax of your customized XML files.</source>
+          <target>You can use an XML schema (MigXML.xsd) file to validate the syntax of your customized XML files.</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-resources.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">USMT Resources</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">USMT Resources</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>Exclude Files and Settings</source>
+          <target>Exclude Files and Settings</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <segment state="initial">
+          <source>Include Files and Settings</source>
+          <target>Include Files and Settings</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

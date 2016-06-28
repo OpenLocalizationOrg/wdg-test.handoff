@@ -1,0 +1,2499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\use-windows-event-forwarding-to-assist-in-instrusion-detection.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">21fb533ad3aa10fd5c62d9171f95ffe37cc00d18</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Use Windows Event Forwarding to help with intrusion detection (Windows 10)</source>
+          <target>Use Windows Event Forwarding to help with intrusion detection (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Learn about an approach to collect events from devices in your organization.</source>
+          <target>Learn about an approach to collect events from devices in your organization.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>This article talks about events in both normal operations and when an intrusion is suspected.</source>
+          <target>This article talks about events in both normal operations and when an intrusion is suspected.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Use Windows Event Forwarding to help with intrusion detection</source>
+          <target>Use Windows Event Forwarding to help with intrusion detection</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Learn about an approach to collect events from devices in your organization.</source>
+          <target>Learn about an approach to collect events from devices in your organization.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>This article talks about events in both normal operations and when an intrusion is suspected.</source>
+          <target>This article talks about events in both normal operations and when an intrusion is suspected.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Windows Event Forwarding (WEF) reads any operational or administrative event log on a device in your organization and forwards the events you choose to a Windows Event Collector (WEC) server.</source>
+          <target>Windows Event Forwarding (WEF) reads any operational or administrative event log on a device in your organization and forwards the events you choose to a Windows Event Collector (WEC) server.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>To accomplish this, there are two different of subscriptions published to client devices - the Baseline subscription and the suspect subscription.</source>
+          <target>To accomplish this, there are two different of subscriptions published to client devices - the Baseline subscription and the suspect subscription.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>The Baseline subscription enrolls all devices in your organization, and a Suspect subscription only includes devices that have been added by you.</source>
+          <target>The Baseline subscription enrolls all devices in your organization, and a Suspect subscription only includes devices that have been added by you.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>The Suspect subscription collects additional events to help build context for system activity and can quickly be updated to accommodate new events and/or scenarios as needed without impacting baseline operations.</source>
+          <target>The Suspect subscription collects additional events to help build context for system activity and can quickly be updated to accommodate new events and/or scenarios as needed without impacting baseline operations.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>This implementation helps differentiate where events are ultimately stored.</source>
+          <target>This implementation helps differentiate where events are ultimately stored.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Baseline events can be sent to devices with online analytical capability, such as Security Event Manager (SEM), while also sending events to a MapReduce system, such as HDInsight or Hadoop, for long-term storage and deeper analysis.</source>
+          <target>Baseline events can be sent to devices with online analytical capability, such as Security Event Manager (SEM), while also sending events to a MapReduce system, such as HDInsight or Hadoop, for long-term storage and deeper analysis.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Events from the Suspect subscription are sent directly to a MapReduce system due to volume and lower signal/noise ratio, they are largely used for host forensic analysis.</source>
+          <target>Events from the Suspect subscription are sent directly to a MapReduce system due to volume and lower signal/noise ratio, they are largely used for host forensic analysis.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>An SEM’s strength lies in being able to inspect, correlate events, and generate alerts for known patterns manner and alert security staff at machine speed.</source>
+          <target>An SEM’s strength lies in being able to inspect, correlate events, and generate alerts for known patterns manner and alert security staff at machine speed.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>A MapReduce system has a longer retention time (years versus months for an SEM), larger ingress ability (hundreds of terabytes per day), and the ability to perform more complex operations on the data like statistical and trend analysis, pattern clustering analysis, or apply Machine Learning algorithms.</source>
+          <target>A MapReduce system has a longer retention time (years versus months for an SEM), larger ingress ability (hundreds of terabytes per day), and the ability to perform more complex operations on the data like statistical and trend analysis, pattern clustering analysis, or apply Machine Learning algorithms.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Here's an approximate scaling guide for WEF events:</source>
+          <target>Here's an approximate scaling guide for WEF events:</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Events/second range</source>
+          <target>Events/second range</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Data store</source>
+          <target>Data store</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>0 - 5,000</source>
+          <target>0 - 5,000</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>SQL or SEM</source>
+          <target>SQL or SEM</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>5,000 - 50,000</source>
+          <target>5,000 - 50,000</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>SEM</source>
+          <target>SEM</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>50,000+</source>
+          <target>50,000+</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Hadoop/HDInsight/Data Lake</source>
+          <target>Hadoop/HDInsight/Data Lake</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Event generation on a device must be enabled either separately or as part of the GPO for the baseline WEF implementation, including enabling of disabled event logs and setting channel permissions.</source>
+          <target>Event generation on a device must be enabled either separately or as part of the GPO for the baseline WEF implementation, including enabling of disabled event logs and setting channel permissions.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-appendixc)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix C - Event channel settings (enable and channel access) methods</pc>.</source>
+          <target>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix C - Event channel settings (enable and channel access) methods</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>This is because WEF is a passive system with regards to the event log.</source>
+          <target>This is because WEF is a passive system with regards to the event log.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>It cannot change the size of event log files, enable disabled event channels, change channel permissions, or adjust a security audit policy.</source>
+          <target>It cannot change the size of event log files, enable disabled event channels, change channel permissions, or adjust a security audit policy.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>WEF only queries event channels for existing events.</source>
+          <target>WEF only queries event channels for existing events.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Additionally, having event generation already occurring on a device allows for more complete event collection building a complete history of system activity.</source>
+          <target>Additionally, having event generation already occurring on a device allows for more complete event collection building a complete history of system activity.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Otherwise, you'll be limited to the speed of GPO and WEF subscription refresh cycles to make changes to what is being generated on the device.</source>
+          <target>Otherwise, you'll be limited to the speed of GPO and WEF subscription refresh cycles to make changes to what is being generated on the device.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>On modern devices, enabling additional event channels and expanding the size of event log files has not resulted in noticeable performance differences.</source>
+          <target>On modern devices, enabling additional event channels and expanding the size of event log files has not resulted in noticeable performance differences.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-appendixa)</data>
+          <data id="id3">[</data>
+          <data id="id4">](#bkmk-appendixb)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the minimum recommended audit policy and registry system ACL settings, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix A - Minimum recommended minimum audit policy</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Appendix B - Recommended minimum registry system ACL policy</pc>.</source>
+          <target>For the minimum recommended audit policy and registry system ACL settings, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix A - Minimum recommended minimum audit policy</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Appendix B - Recommended minimum registry system ACL policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  These are only minimum values need to meet what the WEF subscription selects.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  These are only minimum values need to meet what the WEF subscription selects.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>From a WEF subscription management perspective, the event queries provided should be used in two separate subscriptions for ease of maintenance; only machines meeting specific criteria would be allowed access to the targeted subscription, this access would be determined by an algorithm or an analysts’ direction.</source>
+          <target>From a WEF subscription management perspective, the event queries provided should be used in two separate subscriptions for ease of maintenance; only machines meeting specific criteria would be allowed access to the targeted subscription, this access would be determined by an algorithm or an analysts’ direction.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>All devices should have access to the Baseline subscription.</source>
+          <target>All devices should have access to the Baseline subscription.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>This means you would create two base subscriptions:</source>
+          <target>This means you would create two base subscriptions:</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Baseline WEF subscription</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Baseline WEF subscription</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Events collected from all hosts, this includes some role-specific events, which will only be emitted by those machines.</source>
+          <target>Events collected from all hosts, this includes some role-specific events, which will only be emitted by those machines.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Targeted WEF subscription</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Targeted WEF subscription</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Events collected from a limited set of hosts due to unusual activity and/or heightened awareness for those systems.</source>
+          <target>Events collected from a limited set of hosts due to unusual activity and/or heightened awareness for those systems.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Each using the respective event query below.</source>
+          <target>Each using the respective event query below.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Note that for the Targeted subscription enabling the “read existing events” option should be set to true to allow collection of existing events from systems.</source>
+          <target>Note that for the Targeted subscription enabling the “read existing events” option should be set to true to allow collection of existing events from systems.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>By default, WEF subscriptions will only forward events generated after the WEF subscription was received by the client.</source>
+          <target>By default, WEF subscriptions will only forward events generated after the WEF subscription was received by the client.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-appendixe)</data>
+          <data id="id3">[</data>
+          <data id="id4">](#bkmk-appendixf)</data>
+        </originalData>
+        <segment state="initial">
+          <source>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix E – Annotated Baseline Subscription Event Query</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Appendix F – Annotated Suspect Subscription Event Query</pc>, the event query XML is included when creating WEF subscriptions.</source>
+          <target>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix E – Annotated Baseline Subscription Event Query</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Appendix F – Annotated Suspect Subscription Event Query</pc>, the event query XML is included when creating WEF subscriptions.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>These are annotated for query purpose and clarity.</source>
+          <target>These are annotated for query purpose and clarity.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Individual <ph dataRef="id1" id="ph1" />Query<ph dataRef="id2" id="ph2" /> element can be removed or edited without affecting the rest of the query.</source>
+          <target>Individual <ph dataRef="id1" id="ph1" />Query<ph dataRef="id2" id="ph2" /> element can be removed or edited without affecting the rest of the query.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Common WEF questions</source>
+          <target>Common WEF questions</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>This section addresses common questions from IT pros and customers.</source>
+          <target>This section addresses common questions from IT pros and customers.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Will the user notice if their machine is enabled for WEF or if WEF encounters an error?</source>
+          <target>Will the user notice if their machine is enabled for WEF or if WEF encounters an error?</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>The short answer is: No.</source>
+          <target>The short answer is: No.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The longer answer is: The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Eventlog-forwardingPlugin/Operational</pc> event channel logs the success, warning, and error events related to WEF subscriptions present on the device.</source>
+          <target>The longer answer is: The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Eventlog-forwardingPlugin/Operational</pc> event channel logs the success, warning, and error events related to WEF subscriptions present on the device.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Unless the user opens Event Viewer and navigates to that channel, they will not notice WEF either through resource consumption or Graphical User Interface pop-ups.</source>
+          <target>Unless the user opens Event Viewer and navigates to that channel, they will not notice WEF either through resource consumption or Graphical User Interface pop-ups.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Even if there is an issue with the WEF subscription, there is no user interaction or performance degradation.</source>
+          <target>Even if there is an issue with the WEF subscription, there is no user interaction or performance degradation.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>All success, warning, and failure events are logged to this operational event channel.</source>
+          <target>All success, warning, and failure events are logged to this operational event channel.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Is WEF Push or Pull?</source>
+          <target>Is WEF Push or Pull?</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>A WEF subscription can be configured to be push or pull, but not both.</source>
+          <target>A WEF subscription can be configured to be push or pull, but not both.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>The simplest, most flexible IT deployment with the greatest scalability can be achieved by using a push, or source initiated, subscription.</source>
+          <target>The simplest, most flexible IT deployment with the greatest scalability can be achieved by using a push, or source initiated, subscription.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>WEF clients are configured by using a GPO and the built-in forwarding client is activated.</source>
+          <target>WEF clients are configured by using a GPO and the built-in forwarding client is activated.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>For pull, collector initiated, the subscription on the WEC server is pre-configured with the names of the WEF Client devices from which events are to be selected.</source>
+          <target>For pull, collector initiated, the subscription on the WEC server is pre-configured with the names of the WEF Client devices from which events are to be selected.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Those clients also have to be configured ahead of time to allow the credentials used in the subscription to access their event logs remotely (normally by adding the credential to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Event Log Readers</pc> built-in local security group.) A useful scenario: closely monitoring a specific set of machines.</source>
+          <target>Those clients also have to be configured ahead of time to allow the credentials used in the subscription to access their event logs remotely (normally by adding the credential to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Event Log Readers</pc> built-in local security group.) A useful scenario: closely monitoring a specific set of machines.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Will WEF work over VPN or RAS?</source>
+          <target>Will WEF work over VPN or RAS?</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>WEF handles VPN, RAS, and DirectAccess scenarios well and will reconnect and send any accumulated backlog of events when the connection to the WEF Collector is re-established.</source>
+          <target>WEF handles VPN, RAS, and DirectAccess scenarios well and will reconnect and send any accumulated backlog of events when the connection to the WEF Collector is re-established.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>How is client progress tracked?</source>
+          <target>How is client progress tracked?</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>The WEC server maintains in its registry the bookmark information and last heartbeat time for each event source for each WEF subscription.</source>
+          <target>The WEC server maintains in its registry the bookmark information and last heartbeat time for each event source for each WEF subscription.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>When an event source re-connects to a WEC server, the last bookmark position is sent to the device to use as a starting point to resume forwarding events.</source>
+          <target>When an event source re-connects to a WEC server, the last bookmark position is sent to the device to use as a starting point to resume forwarding events.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>If a WEF client has no events to send, the WEF client will connect periodically to send a Heartbeat to the WEC server to indicate it is active.</source>
+          <target>If a WEF client has no events to send, the WEF client will connect periodically to send a Heartbeat to the WEC server to indicate it is active.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>This heartbeat value can be individually configured for each subscription.</source>
+          <target>This heartbeat value can be individually configured for each subscription.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Will WEF work in an IPv4, IPv6, or mixed IPv4/IPv6 environment?</source>
+          <target>Will WEF work in an IPv4, IPv6, or mixed IPv4/IPv6 environment?</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Yes.</source>
+          <target>Yes.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>WEF is transport agnostic and will work over IPv4 or IPv6.</source>
+          <target>WEF is transport agnostic and will work over IPv4 or IPv6.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Are WEF events encrypted?</source>
+          <target>Are WEF events encrypted?</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>I see an HTTP/HTTPS option!</source>
+          <target>I see an HTTP/HTTPS option!</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>In a domain setting, the connection used to transmit WEF events is encrypted using Kerberos, by default (with NTLM as a fallback option, which can be disabled by using a GPO).</source>
+          <target>In a domain setting, the connection used to transmit WEF events is encrypted using Kerberos, by default (with NTLM as a fallback option, which can be disabled by using a GPO).</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Only the WEF collector can decrypt the connection.</source>
+          <target>Only the WEF collector can decrypt the connection.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Additionally, the connection between WEF client and WEC server is mutually authenticated regardless of authentication type (Kerberos or NTLM.) There are GPO options to force Authentication to use Kerberos Only.</source>
+          <target>Additionally, the connection between WEF client and WEC server is mutually authenticated regardless of authentication type (Kerberos or NTLM.) There are GPO options to force Authentication to use Kerberos Only.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>This authentication and encryption is performed regardless if HTTP or HTTPS is selected.</source>
+          <target>This authentication and encryption is performed regardless if HTTP or HTTPS is selected.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>The HTTPS option is available if certificate based authentication is used, in cases where the Kerberos based mutual authentication is not an option.</source>
+          <target>The HTTPS option is available if certificate based authentication is used, in cases where the Kerberos based mutual authentication is not an option.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>The SSL certificate and provisioned client certificates are used to provide mutual authentication.</source>
+          <target>The SSL certificate and provisioned client certificates are used to provide mutual authentication.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Do WEF Clients have a separate buffer for events?</source>
+          <target>Do WEF Clients have a separate buffer for events?</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>The WEF client machines local event log is the buffer for WEF for when the connection to the WEC server is lost.</source>
+          <target>The WEF client machines local event log is the buffer for WEF for when the connection to the WEC server is lost.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>To increase the “buffer size”, increase the maximum file size of the specific event log file where events are being selected.</source>
+          <target>To increase the “buffer size”, increase the maximum file size of the specific event log file where events are being selected.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-appendixc)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix C – Event Channel Settings (enable and Channel Access) methods</pc>.</source>
+          <target>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix C – Event Channel Settings (enable and Channel Access) methods</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>When the event log overwrites existing events (resulting in data loss if the device is not connected to the Event Collector), there is no notification sent to the WEF collector that events are lost from the client.</source>
+          <target>When the event log overwrites existing events (resulting in data loss if the device is not connected to the Event Collector), there is no notification sent to the WEF collector that events are lost from the client.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Neither is there an indicator that there was a gap encountered in the event stream.</source>
+          <target>Neither is there an indicator that there was a gap encountered in the event stream.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>What format is used for forwarded events?</source>
+          <target>What format is used for forwarded events?</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>WEF has two modes for forwarded events.</source>
+          <target>WEF has two modes for forwarded events.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>The default is “Rendered Text” which includes the textual description of the event as you would see it in Event Viewer.</source>
+          <target>The default is “Rendered Text” which includes the textual description of the event as you would see it in Event Viewer.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>This means that the event size is effectively doubled or tripled depending on the size of the rendered description.</source>
+          <target>This means that the event size is effectively doubled or tripled depending on the size of the rendered description.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>The alternative mode is “Events” (also sometimes referred to as “Binary” format) – which is just the event XML itself sent in binary XML format (as it would be written to the evtx file.) This is very compact and can more than double the event volume a single WEC server can accommodate.</source>
+          <target>The alternative mode is “Events” (also sometimes referred to as “Binary” format) – which is just the event XML itself sent in binary XML format (as it would be written to the evtx file.) This is very compact and can more than double the event volume a single WEC server can accommodate.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>A subscription “testSubscription” can be configured to use the Events format through the WECUTIL utility:</source>
+          <target>A subscription “testSubscription” can be configured to use the Events format through the WECUTIL utility:</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>How frequently are WEF events delivered?</source>
+          <target>How frequently are WEF events delivered?</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Event delivery options are part of the WEF subscription configuration parameters – There are three built-in subscription delivery options: Normal, Minimize Bandwidth, and Minimize Latency.</source>
+          <target>Event delivery options are part of the WEF subscription configuration parameters – There are three built-in subscription delivery options: Normal, Minimize Bandwidth, and Minimize Latency.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>A fourth, catch-all called “Custom” is available but cannot be selected or configured through the WEF UI by using Event Ciewer.</source>
+          <target>A fourth, catch-all called “Custom” is available but cannot be selected or configured through the WEF UI by using Event Ciewer.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>The Custom delivery option must be selected and configured using the WECUTIL.EXE command-line application.</source>
+          <target>The Custom delivery option must be selected and configured using the WECUTIL.EXE command-line application.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>All subscription options define a maximum event count and maximum event age, if either limit is exceeded then the accumulated events are sent to the event collector.</source>
+          <target>All subscription options define a maximum event count and maximum event age, if either limit is exceeded then the accumulated events are sent to the event collector.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>This table outlines the built-in delivery options:</source>
+          <target>This table outlines the built-in delivery options:</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Event delivery optimization options</source>
+          <target>Event delivery optimization options</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Normal</source>
+          <target>Normal</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>This option ensures reliable delivery of events and does not attempt to conserve bandwidth.</source>
+          <target>This option ensures reliable delivery of events and does not attempt to conserve bandwidth.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>It is the appropriate choice unless you need tighter control over bandwidth usage or need forwarded events delivered as quickly as possible.</source>
+          <target>It is the appropriate choice unless you need tighter control over bandwidth usage or need forwarded events delivered as quickly as possible.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>It uses pull delivery mode, batches 5 items at a time and sets a batch timeout of 15 minutes.</source>
+          <target>It uses pull delivery mode, batches 5 items at a time and sets a batch timeout of 15 minutes.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Minimize bandwidth</source>
+          <target>Minimize bandwidth</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>This option ensures that the use of network bandwidth for event delivery is strictly controlled.</source>
+          <target>This option ensures that the use of network bandwidth for event delivery is strictly controlled.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>It is an appropriate choice if you want to limit the frequency of network connections made to deliver events.</source>
+          <target>It is an appropriate choice if you want to limit the frequency of network connections made to deliver events.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>It uses push delivery mode and sets a batch timeout of 6 hours.</source>
+          <target>It uses push delivery mode and sets a batch timeout of 6 hours.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>In addition, it uses a heartbeat interval of 6 hours.</source>
+          <target>In addition, it uses a heartbeat interval of 6 hours.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Minimize latency</source>
+          <target>Minimize latency</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>This option ensures that events are delivered with minimal delay.</source>
+          <target>This option ensures that events are delivered with minimal delay.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>It is an appropriate choice if you are collecting alerts or critical events.</source>
+          <target>It is an appropriate choice if you are collecting alerts or critical events.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>It uses push delivery mode and sets a batch timeout of 30 seconds.</source>
+          <target>It uses push delivery mode and sets a batch timeout of 30 seconds.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/cc749167.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info about delivery options, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Advanced Subscription Settings</pc>.</source>
+          <target>For more info about delivery options, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Advanced Subscription Settings</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>The primary difference is in the latency which events are sent from the client.</source>
+          <target>The primary difference is in the latency which events are sent from the client.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>If none of the built-in options meet your requirements you can set Custom event delivery options for a given subscription from an elevated command prompt:</source>
+          <target>If none of the built-in options meet your requirements you can set Custom event delivery options for a given subscription from an elevated command prompt:</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>How do I control which devices have access to a WEF Subscription?</source>
+          <target>How do I control which devices have access to a WEF Subscription?</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>For source initiated subscriptions: Each WEF subscription on a WEC server has its own ACL for machine accounts or security groups containing machine accounts (not user accounts) that are explicitly allowed to participate in that subscription or are explicitly denied access.</source>
+          <target>For source initiated subscriptions: Each WEF subscription on a WEC server has its own ACL for machine accounts or security groups containing machine accounts (not user accounts) that are explicitly allowed to participate in that subscription or are explicitly denied access.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>This ACL applies to only a single WEF subscription (since there can be multiple WEF subscriptions on a given WEC server), other WEF Subscriptions have their own separate ACL.</source>
+          <target>This ACL applies to only a single WEF subscription (since there can be multiple WEF subscriptions on a given WEC server), other WEF Subscriptions have their own separate ACL.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>For collector initiated subscriptions: The subscription contains the list of machines from which the WEC server is to collect events.</source>
+          <target>For collector initiated subscriptions: The subscription contains the list of machines from which the WEC server is to collect events.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>This list is managed at the WEC server, and the credentials used for the subscription must have access to read event logs from the WEF Clients – the credentials can be either the machine account or a domain account.</source>
+          <target>This list is managed at the WEC server, and the credentials used for the subscription must have access to read event logs from the WEF Clients – the credentials can be either the machine account or a domain account.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Can a client communicate to multiple WEF Event Collectors?</source>
+          <target>Can a client communicate to multiple WEF Event Collectors?</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Yes.</source>
+          <target>Yes.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>If you desire a High-Availability environment, simply configure multiple WEC servers with the same subscription configuration and publish both WEC Server URIs to WEF clients.</source>
+          <target>If you desire a High-Availability environment, simply configure multiple WEC servers with the same subscription configuration and publish both WEC Server URIs to WEF clients.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>WEF Clients will forward events simultaneously to the configured subscriptions on the WEC servers, if they have the appropriate access.</source>
+          <target>WEF Clients will forward events simultaneously to the configured subscriptions on the WEC servers, if they have the appropriate access.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>What are the WEC server’s limitations?</source>
+          <target>What are the WEC server’s limitations?</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>There are three factors that limit the scalability of WEC servers.</source>
+          <target>There are three factors that limit the scalability of WEC servers.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>The general rule for a stable WEC server on commodity hardware is “10k x 10k” – meaning, no more than 10,000 concurrently active WEF Clients per WEC server and no more than 10,000 events/second average event volume.</source>
+          <target>The general rule for a stable WEC server on commodity hardware is “10k x 10k” – meaning, no more than 10,000 concurrently active WEF Clients per WEC server and no more than 10,000 events/second average event volume.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Disk I/O</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Disk I/O</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>The WEC server does not process or validate the received event, but rather buffers the received event and then logs it to a local event log file (EVTX file).</source>
+          <target>The WEC server does not process or validate the received event, but rather buffers the received event and then logs it to a local event log file (EVTX file).</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>The speed of logging to the EVTX file is limited by the disk write speed.</source>
+          <target>The speed of logging to the EVTX file is limited by the disk write speed.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>Isolating the EVTX file to its own array or using high speed disks can increase the number of events per second that a single WEC server can receive.</source>
+          <target>Isolating the EVTX file to its own array or using high speed disks can increase the number of events per second that a single WEC server can receive.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Network Connections</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Network Connections</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>While a WEF source does not maintain a permanent, persistent connection to the WEC server, it does not immediately disconnect after sending its events.</source>
+          <target>While a WEF source does not maintain a permanent, persistent connection to the WEC server, it does not immediately disconnect after sending its events.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>This means that the number of WEF sources that can simultaneously connect to the WEC server is limited to the open TCP ports available on the WEC server.</source>
+          <target>This means that the number of WEF sources that can simultaneously connect to the WEC server is limited to the open TCP ports available on the WEC server.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Registry size</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Registry size</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>For each unique device that connects to a WEF subscription, there is a registry key (corresponding to the FQDN of the WEF Client) created to store bookmark and source heartbeat information.</source>
+          <target>For each unique device that connects to a WEF subscription, there is a registry key (corresponding to the FQDN of the WEF Client) created to store bookmark and source heartbeat information.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>If this is not pruned to remove inactive clients this set of registry keys can grow to an unmanageable size over time.</source>
+          <target>If this is not pruned to remove inactive clients this set of registry keys can grow to an unmanageable size over time.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <originalData>
+          <data id="id1">&amp;gt;</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When a subscription has <ph dataRef="id1" id="ph1" />1000 WEF sources connect to it over its operational lifetime, also known as lifetime WEF sources, Event Viewer can become unresponsive for a few minutes when selecting the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Subscriptions</pc> node in the left-navigation, but will function normally afterwards.</source>
+          <target>When a subscription has <ph dataRef="id1" id="ph1" />1000 WEF sources connect to it over its operational lifetime, also known as lifetime WEF sources, Event Viewer can become unresponsive for a few minutes when selecting the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Subscriptions</pc> node in the left-navigation, but will function normally afterwards.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <originalData>
+          <data id="id1">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>At <ph dataRef="id1" id="ph1" />50,000 lifetime WEF sources, Event Viewer is no longer an option and wecutil.exe (included with Windows) must be used to configure and manage subscriptions.</source>
+          <target>At <ph dataRef="id1" id="ph1" />50,000 lifetime WEF sources, Event Viewer is no longer an option and wecutil.exe (included with Windows) must be used to configure and manage subscriptions.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <originalData>
+          <data id="id1">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>At <ph dataRef="id1" id="ph1" />100,000 lifetime WEF sources, the registry will not be readable and the WEC server will likely have to be rebuilt.</source>
+          <target>At <ph dataRef="id1" id="ph1" />100,000 lifetime WEF sources, the registry will not be readable and the WEC server will likely have to be rebuilt.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Subscription information</source>
+          <target>Subscription information</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Below lists all of the items that each subscription collects, the actual subscription XML is available in an Appendix.</source>
+          <target>Below lists all of the items that each subscription collects, the actual subscription XML is available in an Appendix.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>These are separated out into Baseline and Targeted.</source>
+          <target>These are separated out into Baseline and Targeted.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>The intent is to subscribe all hosts to Baseline, and then enroll (and remove) hosts on an as needed basis to the Targeted subscription.</source>
+          <target>The intent is to subscribe all hosts to Baseline, and then enroll (and remove) hosts on an as needed basis to the Targeted subscription.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Baseline subscription</source>
+          <target>Baseline subscription</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>While this appears to be the largest subscription, it really is the lowest volume on a per-device basis.</source>
+          <target>While this appears to be the largest subscription, it really is the lowest volume on a per-device basis.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>(Exceptions should be allowed for unusual devices – a device performing complex developer related tasks can be expected to create an unusually high volume of process create and AppLocker events.) This subscription does not require special configuration on client devices to enable event channels or modify channel permissions.</source>
+          <target>(Exceptions should be allowed for unusual devices – a device performing complex developer related tasks can be expected to create an unusually high volume of process create and AppLocker events.) This subscription does not require special configuration on client devices to enable event channels or modify channel permissions.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>The subscription is essentially a collection of query statements applied to the Event Log.</source>
+          <target>The subscription is essentially a collection of query statements applied to the Event Log.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>This means that it is modular in nature and a given query statement can be removed or changed without impacting other query statement in the subscription.</source>
+          <target>This means that it is modular in nature and a given query statement can be removed or changed without impacting other query statement in the subscription.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Additionally, suppress statements which filter out specific events, only apply within that query statement and are not to the entire subscription.</source>
+          <target>Additionally, suppress statements which filter out specific events, only apply within that query statement and are not to the entire subscription.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>Baseline subscription requirements</source>
+          <target>Baseline subscription requirements</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>To gain the most value out of the baseline subscription we recommend to have the following requirements set on the device to ensure that the clients are already generating the required events to be forwarded off the system.</source>
+          <target>To gain the most value out of the baseline subscription we recommend to have the following requirements set on the device to ensure that the clients are already generating the required events to be forwarded off the system.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Apply a security audit policy that is a super-set of the recommended minimum audit policy.</source>
+          <target>Apply a security audit policy that is a super-set of the recommended minimum audit policy.</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-appendixa)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix A – Minimum Recommended minimum Audit Policy</pc>.</source>
+          <target>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix A – Minimum Recommended minimum Audit Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>This ensures that the security event log is generating the required events.</source>
+          <target>This ensures that the security event log is generating the required events.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Apply at least an Audit-Only AppLocker policy to devices.</source>
+          <target>Apply at least an Audit-Only AppLocker policy to devices.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>If you are already whitelisting or blacklisting events by using AppLocker, then this requirement is met.</source>
+          <target>If you are already whitelisting or blacklisting events by using AppLocker, then this requirement is met.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>AppLocker events contain extremely useful information, such as file hash and digital signature information for executables and scripts.</source>
+          <target>AppLocker events contain extremely useful information, such as file hash and digital signature information for executables and scripts.</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>Enable disabled event channels and set the minimum size for modern event files.</source>
+          <target>Enable disabled event channels and set the minimum size for modern event files.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>Currently, there is no GPO template for enabling or setting the maximum size for the modern event files.</source>
+          <target>Currently, there is no GPO template for enabling or setting the maximum size for the modern event files.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>This must be done by using a GPO.</source>
+          <target>This must be done by using a GPO.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-appendixc)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix C – Event Channel Settings (enable and Channel Access) methods</pc>.</source>
+          <target>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix C – Event Channel Settings (enable and Channel Access) methods</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>The annotated event query can be found in the following.</source>
+          <target>The annotated event query can be found in the following.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-appendixf)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix F – Annotated Baseline Subscription Event Query</pc>.</source>
+          <target>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix F – Annotated Baseline Subscription Event Query</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>Anti-malware events from Microsoft Antimalware or Windows Defender.</source>
+          <target>Anti-malware events from Microsoft Antimalware or Windows Defender.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>This can be configured for any given anti-malware product easily if it writes to the Windows event log.</source>
+          <target>This can be configured for any given anti-malware product easily if it writes to the Windows event log.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>Security event log Process Create events.</source>
+          <target>Security event log Process Create events.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>AppLocker Process Create events (EXE, script, packaged App installation and execution).</source>
+          <target>AppLocker Process Create events (EXE, script, packaged App installation and execution).</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>Registry modification events.</source>
+          <target>Registry modification events.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-appendixb)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix B – Recommended minimum Registry System ACL Policy</pc>.</source>
+          <target>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Appendix B – Recommended minimum Registry System ACL Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>OS startup and shutdown</source>
+          <target>OS startup and shutdown</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>Startup event include operating system version, service pack level, QFE version, and boot mode.</source>
+          <target>Startup event include operating system version, service pack level, QFE version, and boot mode.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>Service install</source>
+          <target>Service install</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>Includes what the name of the service, the image path, and who installed the service.</source>
+          <target>Includes what the name of the service, the image path, and who installed the service.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>Certificate Authority audit events</source>
+          <target>Certificate Authority audit events</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>This is only applicable on systems with the Certificate Authority role installed.</source>
+          <target>This is only applicable on systems with the Certificate Authority role installed.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>Logs certificate requests and responses.</source>
+          <target>Logs certificate requests and responses.</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>User profile events</source>
+          <target>User profile events</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>Use of a temporary profile or unable to create a user profile may indicate an intruder is interactively logging into a device but not wanting to leave a persistent profile behind.</source>
+          <target>Use of a temporary profile or unable to create a user profile may indicate an intruder is interactively logging into a device but not wanting to leave a persistent profile behind.</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>Service start failure</source>
+          <target>Service start failure</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>Failure codes are localized, so you have to check the message DLL for values.</source>
+          <target>Failure codes are localized, so you have to check the message DLL for values.</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>Network share access events</source>
+          <target>Network share access events</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>Filter out IPC$ and /NetLogon file shares, which are expected and noisy.</source>
+          <target>Filter out IPC$ and /NetLogon file shares, which are expected and noisy.</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>System shutdown initiate requests</source>
+          <target>System shutdown initiate requests</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <segment state="initial">
+          <source>Find out what initiated the restart of a device.</source>
+          <target>Find out what initiated the restart of a device.</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>User initiated interactive logoff event</source>
+          <target>User initiated interactive logoff event</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>Remote Desktop Services session connect, reconnect, or disconnect.</source>
+          <target>Remote Desktop Services session connect, reconnect, or disconnect.</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>EMET events, if EMET is installed.</source>
+          <target>EMET events, if EMET is installed.</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>Event forwarding plugin events</source>
+          <target>Event forwarding plugin events</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>For monitoring WEF subscription operations, particularly Partial Success events.</source>
+          <target>For monitoring WEF subscription operations, particularly Partial Success events.</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>This is useful for diagnosing deployment issues.</source>
+          <target>This is useful for diagnosing deployment issues.</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>Network share create and delete</source>
+          <target>Network share create and delete</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>Enables detection of unauthorized share creation.</source>
+          <target>Enables detection of unauthorized share creation.</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  All shares are re-created when the device starts.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  All shares are re-created when the device starts.</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>Logon sessions</source>
+          <target>Logon sessions</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>Logon success for interactive (local and Remote Interactive/Remote Desktop)</source>
+          <target>Logon success for interactive (local and Remote Interactive/Remote Desktop)</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>Logon success for services for non-built-in accounts, such as LocalSystem, LocalNetwork, and so on.</source>
+          <target>Logon success for services for non-built-in accounts, such as LocalSystem, LocalNetwork, and so on.</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>Logon success for batch sessions</source>
+          <target>Logon success for batch sessions</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>Logon session close, which are logoff events for non-network sessions.</source>
+          <target>Logon session close, which are logoff events for non-network sessions.</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>Windows Error Reporting (Application crash events only)</source>
+          <target>Windows Error Reporting (Application crash events only)</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>This can help detect early signs of intruder not familiar with enterprise environment using targeted malware.</source>
+          <target>This can help detect early signs of intruder not familiar with enterprise environment using targeted malware.</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>Event log service events</source>
+          <target>Event log service events</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>Errors, start events, and stop events for the Windows Event Log service.</source>
+          <target>Errors, start events, and stop events for the Windows Event Log service.</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>Event log cleared (including the Security Event Log)</source>
+          <target>Event log cleared (including the Security Event Log)</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>This could indicate an intruder that are covering their tracks.</source>
+          <target>This could indicate an intruder that are covering their tracks.</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <segment state="initial">
+          <source>Special privileges assigned to new logon</source>
+          <target>Special privileges assigned to new logon</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>This indicates that at the time of logon a user is either an Administrator or has the sufficient access to make themselves Administrator.</source>
+          <target>This indicates that at the time of logon a user is either an Administrator or has the sufficient access to make themselves Administrator.</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>Outbound Remote Desktop Services session attempts</source>
+          <target>Outbound Remote Desktop Services session attempts</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <segment state="initial">
+          <source>Visibility into potential beachhead for intruder</source>
+          <target>Visibility into potential beachhead for intruder</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>System time changed</source>
+          <target>System time changed</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>SMB Client (mapped drive connections)</source>
+          <target>SMB Client (mapped drive connections)</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>Account credential validation</source>
+          <target>Account credential validation</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>Local accounts or domain accounts on domain controllers</source>
+          <target>Local accounts or domain accounts on domain controllers</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>A user was added or removed from the local Administrators security group.</source>
+          <target>A user was added or removed from the local Administrators security group.</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>Crypto API private key accessed</source>
+          <target>Crypto API private key accessed</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <segment state="initial">
+          <source>Associated with signing objects using the locally stored private key.</source>
+          <target>Associated with signing objects using the locally stored private key.</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <segment state="initial">
+          <source>Task Scheduler task creation and delete</source>
+          <target>Task Scheduler task creation and delete</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <segment state="initial">
+          <source>Task Scheduler allows intruders to run code at specified times as LocalSystem.</source>
+          <target>Task Scheduler allows intruders to run code at specified times as LocalSystem.</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <segment state="initial">
+          <source>Logon with explicit credentials</source>
+          <target>Logon with explicit credentials</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <segment state="initial">
+          <source>Detect credential use changes by intruders to access additional resources.</source>
+          <target>Detect credential use changes by intruders to access additional resources.</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <segment state="initial">
+          <source>Smartcard card holder verification events</source>
+          <target>Smartcard card holder verification events</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <segment state="initial">
+          <source>This detects when a smartcard is being used.</source>
+          <target>This detects when a smartcard is being used.</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <segment state="initial">
+          <source>Suspect subscription</source>
+          <target>Suspect subscription</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <segment state="initial">
+          <source>This adds some possible intruder-related activity to help analyst further refine their determinations about the state of the device.</source>
+          <target>This adds some possible intruder-related activity to help analyst further refine their determinations about the state of the device.</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>Logon session creation for network sessions</source>
+          <target>Logon session creation for network sessions</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <segment state="initial">
+          <source>Enables time-series analysis of network graphs.</source>
+          <target>Enables time-series analysis of network graphs.</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>RADIUS and VPN events</source>
+          <target>RADIUS and VPN events</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <segment state="initial">
+          <source>Useful if you use a Microsoft IAS RADIUS/VPN implementation.</source>
+          <target>Useful if you use a Microsoft IAS RADIUS/VPN implementation.</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <originalData>
+          <data id="id1">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>It shows user-<ph dataRef="id1" id="ph1" /> IP address assignment with remote IP address connecting to the enterprise.</source>
+          <target>It shows user-<ph dataRef="id1" id="ph1" /> IP address assignment with remote IP address connecting to the enterprise.</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <segment state="initial">
+          <source>Crypto API X509 object and build chain events</source>
+          <target>Crypto API X509 object and build chain events</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <segment state="initial">
+          <source>Detects known bad certificate, CA, or sub-CA</source>
+          <target>Detects known bad certificate, CA, or sub-CA</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <segment state="initial">
+          <source>Detects unusual process use of CAPI</source>
+          <target>Detects unusual process use of CAPI</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <segment state="initial">
+          <source>Groups assigned to local logon</source>
+          <target>Groups assigned to local logon</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <segment state="initial">
+          <source>Gives visibility to groups which enable account wide access</source>
+          <target>Gives visibility to groups which enable account wide access</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <segment state="initial">
+          <source>Allows better planning for remediation efforts</source>
+          <target>Allows better planning for remediation efforts</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <segment state="initial">
+          <source>Excludes well known, built-in system accounts.</source>
+          <target>Excludes well known, built-in system accounts.</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <segment state="initial">
+          <source>Logon session exit</source>
+          <target>Logon session exit</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <segment state="initial">
+          <source>Specific for network logon sessions.</source>
+          <target>Specific for network logon sessions.</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <segment state="initial">
+          <source>Client DNS lookup events</source>
+          <target>Client DNS lookup events</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <segment state="initial">
+          <source>Returns what process performed a DNS query and the results returned from the DNS server.</source>
+          <target>Returns what process performed a DNS query and the results returned from the DNS server.</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <segment state="initial">
+          <source>Process exit</source>
+          <target>Process exit</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <segment state="initial">
+          <source>Enables checking for processes terminating unexpectedly.</source>
+          <target>Enables checking for processes terminating unexpectedly.</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <segment state="initial">
+          <source>Local credential validation or logon with explicit credentials</source>
+          <target>Local credential validation or logon with explicit credentials</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <segment state="initial">
+          <source>Generated when the local SAM is authoritative for the account credentials being authenticated.</source>
+          <target>Generated when the local SAM is authoritative for the account credentials being authenticated.</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <segment state="initial">
+          <source>Noisy on domain controllers</source>
+          <target>Noisy on domain controllers</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <segment state="initial">
+          <source>On client devices this is only generated when local accounts log on.</source>
+          <target>On client devices this is only generated when local accounts log on.</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <segment state="initial">
+          <source>Registry modification audit events</source>
+          <target>Registry modification audit events</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <segment state="initial">
+          <source>Only when a registry value is being created, modified, or deleted.</source>
+          <target>Only when a registry value is being created, modified, or deleted.</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <segment state="initial">
+          <source>Wireless 802.1x authentication</source>
+          <target>Wireless 802.1x authentication</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>Detect wireless connection with a peer MAC address</source>
+          <target>Detect wireless connection with a peer MAC address</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <segment state="initial">
+          <source>Windows PowerShell logging</source>
+          <target>Windows PowerShell logging</target>
+        </segment>
+      </unit>
+      <unit id="354">
+        <segment state="initial">
+          <source>Covers Windows PowerShell 2.0 and later and includes the Windows PowerShell 5.0 logging improvements for in-memory attacks using Windows PowerShell.</source>
+          <target>Covers Windows PowerShell 2.0 and later and includes the Windows PowerShell 5.0 logging improvements for in-memory attacks using Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="355">
+        <segment state="initial">
+          <source>Includes Windows PowerShell remoting logging</source>
+          <target>Includes Windows PowerShell remoting logging</target>
+        </segment>
+      </unit>
+      <unit id="356">
+        <segment state="initial">
+          <source>User Mode Driver Framework “Driver Loaded” event</source>
+          <target>User Mode Driver Framework “Driver Loaded” event</target>
+        </segment>
+      </unit>
+      <unit id="357">
+        <segment state="initial">
+          <source>Can possibly detect a USB device loading multiple device drivers.</source>
+          <target>Can possibly detect a USB device loading multiple device drivers.</target>
+        </segment>
+      </unit>
+      <unit id="358">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, a USB<ph dataRef="id1" id="ph1" />STOR device loading the keyboard or network driver.</source>
+          <target>For example, a USB<ph dataRef="id1" id="ph1" />STOR device loading the keyboard or network driver.</target>
+        </segment>
+      </unit>
+      <unit id="359">
+        <segment state="initial">
+          <source>Appendix A - Minimum recommended minimum audit policy</source>
+          <target>Appendix A - Minimum recommended minimum audit policy</target>
+        </segment>
+      </unit>
+      <unit id="360">
+        <segment state="initial">
+          <source>If your organizational audit policy enables additional auditing to meet its needs, that is fine.</source>
+          <target>If your organizational audit policy enables additional auditing to meet its needs, that is fine.</target>
+        </segment>
+      </unit>
+      <unit id="361">
+        <segment state="initial">
+          <source>The policy below is the minimum audit policy settings needed to enable events collected by both baseline and targeted subscriptions.</source>
+          <target>The policy below is the minimum audit policy settings needed to enable events collected by both baseline and targeted subscriptions.</target>
+        </segment>
+      </unit>
+      <unit id="362">
+        <segment state="initial">
+          <source>Category</source>
+          <target>Category</target>
+        </segment>
+      </unit>
+      <unit id="363">
+        <segment state="initial">
+          <source>Subcategory</source>
+          <target>Subcategory</target>
+        </segment>
+      </unit>
+      <unit id="364">
+        <segment state="initial">
+          <source>Audit settings</source>
+          <target>Audit settings</target>
+        </segment>
+      </unit>
+      <unit id="365">
+        <segment state="initial">
+          <source>Account Logon</source>
+          <target>Account Logon</target>
+        </segment>
+      </unit>
+      <unit id="366">
+        <segment state="initial">
+          <source>Credential Validation</source>
+          <target>Credential Validation</target>
+        </segment>
+      </unit>
+      <unit id="367">
+        <segment state="initial">
+          <source>Success and Failure</source>
+          <target>Success and Failure</target>
+        </segment>
+      </unit>
+      <unit id="368">
+        <segment state="initial">
+          <source>Account Management</source>
+          <target>Account Management</target>
+        </segment>
+      </unit>
+      <unit id="369">
+        <segment state="initial">
+          <source>Security Group Management</source>
+          <target>Security Group Management</target>
+        </segment>
+      </unit>
+      <unit id="370">
+        <segment state="initial">
+          <source>Success and Failure</source>
+          <target>Success and Failure</target>
+        </segment>
+      </unit>
+      <unit id="371">
+        <segment state="initial">
+          <source>Account Management</source>
+          <target>Account Management</target>
+        </segment>
+      </unit>
+      <unit id="372">
+        <segment state="initial">
+          <source>User Account Management</source>
+          <target>User Account Management</target>
+        </segment>
+      </unit>
+      <unit id="373">
+        <segment state="initial">
+          <source>Success and Failure</source>
+          <target>Success and Failure</target>
+        </segment>
+      </unit>
+      <unit id="374">
+        <segment state="initial">
+          <source>Account Management</source>
+          <target>Account Management</target>
+        </segment>
+      </unit>
+      <unit id="375">
+        <segment state="initial">
+          <source>Computer Account Management</source>
+          <target>Computer Account Management</target>
+        </segment>
+      </unit>
+      <unit id="376">
+        <segment state="initial">
+          <source>Success and Failure</source>
+          <target>Success and Failure</target>
+        </segment>
+      </unit>
+      <unit id="377">
+        <segment state="initial">
+          <source>Account Management</source>
+          <target>Account Management</target>
+        </segment>
+      </unit>
+      <unit id="378">
+        <segment state="initial">
+          <source>Other Account Management Events</source>
+          <target>Other Account Management Events</target>
+        </segment>
+      </unit>
+      <unit id="379">
+        <segment state="initial">
+          <source>Success and Failure</source>
+          <target>Success and Failure</target>
+        </segment>
+      </unit>
+      <unit id="380">
+        <segment state="initial">
+          <source>Detailed Tracking</source>
+          <target>Detailed Tracking</target>
+        </segment>
+      </unit>
+      <unit id="381">
+        <segment state="initial">
+          <source>Process Creation</source>
+          <target>Process Creation</target>
+        </segment>
+      </unit>
+      <unit id="382">
+        <segment state="initial">
+          <source>Success</source>
+          <target>Success</target>
+        </segment>
+      </unit>
+      <unit id="383">
+        <segment state="initial">
+          <source>Detailed Tracking</source>
+          <target>Detailed Tracking</target>
+        </segment>
+      </unit>
+      <unit id="384">
+        <segment state="initial">
+          <source>Process Termination</source>
+          <target>Process Termination</target>
+        </segment>
+      </unit>
+      <unit id="385">
+        <segment state="initial">
+          <source>Success</source>
+          <target>Success</target>
+        </segment>
+      </unit>
+      <unit id="386">
+        <segment state="initial">
+          <source>Logon/Logoff</source>
+          <target>Logon/Logoff</target>
+        </segment>
+      </unit>
+      <unit id="387">
+        <segment state="initial">
+          <source>User/Device Claims</source>
+          <target>User/Device Claims</target>
+        </segment>
+      </unit>
+      <unit id="388">
+        <segment state="initial">
+          <source>Not configured</source>
+          <target>Not configured</target>
+        </segment>
+      </unit>
+      <unit id="389">
+        <segment state="initial">
+          <source>Logon/Logoff</source>
+          <target>Logon/Logoff</target>
+        </segment>
+      </unit>
+      <unit id="390">
+        <segment state="initial">
+          <source>IPsec Extended Mode</source>
+          <target>IPsec Extended Mode</target>
+        </segment>
+      </unit>
+      <unit id="391">
+        <segment state="initial">
+          <source>Not configured</source>
+          <target>Not configured</target>
+        </segment>
+      </unit>
+      <unit id="392">
+        <segment state="initial">
+          <source>Logon/Logoff</source>
+          <target>Logon/Logoff</target>
+        </segment>
+      </unit>
+      <unit id="393">
+        <segment state="initial">
+          <source>IPsec Quick Mode</source>
+          <target>IPsec Quick Mode</target>
+        </segment>
+      </unit>
+      <unit id="394">
+        <segment state="initial">
+          <source>Not configured</source>
+          <target>Not configured</target>
+        </segment>
+      </unit>
+      <unit id="395">
+        <segment state="initial">
+          <source>Logon/Logoff</source>
+          <target>Logon/Logoff</target>
+        </segment>
+      </unit>
+      <unit id="396">
+        <segment state="initial">
+          <source>Logon</source>
+          <target>Logon</target>
+        </segment>
+      </unit>
+      <unit id="397">
+        <segment state="initial">
+          <source>Success and Failure</source>
+          <target>Success and Failure</target>
+        </segment>
+      </unit>
+      <unit id="398">
+        <segment state="initial">
+          <source>Logon/Logoff</source>
+          <target>Logon/Logoff</target>
+        </segment>
+      </unit>
+      <unit id="399">
+        <segment state="initial">
+          <source>Logoff</source>
+          <target>Logoff</target>
+        </segment>
+      </unit>
+      <unit id="400">
+        <segment state="initial">
+          <source>Success</source>
+          <target>Success</target>
+        </segment>
+      </unit>
+      <unit id="401">
+        <segment state="initial">
+          <source>Logon/Logoff</source>
+          <target>Logon/Logoff</target>
+        </segment>
+      </unit>
+      <unit id="402">
+        <segment state="initial">
+          <source>Other Logon/Logoff Events</source>
+          <target>Other Logon/Logoff Events</target>
+        </segment>
+      </unit>
+      <unit id="403">
+        <segment state="initial">
+          <source>Success and Failure</source>
+          <target>Success and Failure</target>
+        </segment>
+      </unit>
+      <unit id="404">
+        <segment state="initial">
+          <source>Logon/Logoff</source>
+          <target>Logon/Logoff</target>
+        </segment>
+      </unit>
+      <unit id="405">
+        <segment state="initial">
+          <source>Special Logon</source>
+          <target>Special Logon</target>
+        </segment>
+      </unit>
+      <unit id="406">
+        <segment state="initial">
+          <source>Success and Failure</source>
+          <target>Success and Failure</target>
+        </segment>
+      </unit>
+      <unit id="407">
+        <segment state="initial">
+          <source>Logon/Logoff</source>
+          <target>Logon/Logoff</target>
+        </segment>
+      </unit>
+      <unit id="408">
+        <segment state="initial">
+          <source>Account Lockout</source>
+          <target>Account Lockout</target>
+        </segment>
+      </unit>
+      <unit id="409">
+        <segment state="initial">
+          <source>Success</source>
+          <target>Success</target>
+        </segment>
+      </unit>
+      <unit id="410">
+        <segment state="initial">
+          <source>Object Access</source>
+          <target>Object Access</target>
+        </segment>
+      </unit>
+      <unit id="411">
+        <segment state="initial">
+          <source>Application Generated</source>
+          <target>Application Generated</target>
+        </segment>
+      </unit>
+      <unit id="412">
+        <segment state="initial">
+          <source>Not configured</source>
+          <target>Not configured</target>
+        </segment>
+      </unit>
+      <unit id="413">
+        <segment state="initial">
+          <source>Object Access</source>
+          <target>Object Access</target>
+        </segment>
+      </unit>
+      <unit id="414">
+        <segment state="initial">
+          <source>File Share</source>
+          <target>File Share</target>
+        </segment>
+      </unit>
+      <unit id="415">
+        <segment state="initial">
+          <source>Success</source>
+          <target>Success</target>
+        </segment>
+      </unit>
+      <unit id="416">
+        <segment state="initial">
+          <source>Object Access</source>
+          <target>Object Access</target>
+        </segment>
+      </unit>
+      <unit id="417">
+        <segment state="initial">
+          <source>File System</source>
+          <target>File System</target>
+        </segment>
+      </unit>
+      <unit id="418">
+        <segment state="initial">
+          <source>Not configured</source>
+          <target>Not configured</target>
+        </segment>
+      </unit>
+      <unit id="419">
+        <segment state="initial">
+          <source>Object Access</source>
+          <target>Object Access</target>
+        </segment>
+      </unit>
+      <unit id="420">
+        <segment state="initial">
+          <source>Other Object Access Events</source>
+          <target>Other Object Access Events</target>
+        </segment>
+      </unit>
+      <unit id="421">
+        <segment state="initial">
+          <source>Not configured</source>
+          <target>Not configured</target>
+        </segment>
+      </unit>
+      <unit id="422">
+        <segment state="initial">
+          <source>Object Access</source>
+          <target>Object Access</target>
+        </segment>
+      </unit>
+      <unit id="423">
+        <segment state="initial">
+          <source>Registry</source>
+          <target>Registry</target>
+        </segment>
+      </unit>
+      <unit id="424">
+        <segment state="initial">
+          <source>Not configured</source>
+          <target>Not configured</target>
+        </segment>
+      </unit>
+      <unit id="425">
+        <segment state="initial">
+          <source>Object Access</source>
+          <target>Object Access</target>
+        </segment>
+      </unit>
+      <unit id="426">
+        <segment state="initial">
+          <source>Removable Storage</source>
+          <target>Removable Storage</target>
+        </segment>
+      </unit>
+      <unit id="427">
+        <segment state="initial">
+          <source>Success</source>
+          <target>Success</target>
+        </segment>
+      </unit>
+      <unit id="428">
+        <segment state="initial">
+          <source>Policy Change</source>
+          <target>Policy Change</target>
+        </segment>
+      </unit>
+      <unit id="429">
+        <segment state="initial">
+          <source>Audit Policy Change</source>
+          <target>Audit Policy Change</target>
+        </segment>
+      </unit>
+      <unit id="430">
+        <segment state="initial">
+          <source>Success and Failure</source>
+          <target>Success and Failure</target>
+        </segment>
+      </unit>
+      <unit id="431">
+        <segment state="initial">
+          <source>Policy Change</source>
+          <target>Policy Change</target>
+        </segment>
+      </unit>
+      <unit id="432">
+        <segment state="initial">
+          <source>MPSSVC Rule-Level Policy Change</source>
+          <target>MPSSVC Rule-Level Policy Change</target>
+        </segment>
+      </unit>
+      <unit id="433">
+        <segment state="initial">
+          <source>Success and Failure</source>
+          <target>Success and Failure</target>
+        </segment>
+      </unit>
+      <unit id="434">
+        <segment state="initial">
+          <source>Policy Change</source>
+          <target>Policy Change</target>
+        </segment>
+      </unit>
+      <unit id="435">
+        <segment state="initial">
+          <source>Other Policy Change Events</source>
+          <target>Other Policy Change Events</target>
+        </segment>
+      </unit>
+      <unit id="436">
+        <segment state="initial">
+          <source>Success and Failure</source>
+          <target>Success and Failure</target>
+        </segment>
+      </unit>
+      <unit id="437">
+        <segment state="initial">
+          <source>Policy Change</source>
+          <target>Policy Change</target>
+        </segment>
+      </unit>
+      <unit id="438">
+        <segment state="initial">
+          <source>Authentication Policy Change</source>
+          <target>Authentication Policy Change</target>
+        </segment>
+      </unit>
+      <unit id="439">
+        <segment state="initial">
+          <source>Success and Failure</source>
+          <target>Success and Failure</target>
+        </segment>
+      </unit>
+      <unit id="440">
+        <segment state="initial">
+          <source>Policy Change</source>
+          <target>Policy Change</target>
+        </segment>
+      </unit>
+      <unit id="441">
+        <segment state="initial">
+          <source>Authorization Policy Change</source>
+          <target>Authorization Policy Change</target>
+        </segment>
+      </unit>
+      <unit id="442">
+        <segment state="initial">
+          <source>Success and Failure</source>
+          <target>Success and Failure</target>
+        </segment>
+      </unit>
+      <unit id="443">
+        <segment state="initial">
+          <source>Privilege Use</source>
+          <target>Privilege Use</target>
+        </segment>
+      </unit>
+      <unit id="444">
+        <segment state="initial">
+          <source>Sensitive Privilege Use</source>
+          <target>Sensitive Privilege Use</target>
+        </segment>
+      </unit>
+      <unit id="445">
+        <segment state="initial">
+          <source>Not configured</source>
+          <target>Not configured</target>
+        </segment>
+      </unit>
+      <unit id="446">
+        <segment state="initial">
+          <source>System</source>
+          <target>System</target>
+        </segment>
+      </unit>
+      <unit id="447">
+        <segment state="initial">
+          <source>Security State Change</source>
+          <target>Security State Change</target>
+        </segment>
+      </unit>
+      <unit id="448">
+        <segment state="initial">
+          <source>Success and Failure</source>
+          <target>Success and Failure</target>
+        </segment>
+      </unit>
+      <unit id="449">
+        <segment state="initial">
+          <source>System</source>
+          <target>System</target>
+        </segment>
+      </unit>
+      <unit id="450">
+        <segment state="initial">
+          <source>Security System Extension</source>
+          <target>Security System Extension</target>
+        </segment>
+      </unit>
+      <unit id="451">
+        <segment state="initial">
+          <source>Success and Failure</source>
+          <target>Success and Failure</target>
+        </segment>
+      </unit>
+      <unit id="452">
+        <segment state="initial">
+          <source>System</source>
+          <target>System</target>
+        </segment>
+      </unit>
+      <unit id="453">
+        <segment state="initial">
+          <source>System Integrity</source>
+          <target>System Integrity</target>
+        </segment>
+      </unit>
+      <unit id="454">
+        <segment state="initial">
+          <source>Success and Failure</source>
+          <target>Success and Failure</target>
+        </segment>
+      </unit>
+      <unit id="455">
+        <segment state="initial">
+          <source>Appendix B - Recommended minimum registry system ACL policy</source>
+          <target>Appendix B - Recommended minimum registry system ACL policy</target>
+        </segment>
+      </unit>
+      <unit id="456">
+        <segment state="initial">
+          <source>The Run and RunOnce keys are useful for intruders and malware persistence.</source>
+          <target>The Run and RunOnce keys are useful for intruders and malware persistence.</target>
+        </segment>
+      </unit>
+      <unit id="457">
+        <segment state="initial">
+          <source>It allows code to be run (or run only once then removed, respectively) when a user logs into the system.</source>
+          <target>It allows code to be run (or run only once then removed, respectively) when a user logs into the system.</target>
+        </segment>
+      </unit>
+      <unit id="458">
+        <segment state="initial">
+          <source>This can easily be extended to other Auto-Execution Start Points keys in the registry.</source>
+          <target>This can easily be extended to other Auto-Execution Start Points keys in the registry.</target>
+        </segment>
+      </unit>
+      <unit id="459">
+        <segment state="initial">
+          <source>Use the following figures to see how you can configure those registry keys.</source>
+          <target>Use the following figures to see how you can configure those registry keys.</target>
+        </segment>
+      </unit>
+      <unit id="460">
+        <segment state="initial">
+          <source>default acl for run key</source>
+          <target>default acl for run key</target>
+        </segment>
+      </unit>
+      <unit id="461">
+        <segment state="initial">
+          <source>default acl for runonce key</source>
+          <target>default acl for runonce key</target>
+        </segment>
+      </unit>
+      <unit id="462">
+        <segment state="initial">
+          <source>Appendix C - Event channel settings (enable and channel access) methods</source>
+          <target>Appendix C - Event channel settings (enable and channel access) methods</target>
+        </segment>
+      </unit>
+      <unit id="463">
+        <segment state="initial">
+          <source>Some channels are disabled by default and have to be enabled.</source>
+          <target>Some channels are disabled by default and have to be enabled.</target>
+        </segment>
+      </unit>
+      <unit id="464">
+        <segment state="initial">
+          <source>Others, such as Microsoft-Windows-CAPI2/Operational must have the channel access modified to allow the Event Log Readers built-in security group to read from it.</source>
+          <target>Others, such as Microsoft-Windows-CAPI2/Operational must have the channel access modified to allow the Event Log Readers built-in security group to read from it.</target>
+        </segment>
+      </unit>
+      <unit id="465">
+        <segment state="initial">
+          <source>The recommended and most effective way to do this is to configure the baseline GPO to run a scheduled task to configure the event channels (enable, set maximum size, and adjust channel access.) This will take effect at the next GPO refresh cycle and has minimal impact on the client device.</source>
+          <target>The recommended and most effective way to do this is to configure the baseline GPO to run a scheduled task to configure the event channels (enable, set maximum size, and adjust channel access.) This will take effect at the next GPO refresh cycle and has minimal impact on the client device.</target>
+        </segment>
+      </unit>
+      <unit id="466">
+        <segment state="initial">
+          <source>The following GPO snippet performs the following:</source>
+          <target>The following GPO snippet performs the following:</target>
+        </segment>
+      </unit>
+      <unit id="467">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enables the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft-Windows-Capi2/Operational</pc> event channel.</source>
+          <target>Enables the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft-Windows-Capi2/Operational</pc> event channel.</target>
+        </segment>
+      </unit>
+      <unit id="468">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Sets the maximum file size for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft-Windows-Capi2/Operational</pc> to 100MB.</source>
+          <target>Sets the maximum file size for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft-Windows-Capi2/Operational</pc> to 100MB.</target>
+        </segment>
+      </unit>
+      <unit id="469">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Sets the maximum file size for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft-Windows-AppLocker/EXE and DLL</pc> to 100MB.</source>
+          <target>Sets the maximum file size for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft-Windows-AppLocker/EXE and DLL</pc> to 100MB.</target>
+        </segment>
+      </unit>
+      <unit id="470">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Sets the maximum channel access for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft-Windows-Capi2/Operational</pc> to include the built-in Event Log Readers security group.</source>
+          <target>Sets the maximum channel access for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft-Windows-Capi2/Operational</pc> to include the built-in Event Log Readers security group.</target>
+        </segment>
+      </unit>
+      <unit id="471">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enables the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft-Windows-DriverFrameworks-UserMode/Operational</pc> event channel.</source>
+          <target>Enables the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft-Windows-DriverFrameworks-UserMode/Operational</pc> event channel.</target>
+        </segment>
+      </unit>
+      <unit id="472">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Sets the maximum file size for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft-Windows-DriverFrameworks-UserMode/Operational</pc> to 50MB.</source>
+          <target>Sets the maximum file size for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft-Windows-DriverFrameworks-UserMode/Operational</pc> to 50MB.</target>
+        </segment>
+      </unit>
+      <unit id="473">
+        <segment state="initial">
+          <source>configure event channels</source>
+          <target>configure event channels</target>
+        </segment>
+      </unit>
+      <unit id="474">
+        <segment state="initial">
+          <source>Appendix D - Minimum GPO for WEF Client configuration</source>
+          <target>Appendix D - Minimum GPO for WEF Client configuration</target>
+        </segment>
+      </unit>
+      <unit id="475">
+        <segment state="initial">
+          <source>Here are the minimum steps for WEF to operate:</source>
+          <target>Here are the minimum steps for WEF to operate:</target>
+        </segment>
+      </unit>
+      <unit id="476">
+        <segment state="initial">
+          <source>Configure the collector URI(s).</source>
+          <target>Configure the collector URI(s).</target>
+        </segment>
+      </unit>
+      <unit id="477">
+        <segment state="initial">
+          <source>Start the WinRM service.</source>
+          <target>Start the WinRM service.</target>
+        </segment>
+      </unit>
+      <unit id="478">
+        <segment state="initial">
+          <source>Add the Network Service account to the built-in Event Log Readers security group.</source>
+          <target>Add the Network Service account to the built-in Event Log Readers security group.</target>
+        </segment>
+      </unit>
+      <unit id="479">
+        <segment state="initial">
+          <source>This allows reading from secured event channel, such as the security event channel.</source>
+          <target>This allows reading from secured event channel, such as the security event channel.</target>
+        </segment>
+      </unit>
+      <unit id="480">
+        <segment state="initial">
+          <source>configure the wef client</source>
+          <target>configure the wef client</target>
+        </segment>
+      </unit>
+      <unit id="481">
+        <segment state="initial">
+          <source>Appendix E – Annotated baseline subscription event query</source>
+          <target>Appendix E – Annotated baseline subscription event query</target>
+        </segment>
+      </unit>
+      <unit id="482">
+        <segment state="initial">
+          <source>Appendix F – Annotated Suspect Subscription Event Query</source>
+          <target>Appendix F – Annotated Suspect Subscription Event Query</target>
+        </segment>
+      </unit>
+      <unit id="483">
+        <segment state="initial">
+          <source>Appendix G - Online resources</source>
+          <target>Appendix G - Online resources</target>
+        </segment>
+      </unit>
+      <unit id="484">
+        <segment state="initial">
+          <source>You can get more info with the following links:</source>
+          <target>You can get more info with the following links:</target>
+        </segment>
+      </unit>
+      <unit id="485">
+        <segment state="initial">
+          <source>Event Selection</source>
+          <target>Event Selection</target>
+        </segment>
+      </unit>
+      <unit id="486">
+        <segment state="initial">
+          <source>Event Queries and Event XML</source>
+          <target>Event Queries and Event XML</target>
+        </segment>
+      </unit>
+      <unit id="487">
+        <segment state="initial">
+          <source>Event Query Schema</source>
+          <target>Event Query Schema</target>
+        </segment>
+      </unit>
+      <unit id="488">
+        <segment state="initial">
+          <source>Windows Event Collector</source>
+          <target>Windows Event Collector</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

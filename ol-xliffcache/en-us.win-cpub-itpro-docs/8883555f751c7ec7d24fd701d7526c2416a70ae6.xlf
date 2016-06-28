@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\security-considerations-for-applocker.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">8883555f751c7ec7d24fd701d7526c2416a70ae6</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Security considerations for AppLocker (Windows 10)</source>
+          <target>Security considerations for AppLocker (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic for the IT professional describes the security considerations you need to address when implementing AppLocker.</source>
+          <target>This topic for the IT professional describes the security considerations you need to address when implementing AppLocker.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Security considerations for AppLocker</source>
+          <target>Security considerations for AppLocker</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic for the IT professional describes the security considerations you need to address when implementing AppLocker.</source>
+          <target>This topic for the IT professional describes the security considerations you need to address when implementing AppLocker.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>The purpose of AppLocker is to restrict the access to software, and therefore, the data accessed by the software, to a specific group of users or within a defined business group.</source>
+          <target>The purpose of AppLocker is to restrict the access to software, and therefore, the data accessed by the software, to a specific group of users or within a defined business group.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The following are security considerations for AppLocker:</source>
+          <target>The following are security considerations for AppLocker:</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>AppLocker is deployed within an enterprise and administered centrally by those in IT with trusted credentials.</source>
+          <target>AppLocker is deployed within an enterprise and administered centrally by those in IT with trusted credentials.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>This makes its policy creation and deployment conform to similar policy deployment processes and security restrictions.</source>
+          <target>This makes its policy creation and deployment conform to similar policy deployment processes and security restrictions.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>AppLocker policies are distributed through known processes and by known means within the domain through Group Policy.</source>
+          <target>AppLocker policies are distributed through known processes and by known means within the domain through Group Policy.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>But AppLocker policies can also be set on individual computers if the person has administrator privileges, and those policies might be contrary to the organization's written security policy.</source>
+          <target>But AppLocker policies can also be set on individual computers if the person has administrator privileges, and those policies might be contrary to the organization's written security policy.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The enforcement settings for local policies are overridden by the same AppLocker policies in a Group Policy Object (GPO).</source>
+          <target>The enforcement settings for local policies are overridden by the same AppLocker policies in a Group Policy Object (GPO).</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>However, because AppLocker rules are additive, a local policy that is not in a GPO will still be evaluated for that computer.</source>
+          <target>However, because AppLocker rules are additive, a local policy that is not in a GPO will still be evaluated for that computer.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Microsoft does not provide a way to develop any extensions to AppLocker.</source>
+          <target>Microsoft does not provide a way to develop any extensions to AppLocker.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>The interfaces are not public.</source>
+          <target>The interfaces are not public.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>A user with administrator credentials can automate some AppLocker processes by using Windows PowerShell cmdlets.</source>
+          <target>A user with administrator credentials can automate some AppLocker processes by using Windows PowerShell cmdlets.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/ee460962.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For info about the Windows PowerShell cmdlets for AppLocker, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AppLocker Cmdlets in Windows PowerShell</pc>.</source>
+          <target>For info about the Windows PowerShell cmdlets for AppLocker, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AppLocker Cmdlets in Windows PowerShell</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>AppLocker runs in the context of Administrator or LocalSystem, which is the highest privilege set.</source>
+          <target>AppLocker runs in the context of Administrator or LocalSystem, which is the highest privilege set.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>This security context has the potential of misuse.</source>
+          <target>This security context has the potential of misuse.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>If a user with administrative credentials makes changes to an AppLocker policy on a local device that is joined to a domain, those changes could be overwritten or disallowed by the GPO that contains the AppLocker rule for the same file (or path) that was changed on the local device.</source>
+          <target>If a user with administrative credentials makes changes to an AppLocker policy on a local device that is joined to a domain, those changes could be overwritten or disallowed by the GPO that contains the AppLocker rule for the same file (or path) that was changed on the local device.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>However, because AppLocker rules are additive, a local policy that is not in a GPO will still be evaluated for that computer.</source>
+          <target>However, because AppLocker rules are additive, a local policy that is not in a GPO will still be evaluated for that computer.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>If the local computer is not joined to a domain and is not administered by Group Policy, a person with administrative credentials can alter the AppLocker policy.</source>
+          <target>If the local computer is not joined to a domain and is not administered by Group Policy, a person with administrative credentials can alter the AppLocker policy.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>When securing files in a directory with a rule of the path condition type, whether using the allow or deny action on the rule, it is still necessary and good practice to restrict access to those files by setting the access control lists (ACLs) according to your security policy.</source>
+          <target>When securing files in a directory with a rule of the path condition type, whether using the allow or deny action on the rule, it is still necessary and good practice to restrict access to those files by setting the access control lists (ACLs) according to your security policy.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>AppLocker does not protect against running 16-bit DOS binaries in the Virtual DOS Machine (NTVDM).</source>
+          <target>AppLocker does not protect against running 16-bit DOS binaries in the Virtual DOS Machine (NTVDM).</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>This technology allows running legacy DOS and 16-bit Windows programs on computers that are using Intel 80386 or later when there is already another operating system running and controlling the hardware.</source>
+          <target>This technology allows running legacy DOS and 16-bit Windows programs on computers that are using Intel 80386 or later when there is already another operating system running and controlling the hardware.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>The result is that 16-bit binaries can still run on Windows Server 2008 R2 and Windows 7 when AppLocker is configured to otherwise block binaries and libraries.</source>
+          <target>The result is that 16-bit binaries can still run on Windows Server 2008 R2 and Windows 7 when AppLocker is configured to otherwise block binaries and libraries.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>If it is a requirement to prevent 16-bit applications from running, you must configure the Deny rule in the executable rule collection for NTVDM.exe.</source>
+          <target>If it is a requirement to prevent 16-bit applications from running, you must configure the Deny rule in the executable rule collection for NTVDM.exe.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>You cannot use AppLocker (or Software Restriction Policies) to prevent code from running outside the Win32 subsystem.</source>
+          <target>You cannot use AppLocker (or Software Restriction Policies) to prevent code from running outside the Win32 subsystem.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>In particular, this applies to the (POSIX) subsystem in Windows NT.</source>
+          <target>In particular, this applies to the (POSIX) subsystem in Windows NT.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>If it is a requirement to prevent applications from running in the POSIX subsystem, you must disable the subsystem.</source>
+          <target>If it is a requirement to prevent applications from running in the POSIX subsystem, you must disable the subsystem.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>AppLocker can only control VBScript, JScript, .bat files, .cmd files, and Windows PowerShell scripts.</source>
+          <target>AppLocker can only control VBScript, JScript, .bat files, .cmd files, and Windows PowerShell scripts.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>It does not control all interpreted code that runs within a host process, for example, Perl scripts and macros.</source>
+          <target>It does not control all interpreted code that runs within a host process, for example, Perl scripts and macros.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Interpreted code is a form of executable code that runs within a host process.</source>
+          <target>Interpreted code is a form of executable code that runs within a host process.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">\*</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, Windows batch files (<ph dataRef="id1" id="ph1" />.bat) run within the context of the Windows Command Host (cmd.exe).</source>
+          <target>For example, Windows batch files (<ph dataRef="id1" id="ph1" />.bat) run within the context of the Windows Command Host (cmd.exe).</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>To control interpreted code by using AppLocker, the host process must call AppLocker before it runs the interpreted code, and then enforce the decision returned by AppLocker.</source>
+          <target>To control interpreted code by using AppLocker, the host process must call AppLocker before it runs the interpreted code, and then enforce the decision returned by AppLocker.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Not all host processes call into AppLocker and, therefore, AppLocker cannot control every kind of interpreted code, such as Microsoft Office macros.</source>
+          <target>Not all host processes call into AppLocker and, therefore, AppLocker cannot control every kind of interpreted code, such as Microsoft Office macros.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  You should configure the appropriate security settings of these host processes if you must allow them to run.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  You should configure the appropriate security settings of these host processes if you must allow them to run.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>For example, configure the security settings in Microsoft Office to ensure that only signed and trusted macros are loaded.</source>
+          <target>For example, configure the security settings in Microsoft Office to ensure that only signed and trusted macros are loaded.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>AppLocker rules either allow or prevent an application from launching.</source>
+          <target>AppLocker rules either allow or prevent an application from launching.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>AppLocker does not control the behavior of applications after they are launched.</source>
+          <target>AppLocker does not control the behavior of applications after they are launched.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Applications could contain flags passed to functions that signal AppLocker to circumvent the rules and allow another .exe or .dll to be loaded.</source>
+          <target>Applications could contain flags passed to functions that signal AppLocker to circumvent the rules and allow another .exe or .dll to be loaded.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>In practice, an application that is allowed by AppLocker could use these flags to bypass AppLocker rules and launch child processes.</source>
+          <target>In practice, an application that is allowed by AppLocker could use these flags to bypass AppLocker rules and launch child processes.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>You must thoroughly examine each application before allowing them to run by using AppLocker rules.</source>
+          <target>You must thoroughly examine each application before allowing them to run by using AppLocker rules.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">`SANDBOX_INERT`</data>
+          <data id="id4">`CreateRestrictedToken`</data>
+          <data id="id5">`LOAD_IGNORE_CODE_AUTHZ_LEVEL`</data>
+          <data id="id6">`LoadLibraryEx`</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Two flags that illustrate this condition are <ph dataRef="id3" id="ph1" />, which can be passed to <ph dataRef="id4" id="ph2" />, and <ph dataRef="id5" id="ph3" />, which can be passed to <ph dataRef="id6" id="ph4" />.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Two flags that illustrate this condition are <ph dataRef="id3" id="ph1" />, which can be passed to <ph dataRef="id4" id="ph2" />, and <ph dataRef="id5" id="ph3" />, which can be passed to <ph dataRef="id6" id="ph4" />.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Both of these flags signal AppLocker to circumvent the rules and allow a child .exe or .dll to be loaded.</source>
+          <target>Both of these flags signal AppLocker to circumvent the rules and allow a child .exe or .dll to be loaded.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>AppLocker technical reference</source>
+          <target>AppLocker technical reference</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

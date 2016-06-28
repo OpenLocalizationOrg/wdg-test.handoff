@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\domain-isolation-policy-design-example.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">c8b168d18c9d6f215ed2a4a284c602e2a56520e2</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Domain Isolation Policy Design Example (Windows 10)</source>
+          <target>Domain Isolation Policy Design Example (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Domain Isolation Policy Design Example</source>
+          <target>Domain Isolation Policy Design Example</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Domain Isolation Policy Design Example</source>
+          <target>Domain Isolation Policy Design Example</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](firewall-policy-design-example.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>This design example continues to use the fictitious company Woodgrove Bank, and builds on the example described in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Firewall Policy Design Example</pc> section.</source>
+          <target>This design example continues to use the fictitious company Woodgrove Bank, and builds on the example described in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Firewall Policy Design Example</pc> section.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>See that example for an explanation of the basic corporate network infrastructure at Woodgrove Bank with diagrams.</source>
+          <target>See that example for an explanation of the basic corporate network infrastructure at Woodgrove Bank with diagrams.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Design Requirements</source>
+          <target>Design Requirements</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>In addition to the basic protection provided by the firewall rules in the previous design example, you might want to implement domain isolation to provide another layer of security to their networked devices.</source>
+          <target>In addition to the basic protection provided by the firewall rules in the previous design example, you might want to implement domain isolation to provide another layer of security to their networked devices.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>You can create firewall and connection security rules that use authentication to reduce the risk of communicating with untrusted and potentially hostile devices.</source>
+          <target>You can create firewall and connection security rules that use authentication to reduce the risk of communicating with untrusted and potentially hostile devices.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>The following illustration shows the traffic protection needed for this design example.</source>
+          <target>The following illustration shows the traffic protection needed for this design example.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>domain isolation policy design</source>
+          <target>domain isolation policy design</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>All devices on the Woodgrove Bank corporate network that are Active Directory domain members must authenticate inbound network traffic as coming from another computer that is a member of the domain.</source>
+          <target>All devices on the Woodgrove Bank corporate network that are Active Directory domain members must authenticate inbound network traffic as coming from another computer that is a member of the domain.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Unless otherwise specified in this section, Woodgrove Bank's devices reject all unsolicited inbound network traffic that is not authenticated.</source>
+          <target>Unless otherwise specified in this section, Woodgrove Bank's devices reject all unsolicited inbound network traffic that is not authenticated.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>If the basic firewall design is also implemented, even authenticated inbound network traffic is dropped unless it matches an inbound firewall rule.</source>
+          <target>If the basic firewall design is also implemented, even authenticated inbound network traffic is dropped unless it matches an inbound firewall rule.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>The servers hosting the WGPartner programs must be able to receive unsolicited inbound traffic from devices owned by its partners, which are not members of Woodgrove Bank's domain.</source>
+          <target>The servers hosting the WGPartner programs must be able to receive unsolicited inbound traffic from devices owned by its partners, which are not members of Woodgrove Bank's domain.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Client devices can initiate non-authenticated outbound communications with devices that are not members of the domain, such as browsing external Web sites.</source>
+          <target>Client devices can initiate non-authenticated outbound communications with devices that are not members of the domain, such as browsing external Web sites.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Unsolicited inbound traffic from non-domain members is blocked.</source>
+          <target>Unsolicited inbound traffic from non-domain members is blocked.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Devices in the encryption zone require that all network traffic inbound and outbound must be encrypted, in addition to the authentication already required by the isolated domain.</source>
+          <target>Devices in the encryption zone require that all network traffic inbound and outbound must be encrypted, in addition to the authentication already required by the isolated domain.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Other traffic notes:</source>
+          <target>Other traffic notes:</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](firewall-policy-design-example.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>All of the design requirements described in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Firewall Policy Design Example</pc> section are still enforced.</source>
+          <target>All of the design requirements described in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Firewall Policy Design Example</pc> section are still enforced.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Design Details</source>
+          <target>Design Details</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Woodgrove Bank uses Active Directory groups and GPOs to deploy the domain isolation settings and rules to the devices on its network.</source>
+          <target>Woodgrove Bank uses Active Directory groups and GPOs to deploy the domain isolation settings and rules to the devices on its network.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Setting up groups as described here ensures that you do not have to know what operating system a computer is running before assigning it to a group.</source>
+          <target>Setting up groups as described here ensures that you do not have to know what operating system a computer is running before assigning it to a group.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>As in the firewall policy design, a combination of WMI filters and security group filters are used to ensure that members of the group receive the GPO appropriate for the version of Windows running on that computer.</source>
+          <target>As in the firewall policy design, a combination of WMI filters and security group filters are used to ensure that members of the group receive the GPO appropriate for the version of Windows running on that computer.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>For some groups, you might have four or even five GPOs.</source>
+          <target>For some groups, you might have four or even five GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>The following groups were created by using the Active Directory Users and Computers MMC snap-in, all devices that run Windows were added to the correct groups, and then the appropriate GPO are applied to the group.</source>
+          <target>The following groups were created by using the Active Directory Users and Computers MMC snap-in, all devices that run Windows were added to the correct groups, and then the appropriate GPO are applied to the group.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>To include a device in the isolated domain or any one of its subordinate zones, simply add the device's account in the appropriate group.</source>
+          <target>To include a device in the isolated domain or any one of its subordinate zones, simply add the device's account in the appropriate group.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CG<ph dataRef="id3" id="ph1" />DOMISO<ph dataRef="id4" id="ph2" />ISOLATEDDOMAIN</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CG<ph dataRef="id3" id="ph1" />DOMISO<ph dataRef="id4" id="ph2" />ISOLATEDDOMAIN</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>The members of this group participate in the isolated domain.</source>
+          <target>The members of this group participate in the isolated domain.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After an initial pilot period, followed by a slowly increasing group membership, the membership of this group was eventually replaced with the entry <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Domain Computers</pc> to ensure that all devices in the domain participate by default.</source>
+          <target>After an initial pilot period, followed by a slowly increasing group membership, the membership of this group was eventually replaced with the entry <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Domain Computers</pc> to ensure that all devices in the domain participate by default.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>The WMI filters ensure that the GPO does not apply to domain controllers.</source>
+          <target>The WMI filters ensure that the GPO does not apply to domain controllers.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>GPOs with connection security rules to enforce domain isolation behavior are linked to the domain container and applied to the devices in this group.</source>
+          <target>GPOs with connection security rules to enforce domain isolation behavior are linked to the domain container and applied to the devices in this group.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Filters ensure that each computer receives the correct GPO for its operating system type.</source>
+          <target>Filters ensure that each computer receives the correct GPO for its operating system type.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>The rules in the domain isolation GPO require Kerberos v5 authentication for inbound network connections, and request (but not require) it for all outbound connections.</source>
+          <target>The rules in the domain isolation GPO require Kerberos v5 authentication for inbound network connections, and request (but not require) it for all outbound connections.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+          <data id="id5">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CG<ph dataRef="id3" id="ph1" />DOMISO<ph dataRef="id4" id="ph2" />NO<ph dataRef="id5" id="ph3" />IPSEC</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CG<ph dataRef="id3" id="ph1" />DOMISO<ph dataRef="id4" id="ph2" />NO<ph dataRef="id5" id="ph3" />IPSEC</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>This group is denied read or apply permissions on any of the domain isolation GPOs.</source>
+          <target>This group is denied read or apply permissions on any of the domain isolation GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Any computer that cannot participate in domain isolation, such as a DHCP server running UNIX, is added to this group.</source>
+          <target>Any computer that cannot participate in domain isolation, such as a DHCP server running UNIX, is added to this group.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CG<ph dataRef="id3" id="ph1" />DOMISO<ph dataRef="id4" id="ph2" />BOUNDARY</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CG<ph dataRef="id3" id="ph1" />DOMISO<ph dataRef="id4" id="ph2" />BOUNDARY</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>This group contains the computer accounts for all the devices that are part of the boundary group able to receive unsolicited inbound traffic from untrusted devices.</source>
+          <target>This group contains the computer accounts for all the devices that are part of the boundary group able to receive unsolicited inbound traffic from untrusted devices.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Members of the group receive a GPO that configures connection security rules to request (but not require) both inbound and outbound authentication.</source>
+          <target>Members of the group receive a GPO that configures connection security rules to request (but not require) both inbound and outbound authentication.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CG<ph dataRef="id3" id="ph1" />DOMISO<ph dataRef="id4" id="ph2" />ENCRYPTION</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CG<ph dataRef="id3" id="ph1" />DOMISO<ph dataRef="id4" id="ph2" />ENCRYPTION</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>This group contains the computer accounts for all the devices that require all inbound and outbound traffic to be both authenticated and encrypted.</source>
+          <target>This group contains the computer accounts for all the devices that require all inbound and outbound traffic to be both authenticated and encrypted.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Members of the group receive a GPO that configures connection security and firewall rules to require both authentication and encryption on all inbound and outbound traffic.</source>
+          <target>Members of the group receive a GPO that configures connection security and firewall rules to require both authentication and encryption on all inbound and outbound traffic.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  If you are designing GPOs for only Windows 8, Windows 7, Windows Vista, Windows Server 2012, Windows Server 2008, and Windows Server 2008 R2, you can design your GPOs in nested groups.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  If you are designing GPOs for only Windows 8, Windows 7, Windows Vista, Windows Server 2012, Windows Server 2008, and Windows Server 2008 R2, you can design your GPOs in nested groups.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>For example, you can make the boundary group a member of the isolated domain group, so that it receives the firewall and basic isolated domain settings through that nested membership, with only the changes supplied by the boundary zone GPO.</source>
+          <target>For example, you can make the boundary group a member of the isolated domain group, so that it receives the firewall and basic isolated domain settings through that nested membership, with only the changes supplied by the boundary zone GPO.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>However, devices that are running older versions of Windows can only support a single IPsec policy being active at a time.</source>
+          <target>However, devices that are running older versions of Windows can only support a single IPsec policy being active at a time.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>The policies for each GPO must be complete (and to a great extent redundant with each other), because you cannot layer them as you can in the newer versions of Windows.</source>
+          <target>The policies for each GPO must be complete (and to a great extent redundant with each other), because you cannot layer them as you can in the newer versions of Windows.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>For simplicity, this guide describes the techniques used to create the independent, non-layered policies.</source>
+          <target>For simplicity, this guide describes the techniques used to create the independent, non-layered policies.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>We recommend that you create and periodically run a script that compares the memberships of the groups that must be mutually exclusive and reports any devices that are incorrectly assigned to more than one group.</source>
+          <target>We recommend that you create and periodically run a script that compares the memberships of the groups that must be mutually exclusive and reports any devices that are incorrectly assigned to more than one group.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](server-isolation-policy-design-example.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Server Isolation Policy Design Example</pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Server Isolation Policy Design Example</pc>
+          </target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

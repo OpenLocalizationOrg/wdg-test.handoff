@@ -1,0 +1,2646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\appv-v5\performance-guidance-for-application-virtualization-50.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">f4696aaec882b69c6af0875c258621ea200513ba</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Performance Guidance for Application Virtualization 5.0</source>
+          <target>Performance Guidance for Application Virtualization 5.0</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Performance Guidance for Application Virtualization 5.0</source>
+          <target>Performance Guidance for Application Virtualization 5.0</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Performance Guidance for Application Virtualization 5.0</source>
+          <target>Performance Guidance for Application Virtualization 5.0</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Learn how to configure App-V 5.0 for optimal performance, optimize virtual app packages, and provide a better user experience with RDS and VDI.</source>
+          <target>Learn how to configure App-V 5.0 for optimal performance, optimize virtual app packages, and provide a better user experience with RDS and VDI.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Implementing multiple methods can help you improve the end-user experience.</source>
+          <target>Implementing multiple methods can help you improve the end-user experience.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>However, your environment may not support all methods.</source>
+          <target>However, your environment may not support all methods.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>You should read and understand the following information before reading this document.</source>
+          <target>You should read and understand the following information before reading this document.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Microsoft Application Virtualization 5.0 Administrator's Guide</source>
+          <target>Microsoft Application Virtualization 5.0 Administrator's Guide</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>App-V 5 SP2 Application Publishing and Client Interaction</source>
+          <target>App-V 5 SP2 Application Publishing and Client Interaction</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Microsoft Application Virtualization 5.0 Sequencing Guide</source>
+          <target>Microsoft Application Virtualization 5.0 Sequencing Guide</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Some terms used in this document may have different meanings depending on external source and context.</source>
+          <target>Some terms used in this document may have different meanings depending on external source and context.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\*</data>
+          <data id="id4">[</data>
+          <data id="id5">](#bkmk-terms1)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about terms used in this document followed by an asterisk <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" /></pc> review the <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Application Virtualization Performance Guidance Terminology</pc> section of this document.</source>
+          <target>For more information about terms used in this document followed by an asterisk <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" /></pc> review the <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Application Virtualization Performance Guidance Terminology</pc> section of this document.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Finally, this document will provide you with the information to configure the computer running App-V 5.0 client and the environment for optimal performance.</source>
+          <target>Finally, this document will provide you with the information to configure the computer running App-V 5.0 client and the environment for optimal performance.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Optimize your virtual application packages for performance using the sequencer, and to understand how to use User Experience Virtualization (UE-V) or other user environment management technologies to provide the optimal user experience with App-V 5.0 in both Remote Desktop Services (RDS) and non-persistent virtual desktop infrastructure (VDI).</source>
+          <target>Optimize your virtual application packages for performance using the sequencer, and to understand how to use User Experience Virtualization (UE-V) or other user environment management technologies to provide the optimal user experience with App-V 5.0 in both Remote Desktop Services (RDS) and non-persistent virtual desktop infrastructure (VDI).</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>To help determine what information is relevant to your environment you should review each section’s brief overview and applicability checklist.</source>
+          <target>To help determine what information is relevant to your environment you should review each section’s brief overview and applicability checklist.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">\*</data>
+        </originalData>
+        <segment state="initial">
+          <source>App-V 5.0 in stateful<ph dataRef="id1" id="ph1" /> non-persistent deployments</source>
+          <target>App-V 5.0 in stateful<ph dataRef="id1" id="ph1" /> non-persistent deployments</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>This section provides information about an approach that helps ensure a user will have access to all virtual applications within seconds after logging in.</source>
+          <target>This section provides information about an approach that helps ensure a user will have access to all virtual applications within seconds after logging in.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>This is achieved by uniquely addressing the often long-running App-V 5.0 publishing refresh.</source>
+          <target>This is achieved by uniquely addressing the often long-running App-V 5.0 publishing refresh.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>As you will discover the basis of the approach, the fastest publishing refresh, is one that doesn’t have to actually do anything.</source>
+          <target>As you will discover the basis of the approach, the fastest publishing refresh, is one that doesn’t have to actually do anything.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>A number of conditions must be met and steps followed to provide the optimal user experience.</source>
+          <target>A number of conditions must be met and steps followed to provide the optimal user experience.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Use the information in the following section for more information:</source>
+          <target>Use the information in the following section for more information:</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-us)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Usage Scenarios</pc> - As you review the two scenarios, keep in mind that these are the approach extremes.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Usage Scenarios</pc> - As you review the two scenarios, keep in mind that these are the approach extremes.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Based on your usage requirements, you may choose to apply these steps to a subset of users and/or virtual applications packages.</source>
+          <target>Based on your usage requirements, you may choose to apply these steps to a subset of users and/or virtual applications packages.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Optimized for Performance – To provide the optimal experience, you can expect the base image to include some of the App-V virtual application package.</source>
+          <target>Optimized for Performance – To provide the optimal experience, you can expect the base image to include some of the App-V virtual application package.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>This and other requirements are discussed.</source>
+          <target>This and other requirements are discussed.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Optimized for Storage – If you are concerned with the storage impact, following this scenario will help address those concerns.</source>
+          <target>Optimized for Storage – If you are concerned with the storage impact, following this scenario will help address those concerns.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Preparing your Environment</source>
+          <target>Preparing your Environment</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Steps to Prepare the Base Image – Whether in a non-persistent VDI or RDSH environment, only a few steps must be completed in the base image to enable this approach.</source>
+          <target>Steps to Prepare the Base Image – Whether in a non-persistent VDI or RDSH environment, only a few steps must be completed in the base image to enable this approach.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Use UE-V 2.0 as the User Profile Management (UPM) solution for the App-V approach – the cornerstone of this approach is the ability of a UEM solution to persist the contents of just a few registry and file locations.</source>
+          <target>Use UE-V 2.0 as the User Profile Management (UPM) solution for the App-V approach – the cornerstone of this approach is the ability of a UEM solution to persist the contents of just a few registry and file locations.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">\*</data>
+        </originalData>
+        <segment state="initial">
+          <source>These locations constitute the user integrations<ph dataRef="id1" id="ph1" />.</source>
+          <target>These locations constitute the user integrations<ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Be sure to review the specific requirements for the UPM solution.</source>
+          <target>Be sure to review the specific requirements for the UPM solution.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>User Experience Walk-through</source>
+          <target>User Experience Walk-through</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Walk-through – This is a step-by-step walk-through of the App-V and UE-V operations and the expectations users should have.</source>
+          <target>Walk-through – This is a step-by-step walk-through of the App-V and UE-V operations and the expectations users should have.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Outcome – This describes the expected results.</source>
+          <target>Outcome – This describes the expected results.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Impact to Package Lifecycle</source>
+          <target>Impact to Package Lifecycle</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Enhancing the VDI Experience through Performance Optimization/Tuning</source>
+          <target>Enhancing the VDI Experience through Performance Optimization/Tuning</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Applicability Checklist</source>
+          <target>Applicability Checklist</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Deployment Environment</source>
+          <target>Deployment Environment</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Non-Persistent VDI or RDSH.</source>
+          <target>Non-Persistent VDI or RDSH.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>User Experience Virtualization (UE-V), other UPM solutions or User Profile Disks (UPD).</source>
+          <target>User Experience Virtualization (UE-V), other UPM solutions or User Profile Disks (UPD).</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Expected Configuration</source>
+          <target>Expected Configuration</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>User Experience Virtualization (UE-V) with the App-V user state template enabled or User Profile Management (UPM) software.</source>
+          <target>User Experience Virtualization (UE-V) with the App-V user state template enabled or User Profile Management (UPM) software.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Non-UE-V UPM software must be capable of triggering on Login or Process/Application Start and Logoff.</source>
+          <target>Non-UE-V UPM software must be capable of triggering on Login or Process/Application Start and Logoff.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>App-V Shared Content Store (SCS) is configured or can be configured.</source>
+          <target>App-V Shared Content Store (SCS) is configured or can be configured.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>IT Administration</source>
+          <target>IT Administration</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Admin may need to update the VM base image regularly to ensure optimal performance or Admin may need to manage multiple images for different user groups.</source>
+          <target>Admin may need to update the VM base image regularly to ensure optimal performance or Admin may need to manage multiple images for different user groups.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Usage Scenario</source>
+          <target>Usage Scenario</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>As you review the two scenarios, keep in mind that these approach the extremes.</source>
+          <target>As you review the two scenarios, keep in mind that these approach the extremes.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Based on your usage requirements, you may choose to apply these steps to a subset of users, virtual application packages, or both.</source>
+          <target>Based on your usage requirements, you may choose to apply these steps to a subset of users, virtual application packages, or both.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Optimized for Performance</source>
+          <target>Optimized for Performance</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Optimized for Storage</source>
+          <target>Optimized for Storage</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>To provide the most optimal user experience, this approach leverages the capabilities of a UPM solution and requires additional image preparation and can incur some additional image management overhead.</source>
+          <target>To provide the most optimal user experience, this approach leverages the capabilities of a UPM solution and requires additional image preparation and can incur some additional image management overhead.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>The following describes many performance improvements in stateful non-persistent deployments.</source>
+          <target>The following describes many performance improvements in stateful non-persistent deployments.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+          <data id="id5">&lt;strong&gt;</data>
+          <data id="id6">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see the <ph dataRef="id1" id="ph1" />Sequencing Steps to Optimize Packages for Publishing Performance<ph dataRef="id2" id="ph2" /> and reference to <ph dataRef="id3" id="ph3" />App-V 5.0 Sequencing Guide<ph dataRef="id4" id="ph4" /> in the <ph dataRef="id5" id="ph5" />See Also section of this document<ph dataRef="id6" id="ph6" />.</source>
+          <target>For more information, see the <ph dataRef="id1" id="ph1" />Sequencing Steps to Optimize Packages for Publishing Performance<ph dataRef="id2" id="ph2" /> and reference to <ph dataRef="id3" id="ph3" />App-V 5.0 Sequencing Guide<ph dataRef="id4" id="ph4" /> in the <ph dataRef="id5" id="ph5" />See Also section of this document<ph dataRef="id6" id="ph6" />.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>The general expectations of the previous scenario still apply here.</source>
+          <target>The general expectations of the previous scenario still apply here.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>However, keep in mind that VM images are typically stored in very costly arrays; a slight alteration has been made to the approach.</source>
+          <target>However, keep in mind that VM images are typically stored in very costly arrays; a slight alteration has been made to the approach.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Do not pre-configure user-targeted virtual application packages in the base image.</source>
+          <target>Do not pre-configure user-targeted virtual application packages in the base image.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>The impact of this alteration is detailed in the User Experience Walkthrough section of this document.</source>
+          <target>The impact of this alteration is detailed in the User Experience Walkthrough section of this document.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Preparing your Environment</source>
+          <target>Preparing your Environment</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>The following table displays the required steps to prepare the base image and the UE-V or another UPM solution for the approach.</source>
+          <target>The following table displays the required steps to prepare the base image and the UE-V or another UPM solution for the approach.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Prepare the Base Image</source>
+          <target>Prepare the Base Image</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Optimized for Performance</source>
+          <target>Optimized for Performance</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Optimized for Storage</source>
+          <target>Optimized for Storage</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Install the Hotfix Package 4 for Application Virtualization 5.0 SP2 client version of the client.</source>
+          <target>Install the Hotfix Package 4 for Application Virtualization 5.0 SP2 client version of the client.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Install UE-V and download the App-V Settings Template from the UE-V template Gallery, see the following steps.</source>
+          <target>Install UE-V and download the App-V Settings Template from the UE-V template Gallery, see the following steps.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Configure for Shared Content Store (SCS) mode.</source>
+          <target>Configure for Shared Content Store (SCS) mode.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](how-to-install-the-app-v-50-client-for-shared-content-store-mode.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Install the App-V 5.0 Client for Shared Content Store Mode</pc>.</source>
+          <target>For more information see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Install the App-V 5.0 Client for Shared Content Store Mode</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Configure Preserve User Integrations on Login Registry DWORD.</source>
+          <target>Configure Preserve User Integrations on Login Registry DWORD.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Pre-configure all user- and global-targeted packages for example, <ph dataRef="id1" id="ph1" />Add-AppvClientPackage<ph dataRef="id2" id="ph2" />.</source>
+          <target>Pre-configure all user- and global-targeted packages for example, <ph dataRef="id1" id="ph1" />Add-AppvClientPackage<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Pre-configure all user- and global-targeted connection groups for example, <ph dataRef="id1" id="ph1" />Add-AppvClientConnectionGroup<ph dataRef="id2" id="ph2" />.</source>
+          <target>Pre-configure all user- and global-targeted connection groups for example, <ph dataRef="id1" id="ph1" />Add-AppvClientConnectionGroup<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Pre-publish all global-targeted packages.</source>
+          <target>Pre-publish all global-targeted packages.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Alternatively,</source>
+          <target>Alternatively,</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Perform a global publishing/refresh.</source>
+          <target>Perform a global publishing/refresh.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Perform a user publishing/refresh.</source>
+          <target>Perform a user publishing/refresh.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Un-publish all user-targeted packages.</source>
+          <target>Un-publish all user-targeted packages.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Delete the following user-Virtual File System (VFS) entries.</source>
+          <target>Delete the following user-Virtual File System (VFS) entries.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Install the Hotfix Package 4 for Application Virtualization 5.0 SP2 client version of the client.</source>
+          <target>Install the Hotfix Package 4 for Application Virtualization 5.0 SP2 client version of the client.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Install UE-V and download the App-V Settings Template from the UE-V template Gallery, see the following steps.</source>
+          <target>Install UE-V and download the App-V Settings Template from the UE-V template Gallery, see the following steps.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Configure for Shared Content Store (SCS) mode.</source>
+          <target>Configure for Shared Content Store (SCS) mode.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](how-to-install-the-app-v-50-client-for-shared-content-store-mode.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Install the App-V 5.0 Client for Shared Content Store Mode</pc>.</source>
+          <target>For more information see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Install the App-V 5.0 Client for Shared Content Store Mode</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Configure Preserve User Integrations on Login Registry DWORD.</source>
+          <target>Configure Preserve User Integrations on Login Registry DWORD.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Pre-configure all global-targeted packages for example, <ph dataRef="id1" id="ph1" />Add-AppvClientPackage<ph dataRef="id2" id="ph2" />.</source>
+          <target>Pre-configure all global-targeted packages for example, <ph dataRef="id1" id="ph1" />Add-AppvClientPackage<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Pre-configure all global-targeted connection groups for example, <ph dataRef="id1" id="ph1" />Add-AppvClientConnectionGroup<ph dataRef="id2" id="ph2" />.</source>
+          <target>Pre-configure all global-targeted connection groups for example, <ph dataRef="id1" id="ph1" />Add-AppvClientConnectionGroup<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Pre-publish all global-targeted packages.</source>
+          <target>Pre-publish all global-targeted packages.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configurations</pc> - For critical App-V Client configurations and for a little more context and how-to, review the following information:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configurations</pc> - For critical App-V Client configurations and for a little more context and how-to, review the following information:</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Configuration Setting</source>
+          <target>Configuration Setting</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>What does this do?</source>
+          <target>What does this do?</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>How should I use it?</source>
+          <target>How should I use it?</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Shared Content Store (SCS) Mode</source>
+          <target>Shared Content Store (SCS) Mode</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Configurable in PowerShell using <ph dataRef="id1" id="ph1" />Set- AppvClientConfiguration<ph dataRef="id2" id="ph2" /> –<ph dataRef="id3" id="ph3" />SharedContentStoreMode<ph dataRef="id4" id="ph4" />, or</source>
+          <target>Configurable in PowerShell using <ph dataRef="id1" id="ph1" />Set- AppvClientConfiguration<ph dataRef="id2" id="ph2" /> –<ph dataRef="id3" id="ph3" />SharedContentStoreMode<ph dataRef="id4" id="ph4" />, or</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>During installation of the App-V 5.0 client.</source>
+          <target>During installation of the App-V 5.0 client.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>When running the shared content store only publishing data is maintained on hard disk; other virtual application assets are maintained in memory (RAM).</source>
+          <target>When running the shared content store only publishing data is maintained on hard disk; other virtual application assets are maintained in memory (RAM).</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>This helps to conserve local storage and minimize disk I/O per second (IOPS).</source>
+          <target>This helps to conserve local storage and minimize disk I/O per second (IOPS).</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>This is recommended when low-latency connections are available between the App-V Client endpoint and the SCS content server, SAN.</source>
+          <target>This is recommended when low-latency connections are available between the App-V Client endpoint and the SCS content server, SAN.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>PreserveUserIntegrationsOnLogin</source>
+          <target>PreserveUserIntegrationsOnLogin</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt; \ &lt;strong&gt;</data>
+          <data id="id3">&lt;/strong&gt; \ &lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt; \ &lt;strong&gt;</data>
+          <data id="id5">&lt;/strong&gt; \ &lt;strong&gt;</data>
+          <data id="id6">&lt;/strong&gt; \ &lt;strong&gt;</data>
+          <data id="id7">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Configure in the Registry under <ph dataRef="id1" id="ph1" />HKEY_LOCAL_MACHINE<ph dataRef="id2" id="ph2" />Software<ph dataRef="id3" id="ph3" />Microsoft<ph dataRef="id4" id="ph4" />AppV<ph dataRef="id5" id="ph5" />Client<ph dataRef="id6" id="ph6" />Integration<ph dataRef="id7" id="ph7" />.</source>
+          <target>Configure in the Registry under <ph dataRef="id1" id="ph1" />HKEY_LOCAL_MACHINE<ph dataRef="id2" id="ph2" />Software<ph dataRef="id3" id="ph3" />Microsoft<ph dataRef="id4" id="ph4" />AppV<ph dataRef="id5" id="ph5" />Client<ph dataRef="id6" id="ph6" />Integration<ph dataRef="id7" id="ph7" />.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Create the DWORD value <ph dataRef="id1" id="ph1" />PreserveUserIntegrationsOnLogin<ph dataRef="id2" id="ph2" /> with a value of <ph dataRef="id3" id="ph3" />1<ph dataRef="id4" id="ph4" />.</source>
+          <target>Create the DWORD value <ph dataRef="id1" id="ph1" />PreserveUserIntegrationsOnLogin<ph dataRef="id2" id="ph2" /> with a value of <ph dataRef="id3" id="ph3" />1<ph dataRef="id4" id="ph4" />.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Restart the App-V client service or restart the computer running the App-V Client.</source>
+          <target>Restart the App-V client service or restart the computer running the App-V Client.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">*</data>
+          <data id="id4">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you have not pre-configured (<ph dataRef="id1" id="ph1" />Add-AppvClientPackage<ph dataRef="id2" id="ph2" />) a specific package and this setting is not configured, the App-V Client will de-integrate<pc dataRefEnd="id4" dataRefStart="id3" id="p1"> the persisted user integrations, then re-integrate</pc>.</source>
+          <target>If you have not pre-configured (<ph dataRef="id1" id="ph1" />Add-AppvClientPackage<ph dataRef="id2" id="ph2" />) a specific package and this setting is not configured, the App-V Client will de-integrate<pc dataRefEnd="id4" dataRefStart="id3" id="p1"> the persisted user integrations, then re-integrate</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>For every package that meets the above conditions, effectively twice the work will be done during publishing/refresh.</source>
+          <target>For every package that meets the above conditions, effectively twice the work will be done during publishing/refresh.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>If you don’t plan to pre-configure every available user package in the base image, use this setting.</source>
+          <target>If you don’t plan to pre-configure every available user package in the base image, use this setting.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>MaxConcurrentPublishingRefresh</source>
+          <target>MaxConcurrentPublishingRefresh</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt; \&lt;strong&gt;</data>
+          <data id="id3">&lt;/strong&gt; \ &lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt; \ &lt;strong&gt;</data>
+          <data id="id5">&lt;/strong&gt; \&lt;strong&gt;</data>
+          <data id="id6">&lt;/strong&gt; \ &lt;strong&gt;</data>
+          <data id="id7">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Configure in the Registry under <ph dataRef="id1" id="ph1" />HKEY_LOCAL_MACHINE<ph dataRef="id2" id="ph2" />Software<ph dataRef="id3" id="ph3" />Microsoft<ph dataRef="id4" id="ph4" />AppV<ph dataRef="id5" id="ph5" />Client<ph dataRef="id6" id="ph6" />Publishing<ph dataRef="id7" id="ph7" />.</source>
+          <target>Configure in the Registry under <ph dataRef="id1" id="ph1" />HKEY_LOCAL_MACHINE<ph dataRef="id2" id="ph2" />Software<ph dataRef="id3" id="ph3" />Microsoft<ph dataRef="id4" id="ph4" />AppV<ph dataRef="id5" id="ph5" />Client<ph dataRef="id6" id="ph6" />Publishing<ph dataRef="id7" id="ph7" />.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Create the DWORD value <ph dataRef="id1" id="ph1" />MaxConcurrentPublishingrefresh<ph dataRef="id2" id="ph2" /> with the desired maximum number of concurrent publishing refreshes.</source>
+          <target>Create the DWORD value <ph dataRef="id1" id="ph1" />MaxConcurrentPublishingrefresh<ph dataRef="id2" id="ph2" /> with the desired maximum number of concurrent publishing refreshes.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>The App-V client service and computer do not need to be restarted.</source>
+          <target>The App-V client service and computer do not need to be restarted.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>This setting determines the number of users that can perform a publishing refresh/sync at the same time.</source>
+          <target>This setting determines the number of users that can perform a publishing refresh/sync at the same time.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>The default setting is no limit.</source>
+          <target>The default setting is no limit.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Limiting the number of concurrent publishing refreshes prevents excessive CPU usage that could impact computer performance.</source>
+          <target>Limiting the number of concurrent publishing refreshes prevents excessive CPU usage that could impact computer performance.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>This limit is recommended in an RDS environment, where multiple users can log in to the same computer at the same time and perform a publishing refresh sync.</source>
+          <target>This limit is recommended in an RDS environment, where multiple users can log in to the same computer at the same time and perform a publishing refresh sync.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>If the concurrent publishing refresh threshold is reached, the time required to publish new applications and make them available to end users after they log in could take an indeterminate amount of time.</source>
+          <target>If the concurrent publishing refresh threshold is reached, the time required to publish new applications and make them available to end users after they log in could take an indeterminate amount of time.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Configure UE-V solution for App-V Approach</source>
+          <target>Configure UE-V solution for App-V Approach</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>We recommend using Microsoft User Experience Virtualization (UE-V) to capture and centralize application settings and Windows operating system settings for a specific user.</source>
+          <target>We recommend using Microsoft User Experience Virtualization (UE-V) to capture and centralize application settings and Windows operating system settings for a specific user.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>These settings are then applied to the different computers that are accessed by the user, including desktop computers, laptop computers, and virtual desktop infrastructure (VDI) sessions.</source>
+          <target>These settings are then applied to the different computers that are accessed by the user, including desktop computers, laptop computers, and virtual desktop infrastructure (VDI) sessions.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>UE-V is optimized for RDS and VDI scenarios.</source>
+          <target>UE-V is optimized for RDS and VDI scenarios.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/dn458936.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Getting Started With User Experience Virtualization 2.0</pc></source>
+          <target>For more information see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Getting Started With User Experience Virtualization 2.0</pc></target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://gallery.technet.microsoft.com/Authored-UE-V-Settings-bb442a33)</data>
+        </originalData>
+        <segment state="initial">
+          <source>In essence all that is required is to install the UE-V client and download the following Microsoft authored App-V settings template from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft User Experience Virtualization (UE-V) template gallery</pc>.</source>
+          <target>In essence all that is required is to install the UE-V client and download the following Microsoft authored App-V settings template from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft User Experience Virtualization (UE-V) template gallery</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Register the template.</source>
+          <target>Register the template.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/dn458936.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information around UE-V templates see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">The UE-V specific resource for acquiring and registering the template</pc>.</source>
+          <target>For more information around UE-V templates see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">The UE-V specific resource for acquiring and registering the template</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Without performing an additional configuration step, the Microsoft User Environment Virtualization (UE-V) will not be able to synchronize the Start menu shortcuts (.lnk files) on the target computer.</source>
+          <target>Without performing an additional configuration step, the Microsoft User Environment Virtualization (UE-V) will not be able to synchronize the Start menu shortcuts (.lnk files) on the target computer.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>The .lnk file type is excluded by default.</source>
+          <target>The .lnk file type is excluded by default.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>UE-V will only support removing the .lnk file type from the exclusion list in the RDS and VDI scenarios, where every user’s device will have the same set of applications installed to the same location and every .lnk file is valid for all the users’ devices.</source>
+          <target>UE-V will only support removing the .lnk file type from the exclusion list in the RDS and VDI scenarios, where every user’s device will have the same set of applications installed to the same location and every .lnk file is valid for all the users’ devices.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>For example, UE-V would not currently support the following 2 scenarios, because the net result will be that the shortcut will be valid on one but not all devices.</source>
+          <target>For example, UE-V would not currently support the following 2 scenarios, because the net result will be that the shortcut will be valid on one but not all devices.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>If a user has an application installed on one device with .lnk files enabled and the same native application installed on another device to a different installation root with .lnk files enabled.</source>
+          <target>If a user has an application installed on one device with .lnk files enabled and the same native application installed on another device to a different installation root with .lnk files enabled.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>If a user has an application installed on one device but not another with .lnk files enabled.</source>
+          <target>If a user has an application installed on one device but not another with .lnk files enabled.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>This topic describes how to change the Windows registry by using Registry Editor.</source>
+          <target>This topic describes how to change the Windows registry by using Registry Editor.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>If you change the Windows registry incorrectly, you can cause serious problems that might require you to reinstall Windows.</source>
+          <target>If you change the Windows registry incorrectly, you can cause serious problems that might require you to reinstall Windows.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>You should make a backup copy of the registry files (System.dat and User.dat) before you change the registry.</source>
+          <target>You should make a backup copy of the registry files (System.dat and User.dat) before you change the registry.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Microsoft cannot guarantee that the problems that might occur when you change the registry can be resolved.</source>
+          <target>Microsoft cannot guarantee that the problems that might occur when you change the registry can be resolved.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Change the registry at your own risk.</source>
+          <target>Change the registry at your own risk.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+          <data id="id5">\\</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">\\</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">\\</data>
+          <data id="id12">**</data>
+          <data id="id13">**</data>
+          <data id="id14">\\</data>
+          <data id="id15">**</data>
+          <data id="id16">**</data>
+          <data id="id17">\\</data>
+          <data id="id18">**</data>
+          <data id="id19">**</data>
+          <data id="id20">\\</data>
+          <data id="id21">**</data>
+          <data id="id22">**</data>
+          <data id="id23">**</data>
+          <data id="id24">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the Microsoft Registry Editor (regedit.exe), navigate to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKEY<ph dataRef="id3" id="ph1" />LOCAL<ph dataRef="id4" id="ph2" />MACHINE</pc><ph dataRef="id5" id="ph3" /><pc dataRefEnd="id7" dataRefStart="id6" id="p2">Software</pc><ph dataRef="id8" id="ph4" /><pc dataRefEnd="id10" dataRefStart="id9" id="p3">Microsoft</pc><ph dataRef="id11" id="ph5" /><pc dataRefEnd="id13" dataRefStart="id12" id="p4">UEV</pc><ph dataRef="id14" id="ph6" /><pc dataRefEnd="id16" dataRefStart="id15" id="p5">Agent</pc><ph dataRef="id17" id="ph7" /><pc dataRefEnd="id19" dataRefStart="id18" id="p6">Configuration</pc><ph dataRef="id20" id="ph8" /><pc dataRefEnd="id22" dataRefStart="id21" id="p7">ExcludedFileTypes</pc> and remove <pc dataRefEnd="id24" dataRefStart="id23" id="p8">.lnk</pc> from the excluded file types.</source>
+          <target>Using the Microsoft Registry Editor (regedit.exe), navigate to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKEY<ph dataRef="id3" id="ph1" />LOCAL<ph dataRef="id4" id="ph2" />MACHINE</pc><ph dataRef="id5" id="ph3" /><pc dataRefEnd="id7" dataRefStart="id6" id="p2">Software</pc><ph dataRef="id8" id="ph4" /><pc dataRefEnd="id10" dataRefStart="id9" id="p3">Microsoft</pc><ph dataRef="id11" id="ph5" /><pc dataRefEnd="id13" dataRefStart="id12" id="p4">UEV</pc><ph dataRef="id14" id="ph6" /><pc dataRefEnd="id16" dataRefStart="id15" id="p5">Agent</pc><ph dataRef="id17" id="ph7" /><pc dataRefEnd="id19" dataRefStart="id18" id="p6">Configuration</pc><ph dataRef="id20" id="ph8" /><pc dataRefEnd="id22" dataRefStart="id21" id="p7">ExcludedFileTypes</pc> and remove <pc dataRefEnd="id24" dataRefStart="id23" id="p8">.lnk</pc> from the excluded file types.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Configure other User Profile Management (UPM) solution for App-V Approach</source>
+          <target>Configure other User Profile Management (UPM) solution for App-V Approach</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>The expectation in a stateful environment is that a UPM solution is implemented and can support persistence of user data across sessions and between logins.</source>
+          <target>The expectation in a stateful environment is that a UPM solution is implemented and can support persistence of user data across sessions and between logins.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>The requirements for the UPM solution are as follows.</source>
+          <target>The requirements for the UPM solution are as follows.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>To enable an optimized login experience, for example the App-V 5.0 approach for the user, the solution must be capable of:</source>
+          <target>To enable an optimized login experience, for example the App-V 5.0 approach for the user, the solution must be capable of:</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Persisting the below user integrations as part of the user profile/persona.</source>
+          <target>Persisting the below user integrations as part of the user profile/persona.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Triggering a user profile sync on login (or application start), which can guarantee that all user integrations are applied before publishing/refresh begin, or,</source>
+          <target>Triggering a user profile sync on login (or application start), which can guarantee that all user integrations are applied before publishing/refresh begin, or,</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Attaching and detaching a user profile disk (UPD) or similar technology that contains the user integrations.</source>
+          <target>Attaching and detaching a user profile disk (UPD) or similar technology that contains the user integrations.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>Capturing changes to the locations, which constitute the user integrations, prior to session logoff.</source>
+          <target>Capturing changes to the locations, which constitute the user integrations, prior to session logoff.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>With App-V 5.0 when you add a publishing server (<pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add-AppvPublishingServer</pc>) you can configure synchronization, for example refresh during log on and/or after a specified refresh interval.</source>
+          <target>With App-V 5.0 when you add a publishing server (<pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add-AppvPublishingServer</pc>) you can configure synchronization, for example refresh during log on and/or after a specified refresh interval.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>In both cases a scheduled task is created.</source>
+          <target>In both cases a scheduled task is created.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>In previous versions of App-V 5.0, both scheduled tasks were configured using a VBScript that would initiate the user and global refresh.</source>
+          <target>In previous versions of App-V 5.0, both scheduled tasks were configured using a VBScript that would initiate the user and global refresh.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>With Hotfix Package 4 for Application Virtualization 5.0 SP2 the user refresh on log on is initiated by <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SyncAppvPublishingServer.exe</pc>.</source>
+          <target>With Hotfix Package 4 for Application Virtualization 5.0 SP2 the user refresh on log on is initiated by <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SyncAppvPublishingServer.exe</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>This change was introduced to provide UPM solutions a trigger process.</source>
+          <target>This change was introduced to provide UPM solutions a trigger process.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>This process will delay the publish /refresh to allow the UPM solution to apply the user integrations.</source>
+          <target>This process will delay the publish /refresh to allow the UPM solution to apply the user integrations.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>It will exit once the publishing/refresh is complete.</source>
+          <target>It will exit once the publishing/refresh is complete.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>User Integrations</source>
+          <target>User Integrations</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Registry – HKEY<ph dataRef="id1" id="ph1" />CURRENT<ph dataRef="id2" id="ph2" />USER</source>
+          <target>Registry – HKEY<ph dataRef="id1" id="ph1" />CURRENT<ph dataRef="id2" id="ph2" />USER</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Path - Software<ph dataRef="id1" id="ph1" />Classes</source>
+          <target>Path - Software<ph dataRef="id1" id="ph1" />Classes</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Exclude: Local Settings, ActivatableClasses, AppX</source>
+          <target>Exclude: Local Settings, ActivatableClasses, AppX</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Path - Software<ph dataRef="id1" id="ph1" />Microsoft<ph dataRef="id2" id="ph2" />AppV</source>
+          <target>Path - Software<ph dataRef="id1" id="ph1" />Microsoft<ph dataRef="id2" id="ph2" />AppV</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Path- Software<ph dataRef="id1" id="ph1" />Microsoft<ph dataRef="id2" id="ph2" />Windows<ph dataRef="id3" id="ph3" />CurrentVersion<ph dataRef="id4" id="ph4" />App Paths</source>
+          <target>Path- Software<ph dataRef="id1" id="ph1" />Microsoft<ph dataRef="id2" id="ph2" />Windows<ph dataRef="id3" id="ph3" />CurrentVersion<ph dataRef="id4" id="ph4" />App Paths</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>File Locations</source>
+          <target>File Locations</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>Root – “Environment Variable” APPDATA</source>
+          <target>Root – “Environment Variable” APPDATA</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Path – Microsoft<ph dataRef="id1" id="ph1" />AppV<ph dataRef="id2" id="ph2" />Client<ph dataRef="id3" id="ph3" />Catalog</source>
+          <target>Path – Microsoft<ph dataRef="id1" id="ph1" />AppV<ph dataRef="id2" id="ph2" />Client<ph dataRef="id3" id="ph3" />Catalog</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Root – “Environment Variable” APPDATA</source>
+          <target>Root – “Environment Variable” APPDATA</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Path – Microsoft<ph dataRef="id1" id="ph1" />AppV<ph dataRef="id2" id="ph2" />Client<ph dataRef="id3" id="ph3" />Integration</source>
+          <target>Path – Microsoft<ph dataRef="id1" id="ph1" />AppV<ph dataRef="id2" id="ph2" />Client<ph dataRef="id3" id="ph3" />Integration</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>Root – “Environment Variable” APPDATA</source>
+          <target>Root – “Environment Variable” APPDATA</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Path - Microsoft<ph dataRef="id1" id="ph1" />Windows<ph dataRef="id2" id="ph2" />Start Menu<ph dataRef="id3" id="ph3" />Programs</source>
+          <target>Path - Microsoft<ph dataRef="id1" id="ph1" />Windows<ph dataRef="id2" id="ph2" />Start Menu<ph dataRef="id3" id="ph3" />Programs</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>(To persist all desktop shortcuts, virtual and non-virtual)</source>
+          <target>(To persist all desktop shortcuts, virtual and non-virtual)</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <originalData>
+          <data id="id1">\*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Root - “KnownFolder” {B4BFCC3A-DB2C-424C-B029-7FE99A87C641}FileMask - <ph dataRef="id1" id="ph1" />.lnk</source>
+          <target>Root - “KnownFolder” {B4BFCC3A-DB2C-424C-B029-7FE99A87C641}FileMask - <ph dataRef="id1" id="ph1" />.lnk</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>Microsoft User Experience Virtualization (UE-V)</source>
+          <target>Microsoft User Experience Virtualization (UE-V)</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>Additionally, we recommend using Microsoft User Experience Virtualization (UE-V) to capture and centralize application settings and Windows operating system settings for a specific user.</source>
+          <target>Additionally, we recommend using Microsoft User Experience Virtualization (UE-V) to capture and centralize application settings and Windows operating system settings for a specific user.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>These settings are then applied to the different computers that are accessed by the user, including desktop computers, laptop computers, and virtual desktop infrastructure (VDI) sessions.</source>
+          <target>These settings are then applied to the different computers that are accessed by the user, including desktop computers, laptop computers, and virtual desktop infrastructure (VDI) sessions.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/jj680015.aspx)</data>
+          <data id="id3">[</data>
+          <data id="id4">](http://technet.microsoft.com/library/jj679972.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Getting Started With User Experience Virtualization 1.0</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Sharing Settings Location Templates with the UE-V Template Gallery</pc>.</source>
+          <target>For more information see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Getting Started With User Experience Virtualization 1.0</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Sharing Settings Location Templates with the UE-V Template Gallery</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>User Experience Walk-through</source>
+          <target>User Experience Walk-through</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>This following is a step-by-step walk-through of the App-V and UPM operations and the expectations users should expect.</source>
+          <target>This following is a step-by-step walk-through of the App-V and UPM operations and the expectations users should expect.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Optimized for Performance</source>
+          <target>Optimized for Performance</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>Optimized for Storage</source>
+          <target>Optimized for Storage</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>After implementing this approach in the VDI/RDSH environment, on first login,</source>
+          <target>After implementing this approach in the VDI/RDSH environment, on first login,</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>(Operation) A user-publishing/refresh is initiated.</source>
+          <target>(Operation) A user-publishing/refresh is initiated.</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>(Expectation) If this is the first time a user has published virtual applications (e.g. non-persistent), this will take the usual duration of a publishing/refresh.</source>
+          <target>(Expectation) If this is the first time a user has published virtual applications (e.g. non-persistent), this will take the usual duration of a publishing/refresh.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>(Operation) After the publishing/refresh, the UPM solution captures the user integrations.</source>
+          <target>(Operation) After the publishing/refresh, the UPM solution captures the user integrations.</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>(Expectation) Depending on how the UPM solution is configured, this may occur as part of the logoff process.</source>
+          <target>(Expectation) Depending on how the UPM solution is configured, this may occur as part of the logoff process.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>This will incur the same/similar overhead as persisting the user state.</source>
+          <target>This will incur the same/similar overhead as persisting the user state.</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>On subsequent logins:</source>
+          <target>On subsequent logins:</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>(Operation) UPM solution applies the user integrations to the system prior to publishing/refresh.</source>
+          <target>(Operation) UPM solution applies the user integrations to the system prior to publishing/refresh.</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>(Expectation) There will be shortcuts present on the desktop, or in the start menu, which work immediately.</source>
+          <target>(Expectation) There will be shortcuts present on the desktop, or in the start menu, which work immediately.</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>When the publishing/refresh completes (i.e., package entitlements change), some may go away.</source>
+          <target>When the publishing/refresh completes (i.e., package entitlements change), some may go away.</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>(Operation) Publishing/refresh will process un-publish and publish operations for changes in user package entitlements.</source>
+          <target>(Operation) Publishing/refresh will process un-publish and publish operations for changes in user package entitlements.</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>(Expectation) If there are no entitlement changes, publishing1 will complete in seconds.</source>
+          <target>(Expectation) If there are no entitlement changes, publishing1 will complete in seconds.</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>Otherwise, the publishing/refresh will increase relative to the number and complexity* of virtual applications</source>
+          <target>Otherwise, the publishing/refresh will increase relative to the number and complexity* of virtual applications</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>(Operation) UPM solution will capture user integrations again at logoff.</source>
+          <target>(Operation) UPM solution will capture user integrations again at logoff.</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>(Expectation) Same as previous.</source>
+          <target>(Expectation) Same as previous.</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>¹ The publishing operation (<ph dataRef="id1" id="ph1" />Publish-AppVClientPackage<ph dataRef="id2" id="ph2" />) adds entries to the user catalog, maps entitlement to the user, identifies the local store, and finishes by completing any integration steps.</source>
+          <target>¹ The publishing operation (<ph dataRef="id1" id="ph1" />Publish-AppVClientPackage<ph dataRef="id2" id="ph2" />) adds entries to the user catalog, maps entitlement to the user, identifies the local store, and finishes by completing any integration steps.</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>After implementing this approach in the VDI/RDSH environment, on first login,</source>
+          <target>After implementing this approach in the VDI/RDSH environment, on first login,</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>(Operation) A user-publishing/refresh is initiated.</source>
+          <target>(Operation) A user-publishing/refresh is initiated.</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>(Expectation)</source>
+          <target>(Expectation)</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>If this is the first time a user has published virtual applications (e.g., non-persistent), this will take the usual duration of a publishing/refresh.</source>
+          <target>If this is the first time a user has published virtual applications (e.g., non-persistent), this will take the usual duration of a publishing/refresh.</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>First and subsequent logins will be impacted by pre-configuring of packages (add/refresh).</source>
+          <target>First and subsequent logins will be impacted by pre-configuring of packages (add/refresh).</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>(Operation) After the publishing/refresh, the UPM solution captures the user integrations.</source>
+          <target>(Operation) After the publishing/refresh, the UPM solution captures the user integrations.</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>(Expectation) Depending on how the UPM solution is configured, this may occur as part of the logoff process.</source>
+          <target>(Expectation) Depending on how the UPM solution is configured, this may occur as part of the logoff process.</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>This will incur the same/similar overhead as persisting the user state</source>
+          <target>This will incur the same/similar overhead as persisting the user state</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>On subsequent logins:</source>
+          <target>On subsequent logins:</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>(Operation) UPM solution applies the user integrations to the system prior to publishing/refresh.</source>
+          <target>(Operation) UPM solution applies the user integrations to the system prior to publishing/refresh.</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>(Operation) Add/refresh must pre-configure all user targeted applications.</source>
+          <target>(Operation) Add/refresh must pre-configure all user targeted applications.</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>(Expectation)</source>
+          <target>(Expectation)</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>This may increase the time to application availability significantly (on the order of 10’s of seconds).</source>
+          <target>This may increase the time to application availability significantly (on the order of 10’s of seconds).</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>This will increase the publishing refresh time relative to the number and complexity* of virtual applications.</source>
+          <target>This will increase the publishing refresh time relative to the number and complexity* of virtual applications.</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>(Operation) Publishing/refresh will process un-publish and publish operations for changes to user package entitlements.</source>
+          <target>(Operation) Publishing/refresh will process un-publish and publish operations for changes to user package entitlements.</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>Outcome</source>
+          <target>Outcome</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>Outcome</source>
+          <target>Outcome</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>Because the user integrations are entirely preserved, there will be no work for example, integration for the publishing/refresh to complete.</source>
+          <target>Because the user integrations are entirely preserved, there will be no work for example, integration for the publishing/refresh to complete.</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>All virtual applications will be available within seconds of login.</source>
+          <target>All virtual applications will be available within seconds of login.</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>The publishing/refresh will process changes to the users entitled virtual applications which impacts the experience.</source>
+          <target>The publishing/refresh will process changes to the users entitled virtual applications which impacts the experience.</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <segment state="initial">
+          <source>Because the add/refresh must re-configure all the virtual applications to the VM, the publishing refresh time on every login will be extended.</source>
+          <target>Because the add/refresh must re-configure all the virtual applications to the VM, the publishing refresh time on every login will be extended.</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>Impact to Package Life Cycle</source>
+          <target>Impact to Package Life Cycle</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>Upgrading a package is a crucial aspect of the package lifecycle.</source>
+          <target>Upgrading a package is a crucial aspect of the package lifecycle.</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <segment state="initial">
+          <source>To help guarantee users have access to the appropriate upgraded (published) or downgraded (un-published) virtual application packages, it is recommended you update the base image to reflect these changes.</source>
+          <target>To help guarantee users have access to the appropriate upgraded (published) or downgraded (un-published) virtual application packages, it is recommended you update the base image to reflect these changes.</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>To understand why review the following section:</source>
+          <target>To understand why review the following section:</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>App-V 5.0 SP2 introduced the concept of pending states.</source>
+          <target>App-V 5.0 SP2 introduced the concept of pending states.</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>In the past,</source>
+          <target>In the past,</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>If an administrator changed entitlements or created a new version of a package (upgraded) and during a publishing/refresh that package was in-use, the un-publish or publish operation, respectively, would fail.</source>
+          <target>If an administrator changed entitlements or created a new version of a package (upgraded) and during a publishing/refresh that package was in-use, the un-publish or publish operation, respectively, would fail.</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>Now, if a package is in-use the operation will be pended.</source>
+          <target>Now, if a package is in-use the operation will be pended.</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>The un-publish and publish-pend operations will be processed on service restart or if another publish or un-publish command is issued.</source>
+          <target>The un-publish and publish-pend operations will be processed on service restart or if another publish or un-publish command is issued.</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <segment state="initial">
+          <source>In the latter case, if the virtual application is in-use otherwise, the virtual application will remain in a pending state.</source>
+          <target>In the latter case, if the virtual application is in-use otherwise, the virtual application will remain in a pending state.</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <segment state="initial">
+          <source>For globally published packages, a restart (or service restart) often needed.</source>
+          <target>For globally published packages, a restart (or service restart) often needed.</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <segment state="initial">
+          <source>In a non-persistent environment, it is unlikely these pended operations will be processed.</source>
+          <target>In a non-persistent environment, it is unlikely these pended operations will be processed.</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+          <data id="id5">\\</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">\\</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">\\</data>
+          <data id="id12">**</data>
+          <data id="id13">**</data>
+          <data id="id14">\\</data>
+          <data id="id15">**</data>
+          <data id="id16">**</data>
+          <data id="id17">\\</data>
+          <data id="id18">**</data>
+          <data id="id19">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The pended operations, for example tasks are captured under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKEY<ph dataRef="id3" id="ph1" />CURRENT<ph dataRef="id4" id="ph2" />USER</pc><ph dataRef="id5" id="ph3" /><pc dataRefEnd="id7" dataRefStart="id6" id="p2">Software</pc><ph dataRef="id8" id="ph4" /><pc dataRefEnd="id10" dataRefStart="id9" id="p3">Microsoft</pc><ph dataRef="id11" id="ph5" /><pc dataRefEnd="id13" dataRefStart="id12" id="p4">AppV</pc><ph dataRef="id14" id="ph6" /><pc dataRefEnd="id16" dataRefStart="id15" id="p5">Client</pc><ph dataRef="id17" id="ph7" /><pc dataRefEnd="id19" dataRefStart="id18" id="p6">PendingTasks</pc>.</source>
+          <target>The pended operations, for example tasks are captured under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKEY<ph dataRef="id3" id="ph1" />CURRENT<ph dataRef="id4" id="ph2" />USER</pc><ph dataRef="id5" id="ph3" /><pc dataRefEnd="id7" dataRefStart="id6" id="p2">Software</pc><ph dataRef="id8" id="ph4" /><pc dataRefEnd="id10" dataRefStart="id9" id="p3">Microsoft</pc><ph dataRef="id11" id="ph5" /><pc dataRefEnd="id13" dataRefStart="id12" id="p4">AppV</pc><ph dataRef="id14" id="ph6" /><pc dataRefEnd="id16" dataRefStart="id15" id="p5">Client</pc><ph dataRef="id17" id="ph7" /><pc dataRefEnd="id19" dataRefStart="id18" id="p6">PendingTasks</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <segment state="initial">
+          <source>Although this location is persisted by the UPM solution, if it is not applied to the environment prior to log on, it will not be processed.</source>
+          <target>Although this location is persisted by the UPM solution, if it is not applied to the environment prior to log on, it will not be processed.</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <segment state="initial">
+          <source>Enhancing the VDI Experience through Performance Optimization Tuning</source>
+          <target>Enhancing the VDI Experience through Performance Optimization Tuning</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <segment state="initial">
+          <source>The following section contains lists with information about Microsoft documentation and downloads that may be useful when optimizing your environment for performance.</source>
+          <target>The following section contains lists with information about Microsoft documentation and downloads that may be useful when optimizing your environment for performance.</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <segment state="initial">
+          <source>.NET NGEN Blog and Script (Highly Recommended)</source>
+          <target>.NET NGEN Blog and Script (Highly Recommended)</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <segment state="initial">
+          <source>About NGEN technology</source>
+          <target>About NGEN technology</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>How to speed up NGEN optimaztion</source>
+          <target>How to speed up NGEN optimaztion</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <segment state="initial">
+          <source>Script</source>
+          <target>Script</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>Windows Server and Server Roles</source>
+          <target>Windows Server and Server Roles</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <segment state="initial">
+          <source>Server Performance Tuning Guidelines for</source>
+          <target>Server Performance Tuning Guidelines for</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <segment state="initial">
+          <source>Microsoft Windows Server 2012 R2</source>
+          <target>Microsoft Windows Server 2012 R2</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <segment state="initial">
+          <source>Microsoft Windows Server 2012</source>
+          <target>Microsoft Windows Server 2012</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <segment state="initial">
+          <source>Microsoft Windows Server 2008 R2</source>
+          <target>Microsoft Windows Server 2008 R2</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <segment state="initial">
+          <source>Server Roles</source>
+          <target>Server Roles</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <segment state="initial">
+          <source>Remote Desktop Virtualization Host</source>
+          <target>Remote Desktop Virtualization Host</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <segment state="initial">
+          <source>Remote Desktop Session Host</source>
+          <target>Remote Desktop Session Host</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <segment state="initial">
+          <source>IIS Relevance: App-V Management, Publishing, Reporting Web Services</source>
+          <target>IIS Relevance: App-V Management, Publishing, Reporting Web Services</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <segment state="initial">
+          <source>File Server (SMB) Relevance: If used for App-V Content Storage and Delivery in SCS Mode</source>
+          <target>File Server (SMB) Relevance: If used for App-V Content Storage and Delivery in SCS Mode</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <segment state="initial">
+          <source>Windows Client (Guest OS) Performance Tuning Guidance</source>
+          <target>Windows Client (Guest OS) Performance Tuning Guidance</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <segment state="initial">
+          <source>Microsoft Windows 7</source>
+          <target>Microsoft Windows 7</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <segment state="initial">
+          <source>Optimization Script: (Provided by Microsoft Support)</source>
+          <target>Optimization Script: (Provided by Microsoft Support)</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <segment state="initial">
+          <source>Microsoft Windows 8</source>
+          <target>Microsoft Windows 8</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <segment state="initial">
+          <source>Optimization Script: (Provided by Microsoft Support)</source>
+          <target>Optimization Script: (Provided by Microsoft Support)</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <segment state="initial">
+          <source>Sequencing Steps to Optimize Packages for Publishing Performance</source>
+          <target>Sequencing Steps to Optimize Packages for Publishing Performance</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <segment state="initial">
+          <source>App-V 5.0 and App-V 5.0 SP2 provide significant value in their respective releases.</source>
+          <target>App-V 5.0 and App-V 5.0 SP2 provide significant value in their respective releases.</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <segment state="initial">
+          <source>Several features facilitate new scenarios or enabled new customer deployment scenarios.</source>
+          <target>Several features facilitate new scenarios or enabled new customer deployment scenarios.</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <segment state="initial">
+          <source>These following features can impact the performance of the publishing and launch operations.</source>
+          <target>These following features can impact the performance of the publishing and launch operations.</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <segment state="initial">
+          <source>Step</source>
+          <target>Step</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <segment state="initial">
+          <source>Consideration</source>
+          <target>Consideration</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <segment state="initial">
+          <source>Benefits</source>
+          <target>Benefits</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <segment state="initial">
+          <source>Tradeoffs</source>
+          <target>Tradeoffs</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>No Feature Block 1 (FB1, also known as Primary FB)</source>
+          <target>No Feature Block 1 (FB1, also known as Primary FB)</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <segment state="initial">
+          <source>No FB1 means the application will launch immediately and stream fault (application requires file, DLL and must pull down over the network) during launch.If there are network limitations, FB1 will:</source>
+          <target>No FB1 means the application will launch immediately and stream fault (application requires file, DLL and must pull down over the network) during launch.If there are network limitations, FB1 will:</target>
+        </segment>
+      </unit>
+      <unit id="354">
+        <segment state="initial">
+          <source>Reduce the number of stream faults and network bandwidth used when you launch an application for the first time.</source>
+          <target>Reduce the number of stream faults and network bandwidth used when you launch an application for the first time.</target>
+        </segment>
+      </unit>
+      <unit id="355">
+        <segment state="initial">
+          <source>Delay launch until the entire FB1 has been streamed.</source>
+          <target>Delay launch until the entire FB1 has been streamed.</target>
+        </segment>
+      </unit>
+      <unit id="356">
+        <segment state="initial">
+          <source>Stream faulting decreases the launch time.</source>
+          <target>Stream faulting decreases the launch time.</target>
+        </segment>
+      </unit>
+      <unit id="357">
+        <segment state="initial">
+          <source>Virtual application packages with FB1 configured will need to be re-sequenced.</source>
+          <target>Virtual application packages with FB1 configured will need to be re-sequenced.</target>
+        </segment>
+      </unit>
+      <unit id="358">
+        <segment state="initial">
+          <source>Removing FB1</source>
+          <target>Removing FB1</target>
+        </segment>
+      </unit>
+      <unit id="359">
+        <segment state="initial">
+          <source>Removing FB1 does not require the original application installer.</source>
+          <target>Removing FB1 does not require the original application installer.</target>
+        </segment>
+      </unit>
+      <unit id="360">
+        <segment state="initial">
+          <source>After completing the following steps, it is suggested that you revert the computer running the sequencer to a clean snapshot.</source>
+          <target>After completing the following steps, it is suggested that you revert the computer running the sequencer to a clean snapshot.</target>
+        </segment>
+      </unit>
+      <unit id="361">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sequencer UI</pc> - Create a New Virtual Application Package.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sequencer UI</pc> - Create a New Virtual Application Package.</target>
+        </segment>
+      </unit>
+      <unit id="362">
+        <originalData>
+          <data id="id1">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Complete the sequencing steps up to Customize -<ph dataRef="id1" id="ph1" /> Streaming.</source>
+          <target>Complete the sequencing steps up to Customize -<ph dataRef="id1" id="ph1" /> Streaming.</target>
+        </segment>
+      </unit>
+      <unit id="363">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>At the Streaming step, do not select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Optimize the package for deployment over slow or unreliable network</pc>.</source>
+          <target>At the Streaming step, do not select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Optimize the package for deployment over slow or unreliable network</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="364">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If desired, move on to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Target OS</pc>.</source>
+          <target>If desired, move on to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Target OS</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="365">
+        <segment state="initial">
+          <source>Modify an Existing Virtual Application Package</source>
+          <target>Modify an Existing Virtual Application Package</target>
+        </segment>
+      </unit>
+      <unit id="366">
+        <segment state="initial">
+          <source>Complete the sequencing steps up to Streaming.</source>
+          <target>Complete the sequencing steps up to Streaming.</target>
+        </segment>
+      </unit>
+      <unit id="367">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Do not select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Optimize the package for deployment over a slow or unreliable network</pc>.</source>
+          <target>Do not select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Optimize the package for deployment over a slow or unreliable network</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="368">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Move to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create Package</pc>.</source>
+          <target>Move to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create Package</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="369">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PowerShell</pc> - Update an Existing Virtual Application Package.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PowerShell</pc> - Update an Existing Virtual Application Package.</target>
+        </segment>
+      </unit>
+      <unit id="370">
+        <segment state="initial">
+          <source>Open an elevated PowerShell session.</source>
+          <target>Open an elevated PowerShell session.</target>
+        </segment>
+      </unit>
+      <unit id="371">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Import-module <pc dataRefEnd="id2" dataRefStart="id1" id="p1">appvsequencer</pc>.</source>
+          <target>Import-module <pc dataRefEnd="id2" dataRefStart="id1" id="p1">appvsequencer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="372">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3"> - </data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update-AppvSequencerPackage</pc>
+            <ph dataRef="id3" id="ph1" />
+            <pc dataRefEnd="id5" dataRefStart="id4" id="p2">AppvPackageFilePath</pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update-AppvSequencerPackage</pc>
+            <ph dataRef="id3" id="ph1" />
+            <pc dataRefEnd="id5" dataRefStart="id4" id="p2">AppvPackageFilePath</pc>
+          </target>
+        </segment>
+      </unit>
+      <unit id="373">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>"C:<ph dataRef="id1" id="ph1" />Packages<ph dataRef="id2" id="ph2" />MyPackage.appv" -Installer</source>
+          <target>"C:<ph dataRef="id1" id="ph1" />Packages<ph dataRef="id2" id="ph2" />MyPackage.appv" -Installer</target>
+        </segment>
+      </unit>
+      <unit id="374">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>"C:<ph dataRef="id1" id="ph1" />PackageInstall<ph dataRef="id2" id="ph2" />PackageUpgrade.exe empty.exe" -OutputPath</source>
+          <target>"C:<ph dataRef="id1" id="ph1" />PackageInstall<ph dataRef="id2" id="ph2" />PackageUpgrade.exe empty.exe" -OutputPath</target>
+        </segment>
+      </unit>
+      <unit id="375">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>"C:<ph dataRef="id1" id="ph1" />UpgradedPackages"</source>
+          <target>"C:<ph dataRef="id1" id="ph1" />UpgradedPackages"</target>
+        </segment>
+      </unit>
+      <unit id="376">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="377">
+        <segment state="initial">
+          <source>This cmdlet requires an executable (.exe) or batch file (.bat).</source>
+          <target>This cmdlet requires an executable (.exe) or batch file (.bat).</target>
+        </segment>
+      </unit>
+      <unit id="378">
+        <segment state="initial">
+          <source>You must provide an empty (does nothing) executable or batch file.</source>
+          <target>You must provide an empty (does nothing) executable or batch file.</target>
+        </segment>
+      </unit>
+      <unit id="379">
+        <segment state="initial">
+          <source>Step</source>
+          <target>Step</target>
+        </segment>
+      </unit>
+      <unit id="380">
+        <segment state="initial">
+          <source>Considerations</source>
+          <target>Considerations</target>
+        </segment>
+      </unit>
+      <unit id="381">
+        <segment state="initial">
+          <source>Benefits</source>
+          <target>Benefits</target>
+        </segment>
+      </unit>
+      <unit id="382">
+        <segment state="initial">
+          <source>Tradeoffs</source>
+          <target>Tradeoffs</target>
+        </segment>
+      </unit>
+      <unit id="383">
+        <segment state="initial">
+          <source>No SXS Install at Publish (Pre-Install SxS assemblies)</source>
+          <target>No SXS Install at Publish (Pre-Install SxS assemblies)</target>
+        </segment>
+      </unit>
+      <unit id="384">
+        <segment state="initial">
+          <source>Virtual Application packages do not need to be re-sequenced.</source>
+          <target>Virtual Application packages do not need to be re-sequenced.</target>
+        </segment>
+      </unit>
+      <unit id="385">
+        <segment state="initial">
+          <source>SxS Assemblies can remain in the virtual application package.</source>
+          <target>SxS Assemblies can remain in the virtual application package.</target>
+        </segment>
+      </unit>
+      <unit id="386">
+        <segment state="initial">
+          <source>The SxS Assembly dependencies will not install at publishing time.</source>
+          <target>The SxS Assembly dependencies will not install at publishing time.</target>
+        </segment>
+      </unit>
+      <unit id="387">
+        <segment state="initial">
+          <source>SxS Assembly dependencies must be pre-installed.</source>
+          <target>SxS Assembly dependencies must be pre-installed.</target>
+        </segment>
+      </unit>
+      <unit id="388">
+        <segment state="initial">
+          <source>Creating a new virtual application package on the sequencer</source>
+          <target>Creating a new virtual application package on the sequencer</target>
+        </segment>
+      </unit>
+      <unit id="389">
+        <segment state="initial">
+          <source>If, during sequencer monitoring, an SxS Assembly (such as a VC++ Runtime) is installed as part of an application’s installation, SxS Assembly will be automatically detected and included in the package.</source>
+          <target>If, during sequencer monitoring, an SxS Assembly (such as a VC++ Runtime) is installed as part of an application’s installation, SxS Assembly will be automatically detected and included in the package.</target>
+        </segment>
+      </unit>
+      <unit id="390">
+        <segment state="initial">
+          <source>The administrator will be notified and will have the option to exclude the SxS Assembly.</source>
+          <target>The administrator will be notified and will have the option to exclude the SxS Assembly.</target>
+        </segment>
+      </unit>
+      <unit id="391">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Client Side</pc>:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Client Side</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="392">
+        <segment state="initial">
+          <source>When publishing a virtual application package, the App-V 5.0 SP2 Client will detect if a required SxS dependency is already installed.</source>
+          <target>When publishing a virtual application package, the App-V 5.0 SP2 Client will detect if a required SxS dependency is already installed.</target>
+        </segment>
+      </unit>
+      <unit id="393">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the dependency is unavailable on the computer and it is included in the package, a traditional Windows Insataller (.<pc dataRefEnd="id2" dataRefStart="id1" id="p1">msi</pc>) installation of the SxS assembly will be initiated.</source>
+          <target>If the dependency is unavailable on the computer and it is included in the package, a traditional Windows Insataller (.<pc dataRefEnd="id2" dataRefStart="id1" id="p1">msi</pc>) installation of the SxS assembly will be initiated.</target>
+        </segment>
+      </unit>
+      <unit id="394">
+        <segment state="initial">
+          <source>As previously documented, simply install the dependency on the computer running the client to ensure that the Windows Installer (.msi) installation will not occur.</source>
+          <target>As previously documented, simply install the dependency on the computer running the client to ensure that the Windows Installer (.msi) installation will not occur.</target>
+        </segment>
+      </unit>
+      <unit id="395">
+        <segment state="initial">
+          <source>Step</source>
+          <target>Step</target>
+        </segment>
+      </unit>
+      <unit id="396">
+        <segment state="initial">
+          <source>Considerations</source>
+          <target>Considerations</target>
+        </segment>
+      </unit>
+      <unit id="397">
+        <segment state="initial">
+          <source>Benefits</source>
+          <target>Benefits</target>
+        </segment>
+      </unit>
+      <unit id="398">
+        <segment state="initial">
+          <source>Tradeoffs</source>
+          <target>Tradeoffs</target>
+        </segment>
+      </unit>
+      <unit id="399">
+        <segment state="initial">
+          <source>Selectively Employ Dynamic Configuration files</source>
+          <target>Selectively Employ Dynamic Configuration files</target>
+        </segment>
+      </unit>
+      <unit id="400">
+        <segment state="initial">
+          <source>The App-V 5.0 client must parse and process these Dynamic Configuration files.</source>
+          <target>The App-V 5.0 client must parse and process these Dynamic Configuration files.</target>
+        </segment>
+      </unit>
+      <unit id="401">
+        <segment state="initial">
+          <source>Be conscious of size and complexity (script execution, VREG inclusions/exclusions) of the file.</source>
+          <target>Be conscious of size and complexity (script execution, VREG inclusions/exclusions) of the file.</target>
+        </segment>
+      </unit>
+      <unit id="402">
+        <segment state="initial">
+          <source>Numerous virtual application packages may already have User- or computer–specific dynamic configurations files.</source>
+          <target>Numerous virtual application packages may already have User- or computer–specific dynamic configurations files.</target>
+        </segment>
+      </unit>
+      <unit id="403">
+        <segment state="initial">
+          <source>Publishing times will improve if these files are used selectively or not at all.</source>
+          <target>Publishing times will improve if these files are used selectively or not at all.</target>
+        </segment>
+      </unit>
+      <unit id="404">
+        <segment state="initial">
+          <source>Virtual application packages would need to be reconfigured individually or via the App-V server management console to remove associated Dynamic Configuration files.</source>
+          <target>Virtual application packages would need to be reconfigured individually or via the App-V server management console to remove associated Dynamic Configuration files.</target>
+        </segment>
+      </unit>
+      <unit id="405">
+        <segment state="initial">
+          <source>Disabling a Dynamic Configuration using Powershell</source>
+          <target>Disabling a Dynamic Configuration using Powershell</target>
+        </segment>
+      </unit>
+      <unit id="406">
+        <originalData>
+          <data id="id1">`Set-AppVClientPackage –Name Myapp –Path c:\Packages\Apps\MyApp.appv`</data>
+        </originalData>
+        <segment state="initial">
+          <source>For already published packages, you can use <ph dataRef="id1" id="ph1" /> without</source>
+          <target>For already published packages, you can use <ph dataRef="id1" id="ph1" /> without</target>
+        </segment>
+      </unit>
+      <unit id="407">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">-DynamicDeploymentConfiguration</pc> parameter</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">-DynamicDeploymentConfiguration</pc> parameter</target>
+        </segment>
+      </unit>
+      <unit id="408">
+        <originalData>
+          <data id="id1">`Add-AppVClientPackage –Path c:\Packages\Apps\MyApp.appv`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Similarly, when adding new packages using <ph dataRef="id1" id="ph1" />, do not use the</source>
+          <target>Similarly, when adding new packages using <ph dataRef="id1" id="ph1" />, do not use the</target>
+        </segment>
+      </unit>
+      <unit id="409">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">-DynamicDeploymentConfiguration</pc> parameter.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">-DynamicDeploymentConfiguration</pc> parameter.</target>
+        </segment>
+      </unit>
+      <unit id="410">
+        <segment state="initial">
+          <source>For documentation on How to Apply a Dynamic Configuration, see:</source>
+          <target>For documentation on How to Apply a Dynamic Configuration, see:</target>
+        </segment>
+      </unit>
+      <unit id="411">
+        <segment state="initial">
+          <source>How to Apply the User Configuration File by Using PowerShell</source>
+          <target>How to Apply the User Configuration File by Using PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="412">
+        <segment state="initial">
+          <source>How to Apply the Deployment Configuration File by Using PowerShell</source>
+          <target>How to Apply the Deployment Configuration File by Using PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="413">
+        <segment state="initial">
+          <source>Step</source>
+          <target>Step</target>
+        </segment>
+      </unit>
+      <unit id="414">
+        <segment state="initial">
+          <source>Considerations</source>
+          <target>Considerations</target>
+        </segment>
+      </unit>
+      <unit id="415">
+        <segment state="initial">
+          <source>Benefits</source>
+          <target>Benefits</target>
+        </segment>
+      </unit>
+      <unit id="416">
+        <segment state="initial">
+          <source>Tradeoffs</source>
+          <target>Tradeoffs</target>
+        </segment>
+      </unit>
+      <unit id="417">
+        <segment state="initial">
+          <source>Account for Synchronous Script Execution during Package Lifecycle.</source>
+          <target>Account for Synchronous Script Execution during Package Lifecycle.</target>
+        </segment>
+      </unit>
+      <unit id="418">
+        <segment state="initial">
+          <source>If script collateral is embedded in the package, Add (Powershell) may be significantly slower.</source>
+          <target>If script collateral is embedded in the package, Add (Powershell) may be significantly slower.</target>
+        </segment>
+      </unit>
+      <unit id="419">
+        <segment state="initial">
+          <source>Running of scripts during virtual application launch (StartVirtualEnvironment, StartProcess) and/or Add+Publish will impact the perceived performance during one or more of these lifecycle operations.</source>
+          <target>Running of scripts during virtual application launch (StartVirtualEnvironment, StartProcess) and/or Add+Publish will impact the perceived performance during one or more of these lifecycle operations.</target>
+        </segment>
+      </unit>
+      <unit id="420">
+        <segment state="initial">
+          <source>Use of Asynchronous (Non-Blocking) Scripts will ensure that the lifecycle operations complete efficiently.</source>
+          <target>Use of Asynchronous (Non-Blocking) Scripts will ensure that the lifecycle operations complete efficiently.</target>
+        </segment>
+      </unit>
+      <unit id="421">
+        <segment state="initial">
+          <source>This step requires working knowledge of all virtual application packages with embedded script collateral, which have associated dynamic configurations files and which reference and run scripts synchronously.</source>
+          <target>This step requires working knowledge of all virtual application packages with embedded script collateral, which have associated dynamic configurations files and which reference and run scripts synchronously.</target>
+        </segment>
+      </unit>
+      <unit id="422">
+        <segment state="initial">
+          <source>Remove Extraneous Virtual Fonts from Package.</source>
+          <target>Remove Extraneous Virtual Fonts from Package.</target>
+        </segment>
+      </unit>
+      <unit id="423">
+        <segment state="initial">
+          <source>The majority of applications investigated by the App-V product team contained a small number of fonts, typically fewer than 20.</source>
+          <target>The majority of applications investigated by the App-V product team contained a small number of fonts, typically fewer than 20.</target>
+        </segment>
+      </unit>
+      <unit id="424">
+        <segment state="initial">
+          <source>Virtual Fonts impact publishing refresh performance.</source>
+          <target>Virtual Fonts impact publishing refresh performance.</target>
+        </segment>
+      </unit>
+      <unit id="425">
+        <segment state="initial">
+          <source>Desired fonts will need to be enabled/installed natively.</source>
+          <target>Desired fonts will need to be enabled/installed natively.</target>
+        </segment>
+      </unit>
+      <unit id="426">
+        <segment state="initial">
+          <source>For instructions, see Install or uninstall fonts.</source>
+          <target>For instructions, see Install or uninstall fonts.</target>
+        </segment>
+      </unit>
+      <unit id="427">
+        <segment state="initial">
+          <source>Determining what virtual fonts exist in the package</source>
+          <target>Determining what virtual fonts exist in the package</target>
+        </segment>
+      </unit>
+      <unit id="428">
+        <segment state="initial">
+          <source>Make a copy of the package.</source>
+          <target>Make a copy of the package.</target>
+        </segment>
+      </unit>
+      <unit id="429">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Rename Package<ph dataRef="id1" id="ph1" />copy.appv to Package<ph dataRef="id2" id="ph2" />copy.zip</source>
+          <target>Rename Package<ph dataRef="id1" id="ph1" />copy.appv to Package<ph dataRef="id2" id="ph2" />copy.zip</target>
+        </segment>
+      </unit>
+      <unit id="430">
+        <segment state="initial">
+          <source>Open AppxManifest.xml and locate the following:</source>
+          <target>Open AppxManifest.xml and locate the following:</target>
+        </segment>
+      </unit>
+      <unit id="431">
+        <segment state="initial">
+          <source>appv:Extension Category="AppV.Fonts"</source>
+          <target>appv:Extension Category="AppV.Fonts"</target>
+        </segment>
+      </unit>
+      <unit id="432">
+        <segment state="initial">
+          <source>appv:Fonts</source>
+          <target>appv:Fonts</target>
+        </segment>
+      </unit>
+      <unit id="433">
+        <originalData>
+          <data id="id1">\[</data>
+          <data id="id2">\]\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">&amp;gt;&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>appv:Font Path="<ph dataRef="id1" id="ph1" />{Fonts}<ph dataRef="id2" id="ph2" />private<ph dataRef="id3" id="ph3" />CalibriL.ttf" DelayLoad="true"<ph dataRef="id4" id="ph4" />/appv:Font</source>
+          <target>appv:Font Path="<ph dataRef="id1" id="ph1" />{Fonts}<ph dataRef="id2" id="ph2" />private<ph dataRef="id3" id="ph3" />CalibriL.ttf" DelayLoad="true"<ph dataRef="id4" id="ph4" />/appv:Font</target>
+        </segment>
+      </unit>
+      <unit id="434">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="435">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If there are fonts marked as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DelayLoad</pc>, those will not impact first launch.</source>
+          <target>If there are fonts marked as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DelayLoad</pc>, those will not impact first launch.</target>
+        </segment>
+      </unit>
+      <unit id="436">
+        <segment state="initial">
+          <source>/appv:Fonts</source>
+          <target>/appv:Fonts</target>
+        </segment>
+      </unit>
+      <unit id="437">
+        <segment state="initial">
+          <source>Excluding virtual fonts from the package</source>
+          <target>Excluding virtual fonts from the package</target>
+        </segment>
+      </unit>
+      <unit id="438">
+        <segment state="initial">
+          <source>Use the dynamic configuration file that best suits the user scope – deployment configuration for all users on computer, user configuration for specific user or users.</source>
+          <target>Use the dynamic configuration file that best suits the user scope – deployment configuration for all users on computer, user configuration for specific user or users.</target>
+        </segment>
+      </unit>
+      <unit id="439">
+        <segment state="initial">
+          <source>Disable fonts with the deployment or user configuration.</source>
+          <target>Disable fonts with the deployment or user configuration.</target>
+        </segment>
+      </unit>
+      <unit id="440">
+        <segment state="initial">
+          <source>Fonts</source>
+          <target>Fonts</target>
+        </segment>
+      </unit>
+      <unit id="441">
+        <segment state="initial">
+          <source>Fonts Enabled="false" /</source>
+          <target>Fonts Enabled="false" /</target>
+        </segment>
+      </unit>
+      <unit id="442">
+        <segment state="initial">
+          <source>!--</source>
+          <target>!--</target>
+        </segment>
+      </unit>
+      <unit id="443">
+        <segment state="initial">
+          <source>App-V 5.0 Performance Guidance Terminology</source>
+          <target>App-V 5.0 Performance Guidance Terminology</target>
+        </segment>
+      </unit>
+      <unit id="444">
+        <segment state="initial">
+          <source>The following terms are used when describing concepts and actions related to App-V 5.0 performance optimization.</source>
+          <target>The following terms are used when describing concepts and actions related to App-V 5.0 performance optimization.</target>
+        </segment>
+      </unit>
+      <unit id="445">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Complexity</pc> – Refers to the one or more package characteristics that may impact performance during pre-configure (<pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add-AppvClientPackage</pc>) or integration (<pc dataRefEnd="id6" dataRefStart="id5" id="p3">Publish-AppvClientPackage</pc>).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Complexity</pc> – Refers to the one or more package characteristics that may impact performance during pre-configure (<pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add-AppvClientPackage</pc>) or integration (<pc dataRefEnd="id6" dataRefStart="id5" id="p3">Publish-AppvClientPackage</pc>).</target>
+        </segment>
+      </unit>
+      <unit id="446">
+        <segment state="initial">
+          <source>Some example characteristics are: manifest size, number of virtual fonts, number of files.</source>
+          <target>Some example characteristics are: manifest size, number of virtual fonts, number of files.</target>
+        </segment>
+      </unit>
+      <unit id="447">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">De-Integrate</pc> – Removes the user integrations</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">De-Integrate</pc> – Removes the user integrations</target>
+        </segment>
+      </unit>
+      <unit id="448">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Re-Integrate</pc> – Applies the user integrations.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Re-Integrate</pc> – Applies the user integrations.</target>
+        </segment>
+      </unit>
+      <unit id="449">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Non-Persistent, Pooled</pc> – Creates a computer running a virtual environment each time they log in.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Non-Persistent, Pooled</pc> – Creates a computer running a virtual environment each time they log in.</target>
+        </segment>
+      </unit>
+      <unit id="450">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Persistent, Personal</pc> – A computer running a virtual environment that remains the same for every login.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Persistent, Personal</pc> – A computer running a virtual environment that remains the same for every login.</target>
+        </segment>
+      </unit>
+      <unit id="451">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Stateful</pc> - For this document, implies that user integrations are persisted between sessions and a user environment management technology is used in conjunction with non-persistent RDSH or VDI.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Stateful</pc> - For this document, implies that user integrations are persisted between sessions and a user environment management technology is used in conjunction with non-persistent RDSH or VDI.</target>
+        </segment>
+      </unit>
+      <unit id="452">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Stateless</pc> – Represents a scenario when no user state is persisted between sessions.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Stateless</pc> – Represents a scenario when no user state is persisted between sessions.</target>
+        </segment>
+      </unit>
+      <unit id="453">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trigger</pc> – (or Native Action Triggers).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trigger</pc> – (or Native Action Triggers).</target>
+        </segment>
+      </unit>
+      <unit id="454">
+        <segment state="initial">
+          <source>UPM uses these types of triggers to initiate monitoring or synchronization operations.</source>
+          <target>UPM uses these types of triggers to initiate monitoring or synchronization operations.</target>
+        </segment>
+      </unit>
+      <unit id="455">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">User Experience</pc> - In the context of App-V 5.0, the user experience, quantitatively, is the sum of the following parts:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">User Experience</pc> - In the context of App-V 5.0, the user experience, quantitatively, is the sum of the following parts:</target>
+        </segment>
+      </unit>
+      <unit id="456">
+        <segment state="initial">
+          <source>From the point that users initiate a log-in to when they are able to manipulate the desktop.</source>
+          <target>From the point that users initiate a log-in to when they are able to manipulate the desktop.</target>
+        </segment>
+      </unit>
+      <unit id="457">
+        <segment state="initial">
+          <source>From the point where the desktop can be interacted with to the point a publishing refresh begins (in PowerShell terms, sync) when using the App-V 5.0 full server infrastructure.</source>
+          <target>From the point where the desktop can be interacted with to the point a publishing refresh begins (in PowerShell terms, sync) when using the App-V 5.0 full server infrastructure.</target>
+        </segment>
+      </unit>
+      <unit id="458">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In standalone instances, it is when the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add-AppVClientPackage</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Publish-AppVClientPackage Powershell</pc> commands are initiated.</source>
+          <target>In standalone instances, it is when the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add-AppVClientPackage</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Publish-AppVClientPackage Powershell</pc> commands are initiated.</target>
+        </segment>
+      </unit>
+      <unit id="459">
+        <segment state="initial">
+          <source>From start to completion of the publishing refresh.</source>
+          <target>From start to completion of the publishing refresh.</target>
+        </segment>
+      </unit>
+      <unit id="460">
+        <segment state="initial">
+          <source>In standalone instances, this is the first to last virtual application published.</source>
+          <target>In standalone instances, this is the first to last virtual application published.</target>
+        </segment>
+      </unit>
+      <unit id="461">
+        <segment state="initial">
+          <source>From the point where the virtual application is available to launch from a shortcut.</source>
+          <target>From the point where the virtual application is available to launch from a shortcut.</target>
+        </segment>
+      </unit>
+      <unit id="462">
+        <segment state="initial">
+          <source>Alternatively, it is from the point at which the file type association is registered and will launch a specified virtual application.</source>
+          <target>Alternatively, it is from the point at which the file type association is registered and will launch a specified virtual application.</target>
+        </segment>
+      </unit>
+      <unit id="463">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">User Profile Management</pc> – The controlled and structured approach to managing user components associated with the environment.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">User Profile Management</pc> – The controlled and structured approach to managing user components associated with the environment.</target>
+        </segment>
+      </unit>
+      <unit id="464">
+        <segment state="initial">
+          <source>For example, user profiles, preference and policy management, application control and application deployment.</source>
+          <target>For example, user profiles, preference and policy management, application control and application deployment.</target>
+        </segment>
+      </unit>
+      <unit id="465">
+        <segment state="initial">
+          <source>You can use scripting or third-party solutions configure the environment as needed.</source>
+          <target>You can use scripting or third-party solutions configure the environment as needed.</target>
+        </segment>
+      </unit>
+      <unit id="466">
+        <segment state="initial">
+          <source>Got a suggestion for App-V?</source>
+          <target>Got a suggestion for App-V?</target>
+        </segment>
+      </unit>
+      <unit id="467">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add or vote on suggestions <pc dataRefEnd="id2" dataRefStart="id1" id="p1">here</pc>.</source>
+          <target>Add or vote on suggestions <pc dataRefEnd="id2" dataRefStart="id1" id="p1">here</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="468">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://social.technet.microsoft.com/Forums/home?forum=mdopappv)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For App-V issues, use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">App-V TechNet Forum</pc>.</source>
+          <target>For App-V issues, use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">App-V TechNet Forum</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="469">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="470">
+        <segment state="initial">
+          <source>Microsoft Application Virtualization 5.0 Administrator's Guide</source>
+          <target>Microsoft Application Virtualization 5.0 Administrator's Guide</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

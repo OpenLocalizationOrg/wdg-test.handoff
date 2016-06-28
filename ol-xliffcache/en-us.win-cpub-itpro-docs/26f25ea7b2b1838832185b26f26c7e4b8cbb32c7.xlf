@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\configure-proxy-internet-windows-defender-advanced-threat-protection.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">26f25ea7b2b1838832185b26f26c7e4b8cbb32c7</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Configure Windows Defender ATP endpoint proxy and Internet connection settings</source>
+          <target>Configure Windows Defender ATP endpoint proxy and Internet connection settings</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Configure the Windows Defender ATP proxy and internet settings to enable communication with the cloud service.</source>
+          <target>Configure the Windows Defender ATP proxy and internet settings to enable communication with the cloud service.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Configure endpoint proxy and Internet connectivity settings</source>
+          <target>Configure endpoint proxy and Internet connectivity settings</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to:</source>
+          <target>Applies to:</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10 Insider Preview Build 14332 or later</source>
+          <target>Windows 10 Insider Preview Build 14332 or later</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Defender Advanced Threat Protection (Windows Defender ATP)</source>
+          <target>Windows Defender Advanced Threat Protection (Windows Defender ATP)</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>[Some information relates to pre-released product which may be substantially modified before it's commercially released.</source>
+          <target>[Some information relates to pre-released product which may be substantially modified before it's commercially released.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Microsoft makes no warranties, express or implied, with respect to the information provided here.]</source>
+          <target>Microsoft makes no warranties, express or implied, with respect to the information provided here.]</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The Window Defender ATP sensor requires Microsoft Windows HTTP (WinHTTP) to report telemetry and communicate with the Windows Defender ATP service.</source>
+          <target>The Window Defender ATP sensor requires Microsoft Windows HTTP (WinHTTP) to report telemetry and communicate with the Windows Defender ATP service.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>The embedded Windows Defender ATP sensor runs in system context using the LocalSystem account.</source>
+          <target>The embedded Windows Defender ATP sensor runs in system context using the LocalSystem account.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>The sensor uses Microsoft Windows HTTP Services (WinHTTP) to enable communication with the Windows Defender ATP cloud service.</source>
+          <target>The sensor uses Microsoft Windows HTTP Services (WinHTTP) to enable communication with the Windows Defender ATP cloud service.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>The WinHTTP configuration setting is independent of the Windows Internet (WinINet) internet browsing proxy settings and can only discover a proxy server by using the following discovery methods:</source>
+          <target>The WinHTTP configuration setting is independent of the Windows Internet (WinINet) internet browsing proxy settings and can only discover a proxy server by using the following discovery methods:</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Configure Web Proxy Auto Detect (WPAD) settings and configure Windows to automatically detect the proxy server</source>
+          <target>Configure Web Proxy Auto Detect (WPAD) settings and configure Windows to automatically detect the proxy server</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Configure the proxy server manually using Netsh</source>
+          <target>Configure the proxy server manually using Netsh</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Configure Web Proxy Auto Detect (WPAD) settings and proxy server</source>
+          <target>Configure Web Proxy Auto Detect (WPAD) settings and proxy server</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Configure WPAD in the environment and configure Windows to automatically detect the proxy server through Policy or the local Windows settings.</source>
+          <target>Configure WPAD in the environment and configure Windows to automatically detect the proxy server through Policy or the local Windows settings.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enable the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatically detect settings</pc> option in the Windows Proxy settings so that WinHTTP can use the WPAD feature to locate a proxy server.</source>
+          <target>Enable the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatically detect settings</pc> option in the Windows Proxy settings so that WinHTTP can use the WPAD feature to locate a proxy server.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Settings</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Settings</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Network &amp; Internet</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Network &amp; Internet</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Proxy</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Proxy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Verify that the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatically detect settings</pc> option is set to On.</source>
+          <target>Verify that the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatically detect settings</pc> option is set to On.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Image showing the proxy settings configuration page</source>
+          <target>Image showing the proxy settings configuration page</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">[</data>
+          <data id="id6">](#configure-proxy-server-manually-using-netsh)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use setup script</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Manual proxy setup</pc> options are enabled then you will need to <pc dataRefEnd="id6" dataRefStart="id5" id="p3">configure proxy settings manually by using Netsh</pc> method for WinHTTP to discover the appropriate proxy settings and connect.</source>
+          <target>If the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use setup script</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Manual proxy setup</pc> options are enabled then you will need to <pc dataRefEnd="id6" dataRefStart="id5" id="p3">configure proxy settings manually by using Netsh</pc> method for WinHTTP to discover the appropriate proxy settings and connect.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Configure the proxy server manually using Netsh</source>
+          <target>Configure the proxy server manually using Netsh</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use setup script</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Manual proxy setup</pc> settings are configured in the Windows Proxy setting, then endpoints will not be discovered by WinHTTP.</source>
+          <target>If <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use setup script</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Manual proxy setup</pc> settings are configured in the Windows Proxy setting, then endpoints will not be discovered by WinHTTP.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Use Netsh to configure the proxy settings to enable connectivity.</source>
+          <target>Use Netsh to configure the proxy settings to enable connectivity.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>You can configure the endpoint by using any of these methods:</source>
+          <target>You can configure the endpoint by using any of these methods:</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Importing the configured proxy settings to WinHTTP</source>
+          <target>Importing the configured proxy settings to WinHTTP</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Configuring the proxy settings manually to WinHTTP</source>
+          <target>Configuring the proxy settings manually to WinHTTP</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>After configuring the endpoints, you'll need to verify that the correct proxy settings were applied.</source>
+          <target>After configuring the endpoints, you'll need to verify that the correct proxy settings were applied.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Import the configured proxy settings to WinHTTP</source>
+          <target>Import the configured proxy settings to WinHTTP</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Open an elevated command-line prompt on the endpoint:</source>
+          <target>Open an elevated command-line prompt on the endpoint:</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>a.</source>
+          <target>a.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>b.</source>
+          <target>b.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter the following command and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Enter the following command and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>An output showing the applied WinHTTP proxy settings is displayed.</source>
+          <target>An output showing the applied WinHTTP proxy settings is displayed.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Configure the proxy settings manually to WinHTTP</source>
+          <target>Configure the proxy settings manually to WinHTTP</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Open an elevated command-line prompt on the endpoint:</source>
+          <target>Open an elevated command-line prompt on the endpoint:</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>a.</source>
+          <target>a.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>b.</source>
+          <target>b.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter the following command and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Enter the following command and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Replace <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ProxyServerName</pc> with the fully qualified domain name of the proxy server.</source>
+          <target>Replace <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ProxyServerName</pc> with the fully qualified domain name of the proxy server.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Replace <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PortNumber</pc> with the port number that you want to configure the proxy server with.</source>
+          <target>Replace <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PortNumber</pc> with the port number that you want to configure the proxy server with.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>An output showing the applied WinHTTP proxy settings is displayed.</source>
+          <target>An output showing the applied WinHTTP proxy settings is displayed.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Verify that the correct proxy settings were applied</source>
+          <target>Verify that the correct proxy settings were applied</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Open an elevated command-line prompt on the endpoint:</source>
+          <target>Open an elevated command-line prompt on the endpoint:</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>a.</source>
+          <target>a.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>b.</source>
+          <target>b.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter the following command and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Enter the following command and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/en-us/library/cc731131(v=ws.10).aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information on how to use Netsh see, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Netsh Commands for Windows Hypertext Transfer Protocol (WINHTTP)</pc></source>
+          <target>For more information on how to use Netsh see, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Netsh Commands for Windows Hypertext Transfer Protocol (WINHTTP)</pc></target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Enable access to Windows Defender ATP service URLs in the proxy server</source>
+          <target>Enable access to Windows Defender ATP service URLs in the proxy server</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>If a proxy or firewall is blocking all traffic by default and allowing only specific domains through, make sure that the following URLs are white-listed to permit communication with Windows Defender ATP service in port 80 and 443:</source>
+          <target>If a proxy or firewall is blocking all traffic by default and allowing only specific domains through, make sure that the following URLs are white-listed to permit communication with Windows Defender ATP service in port 80 and 443:</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>us.vortex-win.data.microsoft.com</source>
+          <target>us.vortex-win.data.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>eu.vortex-win.data.microsoft.com</source>
+          <target>eu.vortex-win.data.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>sevillegwcus.microsoft.com</source>
+          <target>sevillegwcus.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>sevillegweus.microsoft.com</source>
+          <target>sevillegweus.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>sevillegwweu.microsoft.com</source>
+          <target>sevillegwweu.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>sevillegwneu.microsoft.com</source>
+          <target>sevillegwneu.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>www.microsoft.com</source>
+          <target>www.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>crl.microsoft.com</source>
+          <target>crl.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>.blob.core.windows.net</source>
+          <target>.blob.core.windows.net</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>If a proxy or firewall is blocking anonymous traffic, as Windows Defender ATP  sensor is connecting from system context, make sure anonymous traffic is permitted to the above listed URLs.</source>
+          <target>If a proxy or firewall is blocking anonymous traffic, as Windows Defender ATP  sensor is connecting from system context, make sure anonymous traffic is permitted to the above listed URLs.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Verify client connectivity to Windows Defender ATP service URLs</source>
+          <target>Verify client connectivity to Windows Defender ATP service URLs</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Verify the proxy configuration completed successfully, that WinHTTP can discover and communicate through the proxy server in your environment, and that the proxy server allows traffic to the Windows Defender ATP service URLs.</source>
+          <target>Verify the proxy configuration completed successfully, that WinHTTP can discover and communicate through the proxy server in your environment, and that the proxy server allows traffic to the Windows Defender ATP service URLs.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Download the connectivity verification tools to the PC where Windows Defender ATP sensor is running on:</source>
+          <target>Download the connectivity verification tools to the PC where Windows Defender ATP sensor is running on:</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Download PsTools Suite</source>
+          <target>Download PsTools Suite</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Download PortQry Command Line Port Scanner Version 2.0 utility</source>
+          <target>Download PortQry Command Line Port Scanner Version 2.0 utility</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Extract the contents of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PsTools</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PortQry</pc> to a directory on the computer hard drive.</source>
+          <target>Extract the contents of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PsTools</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PortQry</pc> to a directory on the computer hard drive.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Open an elevated command-line:</source>
+          <target>Open an elevated command-line:</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>a.</source>
+          <target>a.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cmd</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>b.</source>
+          <target>b.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command prompt</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter the following command and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Enter the following command and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3"> ![</data>
+          <data id="id4">](images/psexec-cmd.png)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Replace <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HardDrivePath</pc> with the path where the PsTools Suite was extracted to: <ph dataRef="id3" id="ph1" />Image showing the command line<ph dataRef="id4" id="ph2" /></source>
+          <target>Replace <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HardDrivePath</pc> with the path where the PsTools Suite was extracted to: <ph dataRef="id3" id="ph1" />Image showing the command line<ph dataRef="id4" id="ph2" /></target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter the following command and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</source>
+          <target>Enter the following command and press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3"> ![</data>
+          <data id="id4">](images/portqry.png)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Replace <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HardDrivePath</pc> with the path where the PortQry utility was extracted to: <ph dataRef="id3" id="ph1" />Image showing the command line<ph dataRef="id4" id="ph2" /></source>
+          <target>Replace <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HardDrivePath</pc> with the path where the PortQry utility was extracted to: <ph dataRef="id3" id="ph1" />Image showing the command line<ph dataRef="id4" id="ph2" /></target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Verify that the output shows that the name is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">resolved</pc> and connection status is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">listening</pc>.</source>
+          <target>Verify that the output shows that the name is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">resolved</pc> and connection status is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">listening</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Repeat the same steps for the remaining URLs with the following arguments:</source>
+          <target>Repeat the same steps for the remaining URLs with the following arguments:</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>portqry.exe -n eu.vortex-win.data.microsoft.com -e 443 -p tcp</source>
+          <target>portqry.exe -n eu.vortex-win.data.microsoft.com -e 443 -p tcp</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>portqry.exe -n sevillegwcus.microsoft.com -e 443 -p tcp</source>
+          <target>portqry.exe -n sevillegwcus.microsoft.com -e 443 -p tcp</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>portqry.exe -n sevillegweus.microsoft.com -e 443 -p tcp</source>
+          <target>portqry.exe -n sevillegweus.microsoft.com -e 443 -p tcp</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>portqry.exe -n sevillegwweu.microsoft.com -e 443 -p tcp</source>
+          <target>portqry.exe -n sevillegwweu.microsoft.com -e 443 -p tcp</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>portqry.exe -n sevillegwneu.microsoft.com -e 443 -p tcp</source>
+          <target>portqry.exe -n sevillegwneu.microsoft.com -e 443 -p tcp</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>portqry.exe -n www.microsoft.com -e 80 -p tcp</source>
+          <target>portqry.exe -n www.microsoft.com -e 80 -p tcp</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>portqry.exe -n crl.microsoft.com -e 80 -p tcp</source>
+          <target>portqry.exe -n crl.microsoft.com -e 80 -p tcp</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Verify that each URL shows that the name is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">resolved</pc> and the connection status is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">listening</pc>.</source>
+          <target>Verify that each URL shows that the name is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">resolved</pc> and the connection status is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">listening</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>If the any of the verification steps indicate a fail, then verify that you have performed the proxy configuration steps to enable server discovery and access to the service URLs.</source>
+          <target>If the any of the verification steps indicate a fail, then verify that you have performed the proxy configuration steps to enable server discovery and access to the service URLs.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Configure Windows Defender ATP endpoints</source>
+          <target>Configure Windows Defender ATP endpoints</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Additional Windows Defender ATP configuration settings</source>
+          <target>Additional Windows Defender ATP configuration settings</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>Monitor the Windows Defender ATP onboarding</source>
+          <target>Monitor the Windows Defender ATP onboarding</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Troubleshoot Windows Defender Advanced Threat Protection onboarding issues</source>
+          <target>Troubleshoot Windows Defender Advanced Threat Protection onboarding issues</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

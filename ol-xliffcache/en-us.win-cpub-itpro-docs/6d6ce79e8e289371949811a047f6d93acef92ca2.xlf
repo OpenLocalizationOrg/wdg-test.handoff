@@ -1,0 +1,1091 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\deploy\use-orchestrator-runbooks-with-mdt-2013.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">6d6ce79e8e289371949811a047f6d93acef92ca2</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Use Orchestrator runbooks with MDT (Windows 10)</source>
+          <target>Use Orchestrator runbooks with MDT (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic will show you how to integrate Microsoft System Center 2012 R2 Orchestrator with MDT to replace the existing web services that are used in deployment solutions.</source>
+          <target>This topic will show you how to integrate Microsoft System Center 2012 R2 Orchestrator with MDT to replace the existing web services that are used in deployment solutions.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Use Orchestrator runbooks with MDT</source>
+          <target>Use Orchestrator runbooks with MDT</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This topic will show you how to integrate Microsoft System Center 2012 R2 Orchestrator with MDT to replace the existing web services that are used in deployment solutions.</source>
+          <target>This topic will show you how to integrate Microsoft System Center 2012 R2 Orchestrator with MDT to replace the existing web services that are used in deployment solutions.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>MDT can integrate with System Center 2012 R2 Orchestrator, which is a component that ties the Microsoft System Center products together, as well as other products from both Microsoft and third-party vendors.</source>
+          <target>MDT can integrate with System Center 2012 R2 Orchestrator, which is a component that ties the Microsoft System Center products together, as well as other products from both Microsoft and third-party vendors.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>The difference between using Orchestrator and "normal" web services, is that with Orchestrator you have a rich drag-and-drop style interface when building the solution, and little or no coding is required.</source>
+          <target>The difference between using Orchestrator and "normal" web services, is that with Orchestrator you have a rich drag-and-drop style interface when building the solution, and little or no coding is required.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>If you are licensed to use Orchestrator, we highly recommend that you start using it.</source>
+          <target>If you are licensed to use Orchestrator, we highly recommend that you start using it.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=619553)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To find out more about licensing options for System Center 2012 R2 and Orchestrator, visit the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">System Center 2012 R2</pc> website.</source>
+          <target>To find out more about licensing options for System Center 2012 R2 and Orchestrator, visit the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">System Center 2012 R2</pc> website.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Orchestrator terminology</source>
+          <target>Orchestrator terminology</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Before diving into the core details, here is a quick course in Orchestrator terminology:</source>
+          <target>Before diving into the core details, here is a quick course in Orchestrator terminology:</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Orchestrator Server.</source>
+          <target>Orchestrator Server.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>This is a server that executes runbooks.</source>
+          <target>This is a server that executes runbooks.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Runbooks.</source>
+          <target>Runbooks.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>A runbook is similar to a task sequence; it is a series of instructions based on conditions.</source>
+          <target>A runbook is similar to a task sequence; it is a series of instructions based on conditions.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Runbooks consist of workflow activities; an activity could be Copy File, Get User from Active Directory, or even Write to Database.</source>
+          <target>Runbooks consist of workflow activities; an activity could be Copy File, Get User from Active Directory, or even Write to Database.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Orchestrator Designer.</source>
+          <target>Orchestrator Designer.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>This is where you build the runbooks.</source>
+          <target>This is where you build the runbooks.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>In brief, you do that by creating an empty runbook, dragging in the activities you need, and then connecting them in a workflow with conditions and subscriptions.</source>
+          <target>In brief, you do that by creating an empty runbook, dragging in the activities you need, and then connecting them in a workflow with conditions and subscriptions.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Subscriptions.</source>
+          <target>Subscriptions.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>These are variables that come from an earlier activity in the runbook.</source>
+          <target>These are variables that come from an earlier activity in the runbook.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>So if you first execute an activity in which you type in a computer name, you can then subscribe to that value in the next activity.</source>
+          <target>So if you first execute an activity in which you type in a computer name, you can then subscribe to that value in the next activity.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>All these variables are accumulated during the execution of the runbook.</source>
+          <target>All these variables are accumulated during the execution of the runbook.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Orchestrator Console.</source>
+          <target>Orchestrator Console.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>This is the Microsoft Silverlight-based web page you can use interactively to execute runbooks.</source>
+          <target>This is the Microsoft Silverlight-based web page you can use interactively to execute runbooks.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>The console listens to TCP port 81 by default.</source>
+          <target>The console listens to TCP port 81 by default.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Orchestrator web services.</source>
+          <target>Orchestrator web services.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>These are the web services you use in the Microsoft Deployment Toolkit to execute runbooks during deployment.</source>
+          <target>These are the web services you use in the Microsoft Deployment Toolkit to execute runbooks during deployment.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>The web services listen to TCP port 82 by default.</source>
+          <target>The web services listen to TCP port 82 by default.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Integration packs.</source>
+          <target>Integration packs.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>These provide additional workflow activities you can import to integrate with other products or solutions, like the rest of Active Directory, other System Center 2012 R2 products, or Microsoft Exchange Server, to name a few.</source>
+          <target>These provide additional workflow activities you can import to integrate with other products or solutions, like the rest of Active Directory, other System Center 2012 R2 products, or Microsoft Exchange Server, to name a few.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=619554)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To find and download additional integration packs, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Integration Packs for System Center 2012 - Orchestrator</pc>.</source>
+          <target>To find and download additional integration packs, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Integration Packs for System Center 2012 - Orchestrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Create a sample runbook</source>
+          <target>Create a sample runbook</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>This section assumes you have Orchestrator 2012 R2 installed on a server named OR01.</source>
+          <target>This section assumes you have Orchestrator 2012 R2 installed on a server named OR01.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>In this section, you create a sample runbook, which is used to log some of the MDT deployment information into a text file on OR01.</source>
+          <target>In this section, you create a sample runbook, which is used to log some of the MDT deployment information into a text file on OR01.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On OR01, using File Explorer, create the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />Logfile</pc> folder, and grant Users modify permissions (NTFS).</source>
+          <target>On OR01, using File Explorer, create the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />Logfile</pc> folder, and grant Users modify permissions (NTFS).</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />Logfile</pc> folder, create the DeployLog.txt file.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />Logfile</pc> folder, create the DeployLog.txt file.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Make sure File Explorer is configured to show known file extensions so the file is not named DeployLog.txt.txt.</source>
+          <target>Make sure File Explorer is configured to show known file extensions so the file is not named DeployLog.txt.txt.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>figure 23</source>
+          <target>figure 23</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Figure 23.</source>
+          <target>Figure 23.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>The DeployLog.txt file.</source>
+          <target>The DeployLog.txt file.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using System Center 2012 R2 Orchestrator Runbook Designer, in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Runbooks</pc> node, create the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1.0 MDT</pc> folder.</source>
+          <target>Using System Center 2012 R2 Orchestrator Runbook Designer, in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Runbooks</pc> node, create the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1.0 MDT</pc> folder.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>figure 24</source>
+          <target>figure 24</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Figure 24.</source>
+          <target>Figure 24.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Folder created in the Runbooks node.</source>
+          <target>Folder created in the Runbooks node.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Runbooks</pc> node, right-click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1.0 MDT</pc> folder, and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">New / Runbook</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Runbooks</pc> node, right-click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1.0 MDT</pc> folder, and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">New / Runbook</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the ribbon bar, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Check Out</pc>.</source>
+          <target>On the ribbon bar, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Check Out</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">New Runbook</pc> label, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Rename</pc>, and assign the name <pc dataRefEnd="id6" dataRefStart="id5" id="p3">MDT Sample</pc>.</source>
+          <target>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">New Runbook</pc> label, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Rename</pc>, and assign the name <pc dataRefEnd="id6" dataRefStart="id5" id="p3">MDT Sample</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add (using a drag-and-drop operation) the following items from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Activities</pc> list to the middle pane:</source>
+          <target>Add (using a drag-and-drop operation) the following items from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Activities</pc> list to the middle pane:</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Runbook Control / Initialize Data</source>
+          <target>Runbook Control / Initialize Data</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Text File Management / Append Line</source>
+          <target>Text File Management / Append Line</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Connect <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Initialize Data</pc> to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Append Line</pc>.</source>
+          <target>Connect <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Initialize Data</pc> to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Append Line</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>figure 25</source>
+          <target>figure 25</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Figure 25.</source>
+          <target>Figure 25.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Activities added and connected.</source>
+          <target>Activities added and connected.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Initialize Data</pc> activity, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc></source>
+          <target>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Initialize Data</pc> activity, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc></target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On <pc dataRefEnd="id2" dataRefStart="id1" id="p1">the Initialize Data Properties</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc>, change <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Parameter 1</pc> to <pc dataRefEnd="id8" dataRefStart="id7" id="p4">OSDComputerName</pc>, and then click <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Finish</pc>.</source>
+          <target>On <pc dataRefEnd="id2" dataRefStart="id1" id="p1">the Initialize Data Properties</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc>, change <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Parameter 1</pc> to <pc dataRefEnd="id8" dataRefStart="id7" id="p4">OSDComputerName</pc>, and then click <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Finish</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>figure 26</source>
+          <target>figure 26</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Figure 26.</source>
+          <target>Figure 26.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>The Initialize Data Properties window.</source>
+          <target>The Initialize Data Properties window.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Append Line</pc> activity, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc>.</source>
+          <target>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Append Line</pc> activity, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Append Line Properties</pc> page, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">File</pc> text box, type <pc dataRefEnd="id6" dataRefStart="id5" id="p3">E:<ph dataRef="id7" id="ph1" />Logfile<ph dataRef="id8" id="ph2" />DeployLog.txt</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Append Line Properties</pc> page, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">File</pc> text box, type <pc dataRefEnd="id6" dataRefStart="id5" id="p3">E:<ph dataRef="id7" id="ph1" />Logfile<ph dataRef="id8" id="ph2" />DeployLog.txt</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc> encoding drop-down list, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ASCII</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc> encoding drop-down list, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ASCII</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Append</pc> area, right-click inside the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Text</pc> text box and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Expand</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Append</pc> area, right-click inside the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Text</pc> text box and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Expand</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>figure 27</source>
+          <target>figure 27</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Figure 27.</source>
+          <target>Figure 27.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Expanding the Text area.</source>
+          <target>Expanding the Text area.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the blank text box, right-click and select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Subscribe / Published Data</pc>.</source>
+          <target>In the blank text box, right-click and select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Subscribe / Published Data</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>figure 28</source>
+          <target>figure 28</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Figure 28.</source>
+          <target>Figure 28.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Subscribing to data.</source>
+          <target>Subscribing to data.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Published Data</pc> window, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OSDComputerName</pc> item, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Published Data</pc> window, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OSDComputerName</pc> item, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">{OSDComputerName from "Initialize Data"}</pc> text, type in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">has been deployed at</pc> and, once again, right-click and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Subscribe / Published Data</pc>.</source>
+          <target>After the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">{OSDComputerName from "Initialize Data"}</pc> text, type in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">has been deployed at</pc> and, once again, right-click and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Subscribe / Published Data</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Published Data</pc> window, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Show common Published Data</pc> check box, select the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Activity end time</pc> item, and click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">OK</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Published Data</pc> window, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Show common Published Data</pc> check box, select the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Activity end time</pc> item, and click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>figure 29</source>
+          <target>figure 29</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Figure 29.</source>
+          <target>Figure 29.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>The expanded text box after all subscriptions have been added.</source>
+          <target>The expanded text box after all subscriptions have been added.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Append Line Properties</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Append Line Properties</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Test the demo MDT runbook</source>
+          <target>Test the demo MDT runbook</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>After the runbook is created, you are ready to test it.</source>
+          <target>After the runbook is created, you are ready to test it.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the ribbon bar, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Runbook Tester</pc>.</source>
+          <target>On the ribbon bar, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Runbook Tester</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run</pc>, and in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Initialize Data Parameters</pc> dialog box, use the following setting and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>:</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run</pc>, and in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Initialize Data Parameters</pc> dialog box, use the following setting and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>OSDComputerName: PC0010</source>
+          <target>OSDComputerName: PC0010</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Verify that all activities are green (for additional information, see each target).</source>
+          <target>Verify that all activities are green (for additional information, see each target).</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Close the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Runbook Tester</pc>.</source>
+          <target>Close the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Runbook Tester</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the ribbon bar, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Check In</pc>.</source>
+          <target>On the ribbon bar, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Check In</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>figure 30</source>
+          <target>figure 30</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Figure 30.</source>
+          <target>Figure 30.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>All tests completed.</source>
+          <target>All tests completed.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Use the MDT demo runbook from MDT</source>
+          <target>Use the MDT demo runbook from MDT</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, using the Deployment Workbench, in the MDT Production deployment share, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task Sequences</pc> node, and create a folder named <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Orchestrator</pc>.</source>
+          <target>On MDT01, using the Deployment Workbench, in the MDT Production deployment share, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task Sequences</pc> node, and create a folder named <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Orchestrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Orchestrator</pc> node, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Task Sequence</pc>.</source>
+          <target>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Orchestrator</pc> node, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Task Sequence</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Use the following settings for the New Task Sequence Wizard:</source>
+          <target>Use the following settings for the New Task Sequence Wizard:</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Task sequence ID: OR001</source>
+          <target>Task sequence ID: OR001</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Task sequence name: Orchestrator Sample</source>
+          <target>Task sequence name: Orchestrator Sample</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Task sequence comments: <ph dataRef="id1" id="ph1" />blank</source>
+          <target>Task sequence comments: <ph dataRef="id1" id="ph1" />blank</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Template: Custom Task Sequence</source>
+          <target>Template: Custom Task Sequence</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Orchestrator</pc> node, double-click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Orchestrator Sample</pc> task sequence, and then select the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Task Sequence</pc> tab.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Orchestrator</pc> node, double-click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Orchestrator Sample</pc> task sequence, and then select the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Task Sequence</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Remove the default <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Install</pc> action.</source>
+          <target>Remove the default <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Install</pc> action.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Gather</pc> action and select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Gather only local data (do not process rules)</pc> option.</source>
+          <target>Add a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Gather</pc> action and select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Gather only local data (do not process rules)</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Gather</pc> action, add a <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Set Task Sequence Variable</pc> action with the following settings:</source>
+          <target>After the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Gather</pc> action, add a <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Set Task Sequence Variable</pc> action with the following settings:</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Name: Set Task Sequence Variable</source>
+          <target>Name: Set Task Sequence Variable</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Task Sequence Variable: OSDComputerName</source>
+          <target>Task Sequence Variable: OSDComputerName</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Value: %hostname%</source>
+          <target>Value: %hostname%</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set Task Sequence Variable</pc> action, add a new <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Execute Orchestrator Runbook</pc> action with the following settings:</source>
+          <target>After the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set Task Sequence Variable</pc> action, add a new <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Execute Orchestrator Runbook</pc> action with the following settings:</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Orchestrator Server: OR01.contoso.com</source>
+          <target>Orchestrator Server: OR01.contoso.com</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use Browse to select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">1.0 MDT / MDT Sample</pc>.</source>
+          <target>Use Browse to select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">1.0 MDT / MDT Sample</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>figure 31</source>
+          <target>figure 31</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Figure 31.</source>
+          <target>Figure 31.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>The ready-made task sequence.</source>
+          <target>The ready-made task sequence.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Run the orchestrator sample task sequence</source>
+          <target>Run the orchestrator sample task sequence</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Since this task sequence just starts a runbook, you can test this on the PC0001 client that you used for the MDT simulation environment.</source>
+          <target>Since this task sequence just starts a runbook, you can test this on the PC0001 client that you used for the MDT simulation environment.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Make sure the account you are using has permissions to run runbooks on the Orchestrator server.</source>
+          <target>Make sure the account you are using has permissions to run runbooks on the Orchestrator server.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=619555)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about runbook permissions, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Runbook Permissions</pc>.</source>
+          <target>For more information about runbook permissions, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Runbook Permissions</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>On PC0001, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />MDT<ph dataRef="id4" id="ph2" />BA</pc>.</source>
+          <target>On PC0001, log on as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CONTOSO<ph dataRef="id3" id="ph1" />MDT<ph dataRef="id4" id="ph2" />BA</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Using an elevated command prompt (run as Administrator), type the following command:</source>
+          <target>Using an elevated command prompt (run as Administrator), type the following command:</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Complete the Windows Deployment Wizard using the following information:</source>
+          <target>Complete the Windows Deployment Wizard using the following information:</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Task Sequence: Orchestrator Sample</source>
+          <target>Task Sequence: Orchestrator Sample</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Credentials:</source>
+          <target>Credentials:</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>User Name: MDT<ph dataRef="id1" id="ph1" />BA</source>
+          <target>User Name: MDT<ph dataRef="id1" id="ph1" />BA</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Password: P@ssw0rd</source>
+          <target>Password: P@ssw0rd</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Domain: CONTOSO</source>
+          <target>Domain: CONTOSO</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Wait until the task sequence is completed and then verify that the DeployLog.txt file in the E:<ph dataRef="id1" id="ph1" />Logfile folder on OR01 was updated.</source>
+          <target>Wait until the task sequence is completed and then verify that the DeployLog.txt file in the E:<ph dataRef="id1" id="ph1" />Logfile folder on OR01 was updated.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>figure 32</source>
+          <target>figure 32</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Figure 32.</source>
+          <target>Figure 32.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>The ready-made task sequence.</source>
+          <target>The ready-made task sequence.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Set up MDT for BitLocker</source>
+          <target>Set up MDT for BitLocker</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>Configure MDT deployment share rules</source>
+          <target>Configure MDT deployment share rules</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Configure MDT for UserExit scripts</source>
+          <target>Configure MDT for UserExit scripts</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Simulate a Windows10 deployment in a test environment</source>
+          <target>Simulate a Windows10 deployment in a test environment</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Use the MDT database to stage Windows 10 deployment information</source>
+          <target>Use the MDT database to stage Windows 10 deployment information</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Assign applications using roles in MDT</source>
+          <target>Assign applications using roles in MDT</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Use web services in MDT</source>
+          <target>Use web services in MDT</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

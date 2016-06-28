@@ -1,0 +1,3547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\deploy\usmt-scanstate-syntax.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">34907ba4578ca842fb6be835742bfdfac1632b96</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>ScanState Syntax (Windows 10)</source>
+          <target>ScanState Syntax (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>ScanState Syntax</source>
+          <target>ScanState Syntax</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>ScanState Syntax</source>
+          <target>ScanState Syntax</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>The ScanState command is used with the User State Migration Tool (USMT) 10.0 to scan the source computer, collect the files and settings, and create a store.</source>
+          <target>The ScanState command is used with the User State Migration Tool (USMT) 10.0 to scan the source computer, collect the files and settings, and create a store.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>In This Topic</source>
+          <target>In This Topic</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Before You Begin</source>
+          <target>Before You Begin</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Syntax</source>
+          <target>Syntax</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Storage Options</source>
+          <target>Storage Options</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Migration Rule Options</source>
+          <target>Migration Rule Options</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Monitoring Options</source>
+          <target>Monitoring Options</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>User Options</source>
+          <target>User Options</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Encrypted File Options</source>
+          <target>Encrypted File Options</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Incompatible Command-Line Options</source>
+          <target>Incompatible Command-Line Options</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Before You Begin</source>
+          <target>Before You Begin</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Before you run the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command, note the following:</source>
+          <target>Before you run the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command, note the following:</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To ensure that all operating system settings migrate, in most cases you must run the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> commands in administrator mode from an account with administrative credentials.</source>
+          <target>To ensure that all operating system settings migrate, in most cases you must run the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> commands in administrator mode from an account with administrative credentials.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>If you encrypt the migration store, you will be required to enter an encryption key or a path to a file containing the encryption key.</source>
+          <target>If you encrypt the migration store, you will be required to enter an encryption key or a path to a file containing the encryption key.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Be sure to make note of the key or the key file location, because this information is not kept anywhere in the migration store.</source>
+          <target>Be sure to make note of the key or the key file location, because this information is not kept anywhere in the migration store.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>You will need this information when you run the LoadState command to decrypt the migration store, or if you need to run the recovery utility.</source>
+          <target>You will need this information when you run the LoadState command to decrypt the migration store, or if you need to run the recovery utility.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>An incorrect or missing key or key file results in an error message.</source>
+          <target>An incorrect or missing key or key file results in an error message.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](usmt-requirements.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about software requirements for running the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command, see <pc dataRefEnd="id4" dataRefStart="id3" id="p2">USMT Requirements</pc>.</source>
+          <target>For information about software requirements for running the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command, see <pc dataRefEnd="id4" dataRefStart="id3" id="p2">USMT Requirements</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Unless otherwise noted, you can use each option only once when running a tool on the command line.</source>
+          <target>Unless otherwise noted, you can use each option only once when running a tool on the command line.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>You can gather domain accounts without the source computer having domain controller access.</source>
+          <target>You can gather domain accounts without the source computer having domain controller access.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>This functionality is available without any additional configuration.</source>
+          <target>This functionality is available without any additional configuration.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-iclo)</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Incompatible Command-Line Options</pc> table lists which options you can use together and which command-line options are incompatible.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Incompatible Command-Line Options</pc> table lists which options you can use together and which command-line options are incompatible.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>The directory location where you save the migration store will be excluded from the scan.</source>
+          <target>The directory location where you save the migration store will be excluded from the scan.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>For example, if you save the migration store to the root of the D drive, the D drive and all of its subdirectories will be excluded from the scan.</source>
+          <target>For example, if you save the migration store to the root of the D drive, the D drive and all of its subdirectories will be excluded from the scan.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Syntax</source>
+          <target>Syntax</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This section explains the syntax and usage of the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command-line options.</source>
+          <target>This section explains the syntax and usage of the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command-line options.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>The options can be specified in any order.</source>
+          <target>The options can be specified in any order.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>If the option contains a parameter, you can use either a colon or a space separator.</source>
+          <target>If the option contains a parameter, you can use either a colon or a space separator.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command's syntax is:</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command's syntax is:</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">\[</data>
+          <data id="id2">*</data>
+          <data id="id3">*</data>
+          <data id="id4">\]</data>
+          <data id="id5">\[</data>
+          <data id="id6">\]</data>
+          <data id="id7">\[</data>
+          <data id="id8">*</data>
+          <data id="id9">*</data>
+          <data id="id10">\]</data>
+          <data id="id11">\[</data>
+          <data id="id12">\[</data>
+          <data id="id13">*</data>
+          <data id="id14">*</data>
+          <data id="id15">\\\]</data>
+          <data id="id16">*</data>
+          <data id="id17">*</data>
+          <data id="id18">\]</data>
+          <data id="id19">\[</data>
+          <data id="id20">\]</data>
+          <data id="id21">\[</data>
+          <data id="id22">*</data>
+          <data id="id23">*</data>
+          <data id="id24">\]</data>
+          <data id="id25">\[</data>
+          <data id="id26">\]</data>
+          <data id="id27">\[</data>
+          <data id="id28">\]</data>
+          <data id="id29">\[</data>
+          <data id="id30">*</data>
+          <data id="id31">*</data>
+          <data id="id32">\[</data>
+          <data id="id33">\\\]</data>
+          <data id="id34">*</data>
+          <data id="id35">*</data>
+          <data id="id36">\]</data>
+          <data id="id37">\[</data>
+          <data id="id38">\[</data>
+          <data id="id39">*</data>
+          <data id="id40">*</data>
+          <data id="id41">\\\]</data>
+          <data id="id42">*</data>
+          <data id="id43">*</data>
+          <data id="id44">\]</data>
+          <data id="id45">\[</data>
+          <data id="id46">\[</data>
+          <data id="id47">*</data>
+          <data id="id48">*</data>
+          <data id="id49">\\\]</data>
+          <data id="id50">*</data>
+          <data id="id51">*</data>
+          <data id="id52">\]</data>
+          <data id="id53">\[</data>
+          <data id="id54">*</data>
+          <data id="id55">*</data>
+          <data id="id56">\]</data>
+          <data id="id57">\[</data>
+          <data id="id58">*</data>
+          <data id="id59">*</data>
+          <data id="id60">\]</data>
+          <data id="id61">\[</data>
+          <data id="id62">\]</data>
+          <data id="id63">\[</data>
+          <data id="id64">\]</data>
+          <data id="id65">\[</data>
+          <data id="id66">\]</data>
+          <data id="id67">\[</data>
+          <data id="id68">\[</data>
+          <data id="id69">*</data>
+          <data id="id70">*</data>
+          <data id="id71">|</data>
+          <data id="id72">*</data>
+          <data id="id73">*</data>
+          <data id="id74">\\\]</data>
+          <data id="id75">*</data>
+          <data id="id76">*</data>
+          <data id="id77">\]</data>
+          <data id="id78">\[</data>
+          <data id="id79">\[</data>
+          <data id="id80">*</data>
+          <data id="id81">*</data>
+          <data id="id82">|</data>
+          <data id="id83">*</data>
+          <data id="id84">*</data>
+          <data id="id85">\\\]</data>
+          <data id="id86">*</data>
+          <data id="id87">*</data>
+          <data id="id88">\]</data>
+          <data id="id89">\[</data>
+          <data id="id90">*</data>
+          <data id="id91">*</data>
+          <data id="id92">|</data>
+          <data id="id93">*</data>
+          <data id="id94">*</data>
+          <data id="id95">\]</data>
+          <data id="id96">\[</data>
+          <data id="id97">\]</data>
+          <data id="id98">\[</data>
+          <data id="id99">\[</data>
+          <data id="id100">*</data>
+          <data id="id101">*</data>
+          <data id="id102">\\\]</data>
+          <data id="id103">*</data>
+          <data id="id104">*</data>
+          <data id="id105">\[</data>
+          <data id="id106">\[</data>
+          <data id="id107">*</data>
+          <data id="id108">*</data>
+          <data id="id109">\\\]</data>
+          <data id="id110">*</data>
+          <data id="id111">*</data>
+          <data id="id112">\]</data>
+          <data id="id113">\[</data>
+        </originalData>
+        <segment state="initial">
+          <source>scanstate <ph dataRef="id1" id="ph1" /><pc dataRefEnd="id3" dataRefStart="id2" id="p1">StorePath</pc><ph dataRef="id4" id="ph2" /><ph dataRef="id5" id="ph3" />/apps<ph dataRef="id6" id="ph4" /><ph dataRef="id7" id="ph5" />/ppkg:<pc dataRefEnd="id9" dataRefStart="id8" id="p2">FileName</pc><ph dataRef="id10" id="ph6" /><ph dataRef="id11" id="ph7" />/i:<ph dataRef="id12" id="ph8" /><pc dataRefEnd="id14" dataRefStart="id13" id="p3">Path</pc><ph dataRef="id15" id="ph9" /><pc dataRefEnd="id17" dataRefStart="id16" id="p4">FileName</pc><ph dataRef="id18" id="ph10" /><ph dataRef="id19" id="ph11" />/o<ph dataRef="id20" id="ph12" /><ph dataRef="id21" id="ph13" />/v:<pc dataRefEnd="id23" dataRefStart="id22" id="p5">VerbosityLevel</pc><ph dataRef="id24" id="ph14" /><ph dataRef="id25" id="ph15" />/nocompress<ph dataRef="id26" id="ph16" /><ph dataRef="id27" id="ph17" />/localonly<ph dataRef="id28" id="ph18" /><ph dataRef="id29" id="ph19" />/encrypt /key:<pc dataRefEnd="id31" dataRefStart="id30" id="p6">KeyString</pc>|/keyfile:<ph dataRef="id32" id="ph20" />Path<ph dataRef="id33" id="ph21" /><pc dataRefEnd="id35" dataRefStart="id34" id="p7">FileName</pc><ph dataRef="id36" id="ph22" /><ph dataRef="id37" id="ph23" />/l:<ph dataRef="id38" id="ph24" /><pc dataRefEnd="id40" dataRefStart="id39" id="p8">Path</pc><ph dataRef="id41" id="ph25" /><pc dataRefEnd="id43" dataRefStart="id42" id="p9">FileName</pc><ph dataRef="id44" id="ph26" /><ph dataRef="id45" id="ph27" />/progress:<ph dataRef="id46" id="ph28" /><pc dataRefEnd="id48" dataRefStart="id47" id="p10">Path</pc><ph dataRef="id49" id="ph29" /><pc dataRefEnd="id51" dataRefStart="id50" id="p11">FileName</pc><ph dataRef="id52" id="ph30" /><ph dataRef="id53" id="ph31" />/r:<pc dataRefEnd="id55" dataRefStart="id54" id="p12">TimesToRetry</pc><ph dataRef="id56" id="ph32" /><ph dataRef="id57" id="ph33" />/w:<pc dataRefEnd="id59" dataRefStart="id58" id="p13">SecondsBeforeRetry</pc><ph dataRef="id60" id="ph34" /><ph dataRef="id61" id="ph35" />/c<ph dataRef="id62" id="ph36" /><ph dataRef="id63" id="ph37" />/p<ph dataRef="id64" id="ph38" /><ph dataRef="id65" id="ph39" />/all<ph dataRef="id66" id="ph40" /><ph dataRef="id67" id="ph41" />/ui:<ph dataRef="id68" id="ph42" /><pc dataRefEnd="id70" dataRefStart="id69" id="p14">DomainName</pc><ph dataRef="id71" id="ph43" /><pc dataRefEnd="id73" dataRefStart="id72" id="p15">ComputerName</pc><ph dataRef="id74" id="ph44" /><pc dataRefEnd="id76" dataRefStart="id75" id="p16">UserName</pc><ph dataRef="id77" id="ph45" /><ph dataRef="id78" id="ph46" />/ue:<ph dataRef="id79" id="ph47" /><pc dataRefEnd="id81" dataRefStart="id80" id="p17">DomainName</pc><ph dataRef="id82" id="ph48" /><pc dataRefEnd="id84" dataRefStart="id83" id="p18">ComputerName</pc><ph dataRef="id85" id="ph49" /><pc dataRefEnd="id87" dataRefStart="id86" id="p19">UserName</pc><ph dataRef="id88" id="ph50" /><ph dataRef="id89" id="ph51" />/uel:<pc dataRefEnd="id91" dataRefStart="id90" id="p20">NumberOfDays</pc><ph dataRef="id92" id="ph52" /><pc dataRefEnd="id94" dataRefStart="id93" id="p21">YYYY/MM/DD</pc>|0<ph dataRef="id95" id="ph53" /><ph dataRef="id96" id="ph54" />/efs:abort|skip|decryptcopy|copyraw<ph dataRef="id97" id="ph55" /><ph dataRef="id98" id="ph56" />/genconfig:<ph dataRef="id99" id="ph57" /><pc dataRefEnd="id101" dataRefStart="id100" id="p22">Path</pc><ph dataRef="id102" id="ph58" /><pc dataRefEnd="id104" dataRefStart="id103" id="p23">FileName</pc><ph dataRef="id105" id="ph59" />/config:<ph dataRef="id106" id="ph60" /><pc dataRefEnd="id108" dataRefStart="id107" id="p24">Path</pc><ph dataRef="id109" id="ph61" /><pc dataRefEnd="id111" dataRefStart="id110" id="p25">FileName</pc><ph dataRef="id112" id="ph62" /><ph dataRef="id113" id="ph63" />/?|help</source>
+          <target>scanstate <ph dataRef="id1" id="ph1" /><pc dataRefEnd="id3" dataRefStart="id2" id="p1">StorePath</pc><ph dataRef="id4" id="ph2" /><ph dataRef="id5" id="ph3" />/apps<ph dataRef="id6" id="ph4" /><ph dataRef="id7" id="ph5" />/ppkg:<pc dataRefEnd="id9" dataRefStart="id8" id="p2">FileName</pc><ph dataRef="id10" id="ph6" /><ph dataRef="id11" id="ph7" />/i:<ph dataRef="id12" id="ph8" /><pc dataRefEnd="id14" dataRefStart="id13" id="p3">Path</pc><ph dataRef="id15" id="ph9" /><pc dataRefEnd="id17" dataRefStart="id16" id="p4">FileName</pc><ph dataRef="id18" id="ph10" /><ph dataRef="id19" id="ph11" />/o<ph dataRef="id20" id="ph12" /><ph dataRef="id21" id="ph13" />/v:<pc dataRefEnd="id23" dataRefStart="id22" id="p5">VerbosityLevel</pc><ph dataRef="id24" id="ph14" /><ph dataRef="id25" id="ph15" />/nocompress<ph dataRef="id26" id="ph16" /><ph dataRef="id27" id="ph17" />/localonly<ph dataRef="id28" id="ph18" /><ph dataRef="id29" id="ph19" />/encrypt /key:<pc dataRefEnd="id31" dataRefStart="id30" id="p6">KeyString</pc>|/keyfile:<ph dataRef="id32" id="ph20" />Path<ph dataRef="id33" id="ph21" /><pc dataRefEnd="id35" dataRefStart="id34" id="p7">FileName</pc><ph dataRef="id36" id="ph22" /><ph dataRef="id37" id="ph23" />/l:<ph dataRef="id38" id="ph24" /><pc dataRefEnd="id40" dataRefStart="id39" id="p8">Path</pc><ph dataRef="id41" id="ph25" /><pc dataRefEnd="id43" dataRefStart="id42" id="p9">FileName</pc><ph dataRef="id44" id="ph26" /><ph dataRef="id45" id="ph27" />/progress:<ph dataRef="id46" id="ph28" /><pc dataRefEnd="id48" dataRefStart="id47" id="p10">Path</pc><ph dataRef="id49" id="ph29" /><pc dataRefEnd="id51" dataRefStart="id50" id="p11">FileName</pc><ph dataRef="id52" id="ph30" /><ph dataRef="id53" id="ph31" />/r:<pc dataRefEnd="id55" dataRefStart="id54" id="p12">TimesToRetry</pc><ph dataRef="id56" id="ph32" /><ph dataRef="id57" id="ph33" />/w:<pc dataRefEnd="id59" dataRefStart="id58" id="p13">SecondsBeforeRetry</pc><ph dataRef="id60" id="ph34" /><ph dataRef="id61" id="ph35" />/c<ph dataRef="id62" id="ph36" /><ph dataRef="id63" id="ph37" />/p<ph dataRef="id64" id="ph38" /><ph dataRef="id65" id="ph39" />/all<ph dataRef="id66" id="ph40" /><ph dataRef="id67" id="ph41" />/ui:<ph dataRef="id68" id="ph42" /><pc dataRefEnd="id70" dataRefStart="id69" id="p14">DomainName</pc><ph dataRef="id71" id="ph43" /><pc dataRefEnd="id73" dataRefStart="id72" id="p15">ComputerName</pc><ph dataRef="id74" id="ph44" /><pc dataRefEnd="id76" dataRefStart="id75" id="p16">UserName</pc><ph dataRef="id77" id="ph45" /><ph dataRef="id78" id="ph46" />/ue:<ph dataRef="id79" id="ph47" /><pc dataRefEnd="id81" dataRefStart="id80" id="p17">DomainName</pc><ph dataRef="id82" id="ph48" /><pc dataRefEnd="id84" dataRefStart="id83" id="p18">ComputerName</pc><ph dataRef="id85" id="ph49" /><pc dataRefEnd="id87" dataRefStart="id86" id="p19">UserName</pc><ph dataRef="id88" id="ph50" /><ph dataRef="id89" id="ph51" />/uel:<pc dataRefEnd="id91" dataRefStart="id90" id="p20">NumberOfDays</pc><ph dataRef="id92" id="ph52" /><pc dataRefEnd="id94" dataRefStart="id93" id="p21">YYYY/MM/DD</pc>|0<ph dataRef="id95" id="ph53" /><ph dataRef="id96" id="ph54" />/efs:abort|skip|decryptcopy|copyraw<ph dataRef="id97" id="ph55" /><ph dataRef="id98" id="ph56" />/genconfig:<ph dataRef="id99" id="ph57" /><pc dataRefEnd="id101" dataRefStart="id100" id="p22">Path</pc><ph dataRef="id102" id="ph58" /><pc dataRefEnd="id104" dataRefStart="id103" id="p23">FileName</pc><ph dataRef="id105" id="ph59" />/config:<ph dataRef="id106" id="ph60" /><pc dataRefEnd="id108" dataRefStart="id107" id="p24">Path</pc><ph dataRef="id109" id="ph61" /><pc dataRefEnd="id111" dataRefStart="id110" id="p25">FileName</pc><ph dataRef="id112" id="ph62" /><ph dataRef="id113" id="ph63" />/?|help</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>To create a Config.xml file in the current directory, use:</source>
+          <target>To create a Config.xml file in the current directory, use:</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>To create an encrypted store using the Config.xml file and the default migration .xml files, use:</source>
+          <target>To create an encrypted store using the Config.xml file and the default migration .xml files, use:</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Storage Options</source>
+          <target>Storage Options</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Command-Line Option</source>
+          <target>Command-Line Option</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>StorePath</source>
+          <target>StorePath</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Indicates a folder where files and settings will be saved.</source>
+          <target>Indicates a folder where files and settings will be saved.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Note that <ph dataRef="id1" id="ph1" />StorePath<ph dataRef="id2" id="ph2" /> cannot be <ph dataRef="id3" id="ph3" />c:\<ph dataRef="id4" id="ph4" />.</source>
+          <target>Note that <ph dataRef="id1" id="ph1" />StorePath<ph dataRef="id2" id="ph2" /> cannot be <ph dataRef="id3" id="ph3" />c:\<ph dataRef="id4" id="ph4" />.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+          <data id="id5">&lt;strong&gt;</data>
+          <data id="id6">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You must specify the <ph dataRef="id1" id="ph1" />StorePath<ph dataRef="id2" id="ph2" /> option in the <ph dataRef="id3" id="ph3" />ScanState<ph dataRef="id4" id="ph4" /> command, except when using the <ph dataRef="id5" id="ph5" />/genconfig<ph dataRef="id6" id="ph6" /> option.</source>
+          <target>You must specify the <ph dataRef="id1" id="ph1" />StorePath<ph dataRef="id2" id="ph2" /> option in the <ph dataRef="id3" id="ph3" />ScanState<ph dataRef="id4" id="ph4" /> command, except when using the <ph dataRef="id5" id="ph5" />/genconfig<ph dataRef="id6" id="ph6" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You cannot specify more than one <ph dataRef="id1" id="ph1" />StorePath<ph dataRef="id2" id="ph2" /> location.</source>
+          <target>You cannot specify more than one <ph dataRef="id1" id="ph1" />StorePath<ph dataRef="id2" id="ph2" /> location.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>/apps</source>
+          <target>/apps</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Scans the image for apps and includes them and their associated registry settings.</source>
+          <target>Scans the image for apps and includes them and their associated registry settings.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;em&gt;&amp;lt;</data>
+          <data id="id3">&amp;gt;&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/ppkg<ph dataRef="id1" id="ph1" /> [<ph dataRef="id2" id="ph2" />FileName<ph dataRef="id3" id="ph3" />]</source>
+          <target>/ppkg<ph dataRef="id1" id="ph1" /> [<ph dataRef="id2" id="ph2" />FileName<ph dataRef="id3" id="ph3" />]</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Exports to a specific file location.</source>
+          <target>Exports to a specific file location.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>/o</source>
+          <target>/o</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Required to overwrite any existing data in the migration store or Config.xml file.</source>
+          <target>Required to overwrite any existing data in the migration store or Config.xml file.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If not specified, the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command will fail if the migration store already contains data.</source>
+          <target>If not specified, the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command will fail if the migration store already contains data.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>You cannot use this option more than once on a command line.</source>
+          <target>You cannot use this option more than once on a command line.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>/vsc</source>
+          <target>/vsc</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>This option enables the volume shadow-copy service to migrate files that are locked or in use.</source>
+          <target>This option enables the volume shadow-copy service to migrate files that are locked or in use.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">&lt;strong&gt;&amp;lt;</data>
+          <data id="id2">&amp;gt;&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>This command-line option eliminates most file-locking errors that are typically encountered by the <ph dataRef="id1" id="ph1" />ErrorControl<ph dataRef="id2" id="ph2" /> section.</source>
+          <target>This command-line option eliminates most file-locking errors that are typically encountered by the <ph dataRef="id1" id="ph1" />ErrorControl<ph dataRef="id2" id="ph2" /> section.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>This option can be used only with the ScanState executable file and cannot be combined with the <ph dataRef="id1" id="ph1" />/hardlink<ph dataRef="id2" id="ph2" /> option.</source>
+          <target>This option can be used only with the ScanState executable file and cannot be combined with the <ph dataRef="id1" id="ph1" />/hardlink<ph dataRef="id2" id="ph2" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>/hardlink</source>
+          <target>/hardlink</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Enables the creation of a hard-link migration store at the specified location.</source>
+          <target>Enables the creation of a hard-link migration store at the specified location.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" />/nocompress<ph dataRef="id2" id="ph2" /> option must be specified with the <ph dataRef="id3" id="ph3" />/hardlink<ph dataRef="id4" id="ph4" /> option.</source>
+          <target>The <ph dataRef="id1" id="ph1" />/nocompress<ph dataRef="id2" id="ph2" /> option must be specified with the <ph dataRef="id3" id="ph3" />/hardlink<ph dataRef="id4" id="ph4" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;strong&gt;</data>
+          <data id="id3">&lt;/strong&gt;&lt;em&gt;&amp;lt;</data>
+          <data id="id4">&amp;gt;&lt;/em&gt; | &lt;strong&gt;</data>
+          <data id="id5">&lt;/strong&gt;</data>
+          <data id="id6">&lt;em&gt;&amp;lt;</data>
+          <data id="id7">&amp;gt;&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/encrypt<ph dataRef="id1" id="ph1" /> [{<ph dataRef="id2" id="ph2" />/key:<ph dataRef="id3" id="ph3" />KeyString<ph dataRef="id4" id="ph4" />/keyfile<ph dataRef="id5" id="ph5" />:<ph dataRef="id6" id="ph6" />file<ph dataRef="id7" id="ph7" />]}</source>
+          <target>/encrypt<ph dataRef="id1" id="ph1" /> [{<ph dataRef="id2" id="ph2" />/key:<ph dataRef="id3" id="ph3" />KeyString<ph dataRef="id4" id="ph4" />/keyfile<ph dataRef="id5" id="ph5" />:<ph dataRef="id6" id="ph6" />file<ph dataRef="id7" id="ph7" />]}</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Encrypts the store with the specified key.</source>
+          <target>Encrypts the store with the specified key.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Encryption is disabled by default.</source>
+          <target>Encryption is disabled by default.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>With this option, you will need to specify the encryption key in one of the following ways:</source>
+          <target>With this option, you will need to specify the encryption key in one of the following ways:</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/key:<ph dataRef="id1" id="ph1" />KeyString<ph dataRef="id2" id="ph2" /> specifies the encryption key.</source>
+          <target>/key:<ph dataRef="id1" id="ph1" />KeyString<ph dataRef="id2" id="ph2" /> specifies the encryption key.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+          <data id="id3">&lt;em&gt;</data>
+          <data id="id4">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If there is a space in <ph dataRef="id1" id="ph1" />KeyString<ph dataRef="id2" id="ph2" />, you will need to surround <ph dataRef="id3" id="ph3" />KeyString<ph dataRef="id4" id="ph4" /> with quotation marks.</source>
+          <target>If there is a space in <ph dataRef="id1" id="ph1" />KeyString<ph dataRef="id2" id="ph2" />, you will need to surround <ph dataRef="id3" id="ph3" />KeyString<ph dataRef="id4" id="ph4" /> with quotation marks.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/keyfile:<ph dataRef="id1" id="ph1" />FilePathAndName<ph dataRef="id2" id="ph2" /> specifies a text (.txt) file that contains the encryption key.</source>
+          <target>/keyfile:<ph dataRef="id1" id="ph1" />FilePathAndName<ph dataRef="id2" id="ph2" /> specifies a text (.txt) file that contains the encryption key.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>We recommend that <ph dataRef="id1" id="ph1" />KeyString<ph dataRef="id2" id="ph2" /> be at least eight characters long, but it cannot exceed 256 characters.</source>
+          <target>We recommend that <ph dataRef="id1" id="ph1" />KeyString<ph dataRef="id2" id="ph2" /> be at least eight characters long, but it cannot exceed 256 characters.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" />/key<ph dataRef="id2" id="ph2" /> and <ph dataRef="id3" id="ph3" />/keyfile<ph dataRef="id4" id="ph4" /> options cannot be used on the same command line.</source>
+          <target>The <ph dataRef="id1" id="ph1" />/key<ph dataRef="id2" id="ph2" /> and <ph dataRef="id3" id="ph3" />/keyfile<ph dataRef="id4" id="ph4" /> options cannot be used on the same command line.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" />/encrypt<ph dataRef="id2" id="ph2" /> and <ph dataRef="id3" id="ph3" />/nocompress<ph dataRef="id4" id="ph4" /> options cannot be used on the same command line.</source>
+          <target>The <ph dataRef="id1" id="ph1" />/encrypt<ph dataRef="id2" id="ph2" /> and <ph dataRef="id3" id="ph3" />/nocompress<ph dataRef="id4" id="ph4" /> options cannot be used on the same command line.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You should use caution with this option, because anyone who has access to the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command-line script will also have access to the encryption key.</source>
+          <target>You should use caution with this option, because anyone who has access to the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command-line script will also have access to the encryption key.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following example shows the ScanState command and the <ph dataRef="id1" id="ph1" />/key<ph dataRef="id2" id="ph2" /> option:</source>
+          <target>The following example shows the ScanState command and the <ph dataRef="id1" id="ph1" />/key<ph dataRef="id2" id="ph2" /> option:</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;em&gt;&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/encrypt<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />EncryptionStrength</source>
+          <target>/encrypt<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />EncryptionStrength</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" />/encrypt<ph dataRef="id2" id="ph2" /> option accepts a command-line parameter to define the encryption strength to be used for encryption of the migration store.</source>
+          <target>The <ph dataRef="id1" id="ph1" />/encrypt<ph dataRef="id2" id="ph2" /> option accepts a command-line parameter to define the encryption strength to be used for encryption of the migration store.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-migration-store-encryption.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about supported encryption algorithms, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Migration Store Encryption</pc>.</source>
+          <target>For more information about supported encryption algorithms, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Migration Store Encryption</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>/nocompress</source>
+          <target>/nocompress</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">&amp;quot;</data>
+          <data id="id2">&amp;quot;</data>
+          <data id="id3">&lt;em&gt;</data>
+          <data id="id4">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Disables compression of data and saves the files to a hidden folder named <ph dataRef="id1" id="ph1" />File<ph dataRef="id2" id="ph2" /> at <ph dataRef="id3" id="ph3" />StorePath<ph dataRef="id4" id="ph4" />\USMT.</source>
+          <target>Disables compression of data and saves the files to a hidden folder named <ph dataRef="id1" id="ph1" />File<ph dataRef="id2" id="ph2" /> at <ph dataRef="id3" id="ph3" />StorePath<ph dataRef="id4" id="ph4" />\USMT.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Compression is enabled by default.</source>
+          <target>Compression is enabled by default.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Combining the <ph dataRef="id1" id="ph1" />/nocompress<ph dataRef="id2" id="ph2" /> option with the <ph dataRef="id3" id="ph3" />/hardlink<ph dataRef="id4" id="ph4" /> option generates a hard-link migration store.</source>
+          <target>Combining the <ph dataRef="id1" id="ph1" />/nocompress<ph dataRef="id2" id="ph2" /> option with the <ph dataRef="id3" id="ph3" />/hardlink<ph dataRef="id4" id="ph4" /> option generates a hard-link migration store.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>You can use the uncompressed store to view what USMT stored, troubleshoot a problem, or run an antivirus utility against the files.</source>
+          <target>You can use the uncompressed store to view what USMT stored, troubleshoot a problem, or run an antivirus utility against the files.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You should use this option only in testing environments, because we recommend that you use a compressed store during your actual migration, unless you are combining the <ph dataRef="id1" id="ph1" />/nocompress<ph dataRef="id2" id="ph2" /> option with the <ph dataRef="id3" id="ph3" />/hardlink<ph dataRef="id4" id="ph4" /> option.</source>
+          <target>You should use this option only in testing environments, because we recommend that you use a compressed store during your actual migration, unless you are combining the <ph dataRef="id1" id="ph1" />/nocompress<ph dataRef="id2" id="ph2" /> option with the <ph dataRef="id3" id="ph3" />/hardlink<ph dataRef="id4" id="ph4" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" />/nocompress<ph dataRef="id2" id="ph2" /> and <ph dataRef="id3" id="ph3" />/encrypt<ph dataRef="id4" id="ph4" /> options cannot be used together in one statement on the command line.</source>
+          <target>The <ph dataRef="id1" id="ph1" />/nocompress<ph dataRef="id2" id="ph2" /> and <ph dataRef="id3" id="ph3" />/encrypt<ph dataRef="id4" id="ph4" /> options cannot be used together in one statement on the command line.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>However, if you do choose to migrate an uncompressed store, the <ph dataRef="id1" id="ph1" />LoadState<ph dataRef="id2" id="ph2" /> command will migrate each file directly from the store to the correct location on the destination computer without a temporary location.</source>
+          <target>However, if you do choose to migrate an uncompressed store, the <ph dataRef="id1" id="ph1" />LoadState<ph dataRef="id2" id="ph2" /> command will migrate each file directly from the store to the correct location on the destination computer without a temporary location.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Run the ScanState Command on an Offline Windows System</source>
+          <target>Run the ScanState Command on an Offline Windows System</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can run the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command in Windows Preinstallation Environment (WinPE).</source>
+          <target>You can run the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command in Windows Preinstallation Environment (WinPE).</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>In addition, USMT supports migrations from previous installations of Windows contained in Windows.old directories.</source>
+          <target>In addition, USMT supports migrations from previous installations of Windows contained in Windows.old directories.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The offline directory can be a Windows directory when you run the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command in WinPE or a Windows.old directory when you run the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ScanState</pc> command in Windows.</source>
+          <target>The offline directory can be a Windows directory when you run the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command in WinPE or a Windows.old directory when you run the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ScanState</pc> command in Windows.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>There are several benefits to running the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command on an offline Windows image, including:</source>
+          <target>There are several benefits to running the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command on an offline Windows image, including:</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Improved Performance.</source>
+          <target>Improved Performance.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Because WinPE is a thin operating system, there are fewer running services.</source>
+          <target>Because WinPE is a thin operating system, there are fewer running services.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this environment, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command has more access to the local hardware resources, enabling <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ScanState</pc> to perform migration operations more quickly.</source>
+          <target>In this environment, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command has more access to the local hardware resources, enabling <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ScanState</pc> to perform migration operations more quickly.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Simplified end to end deployment process.</source>
+          <target>Simplified end to end deployment process.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Migrating data from Windows.old simplifies the end-to-end deployment process by enabling the migration process to occur after the new operating system is installed.</source>
+          <target>Migrating data from Windows.old simplifies the end-to-end deployment process by enabling the migration process to occur after the new operating system is installed.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Improved success of migration.</source>
+          <target>Improved success of migration.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>The migration success rate is increased because files will not be locked for editing while offline, and because WinPE provides administrator access to files in the offline Windows file system, eliminating the need for administrator-level access to the online system.</source>
+          <target>The migration success rate is increased because files will not be locked for editing while offline, and because WinPE provides administrator access to files in the offline Windows file system, eliminating the need for administrator-level access to the online system.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Ability to recover an unbootable computer.</source>
+          <target>Ability to recover an unbootable computer.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>It might be possible to recover and migrate data from an unbootable computer.</source>
+          <target>It might be possible to recover and migrate data from an unbootable computer.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Offline Migration Options</source>
+          <target>Offline Migration Options</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Command-Line Option</source>
+          <target>Command-Line Option</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Definition</source>
+          <target>Definition</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&lt;em&gt;&amp;quot;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/offline:<ph dataRef="id1" id="ph1" />path to an offline.xml file</source>
+          <target>/offline:<ph dataRef="id1" id="ph1" />path to an offline.xml file</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>This option is used to define a path to an offline .xml file that might specify other offline migration options, for example, an offline Windows directory or any domain or folder redirection required in your migration.</source>
+          <target>This option is used to define a path to an offline .xml file that might specify other offline migration options, for example, an offline Windows directory or any domain or folder redirection required in your migration.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&lt;em&gt;&amp;quot;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/offlinewindir:<ph dataRef="id1" id="ph1" />path to a Windows directory</source>
+          <target>/offlinewindir:<ph dataRef="id1" id="ph1" />path to a Windows directory</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>This option specifies the offline Windows directory that the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command gathers user state from.</source>
+          <target>This option specifies the offline Windows directory that the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command gathers user state from.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The offline directory can be Windows.old when you run the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command in Windows or a Windows directory when you run the <ph dataRef="id3" id="ph3" />ScanState<ph dataRef="id4" id="ph4" /> command in WinPE.</source>
+          <target>The offline directory can be Windows.old when you run the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command in Windows or a Windows directory when you run the <ph dataRef="id3" id="ph3" />ScanState<ph dataRef="id4" id="ph4" /> command in WinPE.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&lt;em&gt;&amp;quot;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/offlinewinold:<ph dataRef="id1" id="ph1" />Windows.old directory</source>
+          <target>/offlinewinold:<ph dataRef="id1" id="ph1" />Windows.old directory</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>This command-line option enables the offline migration mode and starts the migration from the location specified.</source>
+          <target>This command-line option enables the offline migration mode and starts the migration from the location specified.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>It is only intended to be used in Windows.old migration scenarios, where the migration is occurring from a Windows.old directory.</source>
+          <target>It is only intended to be used in Windows.old migration scenarios, where the migration is occurring from a Windows.old directory.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Migration Rule Options</source>
+          <target>Migration Rule Options</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>USMT provides the following options to specify what files you want to migrate.</source>
+          <target>USMT provides the following options to specify what files you want to migrate.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Command-Line Option</source>
+          <target>Command-Line Option</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;em&gt;</data>
+          <data id="id3">&lt;/em&gt;\]&lt;em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/i:<ph dataRef="id1" id="ph1" />[<ph dataRef="id2" id="ph2" />Path<ph dataRef="id3" id="ph3" />FileName</source>
+          <target>/i:<ph dataRef="id1" id="ph1" />[<ph dataRef="id2" id="ph2" />Path<ph dataRef="id3" id="ph3" />FileName</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>(include)</source>
+          <target>(include)</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Specifies an .xml file that contains rules that define what user, application or system state to migrate.</source>
+          <target>Specifies an .xml file that contains rules that define what user, application or system state to migrate.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>You can specify this option multiple times to include all of your .xml files (MigApp.xml, MigDocs.xml, and any custom .xml files that you create).</source>
+          <target>You can specify this option multiple times to include all of your .xml files (MigApp.xml, MigDocs.xml, and any custom .xml files that you create).</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <originalData>
+          <data id="id1">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Path<ph dataRef="id1" id="ph1" /> can be either a relative or full path.</source>
+          <target>Path<ph dataRef="id1" id="ph1" /> can be either a relative or full path.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+          <data id="id3">&lt;em&gt;</data>
+          <data id="id4">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you do not specify the <ph dataRef="id1" id="ph1" />Path<ph dataRef="id2" id="ph2" /> variable, then <ph dataRef="id3" id="ph3" />FileName<ph dataRef="id4" id="ph4" /> must be located in the current directory.</source>
+          <target>If you do not specify the <ph dataRef="id1" id="ph1" />Path<ph dataRef="id2" id="ph2" /> variable, then <ph dataRef="id3" id="ph3" />FileName<ph dataRef="id4" id="ph4" /> must be located in the current directory.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <originalData>
+          <data id="id1">&amp;quot;</data>
+          <data id="id2">&amp;quot;</data>
+          <data id="id3">[</data>
+          <data id="id4">](usmt-faq.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about which files to specify, see the <ph dataRef="id1" id="ph1" />XML Files<ph dataRef="id2" id="ph2" /> section of the <pc dataRefEnd="id4" dataRefStart="id3" id="p1">Frequently Asked Questions</pc> topic.</source>
+          <target>For more information about which files to specify, see the <ph dataRef="id1" id="ph1" />XML Files<ph dataRef="id2" id="ph2" /> section of the <pc dataRefEnd="id4" dataRefStart="id3" id="p1">Frequently Asked Questions</pc> topic.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;em&gt;</data>
+          <data id="id3">&lt;/em&gt;\]&lt;em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/genconfig:<ph dataRef="id1" id="ph1" />[<ph dataRef="id2" id="ph2" />Path<ph dataRef="id3" id="ph3" />FileName</source>
+          <target>/genconfig:<ph dataRef="id1" id="ph1" />[<ph dataRef="id2" id="ph2" />Path<ph dataRef="id3" id="ph3" />FileName</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>(Generate <ph dataRef="id1" id="ph1" />Config.xml<ph dataRef="id2" id="ph2" />)</source>
+          <target>(Generate <ph dataRef="id1" id="ph1" />Config.xml<ph dataRef="id2" id="ph2" />)</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Generates the optional Config.xml file, but does not create a migration store.</source>
+          <target>Generates the optional Config.xml file, but does not create a migration store.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>To ensure that this file contains every component, application and setting that can be migrated, you should create this file on a source computer that contains all the components, applications and settings that will be present on the destination computers.</source>
+          <target>To ensure that this file contains every component, application and setting that can be migrated, you should create this file on a source computer that contains all the components, applications and settings that will be present on the destination computers.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>In addition, you should specify the other migration .xml files, using the <ph dataRef="id1" id="ph1" />/i<ph dataRef="id2" id="ph2" /> option, when you specify this option.</source>
+          <target>In addition, you should specify the other migration .xml files, using the <ph dataRef="id1" id="ph1" />/i<ph dataRef="id2" id="ph2" /> option, when you specify this option.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>After you create this file, you will need to make use of it with the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command using the <ph dataRef="id3" id="ph3" />/config<ph dataRef="id4" id="ph4" /> option.</source>
+          <target>After you create this file, you will need to make use of it with the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command using the <ph dataRef="id3" id="ph3" />/config<ph dataRef="id4" id="ph4" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+          <data id="id5">&lt;strong&gt;</data>
+          <data id="id6">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The only options that you can specify with this option are the <ph dataRef="id1" id="ph1" />/i<ph dataRef="id2" id="ph2" />, <ph dataRef="id3" id="ph3" />/v<ph dataRef="id4" id="ph4" />, and <ph dataRef="id5" id="ph5" />/l<ph dataRef="id6" id="ph6" /> options.</source>
+          <target>The only options that you can specify with this option are the <ph dataRef="id1" id="ph1" />/i<ph dataRef="id2" id="ph2" />, <ph dataRef="id3" id="ph3" />/v<ph dataRef="id4" id="ph4" />, and <ph dataRef="id5" id="ph5" />/l<ph dataRef="id6" id="ph6" /> options.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You cannot specify <ph dataRef="id1" id="ph1" />StorePath<ph dataRef="id2" id="ph2" />, because the <ph dataRef="id3" id="ph3" />/genconfig<ph dataRef="id4" id="ph4" /> option does not create a store.</source>
+          <target>You cannot specify <ph dataRef="id1" id="ph1" />StorePath<ph dataRef="id2" id="ph2" />, because the <ph dataRef="id3" id="ph3" />/genconfig<ph dataRef="id4" id="ph4" /> option does not create a store.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <originalData>
+          <data id="id1">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Path<ph dataRef="id1" id="ph1" /> can be either a relative or full path.</source>
+          <target>Path<ph dataRef="id1" id="ph1" /> can be either a relative or full path.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+          <data id="id3">&lt;em&gt;</data>
+          <data id="id4">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you do not specify the <ph dataRef="id1" id="ph1" />Path<ph dataRef="id2" id="ph2" /> variable, then <ph dataRef="id3" id="ph3" />FileName<ph dataRef="id4" id="ph4" /> will be created in the current directory.</source>
+          <target>If you do not specify the <ph dataRef="id1" id="ph1" />Path<ph dataRef="id2" id="ph2" /> variable, then <ph dataRef="id3" id="ph3" />FileName<ph dataRef="id4" id="ph4" /> will be created in the current directory.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Examples:</source>
+          <target>Examples:</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>The following example creates a Config.xml file in the current directory:</source>
+          <target>The following example creates a Config.xml file in the current directory:</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;em&gt;</data>
+          <data id="id3">&lt;/em&gt;</data>
+          <data id="id4">&lt;em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/config:<ph dataRef="id1" id="ph1" />[<ph dataRef="id2" id="ph2" />Path\<ph dataRef="id3" id="ph3" />]<ph dataRef="id4" id="ph4" />FileName</source>
+          <target>/config:<ph dataRef="id1" id="ph1" />[<ph dataRef="id2" id="ph2" />Path\<ph dataRef="id3" id="ph3" />]<ph dataRef="id4" id="ph4" />FileName</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specifies the Config.xml file that the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command should use to create the store.</source>
+          <target>Specifies the Config.xml file that the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command should use to create the store.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>You cannot use this option more than once on the command line.</source>
+          <target>You cannot use this option more than once on the command line.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <originalData>
+          <data id="id1">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Path<ph dataRef="id1" id="ph1" /> can be either a relative or full path.</source>
+          <target>Path<ph dataRef="id1" id="ph1" /> can be either a relative or full path.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+          <data id="id3">&lt;em&gt;</data>
+          <data id="id4">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you do not specify the <ph dataRef="id1" id="ph1" />Path<ph dataRef="id2" id="ph2" /> variable, then <ph dataRef="id3" id="ph3" />FileName<ph dataRef="id4" id="ph4" /> must be located in the current directory.</source>
+          <target>If you do not specify the <ph dataRef="id1" id="ph1" />Path<ph dataRef="id2" id="ph2" /> variable, then <ph dataRef="id3" id="ph3" />FileName<ph dataRef="id4" id="ph4" /> must be located in the current directory.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>The following example creates a store using the Config.xml file, MigDocs.xml, and MigApp.xml files:</source>
+          <target>The following example creates a store using the Config.xml file, MigDocs.xml, and MigApp.xml files:</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+          <data id="id5">&lt;strong&gt;</data>
+          <data id="id6">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following example migrates the files and settings to the destination computer using the <ph dataRef="id1" id="ph1" />Config.xml<ph dataRef="id2" id="ph2" />, <ph dataRef="id3" id="ph3" />MigDocs.xml<ph dataRef="id4" id="ph4" />, and <ph dataRef="id5" id="ph5" />MigApp.xml<ph dataRef="id6" id="ph6" /> files:</source>
+          <target>The following example migrates the files and settings to the destination computer using the <ph dataRef="id1" id="ph1" />Config.xml<ph dataRef="id2" id="ph2" />, <ph dataRef="id3" id="ph3" />MigDocs.xml<ph dataRef="id4" id="ph4" />, and <ph dataRef="id5" id="ph5" />MigApp.xml<ph dataRef="id6" id="ph6" /> files:</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&lt;em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/auto:<ph dataRef="id1" id="ph1" />path to script files</source>
+          <target>/auto:<ph dataRef="id1" id="ph1" />path to script files</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>This option enables you to specify the location of the default .xml files and then begin the migration.</source>
+          <target>This option enables you to specify the location of the default .xml files and then begin the migration.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>If no path is specified, USMT will reference the directory where the USMT binaries are located.</source>
+          <target>If no path is specified, USMT will reference the directory where the USMT binaries are located.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt; &lt;strong&gt;</data>
+          <data id="id5">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" />/auto<ph dataRef="id2" id="ph2" /> option has the same effect as using the following options: <ph dataRef="id3" id="ph3" />/i:MigDocs.xml<ph dataRef="id4" id="ph4" />/i:MigApp.xml /v:5<ph dataRef="id5" id="ph5" />.</source>
+          <target>The <ph dataRef="id1" id="ph1" />/auto<ph dataRef="id2" id="ph2" /> option has the same effect as using the following options: <ph dataRef="id3" id="ph3" />/i:MigDocs.xml<ph dataRef="id4" id="ph4" />/i:MigApp.xml /v:5<ph dataRef="id5" id="ph5" />.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&lt;em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/genmigxml:<ph dataRef="id1" id="ph1" />path to a file</source>
+          <target>/genmigxml:<ph dataRef="id1" id="ph1" />path to a file</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>This option specifies that the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command should use the document finder to create and export an .xml file that defines how to migrate all of the files on the computer on which the <ph dataRef="id3" id="ph3" />ScanState<ph dataRef="id4" id="ph4" /> command is running.</source>
+          <target>This option specifies that the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command should use the document finder to create and export an .xml file that defines how to migrate all of the files on the computer on which the <ph dataRef="id3" id="ph3" />ScanState<ph dataRef="id4" id="ph4" /> command is running.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>/targetwindows8</source>
+          <target>/targetwindows8</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Optimizes Scanstate.exe when using USMT 10.0 to migrate a user state to Windows 8 or Windows 8.1 instead of Windows 10.</source>
+          <target>Optimizes Scanstate.exe when using USMT 10.0 to migrate a user state to Windows 8 or Windows 8.1 instead of Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>You should use this command line option in the following scenarios:</source>
+          <target>You should use this command line option in the following scenarios:</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>To create a Config.xml file by using the /genconfig option.</source>
+          <target>To create a Config.xml file by using the /genconfig option.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the <ph dataRef="id1" id="ph1" />/targetwindows8<ph dataRef="id2" id="ph2" /> option optimizes the Config.xml file so that it only contains components that relate to Windows 8 or Windows 8.1.</source>
+          <target>Using the <ph dataRef="id1" id="ph1" />/targetwindows8<ph dataRef="id2" id="ph2" /> option optimizes the Config.xml file so that it only contains components that relate to Windows 8 or Windows 8.1.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>To create a migration store.</source>
+          <target>To create a migration store.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the <ph dataRef="id1" id="ph1" />/targetwindows8<ph dataRef="id2" id="ph2" /> option ensures that the ScanState tool gathers the correct set of operating system settings.</source>
+          <target>Using the <ph dataRef="id1" id="ph1" />/targetwindows8<ph dataRef="id2" id="ph2" /> option ensures that the ScanState tool gathers the correct set of operating system settings.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Without the <ph dataRef="id1" id="ph1" />/targetwindows8<ph dataRef="id2" id="ph2" /> command-line option, some settings can be lost during the migration.</source>
+          <target>Without the <ph dataRef="id1" id="ph1" />/targetwindows8<ph dataRef="id2" id="ph2" /> command-line option, some settings can be lost during the migration.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>/targetwindows7</source>
+          <target>/targetwindows7</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Optimizes Scanstate.exe when using USMT 10.0 to migrate a user state to Windows 7 instead of Windows 10.</source>
+          <target>Optimizes Scanstate.exe when using USMT 10.0 to migrate a user state to Windows 7 instead of Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>You should use this command line option in the following scenarios:</source>
+          <target>You should use this command line option in the following scenarios:</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>To create a Config.xml file by using the /genconfig option.</source>
+          <target>To create a Config.xml file by using the /genconfig option.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the <ph dataRef="id1" id="ph1" />/targetwindows7<ph dataRef="id2" id="ph2" /> option optimizes the Config.xml file so that it only contains components that relate to Windows 7.</source>
+          <target>Using the <ph dataRef="id1" id="ph1" />/targetwindows7<ph dataRef="id2" id="ph2" /> option optimizes the Config.xml file so that it only contains components that relate to Windows 7.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>To create a migration store.</source>
+          <target>To create a migration store.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the <ph dataRef="id1" id="ph1" />/targetwindows7<ph dataRef="id2" id="ph2" /> option ensures that the ScanState tool gathers the correct set of operating system settings.</source>
+          <target>Using the <ph dataRef="id1" id="ph1" />/targetwindows7<ph dataRef="id2" id="ph2" /> option ensures that the ScanState tool gathers the correct set of operating system settings.</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Without the <ph dataRef="id1" id="ph1" />/targetwindows7<ph dataRef="id2" id="ph2" /> command-line option, some settings can be lost during the migration.</source>
+          <target>Without the <ph dataRef="id1" id="ph1" />/targetwindows7<ph dataRef="id2" id="ph2" /> command-line option, some settings can be lost during the migration.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>/localonly</source>
+          <target>/localonly</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Migrates only files that are stored on the local computer, regardless of the rules in the .xml files that you specify on the command line.</source>
+          <target>Migrates only files that are stored on the local computer, regardless of the rules in the .xml files that you specify on the command line.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>You should use this option when you want to exclude the data from removable drives on the source computer, such as USB flash drives (UFDs), some external hard drives, and so on, and when there are network drives mapped on the source computer.</source>
+          <target>You should use this option when you want to exclude the data from removable drives on the source computer, such as USB flash drives (UFDs), some external hard drives, and so on, and when there are network drives mapped on the source computer.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the <ph dataRef="id1" id="ph1" />/localonly<ph dataRef="id2" id="ph2" /> option is not specified, then the <ph dataRef="id3" id="ph3" />ScanState<ph dataRef="id4" id="ph4" /> command will copy files from these removable or network drives into the store.</source>
+          <target>If the <ph dataRef="id1" id="ph1" />/localonly<ph dataRef="id2" id="ph2" /> option is not specified, then the <ph dataRef="id3" id="ph3" />ScanState<ph dataRef="id4" id="ph4" /> command will copy files from these removable or network drives into the store.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Anything that is not considered a fixed drive by the OS will be excluded by <ph dataRef="id1" id="ph1" />/localonly<ph dataRef="id2" id="ph2" />.</source>
+          <target>Anything that is not considered a fixed drive by the OS will be excluded by <ph dataRef="id1" id="ph1" />/localonly<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>In some cases large external hard drives are considered fixed drives.</source>
+          <target>In some cases large external hard drives are considered fixed drives.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>These drives can be explicitly excluded from migration by using a custom.xml file.</source>
+          <target>These drives can be explicitly excluded from migration by using a custom.xml file.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-exclude-files-and-settings.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to exclude all files on a specific drive, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exclude Files and Settings</pc>.</source>
+          <target>For more information about how to exclude all files on a specific drive, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exclude Files and Settings</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" />/localonly<ph dataRef="id2" id="ph2" /> command-line option includes or excludes data in the migration as identified in the following table:</source>
+          <target>The <ph dataRef="id1" id="ph1" />/localonly<ph dataRef="id2" id="ph2" /> command-line option includes or excludes data in the migration as identified in the following table:</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>Drive type</source>
+          <target>Drive type</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Behavior with <ph dataRef="id1" id="ph1" />/localonly</source>
+          <target>Behavior with <ph dataRef="id1" id="ph1" />/localonly</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>Removable drives such as a USB flash drive</source>
+          <target>Removable drives such as a USB flash drive</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>Excluded</source>
+          <target>Excluded</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>Network drives</source>
+          <target>Network drives</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>Excluded</source>
+          <target>Excluded</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>Fixed drives</source>
+          <target>Fixed drives</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>Included</source>
+          <target>Included</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>Monitoring Options</source>
+          <target>Monitoring Options</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>USMT provides several options that you can use to analyze problems that occur during migration.</source>
+          <target>USMT provides several options that you can use to analyze problems that occur during migration.</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The ScanState log is created by default, but you can specify the name and location of the log with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/l</pc> option.</source>
+          <target>The ScanState log is created by default, but you can specify the name and location of the log with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/l</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>Command-Line Option</source>
+          <target>Command-Line Option</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/listfiles<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />FileName</source>
+          <target>/listfiles<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />FileName</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use the <ph dataRef="id1" id="ph1" />/listfiles<ph dataRef="id2" id="ph2" /> command-line option with the <ph dataRef="id3" id="ph3" />ScanState<ph dataRef="id4" id="ph4" /> command to generate a text file that lists all of the files included in the migration.</source>
+          <target>You can use the <ph dataRef="id1" id="ph1" />/listfiles<ph dataRef="id2" id="ph2" /> command-line option with the <ph dataRef="id3" id="ph3" />ScanState<ph dataRef="id4" id="ph4" /> command to generate a text file that lists all of the files included in the migration.</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;em&gt;</data>
+          <data id="id3">&lt;/em&gt;\]&lt;em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/l:<ph dataRef="id1" id="ph1" />[<ph dataRef="id2" id="ph2" />Path<ph dataRef="id3" id="ph3" />FileName</source>
+          <target>/l:<ph dataRef="id1" id="ph1" />[<ph dataRef="id2" id="ph2" />Path<ph dataRef="id3" id="ph3" />FileName</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>Specifies the location and name of the ScanState log.</source>
+          <target>Specifies the location and name of the ScanState log.</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You cannot store any of the log files in <ph dataRef="id1" id="ph1" />StorePath<ph dataRef="id2" id="ph2" />.</source>
+          <target>You cannot store any of the log files in <ph dataRef="id1" id="ph1" />StorePath<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <originalData>
+          <data id="id1">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Path<ph dataRef="id1" id="ph1" /> can be either a relative or full path.</source>
+          <target>Path<ph dataRef="id1" id="ph1" /> can be either a relative or full path.</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you do not specify the <ph dataRef="id1" id="ph1" />Path<ph dataRef="id2" id="ph2" /> variable, then the log will be created in the current directory.</source>
+          <target>If you do not specify the <ph dataRef="id1" id="ph1" />Path<ph dataRef="id2" id="ph2" /> variable, then the log will be created in the current directory.</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use the <ph dataRef="id1" id="ph1" />/v<ph dataRef="id2" id="ph2" /> option to adjust the amount of output.</source>
+          <target>You can use the <ph dataRef="id1" id="ph1" />/v<ph dataRef="id2" id="ph2" /> option to adjust the amount of output.</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+          <data id="id5">&amp;quot;</data>
+          <data id="id6">&amp;quot;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you run the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> or <ph dataRef="id3" id="ph3" />LoadState<ph dataRef="id4" id="ph4" /> commands from a shared network resource, you must specify this option or USMT will fail with the following error: <ph dataRef="id5" id="ph5" />USMT was unable to create the log file(s)<ph dataRef="id6" id="ph6" />.</source>
+          <target>If you run the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> or <ph dataRef="id3" id="ph3" />LoadState<ph dataRef="id4" id="ph4" /> commands from a shared network resource, you must specify this option or USMT will fail with the following error: <ph dataRef="id5" id="ph5" />USMT was unable to create the log file(s)<ph dataRef="id6" id="ph6" />.</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>To fix this issue, use the /<ph dataRef="id1" id="ph1" />l:scan.log<ph dataRef="id2" id="ph2" /> command.</source>
+          <target>To fix this issue, use the /<ph dataRef="id1" id="ph1" />l:scan.log<ph dataRef="id2" id="ph2" /> command.</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&lt;em&gt;&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/v:<ph dataRef="id1" id="ph1" />VerbosityLevel</source>
+          <target>/v:<ph dataRef="id1" id="ph1" />VerbosityLevel</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>(Verbosity)</source>
+          <target>(Verbosity)</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>Enables verbose output in the ScanState log file.</source>
+          <target>Enables verbose output in the ScanState log file.</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>The default value is 0.</source>
+          <target>The default value is 0.</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can set the <ph dataRef="id1" id="ph1" />VerbosityLevel<ph dataRef="id2" id="ph2" /> to one of the following levels:</source>
+          <target>You can set the <ph dataRef="id1" id="ph1" />VerbosityLevel<ph dataRef="id2" id="ph2" /> to one of the following levels:</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>Level</source>
+          <target>Level</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>Explanation</source>
+          <target>Explanation</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>0</source>
+          <target>0</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>Only the default errors and warnings are enabled.</source>
+          <target>Only the default errors and warnings are enabled.</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>1</source>
+          <target>1</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>Enables verbose output.</source>
+          <target>Enables verbose output.</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>4</source>
+          <target>4</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>Enables error and status output.</source>
+          <target>Enables error and status output.</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <segment state="initial">
+          <source>5</source>
+          <target>5</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>Enables verbose and status output.</source>
+          <target>Enables verbose and status output.</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>8</source>
+          <target>8</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <segment state="initial">
+          <source>Enables error output to a debugger.</source>
+          <target>Enables error output to a debugger.</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>9</source>
+          <target>9</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>Enables verbose output to a debugger.</source>
+          <target>Enables verbose output to a debugger.</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>12</source>
+          <target>12</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>Enables error and status output to a debugger.</source>
+          <target>Enables error and status output to a debugger.</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>13</source>
+          <target>13</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>Enables verbose, status, and debugger output.</source>
+          <target>Enables verbose, status, and debugger output.</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;em&gt;</data>
+          <data id="id3">&lt;/em&gt;</data>
+          <data id="id4">&lt;em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>progress<ph dataRef="id1" id="ph1" />:[<ph dataRef="id2" id="ph2" />Path\<ph dataRef="id3" id="ph3" />]<ph dataRef="id4" id="ph4" />FileName</source>
+          <target>progress<ph dataRef="id1" id="ph1" />:[<ph dataRef="id2" id="ph2" />Path\<ph dataRef="id3" id="ph3" />]<ph dataRef="id4" id="ph4" />FileName</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <segment state="initial">
+          <source>Creates the optional progress log.</source>
+          <target>Creates the optional progress log.</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You cannot store any of the log files in <ph dataRef="id1" id="ph1" />StorePath<ph dataRef="id2" id="ph2" />.</source>
+          <target>You cannot store any of the log files in <ph dataRef="id1" id="ph1" />StorePath<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <originalData>
+          <data id="id1">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Path<ph dataRef="id1" id="ph1" /> can be either a relative or full path.</source>
+          <target>Path<ph dataRef="id1" id="ph1" /> can be either a relative or full path.</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+          <data id="id3">&lt;em&gt;</data>
+          <data id="id4">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you do not specify the <ph dataRef="id1" id="ph1" />Path<ph dataRef="id2" id="ph2" /> variable, then <ph dataRef="id3" id="ph3" />FileName<ph dataRef="id4" id="ph4" /> will be created in the current directory.</source>
+          <target>If you do not specify the <ph dataRef="id1" id="ph1" />Path<ph dataRef="id2" id="ph2" /> variable, then <ph dataRef="id3" id="ph3" />FileName<ph dataRef="id4" id="ph4" /> will be created in the current directory.</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <segment state="initial">
+          <source>/c</source>
+          <target>/c</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>When this option is specified, the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command will continue to run, even if non-fatal errors occur.</source>
+          <target>When this option is specified, the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command will continue to run, even if non-fatal errors occur.</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>Any files or settings that cause an error are logged in the progress log.</source>
+          <target>Any files or settings that cause an error are logged in the progress log.</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, if there is a large file that will not fit in the store, the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command will log an error and continue with the migration.</source>
+          <target>For example, if there is a large file that will not fit in the store, the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command will log an error and continue with the migration.</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>In addition, if a file is open or in use by an application, USMT may not be able to migrate the file and will log an error.</source>
+          <target>In addition, if a file is open or in use by an application, USMT may not be able to migrate the file and will log an error.</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Without the <ph dataRef="id1" id="ph1" />/c<ph dataRef="id2" id="ph2" /> option, the <ph dataRef="id3" id="ph3" />ScanState<ph dataRef="id4" id="ph4" /> command will exit on the first error.</source>
+          <target>Without the <ph dataRef="id1" id="ph1" />/c<ph dataRef="id2" id="ph2" /> option, the <ph dataRef="id3" id="ph3" />ScanState<ph dataRef="id4" id="ph4" /> command will exit on the first error.</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <originalData>
+          <data id="id1">&amp;lt;&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use the new <ph dataRef="id1" id="ph1" />ErrorControl<ph dataRef="id2" id="ph2" /> section in the Config.xml file to specify which file or registry read/write errors can be safely ignored and which might cause the migration to fail.</source>
+          <target>You can use the new <ph dataRef="id1" id="ph1" />ErrorControl<ph dataRef="id2" id="ph2" /> section in the Config.xml file to specify which file or registry read/write errors can be safely ignored and which might cause the migration to fail.</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>This enables the /<ph dataRef="id1" id="ph1" />c<ph dataRef="id2" id="ph2" /> command-line option to safely skip all input/output (I/O) errors in your environment.</source>
+          <target>This enables the /<ph dataRef="id1" id="ph1" />c<ph dataRef="id2" id="ph2" /> command-line option to safely skip all input/output (I/O) errors in your environment.</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&amp;lt;&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>In addition, the /<ph dataRef="id1" id="ph1" />genconfig<ph dataRef="id2" id="ph2" /> option now generates a sample <ph dataRef="id3" id="ph3" />ErrorControl<ph dataRef="id4" id="ph4" /> section that is enabled by specifying error messages and desired behaviors in the Config.xml file.</source>
+          <target>In addition, the /<ph dataRef="id1" id="ph1" />genconfig<ph dataRef="id2" id="ph2" /> option now generates a sample <ph dataRef="id3" id="ph3" />ErrorControl<ph dataRef="id4" id="ph4" /> section that is enabled by specifying error messages and desired behaviors in the Config.xml file.</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&lt;em&gt;&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/r:<ph dataRef="id1" id="ph1" />TimesToRetry</source>
+          <target>/r:<ph dataRef="id1" id="ph1" />TimesToRetry</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <segment state="initial">
+          <source>(Retry)</source>
+          <target>(Retry)</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <segment state="initial">
+          <source>Specifies the number of times to retry when an error occurs while saving the user state to a server.</source>
+          <target>Specifies the number of times to retry when an error occurs while saving the user state to a server.</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <segment state="initial">
+          <source>The default is three times.</source>
+          <target>The default is three times.</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <segment state="initial">
+          <source>This option is useful in environments where network connectivity is not reliable.</source>
+          <target>This option is useful in environments where network connectivity is not reliable.</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>While storing the user state, the <ph dataRef="id1" id="ph1" />/r<ph dataRef="id2" id="ph2" /> option will not be able to recover data that is lost due to a network-hardware failure, such as a faulty or disconnected network cable, or when a virtual private network (VPN) connection fails.</source>
+          <target>While storing the user state, the <ph dataRef="id1" id="ph1" />/r<ph dataRef="id2" id="ph2" /> option will not be able to recover data that is lost due to a network-hardware failure, such as a faulty or disconnected network cable, or when a virtual private network (VPN) connection fails.</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <segment state="initial">
+          <source>The retry option is intended for large, busy networks where connectivity is satisfactory, but communication latency is a problem.</source>
+          <target>The retry option is intended for large, busy networks where connectivity is satisfactory, but communication latency is a problem.</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&lt;em&gt;&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/w:<ph dataRef="id1" id="ph1" />SecondsBeforeRetry</source>
+          <target>/w:<ph dataRef="id1" id="ph1" />SecondsBeforeRetry</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <segment state="initial">
+          <source>(Wait)</source>
+          <target>(Wait)</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <segment state="initial">
+          <source>Specifies the time to wait, in seconds, before retrying a network file operation.</source>
+          <target>Specifies the time to wait, in seconds, before retrying a network file operation.</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <segment state="initial">
+          <source>The default is 1 second.</source>
+          <target>The default is 1 second.</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&lt;em&gt;&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/p:<ph dataRef="id1" id="ph1" />pathToFile</source>
+          <target>/p:<ph dataRef="id1" id="ph1" />pathToFile</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command runs, it will create an .xml file in the path specified.</source>
+          <target>When the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command runs, it will create an .xml file in the path specified.</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <segment state="initial">
+          <source>This .xml file includes improved space estimations for the migration store.</source>
+          <target>This .xml file includes improved space estimations for the migration store.</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <segment state="initial">
+          <source>The following example shows how to create this .xml file:</source>
+          <target>The following example shows how to create this .xml file:</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-estimate-migration-store-size.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Estimate Migration Store Size</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Estimate Migration Store Size</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;em&gt;&amp;quot;</data>
+          <data id="id4">&amp;quot;&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>To preserve the functionality of existing applications or scripts that require the previous behavior of USMT, you can use the <ph dataRef="id1" id="ph1" />/p<ph dataRef="id2" id="ph2" /> option, without specifying <ph dataRef="id3" id="ph3" />pathtoafile<ph dataRef="id4" id="ph4" />, in USMT.</source>
+          <target>To preserve the functionality of existing applications or scripts that require the previous behavior of USMT, you can use the <ph dataRef="id1" id="ph1" />/p<ph dataRef="id2" id="ph2" /> option, without specifying <ph dataRef="id3" id="ph3" />pathtoafile<ph dataRef="id4" id="ph4" />, in USMT.</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you specify only the <ph dataRef="id1" id="ph1" />/p<ph dataRef="id2" id="ph2" /> option, the storage space estimations are created in the same manner as with USMT3.x releases.</source>
+          <target>If you specify only the <ph dataRef="id1" id="ph1" />/p<ph dataRef="id2" id="ph2" /> option, the storage space estimations are created in the same manner as with USMT3.x releases.</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>?</source>
+          <target>?</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>or /<ph dataRef="id1" id="ph1" />help</source>
+          <target>or /<ph dataRef="id1" id="ph1" />help</target>
+        </segment>
+      </unit>
+      <unit id="354">
+        <segment state="initial">
+          <source>Displays Help at the command line.</source>
+          <target>Displays Help at the command line.</target>
+        </segment>
+      </unit>
+      <unit id="355">
+        <segment state="initial">
+          <source>User Options</source>
+          <target>User Options</target>
+        </segment>
+      </unit>
+      <unit id="356">
+        <segment state="initial">
+          <source>By default, all users are migrated.</source>
+          <target>By default, all users are migrated.</target>
+        </segment>
+      </unit>
+      <unit id="357">
+        <segment state="initial">
+          <source>The only way to specify which users to include and exclude is by using the following options.</source>
+          <target>The only way to specify which users to include and exclude is by using the following options.</target>
+        </segment>
+      </unit>
+      <unit id="358">
+        <segment state="initial">
+          <source>You cannot exclude users in the migration .xml files or using the Config.xml file.</source>
+          <target>You cannot exclude users in the migration .xml files or using the Config.xml file.</target>
+        </segment>
+      </unit>
+      <unit id="359">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-identify-users.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](usmt-migrate-user-accounts.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Identify Users</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Migrate User Accounts</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Identify Users</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Migrate User Accounts</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="360">
+        <segment state="initial">
+          <source>Command-Line Option</source>
+          <target>Command-Line Option</target>
+        </segment>
+      </unit>
+      <unit id="361">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="362">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="363">
+        <segment state="initial">
+          <source>Migrates all of the users on the computer.</source>
+          <target>Migrates all of the users on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="364">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>USMT migrates all user accounts on the computer, unless you specifically exclude an account with either the /<ph dataRef="id1" id="ph1" />ue<ph dataRef="id2" id="ph2" /> or /<ph dataRef="id3" id="ph3" />uel<ph dataRef="id4" id="ph4" /> options.</source>
+          <target>USMT migrates all user accounts on the computer, unless you specifically exclude an account with either the /<ph dataRef="id1" id="ph1" />ue<ph dataRef="id2" id="ph2" /> or /<ph dataRef="id3" id="ph3" />uel<ph dataRef="id4" id="ph4" /> options.</target>
+        </segment>
+      </unit>
+      <unit id="365">
+        <segment state="initial">
+          <source>For this reason, you do not need to specify this option on the command line.</source>
+          <target>For this reason, you do not need to specify this option on the command line.</target>
+        </segment>
+      </unit>
+      <unit id="366">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+          <data id="id5">&lt;strong&gt;</data>
+          <data id="id6">&lt;/strong&gt;</data>
+          <data id="id7">&lt;strong&gt;</data>
+          <data id="id8">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>However, if you choose to specify the /<ph dataRef="id1" id="ph1" />all<ph dataRef="id2" id="ph2" /> option, you cannot also use the /<ph dataRef="id3" id="ph3" />ui<ph dataRef="id4" id="ph4" />, /<ph dataRef="id5" id="ph5" />ue<ph dataRef="id6" id="ph6" /> or /<ph dataRef="id7" id="ph7" />uel<ph dataRef="id8" id="ph8" /> options.</source>
+          <target>However, if you choose to specify the /<ph dataRef="id1" id="ph1" />all<ph dataRef="id2" id="ph2" /> option, you cannot also use the /<ph dataRef="id3" id="ph3" />ui<ph dataRef="id4" id="ph4" />, /<ph dataRef="id5" id="ph5" />ue<ph dataRef="id6" id="ph6" /> or /<ph dataRef="id7" id="ph7" />uel<ph dataRef="id8" id="ph8" /> options.</target>
+        </segment>
+      </unit>
+      <unit id="367">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;em&gt;&amp;lt;</data>
+          <data id="id3">&amp;gt;&lt;/em&gt;\&lt;em&gt;&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>ui<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />DomainName<ph dataRef="id3" id="ph3" />UserName</source>
+          <target>ui<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />DomainName<ph dataRef="id3" id="ph3" />UserName</target>
+        </segment>
+      </unit>
+      <unit id="368">
+        <segment state="initial">
+          <source>or</source>
+          <target>or</target>
+        </segment>
+      </unit>
+      <unit id="369">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;em&gt;&amp;lt;</data>
+          <data id="id3">&amp;gt;&lt;/em&gt;\&lt;em&gt;&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>ui<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />ComputerName<ph dataRef="id3" id="ph3" />LocalUserName</source>
+          <target>ui<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />ComputerName<ph dataRef="id3" id="ph3" />LocalUserName</target>
+        </segment>
+      </unit>
+      <unit id="370">
+        <segment state="initial">
+          <source>(User include)</source>
+          <target>(User include)</target>
+        </segment>
+      </unit>
+      <unit id="371">
+        <segment state="initial">
+          <source>Migrates the specified users.</source>
+          <target>Migrates the specified users.</target>
+        </segment>
+      </unit>
+      <unit id="372">
+        <segment state="initial">
+          <source>By default, all users are included in the migration.</source>
+          <target>By default, all users are included in the migration.</target>
+        </segment>
+      </unit>
+      <unit id="373">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Therefore, this option is helpful only when used with the /<ph dataRef="id1" id="ph1" />ue<ph dataRef="id2" id="ph2" /> or /<ph dataRef="id3" id="ph3" />uel<ph dataRef="id4" id="ph4" /> options.</source>
+          <target>Therefore, this option is helpful only when used with the /<ph dataRef="id1" id="ph1" />ue<ph dataRef="id2" id="ph2" /> or /<ph dataRef="id3" id="ph3" />uel<ph dataRef="id4" id="ph4" /> options.</target>
+        </segment>
+      </unit>
+      <unit id="374">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+          <data id="id5">&lt;strong&gt;</data>
+          <data id="id6">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can specify multiple /<ph dataRef="id1" id="ph1" />ui<ph dataRef="id2" id="ph2" /> options, but you cannot use the /<ph dataRef="id3" id="ph3" />ui<ph dataRef="id4" id="ph4" /> option with the /<ph dataRef="id5" id="ph5" />all<ph dataRef="id6" id="ph6" /> option.</source>
+          <target>You can specify multiple /<ph dataRef="id1" id="ph1" />ui<ph dataRef="id2" id="ph2" /> options, but you cannot use the /<ph dataRef="id3" id="ph3" />ui<ph dataRef="id4" id="ph4" /> option with the /<ph dataRef="id5" id="ph5" />all<ph dataRef="id6" id="ph6" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="375">
+        <originalData>
+          <data id="id1">&lt;/em&gt;</data>
+          <data id="id2">&lt;em&gt;</data>
+          <data id="id3">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>DomainName<ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" />UserName<ph dataRef="id3" id="ph3" /> can contain the asterisk (*) wildcard character.</source>
+          <target>DomainName<ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" />UserName<ph dataRef="id3" id="ph3" /> can contain the asterisk (*) wildcard character.</target>
+        </segment>
+      </unit>
+      <unit id="376">
+        <segment state="initial">
+          <source>When you specify a user name that contains spaces, you will need to surround it with quotation marks.</source>
+          <target>When you specify a user name that contains spaces, you will need to surround it with quotation marks.</target>
+        </segment>
+      </unit>
+      <unit id="377">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="378">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+          <data id="id5">&lt;strong&gt;</data>
+          <data id="id6">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If a user is specified for inclusion with the /<ph dataRef="id1" id="ph1" />ui<ph dataRef="id2" id="ph2" /> option, and also is specified to be excluded with either the /<ph dataRef="id3" id="ph3" />ue<ph dataRef="id4" id="ph4" /> or /<ph dataRef="id5" id="ph5" />uel<ph dataRef="id6" id="ph6" /> options, the user will be included in the migration.</source>
+          <target>If a user is specified for inclusion with the /<ph dataRef="id1" id="ph1" />ui<ph dataRef="id2" id="ph2" /> option, and also is specified to be excluded with either the /<ph dataRef="id3" id="ph3" />ue<ph dataRef="id4" id="ph4" /> or /<ph dataRef="id5" id="ph5" />uel<ph dataRef="id6" id="ph6" /> options, the user will be included in the migration.</target>
+        </segment>
+      </unit>
+      <unit id="379">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="380">
+        <segment state="initial">
+          <source>To include only User2 from the Fabrikam domain, type:</source>
+          <target>To include only User2 from the Fabrikam domain, type:</target>
+        </segment>
+      </unit>
+      <unit id="381">
+        <segment state="initial">
+          <source>To migrate all users from the Fabrikam domain, and only the user accounts from other domains that have been active or otherwise modified in the last 30 days, type:</source>
+          <target>To migrate all users from the Fabrikam domain, and only the user accounts from other domains that have been active or otherwise modified in the last 30 days, type:</target>
+        </segment>
+      </unit>
+      <unit id="382">
+        <segment state="initial">
+          <source>In this example, a user account from the Contoso domain that was last modified 2 months ago will not be migrated.</source>
+          <target>In this example, a user account from the Contoso domain that was last modified 2 months ago will not be migrated.</target>
+        </segment>
+      </unit>
+      <unit id="383">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more examples, see the descriptions of the /<ph dataRef="id1" id="ph1" />ue<ph dataRef="id2" id="ph2" /> and /<ph dataRef="id3" id="ph3" />ui<ph dataRef="id4" id="ph4" /> options in this table.</source>
+          <target>For more examples, see the descriptions of the /<ph dataRef="id1" id="ph1" />ue<ph dataRef="id2" id="ph2" /> and /<ph dataRef="id3" id="ph3" />ui<ph dataRef="id4" id="ph4" /> options in this table.</target>
+        </segment>
+      </unit>
+      <unit id="384">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;em&gt;&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>uel<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />NumberOfDays</source>
+          <target>uel<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />NumberOfDays</target>
+        </segment>
+      </unit>
+      <unit id="385">
+        <segment state="initial">
+          <source>or</source>
+          <target>or</target>
+        </segment>
+      </unit>
+      <unit id="386">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;em&gt;&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>uel<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />YYYY/MM/DD</source>
+          <target>uel<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />YYYY/MM/DD</target>
+        </segment>
+      </unit>
+      <unit id="387">
+        <segment state="initial">
+          <source>or</source>
+          <target>or</target>
+        </segment>
+      </unit>
+      <unit id="388">
+        <segment state="initial">
+          <source>/uel:0</source>
+          <target>/uel:0</target>
+        </segment>
+      </unit>
+      <unit id="389">
+        <segment state="initial">
+          <source>(User exclude based on last logon)</source>
+          <target>(User exclude based on last logon)</target>
+        </segment>
+      </unit>
+      <unit id="390">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Migrates the users that logged onto the source computer within the specified time period, based on the <ph dataRef="id1" id="ph1" />Last Modified<ph dataRef="id2" id="ph2" /> date of the Ntuser.dat file on the source computer.</source>
+          <target>Migrates the users that logged onto the source computer within the specified time period, based on the <ph dataRef="id1" id="ph1" />Last Modified<ph dataRef="id2" id="ph2" /> date of the Ntuser.dat file on the source computer.</target>
+        </segment>
+      </unit>
+      <unit id="391">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The /<ph dataRef="id1" id="ph1" />uel<ph dataRef="id2" id="ph2" /> option acts as an include rule.</source>
+          <target>The /<ph dataRef="id1" id="ph1" />uel<ph dataRef="id2" id="ph2" /> option acts as an include rule.</target>
+        </segment>
+      </unit>
+      <unit id="392">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, the <ph dataRef="id1" id="ph1" />/uel:30<ph dataRef="id2" id="ph2" /> option migrates users who logged on, or whose account was modified, within the last 30 days from the date when the ScanState command is run.</source>
+          <target>For example, the <ph dataRef="id1" id="ph1" />/uel:30<ph dataRef="id2" id="ph2" /> option migrates users who logged on, or whose account was modified, within the last 30 days from the date when the ScanState command is run.</target>
+        </segment>
+      </unit>
+      <unit id="393">
+        <segment state="initial">
+          <source>You can specify a number of days or you can specify a date.</source>
+          <target>You can specify a number of days or you can specify a date.</target>
+        </segment>
+      </unit>
+      <unit id="394">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You cannot use this option with the /<ph dataRef="id1" id="ph1" />all<ph dataRef="id2" id="ph2" /> option.</source>
+          <target>You cannot use this option with the /<ph dataRef="id1" id="ph1" />all<ph dataRef="id2" id="ph2" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="395">
+        <segment state="initial">
+          <source>USMT retrieves the last logon information from the local computer, so the computer does not need to be connected to the network when you run this option.</source>
+          <target>USMT retrieves the last logon information from the local computer, so the computer does not need to be connected to the network when you run this option.</target>
+        </segment>
+      </unit>
+      <unit id="396">
+        <segment state="initial">
+          <source>In addition, if a domain user has logged onto another computer, that logon instance is not considered by USMT.</source>
+          <target>In addition, if a domain user has logged onto another computer, that logon instance is not considered by USMT.</target>
+        </segment>
+      </unit>
+      <unit id="397">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="398">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The /<ph dataRef="id1" id="ph1" />uel<ph dataRef="id2" id="ph2" /> option is not valid in offline migrations.</source>
+          <target>The /<ph dataRef="id1" id="ph1" />uel<ph dataRef="id2" id="ph2" /> option is not valid in offline migrations.</target>
+        </segment>
+      </unit>
+      <unit id="399">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/uel:0<ph dataRef="id1" id="ph1" /> migrates any users who are currently logged on.</source>
+          <target>/uel:0<ph dataRef="id1" id="ph1" /> migrates any users who are currently logged on.</target>
+        </segment>
+      </unit>
+      <unit id="400">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/uel:90<ph dataRef="id1" id="ph1" /> migrates users who have logged on, or whose accounts have been otherwise modified, within the last 90 days.</source>
+          <target>/uel:90<ph dataRef="id1" id="ph1" /> migrates users who have logged on, or whose accounts have been otherwise modified, within the last 90 days.</target>
+        </segment>
+      </unit>
+      <unit id="401">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/uel:1<ph dataRef="id1" id="ph1" /> migrates users whose account has been modified within the last 24 hours.</source>
+          <target>/uel:1<ph dataRef="id1" id="ph1" /> migrates users whose account has been modified within the last 24 hours.</target>
+        </segment>
+      </unit>
+      <unit id="402">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/uel:2002/1/15<ph dataRef="id1" id="ph1" /> migrates users who have logged on or been modified January 15, 2002 or afterwards.</source>
+          <target>/uel:2002/1/15<ph dataRef="id1" id="ph1" /> migrates users who have logged on or been modified January 15, 2002 or afterwards.</target>
+        </segment>
+      </unit>
+      <unit id="403">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="404">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;em&gt;&amp;lt;</data>
+          <data id="id3">&amp;gt;&lt;/em&gt;\&lt;em&gt;&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>ue<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />DomainName<ph dataRef="id3" id="ph3" />UserName</source>
+          <target>ue<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />DomainName<ph dataRef="id3" id="ph3" />UserName</target>
+        </segment>
+      </unit>
+      <unit id="405">
+        <segment state="initial">
+          <source>-or-</source>
+          <target>-or-</target>
+        </segment>
+      </unit>
+      <unit id="406">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;em&gt;&amp;lt;</data>
+          <data id="id3">&amp;gt;&lt;/em&gt;\&lt;em&gt;&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>ue<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />ComputerName<ph dataRef="id3" id="ph3" />LocalUserName</source>
+          <target>ue<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />ComputerName<ph dataRef="id3" id="ph3" />LocalUserName</target>
+        </segment>
+      </unit>
+      <unit id="407">
+        <segment state="initial">
+          <source>(User exclude)</source>
+          <target>(User exclude)</target>
+        </segment>
+      </unit>
+      <unit id="408">
+        <segment state="initial">
+          <source>Excludes the specified users from the migration.</source>
+          <target>Excludes the specified users from the migration.</target>
+        </segment>
+      </unit>
+      <unit id="409">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can specify multiple /<ph dataRef="id1" id="ph1" />ue<ph dataRef="id2" id="ph2" /> options.</source>
+          <target>You can specify multiple /<ph dataRef="id1" id="ph1" />ue<ph dataRef="id2" id="ph2" /> options.</target>
+        </segment>
+      </unit>
+      <unit id="410">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You cannot use this option with the /<ph dataRef="id1" id="ph1" />all<ph dataRef="id2" id="ph2" /> option.</source>
+          <target>You cannot use this option with the /<ph dataRef="id1" id="ph1" />all<ph dataRef="id2" id="ph2" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="411">
+        <originalData>
+          <data id="id1">&amp;gt;&lt;/em&gt;</data>
+          <data id="id2">&lt;em&gt;&amp;lt;</data>
+          <data id="id3">&amp;gt;&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>DomainName<ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" />UserName<ph dataRef="id3" id="ph3" /> can contain the asterisk (*) wildcard character.</source>
+          <target>DomainName<ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" />UserName<ph dataRef="id3" id="ph3" /> can contain the asterisk (*) wildcard character.</target>
+        </segment>
+      </unit>
+      <unit id="412">
+        <segment state="initial">
+          <source>When you specify a user name that contains spaces, you need to surround it with quotation marks.</source>
+          <target>When you specify a user name that contains spaces, you need to surround it with quotation marks.</target>
+        </segment>
+      </unit>
+      <unit id="413">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="414">
+        <segment state="initial">
+          <source>How to Use /ui and /ue</source>
+          <target>How to Use /ui and /ue</target>
+        </segment>
+      </unit>
+      <unit id="415">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following examples apply to both the /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ui</pc> and /<pc dataRefEnd="id4" dataRefStart="id3" id="p2">ue</pc> options.</source>
+          <target>The following examples apply to both the /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ui</pc> and /<pc dataRefEnd="id4" dataRefStart="id3" id="p2">ue</pc> options.</target>
+        </segment>
+      </unit>
+      <unit id="416">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can replace the /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ue</pc> option with the /<pc dataRefEnd="id4" dataRefStart="id3" id="p2">ui</pc> option to include, rather than exclude, the specified users.</source>
+          <target>You can replace the /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ue</pc> option with the /<pc dataRefEnd="id4" dataRefStart="id3" id="p2">ui</pc> option to include, rather than exclude, the specified users.</target>
+        </segment>
+      </unit>
+      <unit id="417">
+        <segment state="initial">
+          <source>Behavior</source>
+          <target>Behavior</target>
+        </segment>
+      </unit>
+      <unit id="418">
+        <segment state="initial">
+          <source>Command</source>
+          <target>Command</target>
+        </segment>
+      </unit>
+      <unit id="419">
+        <segment state="initial">
+          <source>Exclude the user named User One in the Fabrikam domain.</source>
+          <target>Exclude the user named User One in the Fabrikam domain.</target>
+        </segment>
+      </unit>
+      <unit id="420">
+        <segment state="initial">
+          <source>Exclude the user named User1 in the Fabrikam domain.</source>
+          <target>Exclude the user named User1 in the Fabrikam domain.</target>
+        </segment>
+      </unit>
+      <unit id="421">
+        <segment state="initial">
+          <source>Exclude the local user named User1.</source>
+          <target>Exclude the local user named User1.</target>
+        </segment>
+      </unit>
+      <unit id="422">
+        <segment state="initial">
+          <source>Exclude all domain users.</source>
+          <target>Exclude all domain users.</target>
+        </segment>
+      </unit>
+      <unit id="423">
+        <segment state="initial">
+          <source>Exclude all local users.</source>
+          <target>Exclude all local users.</target>
+        </segment>
+      </unit>
+      <unit id="424">
+        <segment state="initial">
+          <source>Exclude users in all domains named User1, User2, and so on.</source>
+          <target>Exclude users in all domains named User1, User2, and so on.</target>
+        </segment>
+      </unit>
+      <unit id="425">
+        <segment state="initial">
+          <source>Using the Options Together</source>
+          <target>Using the Options Together</target>
+        </segment>
+      </unit>
+      <unit id="426">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use the /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">uel</pc>, /<pc dataRefEnd="id4" dataRefStart="id3" id="p2">ue</pc> and /<pc dataRefEnd="id6" dataRefStart="id5" id="p3">ui</pc> options together to migrate only the users that you want migrated.</source>
+          <target>You can use the /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">uel</pc>, /<pc dataRefEnd="id4" dataRefStart="id3" id="p2">ue</pc> and /<pc dataRefEnd="id6" dataRefStart="id5" id="p3">ui</pc> options together to migrate only the users that you want migrated.</target>
+        </segment>
+      </unit>
+      <unit id="427">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ui</pc> option has precedence over the /<pc dataRefEnd="id4" dataRefStart="id3" id="p2">ue</pc> and /<pc dataRefEnd="id6" dataRefStart="id5" id="p3">uel</pc> options.</source>
+          <target>The /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ui</pc> option has precedence over the /<pc dataRefEnd="id4" dataRefStart="id3" id="p2">ue</pc> and /<pc dataRefEnd="id6" dataRefStart="id5" id="p3">uel</pc> options.</target>
+        </segment>
+      </unit>
+      <unit id="428">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If a user is specified to be included using the /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ui</pc> option, and also specified to be excluded using either the /<pc dataRefEnd="id4" dataRefStart="id3" id="p2">ue</pc> or /<pc dataRefEnd="id6" dataRefStart="id5" id="p3">uel</pc> options, the user will be included in the migration.</source>
+          <target>If a user is specified to be included using the /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ui</pc> option, and also specified to be excluded using either the /<pc dataRefEnd="id4" dataRefStart="id3" id="p2">ue</pc> or /<pc dataRefEnd="id6" dataRefStart="id5" id="p3">uel</pc> options, the user will be included in the migration.</target>
+        </segment>
+      </unit>
+      <unit id="429">
+        <originalData>
+          <data id="id1">`/ui:contoso\* /ue:contoso\user1`</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, if you specify <ph dataRef="id1" id="ph1" />, then User1 will be migrated, because the /<pc dataRefEnd="id3" dataRefStart="id2" id="p1">ui</pc> option takes precedence over the /<pc dataRefEnd="id5" dataRefStart="id4" id="p2">ue</pc> option.</source>
+          <target>For example, if you specify <ph dataRef="id1" id="ph1" />, then User1 will be migrated, because the /<pc dataRefEnd="id3" dataRefStart="id2" id="p1">ui</pc> option takes precedence over the /<pc dataRefEnd="id5" dataRefStart="id4" id="p2">ue</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="430">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">uel</pc> option takes precedence over the /<pc dataRefEnd="id4" dataRefStart="id3" id="p2">ue</pc> option.</source>
+          <target>The /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">uel</pc> option takes precedence over the /<pc dataRefEnd="id4" dataRefStart="id3" id="p2">ue</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="431">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If a user has logged on within the specified time period set by the /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">uel</pc> option, that user’s profile will be migrated even if they are excluded by using the /<pc dataRefEnd="id4" dataRefStart="id3" id="p2">ue</pc> option.</source>
+          <target>If a user has logged on within the specified time period set by the /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">uel</pc> option, that user’s profile will be migrated even if they are excluded by using the /<pc dataRefEnd="id4" dataRefStart="id3" id="p2">ue</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="432">
+        <originalData>
+          <data id="id1">`/ue:fixed\user1 /uel:14`</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, if you specify <ph dataRef="id1" id="ph1" />, the User1 will be migrated if they have logged on to the computer within the last 14 days.</source>
+          <target>For example, if you specify <ph dataRef="id1" id="ph1" />, the User1 will be migrated if they have logged on to the computer within the last 14 days.</target>
+        </segment>
+      </unit>
+      <unit id="433">
+        <segment state="initial">
+          <source>Behavior</source>
+          <target>Behavior</target>
+        </segment>
+      </unit>
+      <unit id="434">
+        <segment state="initial">
+          <source>Command</source>
+          <target>Command</target>
+        </segment>
+      </unit>
+      <unit id="435">
+        <segment state="initial">
+          <source>Include only User2 from the Fabrikam domain and exclude all other users.</source>
+          <target>Include only User2 from the Fabrikam domain and exclude all other users.</target>
+        </segment>
+      </unit>
+      <unit id="436">
+        <segment state="initial">
+          <source>Include only the local user named User1 and exclude all other users.</source>
+          <target>Include only the local user named User1 and exclude all other users.</target>
+        </segment>
+      </unit>
+      <unit id="437">
+        <segment state="initial">
+          <source>Include only the domain users from Contoso, except Contoso\User1.</source>
+          <target>Include only the domain users from Contoso, except Contoso\User1.</target>
+        </segment>
+      </unit>
+      <unit id="438">
+        <segment state="initial">
+          <source>This behavior cannot be completed using a single command.</source>
+          <target>This behavior cannot be completed using a single command.</target>
+        </segment>
+      </unit>
+      <unit id="439">
+        <segment state="initial">
+          <source>Instead, to migrate this set of users, you will need to specify the following:</source>
+          <target>Instead, to migrate this set of users, you will need to specify the following:</target>
+        </segment>
+      </unit>
+      <unit id="440">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command line, type:</source>
+          <target>On the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command line, type:</target>
+        </segment>
+      </unit>
+      <unit id="441">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <ph dataRef="id1" id="ph1" />LoadState<ph dataRef="id2" id="ph2" /> command line, type:</source>
+          <target>On the <ph dataRef="id1" id="ph1" />LoadState<ph dataRef="id2" id="ph2" /> command line, type:</target>
+        </segment>
+      </unit>
+      <unit id="442">
+        <segment state="initial">
+          <source>Include only local (non-domain) users.</source>
+          <target>Include only local (non-domain) users.</target>
+        </segment>
+      </unit>
+      <unit id="443">
+        <segment state="initial">
+          <source>Encrypted File Options</source>
+          <target>Encrypted File Options</target>
+        </segment>
+      </unit>
+      <unit id="444">
+        <segment state="initial">
+          <source>You can use the following options to migrate encrypted files.</source>
+          <target>You can use the following options to migrate encrypted files.</target>
+        </segment>
+      </unit>
+      <unit id="445">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In all cases, by default, USMT fails if an encrypted file is found unless you specify an /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">efs</pc> option.</source>
+          <target>In all cases, by default, USMT fails if an encrypted file is found unless you specify an /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">efs</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="446">
+        <segment state="initial">
+          <source>To migrate encrypted files, you must change the default behavior.</source>
+          <target>To migrate encrypted files, you must change the default behavior.</target>
+        </segment>
+      </unit>
+      <unit id="447">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-migrate-efs-files-and-certificates.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Migrate EFS Files and Certificates</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Migrate EFS Files and Certificates</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="448">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="449">
+        <segment state="initial">
+          <source>EFS certificates will be migrated automatically when migrating to Windows 7, Windows 8 or Windows 10.</source>
+          <target>EFS certificates will be migrated automatically when migrating to Windows 7, Windows 8 or Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="450">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Therefore, you should specify the /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">efs:copyraw</pc> option with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ScanState</pc> command to migrate the encrypted files</source>
+          <target>Therefore, you should specify the /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">efs:copyraw</pc> option with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ScanState</pc> command to migrate the encrypted files</target>
+        </segment>
+      </unit>
+      <unit id="451">
+        <segment state="initial">
+          <source>Caution</source>
+          <target>Caution</target>
+        </segment>
+      </unit>
+      <unit id="452">
+        <segment state="initial">
+          <source>Take caution when migrating encrypted files.</source>
+          <target>Take caution when migrating encrypted files.</target>
+        </segment>
+      </unit>
+      <unit id="453">
+        <segment state="initial">
+          <source>If you migrate an encrypted file without also migrating the certificate, end users will not be able to access the file after the migration.</source>
+          <target>If you migrate an encrypted file without also migrating the certificate, end users will not be able to access the file after the migration.</target>
+        </segment>
+      </unit>
+      <unit id="454">
+        <segment state="initial">
+          <source>Command-Line Option</source>
+          <target>Command-Line Option</target>
+        </segment>
+      </unit>
+      <unit id="455">
+        <segment state="initial">
+          <source>Explanation</source>
+          <target>Explanation</target>
+        </segment>
+      </unit>
+      <unit id="456">
+        <segment state="initial">
+          <source>/efs:hardlink</source>
+          <target>/efs:hardlink</target>
+        </segment>
+      </unit>
+      <unit id="457">
+        <segment state="initial">
+          <source>Creates a hard link to the EFS file instead of copying it.</source>
+          <target>Creates a hard link to the EFS file instead of copying it.</target>
+        </segment>
+      </unit>
+      <unit id="458">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use only with the <ph dataRef="id1" id="ph1" />/hardlink<ph dataRef="id2" id="ph2" /> and the <ph dataRef="id3" id="ph3" />/nocompress<ph dataRef="id4" id="ph4" /> options.</source>
+          <target>Use only with the <ph dataRef="id1" id="ph1" />/hardlink<ph dataRef="id2" id="ph2" /> and the <ph dataRef="id3" id="ph3" />/nocompress<ph dataRef="id4" id="ph4" /> options.</target>
+        </segment>
+      </unit>
+      <unit id="459">
+        <segment state="initial">
+          <source>/efs:abort</source>
+          <target>/efs:abort</target>
+        </segment>
+      </unit>
+      <unit id="460">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Causes the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command to fail with an error code, if an Encrypting File System (EFS) file is found on the source computer.</source>
+          <target>Causes the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command to fail with an error code, if an Encrypting File System (EFS) file is found on the source computer.</target>
+        </segment>
+      </unit>
+      <unit id="461">
+        <segment state="initial">
+          <source>Enabled by default.</source>
+          <target>Enabled by default.</target>
+        </segment>
+      </unit>
+      <unit id="462">
+        <segment state="initial">
+          <source>/efs:skip</source>
+          <target>/efs:skip</target>
+        </segment>
+      </unit>
+      <unit id="463">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Causes the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command to ignore EFS files.</source>
+          <target>Causes the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command to ignore EFS files.</target>
+        </segment>
+      </unit>
+      <unit id="464">
+        <segment state="initial">
+          <source>efs:decryptcopy</source>
+          <target>efs:decryptcopy</target>
+        </segment>
+      </unit>
+      <unit id="465">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Causes the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command to decrypt the file, if possible, before saving it to the migration store, and to fail if the file cannot be decrypted.</source>
+          <target>Causes the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command to decrypt the file, if possible, before saving it to the migration store, and to fail if the file cannot be decrypted.</target>
+        </segment>
+      </unit>
+      <unit id="466">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command succeeds, the file will be unencrypted in the migration store, and once you run the <ph dataRef="id3" id="ph3" />LoadState<ph dataRef="id4" id="ph4" /> command, the file will be copied to the destination computer.</source>
+          <target>If the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command succeeds, the file will be unencrypted in the migration store, and once you run the <ph dataRef="id3" id="ph3" />LoadState<ph dataRef="id4" id="ph4" /> command, the file will be copied to the destination computer.</target>
+        </segment>
+      </unit>
+      <unit id="467">
+        <segment state="initial">
+          <source>/efs:copyraw</source>
+          <target>/efs:copyraw</target>
+        </segment>
+      </unit>
+      <unit id="468">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Causes the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command to copy the files in the encrypted format.</source>
+          <target>Causes the <ph dataRef="id1" id="ph1" />ScanState<ph dataRef="id2" id="ph2" /> command to copy the files in the encrypted format.</target>
+        </segment>
+      </unit>
+      <unit id="469">
+        <segment state="initial">
+          <source>The files will be inaccessible on the destination computer until the EFS certificates are migrated.</source>
+          <target>The files will be inaccessible on the destination computer until the EFS certificates are migrated.</target>
+        </segment>
+      </unit>
+      <unit id="470">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>EFS certificates will be automatically migrated; however, by default USMT fails if an encrypted file is found, unless you specify an <ph dataRef="id1" id="ph1" />/efs<ph dataRef="id2" id="ph2" /> option.</source>
+          <target>EFS certificates will be automatically migrated; however, by default USMT fails if an encrypted file is found, unless you specify an <ph dataRef="id1" id="ph1" />/efs<ph dataRef="id2" id="ph2" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="471">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Therefore you should specify the <ph dataRef="id1" id="ph1" />/efs:copyraw<ph dataRef="id2" id="ph2" /> option with the <ph dataRef="id3" id="ph3" />ScanState<ph dataRef="id4" id="ph4" /> command to migrate the encrypted file.</source>
+          <target>Therefore you should specify the <ph dataRef="id1" id="ph1" />/efs:copyraw<ph dataRef="id2" id="ph2" /> option with the <ph dataRef="id3" id="ph3" />ScanState<ph dataRef="id4" id="ph4" /> command to migrate the encrypted file.</target>
+        </segment>
+      </unit>
+      <unit id="472">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Then, when you run the <ph dataRef="id1" id="ph1" />LoadState<ph dataRef="id2" id="ph2" /> command, the encrypted file and the EFS certificate will be automatically migrated.</source>
+          <target>Then, when you run the <ph dataRef="id1" id="ph1" />LoadState<ph dataRef="id2" id="ph2" /> command, the encrypted file and the EFS certificate will be automatically migrated.</target>
+        </segment>
+      </unit>
+      <unit id="473">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="474">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="475">
+        <segment state="initial">
+          <source>All files must be encrypted if the parent folder is encrypted.</source>
+          <target>All files must be encrypted if the parent folder is encrypted.</target>
+        </segment>
+      </unit>
+      <unit id="476">
+        <segment state="initial">
+          <source>If the encryption attribute on a file inside an encrypted folder has been removed, the file will be encrypted during the migration using the credentials of the account used to run the LoadState tool.</source>
+          <target>If the encryption attribute on a file inside an encrypted folder has been removed, the file will be encrypted during the migration using the credentials of the account used to run the LoadState tool.</target>
+        </segment>
+      </unit>
+      <unit id="477">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](usmt-migrate-efs-files-and-certificates.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Migrate EFS Files and Certificates</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Migrate EFS Files and Certificates</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="478">
+        <segment state="initial">
+          <source>Incompatible Command-Line Options</source>
+          <target>Incompatible Command-Line Options</target>
+        </segment>
+      </unit>
+      <unit id="479">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following table indicates which command-line options are not compatible with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command.</source>
+          <target>The following table indicates which command-line options are not compatible with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ScanState</pc> command.</target>
+        </segment>
+      </unit>
+      <unit id="480">
+        <segment state="initial">
+          <source>If the table entry for a particular combination is blank, the options are compatible and you can use them together.</source>
+          <target>If the table entry for a particular combination is blank, the options are compatible and you can use them together.</target>
+        </segment>
+      </unit>
+      <unit id="481">
+        <segment state="initial">
+          <source>The X symbol means that the options are not compatible.</source>
+          <target>The X symbol means that the options are not compatible.</target>
+        </segment>
+      </unit>
+      <unit id="482">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, you cannot use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/nocompress</pc> option with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/encrypt</pc> option.</source>
+          <target>For example, you cannot use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/nocompress</pc> option with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/encrypt</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="483">
+        <segment state="initial">
+          <source>Command-Line Option</source>
+          <target>Command-Line Option</target>
+        </segment>
+      </unit>
+      <unit id="484">
+        <segment state="initial">
+          <source>/keyfile</source>
+          <target>/keyfile</target>
+        </segment>
+      </unit>
+      <unit id="485">
+        <segment state="initial">
+          <source>/nocompress</source>
+          <target>/nocompress</target>
+        </segment>
+      </unit>
+      <unit id="486">
+        <segment state="initial">
+          <source>/genconfig</source>
+          <target>/genconfig</target>
+        </segment>
+      </unit>
+      <unit id="487">
+        <segment state="initial">
+          <source>/all</source>
+          <target>/all</target>
+        </segment>
+      </unit>
+      <unit id="488">
+        <segment state="initial">
+          <source>/i</source>
+          <target>/i</target>
+        </segment>
+      </unit>
+      <unit id="489">
+        <segment state="initial">
+          <source>/o</source>
+          <target>/o</target>
+        </segment>
+      </unit>
+      <unit id="490">
+        <segment state="initial">
+          <source>/v</source>
+          <target>/v</target>
+        </segment>
+      </unit>
+      <unit id="491">
+        <segment state="initial">
+          <source>nocompress</source>
+          <target>nocompress</target>
+        </segment>
+      </unit>
+      <unit id="492">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="493">
+        <segment state="initial">
+          <source>N/A</source>
+          <target>N/A</target>
+        </segment>
+      </unit>
+      <unit id="494">
+        <segment state="initial">
+          <source>localonly</source>
+          <target>localonly</target>
+        </segment>
+      </unit>
+      <unit id="495">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="496">
+        <segment state="initial">
+          <source>key</source>
+          <target>key</target>
+        </segment>
+      </unit>
+      <unit id="497">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="498">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="499">
+        <segment state="initial">
+          <source>encrypt</source>
+          <target>encrypt</target>
+        </segment>
+      </unit>
+      <unit id="500">
+        <segment state="initial">
+          <source>Required*</source>
+          <target>Required*</target>
+        </segment>
+      </unit>
+      <unit id="501">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="502">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="503">
+        <segment state="initial">
+          <source>keyfile</source>
+          <target>keyfile</target>
+        </segment>
+      </unit>
+      <unit id="504">
+        <segment state="initial">
+          <source>N/A</source>
+          <target>N/A</target>
+        </segment>
+      </unit>
+      <unit id="505">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="506">
+        <segment state="initial">
+          <source>l</source>
+          <target>l</target>
+        </segment>
+      </unit>
+      <unit id="507">
+        <segment state="initial">
+          <source>progress</source>
+          <target>progress</target>
+        </segment>
+      </unit>
+      <unit id="508">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="509">
+        <segment state="initial">
+          <source>r</source>
+          <target>r</target>
+        </segment>
+      </unit>
+      <unit id="510">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="511">
+        <segment state="initial">
+          <source>w</source>
+          <target>w</target>
+        </segment>
+      </unit>
+      <unit id="512">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="513">
+        <segment state="initial">
+          <source>c</source>
+          <target>c</target>
+        </segment>
+      </unit>
+      <unit id="514">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="515">
+        <segment state="initial">
+          <source>p</source>
+          <target>p</target>
+        </segment>
+      </unit>
+      <unit id="516">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="517">
+        <segment state="initial">
+          <source>N/A</source>
+          <target>N/A</target>
+        </segment>
+      </unit>
+      <unit id="518">
+        <segment state="initial">
+          <source>all</source>
+          <target>all</target>
+        </segment>
+      </unit>
+      <unit id="519">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="520">
+        <segment state="initial">
+          <source>ui</source>
+          <target>ui</target>
+        </segment>
+      </unit>
+      <unit id="521">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="522">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="523">
+        <segment state="initial">
+          <source>ue</source>
+          <target>ue</target>
+        </segment>
+      </unit>
+      <unit id="524">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="525">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="526">
+        <segment state="initial">
+          <source>uel</source>
+          <target>uel</target>
+        </segment>
+      </unit>
+      <unit id="527">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="528">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="529">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;em&gt;&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>efs<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />option</source>
+          <target>efs<ph dataRef="id1" id="ph1" />:<ph dataRef="id2" id="ph2" />option</target>
+        </segment>
+      </unit>
+      <unit id="530">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="531">
+        <segment state="initial">
+          <source>genconfig</source>
+          <target>genconfig</target>
+        </segment>
+      </unit>
+      <unit id="532">
+        <segment state="initial">
+          <source>N/A</source>
+          <target>N/A</target>
+        </segment>
+      </unit>
+      <unit id="533">
+        <segment state="initial">
+          <source>config</source>
+          <target>config</target>
+        </segment>
+      </unit>
+      <unit id="534">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="535">
+        <segment state="initial">
+          <source>StorePath</source>
+          <target>StorePath</target>
+        </segment>
+      </unit>
+      <unit id="536">
+        <segment state="initial">
+          <source>X</source>
+          <target>X</target>
+        </segment>
+      </unit>
+      <unit id="537">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="538">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You must specify either the /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">key</pc> or /<pc dataRefEnd="id4" dataRefStart="id3" id="p2">keyfile</pc> option with the /<pc dataRefEnd="id6" dataRefStart="id5" id="p3">encrypt</pc> option.</source>
+          <target>You must specify either the /<pc dataRefEnd="id2" dataRefStart="id1" id="p1">key</pc> or /<pc dataRefEnd="id4" dataRefStart="id3" id="p2">keyfile</pc> option with the /<pc dataRefEnd="id6" dataRefStart="id5" id="p3">encrypt</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="539">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="540">
+        <segment state="initial">
+          <source>XML Elements Library</source>
+          <target>XML Elements Library</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

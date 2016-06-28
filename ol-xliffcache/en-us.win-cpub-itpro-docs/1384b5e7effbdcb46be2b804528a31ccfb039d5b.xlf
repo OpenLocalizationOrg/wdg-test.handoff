@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\create-wmi-filters-for-the-gpo.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">1384b5e7effbdcb46be2b804528a31ccfb039d5b</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Create WMI Filters for the GPO (Windows 10)</source>
+          <target>Create WMI Filters for the GPO (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Create WMI Filters for the GPO</source>
+          <target>Create WMI Filters for the GPO</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Create WMI Filters for the GPO</source>
+          <target>Create WMI Filters for the GPO</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>To make sure that each GPO associated with a group can only be applied to devices running the correct version of Windows, use the Group Policy Management MMC snap-in to create and assign WMI filters to the GPO.</source>
+          <target>To make sure that each GPO associated with a group can only be applied to devices running the correct version of Windows, use the Group Policy Management MMC snap-in to create and assign WMI filters to the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Although you can create a separate membership group for each GPO, you would then have to manage the memberships of the different groups.</source>
+          <target>Although you can create a separate membership group for each GPO, you would then have to manage the memberships of the different groups.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Instead, use only a single membership group, and let WMI filters automatically ensure the correct GPO is applied to each device.</source>
+          <target>Instead, use only a single membership group, and let WMI filters automatically ensure the correct GPO is applied to each device.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>To create a WMI filter that queries for a specified version of Windows</source>
+          <target>To create a WMI filter that queries for a specified version of Windows</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>To link a WMI filter to a GPO</source>
+          <target>To link a WMI filter to a GPO</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Administrative credentials</source>
+          <target>Administrative credentials</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>To complete these procedures, you must be a member of the Domain Administrators group, or otherwise be delegated permissions to modify the GPOs.</source>
+          <target>To complete these procedures, you must be a member of the Domain Administrators group, or otherwise be delegated permissions to modify the GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>First, create the WMI filter and configure it to look for a specified version (or versions) of the Windows operating system.</source>
+          <target>First, create the WMI filter and configure it to look for a specified version (or versions) of the Windows operating system.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>To create a WMI filter that queries for a specified version of Windows</source>
+          <target>To create a WMI filter that queries for a specified version of Windows</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Open the Group Policy Management console.</source>
+          <target>Open the Group Policy Management console.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">*</data>
+          <data id="id4">*</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">*</data>
+          <data id="id8">*</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the navigation pane, expand <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Forest:</pc><pc dataRefEnd="id4" dataRefStart="id3" id="p2">YourForestName</pc>, expand <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Domains</pc>, expand <pc dataRefEnd="id8" dataRefStart="id7" id="p4">YourDomainName</pc>, and then click <pc dataRefEnd="id10" dataRefStart="id9" id="p5">WMI Filters</pc>.</source>
+          <target>In the navigation pane, expand <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Forest:</pc><pc dataRefEnd="id4" dataRefStart="id3" id="p2">YourForestName</pc>, expand <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Domains</pc>, expand <pc dataRefEnd="id8" dataRefStart="id7" id="p4">YourDomainName</pc>, and then click <pc dataRefEnd="id10" dataRefStart="id9" id="p5">WMI Filters</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> text box, type the name of the WMI filter.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> text box, type the name of the WMI filter.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Be sure to use a name that clearly indicates the purpose of the filter.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Be sure to use a name that clearly indicates the purpose of the filter.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Check to see if your organization has a naming convention.</source>
+          <target>Check to see if your organization has a naming convention.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Description</pc> text box, type a description for the WMI filter.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Description</pc> text box, type a description for the WMI filter.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>For example, if the filter excludes domain controllers, you might consider stating that in the description.</source>
+          <target>For example, if the filter excludes domain controllers, you might consider stating that in the description.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Leave the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Namespace</pc> value set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">root<ph dataRef="id5" id="ph1" />CIMv2</pc>.</source>
+          <target>Leave the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Namespace</pc> value set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">root<ph dataRef="id5" id="ph1" />CIMv2</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Query</pc> text box, type:</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Query</pc> text box, type:</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This query will return <pc dataRefEnd="id2" dataRefStart="id1" id="p1">true</pc> for devices running at least Windows Vista and Windows Server 2008.</source>
+          <target>This query will return <pc dataRefEnd="id2" dataRefStart="id1" id="p1">true</pc> for devices running at least Windows Vista and Windows Server 2008.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>To set a filter for just Windows 8 and Windows Server 2012, use "6.2%".</source>
+          <target>To set a filter for just Windows 8 and Windows Server 2012, use "6.2%".</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>To specify multiple versions, combine them with or, as shown in the following:</source>
+          <target>To specify multiple versions, combine them with or, as shown in the following:</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>To restrict the query to only clients or only servers, add a clause that includes the ProductType parameter.</source>
+          <target>To restrict the query to only clients or only servers, add a clause that includes the ProductType parameter.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>To filter for client operating systems only, such as Windows 8 or Windows 7, use only ProductType="1".</source>
+          <target>To filter for client operating systems only, such as Windows 8 or Windows 7, use only ProductType="1".</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>For server operating systems that are not domain controllers, use ProductType="3".</source>
+          <target>For server operating systems that are not domain controllers, use ProductType="3".</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>For domain controllers only, use ProductType="2".</source>
+          <target>For domain controllers only, use ProductType="2".</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>This is a useful distinction, because you often want to prevent your GPOs from being applied to the domain controllers on your network.</source>
+          <target>This is a useful distinction, because you often want to prevent your GPOs from being applied to the domain controllers on your network.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following clause returns <pc dataRefEnd="id2" dataRefStart="id1" id="p1">true</pc> for all devices that are not domain controllers:</source>
+          <target>The following clause returns <pc dataRefEnd="id2" dataRefStart="id1" id="p1">true</pc> for all devices that are not domain controllers:</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following complete query returns <pc dataRefEnd="id2" dataRefStart="id1" id="p1">true</pc> for all devices running Windows 8, and returns <pc dataRefEnd="id4" dataRefStart="id3" id="p2">false</pc> for any server operating system or any other client operating system.</source>
+          <target>The following complete query returns <pc dataRefEnd="id2" dataRefStart="id1" id="p1">true</pc> for all devices running Windows 8, and returns <pc dataRefEnd="id4" dataRefStart="id3" id="p2">false</pc> for any server operating system or any other client operating system.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following query returns <pc dataRefEnd="id2" dataRefStart="id1" id="p1">true</pc> for any device running Windows Server 2012, except domain controllers:</source>
+          <target>The following query returns <pc dataRefEnd="id2" dataRefStart="id1" id="p1">true</pc> for any device running Windows Server 2012, except domain controllers:</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> to save the query to the filter.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> to save the query to the filter.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc> to save your completed filter.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc> to save your completed filter.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>To link a WMI filter to a GPO</source>
+          <target>To link a WMI filter to a GPO</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>After you have created a filter with the correct query, link the filter to the GPO.</source>
+          <target>After you have created a filter with the correct query, link the filter to the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Filters can be reused with many GPOs simultaneously; you do not have to create a new one for each GPO if an existing one meets your needs.</source>
+          <target>Filters can be reused with many GPOs simultaneously; you do not have to create a new one for each GPO if an existing one meets your needs.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Open theGroup Policy Management console.</source>
+          <target>Open theGroup Policy Management console.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>In the navigation pane, find and then click the GPO that you want to modify.</source>
+          <target>In the navigation pane, find and then click the GPO that you want to modify.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WMI Filtering</pc>, select the correct WMI filter from the list.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WMI Filtering</pc>, select the correct WMI filter from the list.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to accept the filter.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to accept the filter.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

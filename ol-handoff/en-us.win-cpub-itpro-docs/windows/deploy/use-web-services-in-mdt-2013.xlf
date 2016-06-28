@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\deploy\use-web-services-in-mdt-2013.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">e249c78b04abac2bd365339b60d51b10a7d04af5</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Use web services in MDT (Windows 10)</source>
+          <target>Use web services in MDT (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>In this topic, you will learn how to create a simple web service that generates computer names and then configure MDT to use that service during your Windows 10 deployment.</source>
+          <target>In this topic, you will learn how to create a simple web service that generates computer names and then configure MDT to use that service during your Windows 10 deployment.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Use web services in MDT</source>
+          <target>Use web services in MDT</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>In this topic, you will learn how to create a simple web service that generates computer names and then configure MDT to use that service during your Windows 10 deployment.</source>
+          <target>In this topic, you will learn how to create a simple web service that generates computer names and then configure MDT to use that service during your Windows 10 deployment.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Web services provide a powerful way to assign settings during a deployment.</source>
+          <target>Web services provide a powerful way to assign settings during a deployment.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Simply put, web services are web applications that run code on the server side, and MDT has built-in functions to call these web services.</source>
+          <target>Simply put, web services are web applications that run code on the server side, and MDT has built-in functions to call these web services.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Using a web service in MDT is straightforward, but it does require that you have enabled the Web Server (IIS) role on the server.</source>
+          <target>Using a web service in MDT is straightforward, but it does require that you have enabled the Web Server (IIS) role on the server.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Developing web services involves a little bit of coding, but for most web services used with MDT, you can use the free Microsoft Visual Studio Express 2013 for Web.</source>
+          <target>Developing web services involves a little bit of coding, but for most web services used with MDT, you can use the free Microsoft Visual Studio Express 2013 for Web.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Create a sample web service</source>
+          <target>Create a sample web service</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=619363)</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In these steps we assume you have installed Microsoft Visual Studio Express 2013 for Web on PC0001 (the Windows 10 client) and downloaded the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT Sample Web Service</pc> from the Microsoft Download Center and extracted it to C:<ph dataRef="id3" id="ph1" />Projects.</source>
+          <target>In these steps we assume you have installed Microsoft Visual Studio Express 2013 for Web on PC0001 (the Windows 10 client) and downloaded the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT Sample Web Service</pc> from the Microsoft Download Center and extracted it to C:<ph dataRef="id3" id="ph1" />Projects.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On PC0001, using Visual Studio Express 2013 for Web, open the C:<ph dataRef="id1" id="ph1" />Projects<ph dataRef="id2" id="ph2" />MDTSample<ph dataRef="id3" id="ph3" /> MDTSample.sln solution file.</source>
+          <target>On PC0001, using Visual Studio Express 2013 for Web, open the C:<ph dataRef="id1" id="ph1" />Projects<ph dataRef="id2" id="ph2" />MDTSample<ph dataRef="id3" id="ph3" /> MDTSample.sln solution file.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>On the ribbon bar, verify that Release is selected.</source>
+          <target>On the ribbon bar, verify that Release is selected.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Debug</pc> menu, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Build MDTSample</pc> action.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Debug</pc> menu, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Build MDTSample</pc> action.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, create a folder structure for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />MDTSample<ph dataRef="id4" id="ph2" />bin</pc>.</source>
+          <target>On MDT01, create a folder structure for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />MDTSample<ph dataRef="id4" id="ph2" />bin</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">\\</data>
+          <data id="id9">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>From PC0001, copy the C:<ph dataRef="id1" id="ph1" />Projects<ph dataRef="id2" id="ph2" />MDTSample<ph dataRef="id3" id="ph3" />obj<ph dataRef="id4" id="ph4" />Release<ph dataRef="id5" id="ph5" />MDTSample.dll file to the <pc dataRefEnd="id7" dataRefStart="id6" id="p1">E:<ph dataRef="id8" id="ph6" />MDTSample<ph dataRef="id9" id="ph7" />bin</pc> folder on MDT01.</source>
+          <target>From PC0001, copy the C:<ph dataRef="id1" id="ph1" />Projects<ph dataRef="id2" id="ph2" />MDTSample<ph dataRef="id3" id="ph3" />obj<ph dataRef="id4" id="ph4" />Release<ph dataRef="id5" id="ph5" />MDTSample.dll file to the <pc dataRefEnd="id7" dataRefStart="id6" id="p1">E:<ph dataRef="id8" id="ph6" />MDTSample<ph dataRef="id9" id="ph7" />bin</pc> folder on MDT01.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>From PC0001, copy the following files from C:<ph dataRef="id1" id="ph1" />Projects<ph dataRef="id2" id="ph2" />MDTSample file to the <pc dataRefEnd="id4" dataRefStart="id3" id="p1">E:<ph dataRef="id5" id="ph3" />MDTSample</pc> folder on MDT01:</source>
+          <target>From PC0001, copy the following files from C:<ph dataRef="id1" id="ph1" />Projects<ph dataRef="id2" id="ph2" />MDTSample file to the <pc dataRefEnd="id4" dataRefStart="id3" id="p1">E:<ph dataRef="id5" id="ph3" />MDTSample</pc> folder on MDT01:</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Web.config</source>
+          <target>Web.config</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>mdtsample.asmx</source>
+          <target>mdtsample.asmx</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>figure 15</source>
+          <target>figure 15</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Figure 15.</source>
+          <target>Figure 15.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>The sample project in Microsoft Visual Studio Express 2013 for Web.</source>
+          <target>The sample project in Microsoft Visual Studio Express 2013 for Web.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Create an application pool for the web service</source>
+          <target>Create an application pool for the web service</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>This section assumes that you have enabled the Web Server (IIS) role on MDT01.</source>
+          <target>This section assumes that you have enabled the Web Server (IIS) role on MDT01.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, using Server Manager, install the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">IIS Management Console</pc> role (available under Web Server (IIS) / Management Tools).</source>
+          <target>On MDT01, using Server Manager, install the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">IIS Management Console</pc> role (available under Web Server (IIS) / Management Tools).</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using Internet Information Services (IIS) Manager, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT01 (CONTOSO<ph dataRef="id3" id="ph1" />Administrator)</pc> node.</source>
+          <target>Using Internet Information Services (IIS) Manager, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT01 (CONTOSO<ph dataRef="id3" id="ph1" />Administrator)</pc> node.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>If prompted with the "Do you want to get started with Microsoft Web Platform?"</source>
+          <target>If prompted with the "Do you want to get started with Microsoft Web Platform?"</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>question, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Do not show this message</pc> check box and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">No</pc>.</source>
+          <target>question, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Do not show this message</pc> check box and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">No</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Pools</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add Application Pool</pc>, and configure the new application pool with the following settings:</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Pools</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add Application Pool</pc>, and configure the new application pool with the following settings:</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Name: MDTSample</source>
+          <target>Name: MDTSample</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>.NET Framework version: .NET Framework 4.0.30319</source>
+          <target>.NET Framework version: .NET Framework 4.0.30319</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Manage pipeline mode: Integrated</source>
+          <target>Manage pipeline mode: Integrated</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start application pool immediately</pc> check box.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start application pool immediately</pc> check box.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>figure 16</source>
+          <target>figure 16</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Figure 16.</source>
+          <target>Figure 16.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>The new MDTSample application.</source>
+          <target>The new MDTSample application.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Install the web service</source>
+          <target>Install the web service</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, using Internet Information Services (IIS) Manager, expand <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sites</pc>, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Default Web Site</pc>, and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Application</pc>.</source>
+          <target>On MDT01, using Internet Information Services (IIS) Manager, expand <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sites</pc>, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Default Web Site</pc>, and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Application</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Use the following settings for the application:</source>
+          <target>Use the following settings for the application:</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Alias: MDTSample</source>
+          <target>Alias: MDTSample</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Application pool: MDTSample</source>
+          <target>Application pool: MDTSample</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Physical Path: E:<ph dataRef="id1" id="ph1" />MDTSample</source>
+          <target>Physical Path: E:<ph dataRef="id1" id="ph1" />MDTSample</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>figure 17</source>
+          <target>figure 17</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Figure 17.</source>
+          <target>Figure 17.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Adding the MDTSample web application.</source>
+          <target>Adding the MDTSample web application.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Default Web Site</pc> node, select the MDTSample web application, and in the right pane, double-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Authentication</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Default Web Site</pc> node, select the MDTSample web application, and in the right pane, double-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Authentication</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the following settings for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Authentication</pc> dialog box:</source>
+          <target>Use the following settings for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Authentication</pc> dialog box:</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Anonymous Authentication: Enabled</source>
+          <target>Anonymous Authentication: Enabled</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>ASP.NET Impersonation: Disabled</source>
+          <target>ASP.NET Impersonation: Disabled</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>figure 18</source>
+          <target>figure 18</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Figure 18.</source>
+          <target>Figure 18.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Configuring Authentication for the MDTSample web service.</source>
+          <target>Configuring Authentication for the MDTSample web service.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Test the web service in Internet Explorer</source>
+          <target>Test the web service in Internet Explorer</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On PC0001, using Internet Explorer, navigate to: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://MDT01/MDTSample/mdtsample.asmx</pc>.</source>
+          <target>On PC0001, using Internet Explorer, navigate to: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://MDT01/MDTSample/mdtsample.asmx</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GetComputerName</pc> link.</source>
+          <target>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GetComputerName</pc> link.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>figure 19</source>
+          <target>figure 19</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Figure 19.</source>
+          <target>Figure 19.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>The MDT Sample web service.</source>
+          <target>The MDT Sample web service.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GetComputerName</pc> page, type in the following settings, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Invoke</pc>:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GetComputerName</pc> page, type in the following settings, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Invoke</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Model: Hewlett-Packard</source>
+          <target>Model: Hewlett-Packard</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>SerialNumber: 123456789</source>
+          <target>SerialNumber: 123456789</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>figure 20</source>
+          <target>figure 20</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Figure 20.</source>
+          <target>Figure 20.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>The result from the MDT Sample web service.</source>
+          <target>The result from the MDT Sample web service.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Test the web service in the MDT simulation environment</source>
+          <target>Test the web service in the MDT simulation environment</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>After verifying the web service using Internet Explorer, you are ready to do the same test in the MDT simulation environment.</source>
+          <target>After verifying the web service using Internet Explorer, you are ready to do the same test in the MDT simulation environment.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On PC0001, edit the CustomSettings.ini file in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />MDT</pc> folder to look like the following:</source>
+          <target>On PC0001, edit the CustomSettings.ini file in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />MDT</pc> folder to look like the following:</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>figure 21</source>
+          <target>figure 21</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Figure 21.</source>
+          <target>Figure 21.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>The updated CustomSettings.ini file.</source>
+          <target>The updated CustomSettings.ini file.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Save the CustomSettings.ini file.</source>
+          <target>Save the CustomSettings.ini file.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Using an elevated Windows PowerShell prompt (run as Administrator), run the following commands.</source>
+          <target>Using an elevated Windows PowerShell prompt (run as Administrator), run the following commands.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc> after each command:</source>
+          <target>Press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc> after each command:</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Review the ZTIGather.log in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />MININT<ph dataRef="id4" id="ph2" />SMSOSD<ph dataRef="id5" id="ph3" />OSDLOGS</pc> folder.</source>
+          <target>Review the ZTIGather.log in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />MININT<ph dataRef="id4" id="ph2" />SMSOSD<ph dataRef="id5" id="ph3" />OSDLOGS</pc> folder.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>figure 22</source>
+          <target>figure 22</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Figure 22.</source>
+          <target>Figure 22.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>The OSDCOMPUTERNAME value obtained from the web service.</source>
+          <target>The OSDCOMPUTERNAME value obtained from the web service.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Set up MDT for BitLocker</source>
+          <target>Set up MDT for BitLocker</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Configure MDT deployment share rules</source>
+          <target>Configure MDT deployment share rules</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Configure MDT for UserExit scripts</source>
+          <target>Configure MDT for UserExit scripts</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Simulate a Windows 10 deployment in a test environment</source>
+          <target>Simulate a Windows 10 deployment in a test environment</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Use the MDT database to stage Windows 10 deployment information</source>
+          <target>Use the MDT database to stage Windows 10 deployment information</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Assign applications using roles in MDT</source>
+          <target>Assign applications using roles in MDT</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Use Orchestrator runbooks with MDT</source>
+          <target>Use Orchestrator runbooks with MDT</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

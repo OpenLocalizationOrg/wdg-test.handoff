@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\create-an-inbound-program-or-service-rule.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">4711e5f06890a347a9e48b077bd8c55ce62c6ee8</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Create an Inbound Program or Service Rule (Windows 10)</source>
+          <target>Create an Inbound Program or Service Rule (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Create an Inbound Program or Service Rule</source>
+          <target>Create an Inbound Program or Service Rule</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Create an Inbound Program or Service Rule</source>
+          <target>Create an Inbound Program or Service Rule</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>To allow inbound network traffic to a specified program or service, use the Windows Firewall with Advanced Security node in the Group Policy Management MMC snap-in to create firewall rules.</source>
+          <target>To allow inbound network traffic to a specified program or service, use the Windows Firewall with Advanced Security node in the Group Policy Management MMC snap-in to create firewall rules.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>This type of rule allows the program to listen and receive inbound network traffic on any port.</source>
+          <target>This type of rule allows the program to listen and receive inbound network traffic on any port.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  This type of rule is often combined with a program or service rule.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  This type of rule is often combined with a program or service rule.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>If you combine the rule types, you get a firewall rule that limits traffic to a specified port and allows the traffic only when the specified program is running.</source>
+          <target>If you combine the rule types, you get a firewall rule that limits traffic to a specified port and allows the traffic only when the specified program is running.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>The program cannot receive network traffic on other ports, and other programs cannot receive network traffic on the specified port.</source>
+          <target>The program cannot receive network traffic on other ports, and other programs cannot receive network traffic on the specified port.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](create-an-inbound-port-rule.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To combine the program and port rule types into a single rule, follow the steps in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create an Inbound Port Rule</pc> procedure in addition to the steps in this procedure.</source>
+          <target>To combine the program and port rule types into a single rule, follow the steps in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create an Inbound Port Rule</pc> procedure in addition to the steps in this procedure.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Administrative credentials</source>
+          <target>Administrative credentials</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>To complete these procedures, you must be a member of the Domain Administrators group, or otherwise be delegated permissions to modify the GPOs.</source>
+          <target>To complete these procedures, you must be a member of the Domain Administrators group, or otherwise be delegated permissions to modify the GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>To create an inbound firewall rule for a program or service</source>
+          <target>To create an inbound firewall rule for a program or service</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](open-the-group-policy-management-console-to-windows-firewall-with-advanced-security.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Open the Group Policy Management Console to Windows Firewall with Advanced Security</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Open the Group Policy Management Console to Windows Firewall with Advanced Security</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the navigation pane, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Inbound Rules</pc>.</source>
+          <target>In the navigation pane, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Inbound Rules</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New rule</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New rule</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Rule Type</pc> page of the New Inbound Rule Wizard, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Custom</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Rule Type</pc> page of the New Inbound Rule Wizard, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Custom</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Although you can create rules by selecting <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Program</pc> or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Port</pc>, those choices limit the number of pages presented by the wizard.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Although you can create rules by selecting <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Program</pc> or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Port</pc>, those choices limit the number of pages presented by the wizard.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Custom</pc>, you see all of the pages, and have the most flexibility in creating your rules.</source>
+          <target>If you select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Custom</pc>, you see all of the pages, and have the most flexibility in creating your rules.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Program</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">This program path</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Program</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">This program path</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Type the path to the program in the text box.</source>
+          <target>Type the path to the program in the text box.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Use environment variables, where applicable, to ensure that programs installed in different locations on different computers work correctly.</source>
+          <target>Use environment variables, where applicable, to ensure that programs installed in different locations on different computers work correctly.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Do one of the following:</source>
+          <target>Do one of the following:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the executable file contains a single program, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>If the executable file contains a single program, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the executable file is a container for multiple services that must all be allowed to receive inbound network traffic, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apply to services only</pc>, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Next</pc>.</source>
+          <target>If the executable file is a container for multiple services that must all be allowed to receive inbound network traffic, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apply to services only</pc>, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the executable file is a container for a single service or contains multiple services but the rule only applies to one of them, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apply to this service</pc>, and then select the service from the list.</source>
+          <target>If the executable file is a container for a single service or contains multiple services but the rule only applies to one of them, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apply to this service</pc>, and then select the service from the list.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the service does not appear in the list, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apply to service with this service short name</pc>, and then type the short name for the service in the text box.</source>
+          <target>If the service does not appear in the list, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apply to service with this service short name</pc>, and then type the short name for the service in the text box.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apply to this service</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apply to service with this service short name</pc> options, the service must be configured with a security identifier (SID) with a type of <pc dataRefEnd="id6" dataRefStart="id5" id="p3">RESTRICTED</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">UNRESTRICTED</pc>.</source>
+          <target>To use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apply to this service</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apply to service with this service short name</pc> options, the service must be configured with a security identifier (SID) with a type of <pc dataRefEnd="id6" dataRefStart="id5" id="p3">RESTRICTED</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">UNRESTRICTED</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>To check the SID type of a service, run the following command:</source>
+          <target>To check the SID type of a service, run the following command:</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">*</data>
+          <data id="id6">*</data>
+          <data id="id7">&amp;lt;</data>
+          <data id="id8">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sc</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">qsidtype</pc>
+            <pc dataRefEnd="id6" dataRefStart="id5" id="p3">
+              <ph dataRef="id7" id="ph1" />ServiceName<ph dataRef="id8" id="ph2" /></pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sc</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">qsidtype</pc>
+            <pc dataRefEnd="id6" dataRefStart="id5" id="p3">
+              <ph dataRef="id7" id="ph1" />ServiceName<ph dataRef="id8" id="ph2" /></pc>
+          </target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the result is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NONE</pc>, then a firewall rule cannot be applied to that service.</source>
+          <target>If the result is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NONE</pc>, then a firewall rule cannot be applied to that service.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>To set a SID type on a service, run the following command:</source>
+          <target>To set a SID type on a service, run the following command:</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">*</data>
+          <data id="id6">*</data>
+          <data id="id7">&amp;lt;</data>
+          <data id="id8">&amp;gt;</data>
+          <data id="id9">&amp;lt;</data>
+          <data id="id10">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sc</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">sidtype</pc>
+            <pc dataRefEnd="id6" dataRefStart="id5" id="p3">
+              <ph dataRef="id7" id="ph1" />Type<ph dataRef="id8" id="ph2" /><ph dataRef="id9" id="ph3" />ServiceName<ph dataRef="id10" id="ph4" /></pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sc</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">sidtype</pc>
+            <pc dataRefEnd="id6" dataRefStart="id5" id="p3">
+              <ph dataRef="id7" id="ph1" />Type<ph dataRef="id8" id="ph2" /><ph dataRef="id9" id="ph3" />ServiceName<ph dataRef="id10" id="ph4" /></pc>
+          </target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the preceding command, the value of <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />Type<ph dataRef="id4" id="ph2" /></pc> can be <pc dataRefEnd="id6" dataRefStart="id5" id="p2">UNRESTRICTED</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p3">RESTRICTED</pc>.</source>
+          <target>In the preceding command, the value of <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />Type<ph dataRef="id4" id="ph2" /></pc> can be <pc dataRefEnd="id6" dataRefStart="id5" id="p2">UNRESTRICTED</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p3">RESTRICTED</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Although the command also permits the value of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NONE</pc>, that setting means the service cannot be used in a firewall rule as described here.</source>
+          <target>Although the command also permits the value of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NONE</pc>, that setting means the service cannot be used in a firewall rule as described here.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>By default, most services in Windows are configured as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UNRESTRICTED</pc>.</source>
+          <target>By default, most services in Windows are configured as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UNRESTRICTED</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you change the SID type to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">RESTRICTED</pc>, the service might fail to start.</source>
+          <target>If you change the SID type to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">RESTRICTED</pc>, the service might fail to start.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>We recommend that you change the SID type only on services that you want to use in firewall rules, and that you change the SID type to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UNRESTRICTED</pc>.</source>
+          <target>We recommend that you change the SID type only on services that you want to use in firewall rules, and that you change the SID type to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UNRESTRICTED</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>It is a best practice to restrict the firewall rule for the program to only the ports it needs to operate.</source>
+          <target>It is a best practice to restrict the firewall rule for the program to only the ports it needs to operate.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protocols and Ports</pc> page, you can specify the port numbers for the allowed traffic.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protocols and Ports</pc> page, you can specify the port numbers for the allowed traffic.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>If the program tries to listen on a port different from the one specified here, it is blocked.</source>
+          <target>If the program tries to listen on a port different from the one specified here, it is blocked.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](create-an-inbound-port-rule.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about protocol and port options, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create an Inbound Port Rule</pc>.</source>
+          <target>For more information about protocol and port options, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create an Inbound Port Rule</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After you have configured the protocol and port options, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>After you have configured the protocol and port options, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Scope</pc> page, you can specify that the rule applies only to network traffic to or from the IP addresses entered on this page.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Scope</pc> page, you can specify that the rule applies only to network traffic to or from the IP addresses entered on this page.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Configure as appropriate for your design, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Configure as appropriate for your design, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Allow the connection</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Allow the connection</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Profile</pc> page, select the network location types to which this rule applies, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Profile</pc> page, select the network location types to which this rule applies, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> page, type a name and description for your rule, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> page, type a name and description for your rule, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc>.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\using-event-viewer-with-applocker.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">9a4a624883ed4fa931361edd81420f4604dba22e</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Using Event Viewer with AppLocker (Windows 10)</source>
+          <target>Using Event Viewer with AppLocker (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic lists AppLocker events and describes how to use Event Viewer with AppLocker.</source>
+          <target>This topic lists AppLocker events and describes how to use Event Viewer with AppLocker.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Using Event Viewer with AppLocker</source>
+          <target>Using Event Viewer with AppLocker</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic lists AppLocker events and describes how to use Event Viewer with AppLocker.</source>
+          <target>This topic lists AppLocker events and describes how to use Event Viewer with AppLocker.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>The AppLocker log contains information about applications that are affected by AppLocker rules.</source>
+          <target>The AppLocker log contains information about applications that are affected by AppLocker rules.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Each event in the log contains detailed info about:</source>
+          <target>Each event in the log contains detailed info about:</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Which file is affected and the path of that file</source>
+          <target>Which file is affected and the path of that file</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Which packaged app is affected and the package identifier of the app</source>
+          <target>Which packaged app is affected and the package identifier of the app</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Whether the file or packaged app is allowed or blocked</source>
+          <target>Whether the file or packaged app is allowed or blocked</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>The rule type (path, file hash, or publisher)</source>
+          <target>The rule type (path, file hash, or publisher)</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The rule name</source>
+          <target>The rule name</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The security identifier (SID) for the user or group identified in the rule</source>
+          <target>The security identifier (SID) for the user or group identified in the rule</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Review the entries in the Event Viewer to determine if any applications are not included in the rules that you automatically generated.</source>
+          <target>Review the entries in the Event Viewer to determine if any applications are not included in the rules that you automatically generated.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>For instance, some line-of-business apps are installed to non-standard locations, such as the root of the active drive (for example: %SystemDrive%).</source>
+          <target>For instance, some line-of-business apps are installed to non-standard locations, such as the root of the active drive (for example: %SystemDrive%).</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](monitor-application-usage-with-applocker.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For info about what to look for in the AppLocker event logs, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Monitor app usage with AppLocker</pc>.</source>
+          <target>For info about what to look for in the AppLocker event logs, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Monitor app usage with AppLocker</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>To review the AppLocker log in Event Viewer</source>
+          <target>To review the AppLocker log in Event Viewer</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Open Event Viewer.</source>
+          <target>Open Event Viewer.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the console tree under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application and Services Logs<ph dataRef="id3" id="ph1" />Microsoft<ph dataRef="id4" id="ph2" />Windows</pc>, click <pc dataRefEnd="id6" dataRefStart="id5" id="p2">AppLocker</pc>.</source>
+          <target>In the console tree under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application and Services Logs<ph dataRef="id3" id="ph1" />Microsoft<ph dataRef="id4" id="ph2" />Windows</pc>, click <pc dataRefEnd="id6" dataRefStart="id5" id="p2">AppLocker</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>The following table contains information about the events that you can use to determine which apps are affected by AppLocker rules.</source>
+          <target>The following table contains information about the events that you can use to determine which apps are affected by AppLocker rules.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Event ID</source>
+          <target>Event ID</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Level</source>
+          <target>Level</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Event message</source>
+          <target>Event message</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>8000</source>
+          <target>8000</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Error</source>
+          <target>Error</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Application Identity Policy conversion failed.</source>
+          <target>Application Identity Policy conversion failed.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Status  <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />%1<ph dataRef="id4" id="ph2" /></pc></source>
+          <target>Status  <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />%1<ph dataRef="id4" id="ph2" /></pc></target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Indicates that the policy was not applied correctly to the computer.</source>
+          <target>Indicates that the policy was not applied correctly to the computer.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>The status message is provided for troubleshooting purposes.</source>
+          <target>The status message is provided for troubleshooting purposes.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>8001</source>
+          <target>8001</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Information</source>
+          <target>Information</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>The AppLocker policy was applied successfully to this computer.</source>
+          <target>The AppLocker policy was applied successfully to this computer.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Indicates that the AppLocker policy was successfully applied to the computer.</source>
+          <target>Indicates that the AppLocker policy was successfully applied to the computer.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>8002</source>
+          <target>8002</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Information</source>
+          <target>Information</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">
+              <ph dataRef="id3" id="ph1" />File name<ph dataRef="id4" id="ph2" /></pc> was allowed to run.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">
+              <ph dataRef="id3" id="ph1" />File name<ph dataRef="id4" id="ph2" /></pc> was allowed to run.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Specifies that the .exe or .dll file is allowed by an AppLocker rule.</source>
+          <target>Specifies that the .exe or .dll file is allowed by an AppLocker rule.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>8003</source>
+          <target>8003</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Warning</source>
+          <target>Warning</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">
+              <ph dataRef="id3" id="ph1" />File name<ph dataRef="id4" id="ph2" /></pc> was allowed to run but would have been prevented from running if the AppLocker policy were enforced.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">
+              <ph dataRef="id3" id="ph1" />File name<ph dataRef="id4" id="ph2" /></pc> was allowed to run but would have been prevented from running if the AppLocker policy were enforced.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Applied only when the  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Audit only </pc> enforcement mode is enabled.</source>
+          <target>Applied only when the  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Audit only </pc> enforcement mode is enabled.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specifies that the .exe or .dll file would be blocked if the  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enforce rules </pc> enforcement mode were enabled.</source>
+          <target>Specifies that the .exe or .dll file would be blocked if the  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enforce rules </pc> enforcement mode were enabled.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>8004</source>
+          <target>8004</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Error</source>
+          <target>Error</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">
+              <ph dataRef="id3" id="ph1" />File name<ph dataRef="id4" id="ph2" /></pc> was not allowed to run.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">
+              <ph dataRef="id3" id="ph1" />File name<ph dataRef="id4" id="ph2" /></pc> was not allowed to run.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Access to  <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />file name<ph dataRef="id4" id="ph2" /></pc> is restricted by the administrator.</source>
+          <target>Access to  <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />file name<ph dataRef="id4" id="ph2" /></pc> is restricted by the administrator.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Applied only when the  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enforce rules </pc> enforcement mode is set either directly or indirectly through Group Policy inheritance.</source>
+          <target>Applied only when the  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enforce rules </pc> enforcement mode is set either directly or indirectly through Group Policy inheritance.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>The .exe or .dll file cannot run.</source>
+          <target>The .exe or .dll file cannot run.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>8005</source>
+          <target>8005</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Information</source>
+          <target>Information</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">
+              <ph dataRef="id3" id="ph1" />File name<ph dataRef="id4" id="ph2" /></pc> was allowed to run.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">
+              <ph dataRef="id3" id="ph1" />File name<ph dataRef="id4" id="ph2" /></pc> was allowed to run.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Specifies that the script or .msi file is allowed by an AppLocker rule.</source>
+          <target>Specifies that the script or .msi file is allowed by an AppLocker rule.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>8006</source>
+          <target>8006</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Warning</source>
+          <target>Warning</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">
+              <ph dataRef="id3" id="ph1" />File name<ph dataRef="id4" id="ph2" /></pc> was allowed to run but would have been prevented from running if the AppLocker policy were enforced.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">
+              <ph dataRef="id3" id="ph1" />File name<ph dataRef="id4" id="ph2" /></pc> was allowed to run but would have been prevented from running if the AppLocker policy were enforced.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Applied only when the  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Audit only </pc> enforcement mode is enabled.</source>
+          <target>Applied only when the  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Audit only </pc> enforcement mode is enabled.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specifies that the script or .msi file would be blocked if the  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enforce rules </pc> enforcement mode were enabled.</source>
+          <target>Specifies that the script or .msi file would be blocked if the  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enforce rules </pc> enforcement mode were enabled.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>8007</source>
+          <target>8007</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Error</source>
+          <target>Error</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">
+              <ph dataRef="id3" id="ph1" />File name<ph dataRef="id4" id="ph2" /></pc> was not allowed to run.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">
+              <ph dataRef="id3" id="ph1" />File name<ph dataRef="id4" id="ph2" /></pc> was not allowed to run.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Access to  <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />file name<ph dataRef="id4" id="ph2" /></pc> is restricted by the administrator.</source>
+          <target>Access to  <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />file name<ph dataRef="id4" id="ph2" /></pc> is restricted by the administrator.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Applied only when the  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enforce rules </pc> enforcement mode is set either directly or indirectly through Group Policy inheritance.</source>
+          <target>Applied only when the  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enforce rules </pc> enforcement mode is set either directly or indirectly through Group Policy inheritance.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>The script or .msi file cannot run.</source>
+          <target>The script or .msi file cannot run.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>8007</source>
+          <target>8007</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Error</source>
+          <target>Error</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>AppLocker disabled on the SKU.</source>
+          <target>AppLocker disabled on the SKU.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Added in Windows Server 2012 and Windows 8.</source>
+          <target>Added in Windows Server 2012 and Windows 8.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>8020</source>
+          <target>8020</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Information</source>
+          <target>Information</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Packaged app allowed.</source>
+          <target>Packaged app allowed.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Added in Windows Server 2012 and Windows 8.</source>
+          <target>Added in Windows Server 2012 and Windows 8.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>8021</source>
+          <target>8021</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Information</source>
+          <target>Information</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Packaged app audited.</source>
+          <target>Packaged app audited.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Added in Windows Server 2012 and Windows 8.</source>
+          <target>Added in Windows Server 2012 and Windows 8.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>8022</source>
+          <target>8022</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Information</source>
+          <target>Information</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Packaged app disabled.</source>
+          <target>Packaged app disabled.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Added in Windows Server 2012 and Windows 8.</source>
+          <target>Added in Windows Server 2012 and Windows 8.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>8023</source>
+          <target>8023</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Information</source>
+          <target>Information</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Packaged app installation allowed.</source>
+          <target>Packaged app installation allowed.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Added in Windows Server 2012 and Windows 8.</source>
+          <target>Added in Windows Server 2012 and Windows 8.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>8024</source>
+          <target>8024</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Information</source>
+          <target>Information</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Packaged app installation audited.</source>
+          <target>Packaged app installation audited.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Added in Windows Server 2012 and Windows 8.</source>
+          <target>Added in Windows Server 2012 and Windows 8.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>8025</source>
+          <target>8025</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Warning</source>
+          <target>Warning</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Packaged app installation disabled.</source>
+          <target>Packaged app installation disabled.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Added in Windows Server 2012 and Windows 8.</source>
+          <target>Added in Windows Server 2012 and Windows 8.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>8027</source>
+          <target>8027</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Warning</source>
+          <target>Warning</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>No Packaged app rule configured.</source>
+          <target>No Packaged app rule configured.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Added in Windows Server 2012 and Windows 8.</source>
+          <target>Added in Windows Server 2012 and Windows 8.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Tools to use with AppLocker</source>
+          <target>Tools to use with AppLocker</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

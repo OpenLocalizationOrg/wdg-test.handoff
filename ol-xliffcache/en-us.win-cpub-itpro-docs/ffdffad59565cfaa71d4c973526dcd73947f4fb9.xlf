@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\appv-v4\how-to-migrate-the-app-v-sql-database-to-a-different-sql-server.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">ffdffad59565cfaa71d4c973526dcd73947f4fb9</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>How to Migrate the App-V SQL Database to a Different SQL Server</source>
+          <target>How to Migrate the App-V SQL Database to a Different SQL Server</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>How to Migrate the App-V SQL Database to a Different SQL Server</source>
+          <target>How to Migrate the App-V SQL Database to a Different SQL Server</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>How to Migrate the App-V SQL Database to a Different SQL Server</source>
+          <target>How to Migrate the App-V SQL Database to a Different SQL Server</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>The following procedures describe in detail how to migrate the SQL database of the Microsoft Application Virtualization (App-V) Management Server to a different SQL Server.</source>
+          <target>The following procedures describe in detail how to migrate the SQL database of the Microsoft Application Virtualization (App-V) Management Server to a different SQL Server.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This procedure requires that the App-V server service is stopped and this will prevent end-users from using their applications.</source>
+          <target>This procedure requires that the App-V server service is stopped and this will prevent end-users from using their applications.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>To back up the App-V SQL database</source>
+          <target>To back up the App-V SQL database</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Open the Services.msc program and stop the App-V Management Server service on all Management Servers that use the database to be migrated.</source>
+          <target>Open the Services.msc program and stop the App-V Management Server service on all Management Servers that use the database to be migrated.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>On the computer where the App-V database is located, open SQL Server Management Studio.</source>
+          <target>On the computer where the App-V database is located, open SQL Server Management Studio.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Databases</pc> node and locate the App-V database (default name is APPVIRT).</source>
+          <target>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Databases</pc> node and locate the App-V database (default name is APPVIRT).</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the database and select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Tasks</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Back Up</pc>.</source>
+          <target>Right-click the database and select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Tasks</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Back Up</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Verify that <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recovery model</pc> is set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SIMPLE</pc> and the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Backup type</pc> is set to <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Full</pc>.</source>
+          <target>Verify that <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recovery model</pc> is set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SIMPLE</pc> and the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Backup type</pc> is set to <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Full</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Change the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Backup set</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Destination</pc> settings if it is necessary.</source>
+          <target>Change the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Backup set</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Destination</pc> settings if it is necessary.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> to back up the database.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> to back up the database.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the backup has completed successfully, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>After the backup has completed successfully, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Open Windows Explorer and browse to the folder that contains the database backup file, for example APPVIRT.BAK.</source>
+          <target>Open Windows Explorer and browse to the folder that contains the database backup file, for example APPVIRT.BAK.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Copy the database backup file to the destination computer that is running SQL Server.</source>
+          <target>Copy the database backup file to the destination computer that is running SQL Server.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>To restore the App-V SQL database to the destination computer</source>
+          <target>To restore the App-V SQL database to the destination computer</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the destination computer, open SQL Server Management Studio, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Databases</pc> node and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Restore Database</pc>.</source>
+          <target>On the destination computer, open SQL Server Management Studio, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Databases</pc> node and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Restore Database</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Source for Restore</pc>, choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">From device</pc> and then click the “<pc dataRefEnd="id6" dataRefStart="id5" id="p3">…</pc>”</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Source for Restore</pc>, choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">From device</pc> and then click the “<pc dataRefEnd="id6" dataRefStart="id5" id="p3">…</pc>”</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>button.</source>
+          <target>button.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Specify Backup</pc> dialog box, make sure that the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Backup Media</pc> is set to <pc dataRefEnd="id6" dataRefStart="id5" id="p3">File</pc> and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Add</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Specify Backup</pc> dialog box, make sure that the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Backup Media</pc> is set to <pc dataRefEnd="id6" dataRefStart="id5" id="p3">File</pc> and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Add</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the backup file that you copied from the original computer that is running SQL Server, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Select the backup file that you copied from the original computer that is running SQL Server, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> and then click to select the backup set to restore.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> and then click to select the backup set to restore.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Destination for restore</pc>, click the drop-down for <pc dataRefEnd="id4" dataRefStart="id3" id="p2">To database</pc> and select the App-V database name, for example APPVIRT.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Destination for restore</pc>, click the drop-down for <pc dataRefEnd="id4" dataRefStart="id3" id="p2">To database</pc> and select the App-V database name, for example APPVIRT.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> to start the restore.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> to start the restore.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the restore has completed successfully, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>After the restore has completed successfully, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security</pc> node, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Logins</pc> and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">New Login</pc>.</source>
+          <target>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security</pc> node, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Logins</pc> and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">New Login</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Login Name</pc> field, enter the Network Service account details for the App-V Management Server in the format of DOMAIN<ph dataRef="id3" id="ph1" />SERVERNAME$.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Login Name</pc> field, enter the Network Service account details for the App-V Management Server in the format of DOMAIN<ph dataRef="id3" id="ph1" />SERVERNAME$.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> page under <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Default database</pc> select the App-V database name, for example, APPVIRT, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> page under <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Default database</pc> select the App-V database name, for example, APPVIRT, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select a page</pc>, click to select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User Mapping</pc> page.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select a page</pc>, click to select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User Mapping</pc> page.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Users mapped to this login</pc>, click the check box in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Map</pc> column to select the App-V database.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Users mapped to this login</pc>, click the check box in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Map</pc> column to select the App-V database.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Database role membership for: <ph dataRef="id3" id="ph1" />appvdatabasename<ph dataRef="id4" id="ph2" /></pc>, click to select <pc dataRefEnd="id6" dataRefStart="id5" id="p2">SFTEveryone</pc> and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p3">OK</pc>.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Database role membership for: <ph dataRef="id3" id="ph1" />appvdatabasename<ph dataRef="id4" id="ph2" /></pc>, click to select <pc dataRefEnd="id6" dataRefStart="id5" id="p2">SFTEveryone</pc> and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p3">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Make sure that the Windows Firewall on the new computer that is running SQL Server is configured to allow the App-V Management Server to access the system.</source>
+          <target>Make sure that the Windows Firewall on the new computer that is running SQL Server is configured to allow the App-V Management Server to access the system.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administrative Tools</pc>, use the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows Firewall with Advanced Security</pc> program to create an <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Inbound Rule</pc> for the port that is used by SQL Server (default is port 1433).</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administrative Tools</pc>, use the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows Firewall with Advanced Security</pc> program to create an <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Inbound Rule</pc> for the port that is used by SQL Server (default is port 1433).</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>To migrate the App-V SQL Server Agent jobs</source>
+          <target>To migrate the App-V SQL Server Agent jobs</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the original computer that is running SQL Server, in SQL Server Management Studio, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SQL Server Agent</pc> node, and then expand the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Jobs</pc> node.</source>
+          <target>On the original computer that is running SQL Server, in SQL Server Management Studio, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SQL Server Agent</pc> node, and then expand the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Jobs</pc> node.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the following four App-V jobs and select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Script Job as | CREATE to | File</pc>, and save each script to a folder and give each script a descriptive name.</source>
+          <target>Right-click the following four App-V jobs and select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Script Job as | CREATE to | File</pc>, and save each script to a folder and give each script a descriptive name.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Softgrid Database (appvdbname) Check Usage History</source>
+          <target>Softgrid Database (appvdbname) Check Usage History</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Softgrid Database (appvdbname) Close Orphaned Sessions</source>
+          <target>Softgrid Database (appvdbname) Close Orphaned Sessions</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Softgrid Database (appvdbname) Enforce Size Limit</source>
+          <target>Softgrid Database (appvdbname) Enforce Size Limit</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Softgrid Database (appvdbname) Monitor Alert/Job Status</source>
+          <target>Softgrid Database (appvdbname) Monitor Alert/Job Status</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Copy the four script files (.sql) to the destination computer that is running SQL Server and open SQL Server Management Studio.</source>
+          <target>Copy the four script files (.sql) to the destination computer that is running SQL Server and open SQL Server Management Studio.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In Windows Explorer, right-click each .sql file and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run</pc>.</source>
+          <target>In Windows Explorer, right-click each .sql file and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Each script will open in a query window in SQL Server Management Studio.</source>
+          <target>Each script will open in a query window in SQL Server Management Studio.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Execute</pc> for each script and verify that each is completed successfully.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Execute</pc> for each script and verify that each is completed successfully.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Refresh the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Jobs</pc> node under the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SQL Server Agent</pc> node and confirm that the four jobs are created successfully.</source>
+          <target>Refresh the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Jobs</pc> node under the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SQL Server Agent</pc> node and confirm that the four jobs are created successfully.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>To update the configuration of the App-V Management Server</source>
+          <target>To update the configuration of the App-V Management Server</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>On the App-V Management Server, modify the following registry keys:</source>
+          <target>On the App-V Management Server, modify the following registry keys:</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3"> = &amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SQLServerName</pc>
+            <ph dataRef="id3" id="ph1" />newservername</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SQLServerName</pc>
+            <ph dataRef="id3" id="ph1" />newservername</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3"> = &amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SQLServerPort</pc>
+            <ph dataRef="id3" id="ph1" />newserverport</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SQLServerPort</pc>
+            <ph dataRef="id3" id="ph1" />newserverport</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Then restart the App-V server service.</source>
+          <target>Then restart the App-V server service.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Browse to find the file SftMgmt.udl under the App-V Management Server installation directory (default is C:<ph dataRef="id1" id="ph1" />Program Files<ph dataRef="id2" id="ph2" />Microsoft System Center App Virt Management Server<ph dataRef="id3" id="ph3" />App Virt Management Service).</source>
+          <target>Browse to find the file SftMgmt.udl under the App-V Management Server installation directory (default is C:<ph dataRef="id1" id="ph1" />Program Files<ph dataRef="id2" id="ph2" />Microsoft System Center App Virt Management Server<ph dataRef="id3" id="ph3" />App Virt Management Service).</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the file and select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Open</pc>.</source>
+          <target>Right-click the file and select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Open</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Connection</pc> tab, enter the name of the destination computer that is running SQL Server, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Test Connection</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Connection</pc> tab, enter the name of the destination computer that is running SQL Server, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Test Connection</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the test is successful, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc> again.</source>
+          <target>When the test is successful, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc> again.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>For App-V Management Server versions before 4.5 SP2, you must update the SQL Logging settings.</source>
+          <target>For App-V Management Server versions before 4.5 SP2, you must update the SQL Logging settings.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Server Groups</pc>, right-click the server group the server is a member of and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc>.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Server Groups</pc>, right-click the server group the server is a member of and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Logging</pc> tab click to select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SQL Database</pc> entry and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Edit</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Logging</pc> tab click to select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SQL Database</pc> entry and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Edit</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Change the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DNS Host Name</pc> to the host name of the new computer that is running SQL Server and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</source>
+          <target>Change the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DNS Host Name</pc> to the host name of the new computer that is running SQL Server and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> two times more, and then restart the App-V server service.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> two times more, and then restart the App-V server service.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the App-V Management Console, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applications</pc> node and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Refresh</pc>.</source>
+          <target>Open the App-V Management Console, right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applications</pc> node and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Refresh</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>The list of applications should be displayed as before.</source>
+          <target>The list of applications should be displayed as before.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

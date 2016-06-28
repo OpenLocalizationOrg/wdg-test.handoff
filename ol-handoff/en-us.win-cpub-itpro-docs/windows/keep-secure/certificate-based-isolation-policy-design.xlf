@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\certificate-based-isolation-policy-design.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">897404026838482dd03c42466242fde4e59f4039</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Certificate-based Isolation Policy Design (Windows 10)</source>
+          <target>Certificate-based Isolation Policy Design (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Certificate-based Isolation Policy Design</source>
+          <target>Certificate-based Isolation Policy Design</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Certificate-based Isolation Policy Design</source>
+          <target>Certificate-based Isolation Policy Design</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](domain-isolation-policy-design.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](server-isolation-policy-design.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the certificate-based isolation policy design, you provide the same types of protections to your network traffic as described in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Domain Isolation Policy Design</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Server Isolation Policy Design</pc> sections.</source>
+          <target>In the certificate-based isolation policy design, you provide the same types of protections to your network traffic as described in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Domain Isolation Policy Design</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Server Isolation Policy Design</pc> sections.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The only difference is the method used to share identification credentials during the authentication of your network traffic.</source>
+          <target>The only difference is the method used to share identification credentials during the authentication of your network traffic.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Domain isolation and server isolation help provide security for the devices on the network that run Windows and that can be joined to an Active Directory domain.</source>
+          <target>Domain isolation and server isolation help provide security for the devices on the network that run Windows and that can be joined to an Active Directory domain.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>However, in most corporate environments there are typically some devices that must run another operating system.</source>
+          <target>However, in most corporate environments there are typically some devices that must run another operating system.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>These devices cannot join an Active Directory domain, without a third-party package being installed.</source>
+          <target>These devices cannot join an Active Directory domain, without a third-party package being installed.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Also, some devices that do run Windows cannot join a domain for a variety of reasons.</source>
+          <target>Also, some devices that do run Windows cannot join a domain for a variety of reasons.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>To rely on Kerberos V5 as the authentication protocol, the device needs to be joined to the Active Directory and (for non-Windows devices) support Kerberos as an authentication protocol.</source>
+          <target>To rely on Kerberos V5 as the authentication protocol, the device needs to be joined to the Active Directory and (for non-Windows devices) support Kerberos as an authentication protocol.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>To authenticate with non-domain member devices, IPsec supports using standards-based cryptographic certificates.</source>
+          <target>To authenticate with non-domain member devices, IPsec supports using standards-based cryptographic certificates.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Because this authentication method is also supported by many third-party operating systems, it can be used as a way to extend your isolated domain to devices that do not run Windows.</source>
+          <target>Because this authentication method is also supported by many third-party operating systems, it can be used as a way to extend your isolated domain to devices that do not run Windows.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>The same principles of the domain and server isolation designs apply to this design.</source>
+          <target>The same principles of the domain and server isolation designs apply to this design.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Only devices that can authenticate (in this case, by providing a specified certificate) can communicate with the devices in your isolated domain.</source>
+          <target>Only devices that can authenticate (in this case, by providing a specified certificate) can communicate with the devices in your isolated domain.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>For Windows devices that are part of an Active Directory domain, you can use Group Policy to deploy the certificates required to communicate with the devices that are trusted but are not part of the Active Directory domain.</source>
+          <target>For Windows devices that are part of an Active Directory domain, you can use Group Policy to deploy the certificates required to communicate with the devices that are trusted but are not part of the Active Directory domain.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>For other devices, you will have to either manually configure them with the required certificates, or use a third-party program to distribute the certificates in a secure manner.</source>
+          <target>For other devices, you will have to either manually configure them with the required certificates, or use a third-party program to distribute the certificates in a secure manner.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>For more info about this design:</source>
+          <target>For more info about this design:</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](protect-devices-from-unwanted-network-traffic.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](restrict-access-to-only-trusted-devices.md)</data>
+          <data id="id5">[</data>
+          <data id="id6">](require-encryption-when-accessing-sensitive-network-resources.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>This design coincides with the deployment goals to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protect Devices from Unwanted Network Traffic</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Restrict Access to Only Trusted Devices</pc>, and optionally <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Require Encryption When Accessing Sensitive Network Resources</pc>.</source>
+          <target>This design coincides with the deployment goals to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protect Devices from Unwanted Network Traffic</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Restrict Access to Only Trusted Devices</pc>, and optionally <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Require Encryption When Accessing Sensitive Network Resources</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](certificate-based-isolation-policy-design-example.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more about this design, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificate-based Isolation Policy Design Example</pc>.</source>
+          <target>To learn more about this design, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificate-based Isolation Policy Design Example</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](designing-a-windows-firewall-with-advanced-security-strategy.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Before completing the design, gather the information described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Designing a Windows Firewall with Advanced Security Strategy</pc>.</source>
+          <target>Before completing the design, gather the information described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Designing a Windows Firewall with Advanced Security Strategy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](planning-certificate-based-authentication.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To help you make the decisions required in this design, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning Certificate-based Authentication</pc>.</source>
+          <target>To help you make the decisions required in this design, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning Certificate-based Authentication</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](checklist-implementing-a-certificate-based-isolation-policy-design.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For a list of tasks that you can use to deploy your certificate-based policy design, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Checklist: Implementing a Certificate-based Isolation Policy Design</pc>.</source>
+          <target>For a list of tasks that you can use to deploy your certificate-based policy design, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Checklist: Implementing a Certificate-based Isolation Policy Design</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](evaluating-windows-firewall-with-advanced-security-design-examples.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Evaluating Windows Firewall with Advanced Security Design Examples</pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Evaluating Windows Firewall with Advanced Security Design Examples</pc>
+          </target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

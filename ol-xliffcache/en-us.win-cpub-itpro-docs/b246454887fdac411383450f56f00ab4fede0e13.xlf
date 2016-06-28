@@ -1,0 +1,1130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\protecting-cluster-shared-volumes-and-storage-area-networks-with-bitlocker.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">b246454887fdac411383450f56f00ab4fede0e13</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Protecting cluster shared volumes and storage area networks with BitLocker (Windows 10)</source>
+          <target>Protecting cluster shared volumes and storage area networks with BitLocker (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic for IT pros describes how to protect CSVs and SANs with BitLocker.</source>
+          <target>This topic for IT pros describes how to protect CSVs and SANs with BitLocker.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Protecting cluster shared volumes and storage area networks with BitLocker</source>
+          <target>Protecting cluster shared volumes and storage area networks with BitLocker</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic for IT pros describes how to protect CSVs and SANs with BitLocker.</source>
+          <target>This topic for IT pros describes how to protect CSVs and SANs with BitLocker.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>BitLocker can protect both physical disk resources and cluster shared volumes version 2.0 (CSV2.0).</source>
+          <target>BitLocker can protect both physical disk resources and cluster shared volumes version 2.0 (CSV2.0).</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>BitLocker on clustered volumes allows for an additional layer of protection for administrators wishing to protect sensitive, highly available data.</source>
+          <target>BitLocker on clustered volumes allows for an additional layer of protection for administrators wishing to protect sensitive, highly available data.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>By adding additional protectors to the clustered volume, administrators can also add an additional barrier of security to resources within an organization by allowing only certain user accounts access to unlock the BitLocker volume.</source>
+          <target>By adding additional protectors to the clustered volume, administrators can also add an additional barrier of security to resources within an organization by allowing only certain user accounts access to unlock the BitLocker volume.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Configuring BitLocker on Cluster Shared Volumes</source>
+          <target>Configuring BitLocker on Cluster Shared Volumes</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Using BitLocker with Clustered Volumes</source>
+          <target>Using BitLocker with Clustered Volumes</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>BitLocker on volumes within a cluster are managed based on how the cluster service "views" the volume to be protected.</source>
+          <target>BitLocker on volumes within a cluster are managed based on how the cluster service "views" the volume to be protected.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The volume can be a physical disk resource such as a logical unit number (LUN) on a storage area network (SAN) or network attached storage (NAS).</source>
+          <target>The volume can be a physical disk resource such as a logical unit number (LUN) on a storage area network (SAN) or network attached storage (NAS).</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>  SANs used with BitLocker must have obtained Windows Hardware Certification.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>  SANs used with BitLocker must have obtained Windows Hardware Certification.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn930814.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Hardware Lab Kit</pc>.</source>
+          <target>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Hardware Lab Kit</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Alternatively, the volume can be a cluster-shared volume, a shared namespace, within the cluster.</source>
+          <target>Alternatively, the volume can be a cluster-shared volume, a shared namespace, within the cluster.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Windows Server 2012 expanded the CSV architecture, now known as CSV2.0, to enable support for BitLocker.</source>
+          <target>Windows Server 2012 expanded the CSV architecture, now known as CSV2.0, to enable support for BitLocker.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>When using BitLocker with volumes designated for a cluster, the volume will need to turn on BitLocker before its addition to the storage pool within cluster or put the resource into maintenance mode before BitLocker operations will complete.</source>
+          <target>When using BitLocker with volumes designated for a cluster, the volume will need to turn on BitLocker before its addition to the storage pool within cluster or put the resource into maintenance mode before BitLocker operations will complete.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Windows PowerShell or the manage-bde command line interface is the preferred method to manage BitLocker on CSV2.0 volumes.</source>
+          <target>Windows PowerShell or the manage-bde command line interface is the preferred method to manage BitLocker on CSV2.0 volumes.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>This is recommended over the BitLocker Control Panel item because CSV2.0 volumes are mount points.</source>
+          <target>This is recommended over the BitLocker Control Panel item because CSV2.0 volumes are mount points.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Mount points are an NTFS object that is used to provide an entry point to other volumes.</source>
+          <target>Mount points are an NTFS object that is used to provide an entry point to other volumes.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Mount points do not require the use of a drive letter.</source>
+          <target>Mount points do not require the use of a drive letter.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Volumes that lack drive letters do not appear in the BitLocker Control Panel item.</source>
+          <target>Volumes that lack drive letters do not appear in the BitLocker Control Panel item.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Additionally, the new Active Directory-based protector option required for cluster disk resource or CSV2.0 resources is not available in the Control Panel item.</source>
+          <target>Additionally, the new Active Directory-based protector option required for cluster disk resource or CSV2.0 resources is not available in the Control Panel item.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Mount points can be used to support remote mount points on SMB based network shares.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Mount points can be used to support remote mount points on SMB based network shares.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>This type of share is not supported for BitLocker encryption.</source>
+          <target>This type of share is not supported for BitLocker encryption.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>For thinly provisioned storage, such as a Dynamic Virtual Hard Disk (VHD), BitLocker runs in Used Disk Space Only encryption mode.</source>
+          <target>For thinly provisioned storage, such as a Dynamic Virtual Hard Disk (VHD), BitLocker runs in Used Disk Space Only encryption mode.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You cannot use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">manage-bde –WipeFreeSpace</pc> command to transition the volume to full-volume encryption on these types of volumes.</source>
+          <target>You cannot use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">manage-bde –WipeFreeSpace</pc> command to transition the volume to full-volume encryption on these types of volumes.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>This occurs because Full Encryption requires an end marker for the volume and dynamically expanding VHDs do not have a static end of volume marker.</source>
+          <target>This occurs because Full Encryption requires an end marker for the volume and dynamically expanding VHDs do not have a static end of volume marker.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Active Directory-based protector</source>
+          <target>Active Directory-based protector</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>You can also use an Active Directory Domain Services (AD DS) protector for protecting clustered volumes held within your AD DS infrastructure.</source>
+          <target>You can also use an Active Directory Domain Services (AD DS) protector for protecting clustered volumes held within your AD DS infrastructure.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ADAccountOrGroup</pc> protector is a domain security identifier (SID)-based protector that can be bound to a user account, machine account or group.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ADAccountOrGroup</pc> protector is a domain security identifier (SID)-based protector that can be bound to a user account, machine account or group.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>When an unlock request is made for a protected volume, the BitLocker service interrupts the request and uses the BitLocker protect/unprotect APIs to unlock or deny the request.</source>
+          <target>When an unlock request is made for a protected volume, the BitLocker service interrupts the request and uses the BitLocker protect/unprotect APIs to unlock or deny the request.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>BitLocker will unlock protected volumes without user intervention by attempting protectors in the following order:</source>
+          <target>BitLocker will unlock protected volumes without user intervention by attempting protectors in the following order:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Clear key</source>
+          <target>Clear key</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Driver-based auto-unlock key</source>
+          <target>Driver-based auto-unlock key</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>ADAccountOrGroup protector</source>
+          <target>ADAccountOrGroup protector</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Service context protector</source>
+          <target>Service context protector</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>User protector</source>
+          <target>User protector</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Registry-based auto-unlock key</source>
+          <target>Registry-based auto-unlock key</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  A Windows Server 2012 or later domain controller is required for this feature to work properly.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  A Windows Server 2012 or later domain controller is required for this feature to work properly.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Turning on BitLocker before adding disks to a cluster using Windows PowerShell</source>
+          <target>Turning on BitLocker before adding disks to a cluster using Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>BitLocker encryption is available for disks before or after addition to a cluster storage pool.</source>
+          <target>BitLocker encryption is available for disks before or after addition to a cluster storage pool.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>The advantage of encrypting volumes prior to adding them to a cluster is that the disk resource does not require suspending the resource to complete the operation.</source>
+          <target>The advantage of encrypting volumes prior to adding them to a cluster is that the disk resource does not require suspending the resource to complete the operation.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>To turn on BitLocker for a disk before adding it to a cluster, do the following:</source>
+          <target>To turn on BitLocker for a disk before adding it to a cluster, do the following:</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Install the BitLocker Drive Encryption feature if it is not already installed.</source>
+          <target>Install the BitLocker Drive Encryption feature if it is not already installed.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Ensure the disk is formatted NTFS and has a drive letter assigned to it.</source>
+          <target>Ensure the disk is formatted NTFS and has a drive letter assigned to it.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Enable BitLocker on the volume using your choice of protector.</source>
+          <target>Enable BitLocker on the volume using your choice of protector.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>A password protector is used in the Windows PowerShell script example below.</source>
+          <target>A password protector is used in the Windows PowerShell script example below.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Identify the name of the cluster with Windows PowerShell.</source>
+          <target>Identify the name of the cluster with Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add an <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ADAccountOrGroup</pc>protector to the volume using the cluster name using a command such as:</source>
+          <target>Add an <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ADAccountOrGroup</pc>protector to the volume using the cluster name using a command such as:</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Warning:</pc>  You must add an <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ADAccountOrGroup</pc> protector using the cluster CNO for a BitLocker enabled volume to either be shared in a Cluster Shared Volume or to failover properly in a traditional failover cluster.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Warning:</pc>  You must add an <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ADAccountOrGroup</pc> protector using the cluster CNO for a BitLocker enabled volume to either be shared in a Cluster Shared Volume or to failover properly in a traditional failover cluster.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Repeat steps 1-6 for each disk in the cluster.</source>
+          <target>Repeat steps 1-6 for each disk in the cluster.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Add the volume(s) to the cluster.</source>
+          <target>Add the volume(s) to the cluster.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Turning on BitLocker for a clustered disk using Windows PowerShell</source>
+          <target>Turning on BitLocker for a clustered disk using Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>When the cluster service owns a disk resource already, it needs to be set into maintenance mode before BitLocker can be enabled.</source>
+          <target>When the cluster service owns a disk resource already, it needs to be set into maintenance mode before BitLocker can be enabled.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Use the following steps for turning BitLocker on for a clustered disk:</source>
+          <target>Use the following steps for turning BitLocker on for a clustered disk:</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Install the BitLocker Drive Encryption feature if it is not already installed.</source>
+          <target>Install the BitLocker Drive Encryption feature if it is not already installed.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Check the status of the cluster disk using Windows PowerShell.</source>
+          <target>Check the status of the cluster disk using Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Put the physical disk resource into maintenance mode using Windows PowerShell.</source>
+          <target>Put the physical disk resource into maintenance mode using Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Enable BitLocker on the volume using your choice of protector.</source>
+          <target>Enable BitLocker on the volume using your choice of protector.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>A password protector is used in the example below.</source>
+          <target>A password protector is used in the example below.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Identify the name of the cluster with Windows PowerShell</source>
+          <target>Identify the name of the cluster with Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add an <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ADAccountOrGroup</pc> protector with the Cluster Name Object (CNO) to the volume using a command such as:</source>
+          <target>Add an <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ADAccountOrGroup</pc> protector with the Cluster Name Object (CNO) to the volume using a command such as:</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Warning:</pc>  You must add an <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ADAccountOrGroup</pc> protector using the cluster CNO for a BitLocker enabled volume to either be shared in a Cluster Shared Volume or to failover properly in a traditional failover cluster.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Warning:</pc>  You must add an <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ADAccountOrGroup</pc> protector using the cluster CNO for a BitLocker enabled volume to either be shared in a Cluster Shared Volume or to failover properly in a traditional failover cluster.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Repeat steps 1-6 for each disk in the cluster.</source>
+          <target>Repeat steps 1-6 for each disk in the cluster.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Add the volume(s) to the cluster</source>
+          <target>Add the volume(s) to the cluster</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Adding BitLocker encrypted volumes to a cluster using manage-bde</source>
+          <target>Adding BitLocker encrypted volumes to a cluster using manage-bde</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>You can also use manage-bde to enable BitLocker on clustered volumes.</source>
+          <target>You can also use manage-bde to enable BitLocker on clustered volumes.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>The steps needed to add a physical disk resource or CSV2.0 volume to an existing cluster includes the following:</source>
+          <target>The steps needed to add a physical disk resource or CSV2.0 volume to an existing cluster includes the following:</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Verify the BitLocker Drive Encryption feature is installed on the computer.</source>
+          <target>Verify the BitLocker Drive Encryption feature is installed on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Ensure new storage is formatted as NTFS.</source>
+          <target>Ensure new storage is formatted as NTFS.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Encrypt the volume, add a recovery key and add the cluster administrator as a protector key using the manage-bde command line interface (see example):</source>
+          <target>Encrypt the volume, add a recovery key and add the cluster administrator as a protector key using the manage-bde command line interface (see example):</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>BitLocker will check to see if the disk is already part of a cluster.</source>
+          <target>BitLocker will check to see if the disk is already part of a cluster.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>If it is, administrators will encounter a hard block.</source>
+          <target>If it is, administrators will encounter a hard block.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Otherwise, the encryption will continue.</source>
+          <target>Otherwise, the encryption will continue.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Using the -sync parameter is optional.</source>
+          <target>Using the -sync parameter is optional.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Using it ensures the command waits until the encryption for the volume is completed before releasing the volume for use in the cluster storage pool.</source>
+          <target>Using it ensures the command waits until the encryption for the volume is completed before releasing the volume for use in the cluster storage pool.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Open the Failover Cluster Manager snap-in or cluster PowerShell cmdlets to enable the disk to be clustered</source>
+          <target>Open the Failover Cluster Manager snap-in or cluster PowerShell cmdlets to enable the disk to be clustered</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Once the disk is clustered it can also be enabled for CSV.</source>
+          <target>Once the disk is clustered it can also be enabled for CSV.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>During the resource online operation, cluster will check to see if the disk is BitLocker encrypted.</source>
+          <target>During the resource online operation, cluster will check to see if the disk is BitLocker encrypted.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>If the volume is not BitLocker enabled, traditional cluster online operations occur.</source>
+          <target>If the volume is not BitLocker enabled, traditional cluster online operations occur.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>If the volume is BitLocker enabled, the following check occurs:</source>
+          <target>If the volume is BitLocker enabled, the following check occurs:</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If volume is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">locked</pc>, BitLocker will impersonate the CNO and unlock the volume using the CNO protector.</source>
+          <target>If volume is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">locked</pc>, BitLocker will impersonate the CNO and unlock the volume using the CNO protector.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>If this operation fails an event will be logged that the volume could not be unlocked and the online operation will fail.</source>
+          <target>If this operation fails an event will be logged that the volume could not be unlocked and the online operation will fail.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Once the disk is online in the storage pool, it can be added to a CSV by right clicking on the disk resource and choosing "<pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add to cluster shared volumes</pc>".</source>
+          <target>Once the disk is online in the storage pool, it can be added to a CSV by right clicking on the disk resource and choosing "<pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add to cluster shared volumes</pc>".</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>CSVs can include both encrypted and unencrypted volumes.</source>
+          <target>CSVs can include both encrypted and unencrypted volumes.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>To check the status of a particular volume for BitLocker encryption, administrators can utilize the manage-bde -status command with a path to the volume inside the CSV namespace as seen in the example command line below.</source>
+          <target>To check the status of a particular volume for BitLocker encryption, administrators can utilize the manage-bde -status command with a path to the volume inside the CSV namespace as seen in the example command line below.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Physical Disk Resources</source>
+          <target>Physical Disk Resources</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Unlike CSV2.0 volumes, physical disk resources can only be accessed by one cluster node at a time.</source>
+          <target>Unlike CSV2.0 volumes, physical disk resources can only be accessed by one cluster node at a time.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>This means that operations such as encrypting, decrypting, locking or unlocking volumes require context to perform.</source>
+          <target>This means that operations such as encrypting, decrypting, locking or unlocking volumes require context to perform.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>For example, you cannot unlock or decrypt a physical disk resource if you are not administering the cluster node that owns the disk resource because the disk resource is not available.</source>
+          <target>For example, you cannot unlock or decrypt a physical disk resource if you are not administering the cluster node that owns the disk resource because the disk resource is not available.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Restrictions on BitLocker actions with cluster volumes</source>
+          <target>Restrictions on BitLocker actions with cluster volumes</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>The following table contains information about both Physical Disk Resources (i.e. traditional failover cluster volumes) and Cluster Shared Volumes (CSV) and the actions that are allowed by BitLocker in each situation.</source>
+          <target>The following table contains information about both Physical Disk Resources (i.e. traditional failover cluster volumes) and Cluster Shared Volumes (CSV) and the actions that are allowed by BitLocker in each situation.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Action</source>
+          <target>Action</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>On owner node of failover volume</source>
+          <target>On owner node of failover volume</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>On Metadata Server (MDS) of CSV</source>
+          <target>On Metadata Server (MDS) of CSV</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>On (Data Server) DS of CSV</source>
+          <target>On (Data Server) DS of CSV</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Maintenance Mode</source>
+          <target>Maintenance Mode</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Manage-bde –on</source>
+          <target>Manage-bde –on</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Manage-bde –off</source>
+          <target>Manage-bde –off</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Manage-bde Pause/Resume</source>
+          <target>Manage-bde Pause/Resume</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Blocked**</source>
+          <target>Blocked**</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Manage-bde –lock</source>
+          <target>Manage-bde –lock</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>manage-bde –wipe</source>
+          <target>manage-bde –wipe</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Unlock</source>
+          <target>Unlock</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Automatic via cluster service</source>
+          <target>Automatic via cluster service</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Automatic via cluster service</source>
+          <target>Automatic via cluster service</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Automatic via cluster service</source>
+          <target>Automatic via cluster service</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>manage-bde –protector –add</source>
+          <target>manage-bde –protector –add</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>manage-bde -protector -delete</source>
+          <target>manage-bde -protector -delete</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>manage-bde –autounlock</source>
+          <target>manage-bde –autounlock</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>Allowed (not recommended)</source>
+          <target>Allowed (not recommended)</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Allowed (not recommended)</source>
+          <target>Allowed (not recommended)</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Allowed (not recommended)</source>
+          <target>Allowed (not recommended)</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>Manage-bde -upgrade</source>
+          <target>Manage-bde -upgrade</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Shrink</source>
+          <target>Shrink</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Extend</source>
+          <target>Extend</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Blocked</source>
+          <target>Blocked</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>Allowed</source>
+          <target>Allowed</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Although the manage-bde -pause command is Blocked in clusters, the cluster service will automatically resume a paused encryption or decryption from the MDS node</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Although the manage-bde -pause command is Blocked in clusters, the cluster service will automatically resume a paused encryption or decryption from the MDS node</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>In the case where a physical disk resource experiences a failover event during conversion, the new owning node will detect the conversion is not complete and will complete the conversion process.</source>
+          <target>In the case where a physical disk resource experiences a failover event during conversion, the new owning node will detect the conversion is not complete and will complete the conversion process.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>Other considerations when using BitLocker on CSV2.0</source>
+          <target>Other considerations when using BitLocker on CSV2.0</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Some other considerations to take into account for BitLocker on clustered storage include the following:</source>
+          <target>Some other considerations to take into account for BitLocker on clustered storage include the following:</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>BitLocker volumes have to be initialized and beginning encryption before they are available to add to a CSV2.0 volume.</source>
+          <target>BitLocker volumes have to be initialized and beginning encryption before they are available to add to a CSV2.0 volume.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>If an administrator needs to decrypt a CSV volume, remove the volume from the cluster or put into disk maintenance mode.</source>
+          <target>If an administrator needs to decrypt a CSV volume, remove the volume from the cluster or put into disk maintenance mode.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>You can add the CSV back to the cluster while waiting for decryption to complete.</source>
+          <target>You can add the CSV back to the cluster while waiting for decryption to complete.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>If an administrator needs to start encrypting a CSV volume, remove the volume from the cluster or put it in maintenance mode.</source>
+          <target>If an administrator needs to start encrypting a CSV volume, remove the volume from the cluster or put it in maintenance mode.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>If conversion is paused with encryption in progress and the CSV volume is offline from the cluster, the cluster thread (health check) will automatically resume conversion when the volume is online to the cluster.</source>
+          <target>If conversion is paused with encryption in progress and the CSV volume is offline from the cluster, the cluster thread (health check) will automatically resume conversion when the volume is online to the cluster.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>If conversion is paused with encryption in progress and a physical disk resource volume is offline from the cluster, the BitLocker driver will automatically resume conversion when the volume is online to the cluster.</source>
+          <target>If conversion is paused with encryption in progress and a physical disk resource volume is offline from the cluster, the BitLocker driver will automatically resume conversion when the volume is online to the cluster.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>If conversion is paused with encryption in progress, while the CSV volume is in maintenance mode, the cluster thread (health check) will automatically resume conversion when moving the volume back from maintenance.</source>
+          <target>If conversion is paused with encryption in progress, while the CSV volume is in maintenance mode, the cluster thread (health check) will automatically resume conversion when moving the volume back from maintenance.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>If conversion is paused with encryption in progress, while the disk resource volume is in maintenance mode, the BitLocker driver will automatically resume conversion when the volume is moved back from maintenance mode.</source>
+          <target>If conversion is paused with encryption in progress, while the disk resource volume is in maintenance mode, the BitLocker driver will automatically resume conversion when the volume is moved back from maintenance mode.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

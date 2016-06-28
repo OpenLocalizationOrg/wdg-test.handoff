@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\audit-credential-validation.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">470872687dc734d579e336f7212bb77f44cf2c33</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Audit Credential Validation (Windows 10)</source>
+          <target>Audit Credential Validation (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic for the IT professional describes the advanced security audit policy setting, Audit Credential Validation, which determines whether the operating system generates audit events on credentials that are submitted for a user account logon request.</source>
+          <target>This topic for the IT professional describes the advanced security audit policy setting, Audit Credential Validation, which determines whether the operating system generates audit events on credentials that are submitted for a user account logon request.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Audit Credential Validation</source>
+          <target>Audit Credential Validation</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016</source>
+          <target>Windows Server 2016</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Audit Credential Validation determines whether the operating system generates audit events on credentials that are submitted for a user account logon request.</source>
+          <target>Audit Credential Validation determines whether the operating system generates audit events on credentials that are submitted for a user account logon request.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>These events occur on the computer that is authoritative for the credentials as follows:</source>
+          <target>These events occur on the computer that is authoritative for the credentials as follows:</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>For domain accounts, the domain controller is authoritative.</source>
+          <target>For domain accounts, the domain controller is authoritative.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>For local accounts, the local computer is authoritative.</source>
+          <target>For local accounts, the local computer is authoritative.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Event volume</pc>:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Event volume</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>High on domain controllers.</source>
+          <target>High on domain controllers.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Low on member servers and workstations.</source>
+          <target>Low on member servers and workstations.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Because domain accounts are used much more frequently than local accounts in enterprise environments, most of the Account Logon events in a domain environment occur on the domain controllers that are authoritative for the domain accounts.</source>
+          <target>Because domain accounts are used much more frequently than local accounts in enterprise environments, most of the Account Logon events in a domain environment occur on the domain controllers that are authoritative for the domain accounts.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>However, these events can occur on any computer, and they may occur in conjunction with or on separate computers from Logon and Logoff events.</source>
+          <target>However, these events can occur on any computer, and they may occur in conjunction with or on separate computers from Logon and Logoff events.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>The main reason to enable this auditing subcategory is to handle local accounts authentication attempts and, for domain accounts, NTLM authentication in the domain.</source>
+          <target>The main reason to enable this auditing subcategory is to handle local accounts authentication attempts and, for domain accounts, NTLM authentication in the domain.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>It is especially useful for monitoring unsuccessful attempts, to find brute-force attacks, account enumeration, and potential account compromise events on domain controllers.</source>
+          <target>It is especially useful for monitoring unsuccessful attempts, to find brute-force attacks, account enumeration, and potential account compromise events on domain controllers.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Computer Type</source>
+          <target>Computer Type</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>General Success</source>
+          <target>General Success</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>General Failure</source>
+          <target>General Failure</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Stronger Success</source>
+          <target>Stronger Success</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Stronger Failure</source>
+          <target>Stronger Failure</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Comments</source>
+          <target>Comments</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Domain Controller</source>
+          <target>Domain Controller</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>IF</source>
+          <target>IF</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Expected volume of events is high for domain controllers, because this subcategory will generate events when an authentication attempt is made using any domain account and NTLM authentication.</source>
+          <target>Expected volume of events is high for domain controllers, because this subcategory will generate events when an authentication attempt is made using any domain account and NTLM authentication.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>IF – We recommend Success auditing to keep track of domain-account authentication events using the NTLM protocol.</source>
+          <target>IF – We recommend Success auditing to keep track of domain-account authentication events using the NTLM protocol.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Expect a high volume of events.</source>
+          <target>Expect a high volume of events.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">***</data>
+          <data id="id2">***</data>
+        </originalData>
+        <segment state="initial">
+          <source>For recommendations for using and analyzing the collected information, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security Monitoring Recommendations</pc> sections.</source>
+          <target>For recommendations for using and analyzing the collected information, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security Monitoring Recommendations</pc> sections.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Just collecting Success auditing events in this subcategory for future use in case of a security incident is not very useful, because events in this subcategory are not always informative.</source>
+          <target>Just collecting Success auditing events in this subcategory for future use in case of a security incident is not very useful, because events in this subcategory are not always informative.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>We recommend Failure auditing, to collect information about failed authentication attempts using domain accounts and the NTLM authentication protocol.</source>
+          <target>We recommend Failure auditing, to collect information about failed authentication attempts using domain accounts and the NTLM authentication protocol.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Member Server</source>
+          <target>Member Server</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Expected volume of events is low for member servers, because this subcategory will generate events when an authentication attempt is made using a local account, which should not happen too often.</source>
+          <target>Expected volume of events is low for member servers, because this subcategory will generate events when an authentication attempt is made using a local account, which should not happen too often.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>We recommend Success auditing, to keep track of authentication events by local accounts.</source>
+          <target>We recommend Success auditing, to keep track of authentication events by local accounts.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>We recommend Failure auditing, to collect information about failed authentication attempts by local accounts.</source>
+          <target>We recommend Failure auditing, to collect information about failed authentication attempts by local accounts.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Workstation</source>
+          <target>Workstation</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Expected volume of events is low for workstations, because this subcategory will generate events when an authentication attempt is made using a local account, which should not happen too often.</source>
+          <target>Expected volume of events is low for workstations, because this subcategory will generate events when an authentication attempt is made using a local account, which should not happen too often.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>We recommend Success auditing, to keep track of authentication events by local accounts.</source>
+          <target>We recommend Success auditing, to keep track of authentication events by local accounts.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>We recommend Failure auditing, to collect information about failed authentication attempts by local accounts.</source>
+          <target>We recommend Failure auditing, to collect information about failed authentication attempts by local accounts.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Events List:</source>
+          <target>Events List:</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](event-4774.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">4774</pc>(S): An account was mapped for logon.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">4774</pc>(S): An account was mapped for logon.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](event-4775.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">4775</pc>(F): An account could not be mapped for logon.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">4775</pc>(F): An account could not be mapped for logon.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](event-4776.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">4776</pc>(S, F): The computer attempted to validate the credentials for an account.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">4776</pc>(S, F): The computer attempted to validate the credentials for an account.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](event-4777.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">4777</pc>(F): The domain controller failed to validate the credentials for an account.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">4777</pc>(F): The domain controller failed to validate the credentials for an account.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

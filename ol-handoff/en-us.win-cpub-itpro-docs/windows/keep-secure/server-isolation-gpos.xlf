@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\server-isolation-gpos.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">c0913f82e7b25f2f300f4ce91c1ffa41e01c0d92</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Server Isolation GPOs (Windows 10)</source>
+          <target>Server Isolation GPOs (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Server Isolation GPOs</source>
+          <target>Server Isolation GPOs</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Server Isolation GPOs</source>
+          <target>Server Isolation GPOs</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Each set of devices that have different users or devices accessing them require a separate server isolation zone.</source>
+          <target>Each set of devices that have different users or devices accessing them require a separate server isolation zone.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Each zone requires one GPO for each version of Windows running on devices in the zone.</source>
+          <target>Each zone requires one GPO for each version of Windows running on devices in the zone.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The Woodgrove Bank example has an isolation zone for their devices that run SQL Server.</source>
+          <target>The Woodgrove Bank example has an isolation zone for their devices that run SQL Server.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>The server isolation zone is logically considered part of the encryption zone.</source>
+          <target>The server isolation zone is logically considered part of the encryption zone.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Therefore, server isolation zone GPOs must also include rules for encrypting all isolated server traffic.</source>
+          <target>Therefore, server isolation zone GPOs must also include rules for encrypting all isolated server traffic.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Woodgrove Bank copied the encryption zone GPOs to serve as a starting point, and renamed them to reflect their new purpose.</source>
+          <target>Woodgrove Bank copied the encryption zone GPOs to serve as a starting point, and renamed them to reflect their new purpose.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>All of the device accounts for devices in the SQL Server server isolation zone are added to the group CG<ph dataRef="id1" id="ph1" />SRVISO<ph dataRef="id2" id="ph2" />WGBANK<ph dataRef="id3" id="ph3" />SQL.</source>
+          <target>All of the device accounts for devices in the SQL Server server isolation zone are added to the group CG<ph dataRef="id1" id="ph1" />SRVISO<ph dataRef="id2" id="ph2" />WGBANK<ph dataRef="id3" id="ph3" />SQL.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>This group is granted Read and Apply Group Policy permissions in on the GPOs described in this section.</source>
+          <target>This group is granted Read and Apply Group Policy permissions in on the GPOs described in this section.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>The GPOs are only for server versions of Windows.</source>
+          <target>The GPOs are only for server versions of Windows.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Client devices are not expected to be members of the server isolation zone, although they can access the servers in the zone by being a member of a network access group (NAG) for the zone.</source>
+          <target>Client devices are not expected to be members of the server isolation zone, although they can access the servers in the zone by being a member of a network access group (NAG) for the zone.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>GPO<ph dataRef="id1" id="ph1" />SRVISO</source>
+          <target>GPO<ph dataRef="id1" id="ph1" />SRVISO</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>This GPO is identical to the GPO<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />Encryption GPO with the following changes:</source>
+          <target>This GPO is identical to the GPO<ph dataRef="id1" id="ph1" />DOMISO<ph dataRef="id2" id="ph2" />Encryption GPO with the following changes:</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The firewall rule that enforces encryption is modified to include the NAGs on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Users and Computers</pc> tab of the rule.</source>
+          <target>The firewall rule that enforces encryption is modified to include the NAGs on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Users and Computers</pc> tab of the rule.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+          <data id="id5">\_</data>
+          <data id="id6">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The NAGs granted permission include CG<ph dataRef="id1" id="ph1" />NAG<ph dataRef="id2" id="ph2" />SQL<ph dataRef="id3" id="ph3" />Users and CG<ph dataRef="id4" id="ph4" />NAG<ph dataRef="id5" id="ph5" />SQL<ph dataRef="id6" id="ph6" />Computers.</source>
+          <target>The NAGs granted permission include CG<ph dataRef="id1" id="ph1" />NAG<ph dataRef="id2" id="ph2" />SQL<ph dataRef="id3" id="ph3" />Users and CG<ph dataRef="id4" id="ph4" />NAG<ph dataRef="id5" id="ph5" />SQL<ph dataRef="id6" id="ph6" />Computers.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  Earlier versions of Windows support only device-based authentication.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc>  Earlier versions of Windows support only device-based authentication.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>If you specify that user authentication is mandatory, only users on devices that are running at least Windows Vista or Windows Server 2008 can connect.</source>
+          <target>If you specify that user authentication is mandatory, only users on devices that are running at least Windows Vista or Windows Server 2008 can connect.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](planning-gpo-deployment.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Planning GPO Deployment</pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Planning GPO Deployment</pc>
+          </target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

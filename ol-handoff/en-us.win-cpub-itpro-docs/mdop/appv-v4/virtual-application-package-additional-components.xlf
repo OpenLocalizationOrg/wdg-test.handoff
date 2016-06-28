@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\appv-v4\virtual-application-package-additional-components.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">1fdd855c9727e71aa9b77bca17c853c507e558c5</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Virtual Application Package Additional Components</source>
+          <target>Virtual Application Package Additional Components</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Virtual Application Package Additional Components</source>
+          <target>Virtual Application Package Additional Components</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Virtual Application Package Additional Components</source>
+          <target>Virtual Application Package Additional Components</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>The App-V Sequencer has detected a directory that contains 64-bit and 32-bit executables and/or dynamic-link library (.dll) files that depend on the same side-by-side assembly.</source>
+          <target>The App-V Sequencer has detected a directory that contains 64-bit and 32-bit executables and/or dynamic-link library (.dll) files that depend on the same side-by-side assembly.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Typically, the Sequencer creates private side-by-side assemblies for all public assemblies that are used by the package; however, it is not possible to create 32-bit and 64-bit versions of the private assemblies in the same directory.</source>
+          <target>Typically, the Sequencer creates private side-by-side assemblies for all public assemblies that are used by the package; however, it is not possible to create 32-bit and 64-bit versions of the private assemblies in the same directory.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>If the Sequencer detects a single conflict, it will perform the following actions:</source>
+          <target>If the Sequencer detects a single conflict, it will perform the following actions:</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Remove all of the existing 64-bit private assemblies in the entire package, whether or not the directory has a conflict.</source>
+          <target>Remove all of the existing 64-bit private assemblies in the entire package, whether or not the directory has a conflict.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Create only 32-bit versions of the private side-by-side assemblies.</source>
+          <target>Create only 32-bit versions of the private side-by-side assemblies.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>You should natively install public versions of all the required 64-bit assemblies on the computer running the Sequencer and on all App-V client computers.</source>
+          <target>You should natively install public versions of all the required 64-bit assemblies on the computer running the Sequencer and on all App-V client computers.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To locate the required existing public assemblies, open the directory where the package is saved and look in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VFS</pc> folder.</source>
+          <target>To locate the required existing public assemblies, open the directory where the package is saved and look in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VFS</pc> folder.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+          <data id="id9">\_</data>
+          <data id="id10">\\</data>
+          <data id="id11">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, if the package root is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Q:<ph dataRef="id3" id="ph1" />MyApp</pc>, when you sequence the application, look in <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Q:<ph dataRef="id6" id="ph2" />MyApp<ph dataRef="id7" id="ph3" />VFS<ph dataRef="id8" id="ph4" />CSIDL<ph dataRef="id9" id="ph5" />Windows<ph dataRef="id10" id="ph6" />WinSxS<ph dataRef="id11" id="ph7" />Manifests</pc> and locate all of the existing public assemblies.</source>
+          <target>For example, if the package root is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Q:<ph dataRef="id3" id="ph1" />MyApp</pc>, when you sequence the application, look in <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Q:<ph dataRef="id6" id="ph2" />MyApp<ph dataRef="id7" id="ph3" />VFS<ph dataRef="id8" id="ph4" />CSIDL<ph dataRef="id9" id="ph5" />Windows<ph dataRef="id10" id="ph6" />WinSxS<ph dataRef="id11" id="ph7" />Manifests</pc> and locate all of the existing public assemblies.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The 64-bit versions of these files will always start with the following text at the beginning of the manifest name: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">amd64…</pc>.</source>
+          <target>The 64-bit versions of these files will always start with the following text at the beginning of the manifest name: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">amd64…</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The exact name and version of the assembly can be found in the associated manifest file.</source>
+          <target>The exact name and version of the assembly can be found in the associated manifest file.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Use any of the following links to download and install the correct version of the required prerequisites:</source>
+          <target>Use any of the following links to download and install the correct version of the required prerequisites:</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Microsoft Visual C++ 2005 Redistributable Package (x64)</source>
+          <target>Microsoft Visual C++ 2005 Redistributable Package (x64)</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Microsoft Visual C++ 2005 SP1 Redistributable Package (x64)</source>
+          <target>Microsoft Visual C++ 2005 SP1 Redistributable Package (x64)</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Microsoft Visual C++ 2008 Redistributable Package (x64)</source>
+          <target>Microsoft Visual C++ 2008 Redistributable Package (x64)</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Microsoft Visual C++ 2008 SP1 Redistributable Package (x64)</source>
+          <target>Microsoft Visual C++ 2008 SP1 Redistributable Package (x64)</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

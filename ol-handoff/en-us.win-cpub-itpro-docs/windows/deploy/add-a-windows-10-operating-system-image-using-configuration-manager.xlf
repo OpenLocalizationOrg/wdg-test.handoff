@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\deploy\add-a-windows-10-operating-system-image-using-configuration-manager.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">00a50881a7e0e758da43186c20e559710121f6e8</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Add a Windows 10 operating system image using Configuration Manager (Windows 10)</source>
+          <target>Add a Windows 10 operating system image using Configuration Manager (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Operating system images are typically the production image used for deployment throughout the organization.</source>
+          <target>Operating system images are typically the production image used for deployment throughout the organization.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Add a Windows 10 operating system image using Configuration Manager</source>
+          <target>Add a Windows 10 operating system image using Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Operating system images are typically the production image used for deployment throughout the organization.</source>
+          <target>Operating system images are typically the production image used for deployment throughout the organization.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>This topic shows you how to add a Windows 10 operating system image created with Microsoft System Center 2012 R2 Configuration Manager, and how to distribute the image to a distribution point.</source>
+          <target>This topic shows you how to add a Windows 10 operating system image created with Microsoft System Center 2012 R2 Configuration Manager, and how to distribute the image to a distribution point.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>For the purposes of this topic, we will use CM01, a machine running Windows Server 2012 R2 Standard, as the distribution point.</source>
+          <target>For the purposes of this topic, we will use CM01, a machine running Windows Server 2012 R2 Standard, as the distribution point.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>CM01 is a member of the domain contoso.com for the fictitious Contoso Corporation.</source>
+          <target>CM01 is a member of the domain contoso.com for the fictitious Contoso Corporation.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](deploy-windows-10-with-the-microsoft-deployment-toolkit.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more details on the setup for this topic, please see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy Windows 10 with the Microsoft Deployment Toolkit</pc>.</source>
+          <target>For more details on the setup for this topic, please see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy Windows 10 with the Microsoft Deployment Toolkit</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Our image is named REFW10-X64-001.wim.</source>
+          <target>Our image is named REFW10-X64-001.wim.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](create-a-windows-10-reference-image.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For details on building this image, please see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create a Windows 10 reference image</pc>.</source>
+          <target>For details on building this image, please see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create a Windows 10 reference image</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using File Explorer, in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />Sources<ph dataRef="id4" id="ph2" />OSD<ph dataRef="id5" id="ph3" />OS</pc> folder, create a subfolder named <pc dataRefEnd="id7" dataRefStart="id6" id="p2">Windows 10 Enterprise x64 RTM</pc>.</source>
+          <target>Using File Explorer, in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />Sources<ph dataRef="id4" id="ph2" />OSD<ph dataRef="id5" id="ph3" />OS</pc> folder, create a subfolder named <pc dataRefEnd="id7" dataRefStart="id6" id="p2">Windows 10 Enterprise x64 RTM</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Copy the REFW10-X64-001.wim file to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />Sources<ph dataRef="id4" id="ph2" />OSD<ph dataRef="id5" id="ph3" />OS<ph dataRef="id6" id="ph4" />Windows 10 Enterprise x64 RTM</pc> folder.</source>
+          <target>Copy the REFW10-X64-001.wim file to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />Sources<ph dataRef="id4" id="ph2" />OSD<ph dataRef="id5" id="ph3" />OS<ph dataRef="id6" id="ph4" />Windows 10 Enterprise x64 RTM</pc> folder.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>figure 17</source>
+          <target>figure 17</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Figure 17.</source>
+          <target>Figure 17.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>The Windows 10 image copied to the Sources folder structure.</source>
+          <target>The Windows 10 image copied to the Sources folder structure.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the Configuration Manager Console, in the Software Library workspace, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating System Images</pc>, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add Operating System Image</pc>.</source>
+          <target>Using the Configuration Manager Console, in the Software Library workspace, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating System Images</pc>, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add Operating System Image</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\\\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+          <data id="id9">\\</data>
+          <data id="id10">\\</data>
+          <data id="id11">**</data>
+          <data id="id12">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Data Source</pc> page, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Path:</pc> text box, browse to <ph dataRef="id5" id="ph1" />CM01<ph dataRef="id6" id="ph2" />Sources$<ph dataRef="id7" id="ph3" />OSD<ph dataRef="id8" id="ph4" />OS<ph dataRef="id9" id="ph5" />Windows 10 Enterprise x64 RTM<ph dataRef="id10" id="ph6" />REFW10-X64-001.wim and click <pc dataRefEnd="id12" dataRefStart="id11" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Data Source</pc> page, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Path:</pc> text box, browse to <ph dataRef="id5" id="ph1" />CM01<ph dataRef="id6" id="ph2" />Sources$<ph dataRef="id7" id="ph3" />OSD<ph dataRef="id8" id="ph4" />OS<ph dataRef="id9" id="ph5" />Windows 10 Enterprise x64 RTM<ph dataRef="id10" id="ph6" />REFW10-X64-001.wim and click <pc dataRefEnd="id12" dataRefStart="id11" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> page, assign the name Windows 10 Enterprise x64 RTM and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc> twice, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Close</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> page, assign the name Windows 10 Enterprise x64 RTM and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc> twice, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Distribute the operating system image to the CM01 distribution point by right-clicking the Windows 10 Enterprise x64 RTM operating system image and selecting <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Distribute Content</pc>.</source>
+          <target>Distribute the operating system image to the CM01 distribution point by right-clicking the Windows 10 Enterprise x64 RTM operating system image and selecting <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Distribute Content</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>In the Distribute Content Wizard, add the CM01 distribution point.</source>
+          <target>In the Distribute Content Wizard, add the CM01 distribution point.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>View the content status for the Windows 10 Enterprise x64 RTM package.</source>
+          <target>View the content status for the Windows 10 Enterprise x64 RTM package.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Do not continue until the distribution is completed.</source>
+          <target>Do not continue until the distribution is completed.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You also can review the E:<ph dataRef="id1" id="ph1" />Program Files<ph dataRef="id2" id="ph2" />Microsoft Configuration Manager<ph dataRef="id3" id="ph3" />Logs<ph dataRef="id4" id="ph4" />distmgr.log file and look for the <pc dataRefEnd="id6" dataRefStart="id5" id="p1">STATMSG: ID=2301</pc> line.</source>
+          <target>You also can review the E:<ph dataRef="id1" id="ph1" />Program Files<ph dataRef="id2" id="ph2" />Microsoft Configuration Manager<ph dataRef="id3" id="ph3" />Logs<ph dataRef="id4" id="ph4" />distmgr.log file and look for the <pc dataRefEnd="id6" dataRefStart="id5" id="p1">STATMSG: ID=2301</pc> line.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>figure 18</source>
+          <target>figure 18</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Figure 18.</source>
+          <target>Figure 18.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>The distributed Windows 10 Enterprise x64 RTM package.</source>
+          <target>The distributed Windows 10 Enterprise x64 RTM package.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Integrate Configuration Manager with MDT 2013 Update 2</source>
+          <target>Integrate Configuration Manager with MDT 2013 Update 2</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Prepare for Zero Touch Installation of Windows 10 with Configuration Manager</source>
+          <target>Prepare for Zero Touch Installation of Windows 10 with Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Create a custom Windows PE boot image with Configuration Manager</source>
+          <target>Create a custom Windows PE boot image with Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Create an application to deploy with Windows 10 using Configuration Manager</source>
+          <target>Create an application to deploy with Windows 10 using Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Add drivers to a Windows 10 deployment with Windows PE using Configuration Manager</source>
+          <target>Add drivers to a Windows 10 deployment with Windows PE using Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Create a task sequence with Configuration Manager and MDT</source>
+          <target>Create a task sequence with Configuration Manager and MDT</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Deploy Windows 10 using PXE and Configuration Manager</source>
+          <target>Deploy Windows 10 using PXE and Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Refresh a Windows 7 SP1 client with Windows 10 using Configuration Manager</source>
+          <target>Refresh a Windows 7 SP1 client with Windows 10 using Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Replace a Windows 7 SP1 client with Windows 10 using Configuration Manager</source>
+          <target>Replace a Windows 7 SP1 client with Windows 10 using Configuration Manager</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

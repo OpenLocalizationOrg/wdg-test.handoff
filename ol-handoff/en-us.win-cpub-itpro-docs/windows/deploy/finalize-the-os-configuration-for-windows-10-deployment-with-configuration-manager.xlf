@@ -1,0 +1,716 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\deploy\finalize-the-os-configuration-for-windows-10-deployment-with-configuration-manager.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">43a90226caf7fbcca9a62ab4c715ca5a308bd484</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Finalize the operating system configuration for Windows 10 deployment with Configuration Manager (Windows 10)</source>
+          <target>Finalize the operating system configuration for Windows 10 deployment with Configuration Manager (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic walks you through the steps to finalize the configuration of your Windows 10 operating deployment, which includes enablement of the optional Microsoft Deployment Toolkit (MDT) monitoring for Microsoft System Center 2012 R2 Configuration Manager, logs folder creation, rules configuration, content distribution, and deployment of the previously created task sequence.</source>
+          <target>This topic walks you through the steps to finalize the configuration of your Windows 10 operating deployment, which includes enablement of the optional Microsoft Deployment Toolkit (MDT) monitoring for Microsoft System Center 2012 R2 Configuration Manager, logs folder creation, rules configuration, content distribution, and deployment of the previously created task sequence.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Finalize the operating system configuration for Windows 10 deployment with Configuration Manager</source>
+          <target>Finalize the operating system configuration for Windows 10 deployment with Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic walks you through the steps to finalize the configuration of your Windows 10 operating deployment, which includes enablement of the optional Microsoft Deployment Toolkit (MDT) monitoring for Microsoft System Center 2012 R2 Configuration Manager, logs folder creation, rules configuration, content distribution, and deployment of the previously created task sequence.</source>
+          <target>This topic walks you through the steps to finalize the configuration of your Windows 10 operating deployment, which includes enablement of the optional Microsoft Deployment Toolkit (MDT) monitoring for Microsoft System Center 2012 R2 Configuration Manager, logs folder creation, rules configuration, content distribution, and deployment of the previously created task sequence.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>For the purposes of this topic, we will use two machines: DC01 and CM01.</source>
+          <target>For the purposes of this topic, we will use two machines: DC01 and CM01.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>DC01 is a domain controller and CM01 is a machine running Windows Server 2012 R2 Standard.</source>
+          <target>DC01 is a domain controller and CM01 is a machine running Windows Server 2012 R2 Standard.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Both are members of the domain contoso.com for the fictitious Contoso Corporation.</source>
+          <target>Both are members of the domain contoso.com for the fictitious Contoso Corporation.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](deploy-windows-10-with-the-microsoft-deployment-toolkit.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more details on the setup for this topic, please see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy Windows 10 with the Microsoft Deployment Toolkit</pc>.</source>
+          <target>For more details on the setup for this topic, please see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy Windows 10 with the Microsoft Deployment Toolkit</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Enable MDT monitoring</source>
+          <target>Enable MDT monitoring</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>This section will walk you through the process of creating the E:<ph dataRef="id1" id="ph1" />MDTProduction deployment share using the MDT Deployment Workbench to enable monitoring for Configuration Manager.</source>
+          <target>This section will walk you through the process of creating the E:<ph dataRef="id1" id="ph1" />MDTProduction deployment share using the MDT Deployment Workbench to enable monitoring for Configuration Manager.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On CM01, using the Deployment Workbench, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Shares</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Deployment Share</pc>.</source>
+          <target>On CM01, using the Deployment Workbench, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Shares</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Deployment Share</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Use the following settings for the New Deployment Share Wizard:</source>
+          <target>Use the following settings for the New Deployment Share Wizard:</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Deployment share path: E:<ph dataRef="id1" id="ph1" />MDTProduction</source>
+          <target>Deployment share path: E:<ph dataRef="id1" id="ph1" />MDTProduction</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Share name: MDTProduction$</source>
+          <target>Share name: MDTProduction$</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Deployment share description: MDT Production</source>
+          <target>Deployment share description: MDT Production</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Options: <ph dataRef="id1" id="ph1" />default settings</source>
+          <target>Options: <ph dataRef="id1" id="ph1" />default settings</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT Production</pc> deployment share, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc>.</source>
+          <target>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MDT Production</pc> deployment share, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Monitoring</pc> tab, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable monitoring for this deployment share</pc> check box, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Monitoring</pc> tab, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable monitoring for this deployment share</pc> check box, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>figure 26</source>
+          <target>figure 26</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Figure 26.</source>
+          <target>Figure 26.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Enabling MDT monitoring for Configuration Manager.</source>
+          <target>Enabling MDT monitoring for Configuration Manager.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Create and share the Logs folder</source>
+          <target>Create and share the Logs folder</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>To support additional server-side logging in Configuration Manager, you create and share the E:<ph dataRef="id1" id="ph1" />Logs folder on CM01 using Windows PowerShell.</source>
+          <target>To support additional server-side logging in Configuration Manager, you create and share the E:<ph dataRef="id1" id="ph1" />Logs folder on CM01 using Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Then in the next step, you enable server-side logging by modifying the CustomSettings.ini file used by the Configuration Manager task sequence.</source>
+          <target>Then in the next step, you enable server-side logging by modifying the CustomSettings.ini file used by the Configuration Manager task sequence.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>On CM01, start an elevated Windows PowerShell prompt (run as Administrator).</source>
+          <target>On CM01, start an elevated Windows PowerShell prompt (run as Administrator).</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Type the following commands, pressing <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc> after each one:</source>
+          <target>Type the following commands, pressing <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enter</pc> after each one:</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Configure the rules (Windows 10 x64 Settings package)</source>
+          <target>Configure the rules (Windows 10 x64 Settings package)</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>This section will show you how to configure the rules (the Windows 10 x64 Settings package) to support the Contoso environment.</source>
+          <target>This section will show you how to configure the rules (the Windows 10 x64 Settings package) to support the Contoso environment.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On CM01, using File Explorer, navigate to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />Sources<ph dataRef="id4" id="ph2" />OSD<ph dataRef="id5" id="ph3" />Settings<ph dataRef="id6" id="ph4" />Windows 10 x64 Settings</pc> folder.</source>
+          <target>On CM01, using File Explorer, navigate to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E:<ph dataRef="id3" id="ph1" />Sources<ph dataRef="id4" id="ph2" />OSD<ph dataRef="id5" id="ph3" />Settings<ph dataRef="id6" id="ph4" />Windows 10 x64 Settings</pc> folder.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Using Notepad, edit the CustomSetting.ini file with the following settings:</source>
+          <target>Using Notepad, edit the CustomSetting.ini file with the following settings:</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>figure 27</source>
+          <target>figure 27</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Figure 27.</source>
+          <target>Figure 27.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>The Settings package, holding the rules and the Unattend.xml template used during deployment</source>
+          <target>The Settings package, holding the rules and the Unattend.xml template used during deployment</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Update the distribution point for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 10 x64 Settings</pc> package by right-clicking the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10 x64 Settings</pc> package and selecting <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Update Distribution Points</pc>.</source>
+          <target>Update the distribution point for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 10 x64 Settings</pc> package by right-clicking the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10 x64 Settings</pc> package and selecting <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Update Distribution Points</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Although you have not yet added a distribution point, you still need to select Update Distribution Points.</source>
+          <target>Although you have not yet added a distribution point, you still need to select Update Distribution Points.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>That process also updates the Configuration Manager 2012 content library with changes.</source>
+          <target>That process also updates the Configuration Manager 2012 content library with changes.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Distribute content to the CM01 distribution portal</source>
+          <target>Distribute content to the CM01 distribution portal</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>In Configuration Manager, you can distribute all packages needed by a task sequence in a single task.</source>
+          <target>In Configuration Manager, you can distribute all packages needed by a task sequence in a single task.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>In this section, you distribute packages that have not yet been distributed to the CM01 distribution point.</source>
+          <target>In this section, you distribute packages that have not yet been distributed to the CM01 distribution point.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">On CM01, using the Configuration Manager Console</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Task Sequences</pc>, right-click the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows 10 Enterprise x64 RTM</pc> task sequence, and select <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Distribute Content.</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">On CM01, using the Configuration Manager Console</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Task Sequences</pc>, right-click the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows 10 Enterprise x64 RTM</pc> task sequence, and select <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Distribute Content.</pc></target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>In the Distribute Content Wizard, add the CM01 distribution point, and complete the wizard.</source>
+          <target>In the Distribute Content Wizard, add the CM01 distribution point, and complete the wizard.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Using Configuration Manager Trace, verify the distribution to the CM01 distribution point by reviewing the distmgr.log file, or use the Distribution Status / Content Status option in the Monitoring workspace.</source>
+          <target>Using Configuration Manager Trace, verify the distribution to the CM01 distribution point by reviewing the distmgr.log file, or use the Distribution Status / Content Status option in the Monitoring workspace.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Do not continue until you see all the new packages being distributed successfully.</source>
+          <target>Do not continue until you see all the new packages being distributed successfully.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Create a deployment for the task sequence</source>
+          <target>Create a deployment for the task sequence</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>This sections provides steps to help you create a deployment for the task sequence.</source>
+          <target>This sections provides steps to help you create a deployment for the task sequence.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On CM01, using the Configuration Manager Console, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task Sequences</pc>, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10 Enterprise x64 RTM</pc>, and then select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Deploy</pc>.</source>
+          <target>On CM01, using the Configuration Manager Console, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task Sequences</pc>, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10 Enterprise x64 RTM</pc>, and then select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Deploy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> page, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">All Unknown Computers</pc> collection and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> page, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">All Unknown Computers</pc> collection and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Settings</pc> page, use the following settings and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Settings</pc> page, use the following settings and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Purpose: Available</source>
+          <target>Purpose: Available</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Make available to the following: Only media and PXE</source>
+          <target>Make available to the following: Only media and PXE</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>figure 28</source>
+          <target>figure 28</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Figure 28.</source>
+          <target>Figure 28.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Configure the deployment settings.</source>
+          <target>Configure the deployment settings.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Scheduling</pc> page, accept the default settings and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Scheduling</pc> page, accept the default settings and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">User Experience</pc> page, accept the default settings and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">User Experience</pc> page, accept the default settings and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Alerts</pc> page, accept the default settings and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Alerts</pc> page, accept the default settings and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Distribution Points</pc> page, accept the default settings, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc> twice, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Close</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Distribution Points</pc> page, accept the default settings, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc> twice, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>figure 29</source>
+          <target>figure 29</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Figure 29.</source>
+          <target>Figure 29.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>The Windows 10 Enterprise x64 RTM task sequence deployed to the All Unknown Computers collections available for media and PXE.</source>
+          <target>The Windows 10 Enterprise x64 RTM task sequence deployed to the All Unknown Computers collections available for media and PXE.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Configure Configuration Manager to prompt for the computer name during deployment (optional)</source>
+          <target>Configure Configuration Manager to prompt for the computer name during deployment (optional)</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>You can have Configuration Manager prompt you for a computer name or you can use rules to generate a computer name.</source>
+          <target>You can have Configuration Manager prompt you for a computer name or you can use rules to generate a computer name.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](configure-mdt-2013-settings.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more details on how to do this, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure MDT settings</pc>.</source>
+          <target>For more details on how to do this, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure MDT settings</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>This section provides steps to help you configure the All Unknown Computers collection to have Configuration Manager prompt for computer names.</source>
+          <target>This section provides steps to help you configure the All Unknown Computers collection to have Configuration Manager prompt for computer names.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the Configuration Manager Console, in the Asset and Compliance workspace, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device Collections</pc>, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">All Unknown Computers</pc>, and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Properties</pc>.</source>
+          <target>Using the Configuration Manager Console, in the Asset and Compliance workspace, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device Collections</pc>, right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">All Unknown Computers</pc>, and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Properties</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Collection Variables</pc> tab, create a new variable with the following settings:</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Collection Variables</pc> tab, create a new variable with the following settings:</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Name: OSDComputerName</source>
+          <target>Name: OSDComputerName</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Clear the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Do not display this value in the Configuration Manager console</pc> check box.</source>
+          <target>Clear the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Do not display this value in the Configuration Manager console</pc> check box.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Configuration Manager can prompt for information in many ways.</source>
+          <target>Configuration Manager can prompt for information in many ways.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Using a collection variable with an empty value is just one of them.</source>
+          <target>Using a collection variable with an empty value is just one of them.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Another option is the User-Driven Installation (UDI) wizard.</source>
+          <target>Another option is the User-Driven Installation (UDI) wizard.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>figure 30</source>
+          <target>figure 30</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Figure 30.</source>
+          <target>Figure 30.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Configure a collection variable.</source>
+          <target>Configure a collection variable.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Integrate Configuration Manager with MDT 2013 Update 2</source>
+          <target>Integrate Configuration Manager with MDT 2013 Update 2</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Prepare for Zero Touch Installation of Windows 10 with Configuration Manager</source>
+          <target>Prepare for Zero Touch Installation of Windows 10 with Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Create a custom Windows PE boot image with Configuration Manager</source>
+          <target>Create a custom Windows PE boot image with Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Add a Windows 10 operating system image using Configuration Manager</source>
+          <target>Add a Windows 10 operating system image using Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Create an application to deploy with Windows 10 using Configuration Manager</source>
+          <target>Create an application to deploy with Windows 10 using Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Add drivers to a Windows 10 deployment with Windows PE using Configuration Manager</source>
+          <target>Add drivers to a Windows 10 deployment with Windows PE using Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Create a task sequence with Configuration Manager and MDT</source>
+          <target>Create a task sequence with Configuration Manager and MDT</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Deploy Windows 10 using PXE and Configuration Manager</source>
+          <target>Deploy Windows 10 using PXE and Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Refresh a Windows 7 SP1 client with Windows 10 using Configuration Manager</source>
+          <target>Refresh a Windows 7 SP1 client with Windows 10 using Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Replace a Windows 7 SP1 client with Windows 10 using Configuration Manager</source>
+          <target>Replace a Windows 7 SP1 client with Windows 10 using Configuration Manager</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

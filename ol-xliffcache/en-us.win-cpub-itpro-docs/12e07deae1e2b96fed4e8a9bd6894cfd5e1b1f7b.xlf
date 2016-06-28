@@ -1,0 +1,2031 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\bitlocker-how-to-enable-network-unlock.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">12e07deae1e2b96fed4e8a9bd6894cfd5e1b1f7b</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>BitLocker How to enable Network Unlock (Windows 10)</source>
+          <target>BitLocker How to enable Network Unlock (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic for the IT professional describes how BitLocker Network Unlock works and how to configure it.</source>
+          <target>This topic for the IT professional describes how BitLocker Network Unlock works and how to configure it.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>BitLocker: How to enable Network Unlock</source>
+          <target>BitLocker: How to enable Network Unlock</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic for the IT professional describes how BitLocker Network Unlock works and how to configure it.</source>
+          <target>This topic for the IT professional describes how BitLocker Network Unlock works and how to configure it.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Network Unlock was introduced in Windows 8 and Windows Server 2012 as a BitLocker protector option for operating system volumes.</source>
+          <target>Network Unlock was introduced in Windows 8 and Windows Server 2012 as a BitLocker protector option for operating system volumes.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Network Unlock enables easier management for BitLocker enabled desktops and servers in a domain environment by providing automatic unlock of operating system volumes at system reboot when connected to a wired corporate network.</source>
+          <target>Network Unlock enables easier management for BitLocker enabled desktops and servers in a domain environment by providing automatic unlock of operating system volumes at system reboot when connected to a wired corporate network.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>This feature requires the client hardware to have a DHCP driver implemented in its UEFI firmware.</source>
+          <target>This feature requires the client hardware to have a DHCP driver implemented in its UEFI firmware.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Without Network Unlock, operating system volumes protected by TPM+PIN protectors require a PIN to be entered when a computer reboots or resumes from hibernation (for example, by Wake on LAN).</source>
+          <target>Without Network Unlock, operating system volumes protected by TPM+PIN protectors require a PIN to be entered when a computer reboots or resumes from hibernation (for example, by Wake on LAN).</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>This can make it difficult to enterprises to roll out software patches to unattended desktops and remotely administered servers.</source>
+          <target>This can make it difficult to enterprises to roll out software patches to unattended desktops and remotely administered servers.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Network Unlock allows BitLocker-enabled systems with TPM+PIN and that meet the hardware requirements to boot into Windows without user intervention.</source>
+          <target>Network Unlock allows BitLocker-enabled systems with TPM+PIN and that meet the hardware requirements to boot into Windows without user intervention.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Network Unlock works in a similar fashion to the TPM+StartupKey at boot.</source>
+          <target>Network Unlock works in a similar fashion to the TPM+StartupKey at boot.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Rather than needing to read the StartupKey from USB media, however, the key for Network Unlock is composed from a key stored in the TPM and an encrypted network key that is sent to the server, decrypted and returned to the client in a secure session.</source>
+          <target>Rather than needing to read the StartupKey from USB media, however, the key for Network Unlock is composed from a key stored in the TPM and an encrypted network key that is sent to the server, decrypted and returned to the client in a secure session.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>This topic contains:</source>
+          <target>This topic contains:</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Network Unlock core requirements</source>
+          <target>Network Unlock core requirements</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Network Unlock sequence</source>
+          <target>Network Unlock sequence</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Configure Network Unlock</source>
+          <target>Configure Network Unlock</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Create the certificate template for Network Unlock</source>
+          <target>Create the certificate template for Network Unlock</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Turning off Network Unlock</source>
+          <target>Turning off Network Unlock</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Update Network Unlock certificates</source>
+          <target>Update Network Unlock certificates</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Troubleshoot Network Unlock</source>
+          <target>Troubleshoot Network Unlock</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Configure Network Unlock on unsupported systems</source>
+          <target>Configure Network Unlock on unsupported systems</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Network Unlock core requirements</source>
+          <target>Network Unlock core requirements</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Network Unlock must meet mandatory hardware and software requirements before the feature can automatically unlock domain joined systems.</source>
+          <target>Network Unlock must meet mandatory hardware and software requirements before the feature can automatically unlock domain joined systems.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>These requirements include:</source>
+          <target>These requirements include:</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>You must be running at least Windows 8 or Windows Server 2012.</source>
+          <target>You must be running at least Windows 8 or Windows Server 2012.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Any supported operating system with UEFI DHCP drivers can be Network Unlock clients.</source>
+          <target>Any supported operating system with UEFI DHCP drivers can be Network Unlock clients.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>A server running the Windows Deployment Services (WDS) role on any supported server operating system.</source>
+          <target>A server running the Windows Deployment Services (WDS) role on any supported server operating system.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>BitLocker Network Unlock optional feature installed on any supported server operating system.</source>
+          <target>BitLocker Network Unlock optional feature installed on any supported server operating system.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>A DHCP server, separate from the WDS server.</source>
+          <target>A DHCP server, separate from the WDS server.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Properly configured public/private key pairing.</source>
+          <target>Properly configured public/private key pairing.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Network Unlock Group Policy settings configured.</source>
+          <target>Network Unlock Group Policy settings configured.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>The network stack must be enabled to use the Network Unlock feature.</source>
+          <target>The network stack must be enabled to use the Network Unlock feature.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Equipment manufacturers deliver their products in various states and with different BIOS menus, so you need to confirm that the network stack has been enabled in the BIOS before starting the computer.</source>
+          <target>Equipment manufacturers deliver their products in various states and with different BIOS menus, so you need to confirm that the network stack has been enabled in the BIOS before starting the computer.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  To properly support DHCP within UEFI, the UEFI-based system should be in native mode without a compatibility support module (CSM) enabled.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  To properly support DHCP within UEFI, the UEFI-based system should be in native mode without a compatibility support module (CSM) enabled.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>For Network Unlock to work reliably on computers running Windows 8 and later, the first network adapter on the computer, usually the onboard adapter, must be configured to support DHCP and used for Network Unlock.</source>
+          <target>For Network Unlock to work reliably on computers running Windows 8 and later, the first network adapter on the computer, usually the onboard adapter, must be configured to support DHCP and used for Network Unlock.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>This is especially worth noting when you have multiple adapters, and you wish to configure one without DHCP, such as for a lights-out management protocol.</source>
+          <target>This is especially worth noting when you have multiple adapters, and you wish to configure one without DHCP, such as for a lights-out management protocol.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>This configuration is necessary because Network Unlock will stop enumerating adapters when it reaches one with a DHCP port failure for any reason.</source>
+          <target>This configuration is necessary because Network Unlock will stop enumerating adapters when it reaches one with a DHCP port failure for any reason.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Thus, if the first enumerated adapter does not support DHCP, is not plugged into the network, or fails to report availability of the DHCP port for any reason, then Network Unlock will fail.</source>
+          <target>Thus, if the first enumerated adapter does not support DHCP, is not plugged into the network, or fails to report availability of the DHCP port for any reason, then Network Unlock will fail.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>The Network Unlock server component installs on supported versions of Windows Server 2012 and later as a Windows feature using Server Manager or Windows PowerShell cmdlets.</source>
+          <target>The Network Unlock server component installs on supported versions of Windows Server 2012 and later as a Windows feature using Server Manager or Windows PowerShell cmdlets.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>The feature name is BitLocker Network Unlock in Server Manager and BitLocker-NetworkUnlock in Windows PowerShell.</source>
+          <target>The feature name is BitLocker Network Unlock in Server Manager and BitLocker-NetworkUnlock in Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>This feature is a core requirement.</source>
+          <target>This feature is a core requirement.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Network Unlock requires Windows Deployment Services (WDS) in the environment where the feature will be utilized.</source>
+          <target>Network Unlock requires Windows Deployment Services (WDS) in the environment where the feature will be utilized.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Configuration of the WDS installation is not required; however, the WDS service needs to be running on the server.</source>
+          <target>Configuration of the WDS installation is not required; however, the WDS service needs to be running on the server.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>The network key is stored on the system drive along with an AES 256 session key, and encrypted with the 2048-bit RSA public key of the unlock server's certificate.</source>
+          <target>The network key is stored on the system drive along with an AES 256 session key, and encrypted with the 2048-bit RSA public key of the unlock server's certificate.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>The network key is decrypted with the help of a provider on a supported version of Windows Server running WDS, and returned encrypted with its corresponding session key.</source>
+          <target>The network key is decrypted with the help of a provider on a supported version of Windows Server running WDS, and returned encrypted with its corresponding session key.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Network Unlock sequence</source>
+          <target>Network Unlock sequence</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>The unlock sequence starts on the client side, when the Windows boot manager detects the existence of Network Unlock protector.</source>
+          <target>The unlock sequence starts on the client side, when the Windows boot manager detects the existence of Network Unlock protector.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>It leverages the DHCP driver in UEFI to obtain an IP address for IPv4 and then broadcasts a vendor-specific DHCP request that contains the network key and a session key for the reply, all encrypted by the server's Network Unlock certificate, as described above.</source>
+          <target>It leverages the DHCP driver in UEFI to obtain an IP address for IPv4 and then broadcasts a vendor-specific DHCP request that contains the network key and a session key for the reply, all encrypted by the server's Network Unlock certificate, as described above.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>The Network Unlock provider on the supported WDS server recognizes the vendor-specific request, decrypts it with the RSA private key, and returns the network key encrypted with the session key via its own vendor-specific DHCP reply.</source>
+          <target>The Network Unlock provider on the supported WDS server recognizes the vendor-specific request, decrypts it with the RSA private key, and returns the network key encrypted with the session key via its own vendor-specific DHCP reply.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>On the server side, the WDS server role has an optional plugin component, like a PXE provider, which is what handles the incoming Network Unlock requests.</source>
+          <target>On the server side, the WDS server role has an optional plugin component, like a PXE provider, which is what handles the incoming Network Unlock requests.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>The provider can also be configured with subnet restrictions, which would require that the IP address provided by the client in the Network Unlock request belong to a permitted subnet in order to release the network key to the client.</source>
+          <target>The provider can also be configured with subnet restrictions, which would require that the IP address provided by the client in the Network Unlock request belong to a permitted subnet in order to release the network key to the client.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>In instances where the Network Unlock provider is unavailable, BitLocker fails over to the next available protector to unlock the drive.</source>
+          <target>In instances where the Network Unlock provider is unavailable, BitLocker fails over to the next available protector to unlock the drive.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>In a typical configuration, this means the standard TPM+PIN unlock screen is presented to unlock the drive.</source>
+          <target>In a typical configuration, this means the standard TPM+PIN unlock screen is presented to unlock the drive.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>The server side configuration to enable Network Unlock also requires provisioning a 2048-bit RSA public/private key pair in the form of an X.509 certificate, and for the public key certificate to be distributed to the clients.</source>
+          <target>The server side configuration to enable Network Unlock also requires provisioning a 2048-bit RSA public/private key pair in the form of an X.509 certificate, and for the public key certificate to be distributed to the clients.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>This certificate must be managed and deployed through the Group Policy editor directly on a domain controller with at least a Domain Functional Level of Windows Server 2012.</source>
+          <target>This certificate must be managed and deployed through the Group Policy editor directly on a domain controller with at least a Domain Functional Level of Windows Server 2012.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>This certificate is the public key that encrypts the intermediate network key (which is one of the two secrets required to unlock the drive; the other secret is stored in the TPM).</source>
+          <target>This certificate is the public key that encrypts the intermediate network key (which is one of the two secrets required to unlock the drive; the other secret is stored in the TPM).</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>bitlocker network unlock sequence</source>
+          <target>bitlocker network unlock sequence</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Phases in the Network Unlock process</source>
+          <target>Phases in the Network Unlock process</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>The Windows boot manager detects that a Network Unlock protector exists in the BitLocker configuration.</source>
+          <target>The Windows boot manager detects that a Network Unlock protector exists in the BitLocker configuration.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>The client computer uses its DHCP driver in the UEFI to obtain a valid IPv4 IP address.</source>
+          <target>The client computer uses its DHCP driver in the UEFI to obtain a valid IPv4 IP address.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>The client computer broadcasts a vendor-specific DHCP request that contains the Network Key (a 256-bit intermediate key) and an AES-256 session key for the reply.</source>
+          <target>The client computer broadcasts a vendor-specific DHCP request that contains the Network Key (a 256-bit intermediate key) and an AES-256 session key for the reply.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Both of these keys are encrypted using the 2048-bit RSA Public Key of the Network Unlock certificate from the WDS server.</source>
+          <target>Both of these keys are encrypted using the 2048-bit RSA Public Key of the Network Unlock certificate from the WDS server.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>The Network Unlock provider on the WDS server recognizes the vendor-specific request.</source>
+          <target>The Network Unlock provider on the WDS server recognizes the vendor-specific request.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>The provider decrypts it with the WDS server’s BitLocker Network Unlock certificate RSA private key.</source>
+          <target>The provider decrypts it with the WDS server’s BitLocker Network Unlock certificate RSA private key.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>The WDS provider then returns the network key encrypted with the session key using its own vendor-specific DHCP reply to the client computer.</source>
+          <target>The WDS provider then returns the network key encrypted with the session key using its own vendor-specific DHCP reply to the client computer.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>This forms an intermediate key.</source>
+          <target>This forms an intermediate key.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>The returned intermediate key is then combined with another local 256-bit intermediate key that can only be decrypted by the TPM.</source>
+          <target>The returned intermediate key is then combined with another local 256-bit intermediate key that can only be decrypted by the TPM.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>This combined key is used to create an AES-256 key that unlocks the volume.</source>
+          <target>This combined key is used to create an AES-256 key that unlocks the volume.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Windows continues the boot sequence.</source>
+          <target>Windows continues the boot sequence.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Configure Network Unlock</source>
+          <target>Configure Network Unlock</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>The following steps allow an administrator to configure Network Unlock in a domain where the Domain Functional Level is at least Windows Server 2012.</source>
+          <target>The following steps allow an administrator to configure Network Unlock in a domain where the Domain Functional Level is at least Windows Server 2012.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Step One: Install the WDS Server role</source>
+          <target>Step One: Install the WDS Server role</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>The BitLocker Network Unlock feature will install the WDS role if it is not already installed.</source>
+          <target>The BitLocker Network Unlock feature will install the WDS role if it is not already installed.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>If you want to install it separately before you install BitLocker Network Unlock you can use Server Manager or Windows PowerShell.</source>
+          <target>If you want to install it separately before you install BitLocker Network Unlock you can use Server Manager or Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To install the role using Server Manager, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Deployment Services</pc> role in Server Manager.</source>
+          <target>To install the role using Server Manager, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Deployment Services</pc> role in Server Manager.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>To install the role using Windows PowerShell, use the following command:</source>
+          <target>To install the role using Windows PowerShell, use the following command:</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>You must configure the WDS server so that it can communicate with DHCP (and optionally Active Directory Doman Services) and the client computer.</source>
+          <target>You must configure the WDS server so that it can communicate with DHCP (and optionally Active Directory Doman Services) and the client computer.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>You can do using the WDS management tool, wdsmgmt.msc, which starts the Windows Deployment Services Configuration Wizard.</source>
+          <target>You can do using the WDS management tool, wdsmgmt.msc, which starts the Windows Deployment Services Configuration Wizard.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Step Two: Confirm the WDS Service is running</source>
+          <target>Step Two: Confirm the WDS Service is running</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>To confirm the WDS service is running, use the Services Management Console or Windows PowerShell.</source>
+          <target>To confirm the WDS service is running, use the Services Management Console or Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To confirm the service is running in Services Management Console, open the console using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">services.msc</pc> and check the status of the Windows Deployment Services service.</source>
+          <target>To confirm the service is running in Services Management Console, open the console using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">services.msc</pc> and check the status of the Windows Deployment Services service.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>To confirm the service is running using Windows PowerShell, use the following command:</source>
+          <target>To confirm the service is running using Windows PowerShell, use the following command:</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Step Three: Install the Network Unlock feature</source>
+          <target>Step Three: Install the Network Unlock feature</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>To install the Network Unlock feature, use Server Manager or Windows PowerShell.</source>
+          <target>To install the Network Unlock feature, use Server Manager or Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To install the feature using Server Manager, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BitLocker Network Unlock</pc> feature in the Server Manager console.</source>
+          <target>To install the feature using Server Manager, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BitLocker Network Unlock</pc> feature in the Server Manager console.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>To install the feature using Windows PowerShell, use the following command:</source>
+          <target>To install the feature using Windows PowerShell, use the following command:</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Step Four: Create the Network Unlock certificate</source>
+          <target>Step Four: Create the Network Unlock certificate</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Network Unlock can use imported certificates from an existing PKI infrastructure, or you can use a self-signed certificate.</source>
+          <target>Network Unlock can use imported certificates from an existing PKI infrastructure, or you can use a self-signed certificate.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>To enroll a certificate from an existing certification authority (CA), do the following:</source>
+          <target>To enroll a certificate from an existing certification authority (CA), do the following:</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open Certificate Manager on the WDS server using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">certmgr.msc</pc></source>
+          <target>Open Certificate Manager on the WDS server using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">certmgr.msc</pc></target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Under the Certificates - Current User item, right-click Personal</source>
+          <target>Under the Certificates - Current User item, right-click Personal</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select All Tasks, then <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Request New Certificate</pc></source>
+          <target>Select All Tasks, then <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Request New Certificate</pc></target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> when the Certificate Enrollment wizard opens</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> when the Certificate Enrollment wizard opens</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Select Active Directory Enrollment Policy</source>
+          <target>Select Active Directory Enrollment Policy</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Choose the certificate template created for Network Unlock on the Domain controller and select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enroll</pc>.</source>
+          <target>Choose the certificate template created for Network Unlock on the Domain controller and select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enroll</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>When prompted for more information, add the following attribute to the certificate:</source>
+          <target>When prompted for more information, add the following attribute to the certificate:</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Subject Name</pc> pane and provide a friendly name value.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Subject Name</pc> pane and provide a friendly name value.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>It is suggested that this friendly name include information for the domain or organizational unit for the certificate.</source>
+          <target>It is suggested that this friendly name include information for the domain or organizational unit for the certificate.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>For example "BitLocker Network Unlock Certificate for Contoso domain"</source>
+          <target>For example "BitLocker Network Unlock Certificate for Contoso domain"</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Create the certificate.</source>
+          <target>Create the certificate.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Ensure the certificate appears in the Personal folder.</source>
+          <target>Ensure the certificate appears in the Personal folder.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Export the public key certificate for Network Unlock</source>
+          <target>Export the public key certificate for Network Unlock</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Create a .cer file by right-clicking the previously created certificate, choosing <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Tasks</pc>, then <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Export</pc>.</source>
+          <target>Create a .cer file by right-clicking the previously created certificate, choosing <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Tasks</pc>, then <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Export</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No, do not export the private key</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No, do not export the private key</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DER encoded binary X.509</pc> and complete exporting the certificate to a file.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DER encoded binary X.509</pc> and complete exporting the certificate to a file.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Give the file a name such as BitLocker-NetworkUnlock.cer.</source>
+          <target>Give the file a name such as BitLocker-NetworkUnlock.cer.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Export the public key with a private key for Network Unlock</source>
+          <target>Export the public key with a private key for Network Unlock</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Create a .pfx file by right-clicking the previously created certificate, choosing <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Tasks</pc>, then <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Export</pc>.</source>
+          <target>Create a .pfx file by right-clicking the previously created certificate, choosing <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Tasks</pc>, then <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Export</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes, export the private key</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes, export the private key</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Complete the wizard to create the .pfx file.</source>
+          <target>Complete the wizard to create the .pfx file.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>To create a self-signed certificate, do the following:</source>
+          <target>To create a self-signed certificate, do the following:</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Create a text file with an .inf extension.</source>
+          <target>Create a text file with an .inf extension.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>For example, notepad.exe BitLocker-NetworkUnlock.inf</source>
+          <target>For example, notepad.exe BitLocker-NetworkUnlock.inf</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Add the following contents to the previously created file:</source>
+          <target>Add the following contents to the previously created file:</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Open an elevated command prompt and use the certreq tool to create a new certificate using the following command, specifying the full path to the file created previously, along with the file name:</source>
+          <target>Open an elevated command prompt and use the certreq tool to create a new certificate using the following command, specifying the full path to the file created previously, along with the file name:</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Verify the previous command properly created the certificate by confirming the .cer file exists</source>
+          <target>Verify the previous command properly created the certificate by confirming the .cer file exists</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Launch the Certificate Manager by running <pc dataRefEnd="id2" dataRefStart="id1" id="p1">certmgr.msc</pc></source>
+          <target>Launch the Certificate Manager by running <pc dataRefEnd="id2" dataRefStart="id1" id="p1">certmgr.msc</pc></target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Create a .pfx file by opening the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificates – Current User<ph dataRef="id3" id="ph1" />Personal<ph dataRef="id4" id="ph2" />Certificates</pc> path in the navigation pane, right-clicking the previously imported certificate, selecting <pc dataRefEnd="id6" dataRefStart="id5" id="p2">All Tasks</pc>, then <pc dataRefEnd="id8" dataRefStart="id7" id="p3">Export</pc>.</source>
+          <target>Create a .pfx file by opening the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificates – Current User<ph dataRef="id3" id="ph1" />Personal<ph dataRef="id4" id="ph2" />Certificates</pc> path in the navigation pane, right-clicking the previously imported certificate, selecting <pc dataRefEnd="id6" dataRefStart="id5" id="p2">All Tasks</pc>, then <pc dataRefEnd="id8" dataRefStart="id7" id="p3">Export</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Follow through the wizard to create the .pfx file.</source>
+          <target>Follow through the wizard to create the .pfx file.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Step Five: Deploy the private key and certificate to the WDS server</source>
+          <target>Step Five: Deploy the private key and certificate to the WDS server</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>With the certificate and key created, deploy them to the infrastructure to properly unlock systems.</source>
+          <target>With the certificate and key created, deploy them to the infrastructure to properly unlock systems.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>To deploy the certificates, do the following:</source>
+          <target>To deploy the certificates, do the following:</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>On the WDS server, open a new MMC and add the certificates snap-in.</source>
+          <target>On the WDS server, open a new MMC and add the certificates snap-in.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Select the computer account and local computer when given the options.</source>
+          <target>Select the computer account and local computer when given the options.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the Certificates (Local Computer) - BitLocker Drive Encryption Network Unlock item, choose All Tasks, then <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Import</pc></source>
+          <target>Right-click the Certificates (Local Computer) - BitLocker Drive Encryption Network Unlock item, choose All Tasks, then <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Import</pc></target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File to Import</pc> dialog, choose the .pfx file created previously.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File to Import</pc> dialog, choose the .pfx file created previously.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Enter the password used to create the .pfx and complete the wizard.</source>
+          <target>Enter the password used to create the .pfx and complete the wizard.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Step Six: Configure Group Policy settings for Network Unlock</source>
+          <target>Step Six: Configure Group Policy settings for Network Unlock</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>With certificate and key deployed to the WDS server for Network Unlock, the final step is to use Group Policy settings to deploy the public key certificate to computers that you want to be able to unlock using the Network Unlock key.</source>
+          <target>With certificate and key deployed to the WDS server for Network Unlock, the final step is to use Group Policy settings to deploy the public key certificate to computers that you want to be able to unlock using the Network Unlock key.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Group Policy settings for BitLocker can be found under <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />Computer Configuration<ph dataRef="id4" id="ph2" />Administrative Templates<ph dataRef="id5" id="ph3" />Windows Components<ph dataRef="id6" id="ph4" />BitLocker Drive Encryption</pc> using the Local Group Policy Editor or the Microsoft Management Console.</source>
+          <target>Group Policy settings for BitLocker can be found under <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />Computer Configuration<ph dataRef="id4" id="ph2" />Administrative Templates<ph dataRef="id5" id="ph3" />Windows Components<ph dataRef="id6" id="ph4" />BitLocker Drive Encryption</pc> using the Local Group Policy Editor or the Microsoft Management Console.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>The following steps describe how to enable the Group Policy setting that is a requirement for configuring Network Unlock.</source>
+          <target>The following steps describe how to enable the Group Policy setting that is a requirement for configuring Network Unlock.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Open Group Policy Management Console (gpmc.msc)</source>
+          <target>Open Group Policy Management Console (gpmc.msc)</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enable the policy <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Require additional authentication at startup</pc> and select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Require startup PIN with TPM</pc> option</source>
+          <target>Enable the policy <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Require additional authentication at startup</pc> and select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Require startup PIN with TPM</pc> option</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Turn on BitLocker with TPM+PIN protectors on all domain-joined computers</source>
+          <target>Turn on BitLocker with TPM+PIN protectors on all domain-joined computers</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>The following steps describe how to deploy the required Group Policy setting:</source>
+          <target>The following steps describe how to deploy the required Group Policy setting:</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  The Group Policy settings <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Allow network unlock at startup</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Network Unlock Certificate</pc> were introduced in Windows Server 2012.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  The Group Policy settings <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Allow network unlock at startup</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Network Unlock Certificate</pc> were introduced in Windows Server 2012.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Copy the .cer file created for Network Unlock to the domain controller</source>
+          <target>Copy the .cer file created for Network Unlock to the domain controller</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>On the domain controller, launch Group Policy Management Console (gpmc.msc)</source>
+          <target>On the domain controller, launch Group Policy Management Console (gpmc.msc)</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Create a new Group Policy Object or modify an existing object to enable the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow network unlock at startup</pc> setting.</source>
+          <target>Create a new Group Policy Object or modify an existing object to enable the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow network unlock at startup</pc> setting.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Deploy the public certificate to clients</source>
+          <target>Deploy the public certificate to clients</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Within Group Policy Management Console, navigate to the following location: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer Configuration<ph dataRef="id3" id="ph1" />Policies<ph dataRef="id4" id="ph2" />Windows Settings<ph dataRef="id5" id="ph3" />Security Settings<ph dataRef="id6" id="ph4" />Public Key Policies<ph dataRef="id7" id="ph5" />BitLocker Drive Encryption Network Unlock Certificate</pc></source>
+          <target>Within Group Policy Management Console, navigate to the following location: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer Configuration<ph dataRef="id3" id="ph1" />Policies<ph dataRef="id4" id="ph2" />Windows Settings<ph dataRef="id5" id="ph3" />Security Settings<ph dataRef="id6" id="ph4" />Public Key Policies<ph dataRef="id7" id="ph5" />BitLocker Drive Encryption Network Unlock Certificate</pc></target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the folder and choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Network Unlock Certificate</pc></source>
+          <target>Right-click the folder and choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Network Unlock Certificate</pc></target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>Follow the wizard steps and import the .cer file that was copied earlier.</source>
+          <target>Follow the wizard steps and import the .cer file that was copied earlier.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Only one network unlock certificate can be available at a time.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Only one network unlock certificate can be available at a time.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>If a new certificate is required, delete the current certificate before deploying a new one.</source>
+          <target>If a new certificate is required, delete the current certificate before deploying a new one.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+          <data id="id9">\\</data>
+          <data id="id10">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The Network Unlock certificate is located in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKEY<ph dataRef="id3" id="ph1" />LOCAL<ph dataRef="id4" id="ph2" />MACHINE<ph dataRef="id5" id="ph3" />Software<ph dataRef="id6" id="ph4" />Policies<ph dataRef="id7" id="ph5" />Microsoft<ph dataRef="id8" id="ph6" />SystemCertificates<ph dataRef="id9" id="ph7" />FVE<ph dataRef="id10" id="ph8" />NKP</pc> key on the client computer.</source>
+          <target>The Network Unlock certificate is located in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKEY<ph dataRef="id3" id="ph1" />LOCAL<ph dataRef="id4" id="ph2" />MACHINE<ph dataRef="id5" id="ph3" />Software<ph dataRef="id6" id="ph4" />Policies<ph dataRef="id7" id="ph5" />Microsoft<ph dataRef="id8" id="ph6" />SystemCertificates<ph dataRef="id9" id="ph7" />FVE<ph dataRef="id10" id="ph8" />NKP</pc> key on the client computer.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Step Seven: Require TPM+PIN protectors at startup</source>
+          <target>Step Seven: Require TPM+PIN protectors at startup</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>An additional step is for enterprises to use TPM+PIN protectors for an extra level of security.</source>
+          <target>An additional step is for enterprises to use TPM+PIN protectors for an extra level of security.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>To require TPM+PIN protectors in an environment, do the following:</source>
+          <target>To require TPM+PIN protectors in an environment, do the following:</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Open Group Policy Management Console (gpmc.msc)</source>
+          <target>Open Group Policy Management Console (gpmc.msc)</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enable the policy <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Require additional authentication at startup</pc> and select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Require startup PIN with TPM</pc> option</source>
+          <target>Enable the policy <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Require additional authentication at startup</pc> and select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Require startup PIN with TPM</pc> option</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>Turn on BitLocker with TPM+PIN protectors on all domain-joined computers</source>
+          <target>Turn on BitLocker with TPM+PIN protectors on all domain-joined computers</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Create the certificate template for Network Unlock</source>
+          <target>Create the certificate template for Network Unlock</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>The following steps detail how to create a certificate template for use with BitLocker Network Unlock.</source>
+          <target>The following steps detail how to create a certificate template for use with BitLocker Network Unlock.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>A properly configured Active Directory Services Certification Authority can use this certificate to create and issue Network Unlock certificates.</source>
+          <target>A properly configured Active Directory Services Certification Authority can use this certificate to create and issue Network Unlock certificates.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Open the Certificates Template snap-in (certtmpl.msc).</source>
+          <target>Open the Certificates Template snap-in (certtmpl.msc).</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>Locate the User template.</source>
+          <target>Locate the User template.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the template name and select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Duplicate Template</pc></source>
+          <target>Right-click the template name and select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Duplicate Template</pc></target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Compatibility</pc> tab, change the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Certification Authority</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Certificate recipient</pc> fields to Windows Server 2012 and Windows 8respectively.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Compatibility</pc> tab, change the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Certification Authority</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Certificate recipient</pc> fields to Windows Server 2012 and Windows 8respectively.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Ensure the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Show resulting changes</pc> dialog box is selected.</source>
+          <target>Ensure the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Show resulting changes</pc> dialog box is selected.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> tab of the template.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> tab of the template.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Template display name</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Template name</pc> should clearly identify that the template will be used for Network Unlock.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Template display name</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Template name</pc> should clearly identify that the template will be used for Network Unlock.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Clear the checkbox for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Publish certificate in Active Directory</pc> option.</source>
+          <target>Clear the checkbox for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Publish certificate in Active Directory</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Request Handling</pc> tab.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Request Handling</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Encryption</pc> from the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Purpose</pc> drop down menu.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Encryption</pc> from the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Purpose</pc> drop down menu.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Ensure the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow private key to be exported</pc> option is selected.</source>
+          <target>Ensure the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow private key to be exported</pc> option is selected.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cryptography</pc> tab.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cryptography</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Minimum key size</pc> to 2048.</source>
+          <target>Set the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Minimum key size</pc> to 2048.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>(Any Microsoft cryptographic provider that supports RSA can be used for this template, but for simplicity and forward compatibility we recommend using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Software Key Storage Provider</pc>.)</source>
+          <target>(Any Microsoft cryptographic provider that supports RSA can be used for this template, but for simplicity and forward compatibility we recommend using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Software Key Storage Provider</pc>.)</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Requests must use one of the following providers</pc> option and clear all options except for the cryptography provider you selected, such as the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft Software Key Storage Provider</pc>.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Requests must use one of the following providers</pc> option and clear all options except for the cryptography provider you selected, such as the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft Software Key Storage Provider</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Subject Name</pc> tab.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Subject Name</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Supply in the request</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Supply in the request</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> if the certificate templates pop-up dialog appears.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> if the certificate templates pop-up dialog appears.</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Issuance Requirements</pc> tab.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Issuance Requirements</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select both <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CA certificate manager approval</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Valid existing certificate</pc> options.</source>
+          <target>Select both <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CA certificate manager approval</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Valid existing certificate</pc> options.</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extensions</pc> tab.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extensions</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Policies</pc> and choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Edit…</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Policies</pc> and choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Edit…</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Edit Application Policies Extension</pc> options dialog box, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Client Authentication</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Encrypting File System</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">and Secure Email</pc> and choose <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Remove</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Edit Application Policies Extension</pc> options dialog box, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Client Authentication</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Encrypting File System</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">and Secure Email</pc> and choose <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Remove</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Edit Application Policies Extension</pc> dialog box, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Edit Application Policies Extension</pc> dialog box, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Application Policy</pc> dialog box, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Application Policy</pc> dialog box, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">New Application Policy</pc> dialog box enter the following information in the space provided and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc> to create the BitLocker Network Unlock application policy:</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">New Application Policy</pc> dialog box enter the following information in the space provided and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc> to create the BitLocker Network Unlock application policy:</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name:</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">BitLocker Network Unlock</pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name:</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">BitLocker Network Unlock</pc>
+          </target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Object Identifier:</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1.3.6.1.4.1.311.67.1.1</pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Object Identifier:</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1.3.6.1.4.1.311.67.1.1</pc>
+          </target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the newly created <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BitLocker Network Unlock</pc> application policy and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc></source>
+          <target>Select the newly created <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BitLocker Network Unlock</pc> application policy and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc></target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>With the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extensions</pc> tab still open, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Edit Key Usage Extension</pc> dialog, select the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Allow key exchange only with key encryption (key encipherment)</pc> option.</source>
+          <target>With the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extensions</pc> tab still open, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Edit Key Usage Extension</pc> dialog, select the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Allow key exchange only with key encryption (key encipherment)</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Make this extension critical</pc> option.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Make this extension critical</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security</pc> tab.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Confirm that the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Domain Admins</pc> group has been granted <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enroll</pc> permission</source>
+          <target>Confirm that the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Domain Admins</pc> group has been granted <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enroll</pc> permission</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> to complete configuration of the template.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> to complete configuration of the template.</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>To add the Network Unlock template to the Certification Authority, open the Certification Authority snap-in (certsrv.msc).</source>
+          <target>To add the Network Unlock template to the Certification Authority, open the Certification Authority snap-in (certsrv.msc).</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificate Templates</pc> item and choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New, Certificate Template to issue</pc>.</source>
+          <target>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificate Templates</pc> item and choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New, Certificate Template to issue</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>Select the previously created BitLocker Network Unlock certificate.</source>
+          <target>Select the previously created BitLocker Network Unlock certificate.</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>After adding the Network Unlock template to the Certification Authority, this certificate can be used to configure BitLocker Network Unlock.</source>
+          <target>After adding the Network Unlock template to the Certification Authority, this certificate can be used to configure BitLocker Network Unlock.</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>Subnet policy configuration files on WDS Server (Optional)</source>
+          <target>Subnet policy configuration files on WDS Server (Optional)</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>By default, all clients with the correct Network Unlock Certificate and valid Network Unlock protectors that have wired access to a Network Unlock-enabled WDS server via DHCP are unlocked by the server.</source>
+          <target>By default, all clients with the correct Network Unlock Certificate and valid Network Unlock protectors that have wired access to a Network Unlock-enabled WDS server via DHCP are unlocked by the server.</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>A subnet policy configuration file on the WDS server can be created to limit which subnet(s) Network Unlock clients can use to unlock.</source>
+          <target>A subnet policy configuration file on the WDS server can be created to limit which subnet(s) Network Unlock clients can use to unlock.</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>The configuration file, called bde-network-unlock.ini, must be located in the same directory as the Network Unlock provider DLL and it applies to both IPv6 and IPv4 DHCP implementations.</source>
+          <target>The configuration file, called bde-network-unlock.ini, must be located in the same directory as the Network Unlock provider DLL and it applies to both IPv6 and IPv4 DHCP implementations.</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>If the subnet configuration policy becomes corrupted, the provider will fail and stop responding to requests.</source>
+          <target>If the subnet configuration policy becomes corrupted, the provider will fail and stop responding to requests.</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <originalData>
+          <data id="id1">\[</data>
+          <data id="id2">\]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The subnet policy configuration file must use a “<ph dataRef="id1" id="ph1" />SUBNETS<ph dataRef="id2" id="ph2" />” section to identify the specific subnets.</source>
+          <target>The subnet policy configuration file must use a “<ph dataRef="id1" id="ph1" />SUBNETS<ph dataRef="id2" id="ph2" />” section to identify the specific subnets.</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>The named subnets may then be used to specify restrictions in certificate subsections.</source>
+          <target>The named subnets may then be used to specify restrictions in certificate subsections.</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>Subnets are defined as simple name-value pairs, in the common INI format, where each subnet has its own line, with the name on the left of the equals sign, and the subnet identified on the right of the equal sign as a Classless Inter-Domain Routing (CIDR) address or range.</source>
+          <target>Subnets are defined as simple name-value pairs, in the common INI format, where each subnet has its own line, with the name on the left of the equals sign, and the subnet identified on the right of the equal sign as a Classless Inter-Domain Routing (CIDR) address or range.</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>The key word “ENABLED” is disallowed for subnet names.</source>
+          <target>The key word “ENABLED” is disallowed for subnet names.</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>To disallow the use of a certificate altogether, its subnet list may contain the line “DISABLED".</source>
+          <target>To disallow the use of a certificate altogether, its subnet list may contain the line “DISABLED".</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>Turning off Network Unlock</source>
+          <target>Turning off Network Unlock</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>To turn off the unlock server, the PXE provider can be unregistered from the WDS server or uninstalled altogether.</source>
+          <target>To turn off the unlock server, the PXE provider can be unregistered from the WDS server or uninstalled altogether.</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>However, to stop clients from creating Network Unlock protectors the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow Network Unlock at startup</pc> Group Policy setting should be disabled.</source>
+          <target>However, to stop clients from creating Network Unlock protectors the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow Network Unlock at startup</pc> Group Policy setting should be disabled.</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>When this policy setting is updated to disabled on client computers any Network Unlock key protectors on the computer will be deleted.</source>
+          <target>When this policy setting is updated to disabled on client computers any Network Unlock key protectors on the computer will be deleted.</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>Alternatively, the BitLocker Network Unlock certificate policy can be deleted on the domain controller to accomplish the same task for an entire domain.</source>
+          <target>Alternatively, the BitLocker Network Unlock certificate policy can be deleted on the domain controller to accomplish the same task for an entire domain.</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Removing the FVENKP certificate store that contains the Network Unlock certificate and key on the WDS server will also effectively disable the server’s ability to respond to unlock requests for that certificate.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Removing the FVENKP certificate store that contains the Network Unlock certificate and key on the WDS server will also effectively disable the server’s ability to respond to unlock requests for that certificate.</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>However, this is seen as an error condition and is not a supported or recommended method for turning off the Network Unlock server.</source>
+          <target>However, this is seen as an error condition and is not a supported or recommended method for turning off the Network Unlock server.</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>Update Network Unlock certificates</source>
+          <target>Update Network Unlock certificates</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>To update the certificates used by Network Unlock, administrators need to import or generate the new certificate for the server and then update the Network Unlock certificate Group Policy setting on the domain controller.</source>
+          <target>To update the certificates used by Network Unlock, administrators need to import or generate the new certificate for the server and then update the Network Unlock certificate Group Policy setting on the domain controller.</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>Troubleshoot Network Unlock</source>
+          <target>Troubleshoot Network Unlock</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>Troubleshooting Network Unlock issues begins by verifying the environment.</source>
+          <target>Troubleshooting Network Unlock issues begins by verifying the environment.</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>Many times, a small configuration issue will be the root cause of the failure.</source>
+          <target>Many times, a small configuration issue will be the root cause of the failure.</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <segment state="initial">
+          <source>Items to verify include:</source>
+          <target>Items to verify include:</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <segment state="initial">
+          <source>Verify client hardware is UEFI-based and is on firmware version is 2.3.1 and that the UEFI firmware is in native mode without a Compatibility Support Module (CSM) for BIOS mode enabled.</source>
+          <target>Verify client hardware is UEFI-based and is on firmware version is 2.3.1 and that the UEFI firmware is in native mode without a Compatibility Support Module (CSM) for BIOS mode enabled.</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <segment state="initial">
+          <source>Do this by checking that the firmware does not have an option enabled such as "Legacy mode" or "Compatibility mode" or that the firmware does not appear to be in a BIOS-like mode.</source>
+          <target>Do this by checking that the firmware does not have an option enabled such as "Legacy mode" or "Compatibility mode" or that the firmware does not appear to be in a BIOS-like mode.</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <segment state="initial">
+          <source>All required roles and services are installed and started</source>
+          <target>All required roles and services are installed and started</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <segment state="initial">
+          <source>Public and private certificates have been published and are in the proper certificate containers.</source>
+          <target>Public and private certificates have been published and are in the proper certificate containers.</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <segment state="initial">
+          <source>The presence of the Network Unlock certificate can be verified in the Microsoft Management Console (MMC.exe) on the WDS server with the certificate snap-ins for the local computer enabled.</source>
+          <target>The presence of the Network Unlock certificate can be verified in the Microsoft Management Console (MMC.exe) on the WDS server with the certificate snap-ins for the local computer enabled.</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+          <data id="id9">\\</data>
+          <data id="id10">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The client certificate can be verified by checking the registry key <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKEY<ph dataRef="id3" id="ph1" />LOCAL<ph dataRef="id4" id="ph2" />MACHINE<ph dataRef="id5" id="ph3" />Software<ph dataRef="id6" id="ph4" />Policies<ph dataRef="id7" id="ph5" />Microsoft<ph dataRef="id8" id="ph6" />SystemCertificates<ph dataRef="id9" id="ph7" />FVE<ph dataRef="id10" id="ph8" />NKP</pc> on the client computer.</source>
+          <target>The client certificate can be verified by checking the registry key <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKEY<ph dataRef="id3" id="ph1" />LOCAL<ph dataRef="id4" id="ph2" />MACHINE<ph dataRef="id5" id="ph3" />Software<ph dataRef="id6" id="ph4" />Policies<ph dataRef="id7" id="ph5" />Microsoft<ph dataRef="id8" id="ph6" />SystemCertificates<ph dataRef="id9" id="ph7" />FVE<ph dataRef="id10" id="ph8" />NKP</pc> on the client computer.</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <segment state="initial">
+          <source>Group policy for Network Unlock is enabled and linked to the appropriate domains</source>
+          <target>Group policy for Network Unlock is enabled and linked to the appropriate domains</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <segment state="initial">
+          <source>Verify group policy is reaching the clients properly.</source>
+          <target>Verify group policy is reaching the clients properly.</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>This can be done using the GPRESULT.exe or RSOP.msc utilities.</source>
+          <target>This can be done using the GPRESULT.exe or RSOP.msc utilities.</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Verify the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Network (Certificate Based)</pc> protector is listed on the client.</source>
+          <target>Verify the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Network (Certificate Based)</pc> protector is listed on the client.</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>This can be done using either manage-bde or Windows PowerShell cmdlets.</source>
+          <target>This can be done using either manage-bde or Windows PowerShell cmdlets.</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <segment state="initial">
+          <source>For example the following command will list the key protectors currently configured on the C: drive of the lcoal computer:</source>
+          <target>For example the following command will list the key protectors currently configured on the C: drive of the lcoal computer:</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Use the output of manage-bde along with the WDS debug log to determine if the proper certificate thumbprint is being used for Network Unlock</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Use the output of manage-bde along with the WDS debug log to determine if the proper certificate thumbprint is being used for Network Unlock</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <segment state="initial">
+          <source>Files to gather when troubleshooting BitLocker Network Unlock include:</source>
+          <target>Files to gather when troubleshooting BitLocker Network Unlock include:</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <segment state="initial">
+          <source>The Windows event logs.</source>
+          <target>The Windows event logs.</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <segment state="initial">
+          <source>Specifically the BitLocker event logs and the Microsoft-Windows-Deployment-Services-Diagnostics-Debug log</source>
+          <target>Specifically the BitLocker event logs and the Microsoft-Windows-Deployment-Services-Diagnostics-Debug log</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <segment state="initial">
+          <source>Debug logging is turned off by default for the WDS server role, so you will need to enable it first.</source>
+          <target>Debug logging is turned off by default for the WDS server role, so you will need to enable it first.</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <segment state="initial">
+          <source>You can use either of the following two methods to turn on WDS debug logging.</source>
+          <target>You can use either of the following two methods to turn on WDS debug logging.</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <segment state="initial">
+          <source>Start an elevated command prompt and run the following command:</source>
+          <target>Start an elevated command prompt and run the following command:</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <segment state="initial">
+          <source>Open Event Viewer on the WDS server.</source>
+          <target>Open Event Viewer on the WDS server.</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the left pane, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applications and Services Logs</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft</pc>, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows</pc>, click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Deployment-Services-Diagnostics</pc>, and then click <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Debug</pc>.</source>
+          <target>In the left pane, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applications and Services Logs</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft</pc>, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows</pc>, click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Deployment-Services-Diagnostics</pc>, and then click <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Debug</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the right pane, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable Log</pc>.</source>
+          <target>In the right pane, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable Log</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <segment state="initial">
+          <source>The DHCP subnet configuration file (if one exists).</source>
+          <target>The DHCP subnet configuration file (if one exists).</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The output of the BitLocker status on the volume, this can be gathered into a text file using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">manage-bde -status</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Get-BitLockerVolume</pc> in Windows PowerShell</source>
+          <target>The output of the BitLocker status on the volume, this can be gathered into a text file using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">manage-bde -status</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Get-BitLockerVolume</pc> in Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <segment state="initial">
+          <source>Network Monitor capture on the server hosting the WDS role, filtered by client IP address</source>
+          <target>Network Monitor capture on the server hosting the WDS role, filtered by client IP address</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <segment state="initial">
+          <source>Configure Network Unlock Group Policy settings on earlier versions</source>
+          <target>Configure Network Unlock Group Policy settings on earlier versions</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <segment state="initial">
+          <source>Network Unlock and the accompanying Group Policy settings were introduced in Windows Server 2012 but can be deployed using operating systems running Windows Server 2008 R2 and Windows Server 2008.</source>
+          <target>Network Unlock and the accompanying Group Policy settings were introduced in Windows Server 2012 but can be deployed using operating systems running Windows Server 2008 R2 and Windows Server 2008.</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <segment state="initial">
+          <source>Requirements</source>
+          <target>Requirements</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The server hosting WDS must be running any of the server operating systems designated in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applies To</pc> list at the beginning of this topic.</source>
+          <target>The server hosting WDS must be running any of the server operating systems designated in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applies To</pc> list at the beginning of this topic.</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Client computers must be running any of the client operating systems designated in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applies To</pc> list at the beginning of this topic.</source>
+          <target>Client computers must be running any of the client operating systems designated in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applies To</pc> list at the beginning of this topic.</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <segment state="initial">
+          <source>The following steps can be used to configure Network Unlock on these older systems.</source>
+          <target>The following steps can be used to configure Network Unlock on these older systems.</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <segment state="initial">
+          <source>Step One: Install the WDS Server role</source>
+          <target>Step One: Install the WDS Server role</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <segment state="initial">
+          <source>Step Two: Confirm the WDS Service is running</source>
+          <target>Step Two: Confirm the WDS Service is running</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>Step Three: Install the Network Unlock feature</source>
+          <target>Step Three: Install the Network Unlock feature</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <segment state="initial">
+          <source>Step Four: Create the Network Unlock certificate</source>
+          <target>Step Four: Create the Network Unlock certificate</target>
+        </segment>
+      </unit>
+      <unit id="354">
+        <segment state="initial">
+          <source>Step Five: Deploy the private key and certificate to the WDS server</source>
+          <target>Step Five: Deploy the private key and certificate to the WDS server</target>
+        </segment>
+      </unit>
+      <unit id="355">
+        <segment state="initial">
+          <source>Step Six: Configure registry settings for Network Unlock</source>
+          <target>Step Six: Configure registry settings for Network Unlock</target>
+        </segment>
+      </unit>
+      <unit id="356">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Apply the registry settings by running the following certutil script on each computer running any of the client operating systems designated in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applies To</pc> list at the beginning of this topic.</source>
+          <target>Apply the registry settings by running the following certutil script on each computer running any of the client operating systems designated in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applies To</pc> list at the beginning of this topic.</target>
+        </segment>
+      </unit>
+      <unit id="357">
+        <segment state="initial">
+          <source>certutil -f -grouppolicy -addstore FVE_NKP BitLocker-NetworkUnlock.cer reg add "HKLM\SOFTWARE\Policies\Microsoft\FVE" /v OSManageNKP /t REG_DWORD /d 1 /f reg add "HKLM\SOFTWARE\Policies\Microsoft\FVE" /v UseAdvancedStartup /t REG_DWORD /d 1 /f reg add "HKLM\SOFTWARE\Policies\Microsoft\FVE" /v UsePIN /t REG_DWORD /d 2 /f reg add "HKLM\SOFTWARE\Policies\Microsoft\FVE" /v UseTPMPIN /t REG_DWORD /d 2 /f reg add "HKLM\SOFTWARE\Policies\Microsoft\FVE" /v UseTPM /t REG_DWORD /d 2 /f reg add "HKLM\SOFTWARE\Policies\Microsoft\FVE" /v UseTPMKey /t REG_DWORD /d 2 /f reg add "HKLM\SOFTWARE\Policies\Microsoft\FVE" /v UseTPMKeyPIN /t REG_DWORD /d 2 /f</source>
+          <target>certutil -f -grouppolicy -addstore FVE_NKP BitLocker-NetworkUnlock.cer reg add "HKLM\SOFTWARE\Policies\Microsoft\FVE" /v OSManageNKP /t REG_DWORD /d 1 /f reg add "HKLM\SOFTWARE\Policies\Microsoft\FVE" /v UseAdvancedStartup /t REG_DWORD /d 1 /f reg add "HKLM\SOFTWARE\Policies\Microsoft\FVE" /v UsePIN /t REG_DWORD /d 2 /f reg add "HKLM\SOFTWARE\Policies\Microsoft\FVE" /v UseTPMPIN /t REG_DWORD /d 2 /f reg add "HKLM\SOFTWARE\Policies\Microsoft\FVE" /v UseTPM /t REG_DWORD /d 2 /f reg add "HKLM\SOFTWARE\Policies\Microsoft\FVE" /v UseTPMKey /t REG_DWORD /d 2 /f reg add "HKLM\SOFTWARE\Policies\Microsoft\FVE" /v UseTPMKeyPIN /t REG_DWORD /d 2 /f</target>
+        </segment>
+      </unit>
+      <unit id="358">
+        <segment state="initial">
+          <source>Create the Network Unlock certificate</source>
+          <target>Create the Network Unlock certificate</target>
+        </segment>
+      </unit>
+      <unit id="359">
+        <segment state="initial">
+          <source>Deploy the private key and certificate to the WDS server</source>
+          <target>Deploy the private key and certificate to the WDS server</target>
+        </segment>
+      </unit>
+      <unit id="360">
+        <segment state="initial">
+          <source>Create the certificate template for Network Unlock</source>
+          <target>Create the certificate template for Network Unlock</target>
+        </segment>
+      </unit>
+      <unit id="361">
+        <segment state="initial">
+          <source>Require TPM+PIN protectors at startup</source>
+          <target>Require TPM+PIN protectors at startup</target>
+        </segment>
+      </unit>
+      <unit id="362">
+        <segment state="initial">
+          <source>See also</source>
+          <target>See also</target>
+        </segment>
+      </unit>
+      <unit id="363">
+        <segment state="initial">
+          <source>BitLocker overview</source>
+          <target>BitLocker overview</target>
+        </segment>
+      </unit>
+      <unit id="364">
+        <segment state="initial">
+          <source>BitLocker frequently asked questions (FAQ)</source>
+          <target>BitLocker frequently asked questions (FAQ)</target>
+        </segment>
+      </unit>
+      <unit id="365">
+        <segment state="initial">
+          <source>Prepare your organization for BitLocker: Planning and policies</source>
+          <target>Prepare your organization for BitLocker: Planning and policies</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

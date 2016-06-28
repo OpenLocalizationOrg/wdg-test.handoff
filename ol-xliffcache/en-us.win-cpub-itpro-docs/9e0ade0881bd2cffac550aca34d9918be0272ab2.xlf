@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\manage-tpm-lockout.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">9e0ade0881bd2cffac550aca34d9918be0272ab2</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Manage TPM lockout (Windows 10)</source>
+          <target>Manage TPM lockout (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic for the IT professional describes how to manage the lockout feature for the Trusted Platform Module (TPM) in Windows.</source>
+          <target>This topic for the IT professional describes how to manage the lockout feature for the Trusted Platform Module (TPM) in Windows.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Manage TPM lockout</source>
+          <target>Manage TPM lockout</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic for the IT professional describes how to manage the lockout feature for the Trusted Platform Module (TPM) in Windows.</source>
+          <target>This topic for the IT professional describes how to manage the lockout feature for the Trusted Platform Module (TPM) in Windows.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>About TPM lockout</source>
+          <target>About TPM lockout</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The TPM will lock itself to prevent tampering or malicious attacks.</source>
+          <target>The TPM will lock itself to prevent tampering or malicious attacks.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>TPM lockout often lasts for a variable amount of time or until the computer is turned off.</source>
+          <target>TPM lockout often lasts for a variable amount of time or until the computer is turned off.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>While the TPM is in lockout mode, it generally returns an error message when it receives commands that require an authorization value.</source>
+          <target>While the TPM is in lockout mode, it generally returns an error message when it receives commands that require an authorization value.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>One exception is that the TPM always allows the owner at least one attempt to reset the TPM lockout when it is in lockout mode.</source>
+          <target>One exception is that the TPM always allows the owner at least one attempt to reset the TPM lockout when it is in lockout mode.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>TPM ownership is commonly taken the first time BitLocker Drive Encryption is turned on for the computer.</source>
+          <target>TPM ownership is commonly taken the first time BitLocker Drive Encryption is turned on for the computer.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>In this case, the TPM owner authorization password is saved with the BitLocker recovery key.</source>
+          <target>In this case, the TPM owner authorization password is saved with the BitLocker recovery key.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>When the BitLocker recovery key is saved to a file, BitLocker also saves a TPM owner password file (.tpm) with the TPM owner password hash value.</source>
+          <target>When the BitLocker recovery key is saved to a file, BitLocker also saves a TPM owner password file (.tpm) with the TPM owner password hash value.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>When the BitLocker recovery key is printed, the TPM owner password is printed at the same time.</source>
+          <target>When the BitLocker recovery key is printed, the TPM owner password is printed at the same time.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>You can also save your TPM owner password hash value to Active Directory Domain Services (AD DS) if your organization's Group Policy settings are configured to do so.</source>
+          <target>You can also save your TPM owner password hash value to Active Directory Domain Services (AD DS) if your organization's Group Policy settings are configured to do so.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>In some cases, encryption keys are protected by a TPM by requiring a valid authorization value to access the key.</source>
+          <target>In some cases, encryption keys are protected by a TPM by requiring a valid authorization value to access the key.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>A common example is configuring BitLocker Drive Encryption to use the TPM plus PIN key protector.</source>
+          <target>A common example is configuring BitLocker Drive Encryption to use the TPM plus PIN key protector.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>In this scenario, the user must type the correct PIN during the boot process to access the volume encryption key protected by the TPM.</source>
+          <target>In this scenario, the user must type the correct PIN during the boot process to access the volume encryption key protected by the TPM.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>To prevent malicious users or software from discovering authorization values, TPMs implement protection logic.</source>
+          <target>To prevent malicious users or software from discovering authorization values, TPMs implement protection logic.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>The protection logic is designed to slow or stop responses from the TPM if it detects that an entity might be trying to guess authorization values.</source>
+          <target>The protection logic is designed to slow or stop responses from the TPM if it detects that an entity might be trying to guess authorization values.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>The industry standards from the Trusted Computing Group (TCG) specify that TPM manufacturers must implement some form of protection logic in TPM 1.2 and TPM 2.0 chips.</source>
+          <target>The industry standards from the Trusted Computing Group (TCG) specify that TPM manufacturers must implement some form of protection logic in TPM 1.2 and TPM 2.0 chips.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>TPM manufacturers implement different protection mechanisms and behavior.</source>
+          <target>TPM manufacturers implement different protection mechanisms and behavior.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>The general guidance is for the TPM chip to take exponentially longer to respond if incorrect authorization values are sent to the TPM.</source>
+          <target>The general guidance is for the TPM chip to take exponentially longer to respond if incorrect authorization values are sent to the TPM.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Some TPM chips may not store failed attempts over time.</source>
+          <target>Some TPM chips may not store failed attempts over time.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Other TPM chips may store every failed attempt indefinitely.</source>
+          <target>Other TPM chips may store every failed attempt indefinitely.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Therefore, some users may experience increasingly longer delays when they mistype an authorization value that is sent to the TPM.</source>
+          <target>Therefore, some users may experience increasingly longer delays when they mistype an authorization value that is sent to the TPM.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>This can prevent them from using the TPM for a period of time.</source>
+          <target>This can prevent them from using the TPM for a period of time.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>If your TPM has entered lockout mode or is responding slowly to commands, you can reset the lockout value by using the following procedures.</source>
+          <target>If your TPM has entered lockout mode or is responding slowly to commands, you can reset the lockout value by using the following procedures.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Resetting the TPM lockout requires the TPM owner’s authorization.</source>
+          <target>Resetting the TPM lockout requires the TPM owner’s authorization.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Reset the TPM lockout by using the TPM MMC</source>
+          <target>Reset the TPM lockout by using the TPM MMC</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>The following procedure explains the steps to reset the TPM lockout by using the TPM MMC.</source>
+          <target>The following procedure explains the steps to reset the TPM lockout by using the TPM MMC.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>To reset the TPM lockout</source>
+          <target>To reset the TPM lockout</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Open the TPM MMC (tpm.msc).</source>
+          <target>Open the TPM MMC (tpm.msc).</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc> pane, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Reset TPM Lockout</pc> to start the Reset TPM Lockout Wizard.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc> pane, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Reset TPM Lockout</pc> to start the Reset TPM Lockout Wizard.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Choose one of the following methods to enter the TPM owner password:</source>
+          <target>Choose one of the following methods to enter the TPM owner password:</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you saved your TPM owner password to a .tpm file, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">I have the owner password file</pc>, and then type the path to the file, or click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc> to navigate to the file location.</source>
+          <target>If you saved your TPM owner password to a .tpm file, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">I have the owner password file</pc>, and then type the path to the file, or click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc> to navigate to the file location.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you want to manually enter your TPM owner password, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">I want to enter the owner password</pc>, and then type the password in the text box provided.</source>
+          <target>If you want to manually enter your TPM owner password, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">I want to enter the owner password</pc>, and then type the password in the text box provided.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  If you enabled BitLocker and your TPM at the same time, and you printed your BitLocker recovery password when you turned on BitLocker, your TPM owner password may have printed with it.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  If you enabled BitLocker and your TPM at the same time, and you printed your BitLocker recovery password when you turned on BitLocker, your TPM owner password may have printed with it.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Use Group Policy to manage TPM lockout settings</source>
+          <target>Use Group Policy to manage TPM lockout settings</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>The TPM Group Policy settings in the following list are located at:</source>
+          <target>The TPM Group Policy settings in the following list are located at:</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Computer Configuration<ph dataRef="id1" id="ph1" />Administrative Templates<ph dataRef="id2" id="ph2" />System<ph dataRef="id3" id="ph3" />Trusted Platform Module Services</source>
+          <target>Computer Configuration<ph dataRef="id1" id="ph1" />Administrative Templates<ph dataRef="id2" id="ph2" />System<ph dataRef="id3" id="ph3" />Trusted Platform Module Services</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Standard User Lockout Duration</source>
+          <target>Standard User Lockout Duration</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>This policy setting allows you to manage the duration in minutes for counting standard user authorization failures for TPM commands that require authorization.</source>
+          <target>This policy setting allows you to manage the duration in minutes for counting standard user authorization failures for TPM commands that require authorization.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>An authorization failure occurs each time a user sends a command to the TPM and receives an error message that indicates an authorization failure occurred.</source>
+          <target>An authorization failure occurs each time a user sends a command to the TPM and receives an error message that indicates an authorization failure occurred.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Authorization failures that are older than the duration you set are ignored.</source>
+          <target>Authorization failures that are older than the duration you set are ignored.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>If the number of TPM commands with an authorization failure within the lockout duration equals a threshold, the user is prevented from sending commands to the TPM that require authorization.</source>
+          <target>If the number of TPM commands with an authorization failure within the lockout duration equals a threshold, the user is prevented from sending commands to the TPM that require authorization.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Standard User Individual Lockout Threshold</source>
+          <target>Standard User Individual Lockout Threshold</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>This policy setting allows you to manage the maximum number of authorization failures for the TPM for each user.</source>
+          <target>This policy setting allows you to manage the maximum number of authorization failures for the TPM for each user.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>This value is the maximum number of authorization failures that each user can have before the user is not allowed to send commands to the TPM that require authorization.</source>
+          <target>This value is the maximum number of authorization failures that each user can have before the user is not allowed to send commands to the TPM that require authorization.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>If the number of authorization failures equals the duration that is set for the policy setting, the user is prevented from sending commands to the TPM that require authorization.</source>
+          <target>If the number of authorization failures equals the duration that is set for the policy setting, the user is prevented from sending commands to the TPM that require authorization.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Standard User Total Lockout Threshold</source>
+          <target>Standard User Total Lockout Threshold</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>This policy setting allows you to manage the maximum number of authorization failures for the TPM for all standard users.</source>
+          <target>This policy setting allows you to manage the maximum number of authorization failures for the TPM for all standard users.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>If the total number of authorization failures for all users equals the duration that is set for the policy, all users are prevented from sending commands to the TPM that require authorization.</source>
+          <target>If the total number of authorization failures for all users equals the duration that is set for the policy, all users are prevented from sending commands to the TPM that require authorization.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](tpm-fundamentals.md#bkmk-howtpmmitigates)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about mitigating dictionary attacks that use the lockout settings, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TPM fundamentals</pc>.</source>
+          <target>For information about mitigating dictionary attacks that use the lockout settings, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TPM fundamentals</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Use the TPM cmdlets</source>
+          <target>Use the TPM cmdlets</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>If you are using Windows PowerShell to manage your computers, you can also manage the TPM by using Windows PowerShell.</source>
+          <target>If you are using Windows PowerShell to manage your computers, you can also manage the TPM by using Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>To install the TPM cmdlets, type the following command:</source>
+          <target>To install the TPM cmdlets, type the following command:</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>dism /online /enable-feature /FeatureName:tpm-psh-cmdlets</source>
+          <target>dism /online /enable-feature /FeatureName:tpm-psh-cmdlets</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/jj603116.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For details about the individual cmdlets, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TPM Cmdlets in Windows PowerShell</pc>.</source>
+          <target>For details about the individual cmdlets, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TPM Cmdlets in Windows PowerShell</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Additional resources</source>
+          <target>Additional resources</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](trusted-platform-module-overview.md#bkmk-additionalresources)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info about TPM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TPM technology overview</pc>.</source>
+          <target>For more info about TPM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TPM technology overview</pc>.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

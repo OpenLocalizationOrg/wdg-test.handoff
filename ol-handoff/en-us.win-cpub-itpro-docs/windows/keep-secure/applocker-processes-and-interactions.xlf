@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\applocker-processes-and-interactions.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">7b25a3d8f0c2aa89e915d1f095cf3f3af8c76789</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>AppLocker processes and interactions (Windows 10)</source>
+          <target>AppLocker processes and interactions (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic for the IT professional describes the process dependencies and interactions when AppLocker evaluates and enforces rules.</source>
+          <target>This topic for the IT professional describes the process dependencies and interactions when AppLocker evaluates and enforces rules.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>AppLocker processes and interactions</source>
+          <target>AppLocker processes and interactions</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic for the IT professional describes the process dependencies and interactions when AppLocker evaluates and enforces rules.</source>
+          <target>This topic for the IT professional describes the process dependencies and interactions when AppLocker evaluates and enforces rules.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>How policies are implemented by AppLocker</source>
+          <target>How policies are implemented by AppLocker</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>AppLocker policies are collections of AppLocker rules that might contain any one of the enforcement settings configured.</source>
+          <target>AppLocker policies are collections of AppLocker rules that might contain any one of the enforcement settings configured.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>When applied, each rule is evaluated within the policy and the collection of rules is applied according to the enforcement setting and according to your Group Policy structure.</source>
+          <target>When applied, each rule is evaluated within the policy and the collection of rules is applied according to the enforcement setting and according to your Group Policy structure.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>The AppLocker policy is enforced on a computer through the Application Identity service, which is the engine that evaluates the policies.</source>
+          <target>The AppLocker policy is enforced on a computer through the Application Identity service, which is the engine that evaluates the policies.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>If the service is not running, policies will not be enforced.</source>
+          <target>If the service is not running, policies will not be enforced.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>The Application Identity service returns the information from the binary—even if product or binary names are empty—to the results pane of the Local Security Policy snap-in.</source>
+          <target>The Application Identity service returns the information from the binary—even if product or binary names are empty—to the results pane of the Local Security Policy snap-in.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>AppLocker policies are stored in a security descriptor format according to Application Identity service requirements.</source>
+          <target>AppLocker policies are stored in a security descriptor format according to Application Identity service requirements.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>It uses file path, hash, or fully qualified binary name attributes to form allow or deny actions on a rule.</source>
+          <target>It uses file path, hash, or fully qualified binary name attributes to form allow or deny actions on a rule.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Each rule is stored as an access control entry (ACE) in the security descriptor and contains the following information:</source>
+          <target>Each rule is stored as an access control entry (ACE) in the security descriptor and contains the following information:</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Either an allow or a deny ACE ("XA" or "XD" in security descriptor definition language (SDDL) form).</source>
+          <target>Either an allow or a deny ACE ("XA" or "XD" in security descriptor definition language (SDDL) form).</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>The user security identifier (SID) that this rule is applicable to.</source>
+          <target>The user security identifier (SID) that this rule is applicable to.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>(The default is the authenticated user SID, or "AU" in SDDL.)</source>
+          <target>(The default is the authenticated user SID, or "AU" in SDDL.)</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The rule condition containing the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">appid</pc> attributes.</source>
+          <target>The rule condition containing the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">appid</pc> attributes.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">\\\*</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, an SDDL for a rule that allows all files in the %windir% directory to run uses the following format: XA;;FX;;;AU;(APPID://PATH == "%windir%<ph dataRef="id1" id="ph1" />").</source>
+          <target>For example, an SDDL for a rule that allows all files in the %windir% directory to run uses the following format: XA;;FX;;;AU;(APPID://PATH == "%windir%<ph dataRef="id1" id="ph1" />").</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>An AppLocker policy for DLLs and executable files is read and cached by kernel mode code, which is part of appid.sys.</source>
+          <target>An AppLocker policy for DLLs and executable files is read and cached by kernel mode code, which is part of appid.sys.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Whenever a new policy is applied, appid.sys is notified by a policy converter task.</source>
+          <target>Whenever a new policy is applied, appid.sys is notified by a policy converter task.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For other file types, the AppLocker policy is read every time a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SaferIdentifyLevel</pc> call is made.</source>
+          <target>For other file types, the AppLocker policy is read every time a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SaferIdentifyLevel</pc> call is made.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Understanding AppLocker rules</source>
+          <target>Understanding AppLocker rules</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>An AppLocker rule is a control placed on a file to govern whether or not it is allowed to run for a specific user or group.</source>
+          <target>An AppLocker rule is a control placed on a file to govern whether or not it is allowed to run for a specific user or group.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Rules apply to five different types, or collections, of files:</source>
+          <target>Rules apply to five different types, or collections, of files:</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>An executable rule controls whether a user or group can run an executable file.</source>
+          <target>An executable rule controls whether a user or group can run an executable file.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Executable files most often have the .exe or .com file name extensions and apply to applications.</source>
+          <target>Executable files most often have the .exe or .com file name extensions and apply to applications.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>A script rule controls whether a user or group can run scripts with a file name extension of .ps1, .bat, .cmd, .vbs, and .js.</source>
+          <target>A script rule controls whether a user or group can run scripts with a file name extension of .ps1, .bat, .cmd, .vbs, and .js.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>A Windows Installer rule controls whether a user or group can run files with a file name extension of .msi, mst and .msp (Windows Installer patch).</source>
+          <target>A Windows Installer rule controls whether a user or group can run files with a file name extension of .msi, mst and .msp (Windows Installer patch).</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>A DLL rule controls whether a user or group can run files with a file name extension of .dll and .ocx.</source>
+          <target>A DLL rule controls whether a user or group can run files with a file name extension of .dll and .ocx.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>A packaged app and packaged app installer rule controls whether a user or group can run or install a packaged app.</source>
+          <target>A packaged app and packaged app installer rule controls whether a user or group can run or install a packaged app.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>A Packaged app installer has the .appx extension.</source>
+          <target>A Packaged app installer has the .appx extension.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>There are three different types of conditions that can be applied to rules:</source>
+          <target>There are three different types of conditions that can be applied to rules:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>A publisher condition on a rule controls whether a user or group can run files from a specific software publisher.</source>
+          <target>A publisher condition on a rule controls whether a user or group can run files from a specific software publisher.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>The file must be signed.</source>
+          <target>The file must be signed.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>A path condition on a rule controls whether a user or group can run files from within a specific directory or its subdirectories.</source>
+          <target>A path condition on a rule controls whether a user or group can run files from within a specific directory or its subdirectories.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>A file hash condition on a rule controls whether a user or group can run files with matching encrypted hashes.</source>
+          <target>A file hash condition on a rule controls whether a user or group can run files with matching encrypted hashes.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Understanding AppLocker rule collections</source>
+          <target>Understanding AppLocker rule collections</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>An AppLocker rule collection is a set of rules that apply to one of the following types: executable files, Windows Installer files, scripts, DLLs, and packaged apps.</source>
+          <target>An AppLocker rule collection is a set of rules that apply to one of the following types: executable files, Windows Installer files, scripts, DLLs, and packaged apps.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Understanding AppLocker rule condition types</source>
+          <target>Understanding AppLocker rule condition types</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Rule conditions are criteria that the AppLocker rule is based on.</source>
+          <target>Rule conditions are criteria that the AppLocker rule is based on.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Primary conditions are required to create an AppLocker rule.</source>
+          <target>Primary conditions are required to create an AppLocker rule.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>The three primary rule conditions are publisher, path, and file hash.</source>
+          <target>The three primary rule conditions are publisher, path, and file hash.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Understanding the publisher rule condition in AppLocker</source>
+          <target>Understanding the publisher rule condition in AppLocker</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Understanding the path rule condition in AppLocker</source>
+          <target>Understanding the path rule condition in AppLocker</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Understanding the file hash rule condition in AppLocker</source>
+          <target>Understanding the file hash rule condition in AppLocker</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Understanding AppLocker default rules</source>
+          <target>Understanding AppLocker default rules</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>AppLocker includes default rules for each rule collection.</source>
+          <target>AppLocker includes default rules for each rule collection.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>These rules are intended to help ensure that the files that are required for Windows to operate properly are allowed in an AppLocker rule collection.</source>
+          <target>These rules are intended to help ensure that the files that are required for Windows to operate properly are allowed in an AppLocker rule collection.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Executable rules in AppLocker</source>
+          <target>Executable rules in AppLocker</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Windows Installer rules in AppLocker</source>
+          <target>Windows Installer rules in AppLocker</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Script rules in AppLocker</source>
+          <target>Script rules in AppLocker</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>DLL rules in AppLocker</source>
+          <target>DLL rules in AppLocker</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Packaged apps and packaged app installer rules in AppLocker</source>
+          <target>Packaged apps and packaged app installer rules in AppLocker</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Understanding AppLocker rule exceptions</source>
+          <target>Understanding AppLocker rule exceptions</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>You can apply AppLocker rules to individual users or a group of users.</source>
+          <target>You can apply AppLocker rules to individual users or a group of users.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>If you apply a rule to a group of users, all users in that group are affected by that rule.</source>
+          <target>If you apply a rule to a group of users, all users in that group are affected by that rule.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>If you need to allow only a subset of a user group to use an application, you can create a special rule for that subset.</source>
+          <target>If you need to allow only a subset of a user group to use an application, you can create a special rule for that subset.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](understanding-applocker-rule-behavior.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](understanding-applocker-allow-and-deny-actions-on-rules.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Understanding AppLocker rule behavior</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Understanding AppLocker allow and deny actions on Rules</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Understanding AppLocker rule behavior</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Understanding AppLocker allow and deny actions on Rules</pc></target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Each AppLocker rule collection functions as an allowed list of files.</source>
+          <target>Each AppLocker rule collection functions as an allowed list of files.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Understanding AppLocker policies</source>
+          <target>Understanding AppLocker policies</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>An AppLocker policy is a set of rule collections and their corresponding configured enforcement settings that have been applied to one or more computers.</source>
+          <target>An AppLocker policy is a set of rule collections and their corresponding configured enforcement settings that have been applied to one or more computers.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Understand AppLocker enforcement settings</source>
+          <target>Understand AppLocker enforcement settings</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Rule enforcement is applied only to collections of rules, not individual rules.</source>
+          <target>Rule enforcement is applied only to collections of rules, not individual rules.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>AppLocker divides the rules into four collections: executable files, Windows Installer files, scripts, and DLL files.</source>
+          <target>AppLocker divides the rules into four collections: executable files, Windows Installer files, scripts, and DLL files.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The options for rule enforcement are <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Not configured</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enforce rules</pc>, or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Audit only</pc>.</source>
+          <target>The options for rule enforcement are <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Not configured</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enforce rules</pc>, or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Audit only</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Together, all AppLocker rule collections compose the application control policy, or AppLocker policy.</source>
+          <target>Together, all AppLocker rule collections compose the application control policy, or AppLocker policy.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>By default, if enforcement is not configured and rules are present in a rule collection, those rules are enforced.</source>
+          <target>By default, if enforcement is not configured and rules are present in a rule collection, those rules are enforced.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Understanding AppLocker and Group Policy</source>
+          <target>Understanding AppLocker and Group Policy</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Group Policy can be used to create, modify, and distribute AppLocker policies in separate objects or in combination with other policies.</source>
+          <target>Group Policy can be used to create, modify, and distribute AppLocker policies in separate objects or in combination with other policies.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Understand AppLocker rules and enforcement setting inheritance in Group Policy</source>
+          <target>Understand AppLocker rules and enforcement setting inheritance in Group Policy</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>When Group Policy is used to distribute AppLocker policies, rule collections that are not configured will be enforced.</source>
+          <target>When Group Policy is used to distribute AppLocker policies, rule collections that are not configured will be enforced.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Group Policy does not overwrite or replace rules that are already present in a linked Group Policy Object (GPO) and applies the AppLocker rules in addition to existing rules.</source>
+          <target>Group Policy does not overwrite or replace rules that are already present in a linked Group Policy Object (GPO) and applies the AppLocker rules in addition to existing rules.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>AppLocker processes the explicit deny rule configuration before the allow rule configuration, and for rule enforcement, the last write to the GPO is applied.</source>
+          <target>AppLocker processes the explicit deny rule configuration before the allow rule configuration, and for rule enforcement, the last write to the GPO is applied.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>AppLocker technical reference</source>
+          <target>AppLocker technical reference</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

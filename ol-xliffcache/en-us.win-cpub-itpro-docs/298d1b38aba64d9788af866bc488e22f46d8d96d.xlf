@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\appv-v4\how-to-use-dynamic-suite-composition.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">298d1b38aba64d9788af866bc488e22f46d8d96d</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>How To Use Dynamic Suite Composition</source>
+          <target>How To Use Dynamic Suite Composition</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>How To Use Dynamic Suite Composition</source>
+          <target>How To Use Dynamic Suite Composition</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>How To Use Dynamic Suite Composition</source>
+          <target>How To Use Dynamic Suite Composition</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Dynamic Suite Composition in Application Virtualization enables you to define an application as being dependent on another application, such as middleware or a plug-in.</source>
+          <target>Dynamic Suite Composition in Application Virtualization enables you to define an application as being dependent on another application, such as middleware or a plug-in.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>This enables the application to interact with the middleware or plug-in in the virtual environment, where typically this is prevented.</source>
+          <target>This enables the application to interact with the middleware or plug-in in the virtual environment, where typically this is prevented.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>This is useful because a secondary application package can be used with several other applications, referred to as the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">primary applications</pc>, which enables each primary application to reference the same secondary package.</source>
+          <target>This is useful because a secondary application package can be used with several other applications, referred to as the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">primary applications</pc>, which enables each primary application to reference the same secondary package.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>You can use Dynamic Suite Composition when you sequence applications that depend on plug-ins such as ActiveX controls or for applications that depend on middleware such as OLE DB or the Java Runtime Environment (JRE).</source>
+          <target>You can use Dynamic Suite Composition when you sequence applications that depend on plug-ins such as ActiveX controls or for applications that depend on middleware such as OLE DB or the Java Runtime Environment (JRE).</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>If each application that used these dependent components required sequencing, including the components, updates to those components would require re-sequencing all the primary applications.</source>
+          <target>If each application that used these dependent components required sequencing, including the components, updates to those components would require re-sequencing all the primary applications.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>If you sequence the primary applications without the components and then sequence the middleware or plug-in as a secondary package, then only the secondary package must be updated.</source>
+          <target>If you sequence the primary applications without the components and then sequence the middleware or plug-in as a secondary package, then only the secondary package must be updated.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>One advantage of this approach is that it reduces the size of the primary packages.</source>
+          <target>One advantage of this approach is that it reduces the size of the primary packages.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Another advantage is that it provides you with better control of access permissions on the secondary applications.</source>
+          <target>Another advantage is that it provides you with better control of access permissions on the secondary applications.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Note that the secondary application can be streamed in the regular way and does not have to be fully cached to run.</source>
+          <target>Note that the secondary application can be streamed in the regular way and does not have to be fully cached to run.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>A primary package can have more than one secondary package.</source>
+          <target>A primary package can have more than one secondary package.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>However, only one level of dependency is supported, so you cannot define a secondary package as dependent on another secondary package.</source>
+          <target>However, only one level of dependency is supported, so you cannot define a secondary package as dependent on another secondary package.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Also the secondary application can only be middleware or a plug-in and cannot be another full software product.</source>
+          <target>Also the secondary application can only be middleware or a plug-in and cannot be another full software product.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>If you plan to make several primary applications dependent on a single middleware product, make sure that you test this configuration to determine the potential effect on system performance before you deploy it.</source>
+          <target>If you plan to make several primary applications dependent on a single middleware product, make sure that you test this configuration to determine the potential effect on system performance before you deploy it.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Package dependencies can be specified as mandatory for a primary application.</source>
+          <target>Package dependencies can be specified as mandatory for a primary application.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>If a secondary package is flagged as mandatory and it cannot be accessed for some reason during loading, the load of the secondary package will fail.</source>
+          <target>If a secondary package is flagged as mandatory and it cannot be accessed for some reason during loading, the load of the secondary package will fail.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Also, the primary application will fail when the user tries to start it.</source>
+          <target>Also, the primary application will fail when the user tries to start it.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>You can use the following procedures to create a secondary package, for either a plug-in or a middleware component, and then you can use the final procedure to define the dependency in the OSD file of the secondary package.</source>
+          <target>You can use the following procedures to create a secondary package, for either a plug-in or a middleware component, and then you can use the final procedure to define the dependency in the OSD file of the secondary package.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>To create a secondary package for a plug-in by using Dynamic Suite Composition</source>
+          <target>To create a secondary package for a plug-in by using Dynamic Suite Composition</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>On a sequencing computer that is set up with a clean image, install Application Virtualization Sequencer and save the computer state.</source>
+          <target>On a sequencing computer that is set up with a clean image, install Application Virtualization Sequencer and save the computer state.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Sequence the primary application, and save the package to the Content folder on the server.</source>
+          <target>Sequence the primary application, and save the package to the Content folder on the server.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Restore the sequencing computer to its saved state from step 1.</source>
+          <target>Restore the sequencing computer to its saved state from step 1.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Install and configure the primary application locally on the sequencing computer.</source>
+          <target>Install and configure the primary application locally on the sequencing computer.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>You must specify a new package root for the secondary package.</source>
+          <target>You must specify a new package root for the secondary package.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Start the sequencer monitoring phase.</source>
+          <target>Start the sequencer monitoring phase.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Install the plug-in on the sequencing computer and configure it as needed.</source>
+          <target>Install the plug-in on the sequencing computer and configure it as needed.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Open the primary application, and confirm that the plug-in is working correctly.</source>
+          <target>Open the primary application, and confirm that the plug-in is working correctly.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>In the sequencer console, create a dummy application to represent the secondary package that will contain the plug-in and select an icon.</source>
+          <target>In the sequencer console, create a dummy application to represent the secondary package that will contain the plug-in and select an icon.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Save the package to the Content folder on the server.</source>
+          <target>Save the package to the Content folder on the server.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\[</data>
+          <data id="id4">\]</data>
+        </originalData>
+        <segment state="initial">
+          <source>To assist with management of secondary packages, it is recommended that the package name include the term “Secondary package” to emphasize that this is a package that will not function as a stand-alone application—for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />Plug In Name<ph dataRef="id4" id="ph2" /> Secondary package</pc>.</source>
+          <target>To assist with management of secondary packages, it is recommended that the package name include the term “Secondary package” to emphasize that this is a package that will not function as a stand-alone application—for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />Plug In Name<ph dataRef="id4" id="ph2" /> Secondary package</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>To create a secondary package for middleware by using Dynamic Suite Composition</source>
+          <target>To create a secondary package for middleware by using Dynamic Suite Composition</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>On a sequencing computer that is set up with a clean image, install Application Virtualization Sequencer and save the computer state.</source>
+          <target>On a sequencing computer that is set up with a clean image, install Application Virtualization Sequencer and save the computer state.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Install the middleware locally on the sequencing computer, and configure it.</source>
+          <target>Install the middleware locally on the sequencing computer, and configure it.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Sequence the primary application, and save the package to the Content folder on the server.</source>
+          <target>Sequence the primary application, and save the package to the Content folder on the server.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Restore the sequencing computer to its saved state from step 1.</source>
+          <target>Restore the sequencing computer to its saved state from step 1.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Start the sequencer to create a new package.</source>
+          <target>Start the sequencer to create a new package.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Start the sequencer monitoring phase.</source>
+          <target>Start the sequencer monitoring phase.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Install the middleware application on the sequencing computer, and configure it as in a typical installation.</source>
+          <target>Install the middleware application on the sequencing computer, and configure it as in a typical installation.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Complete the sequencing process.</source>
+          <target>Complete the sequencing process.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Save the package to the Content folder on the server.</source>
+          <target>Save the package to the Content folder on the server.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\[</data>
+          <data id="id4">\]</data>
+        </originalData>
+        <segment state="initial">
+          <source>To assist with management of secondary packages, it is recommended that the package name include the term “Secondary package” to emphasize that this is a package that will not function as a stand-alone application—for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />Middleware Name<ph dataRef="id4" id="ph2" /> Secondary package</pc>.</source>
+          <target>To assist with management of secondary packages, it is recommended that the package name include the term “Secondary package” to emphasize that this is a package that will not function as a stand-alone application—for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />Middleware Name<ph dataRef="id4" id="ph2" /> Secondary package</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>To define the dependency in the primary package</source>
+          <target>To define the dependency in the primary package</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>On the server, open the OSD file of the secondary package for editing.</source>
+          <target>On the server, open the OSD file of the secondary package for editing.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>(It is a good idea to use an XML editor to make changes to the OSD file; however, you can use Notepad as an alternative.)</source>
+          <target>(It is a good idea to use an XML editor to make changes to the OSD file; however, you can use Notepad as an alternative.)</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Copy the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CODEBASE HREF</pc> line from that file.</source>
+          <target>Copy the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CODEBASE HREF</pc> line from that file.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Open the OSD file of the primary package for editing.</source>
+          <target>Open the OSD file of the primary package for editing.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">&amp;lt;</data>
+          <data id="id8">&amp;gt;</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">&amp;lt;</data>
+          <data id="id12">&amp;gt;</data>
+          <data id="id13">**</data>
+          <data id="id14">**</data>
+          <data id="id15">&amp;lt;</data>
+          <data id="id16">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Insert the <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />DEPENDENCIES<ph dataRef="id4" id="ph2" /></pc>tag after the close of <pc dataRefEnd="id6" dataRefStart="id5" id="p2"><ph dataRef="id7" id="ph3" />/ENVLIST<ph dataRef="id8" id="ph4" /></pc> tag at the end of the <pc dataRefEnd="id10" dataRefStart="id9" id="p3"><ph dataRef="id11" id="ph5" />VIRTUALENV<ph dataRef="id12" id="ph6" /></pc> section just before the <pc dataRefEnd="id14" dataRefStart="id13" id="p4"><ph dataRef="id15" id="ph7" />/VIRTUALENV<ph dataRef="id16" id="ph8" /></pc> tag.</source>
+          <target>Insert the <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />DEPENDENCIES<ph dataRef="id4" id="ph2" /></pc>tag after the close of <pc dataRefEnd="id6" dataRefStart="id5" id="p2"><ph dataRef="id7" id="ph3" />/ENVLIST<ph dataRef="id8" id="ph4" /></pc> tag at the end of the <pc dataRefEnd="id10" dataRefStart="id9" id="p3"><ph dataRef="id11" id="ph5" />VIRTUALENV<ph dataRef="id12" id="ph6" /></pc> section just before the <pc dataRefEnd="id14" dataRefStart="id13" id="p4"><ph dataRef="id15" id="ph7" />/VIRTUALENV<ph dataRef="id16" id="ph8" /></pc> tag.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">&amp;lt;</data>
+          <data id="id6">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Paste the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CODEBASE HREF</pc> line from the secondary package after the <pc dataRefEnd="id4" dataRefStart="id3" id="p2"><ph dataRef="id5" id="ph1" />DEPENDENCIES<ph dataRef="id6" id="ph2" /></pc> tag you just created.</source>
+          <target>Paste the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CODEBASE HREF</pc> line from the secondary package after the <pc dataRefEnd="id4" dataRefStart="id3" id="p2"><ph dataRef="id5" id="ph1" />DEPENDENCIES<ph dataRef="id6" id="ph2" /></pc> tag you just created.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the secondary package is a mandatory package, which means that it must be started before the primary package is started, add the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MANDATORY=”TRUE”</pc> property inside the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">CODEBASE</pc> tag.</source>
+          <target>If the secondary package is a mandatory package, which means that it must be started before the primary package is started, add the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MANDATORY=”TRUE”</pc> property inside the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">CODEBASE</pc> tag.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>If it is not mandatory, the property can be omitted.</source>
+          <target>If it is not mandatory, the property can be omitted.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Close the <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />DEPENDENCIES<ph dataRef="id4" id="ph2" /></pc> tag by inserting the following:</source>
+          <target>Close the <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />DEPENDENCIES<ph dataRef="id4" id="ph2" /></pc> tag by inserting the following:</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>/DEPENDENCIES</source>
+          <target>/DEPENDENCIES</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Review the changes that you made to the OSD file, and then save and close the file.</source>
+          <target>Review the changes that you made to the OSD file, and then save and close the file.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>The following example shows how the added section should appear.</source>
+          <target>The following example shows how the added section should appear.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>The tag values shown here are for example only.</source>
+          <target>The tag values shown here are for example only.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>VIRTUALENV</source>
+          <target>VIRTUALENV</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>…</source>
+          <target>…</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>/VIRTUALENV</source>
+          <target>/VIRTUALENV</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the secondary package has any entries in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />ENVLIST<ph dataRef="id4" id="ph2" /></pc> section of the OSD file, you must copy those entries to the same section in the primary package.</source>
+          <target>If the secondary package has any entries in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />ENVLIST<ph dataRef="id4" id="ph2" /></pc> section of the OSD file, you must copy those entries to the same section in the primary package.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>How to Create or Upgrade Virtual Applications Using the App-V Sequencer</source>
+          <target>How to Create or Upgrade Virtual Applications Using the App-V Sequencer</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

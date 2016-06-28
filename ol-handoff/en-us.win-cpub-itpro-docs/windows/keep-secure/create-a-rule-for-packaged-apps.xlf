@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\create-a-rule-for-packaged-apps.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">5d243ce15fdea5aee586327bd6414bac85bcd08d</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Create a rule for packaged apps (Windows 10)</source>
+          <target>Create a rule for packaged apps (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic for IT professionals shows how to create an AppLocker rule for packaged apps with a publisher condition.</source>
+          <target>This topic for IT professionals shows how to create an AppLocker rule for packaged apps with a publisher condition.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Create a rule for packaged apps</source>
+          <target>Create a rule for packaged apps</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic for IT professionals shows how to create an AppLocker rule for packaged apps with a publisher condition.</source>
+          <target>This topic for IT professionals shows how to create an AppLocker rule for packaged apps with a publisher condition.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Packaged apps, also known as Universal Windows apps, are based on an app model that ensures that all the files within an app package share the same identity.</source>
+          <target>Packaged apps, also known as Universal Windows apps, are based on an app model that ensures that all the files within an app package share the same identity.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Therefore, it is possible to control the entire app using a single AppLocker rule as opposed to the non-packaged apps where each file within the app could have a unique identity.</source>
+          <target>Therefore, it is possible to control the entire app using a single AppLocker rule as opposed to the non-packaged apps where each file within the app could have a unique identity.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Windows does not support unsigned packaged apps which implies all packaged apps must be signed.</source>
+          <target>Windows does not support unsigned packaged apps which implies all packaged apps must be signed.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>AppLocker supports only publisher rules for packaged apps.</source>
+          <target>AppLocker supports only publisher rules for packaged apps.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>A publisher rule for a packaged app is based on the following information:</source>
+          <target>A publisher rule for a packaged app is based on the following information:</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Publisher of the package</source>
+          <target>Publisher of the package</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Package name</source>
+          <target>Package name</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Package version</source>
+          <target>Package version</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>All the files within a package as well as the package installer share these attributes.</source>
+          <target>All the files within a package as well as the package installer share these attributes.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Therefore, an AppLocker rule for a packaged app controls both the installation as well as the running of the app.</source>
+          <target>Therefore, an AppLocker rule for a packaged app controls both the installation as well as the running of the app.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Otherwise, the publisher rules for packaged apps are no different than the rest of the rule collections; they support exceptions, can be increased or decreased in scope, and can be assigned to users and groups.</source>
+          <target>Otherwise, the publisher rules for packaged apps are no different than the rest of the rule collections; they support exceptions, can be increased or decreased in scope, and can be assigned to users and groups.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](understanding-the-publisher-rule-condition-in-applocker.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For info about the publisher condition, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Understanding the publisher rule condition in AppLocker</pc>.</source>
+          <target>For info about the publisher condition, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Understanding the publisher rule condition in AppLocker</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>You can perform this task by using the Group Policy Management Console for an AppLocker policy in a Group Policy Object (GPO) or by using the Local Security Policy snap-in for an AppLocker policy on a local computer or in a security template.</source>
+          <target>You can perform this task by using the Group Policy Management Console for an AppLocker policy in a Group Policy Object (GPO) or by using the Local Security Policy snap-in for an AppLocker policy on a local computer or in a security template.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](administer-applocker.md#bkmk-using-snapins)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For info how to use these MMC snap-ins to administer AppLocker, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administer AppLocker</pc>.</source>
+          <target>For info how to use these MMC snap-ins to administer AppLocker, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administer AppLocker</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>To create a packaged app rule</source>
+          <target>To create a packaged app rule</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Open the AppLocker console.</source>
+          <target>Open the AppLocker console.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc> menu, or by right-clicking on <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Packaged app Rules</pc>, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Create New Rule</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Action</pc> menu, or by right-clicking on <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Packaged app Rules</pc>, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Create New Rule</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Before You Begin</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Before You Begin</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Permissions</pc> page, select the action (allow or deny) and the user or group that the rule should apply to, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Permissions</pc> page, select the action (allow or deny) and the user or group that the rule should apply to, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Publisher</pc> page, you can select a specific reference for the packaged app rule and set the scope for the rule.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Publisher</pc> page, you can select a specific reference for the packaged app rule and set the scope for the rule.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>The following table describes the reference options.</source>
+          <target>The following table describes the reference options.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Selection</source>
+          <target>Selection</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Use an installed packaged app as a reference</source>
+          <target>Use an installed packaged app as a reference</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>If selected, AppLocker requires you to choose an app that is already installed on which to base your new rule.</source>
+          <target>If selected, AppLocker requires you to choose an app that is already installed on which to base your new rule.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>AppLocker uses the publisher, package name and package version to define the rule.</source>
+          <target>AppLocker uses the publisher, package name and package version to define the rule.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>You want the Sales group only to use the app named Microsoft.BingMaps for its outside sales calls.</source>
+          <target>You want the Sales group only to use the app named Microsoft.BingMaps for its outside sales calls.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>The Microsoft.BingMaps app is already installed on the device where you are creating the rule, so you choose this option, and select the app from the list of apps installed on the computer and create the rule using this app as a reference.</source>
+          <target>The Microsoft.BingMaps app is already installed on the device where you are creating the rule, so you choose this option, and select the app from the list of apps installed on the computer and create the rule using this app as a reference.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Use a packaged app installer as a reference</source>
+          <target>Use a packaged app installer as a reference</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>If selected, AppLocker requires you to choose an app installer on which to base your new rule.</source>
+          <target>If selected, AppLocker requires you to choose an app installer on which to base your new rule.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>A packaged app installer has the .appx extension.</source>
+          <target>A packaged app installer has the .appx extension.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>AppLocker uses the publisher, package name and package version of the installer to define the rule.</source>
+          <target>AppLocker uses the publisher, package name and package version of the installer to define the rule.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Your company has developed a number of internal line-of-business packaged apps.</source>
+          <target>Your company has developed a number of internal line-of-business packaged apps.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>The app installers are stored on a common file share.</source>
+          <target>The app installers are stored on a common file share.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Employees can install the required apps from that file share.</source>
+          <target>Employees can install the required apps from that file share.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>You want to allow all your employees to install the Payroll app from this share.</source>
+          <target>You want to allow all your employees to install the Payroll app from this share.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>So you choose this option from the wizard, browse to the file share and choose the installer for the Payroll app as a reference to create your rule.</source>
+          <target>So you choose this option from the wizard, browse to the file share and choose the installer for the Payroll app as a reference to create your rule.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>The following table describes setting the scope for the packaged app rule.</source>
+          <target>The following table describes setting the scope for the packaged app rule.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Selection</source>
+          <target>Selection</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Applies to <ph dataRef="id1" id="ph1" />Any publisher</source>
+          <target>Applies to <ph dataRef="id1" id="ph1" />Any publisher</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>This is the least restrictive scope condition for an <ph dataRef="id1" id="ph1" />Allow<ph dataRef="id2" id="ph2" /> rule.</source>
+          <target>This is the least restrictive scope condition for an <ph dataRef="id1" id="ph1" />Allow<ph dataRef="id2" id="ph2" /> rule.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>It permits every packaged app to run or install.</source>
+          <target>It permits every packaged app to run or install.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Conversely, if this is a <ph dataRef="id1" id="ph1" />Deny<ph dataRef="id2" id="ph2" /> rule, then this option is the most restrictive because it denies all apps from installing or running.</source>
+          <target>Conversely, if this is a <ph dataRef="id1" id="ph1" />Deny<ph dataRef="id2" id="ph2" /> rule, then this option is the most restrictive because it denies all apps from installing or running.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>You want the Sales group to use any packaged app from any signed publisher.</source>
+          <target>You want the Sales group to use any packaged app from any signed publisher.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>You set the permissions to allow the Sales group to be able to run any app.</source>
+          <target>You set the permissions to allow the Sales group to be able to run any app.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Applies to a specific <ph dataRef="id1" id="ph1" />Publisher</source>
+          <target>Applies to a specific <ph dataRef="id1" id="ph1" />Publisher</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>This scopes the rule to all apps published by a particular publisher.</source>
+          <target>This scopes the rule to all apps published by a particular publisher.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>You want to allow all your users to install apps published by the publisher of Microsoft.BingMaps.</source>
+          <target>You want to allow all your users to install apps published by the publisher of Microsoft.BingMaps.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>You could select Microsoft.BingMaps as a reference and choose this rule scope.</source>
+          <target>You could select Microsoft.BingMaps as a reference and choose this rule scope.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Applies to a <ph dataRef="id1" id="ph1" />Package name</source>
+          <target>Applies to a <ph dataRef="id1" id="ph1" />Package name</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>This scopes the rule to all packages that share the publisher name and package name as the reference file.</source>
+          <target>This scopes the rule to all packages that share the publisher name and package name as the reference file.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>You want to allow your Sales group to install any version of the Microsoft.BingMaps app.</source>
+          <target>You want to allow your Sales group to install any version of the Microsoft.BingMaps app.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>You could select the Microsoft.BingMaps app as a reference and choose this rule scope.</source>
+          <target>You could select the Microsoft.BingMaps app as a reference and choose this rule scope.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Applies to a <ph dataRef="id1" id="ph1" />Package version</source>
+          <target>Applies to a <ph dataRef="id1" id="ph1" />Package version</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>This scopes the rule to a particular version of the package.</source>
+          <target>This scopes the rule to a particular version of the package.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>You want to be very selective in what you allow.</source>
+          <target>You want to be very selective in what you allow.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>You do not want to implicitly trust all future updates of the Microsoft.BingMaps app.</source>
+          <target>You do not want to implicitly trust all future updates of the Microsoft.BingMaps app.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>You can limit the scope of your rule to the version of the app currently installed on your reference computer.</source>
+          <target>You can limit the scope of your rule to the version of the app currently installed on your reference computer.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Applying custom values to the rule</source>
+          <target>Applying custom values to the rule</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Selecting the <ph dataRef="id1" id="ph1" />Use custom values<ph dataRef="id2" id="ph2" /> check box allows you to adjust the scope fields for your particular circumstance.</source>
+          <target>Selecting the <ph dataRef="id1" id="ph1" />Use custom values<ph dataRef="id2" id="ph2" /> check box allows you to adjust the scope fields for your particular circumstance.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You want to allow users to install all Microsoft.Bing<pc dataRefEnd="id2" dataRefStart="id1" id="p1"> applications which include Microsoft.BingMaps, Microsoft.BingWeather, Microsoft.BingMoney. You can choose the Microsoft.BingMaps as a reference, select the <ph dataRef="id3" id="ph1" />Use custom values<ph dataRef="id4" id="ph2" /> check box and edit the package name field by adding “Microsoft.Bing</pc>” as the Package name.</source>
+          <target>You want to allow users to install all Microsoft.Bing<pc dataRefEnd="id2" dataRefStart="id1" id="p1"> applications which include Microsoft.BingMaps, Microsoft.BingWeather, Microsoft.BingMoney. You can choose the Microsoft.BingMaps as a reference, select the <ph dataRef="id3" id="ph1" />Use custom values<ph dataRef="id4" id="ph2" /> check box and edit the package name field by adding “Microsoft.Bing</pc>” as the Package name.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>(Optional) On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exceptions</pc> page, specify conditions by which to exclude files from being affected by the rule.</source>
+          <target>(Optional) On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exceptions</pc> page, specify conditions by which to exclude files from being affected by the rule.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>This allows you to add exceptions based on the same rule reference and rule scope as you set before.</source>
+          <target>This allows you to add exceptions based on the same rule reference and rule scope as you set before.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> page, either accept the automatically generated rule name or type a new rule name, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> page, either accept the automatically generated rule name or type a new rule name, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create</pc>.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\deploy\create-an-application-to-deploy-with-windows-10-using-configuration-manager.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">11660c2e25c92104160081b7ec77f48b4fa26d2a</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Create an application to deploy with Windows 10 using Configuration Manager (Windows 10)</source>
+          <target>Create an application to deploy with Windows 10 using Configuration Manager (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Microsoft System Center 2012 R2 Configuration Manager supports deploying applications as part of the Windows 10 deployment process.</source>
+          <target>Microsoft System Center 2012 R2 Configuration Manager supports deploying applications as part of the Windows 10 deployment process.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Create an application to deploy with Windows 10 using Configuration Manager</source>
+          <target>Create an application to deploy with Windows 10 using Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Microsoft System Center 2012 R2 Configuration Manager supports deploying applications as part of the Windows 10 deployment process.</source>
+          <target>Microsoft System Center 2012 R2 Configuration Manager supports deploying applications as part of the Windows 10 deployment process.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>In this section, you create an application in System Center 2012 R2 Configuration Manager that you later configure the task sequence to use.</source>
+          <target>In this section, you create an application in System Center 2012 R2 Configuration Manager that you later configure the task sequence to use.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>For the purposes of this topic, we will use CM01, a machine running Windows Server 2012 R2 Standard that is a member of the domain contoso.com for the fictitious Contoso Corporation.</source>
+          <target>For the purposes of this topic, we will use CM01, a machine running Windows Server 2012 R2 Standard that is a member of the domain contoso.com for the fictitious Contoso Corporation.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](deploy-windows-10-with-the-microsoft-deployment-toolkit.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more details on the setup for this topic, please see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy Windows 10 with the Microsoft Deployment Toolkit</pc>.</source>
+          <target>For more details on the setup for this topic, please see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy Windows 10 with the Microsoft Deployment Toolkit</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Even though the new application model is fully supported to deploy via the task sequence, the most reliable way to deploy software via the task sequence is still the legacy packages, especially if you deploy many applications.</source>
+          <target>Even though the new application model is fully supported to deploy via the task sequence, the most reliable way to deploy software via the task sequence is still the legacy packages, especially if you deploy many applications.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Example: Create the Adobe Reader XI application</source>
+          <target>Example: Create the Adobe Reader XI application</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The steps below show you how to create the Adobe Reader XI application.</source>
+          <target>The steps below show you how to create the Adobe Reader XI application.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>This section assumes that you have downloaded the MSI version of Adobe Reader XI to the C:<ph dataRef="id1" id="ph1" />Setup<ph dataRef="id2" id="ph2" />Adobe Reader XI folder on CM01.</source>
+          <target>This section assumes that you have downloaded the MSI version of Adobe Reader XI to the C:<ph dataRef="id1" id="ph1" />Setup<ph dataRef="id2" id="ph2" />Adobe Reader XI folder on CM01.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+          <data id="id9">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On CM01, using File Explorer, copy the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />Setup<ph dataRef="id4" id="ph2" />Adobe Reader XI</pc> folder to the <pc dataRefEnd="id6" dataRefStart="id5" id="p2">E:<ph dataRef="id7" id="ph3" />Sources<ph dataRef="id8" id="ph4" />Software<ph dataRef="id9" id="ph5" />Adobe</pc> folder.</source>
+          <target>On CM01, using File Explorer, copy the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />Setup<ph dataRef="id4" id="ph2" />Adobe Reader XI</pc> folder to the <pc dataRefEnd="id6" dataRefStart="id5" id="p2">E:<ph dataRef="id7" id="ph3" />Sources<ph dataRef="id8" id="ph4" />Software<ph dataRef="id9" id="ph5" />Adobe</pc> folder.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the Configuration Manager Console, in the Software Library workspace, expand <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Management</pc>.</source>
+          <target>Using the Configuration Manager Console, in the Software Library workspace, expand <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Management</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applications</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Folder / Create Folder</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applications</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Folder / Create Folder</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Assign the name <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OSD</pc>.</source>
+          <target>Assign the name <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OSD</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OSD</pc> folder, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create Application</pc>.</source>
+          <target>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OSD</pc> folder, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create Application</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the Create Application Wizard, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> page, use the following settings:</source>
+          <target>In the Create Application Wizard, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> page, use the following settings:</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Automatically detect information about this application from installation files</source>
+          <target>Automatically detect information about this application from installation files</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">\*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Type: Windows Installer (<ph dataRef="id1" id="ph1" />.msi file)</source>
+          <target>Type: Windows Installer (<ph dataRef="id1" id="ph1" />.msi file)</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">\\\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Location: <ph dataRef="id1" id="ph1" />CM01<ph dataRef="id2" id="ph2" />Sources$<ph dataRef="id3" id="ph3" />Software<ph dataRef="id4" id="ph4" />Adobe<ph dataRef="id5" id="ph5" />Adobe Reader XI</source>
+          <target>Location: <ph dataRef="id1" id="ph1" />CM01<ph dataRef="id2" id="ph2" />Sources$<ph dataRef="id3" id="ph3" />Software<ph dataRef="id4" id="ph4" />Adobe<ph dataRef="id5" id="ph5" />Adobe Reader XI</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>AdbeRdr11000<ph dataRef="id1" id="ph1" />en<ph dataRef="id2" id="ph2" />US.msi</source>
+          <target>AdbeRdr11000<ph dataRef="id1" id="ph1" />en<ph dataRef="id2" id="ph2" />US.msi</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>figure 19</source>
+          <target>figure 19</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Figure 19.</source>
+          <target>Figure 19.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>The Create Application Wizard.</source>
+          <target>The Create Application Wizard.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>, and wait while Configuration Manager parses the MSI file.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>, and wait while Configuration Manager parses the MSI file.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Import Information</pc> page, review the information and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Import Information</pc> page, review the information and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General Information</pc> page, name the application Adobe Reader XI - OSD Install, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc> twice, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Close</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General Information</pc> page, name the application Adobe Reader XI - OSD Install, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc> twice, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Since it is not possible to reference an application deployment type in the task sequence, you should have a single deployment type for applications deployed by the task sequence.</source>
+          <target>Since it is not possible to reference an application deployment type in the task sequence, you should have a single deployment type for applications deployed by the task sequence.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>If you are deploying applications via both the task sequence and normal application deployment, and you have multiple deployment types, you should have two applications of the same software.</source>
+          <target>If you are deploying applications via both the task sequence and normal application deployment, and you have multiple deployment types, you should have two applications of the same software.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>In this section, you add the "OSD Install" suffix to applications that are deployed via the task sequence.</source>
+          <target>In this section, you add the "OSD Install" suffix to applications that are deployed via the task sequence.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>If using packages, you can still reference both package and program in the task sequence.</source>
+          <target>If using packages, you can still reference both package and program in the task sequence.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>figure 20</source>
+          <target>figure 20</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Figure 20.</source>
+          <target>Figure 20.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Add the "OSD Install" suffix to the application name.</source>
+          <target>Add the "OSD Install" suffix to the application name.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applications</pc> node, select the Adobe Reader XI - OSD Install application, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc> on the ribbon bar.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applications</pc> node, select the Adobe Reader XI - OSD Install application, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc> on the ribbon bar.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General Information</pc> tab, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Allow this application to be installed from the Install Application task sequence action without being deployed</pc> check box, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General Information</pc> tab, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Allow this application to be installed from the Install Application task sequence action without being deployed</pc> check box, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Integrate Configuration Manager with MDT 2013 Update 2</source>
+          <target>Integrate Configuration Manager with MDT 2013 Update 2</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Prepare for Zero Touch Installation of Windows 10 with Configuration Manager</source>
+          <target>Prepare for Zero Touch Installation of Windows 10 with Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Create a custom Windows PE boot image with Configuration Manager</source>
+          <target>Create a custom Windows PE boot image with Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Add a Windows 10 operating system image using Configuration Manager</source>
+          <target>Add a Windows 10 operating system image using Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Add drivers to a Windows 10 deployment with Windows PE using Configuration Manager</source>
+          <target>Add drivers to a Windows 10 deployment with Windows PE using Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Create a task sequence with Configuration Manager and MDT</source>
+          <target>Create a task sequence with Configuration Manager and MDT</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Deploy Windows 10 using PXE and Configuration Manager</source>
+          <target>Deploy Windows 10 using PXE and Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Refresh a Windows 7 SP1 client with Windows 10 using Configuration Manager</source>
+          <target>Refresh a Windows 7 SP1 client with Windows 10 using Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Replace a Windows 7 SP1 client with Windows 10 using Configuration Manager</source>
+          <target>Replace a Windows 7 SP1 client with Windows 10 using Configuration Manager</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

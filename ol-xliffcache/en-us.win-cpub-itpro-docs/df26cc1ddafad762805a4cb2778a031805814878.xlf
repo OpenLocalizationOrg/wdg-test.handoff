@@ -1,0 +1,1106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\mbam-v25\configuring-mbam-25-server-features-by-using-windows-powershell.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">df26cc1ddafad762805a4cb2778a031805814878</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Configuring MBAM 2.5 Server Features by Using Windows PowerShell</source>
+          <target>Configuring MBAM 2.5 Server Features by Using Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Configuring MBAM 2.5 Server Features by Using Windows PowerShell</source>
+          <target>Configuring MBAM 2.5 Server Features by Using Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Configuring MBAM 2.5 Server Features by Using Windows PowerShell</source>
+          <target>Configuring MBAM 2.5 Server Features by Using Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>After you install the MBAM 2.5 Server software, you can use configure MBAM 2.5 Server features by using Windows PowerShell cmdlets or the MBAM Server Configuration wizard.</source>
+          <target>After you install the MBAM 2.5 Server software, you can use configure MBAM 2.5 Server features by using Windows PowerShell cmdlets or the MBAM Server Configuration wizard.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>This topic describes how to configure MBAM 2.5 by using the Windows PowerShell cmdlets.</source>
+          <target>This topic describes how to configure MBAM 2.5 by using the Windows PowerShell cmdlets.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](configuring-the-mbam-25-server-features.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To use the wizard instead, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuring the MBAM 2.5 Server Features</pc>.</source>
+          <target>To use the wizard instead, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuring the MBAM 2.5 Server Features</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>In this topic</source>
+          <target>In this topic</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>This topic includes the following information about using Windows PowerShell to configure MBAM:</source>
+          <target>This topic includes the following information about using Windows PowerShell to configure MBAM:</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>How to load Windows PowerShell Help for MBAM 2.5</source>
+          <target>How to load Windows PowerShell Help for MBAM 2.5</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>How to get Help about an MBAM Windows PowerShell cmdlet</source>
+          <target>How to get Help about an MBAM Windows PowerShell cmdlet</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Configurations that you can do only with Windows PowerShell but not with the MBAM Server Configuration wizard</source>
+          <target>Configurations that you can do only with Windows PowerShell but not with the MBAM Server Configuration wizard</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Prerequisites and requirements for using Windows PowerShell to configure MBAM Server features</source>
+          <target>Prerequisites and requirements for using Windows PowerShell to configure MBAM Server features</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Using Windows PowerShell to configure MBAM on a remote computer</source>
+          <target>Using Windows PowerShell to configure MBAM on a remote computer</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Required accounts and corresponding Windows PowerShell cmdlet parameters</source>
+          <target>Required accounts and corresponding Windows PowerShell cmdlet parameters</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">[</data>
+          <data id="id6">](using-windows-powershell-to-administer-mbam-25.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-MbamBitLockerRecoveryKey</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Get-MbamTPMOwnerPassword</pc> Windows PowerShell cmdlets, which are used to administer MBAM, see <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Using Windows PowerShell to Administer MBAM 2.5</pc>.</source>
+          <target>For information about the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-MbamBitLockerRecoveryKey</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Get-MbamTPMOwnerPassword</pc> Windows PowerShell cmdlets, which are used to administer MBAM, see <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Using Windows PowerShell to Administer MBAM 2.5</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>How to load Windows PowerShell Help for MBAM 2.5</source>
+          <target>How to load Windows PowerShell Help for MBAM 2.5</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=392816)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For a list of the Windows PowerShell cmdlets on TechNet, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Desktop Optimization Pack Automation with Windows PowerShell</pc>.</source>
+          <target>For a list of the Windows PowerShell cmdlets on TechNet, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Desktop Optimization Pack Automation with Windows PowerShell</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>To load the MBAM 2.5 Help for Windows PowerShell cmdlets after installing the MBAM Server software</source>
+          <target>To load the MBAM 2.5 Help for Windows PowerShell cmdlets after installing the MBAM Server software</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Open Windows PowerShell or Windows PowerShell Integrated Scripting Environment (ISE).</source>
+          <target>Open Windows PowerShell or Windows PowerShell Integrated Scripting Environment (ISE).</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update-Help –Module Microsoft.MBAM</pc>.</source>
+          <target>Type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update-Help –Module Microsoft.MBAM</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>How to get Help about an MBAM Windows PowerShell cmdlet</source>
+          <target>How to get Help about an MBAM Windows PowerShell cmdlet</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Windows PowerShell Help for MBAM is available in the following formats:</source>
+          <target>Windows PowerShell Help for MBAM is available in the following formats:</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Windows PowerShell Help format</source>
+          <target>Windows PowerShell Help format</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&amp;lt;&lt;em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>At a Windows PowerShell command prompt, type <ph dataRef="id1" id="ph1" />Get-Help<ph dataRef="id2" id="ph2" /><ph dataRef="id3" id="ph3" />cmdlet</source>
+          <target>At a Windows PowerShell command prompt, type <ph dataRef="id1" id="ph1" />Get-Help<ph dataRef="id2" id="ph2" /><ph dataRef="id3" id="ph3" />cmdlet</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>To upload the latest Windows PowerShell cmdlets, follow the instructions in the previous section on how to load Windows PowerShell Help for MBAM.</source>
+          <target>To upload the latest Windows PowerShell cmdlets, follow the instructions in the previous section on how to load Windows PowerShell Help for MBAM.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>On TechNet as webpages</source>
+          <target>On TechNet as webpages</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>http://go.microsoft.com/fwlink/?LinkId=393498</source>
+          <target>http://go.microsoft.com/fwlink/?LinkId=393498</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>On the Download Center as a Word .docx file</source>
+          <target>On the Download Center as a Word .docx file</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>http://go.microsoft.com/fwlink/?LinkId=393497</source>
+          <target>http://go.microsoft.com/fwlink/?LinkId=393497</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>On the Download Center as a .pdf file</source>
+          <target>On the Download Center as a .pdf file</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>http://go.microsoft.com/fwlink/?LinkId=393499</source>
+          <target>http://go.microsoft.com/fwlink/?LinkId=393499</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Configurations that you can do only with Windows PowerShell but not with the MBAM Server Configuration wizard</source>
+          <target>Configurations that you can do only with Windows PowerShell but not with the MBAM Server Configuration wizard</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Configurations that you can do only by using Windows PowerShell</source>
+          <target>Configurations that you can do only by using Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Details</source>
+          <target>Details</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Install the web services on a separate computer from the web applications.</source>
+          <target>Install the web services on a separate computer from the web applications.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Using the wizard, you must install the web services and web applications on the same computer.</source>
+          <target>Using the wizard, you must install the web services and web applications on the same computer.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Enable reports on a separate reporting services point without installing all of the Configuration Manager objects.</source>
+          <target>Enable reports on a separate reporting services point without installing all of the Configuration Manager objects.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Delete all of the objects from Configuration Manager.</source>
+          <target>Delete all of the objects from Configuration Manager.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Deleting the objects in turn deletes all of the compliance data from Configuration Manager.</source>
+          <target>Deleting the objects in turn deletes all of the compliance data from Configuration Manager.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Enter a custom connection string for the databases.</source>
+          <target>Enter a custom connection string for the databases.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Example: To configure the web applications to work with mirroring, you must use the <ph dataRef="id1" id="ph1" />Enable-MbamWebApplication<ph dataRef="id2" id="ph2" /> cmdlet to specify the appropriate failover partner syntax in the connection string.</source>
+          <target>Example: To configure the web applications to work with mirroring, you must use the <ph dataRef="id1" id="ph1" />Enable-MbamWebApplication<ph dataRef="id2" id="ph2" /> cmdlet to specify the appropriate failover partner syntax in the connection string.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Skip validation and configure a feature even though the prerequisite check failed.</source>
+          <target>Skip validation and configure a feature even though the prerequisite check failed.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>You cannot disable the MBAM databases with a Windows PowerShell cmdlet or the MBAM Server Configuration wizard.</source>
+          <target>You cannot disable the MBAM databases with a Windows PowerShell cmdlet or the MBAM Server Configuration wizard.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>To prevent the accidental removal of your compliance and audit data, database administrators must remove databases manually.</source>
+          <target>To prevent the accidental removal of your compliance and audit data, database administrators must remove databases manually.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Prerequisites and requirements for using Windows PowerShell to configure MBAM Server features</source>
+          <target>Prerequisites and requirements for using Windows PowerShell to configure MBAM Server features</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Before starting the configuration, complete the following prerequisites.</source>
+          <target>Before starting the configuration, complete the following prerequisites.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Account-related prerequisites</source>
+          <target>Account-related prerequisites</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Prerequisite</source>
+          <target>Prerequisite</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Details or additional information</source>
+          <target>Details or additional information</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Create the required accounts.</source>
+          <target>Create the required accounts.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>See section <ph dataRef="id1" id="ph1" />Required accounts and corresponding Windows PowerShell cmdlet parameters<ph dataRef="id2" id="ph2" /> later in this topic.</source>
+          <target>See section <ph dataRef="id1" id="ph1" />Required accounts and corresponding Windows PowerShell cmdlet parameters<ph dataRef="id2" id="ph2" /> later in this topic.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>User accounts and groups that you pass as parameters to the Windows PowerShell cmdlets must be valid accounts in the domain.</source>
+          <target>User accounts and groups that you pass as parameters to the Windows PowerShell cmdlets must be valid accounts in the domain.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>You cannot use local accounts.</source>
+          <target>You cannot use local accounts.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Specify accounts in the down-level format.</source>
+          <target>Specify accounts in the down-level format.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Examples:</source>
+          <target>Examples:</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>domainNetBiosName\userdomainNetBiosName\group</source>
+          <target>domainNetBiosName\userdomainNetBiosName\group</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Permission-related prerequisites</source>
+          <target>Permission-related prerequisites</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Prerequisite</source>
+          <target>Prerequisite</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Details or additional information</source>
+          <target>Details or additional information</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>You must be an administrator on the local computer where you are configuring the MBAM feature.</source>
+          <target>You must be an administrator on the local computer where you are configuring the MBAM feature.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Use an elevated Windows PowerShell command prompt to run all Windows PowerShell cmdlets.</source>
+          <target>Use an elevated Windows PowerShell command prompt to run all Windows PowerShell cmdlets.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the <ph dataRef="id1" id="ph1" />Enable-MbamDatabase<ph dataRef="id2" id="ph2" /> cmdlet only:</source>
+          <target>For the <ph dataRef="id1" id="ph1" />Enable-MbamDatabase<ph dataRef="id2" id="ph2" /> cmdlet only:</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">&amp;quot;</data>
+          <data id="id2">&amp;quot;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You must have <ph dataRef="id1" id="ph1" />create any database<ph dataRef="id2" id="ph2" /> permissions on the instance of the target Microsoft SQL Server database.</source>
+          <target>You must have <ph dataRef="id1" id="ph1" />create any database<ph dataRef="id2" id="ph2" /> permissions on the instance of the target Microsoft SQL Server database.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>This user account must be a part of the local administrators group or the Backup Operators group to register the MBAM Volume Shadow Copy Service (VSS) Writer.</source>
+          <target>This user account must be a part of the local administrators group or the Backup Operators group to register the MBAM Volume Shadow Copy Service (VSS) Writer.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">&amp;quot;</data>
+          <data id="id2">&amp;quot;</data>
+        </originalData>
+        <segment state="initial">
+          <source>By default, the database administrator or system administrator has the required <ph dataRef="id1" id="ph1" />create any database<ph dataRef="id2" id="ph2" /> permissions.</source>
+          <target>By default, the database administrator or system administrator has the required <ph dataRef="id1" id="ph1" />create any database<ph dataRef="id2" id="ph2" /> permissions.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=392814)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about VSS Writer, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Volume Shadow Copy Service</pc>.</source>
+          <target>For more information about VSS Writer, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Volume Shadow Copy Service</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the <ph dataRef="id1" id="ph1" />System Center Configuration Manager Integration<ph dataRef="id2" id="ph2" /> feature only:</source>
+          <target>For the <ph dataRef="id1" id="ph1" />System Center Configuration Manager Integration<ph dataRef="id2" id="ph2" /> feature only:</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>The user who enables this feature must have these rights in Configuration Manager:</source>
+          <target>The user who enables this feature must have these rights in Configuration Manager:</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Type of rights in Configuration Manager</source>
+          <target>Type of rights in Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Required rights</source>
+          <target>Required rights</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Configuration Manager Site rights:</source>
+          <target>Configuration Manager Site rights:</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Read</source>
+          <target>Read</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Configuration Manager Collection rights:</source>
+          <target>Configuration Manager Collection rights:</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Create- Delete- Read- Modify- Deploy Configuration Items</source>
+          <target>Create- Delete- Read- Modify- Deploy Configuration Items</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Configuration Manager Configuration item rights:</source>
+          <target>Configuration Manager Configuration item rights:</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Create- Delete- Read</source>
+          <target>Create- Delete- Read</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Using Windows PowerShell to configure MBAM on a remote computer</source>
+          <target>Using Windows PowerShell to configure MBAM on a remote computer</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>When to use this capability</source>
+          <target>When to use this capability</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>When you want to configure the MBAM 2.5 Server features on a remote computer.</source>
+          <target>When you want to configure the MBAM 2.5 Server features on a remote computer.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>The Windows PowerShell cmdlets are running on one computer, and you are configuring the features on a different, remote computer.</source>
+          <target>The Windows PowerShell cmdlets are running on one computer, and you are configuring the features on a different, remote computer.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>What you have to do</source>
+          <target>What you have to do</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>To use Windows PowerShell to configure MBAM 2.5 Server features on a remote computer, you must:</source>
+          <target>To use Windows PowerShell to configure MBAM 2.5 Server features on a remote computer, you must:</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Ensure that the MBAM 2.5 Server software has been installed on the remote computer.</source>
+          <target>Ensure that the MBAM 2.5 Server software has been installed on the remote computer.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Use the Credential Security Support Provider (CredSSP) Protocol to open the Windows PowerShell session.</source>
+          <target>Use the Credential Security Support Provider (CredSSP) Protocol to open the Windows PowerShell session.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Enable Windows Remote Management (WinRM).</source>
+          <target>Enable Windows Remote Management (WinRM).</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you fail to enable WinRM and to configure it correctly, the <ph dataRef="id1" id="ph1" />New-PSSession<ph dataRef="id2" id="ph2" /> cmdlet that is described in this table displays an error and describes how to fix the issue.</source>
+          <target>If you fail to enable WinRM and to configure it correctly, the <ph dataRef="id1" id="ph1" />New-PSSession<ph dataRef="id2" id="ph2" /> cmdlet that is described in this table displays an error and describes how to fix the issue.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=393064)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about WinRM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Using Windows Remote Management</pc>.</source>
+          <target>For more information about WinRM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Using Windows Remote Management</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Why you have to do it</source>
+          <target>Why you have to do it</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>This protocol enables the Windows PowerShell cmdlets to connect to Active Directory Domain Services by using the user’s administrative credentials.</source>
+          <target>This protocol enables the Windows PowerShell cmdlets to connect to Active Directory Domain Services by using the user’s administrative credentials.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>You might get a validation error if you start the Windows PowerShell session without this protocol.</source>
+          <target>You might get a validation error if you start the Windows PowerShell session without this protocol.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>How to start a Windows PowerShell session with the CredSSP protocol</source>
+          <target>How to start a Windows PowerShell session with the CredSSP protocol</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Type the following code at the Windows PowerShell prompt:</source>
+          <target>Type the following code at the Windows PowerShell prompt:</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>The following code shows an example.</source>
+          <target>The following code shows an example.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Required accounts and corresponding Windows PowerShell cmdlet parameters</source>
+          <target>Required accounts and corresponding Windows PowerShell cmdlet parameters</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>The following table describes the accounts that are required to configure MBAM 2.5 Server features.</source>
+          <target>The following table describes the accounts that are required to configure MBAM 2.5 Server features.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>It also lists the corresponding Windows PowerShell cmdlet and parameter for which you have to specify the account during configuration.</source>
+          <target>It also lists the corresponding Windows PowerShell cmdlet and parameter for which you have to specify the account during configuration.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Cmdlet Parameter Type (User or Group) Description Enable-MBAMDatabase</source>
+          <target>Cmdlet Parameter Type (User or Group) Description Enable-MBAMDatabase</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>AccessAccount</source>
+          <target>AccessAccount</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>User or Group</source>
+          <target>User or Group</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Specify a domain user or group that has read/write permission to this database to give the web applications access to data and reports in this database.</source>
+          <target>Specify a domain user or group that has read/write permission to this database to give the web applications access to data and reports in this database.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the value is a domain user, then the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WebServiceApplicationPoolCredential</pc> parameter that is used when running the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable-MbamWebApplication</pc> cmdlet must use the same user account.</source>
+          <target>If the value is a domain user, then the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WebServiceApplicationPoolCredential</pc> parameter that is used when running the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable-MbamWebApplication</pc> cmdlet must use the same user account.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the value is a domain Users group, then the domain account that is used by the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WebServiceApplicationPoolCredential</pc> parameter must be a member of this group.</source>
+          <target>If the value is a domain Users group, then the domain account that is used by the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WebServiceApplicationPoolCredential</pc> parameter must be a member of this group.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>ReportAccount</source>
+          <target>ReportAccount</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>User or Group</source>
+          <target>User or Group</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Specify a domain user or Users group that has read-only permission to this database to provide the MBAM reports access to the compliance and audit data.</source>
+          <target>Specify a domain user or Users group that has read-only permission to this database to provide the MBAM reports access to the compliance and audit data.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the value is a domain user, then the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ComplianceAndAuditDBCredential</pc> parameter of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable-MbamReport</pc> cmdlet must use the same user account.</source>
+          <target>If the value is a domain user, then the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ComplianceAndAuditDBCredential</pc> parameter of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable-MbamReport</pc> cmdlet must use the same user account.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the value is a domain Users group, then the domain account that is used by the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ComplianceAndAuditDBCredential</pc> parameter must be a member of this group.</source>
+          <target>If the value is a domain Users group, then the domain account that is used by the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ComplianceAndAuditDBCredential</pc> parameter must be a member of this group.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Enable-MbamReport</source>
+          <target>Enable-MbamReport</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>ComplianceAndAuditDBCredential</source>
+          <target>ComplianceAndAuditDBCredential</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>User</source>
+          <target>User</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Specifies the administrative credential that the local SSRS instance uses to connect to the MBAM Compliance and Audit Database.</source>
+          <target>Specifies the administrative credential that the local SSRS instance uses to connect to the MBAM Compliance and Audit Database.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The domain user in the administrative credential must be the same as the user account that is used for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ReportAccount</pc> parameter, which is used while running the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable-MbamDatabase</pc> cmdlet.</source>
+          <target>The domain user in the administrative credential must be the same as the user account that is used for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ReportAccount</pc> parameter, which is used while running the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable-MbamDatabase</pc> cmdlet.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If a domain Users group was used with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ReportAccount</pc> parameter, this account should be a member of that group.</source>
+          <target>If a domain Users group was used with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ReportAccount</pc> parameter, this account should be a member of that group.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>The account specified in the administrative credentials should have limited user rights for improved security.</source>
+          <target>The account specified in the administrative credentials should have limited user rights for improved security.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Also, the password of the account should be set to not expire.</source>
+          <target>Also, the password of the account should be set to not expire.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>ReportsReadOnlyAccessGroup</source>
+          <target>ReportsReadOnlyAccessGroup</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Group</source>
+          <target>Group</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Specifies the domain user group that has read permissions to the reports.</source>
+          <target>Specifies the domain user group that has read permissions to the reports.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The specified group must be the same group that is used for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ReportsReadOnlyAccessGroup</pc> parameter in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable-MbamWebApplication</pc> cmdlet.</source>
+          <target>The specified group must be the same group that is used for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ReportsReadOnlyAccessGroup</pc> parameter in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable-MbamWebApplication</pc> cmdlet.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Enable-MBAMWebApplication</source>
+          <target>Enable-MBAMWebApplication</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>AdvancedHelpdeskAccessGroup</source>
+          <target>AdvancedHelpdeskAccessGroup</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Group</source>
+          <target>Group</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Specifies the domain Users group that has access to all areas of the Administration and Monitoring Website except the Reports area.</source>
+          <target>Specifies the domain Users group that has access to all areas of the Administration and Monitoring Website except the Reports area.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>HelpdeskAccessGroup</source>
+          <target>HelpdeskAccessGroup</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Group</source>
+          <target>Group</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specifies the domain Users group that has access to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manage TPM</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Drive Recovery</pc> areas of the Administration and Monitoring Website.</source>
+          <target>Specifies the domain Users group that has access to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manage TPM</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Drive Recovery</pc> areas of the Administration and Monitoring Website.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>ReportsReadOnlyAccessGroup</source>
+          <target>ReportsReadOnlyAccessGroup</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Group</source>
+          <target>Group</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specifies the domain Users group that has read permission to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reports</pc> area of the Administration and Monitoring Website.</source>
+          <target>Specifies the domain Users group that has read permission to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reports</pc> area of the Administration and Monitoring Website.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The specified group must be the same group that is used for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ReportsReadOnlyAccessGroup</pc> parameter in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable-MbamReport</pc> cmdlet.</source>
+          <target>The specified group must be the same group that is used for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ReportsReadOnlyAccessGroup</pc> parameter in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable-MbamReport</pc> cmdlet.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>WebServiceApplicationPoolCredential</source>
+          <target>WebServiceApplicationPoolCredential</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>User</source>
+          <target>User</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Specifies the domain user to be used by the application pool for the MBAM web applications.</source>
+          <target>Specifies the domain user to be used by the application pool for the MBAM web applications.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>It must be the same domain user account that is specified in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AccessAccount</pc> parameter of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable-MbamDatabase</pc> cmdlet.</source>
+          <target>It must be the same domain user account that is specified in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AccessAccount</pc> parameter of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable-MbamDatabase</pc> cmdlet.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If a domain Users group was used by the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AccessAccount</pc> parameter when running the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable-MbamDatabase</pc> cmdlet, the domain user that is specified here must be a member of that group.</source>
+          <target>If a domain Users group was used by the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AccessAccount</pc> parameter when running the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable-MbamDatabase</pc> cmdlet, the domain user that is specified here must be a member of that group.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>If you do not specify the administrative credentials, the administrative credentials that were specified by any previously enabled web application are used.</source>
+          <target>If you do not specify the administrative credentials, the administrative credentials that were specified by any previously enabled web application are used.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>All of the web applications use the same application pool identity.</source>
+          <target>All of the web applications use the same application pool identity.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>If it is specified multiple times, the most recently specified value is used.</source>
+          <target>If it is specified multiple times, the most recently specified value is used.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>For improved security, set the account that is specified in the administrative credentials to limited user rights.</source>
+          <target>For improved security, set the account that is specified in the administrative credentials to limited user rights.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Also, set the password of the account to never expire.</source>
+          <target>Also, set the password of the account to never expire.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Ensure that either the built-in IIS<ph dataRef="id1" id="ph1" />IUSRS account or the account that is used for the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">WebServiceApplicationPoolCredential</pc> parameter has been added to the <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Impersonate a client after authentication</pc> local security setting.</source>
+          <target>Ensure that either the built-in IIS<ph dataRef="id1" id="ph1" />IUSRS account or the account that is used for the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">WebServiceApplicationPoolCredential</pc> parameter has been added to the <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Impersonate a client after authentication</pc> local security setting.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To view the local security setting, open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Local Security Policy editor</pc>, expand the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Local Policies</pc> node, select the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">User Rights Assignment</pc> node, and then double-click the <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Impersonate a client after authentication</pc> and <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Log on as a batch job</pc> Group Policy settings in the details pane.</source>
+          <target>To view the local security setting, open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Local Security Policy editor</pc>, expand the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Local Policies</pc> node, select the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">User Rights Assignment</pc> node, and then double-click the <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Impersonate a client after authentication</pc> and <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Log on as a batch job</pc> Group Policy settings in the details pane.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Got a suggestion for MBAM?</source>
+          <target>Got a suggestion for MBAM?</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://mbam.uservoice.com/forums/268571-microsoft-bitlocker-administration-and-monitoring)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add or vote on suggestions <pc dataRefEnd="id2" dataRefStart="id1" id="p1">here</pc>.</source>
+          <target>Add or vote on suggestions <pc dataRefEnd="id2" dataRefStart="id1" id="p1">here</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For MBAM issues, use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM TechNet Forum</pc>.</source>
+          <target>For MBAM issues, use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM TechNet Forum</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Configuring the MBAM 2.5 Server Features</source>
+          <target>Configuring the MBAM 2.5 Server Features</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Validating the MBAM 2.5 Server Feature Configuration</source>
+          <target>Validating the MBAM 2.5 Server Feature Configuration</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>Using Windows PowerShell to Administer MBAM 2.5</source>
+          <target>Using Windows PowerShell to Administer MBAM 2.5</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

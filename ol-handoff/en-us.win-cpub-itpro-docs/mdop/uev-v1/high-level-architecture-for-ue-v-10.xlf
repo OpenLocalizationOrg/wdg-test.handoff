@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\uev-v1\high-level-architecture-for-ue-v-10.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">419beccc8e4c88833258cdc90dd183a8ba6dea3b</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>High-Level Architecture for UE-V 1.0</source>
+          <target>High-Level Architecture for UE-V 1.0</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>High-Level Architecture for UE-V 1.0</source>
+          <target>High-Level Architecture for UE-V 1.0</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>High-Level Architecture for UE-V 1.0</source>
+          <target>High-Level Architecture for UE-V 1.0</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This topic describes high-level architectural elements of the Microsoft User Experience Virtualization (UE-V) settings roaming solution.</source>
+          <target>This topic describes high-level architectural elements of the Microsoft User Experience Virtualization (UE-V) settings roaming solution.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>The following elements are part of a standard UE-V deployment.</source>
+          <target>The following elements are part of a standard UE-V deployment.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>ue-v agent architectural diagram</source>
+          <target>ue-v agent architectural diagram</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>The UE-V Agent monitors the applications and the operating system processes as they are identified in the UE-V settings location templates.</source>
+          <target>The UE-V Agent monitors the applications and the operating system processes as they are identified in the UE-V settings location templates.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>When the application or operating system starts, the settings are read from the settings package and applied to the computer.</source>
+          <target>When the application or operating system starts, the settings are read from the settings package and applied to the computer.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>When the application closes or when the operating system is locked or shut down, settings are saved in a UE-V settings package in the settings storage location.</source>
+          <target>When the application closes or when the operating system is locked or shut down, settings are saved in a UE-V settings package in the settings storage location.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Settings storage location</source>
+          <target>Settings storage location</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>The settings storage location is a file share that the User Experience Virtualization agent accesses to read and write settings.</source>
+          <target>The settings storage location is a file share that the User Experience Virtualization agent accesses to read and write settings.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>This location is either the Active Directory home directory or defined during the UE-V installation.</source>
+          <target>This location is either the Active Directory home directory or defined during the UE-V installation.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>You can set the location during the installation of the UE-V agent, or you can set it later with Group Policy, WMI, or PowerShell.</source>
+          <target>You can set the location during the installation of the UE-V agent, or you can set it later with Group Policy, WMI, or PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The location can be on any common file share that users can access.</source>
+          <target>The location can be on any common file share that users can access.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>If no setting storage location is set during installation then UE-V will use the home directory in Active Directory.</source>
+          <target>If no setting storage location is set during installation then UE-V will use the home directory in Active Directory.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>The UE-V agent verifies the location and creates a system folder that is hidden from the user in which to store and access the user settings.</source>
+          <target>The UE-V agent verifies the location and creates a system folder that is hidden from the user in which to store and access the user settings.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](preparing-your-environment-for-ue-v.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about settings storage, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Preparing Your Environment for UE-V</pc>.</source>
+          <target>For more information about settings storage, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Preparing Your Environment for UE-V</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>UE-V Agent</source>
+          <target>UE-V Agent</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>The UE-V agent is installed on each computer with settings that are synchronized by User Experience Virtualization.</source>
+          <target>The UE-V agent is installed on each computer with settings that are synchronized by User Experience Virtualization.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>The agent monitors the registered applications and the operating system for any changes to that are made to settings, and it synchronizes those settings between computers.</source>
+          <target>The agent monitors the registered applications and the operating system for any changes to that are made to settings, and it synchronizes those settings between computers.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Settings are applied from the settings storage location to the application when the application is started.</source>
+          <target>Settings are applied from the settings storage location to the application when the application is started.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>The settings are then saved back to the settings storage location when the application closes.</source>
+          <target>The settings are then saved back to the settings storage location when the application closes.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>The operating system settings are applied when the user logs on, when the computer is unlocked, or when the user connects remotely to the computer by using remote desktop protocol (RDP).</source>
+          <target>The operating system settings are applied when the user logs on, when the computer is unlocked, or when the user connects remotely to the computer by using remote desktop protocol (RDP).</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>The agent saves settings when the user logs off, when the computer is locked, or when a remote connection is disconnected.</source>
+          <target>The agent saves settings when the user logs off, when the computer is locked, or when a remote connection is disconnected.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](preparing-your-environment-for-ue-v.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about the UE-V Agent, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Preparing Your Environment for UE-V</pc>.</source>
+          <target>For more information about the UE-V Agent, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Preparing Your Environment for UE-V</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Settings location templates</source>
+          <target>Settings location templates</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>The settings location template is an XML file that defines the settings locations to be monitored by User Experience Virtualization.</source>
+          <target>The settings location template is an XML file that defines the settings locations to be monitored by User Experience Virtualization.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Only the settings locations defined in these settings templates are captured or applied on computers running the UE-V Agent.</source>
+          <target>Only the settings locations defined in these settings templates are captured or applied on computers running the UE-V Agent.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>The settings location template does not contain settings values, only the locations where values are stored on the computer.</source>
+          <target>The settings location template does not contain settings values, only the locations where values are stored on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>UE-V includes a set of settings location templates that specify settings locations for some Microsoft applications and Windows settings.</source>
+          <target>UE-V includes a set of settings location templates that specify settings locations for some Microsoft applications and Windows settings.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>An administrator can create custom settings location templates by using the UE-V Generator.</source>
+          <target>An administrator can create custom settings location templates by using the UE-V Generator.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Planning Which Applications to Synchronize with UE-V 1.0</source>
+          <target>Planning Which Applications to Synchronize with UE-V 1.0</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Planning for Custom Template Deployment for UE-V 1.0</source>
+          <target>Planning for Custom Template Deployment for UE-V 1.0</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Working with Custom UE-V Templates and the UE-V Generator</source>
+          <target>Working with Custom UE-V Templates and the UE-V Generator</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Settings packages</source>
+          <target>Settings packages</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Application settings and Windows settings are stored in settings packages, which are created by the UE-V Agent.</source>
+          <target>Application settings and Windows settings are stored in settings packages, which are created by the UE-V Agent.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>A settings package is a collection of the settings that are represented in the settings location templates.</source>
+          <target>A settings package is a collection of the settings that are represented in the settings location templates.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>These settings packages are built, locally stored, and then copied to the settings storage location.</source>
+          <target>These settings packages are built, locally stored, and then copied to the settings storage location.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>“Last write wins” determines which settings are preserved when a single user synchronizes the more than one computer to a storage location.</source>
+          <target>“Last write wins” determines which settings are preserved when a single user synchronizes the more than one computer to a storage location.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>The agent that runs on one computer reads and writes to the settings location independent of agents that run on other computers.</source>
+          <target>The agent that runs on one computer reads and writes to the settings location independent of agents that run on other computers.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>The most recently written settings and values are applied when the next agent reads from the settings storage location.</source>
+          <target>The most recently written settings and values are applied when the next agent reads from the settings storage location.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>ue-v generator process</source>
+          <target>ue-v generator process</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Settings template catalog</source>
+          <target>Settings template catalog</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>The settings template catalog is a folder path on UE-V computers or a Server Message Block (SMB) network share that stores all the custom settings location templates.</source>
+          <target>The settings template catalog is a folder path on UE-V computers or a Server Message Block (SMB) network share that stores all the custom settings location templates.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>The UE-V agent retrieves new or updated templates from this location.</source>
+          <target>The UE-V agent retrieves new or updated templates from this location.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>The UE-V agent checks this location once each day and it updates its synchronization behavior based on the templates in this folder.</source>
+          <target>The UE-V agent checks this location once each day and it updates its synchronization behavior based on the templates in this folder.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>The templates that were added or updated in this folder since the last check are registered by the UE-V agent.</source>
+          <target>The templates that were added or updated in this folder since the last check are registered by the UE-V agent.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>The UE-V agent deregisters the templates that were removed from this folder.</source>
+          <target>The UE-V agent deregisters the templates that were removed from this folder.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Templates are registered and unregistered one time per day by the task scheduler.</source>
+          <target>Templates are registered and unregistered one time per day by the task scheduler.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>If you will use only the default settings location templates that are included with UE-V, then a settings template catalog is unnecessary.</source>
+          <target>If you will use only the default settings location templates that are included with UE-V, then a settings template catalog is unnecessary.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](planning-for-custom-template-deployment-for-ue-v-10.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about settings deployment catalogs, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning for Custom Template Deployment for UE-V 1.0</pc>.</source>
+          <target>For more information about settings deployment catalogs, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning for Custom Template Deployment for UE-V 1.0</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>User Experience Virtualization Generator</source>
+          <target>User Experience Virtualization Generator</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>The User Experience Virtualization Generator enables you to create custom settings location templates which will store the settings locations of the applications that are used in the enterprise and that you want to include in the roaming settings solution.</source>
+          <target>The User Experience Virtualization Generator enables you to create custom settings location templates which will store the settings locations of the applications that are used in the enterprise and that you want to include in the roaming settings solution.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>The UE-V Generator will seek to discover the locations of registry values and the settings files for applications and then it will record those locations in a settings location template XML file.</source>
+          <target>The UE-V Generator will seek to discover the locations of registry values and the settings files for applications and then it will record those locations in a settings location template XML file.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>You can then distribute these settings location templates to the user computers.</source>
+          <target>You can then distribute these settings location templates to the user computers.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>The UE-V Generator also allows an administrator to edit an existing template or validate a template that was created with another XML editor.</source>
+          <target>The UE-V Generator also allows an administrator to edit an existing template or validate a template that was created with another XML editor.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>The UE-V Generator monitors an application to discover and record where it stores its settings.</source>
+          <target>The UE-V Generator monitors an application to discover and record where it stores its settings.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\\</data>
+          <data id="id6">\[</data>
+          <data id="id7">\]</data>
+          <data id="id8">\\</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">\\</data>
+          <data id="id12">**</data>
+          <data id="id13">**</data>
+          <data id="id14">\\</data>
+          <data id="id15">\[</data>
+          <data id="id16">\]</data>
+          <data id="id17">\\</data>
+          <data id="id18">**</data>
+          <data id="id19">**</data>
+          <data id="id20">\\</data>
+          <data id="id21">**</data>
+          <data id="id22">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To do this, it monitors where the application reads or writes in the HKEY<ph dataRef="id1" id="ph1" />CURRENT<ph dataRef="id2" id="ph2" />USER registry or in the file folders under <pc dataRefEnd="id4" dataRefStart="id3" id="p1">Users</pc><ph dataRef="id5" id="ph3" /><ph dataRef="id6" id="ph4" />User name<ph dataRef="id7" id="ph5" /><ph dataRef="id8" id="ph6" /><pc dataRefEnd="id10" dataRefStart="id9" id="p2">AppData</pc><ph dataRef="id11" id="ph7" /><pc dataRefEnd="id13" dataRefStart="id12" id="p3">Roaming and Users</pc><ph dataRef="id14" id="ph8" /><ph dataRef="id15" id="ph9" />User name<ph dataRef="id16" id="ph10" /><ph dataRef="id17" id="ph11" /><pc dataRefEnd="id19" dataRefStart="id18" id="p4">AppData</pc><ph dataRef="id20" id="ph12" /><pc dataRefEnd="id22" dataRefStart="id21" id="p5">Local</pc>.</source>
+          <target>To do this, it monitors where the application reads or writes in the HKEY<ph dataRef="id1" id="ph1" />CURRENT<ph dataRef="id2" id="ph2" />USER registry or in the file folders under <pc dataRefEnd="id4" dataRefStart="id3" id="p1">Users</pc><ph dataRef="id5" id="ph3" /><ph dataRef="id6" id="ph4" />User name<ph dataRef="id7" id="ph5" /><ph dataRef="id8" id="ph6" /><pc dataRefEnd="id10" dataRefStart="id9" id="p2">AppData</pc><ph dataRef="id11" id="ph7" /><pc dataRefEnd="id13" dataRefStart="id12" id="p3">Roaming and Users</pc><ph dataRef="id14" id="ph8" /><ph dataRef="id15" id="ph9" />User name<ph dataRef="id16" id="ph10" /><ph dataRef="id17" id="ph11" /><pc dataRefEnd="id19" dataRefStart="id18" id="p4">AppData</pc><ph dataRef="id20" id="ph12" /><pc dataRefEnd="id22" dataRefStart="id21" id="p5">Local</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>The discovery process excludes registry keys and files to which the logged-in user cannot write values.</source>
+          <target>The discovery process excludes registry keys and files to which the logged-in user cannot write values.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>None of these will be included in the XML file.</source>
+          <target>None of these will be included in the XML file.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>The discovery process also excludes registry keys and files that are associated with the core functionality of the Windows operating system.</source>
+          <target>The discovery process also excludes registry keys and files that are associated with the core functionality of the Windows operating system.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](installing-the-ue-v-generator.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about the UE-V Generator, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installing the UE-V Generator</pc>.</source>
+          <target>For more information about the UE-V Generator, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installing the UE-V Generator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Microsoft User Experience Virtualization (UE-V) 1.0</source>
+          <target>Microsoft User Experience Virtualization (UE-V) 1.0</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Getting Started With User Experience Virtualization 1.0</source>
+          <target>Getting Started With User Experience Virtualization 1.0</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>About User Experience Virtualization 1.0</source>
+          <target>About User Experience Virtualization 1.0</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Working with Custom UE-V Templates and the UE-V Generator</source>
+          <target>Working with Custom UE-V Templates and the UE-V Generator</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

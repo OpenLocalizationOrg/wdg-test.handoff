@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\planning-the-gpos.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">b62ecc54d4c598d3a52654ebe342ea552f20d9aa</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Planning the GPOs (Windows 10)</source>
+          <target>Planning the GPOs (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Planning the GPOs</source>
+          <target>Planning the GPOs</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Planning the GPOs</source>
+          <target>Planning the GPOs</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>When you plan the GPOs for your different isolation zones, you must complete the layout of the required zones and their mappings to the groups that link the devices to the zones.</source>
+          <target>When you plan the GPOs for your different isolation zones, you must complete the layout of the required zones and their mappings to the groups that link the devices to the zones.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>General considerations</source>
+          <target>General considerations</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>A few things to consider as you plan the GPOs:</source>
+          <target>A few things to consider as you plan the GPOs:</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Do not allow a device to be a member of more than one isolation zone.</source>
+          <target>Do not allow a device to be a member of more than one isolation zone.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>A device in more than one zone receives multiple and possibly contradictory GPOs.</source>
+          <target>A device in more than one zone receives multiple and possibly contradictory GPOs.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>This can result in unexpected, and difficult to troubleshoot behavior.</source>
+          <target>This can result in unexpected, and difficult to troubleshoot behavior.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The examples in this guide show GPOs that are designed to prevent the requirement to belong to multiple zones.</source>
+          <target>The examples in this guide show GPOs that are designed to prevent the requirement to belong to multiple zones.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Ensure that the IPsec algorithms you specify in your GPOs are compatible across all the versions of Windows.</source>
+          <target>Ensure that the IPsec algorithms you specify in your GPOs are compatible across all the versions of Windows.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>The same principle applies to the data integrity and encryption algorithms.</source>
+          <target>The same principle applies to the data integrity and encryption algorithms.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>We recommend that you include the more advanced algorithms when you have the option of selecting several in an ordered list.</source>
+          <target>We recommend that you include the more advanced algorithms when you have the option of selecting several in an ordered list.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>The devices will negotiate down from the top of their lists, selecting one that is configured on both devices.</source>
+          <target>The devices will negotiate down from the top of their lists, selecting one that is configured on both devices.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>The primary difference in your domain isolation GPOs is whether the rules request or require authentication.</source>
+          <target>The primary difference in your domain isolation GPOs is whether the rules request or require authentication.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Caution:</pc>  It is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">critical</pc> that you begin with all your GPOs set to request authentication instead of requiring it.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Caution:</pc>  It is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">critical</pc> that you begin with all your GPOs set to request authentication instead of requiring it.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Since the GPOs are delivered to the devices over time, applying a require policy to one device breaks its ability to communicate with another device that has not yet received its policy.</source>
+          <target>Since the GPOs are delivered to the devices over time, applying a require policy to one device breaks its ability to communicate with another device that has not yet received its policy.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Using request mode at the beginning enables devices to continue communicating by using plaintext connections if required.</source>
+          <target>Using request mode at the beginning enables devices to continue communicating by using plaintext connections if required.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>After you confirm that your devices are using IPsec where expected, you can schedule a conversion of the rules in the GPOs from requesting to requiring authentication, as required by each zone.</source>
+          <target>After you confirm that your devices are using IPsec where expected, you can schedule a conversion of the rules in the GPOs from requesting to requiring authentication, as required by each zone.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Windows Firewall with Advanced Security in Windows Vista and Windows Server 2008 only support one network location profile at a time.</source>
+          <target>Windows Firewall with Advanced Security in Windows Vista and Windows Server 2008 only support one network location profile at a time.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>If you add a second network adapter that is connected to a different network, or not connected at all, you could unintentionally change the profile that is currently active on the device.</source>
+          <target>If you add a second network adapter that is connected to a different network, or not connected at all, you could unintentionally change the profile that is currently active on the device.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>If your GPO specifies different firewall and connection security rules based on the current network location profile, the behavior of how the device handles network traffic will change accordingly.</source>
+          <target>If your GPO specifies different firewall and connection security rules based on the current network location profile, the behavior of how the device handles network traffic will change accordingly.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>We recommend for stationary devices, such as desktops and servers, that you assign any rule for the device to all profiles.</source>
+          <target>We recommend for stationary devices, such as desktops and servers, that you assign any rule for the device to all profiles.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Apply GPOs that change rules per network location to devices that must move between networks, such as your portable devices.</source>
+          <target>Apply GPOs that change rules per network location to devices that must move between networks, such as your portable devices.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Consider creating a separate domain isolation GPO for your servers that uses the same settings as the GPO for the clients, except that the server GPO specifies the same rules for all network location profiles.</source>
+          <target>Consider creating a separate domain isolation GPO for your servers that uses the same settings as the GPO for the clients, except that the server GPO specifies the same rules for all network location profiles.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Devices running Windows 7, Windows Server 2008 R2, and later support different network location types, and therefore profiles, for each network adapter at the same time.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc>  Devices running Windows 7, Windows Server 2008 R2, and later support different network location types, and therefore profiles, for each network adapter at the same time.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Each network adapter is assigned the network location appropriate for the network to which it is connected.</source>
+          <target>Each network adapter is assigned the network location appropriate for the network to which it is connected.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Windows Firewall then enforces only those rules that apply to that network type’s profile.</source>
+          <target>Windows Firewall then enforces only those rules that apply to that network type’s profile.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>So certain types of traffic are blocked when coming from a network adapter connected to a public network, but those same types might be permitted when coming from a private or domain network.</source>
+          <target>So certain types of traffic are blocked when coming from a network adapter connected to a public network, but those same types might be permitted when coming from a private or domain network.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>After considering these issues, document each GPO that you require, and the details about the connection security and firewall rules that it needs.</source>
+          <target>After considering these issues, document each GPO that you require, and the details about the connection security and firewall rules that it needs.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Woodgrove Bank example GPOs</source>
+          <target>Woodgrove Bank example GPOs</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>The Woodgrove Bank example uses the following set of GPOs to support its domain isolation requirements.</source>
+          <target>The Woodgrove Bank example uses the following set of GPOs to support its domain isolation requirements.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>This section only discusses the rules and settings for server and domain isolation.</source>
+          <target>This section only discusses the rules and settings for server and domain isolation.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](planning-gpo-deployment.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>GPO settings that affect which devices receive the GPO, such as security group filtering and WMI filtering, are discussed in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning GPO Deployment</pc> section.</source>
+          <target>GPO settings that affect which devices receive the GPO, such as security group filtering and WMI filtering, are discussed in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning GPO Deployment</pc> section.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>In this section you can find information about the following:</source>
+          <target>In this section you can find information about the following:</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Firewall GPOs</source>
+          <target>Firewall GPOs</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Isolated Domain GPOs</source>
+          <target>Isolated Domain GPOs</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Boundary Zone GPOs</source>
+          <target>Boundary Zone GPOs</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Encryption Zone GPOs</source>
+          <target>Encryption Zone GPOs</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Server Isolation GPOs</source>
+          <target>Server Isolation GPOs</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

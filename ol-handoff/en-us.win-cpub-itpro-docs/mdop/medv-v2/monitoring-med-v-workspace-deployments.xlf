@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\medv-v2\monitoring-med-v-workspace-deployments.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">fffa353d582f0c5071b46326d5171628ffc62565</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Monitoring MED-V Workspace Deployments</source>
+          <target>Monitoring MED-V Workspace Deployments</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Monitoring MED-V Workspace Deployments</source>
+          <target>Monitoring MED-V Workspace Deployments</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Monitoring MED-V Workspace Deployments</source>
+          <target>Monitoring MED-V Workspace Deployments</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>The monitoring feature in Microsoft Enterprise Desktop Virtualization (MED-V) 2.0 lets you run queries on individual MED-V workspaces to determine whether first time setup succeeded throughout your enterprise after the MED-V workspaces are deployed.</source>
+          <target>The monitoring feature in Microsoft Enterprise Desktop Virtualization (MED-V) 2.0 lets you run queries on individual MED-V workspaces to determine whether first time setup succeeded throughout your enterprise after the MED-V workspaces are deployed.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Monitoring the success of first time setup is important because MED-V is not in a usable state until first time setup has been completed successfully.</source>
+          <target>Monitoring the success of first time setup is important because MED-V is not in a usable state until first time setup has been completed successfully.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This section provides information and instruction to assist you in monitoring the success or failure of first time setup.</source>
+          <target>This section provides information and instruction to assist you in monitoring the success or failure of first time setup.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>To monitor MED-V workspace deployments</source>
+          <target>To monitor MED-V workspace deployments</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The monitoring feature consists of a coupled in-process Windows Management Instrumentation (WMI) provider that you can query using WMI Query Language to discover the status of first time setup for all end users on a MED-V workspace.</source>
+          <target>The monitoring feature consists of a coupled in-process Windows Management Instrumentation (WMI) provider that you can query using WMI Query Language to discover the status of first time setup for all end users on a MED-V workspace.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The WMI provider is implemented by using the WMI Provider Extension framework from the Microsoft .Net Framework 3.5.</source>
+          <target>The WMI provider is implemented by using the WMI Provider Extension framework from the Microsoft .Net Framework 3.5.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The WMI provider executes in the context of LocalService and stores the first time setup state securely under <ph dataRef="id1" id="ph1" />ProgramData.</source>
+          <target>The WMI provider executes in the context of LocalService and stores the first time setup state securely under <ph dataRef="id1" id="ph1" />ProgramData.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">\_</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The WMI provider is implemented in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">root<ph dataRef="id3" id="ph1" />microsoft<ph dataRef="id4" id="ph2" />medv</pc> namespace and implements the class <pc dataRefEnd="id6" dataRefStart="id5" id="p2">FTS<ph dataRef="id7" id="ph3" />Status</pc>, which exposes the method <pc dataRefEnd="id9" dataRefStart="id8" id="p3">SetFtsState</pc>.</source>
+          <target>The WMI provider is implemented in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">root<ph dataRef="id3" id="ph1" />microsoft<ph dataRef="id4" id="ph2" />medv</pc> namespace and implements the class <pc dataRefEnd="id6" dataRefStart="id5" id="p2">FTS<ph dataRef="id7" id="ph3" />Status</pc>, which exposes the method <pc dataRefEnd="id9" dataRefStart="id8" id="p3">SetFtsState</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>MED-V uses <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SetFtsState</pc> to set the first time setup state.</source>
+          <target>MED-V uses <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SetFtsState</pc> to set the first time setup state.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The class contains the following properties.</source>
+          <target>The class contains the following properties.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Property</source>
+          <target>Property</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Machine</source>
+          <target>Machine</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Read Only<ph dataRef="id1" id="ph1" /> property that contains the name of the guest virtual machine provisioned by first time setup.</source>
+          <target>Read Only<ph dataRef="id1" id="ph1" /> property that contains the name of the guest virtual machine provisioned by first time setup.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>This key contains the name that the guest would have had on first time setup failure.</source>
+          <target>This key contains the name that the guest would have had on first time setup failure.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>StatusCode</source>
+          <target>StatusCode</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Read Only<ph dataRef="id1" id="ph1" /> property that contains zero if first time setup succeeded.</source>
+          <target>Read Only<ph dataRef="id1" id="ph1" /> property that contains zero if first time setup succeeded.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Any other value returned equals the event ID for the error that is logged.</source>
+          <target>Any other value returned equals the event ID for the error that is logged.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Time</source>
+          <target>Time</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>The UTC time that first time setup completed.</source>
+          <target>The UTC time that first time setup completed.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>User</source>
+          <target>User</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>The user for which first time setup was run.</source>
+          <target>The user for which first time setup was run.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following code shows the Managed Object Format (MOF) file that defines the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">FTS<ph dataRef="id3" id="ph1" />Status</pc> class.</source>
+          <target>The following code shows the Managed Object Format (MOF) file that defines the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">FTS<ph dataRef="id3" id="ph1" />Status</pc> class.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Because your main concern is most likely those MED-V workspaces for which first time setup was not completed successfully, you can write your query to only return those that failed first time setup, for example:</source>
+          <target>Because your main concern is most likely those MED-V workspaces for which first time setup was not completed successfully, you can write your query to only return those that failed first time setup, for example:</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>In this case, the monitoring feature returns a list of those MED-V workspaces that failed first time setup, which you can use to take the appropriate actions to resolve the failure.</source>
+          <target>In this case, the monitoring feature returns a list of those MED-V workspaces that failed first time setup, which you can use to take the appropriate actions to resolve the failure.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Monitor MED-V Workspaces</source>
+          <target>Monitor MED-V Workspaces</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>How to Verify First Time Setup Settings</source>
+          <target>How to Verify First Time Setup Settings</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

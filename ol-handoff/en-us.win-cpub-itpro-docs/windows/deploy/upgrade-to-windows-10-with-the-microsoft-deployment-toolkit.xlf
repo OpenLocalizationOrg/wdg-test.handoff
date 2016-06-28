@@ -1,0 +1,614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\deploy\upgrade-to-windows-10-with-the-microsoft-deployment-toolkit.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">99151a0d166c46ce0b3ef52668b7d4cec767a8aa</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Upgrade to Windows 10 with the Microsoft Deployment Toolkit (Windows 10)</source>
+          <target>Upgrade to Windows 10 with the Microsoft Deployment Toolkit (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>The simplest path to upgrade PCs that are currently running Windows 7, Windows 8, or Windows 8.1 to Windows 10 is through an in-place upgrade.</source>
+          <target>The simplest path to upgrade PCs that are currently running Windows 7, Windows 8, or Windows 8.1 to Windows 10 is through an in-place upgrade.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Upgrade to Windows 10 with the Microsoft Deployment Toolkit</source>
+          <target>Upgrade to Windows 10 with the Microsoft Deployment Toolkit</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>The simplest path to upgrade PCs that are currently running Windows 7, Windows 8, or Windows 8.1 to Windows 10 is through an in-place upgrade.</source>
+          <target>The simplest path to upgrade PCs that are currently running Windows 7, Windows 8, or Windows 8.1 to Windows 10 is through an in-place upgrade.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>You can use a Microsoft Deployment Toolkit (MDT) 2013 Update 2 task sequence to completely automate the process.</source>
+          <target>You can use a Microsoft Deployment Toolkit (MDT) 2013 Update 2 task sequence to completely automate the process.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Proof-of-concept environment</source>
+          <target>Proof-of-concept environment</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>For the purposes of this topic, we will use four machines: DC01, MDT01, and PC0001.</source>
+          <target>For the purposes of this topic, we will use four machines: DC01, MDT01, and PC0001.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>DC01 is a domain controller and MDT01 is a Windows Server 2012 R2 standard machine, fully patched with the latest security updates, and configured as a member server in the fictional contoso.com domain.</source>
+          <target>DC01 is a domain controller and MDT01 is a Windows Server 2012 R2 standard machine, fully patched with the latest security updates, and configured as a member server in the fictional contoso.com domain.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>PC0001 is a machine with Windows 7 SP1, targeted for the Windows 10 upgrade.</source>
+          <target>PC0001 is a machine with Windows 7 SP1, targeted for the Windows 10 upgrade.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](deploy-windows-10-with-the-microsoft-deployment-toolkit.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more details on the setup for this topic, please see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy Windows 10 with the Microsoft Deployment Toolkit</pc>.</source>
+          <target>For more details on the setup for this topic, please see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy Windows 10 with the Microsoft Deployment Toolkit</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>fig 1</source>
+          <target>fig 1</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Figure 1.</source>
+          <target>Figure 1.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>The machines used in this topic.</source>
+          <target>The machines used in this topic.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Set up the upgrade task sequence</source>
+          <target>Set up the upgrade task sequence</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>MDT 2013 Update 2 adds support for Windows 10 deployment, including a new in-place upgrade task sequence template that makes the process really simple.</source>
+          <target>MDT 2013 Update 2 adds support for Windows 10 deployment, including a new in-place upgrade task sequence template that makes the process really simple.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Create the MDT production deployment share</source>
+          <target>Create the MDT production deployment share</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>The steps to create the deployment share for production are the same as when you created the deployment share to create the custom reference image:</source>
+          <target>The steps to create the deployment share for production are the same as when you created the deployment share to create the custom reference image:</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On MDT01, log on as Administrator in the CONTOSO domain with a password of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">P@ssw0rd</pc>.</source>
+          <target>On MDT01, log on as Administrator in the CONTOSO domain with a password of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">P@ssw0rd</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the Deployment Workbench, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Shares</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Deployment Share</pc>.</source>
+          <target>Using the Deployment Workbench, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Shares</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Deployment Share</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">\\</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Path</pc> page, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Deployment share path</pc> text box, type <pc dataRefEnd="id6" dataRefStart="id5" id="p3">E:<ph dataRef="id7" id="ph1" />MDTProduction</pc>, and then click <pc dataRefEnd="id9" dataRefStart="id8" id="p4">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Path</pc> page, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Deployment share path</pc> text box, type <pc dataRefEnd="id6" dataRefStart="id5" id="p3">E:<ph dataRef="id7" id="ph1" />MDTProduction</pc>, and then click <pc dataRefEnd="id9" dataRefStart="id8" id="p4">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Share</pc> page, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Share name</pc> text box, type <pc dataRefEnd="id6" dataRefStart="id5" id="p3">MDTProduction$</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Share</pc> page, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Share name</pc> text box, type <pc dataRefEnd="id6" dataRefStart="id5" id="p3">MDTProduction$</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Descriptive Name</pc> page, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Deployment share</pc> description text box, type <pc dataRefEnd="id6" dataRefStart="id5" id="p3">MDT Production</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Descriptive Name</pc> page, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Deployment share</pc> description text box, type <pc dataRefEnd="id6" dataRefStart="id5" id="p3">MDT Production</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Options</pc> page, accept the default settings and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc> twice, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Finish</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Options</pc> page, accept the default settings and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc> twice, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Finish</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using File Explorer, verify that you can access the <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />MDT01<ph dataRef="id4" id="ph2" />MDTProduction$</pc> share.</source>
+          <target>Using File Explorer, verify that you can access the <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />MDT01<ph dataRef="id4" id="ph2" />MDTProduction$</pc> share.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Add Windows 10 Enterprise x64 (full source)</source>
+          <target>Add Windows 10 Enterprise x64 (full source)</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In these steps we assume that you have copied the content of a Windows 10 Enterprise x64 ISO to the E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />Windows 10 Enterprise x64 folder.</source>
+          <target>In these steps we assume that you have copied the content of a Windows 10 Enterprise x64 ISO to the E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />Windows 10 Enterprise x64 folder.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the Deployment Workbench, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Shares</pc> node, and then expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDT Production</pc>.</source>
+          <target>Using the Deployment Workbench, expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Shares</pc> node, and then expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDT Production</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating Systems</pc> node, and create a new folder named <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10</pc>.</source>
+          <target>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating Systems</pc> node, and create a new folder named <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating Systems</pc> node, right-click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10</pc> folder, and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Import Operating System</pc>.</source>
+          <target>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating Systems</pc> node, right-click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10</pc> folder, and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Import Operating System</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Use the following settings for the Import Operating System Wizard:</source>
+          <target>Use the following settings for the Import Operating System Wizard:</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Full set of source files</source>
+          <target>Full set of source files</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Source directory: E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />Windows 10 Enterprise x64</source>
+          <target>Source directory: E:<ph dataRef="id1" id="ph1" />Downloads<ph dataRef="id2" id="ph2" />Windows 10 Enterprise x64</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Destination directory name: W10EX64RTM</source>
+          <target>Destination directory name: W10EX64RTM</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After you add the operating system, in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating Systems / Windows 10</pc> folder, double-click the added operating system name in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Operating System</pc> node and change the name to the following: <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows 10 Enterprise x64 RTM Default Image</pc></source>
+          <target>After you add the operating system, in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating Systems / Windows 10</pc> folder, double-click the added operating system name in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Operating System</pc> node and change the name to the following: <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows 10 Enterprise x64 RTM Default Image</pc></target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>figure 2</source>
+          <target>figure 2</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Figure 2.</source>
+          <target>Figure 2.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>The imported Windows 10 operating system after you rename it.</source>
+          <target>The imported Windows 10 operating system after you rename it.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Create a task sequence to upgrade to Windows 10 Enterprise</source>
+          <target>Create a task sequence to upgrade to Windows 10 Enterprise</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the Deployment Workbench, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task Sequences</pc> in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDT Production</pc> node, and create a folder named <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows 10</pc>.</source>
+          <target>Using the Deployment Workbench, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task Sequences</pc> in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDT Production</pc> node, and create a folder named <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows 10</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the new <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 10</pc> folder and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Task Sequence</pc>.</source>
+          <target>Right-click the new <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 10</pc> folder and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Task Sequence</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Use the following settings for the New Task Sequence Wizard:</source>
+          <target>Use the following settings for the New Task Sequence Wizard:</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Task sequence ID: W10-X64-UPG</source>
+          <target>Task sequence ID: W10-X64-UPG</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Task sequence name: Windows 10 Enterprise x64 RTM Upgrade</source>
+          <target>Task sequence name: Windows 10 Enterprise x64 RTM Upgrade</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Template: Standard Client Upgrade Task Sequence</source>
+          <target>Template: Standard Client Upgrade Task Sequence</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Select OS: Windows 10 Enterprise x64 RTM RTM Default Image</source>
+          <target>Select OS: Windows 10 Enterprise x64 RTM RTM Default Image</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Specify Product Key: Do not specify a product key at this time</source>
+          <target>Specify Product Key: Do not specify a product key at this time</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Full Name: Contoso</source>
+          <target>Full Name: Contoso</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Organization: Contoso</source>
+          <target>Organization: Contoso</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Internet Explorer home page: about:blank</source>
+          <target>Internet Explorer home page: about:blank</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Admin Password: Do not specify an Administrator Password at this time</source>
+          <target>Admin Password: Do not specify an Administrator Password at this time</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>figure 3</source>
+          <target>figure 3</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Figure 3.</source>
+          <target>Figure 3.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>The task sequence to upgrade to Windows 10.</source>
+          <target>The task sequence to upgrade to Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Perform the Windows 10 upgrade</source>
+          <target>Perform the Windows 10 upgrade</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>To initiate the in-place upgrade, perform the following steps on PC0003 (currently running Windows 7 SP1).</source>
+          <target>To initiate the in-place upgrade, perform the following steps on PC0003 (currently running Windows 7 SP1).</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Start the MDT deployment wizard by running the following command: <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />MDT01<ph dataRef="id4" id="ph2" />MDTProduction$<ph dataRef="id5" id="ph3" />Scripts<ph dataRef="id6" id="ph4" />LiteTouch.vbs</pc></source>
+          <target>Start the MDT deployment wizard by running the following command: <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />MDT01<ph dataRef="id4" id="ph2" />MDTProduction$<ph dataRef="id5" id="ph3" />Scripts<ph dataRef="id6" id="ph4" />LiteTouch.vbs</pc></target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 10 Enterprise x64 RTM Upgrade</pc> task sequence, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 10 Enterprise x64 RTM Upgrade</pc> task sequence, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>figure 4</source>
+          <target>figure 4</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Figure 4.</source>
+          <target>Figure 4.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Upgrade task sequence.</source>
+          <target>Upgrade task sequence.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\_</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Credentials</pc> tab, specify the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDT<ph dataRef="id5" id="ph1" />BA</pc> account, <pc dataRefEnd="id7" dataRefStart="id6" id="p3">P@ssw0rd</pc> password, and <pc dataRefEnd="id9" dataRefStart="id8" id="p4">CONTOSO</pc> for the domain.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Credentials</pc> tab, specify the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MDT<ph dataRef="id5" id="ph1" />BA</pc> account, <pc dataRefEnd="id7" dataRefStart="id6" id="p3">P@ssw0rd</pc> password, and <pc dataRefEnd="id9" dataRefStart="id8" id="p4">CONTOSO</pc> for the domain.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>(Some or all of these values can be specified in Bootstrap.ini so they are automatically populated.)</source>
+          <target>(Some or all of these values can be specified in Bootstrap.ini so they are automatically populated.)</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ready</pc> tab, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Begin</pc> to start the task sequence.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ready</pc> tab, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Begin</pc> to start the task sequence.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>When the task sequence begins, it automatically initiates the in-place upgrade process by invoking the Windows setup program (Setup.exe) with the necessary command-line parameters to perform an automated upgrade, which preserves all data, settings, apps, and drivers.</source>
+          <target>When the task sequence begins, it automatically initiates the in-place upgrade process by invoking the Windows setup program (Setup.exe) with the necessary command-line parameters to perform an automated upgrade, which preserves all data, settings, apps, and drivers.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>figure 5</source>
+          <target>figure 5</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Figure 5.</source>
+          <target>Figure 5.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Upgrade from Windows 7 to Windows 10 Enterprise x64 with a task sequence.</source>
+          <target>Upgrade from Windows 7 to Windows 10 Enterprise x64 with a task sequence.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>After the task sequence completes, the computer will be fully upgraded to Windows 10.</source>
+          <target>After the task sequence completes, the computer will be fully upgraded to Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Windows 10 deployment scenarios</source>
+          <target>Windows 10 deployment scenarios</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Microsoft Deployment Toolkit downloads and resources</source>
+          <target>Microsoft Deployment Toolkit downloads and resources</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

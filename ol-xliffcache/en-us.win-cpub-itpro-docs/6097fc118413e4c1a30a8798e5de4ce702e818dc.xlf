@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\dynamic-access-control.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">6097fc118413e4c1a30a8798e5de4ce702e818dc</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Dynamic Access Control Overview (Windows 10)</source>
+          <target>Dynamic Access Control Overview (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Dynamic Access Control Overview</source>
+          <target>Dynamic Access Control Overview</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Dynamic Access Control Overview</source>
+          <target>Dynamic Access Control Overview</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows Server 2016</source>
+          <target>Windows Server 2016</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This overview topic for the IT professional describes Dynamic Access Control and its associated elements, which were introduced in Windows Server 2012 and Windows 8.</source>
+          <target>This overview topic for the IT professional describes Dynamic Access Control and its associated elements, which were introduced in Windows Server 2012 and Windows 8.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Domain-based Dynamic Access Control enables administrators to apply access-control permissions and restrictions based on well-defined rules that can include the sensitivity of the resources, the job or role of the user, and the configuration of the device that is used to access these resources.</source>
+          <target>Domain-based Dynamic Access Control enables administrators to apply access-control permissions and restrictions based on well-defined rules that can include the sensitivity of the resources, the job or role of the user, and the configuration of the device that is used to access these resources.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>For example, a user might have different permissions when they access a resource from their office computer versus when they are using a portable computer over a virtual private network.</source>
+          <target>For example, a user might have different permissions when they access a resource from their office computer versus when they are using a portable computer over a virtual private network.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Or access may be allowed only if a device meets the security requirements that are defined by the network administrators.</source>
+          <target>Or access may be allowed only if a device meets the security requirements that are defined by the network administrators.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>When Dynamic Access Control is used, a user’s permissions change dynamically without additional administrator intervention if the user’s job or role changes (resulting in changes to the user’s account attributes in AD DS).</source>
+          <target>When Dynamic Access Control is used, a user’s permissions change dynamically without additional administrator intervention if the user’s job or role changes (resulting in changes to the user’s account attributes in AD DS).</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Dynamic Access Control is not supported in Windows operating systems prior to Windows Server 2012 and Windows 8.</source>
+          <target>Dynamic Access Control is not supported in Windows operating systems prior to Windows Server 2012 and Windows 8.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>When Dynamic Access Control is configured in environments with supported and non-supported versions of Windows, only the supported versions will implement the changes.</source>
+          <target>When Dynamic Access Control is configured in environments with supported and non-supported versions of Windows, only the supported versions will implement the changes.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Features and concepts associated with Dynamic Access Control include:</source>
+          <target>Features and concepts associated with Dynamic Access Control include:</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Central access rules</source>
+          <target>Central access rules</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Central access policies</source>
+          <target>Central access policies</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Claims</source>
+          <target>Claims</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Expressions</source>
+          <target>Expressions</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Proposed permissions</source>
+          <target>Proposed permissions</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Central access rules</source>
+          <target>Central access rules</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>A central access rule is an expression of authorization rules that can include one or more conditions involving user groups, user claims, device claims, and resource properties.</source>
+          <target>A central access rule is an expression of authorization rules that can include one or more conditions involving user groups, user claims, device claims, and resource properties.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Multiple central access rules can be combined into a central access policy.</source>
+          <target>Multiple central access rules can be combined into a central access policy.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>If one or more central access rules have been defined for a domain, file share administrators can match specific rules to specific resources and business requirements.</source>
+          <target>If one or more central access rules have been defined for a domain, file share administrators can match specific rules to specific resources and business requirements.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Central access policies</source>
+          <target>Central access policies</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Central access policies are authorization policies that include conditional expressions.</source>
+          <target>Central access policies are authorization policies that include conditional expressions.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>For example, let’s say an organization has a business requirement to restrict access to personally identifiable information (PII) in files to only the file owner and members of the human resources (HR) department who are allowed to view PII information.</source>
+          <target>For example, let’s say an organization has a business requirement to restrict access to personally identifiable information (PII) in files to only the file owner and members of the human resources (HR) department who are allowed to view PII information.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>This represents an organization-wide policy that applies to PII files wherever they are located on file servers across the organization.</source>
+          <target>This represents an organization-wide policy that applies to PII files wherever they are located on file servers across the organization.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>To implement this policy, an organization needs to be able to:</source>
+          <target>To implement this policy, an organization needs to be able to:</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Identify and mark the files that contain the PII.</source>
+          <target>Identify and mark the files that contain the PII.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Identify the group of HR members who are allowed to view the PII information.</source>
+          <target>Identify the group of HR members who are allowed to view the PII information.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Add the central access policy to a central access rule, and apply the central access rule to all files that contain the PII, wherever they are located amongst the file servers across the organization.</source>
+          <target>Add the central access policy to a central access rule, and apply the central access rule to all files that contain the PII, wherever they are located amongst the file servers across the organization.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Central access policies act as security umbrellas that an organization applies across its servers.</source>
+          <target>Central access policies act as security umbrellas that an organization applies across its servers.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>These policies are in addition to (but do not replace) the local access policies or discretionary access control lists (DACLs) that are applied to files and folders.</source>
+          <target>These policies are in addition to (but do not replace) the local access policies or discretionary access control lists (DACLs) that are applied to files and folders.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Claims</source>
+          <target>Claims</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>A claim is a unique piece of information about a user, device, or resource that has been published by a domain controller.</source>
+          <target>A claim is a unique piece of information about a user, device, or resource that has been published by a domain controller.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>The user’s title, the department classification of a file, or the health state of a computer are valid examples of a claim.</source>
+          <target>The user’s title, the department classification of a file, or the health state of a computer are valid examples of a claim.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>An entity can involve more than one claim, and any combination of claims can be used to authorize access to resources.</source>
+          <target>An entity can involve more than one claim, and any combination of claims can be used to authorize access to resources.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>The following types of claims are available in the supported versions of Windows:</source>
+          <target>The following types of claims are available in the supported versions of Windows:</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">User claims</pc>   Active Directory attributes that are associated with a specific user.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">User claims</pc>   Active Directory attributes that are associated with a specific user.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device claims</pc>   Active Directory attributes that are associated with a specific computer object.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device claims</pc>   Active Directory attributes that are associated with a specific computer object.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Resource attributes</pc>  Global resource properties that are marked for use in authorization decisions and published in Active Directory.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Resource attributes</pc>  Global resource properties that are marked for use in authorization decisions and published in Active Directory.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Claims make it possible for administrators to make precise organization- or enterprise-wide statements about users, devices, and resources that can be incorporated in expressions, rules, and policies.</source>
+          <target>Claims make it possible for administrators to make precise organization- or enterprise-wide statements about users, devices, and resources that can be incorporated in expressions, rules, and policies.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Expressions</source>
+          <target>Expressions</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Conditional expressions are an enhancement to access control management that allow or deny access to resources only when certain conditions are met, for example, group membership, location, or the security state of the device.</source>
+          <target>Conditional expressions are an enhancement to access control management that allow or deny access to resources only when certain conditions are met, for example, group membership, location, or the security state of the device.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Expressions are managed through the Advanced Security Settings dialog box of the ACL Editor or the Central Access Rule Editor in the Active Directory Administrative Center (ADAC).</source>
+          <target>Expressions are managed through the Advanced Security Settings dialog box of the ACL Editor or the Central Access Rule Editor in the Active Directory Administrative Center (ADAC).</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Expressions help administrators manage access to sensitive resources with flexible conditions in increasingly complex business environments.</source>
+          <target>Expressions help administrators manage access to sensitive resources with flexible conditions in increasingly complex business environments.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Proposed permissions</source>
+          <target>Proposed permissions</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Proposed permissions enable an administrator to more accurately model the impact of potential changes to access control settings without actually changing them.</source>
+          <target>Proposed permissions enable an administrator to more accurately model the impact of potential changes to access control settings without actually changing them.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Predicting the effective access to a resource helps you plan and configure permissions for those resources before implementing those changes.</source>
+          <target>Predicting the effective access to a resource helps you plan and configure permissions for those resources before implementing those changes.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Additional changes</source>
+          <target>Additional changes</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Additional enhancements in the supported versions of Windows that support Dynamic Access Control include:</source>
+          <target>Additional enhancements in the supported versions of Windows that support Dynamic Access Control include:</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Support in the Kerberos authentication protocol to reliably provide user claims, device claims, and device groups.</source>
+          <target>Support in the Kerberos authentication protocol to reliably provide user claims, device claims, and device groups.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>By default, devices running any of the supported versions of Windows are able to process Dynamic Access Control-related Kerberos tickets, which include data needed for compound authentication.</source>
+          <target>By default, devices running any of the supported versions of Windows are able to process Dynamic Access Control-related Kerberos tickets, which include data needed for compound authentication.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Domain controllers are able to issue and respond to Kerberos tickets with compound authentication-related information.</source>
+          <target>Domain controllers are able to issue and respond to Kerberos tickets with compound authentication-related information.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>When a domain is configured to recognize Dynamic Access Control, devices receive claims from domain controllers during initial authentication, and they receive compound authentication tickets when submitting service ticket requests.</source>
+          <target>When a domain is configured to recognize Dynamic Access Control, devices receive claims from domain controllers during initial authentication, and they receive compound authentication tickets when submitting service ticket requests.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Compound authentication results in an access token that includes the identity of the user and the device on the resources that recognize Dynamic Access Control.</source>
+          <target>Compound authentication results in an access token that includes the identity of the user and the device on the resources that recognize Dynamic Access Control.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Support for using the Key Distribution Center (KDC) Group Policy setting to enable Dynamic Access Control for a domain.</source>
+          <target>Support for using the Key Distribution Center (KDC) Group Policy setting to enable Dynamic Access Control for a domain.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Every domain controller needs to have the same Administrative Template policy setting, which is located at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer Configuration<ph dataRef="id3" id="ph1" />Policies<ph dataRef="id4" id="ph2" />Administrative Templates<ph dataRef="id5" id="ph3" />System<ph dataRef="id6" id="ph4" />KDC<ph dataRef="id7" id="ph5" />Support Dynamic Access Control and Kerberos armoring</pc>.</source>
+          <target>Every domain controller needs to have the same Administrative Template policy setting, which is located at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer Configuration<ph dataRef="id3" id="ph1" />Policies<ph dataRef="id4" id="ph2" />Administrative Templates<ph dataRef="id5" id="ph3" />System<ph dataRef="id6" id="ph4" />KDC<ph dataRef="id7" id="ph5" />Support Dynamic Access Control and Kerberos armoring</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Support for using the Key Distribution Center (KDC) Group Policy setting to enable Dynamic Access Control for a domain.</source>
+          <target>Support for using the Key Distribution Center (KDC) Group Policy setting to enable Dynamic Access Control for a domain.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Every domain controller needs to have the same Administrative Template policy setting, which is located at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer Configuration<ph dataRef="id3" id="ph1" />Policies<ph dataRef="id4" id="ph2" />Administrative Templates<ph dataRef="id5" id="ph3" />System<ph dataRef="id6" id="ph4" />KDC<ph dataRef="id7" id="ph5" />Support Dynamic Access Control and Kerberos armoring</pc>.</source>
+          <target>Every domain controller needs to have the same Administrative Template policy setting, which is located at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer Configuration<ph dataRef="id3" id="ph1" />Policies<ph dataRef="id4" id="ph2" />Administrative Templates<ph dataRef="id5" id="ph3" />System<ph dataRef="id6" id="ph4" />KDC<ph dataRef="id7" id="ph5" />Support Dynamic Access Control and Kerberos armoring</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Support in Active Directory to store user and device claims, resource properties, and central access policy objects.</source>
+          <target>Support in Active Directory to store user and device claims, resource properties, and central access policy objects.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Support for using Group Policy to deploy central access policy objects.</source>
+          <target>Support for using Group Policy to deploy central access policy objects.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following Group Policy setting enables you to deploy central access policy objects to file servers in your organization: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer Configuration<ph dataRef="id3" id="ph1" />Policies<ph dataRef="id4" id="ph2" /> Windows Settings<ph dataRef="id5" id="ph3" />Security Settings<ph dataRef="id6" id="ph4" />File System<ph dataRef="id7" id="ph5" />Central Access Policy</pc>.</source>
+          <target>The following Group Policy setting enables you to deploy central access policy objects to file servers in your organization: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer Configuration<ph dataRef="id3" id="ph1" />Policies<ph dataRef="id4" id="ph2" /> Windows Settings<ph dataRef="id5" id="ph3" />Security Settings<ph dataRef="id6" id="ph4" />File System<ph dataRef="id7" id="ph5" />Central Access Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Support for claims-based file authorization and auditing for file systems by using Group Policy and Global Object Access Auditing</source>
+          <target>Support for claims-based file authorization and auditing for file systems by using Group Policy and Global Object Access Auditing</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>You must enable staged central access policy auditing to audit the effective access of central access policy by using proposed permissions.</source>
+          <target>You must enable staged central access policy auditing to audit the effective access of central access policy by using proposed permissions.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You configure this setting for the computer under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced Audit Policy Configuration</pc> in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Security Settings</pc> of a Group Policy Object (GPO).</source>
+          <target>You configure this setting for the computer under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced Audit Policy Configuration</pc> in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Security Settings</pc> of a Group Policy Object (GPO).</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>After you configure the security setting in the GPO, you can deploy the GPO to computers in your network.</source>
+          <target>After you configure the security setting in the GPO, you can deploy the GPO to computers in your network.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Support for transforming or filtering claim policy objects that traverse Active Directory forest trusts</source>
+          <target>Support for transforming or filtering claim policy objects that traverse Active Directory forest trusts</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>You can filter or transform incoming and outgoing claims that traverse a forest trust.</source>
+          <target>You can filter or transform incoming and outgoing claims that traverse a forest trust.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>There are three basic scenarios for filtering and transforming claims:</source>
+          <target>There are three basic scenarios for filtering and transforming claims:</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Value-based filtering</pc>  Filters can be based on the value of a claim.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Value-based filtering</pc>  Filters can be based on the value of a claim.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>This allows the trusted forest to prevent claims with certain values from being sent to the trusting forest.</source>
+          <target>This allows the trusted forest to prevent claims with certain values from being sent to the trusting forest.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Domain controllers in trusting forests can use value-based filtering to guard against an elevation-of-privilege attack by filtering the incoming claims with specific values from the trusted forest.</source>
+          <target>Domain controllers in trusting forests can use value-based filtering to guard against an elevation-of-privilege attack by filtering the incoming claims with specific values from the trusted forest.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Claim type-based filtering</pc>  Filters are based on the type of claim, rather than the value of the claim.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Claim type-based filtering</pc>  Filters are based on the type of claim, rather than the value of the claim.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>You identify the claim type by the name of the claim.</source>
+          <target>You identify the claim type by the name of the claim.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>You use claim type-based filtering in the trusted forest, and it prevents Windows from sending claims that disclose information to the trusting forest.</source>
+          <target>You use claim type-based filtering in the trusted forest, and it prevents Windows from sending claims that disclose information to the trusting forest.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Claim type-based transformation</pc>  Manipulates a claim before sending it to the intended target.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Claim type-based transformation</pc>  Manipulates a claim before sending it to the intended target.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>You use claim type-based transformation in the trusted forest to generalize a known claim that contains specific information.</source>
+          <target>You use claim type-based transformation in the trusted forest to generalize a known claim that contains specific information.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>You can use transformations to generalize the claim-type, the claim value, or both.</source>
+          <target>You can use transformations to generalize the claim-type, the claim value, or both.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Software requirements</source>
+          <target>Software requirements</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Because claims and compound authentication for Dynamic Access Control require Kerberos authentication extensions, any domain that supports Dynamic Access Control must have enough domain controllers running the supported versions of Windows to support authentication from Dynamic Access Control-aware Kerberos clients.</source>
+          <target>Because claims and compound authentication for Dynamic Access Control require Kerberos authentication extensions, any domain that supports Dynamic Access Control must have enough domain controllers running the supported versions of Windows to support authentication from Dynamic Access Control-aware Kerberos clients.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>By default, devices must use domain controllers in other sites.</source>
+          <target>By default, devices must use domain controllers in other sites.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>If no such domain controllers are available, authentication will fail.</source>
+          <target>If no such domain controllers are available, authentication will fail.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Therefore, you must support one of the following conditions:</source>
+          <target>Therefore, you must support one of the following conditions:</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Every domain that supports Dynamic Access Control must have enough domain controllers running the supported versions of Windows Server to support authentication from all devices running the supported versions of Windows or Windows Server.</source>
+          <target>Every domain that supports Dynamic Access Control must have enough domain controllers running the supported versions of Windows Server to support authentication from all devices running the supported versions of Windows or Windows Server.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Devices running the supported versions of Windows or that do not protect resources by using claims or compound identity, should disable Kerberos protocol support for Dynamic Access Control.</source>
+          <target>Devices running the supported versions of Windows or that do not protect resources by using claims or compound identity, should disable Kerberos protocol support for Dynamic Access Control.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>For domains that support user claims, every domain controller running the supported versions of Windows server must be configured with the appropriate setting to support claims and compound authentication, and to provide Kerberos armoring.</source>
+          <target>For domains that support user claims, every domain controller running the supported versions of Windows server must be configured with the appropriate setting to support claims and compound authentication, and to provide Kerberos armoring.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Configure settings in the KDC Administrative Template policy as follows:</source>
+          <target>Configure settings in the KDC Administrative Template policy as follows:</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Always provide claims</pc>   Use this setting if all domain controllers are running the supported versions of Windows Server.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Always provide claims</pc>   Use this setting if all domain controllers are running the supported versions of Windows Server.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>In addition, set the domain functional level to Windows Server 2012 or higher.</source>
+          <target>In addition, set the domain functional level to Windows Server 2012 or higher.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Supported</pc>   When you use this setting, monitor domain controllers to ensure that the number of domain controllers running the supported versions of Windows Server is sufficient for the number of client computers that need to access resources protected by Dynamic Access Control.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Supported</pc>   When you use this setting, monitor domain controllers to ensure that the number of domain controllers running the supported versions of Windows Server is sufficient for the number of client computers that need to access resources protected by Dynamic Access Control.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>If the user domain and file server domain are in different forests, all domain controllers in the file server’s forest root must be set at the Windows Server 2012 or higher functional level.</source>
+          <target>If the user domain and file server domain are in different forests, all domain controllers in the file server’s forest root must be set at the Windows Server 2012 or higher functional level.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>If clients do not recognize Dynamic Access Control, there must be a two-way trust relationship between the two forests.</source>
+          <target>If clients do not recognize Dynamic Access Control, there must be a two-way trust relationship between the two forests.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>If claims are transformed when they leave a forest, all domain controllers in the user’s forest root must be set at the Windows Server 2012 or higher functional level.</source>
+          <target>If claims are transformed when they leave a forest, all domain controllers in the user’s forest root must be set at the Windows Server 2012 or higher functional level.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>A file server running Windows Server 2012 or Windows Server 2012 R2 must have a Group Policy setting that specifies whether it needs to get user claims for user tokens that do not carry claims.</source>
+          <target>A file server running Windows Server 2012 or Windows Server 2012 R2 must have a Group Policy setting that specifies whether it needs to get user claims for user tokens that do not carry claims.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This setting is set by default to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatic</pc>, which results in this Group Policy setting to be turned <pc dataRefEnd="id4" dataRefStart="id3" id="p2">On</pc> if there is a central policy that contains user or device claims for that file server.</source>
+          <target>This setting is set by default to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatic</pc>, which results in this Group Policy setting to be turned <pc dataRefEnd="id4" dataRefStart="id3" id="p2">On</pc> if there is a central policy that contains user or device claims for that file server.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the file server contains discretionary ACLs that include user claims, you need to set this Group Policy to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">On</pc> so that the server knows to request claims on behalf of users that do not provide claims when they access the server.</source>
+          <target>If the file server contains discretionary ACLs that include user claims, you need to set this Group Policy to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">On</pc> so that the server knows to request claims on behalf of users that do not provide claims when they access the server.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Additional resource</source>
+          <target>Additional resource</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>Access control overview</source>
+          <target>Access control overview</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

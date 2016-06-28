@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\planning-certificate-based-authentication.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">7fa120f0b93c7de01e2df767f73f0ee7642ccc96</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Planning Certificate-based Authentication (Windows 10)</source>
+          <target>Planning Certificate-based Authentication (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Planning Certificate-based Authentication</source>
+          <target>Planning Certificate-based Authentication</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Planning Certificate-based Authentication</source>
+          <target>Planning Certificate-based Authentication</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows Server 2016 Technical Preview</source>
+          <target>Windows Server 2016 Technical Preview</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Sometimes a device cannot join an Active Directory domain, and therefore cannot use Kerberos V5 authentication with domain credentials.</source>
+          <target>Sometimes a device cannot join an Active Directory domain, and therefore cannot use Kerberos V5 authentication with domain credentials.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>However, the device can still participate in the isolated domain by using certificate-based authentication.</source>
+          <target>However, the device can still participate in the isolated domain by using certificate-based authentication.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The non-domain member server, and the clients that must be able to communicate with it, must be configured to use cryptographic certificates based on the X.509 standard.</source>
+          <target>The non-domain member server, and the clients that must be able to communicate with it, must be configured to use cryptographic certificates based on the X.509 standard.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>These certificates can be used as an alternate set of credentials.</source>
+          <target>These certificates can be used as an alternate set of credentials.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>During IKE negotiation, each device sends a copy of its certificate to the other device.</source>
+          <target>During IKE negotiation, each device sends a copy of its certificate to the other device.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Each device examines the received certificate, and then validates its authenticity.</source>
+          <target>Each device examines the received certificate, and then validates its authenticity.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>To be considered authentic, the received certificate must be validated by a certification authority certificate in the recipient's Trusted Root Certification Authorities store on the local device.</source>
+          <target>To be considered authentic, the received certificate must be validated by a certification authority certificate in the recipient's Trusted Root Certification Authorities store on the local device.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Certificates can be acquired from commercial firms, or by an internal certificate server set up as part of the organization's public key infrastructure (PKI).</source>
+          <target>Certificates can be acquired from commercial firms, or by an internal certificate server set up as part of the organization's public key infrastructure (PKI).</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Microsoft provides a complete PKI and certification authority solution with Windows Server 2012, Windows Server 2008 R2, and Windows Server 2008 Active Directory Certificate Services (AD CS).</source>
+          <target>Microsoft provides a complete PKI and certification authority solution with Windows Server 2012, Windows Server 2008 R2, and Windows Server 2008 Active Directory Certificate Services (AD CS).</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Deploying certificates</source>
+          <target>Deploying certificates</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>No matter how you acquire your certificates, you must deploy them to clients and servers that require them in order to communicate.</source>
+          <target>No matter how you acquire your certificates, you must deploy them to clients and servers that require them in order to communicate.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Using Active Directory Certificate Services</source>
+          <target>Using Active Directory Certificate Services</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>If you use AD CS to create your own user and device certificates in-house, then the servers designated as certification authorities (CAs) create the certificates based on administrator-designed templates.</source>
+          <target>If you use AD CS to create your own user and device certificates in-house, then the servers designated as certification authorities (CAs) create the certificates based on administrator-designed templates.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>AD CS then uses Group Policy to deploy the certificates to domain member devices.</source>
+          <target>AD CS then uses Group Policy to deploy the certificates to domain member devices.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Device certificates are deployed when a domain member device starts.</source>
+          <target>Device certificates are deployed when a domain member device starts.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>User certificates are deployed when a user logs on.</source>
+          <target>User certificates are deployed when a user logs on.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>If you want non-domain member devices to be part of a server isolation zone that requires access by only authorized users, make sure to include certificate mapping to associate the certificates with specific user accounts.</source>
+          <target>If you want non-domain member devices to be part of a server isolation zone that requires access by only authorized users, make sure to include certificate mapping to associate the certificates with specific user accounts.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>When certificate mapping is enabled, the certificate issued to each device or user includes enough identification information to enable IPsec to match the certificate to both user and device accounts.</source>
+          <target>When certificate mapping is enabled, the certificate issued to each device or user includes enough identification information to enable IPsec to match the certificate to both user and device accounts.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>AD CS automatically ensures that certificates issued by the CAs are trusted by the client devices by putting the CA certificates in the correct store on each domain member device.</source>
+          <target>AD CS automatically ensures that certificates issued by the CAs are trusted by the client devices by putting the CA certificates in the correct store on each domain member device.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Using a commercially purchased certificate for devices running Windows</source>
+          <target>Using a commercially purchased certificate for devices running Windows</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>You can import the certificates manually onto each device if the number of devices is relatively small.</source>
+          <target>You can import the certificates manually onto each device if the number of devices is relatively small.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>For a deployment to more than a handful of devices, use Group Policy.</source>
+          <target>For a deployment to more than a handful of devices, use Group Policy.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>You must first download the vendor's root CA certificate, and then import it to a GPO that deploys it to the Local Computer<ph dataRef="id1" id="ph1" />Trusted Root Certification Authorities store on each device that applies the GPO.</source>
+          <target>You must first download the vendor's root CA certificate, and then import it to a GPO that deploys it to the Local Computer<ph dataRef="id1" id="ph1" />Trusted Root Certification Authorities store on each device that applies the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>You must also import the purchased certificate into a GPO that deploys it to the Local Computer<ph dataRef="id1" id="ph1" />Personal store on each device that applies the GPO.</source>
+          <target>You must also import the purchased certificate into a GPO that deploys it to the Local Computer<ph dataRef="id1" id="ph1" />Personal store on each device that applies the GPO.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Using a commercially purchased certificate for devices running a non-Windows operating system</source>
+          <target>Using a commercially purchased certificate for devices running a non-Windows operating system</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>If you are installing the certificates on an operating system other than Windows, see the documentation for that operating system.</source>
+          <target>If you are installing the certificates on an operating system other than Windows, see the documentation for that operating system.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Configuring IPsec to use the certificates</source>
+          <target>Configuring IPsec to use the certificates</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>When the clients and servers have the certificates available, you can configure the IPsec and connection security rules to include those certificates as a valid authentication method.</source>
+          <target>When the clients and servers have the certificates available, you can configure the IPsec and connection security rules to include those certificates as a valid authentication method.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The authentication method requires the subject name of the certificate, for example: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DC=com,DC=woodgrovebank,CN=CorporateCertServer</pc>.</source>
+          <target>The authentication method requires the subject name of the certificate, for example: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DC=com,DC=woodgrovebank,CN=CorporateCertServer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Optionally, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable certificate to account mapping</pc> to support using these credentials for restricting access to users or devices that are members of authorized groups in a server isolation solution.</source>
+          <target>Optionally, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable certificate to account mapping</pc> to support using these credentials for restricting access to users or devices that are members of authorized groups in a server isolation solution.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Starting in Windows Server 2012,you can configure certificate selection criteria so the desired certificate is selected and/or validated.</source>
+          <target>Starting in Windows Server 2012,you can configure certificate selection criteria so the desired certificate is selected and/or validated.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Enhanced Key Usage (EKU) criteria can be configured, as well as name restrictions and certificate thumbprints.</source>
+          <target>Enhanced Key Usage (EKU) criteria can be configured, as well as name restrictions and certificate thumbprints.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This is configured using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced</pc> button when choosing certificates for the authentication method in the user interface, or through Windows PowerShell.</source>
+          <target>This is configured using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced</pc> button when choosing certificates for the authentication method in the user interface, or through Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](documenting-the-zones.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Documenting the Zones</pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next: </pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Documenting the Zones</pc>
+          </target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

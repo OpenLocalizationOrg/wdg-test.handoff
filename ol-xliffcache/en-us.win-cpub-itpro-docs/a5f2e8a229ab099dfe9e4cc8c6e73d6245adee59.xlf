@@ -1,0 +1,1016 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\solutions\creating-app-v-45-databases-using-sql-scripting.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">a5f2e8a229ab099dfe9e4cc8c6e73d6245adee59</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Creating App-V 4.5 Databases Using SQL Scripting</source>
+          <target>Creating App-V 4.5 Databases Using SQL Scripting</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Creating App-V 4.5 Databases Using SQL Scripting</source>
+          <target>Creating App-V 4.5 Databases Using SQL Scripting</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Creating App-V 4.5 Databases Using SQL Scripting</source>
+          <target>Creating App-V 4.5 Databases Using SQL Scripting</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Who is this solution intended for?</source>
+          <target>Who is this solution intended for?</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Information technology professionals who manage Application Virtualization (App-V) 4.5 databases.</source>
+          <target>Information technology professionals who manage Application Virtualization (App-V) 4.5 databases.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>How can this guide help you?</source>
+          <target>How can this guide help you?</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>This solution explains and documents the procedure to install the Microsoft Application Virtualization Server when the administrator installing does not have “sysadmin” privileges to the SQL Server.</source>
+          <target>This solution explains and documents the procedure to install the Microsoft Application Virtualization Server when the administrator installing does not have “sysadmin” privileges to the SQL Server.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Overview</source>
+          <target>Overview</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>One of the challenges of installing Microsoft Application Virtualization 4.5 (App-V) is that the install program assumes that the user installing the server features will not only be a local computer administrator, but also have SQL administrator privileges on the SQL server that will host the Data Store.</source>
+          <target>One of the challenges of installing Microsoft Application Virtualization 4.5 (App-V) is that the install program assumes that the user installing the server features will not only be a local computer administrator, but also have SQL administrator privileges on the SQL server that will host the Data Store.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>This requirement is based on the fact that the database, as well as the appropriate roles and permissions, are created as part of the install.</source>
+          <target>This requirement is based on the fact that the database, as well as the appropriate roles and permissions, are created as part of the install.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>However, in most enterprises, SQL servers are managed separately from the infrastructure team who will be installing App-V.</source>
+          <target>However, in most enterprises, SQL servers are managed separately from the infrastructure team who will be installing App-V.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>These security requirements will make it difficult to get SQL administrators to give the infrastructure administrator installing App-V adequate rights; similarly, the SQL administrators will not have the required privileges to install the product for the infrastructure team.</source>
+          <target>These security requirements will make it difficult to get SQL administrators to give the infrastructure administrator installing App-V adequate rights; similarly, the SQL administrators will not have the required privileges to install the product for the infrastructure team.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Currently, an administrator attempting the installation of App-V must have SQL “sysadmin” privileges.</source>
+          <target>Currently, an administrator attempting the installation of App-V must have SQL “sysadmin” privileges.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>In previous versions of the product the setup allowed for the SQL administrators to either create a temporary “sysadmin” account or be present during installation to provide credentials with “sysadmin” privileges.</source>
+          <target>In previous versions of the product the setup allowed for the SQL administrators to either create a temporary “sysadmin” account or be present during installation to provide credentials with “sysadmin” privileges.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>In this release, scripts are provided in the released product for all administrators to use when implementing their infrastructure.</source>
+          <target>In this release, scripts are provided in the released product for all administrators to use when implementing their infrastructure.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>This whitepaper discusses the scenario in which the install will need to be divided into two separate tasks: creating the SQL database, and installing the App-V server features.</source>
+          <target>This whitepaper discusses the scenario in which the install will need to be divided into two separate tasks: creating the SQL database, and installing the App-V server features.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>The SQL administrators would be able to review the SQL scripts and make modifications to resolve any conflicts with other databases, or to support integration with other tools.</source>
+          <target>The SQL administrators would be able to review the SQL scripts and make modifications to resolve any conflicts with other databases, or to support integration with other tools.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>The result of the scripts is to allow SQL administrators to prepare the database so that the infrastructure administrators do not have to be granted any advanced rights on the SQL server.</source>
+          <target>The result of the scripts is to allow SQL administrators to prepare the database so that the infrastructure administrators do not have to be granted any advanced rights on the SQL server.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>This is important in environments where security policies would prohibit this.</source>
+          <target>This is important in environments where security policies would prohibit this.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>SQL Database Creation Process</source>
+          <target>SQL Database Creation Process</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>The SQL scripts allow for SQL administrators to create the required database and also set up the privileges for the App-V administrators to successfully install and manage the environment.</source>
+          <target>The SQL scripts allow for SQL administrators to create the required database and also set up the privileges for the App-V administrators to successfully install and manage the environment.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>The steps for completing these tasks are listed later in this document.</source>
+          <target>The steps for completing these tasks are listed later in this document.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>This process separates the database creation and configuration actions from the actual App-V installation.</source>
+          <target>This process separates the database creation and configuration actions from the actual App-V installation.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Information to be provided to SQL administrators</source>
+          <target>Information to be provided to SQL administrators</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Name of AD group that is going to be the App-V admin’s</source>
+          <target>Name of AD group that is going to be the App-V admin’s</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Name of the server where App-V Management Server will be installed</source>
+          <target>Name of the server where App-V Management Server will be installed</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Information to be returned to the Infrastructure administrators</source>
+          <target>Information to be returned to the Infrastructure administrators</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Name of the database server or instance and the name of the App-V database</source>
+          <target>Name of the database server or instance and the name of the App-V database</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Once the database has been prepared, the App-V administrators can run the App-V installation without SQL administrator privileges.</source>
+          <target>Once the database has been prepared, the App-V administrators can run the App-V installation without SQL administrator privileges.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Using the SQL Setup Scripts</source>
+          <target>Using the SQL Setup Scripts</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Requirements</source>
+          <target>Requirements</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following is a list of requirements for using the scripts which are located in the support<ph dataRef="id1" id="ph1" />createdb folder at the root of the selected extract location.</source>
+          <target>The following is a list of requirements for using the scripts which are located in the support<ph dataRef="id1" id="ph1" />createdb folder at the root of the selected extract location.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Scripts must be copied to a writeable location on the computer where they will be run (be sure to remove the read only attribute from these scripts after they have been copied) and SQL client tools must be loaded on that computer (osql is only required for running the sample batch files on the local computer).</source>
+          <target>Scripts must be copied to a writeable location on the computer where they will be run (be sure to remove the read only attribute from these scripts after they have been copied) and SQL client tools must be loaded on that computer (osql is only required for running the sample batch files on the local computer).</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>The SQL Server must support Windows Authentication.</source>
+          <target>The SQL Server must support Windows Authentication.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Ensure that the SQL Server Instance and SQL Agent Service are running.</source>
+          <target>Ensure that the SQL Server Instance and SQL Agent Service are running.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Log on with a domain account that is a SQL administrator (sysadmin) on the computer where the scripts will be done.</source>
+          <target>Log on with a domain account that is a SQL administrator (sysadmin) on the computer where the scripts will be done.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>The scripts runs under the logged-on user’s domain credentials.</source>
+          <target>The scripts runs under the logged-on user’s domain credentials.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Database Creation Using SQL Scripts</source>
+          <target>Database Creation Using SQL Scripts</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Tasks to be performed by SQL administrators:</source>
+          <target>Tasks to be performed by SQL administrators:</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Copy the scripts contained in the support<ph dataRef="id1" id="ph1" />createdb folder from the root of the selected extract location to the computer where the scripts will be run.</source>
+          <target>Copy the scripts contained in the support<ph dataRef="id1" id="ph1" />createdb folder from the root of the selected extract location to the computer where the scripts will be run.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>The following files are required for the scripts to run properly and must be called in the order presented below.</source>
+          <target>The following files are required for the scripts to run properly and must be called in the order presented below.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>database.sql</source>
+          <target>database.sql</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>roles.sql</source>
+          <target>roles.sql</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>table<ph dataRef="id1" id="ph1" />CODES.sql</source>
+          <target>table<ph dataRef="id1" id="ph1" />CODES.sql</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>functions<ph dataRef="id1" id="ph1" />before<ph dataRef="id2" id="ph2" />tables.sql</source>
+          <target>functions<ph dataRef="id1" id="ph1" />before<ph dataRef="id2" id="ph2" />tables.sql</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>tables.sql</source>
+          <target>tables.sql</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>functions.sql</source>
+          <target>functions.sql</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>views.sql</source>
+          <target>views.sql</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>procedures.sql</source>
+          <target>procedures.sql</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>triggers.sql</source>
+          <target>triggers.sql</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>data<ph dataRef="id1" id="ph1" />codes.sql</source>
+          <target>data<ph dataRef="id1" id="ph1" />codes.sql</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>data<ph dataRef="id1" id="ph1" />messages.sql</source>
+          <target>data<ph dataRef="id1" id="ph1" />messages.sql</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>data<ph dataRef="id1" id="ph1" />defaults.sql</source>
+          <target>data<ph dataRef="id1" id="ph1" />defaults.sql</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>alerts<ph dataRef="id1" id="ph1" />jobs.sql</source>
+          <target>alerts<ph dataRef="id1" id="ph1" />jobs.sql</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>dbversion.sql</source>
+          <target>dbversion.sql</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">`database.sql`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Review and modify, if necessary, the <ph dataRef="id1" id="ph1" /> file.</source>
+          <target>Review and modify, if necessary, the <ph dataRef="id1" id="ph1" /> file.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>The default settings will name the database “APPVIRTDB.”</source>
+          <target>The default settings will name the database “APPVIRTDB.”</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">`APPVIRTDB`</data>
+          <data id="id2">`database name`</data>
+        </originalData>
+        <segment state="initial">
+          <source>If necessary replace instances of <ph dataRef="id1" id="ph1" /> with the <ph dataRef="id2" id="ph2" /> that will be used.</source>
+          <target>If necessary replace instances of <ph dataRef="id1" id="ph1" /> with the <ph dataRef="id2" id="ph2" /> that will be used.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">`FILENAME`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Modify the <ph dataRef="id1" id="ph1" /> property in the script with the appropriate path for the SQL Server where the database will be created.</source>
+          <target>Modify the <ph dataRef="id1" id="ph1" /> property in the script with the appropriate path for the SQL Server where the database will be created.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">`database name [APPVIRTDB]`</data>
+          <data id="id2">`roles.sql`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Review and modify, if necessary, the <ph dataRef="id1" id="ph1" /> in the <ph dataRef="id2" id="ph2" /> file that was used in the database.sql file.</source>
+          <target>Review and modify, if necessary, the <ph dataRef="id1" id="ph1" /> in the <ph dataRef="id2" id="ph2" /> file that was used in the database.sql file.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Example of how to automate the process using batch files</source>
+          <target>Example of how to automate the process using batch files</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>If used, the two sample batch files provided run the SQL scripts in the following manner:</source>
+          <target>If used, the two sample batch files provided run the SQL scripts in the following manner:</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Create<ph dataRef="id1" id="ph1" />schema.bat (1)</source>
+          <target>Create<ph dataRef="id1" id="ph1" />schema.bat (1)</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>database.sql</source>
+          <target>database.sql</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>roles.sql</source>
+          <target>roles.sql</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Create<ph dataRef="id1" id="ph1" />tables.bat (2)</source>
+          <target>Create<ph dataRef="id1" id="ph1" />tables.bat (2)</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>table<ph dataRef="id1" id="ph1" />CODES.sql</source>
+          <target>table<ph dataRef="id1" id="ph1" />CODES.sql</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>functions<ph dataRef="id1" id="ph1" />before<ph dataRef="id2" id="ph2" />tables.sql</source>
+          <target>functions<ph dataRef="id1" id="ph1" />before<ph dataRef="id2" id="ph2" />tables.sql</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>tables.sql</source>
+          <target>tables.sql</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>functions.sql</source>
+          <target>functions.sql</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>views.sql</source>
+          <target>views.sql</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>procedures.sql</source>
+          <target>procedures.sql</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>triggers.sql</source>
+          <target>triggers.sql</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>data<ph dataRef="id1" id="ph1" />codes.sql</source>
+          <target>data<ph dataRef="id1" id="ph1" />codes.sql</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>data<ph dataRef="id1" id="ph1" />messages.sql</source>
+          <target>data<ph dataRef="id1" id="ph1" />messages.sql</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>data<ph dataRef="id1" id="ph1" />defaults.sql</source>
+          <target>data<ph dataRef="id1" id="ph1" />defaults.sql</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>alerts<ph dataRef="id1" id="ph1" />jobs.sql</source>
+          <target>alerts<ph dataRef="id1" id="ph1" />jobs.sql</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>dbversion.sql</source>
+          <target>dbversion.sql</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Careful consideration when modifying the scripts must be taken and should only be done by someone with the appropriate knowledge.</source>
+          <target>Careful consideration when modifying the scripts must be taken and should only be done by someone with the appropriate knowledge.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">\_</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Also, of the sample files presented only the following should be changed: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">create<ph dataRef="id3" id="ph1" />schema.bat</pc>, <pc dataRefEnd="id5" dataRefStart="id4" id="p2">create<ph dataRef="id6" id="ph2" />tables.bat</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p3">database.sql</pc>, and <pc dataRefEnd="id10" dataRefStart="id9" id="p4">roles.sql</pc>.</source>
+          <target>Also, of the sample files presented only the following should be changed: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">create<ph dataRef="id3" id="ph1" />schema.bat</pc>, <pc dataRefEnd="id5" dataRefStart="id4" id="p2">create<ph dataRef="id6" id="ph2" />tables.bat</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p3">database.sql</pc>, and <pc dataRefEnd="id10" dataRefStart="id9" id="p4">roles.sql</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>All other files should not be modified in any way as this could cause the database to be created incorrectly, which will lead to the failure of App-V services to be installed.</source>
+          <target>All other files should not be modified in any way as this could cause the database to be created incorrectly, which will lead to the failure of App-V services to be installed.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>The two sample batch files must be placed in the same directory where the rest of the SQL scripts were copied to on the computer.</source>
+          <target>The two sample batch files must be placed in the same directory where the rest of the SQL scripts were copied to on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Run the sample <pc dataRefEnd="id2" dataRefStart="id1" id="p1">create<ph dataRef="id3" id="ph1" />schema.bat</pc> file to create the database.</source>
+          <target>Run the sample <pc dataRefEnd="id2" dataRefStart="id1" id="p1">create<ph dataRef="id3" id="ph1" />schema.bat</pc> file to create the database.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>This script will take several seconds to complete and should not be interrupted.</source>
+          <target>This script will take several seconds to complete and should not be interrupted.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Run the create schema.bat file from the directory where it was copied to.</source>
+          <target>Run the create schema.bat file from the directory where it was copied to.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">`SQLSERVERNAME`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Syntax is: “Create<ph dataRef="id1" id="ph1" />schema.bat <ph dataRef="id2" id="ph2" />”</source>
+          <target>Syntax is: “Create<ph dataRef="id1" id="ph1" />schema.bat <ph dataRef="id2" id="ph2" />”</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>AppV46SQLcreatebat</source>
+          <target>AppV46SQLcreatebat</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>If this script fails during the creation of the new “APPVIRTDB” database, check the log as indicated to correct the issue.</source>
+          <target>If this script fails during the creation of the new “APPVIRTDB” database, check the log as indicated to correct the issue.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>It will be necessary to delete the database that was created with a partial running of the scripts in order to ensure that subsequent attempts will work properly.</source>
+          <target>It will be necessary to delete the database that was created with a partial running of the scripts in order to ensure that subsequent attempts will work properly.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <originalData>
+          <data id="id1">`create_tables.bat`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Run the <ph dataRef="id1" id="ph1" /> file to create the tables in the database.</source>
+          <target>Run the <ph dataRef="id1" id="ph1" /> file to create the tables in the database.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>This script will take several seconds to complete and should not be interrupted.</source>
+          <target>This script will take several seconds to complete and should not be interrupted.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Run the create<ph dataRef="id1" id="ph1" />tables.bat file from the directory where it was copied.</source>
+          <target>Run the create<ph dataRef="id1" id="ph1" />tables.bat file from the directory where it was copied.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">`SQLSERVERNAME DBNAME`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Syntax is: “create<ph dataRef="id1" id="ph1" />tables.bat <ph dataRef="id2" id="ph2" />”</source>
+          <target>Syntax is: “create<ph dataRef="id1" id="ph1" />tables.bat <ph dataRef="id2" id="ph2" />”</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">\-</data>
+        </originalData>
+        <segment state="initial">
+          <source>app-v 4.6 sql create<ph dataRef="id1" id="ph1" />table.bat</source>
+          <target>app-v 4.6 sql create<ph dataRef="id1" id="ph1" />table.bat</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>If the script fails during the creation of the tables, check the log as indicated to correct the issue.</source>
+          <target>If the script fails during the creation of the tables, check the log as indicated to correct the issue.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>It will be necessary to delete the database and run create<ph dataRef="id1" id="ph1" />schema.bat before attempting to run the create<ph dataRef="id2" id="ph2" />tables.bat file on all subsequent attempts.</source>
+          <target>It will be necessary to delete the database and run create<ph dataRef="id1" id="ph1" />schema.bat before attempting to run the create<ph dataRef="id2" id="ph2" />tables.bat file on all subsequent attempts.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>Setting permissions on the App-V database</source>
+          <target>Setting permissions on the App-V database</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>The following accounts will need to be created on the SQL server with specific permissions and roles to the new database for the installation, deployment and ongoing administration of the App-V environment.</source>
+          <target>The following accounts will need to be created on the SQL server with specific permissions and roles to the new database for the installation, deployment and ongoing administration of the App-V environment.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Create a login for the App-V administrators group on the SQL Server and the APPVIRTDB database for the “domain<ph dataRef="id1" id="ph1" />App-V Admins” (where “domain” and “App-V Admins” will be changed to reflect your own environment) and add them to the SFTAdmin and SFTEveryone database role.</source>
+          <target>Create a login for the App-V administrators group on the SQL Server and the APPVIRTDB database for the “domain<ph dataRef="id1" id="ph1" />App-V Admins” (where “domain” and “App-V Admins” will be changed to reflect your own environment) and add them to the SFTAdmin and SFTEveryone database role.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>app-v 4.6 sql script set permissions and roles</source>
+          <target>app-v 4.6 sql script set permissions and roles</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Grant this group “VIEW ANY DEFINITION” permission at the global level (This allows the Microsoft Application Virtualization Management Server setup process to verify that the Management Server login already exists).</source>
+          <target>Grant this group “VIEW ANY DEFINITION” permission at the global level (This allows the Microsoft Application Virtualization Management Server setup process to verify that the Management Server login already exists).</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Under MS-SQL 2005 and above access restrictions to the metadata contained in master.db were added.</source>
+          <target>Under MS-SQL 2005 and above access restrictions to the metadata contained in master.db were added.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>The user created in the previous step will by default not have the rights needed by the server installation.</source>
+          <target>The user created in the previous step will by default not have the rights needed by the server installation.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <originalData>
+          <data id="id1">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the properties of the previously created login, Login Properties-<ph dataRef="id1" id="ph1" />Securables.</source>
+          <target>Open the properties of the previously created login, Login Properties-<ph dataRef="id1" id="ph1" />Securables.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Add the Database instance and enable “GRANT” for “View any definition” as shown in the screenshot below.</source>
+          <target>Add the Database instance and enable “GRANT” for “View any definition” as shown in the screenshot below.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>app-v 4.6 sql script grant perm for view any def</source>
+          <target>app-v 4.6 sql script grant perm for view any def</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add a role to the ROLE<ph dataRef="id1" id="ph1" />ASSIGNMENTS table for the login created in the previous step to allow App-V administrators access to the Application Virtualization Management Console, with role = “ADMIN” and group<ph dataRef="id2" id="ph2" />ref = “domain<ph dataRef="id3" id="ph3" />App-V Admins” (where “domain” and “App-V Admins” will be changed to reflect your own environment).</source>
+          <target>Add a role to the ROLE<ph dataRef="id1" id="ph1" />ASSIGNMENTS table for the login created in the previous step to allow App-V administrators access to the Application Virtualization Management Console, with role = “ADMIN” and group<ph dataRef="id2" id="ph2" />ref = “domain<ph dataRef="id3" id="ph3" />App-V Admins” (where “domain” and “App-V Admins” will be changed to reflect your own environment).</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>app-v 4.6 sql script role assignment</source>
+          <target>app-v 4.6 sql script role assignment</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Create login for SQL Server and App-V database for the Management Server.</source>
+          <target>Create login for SQL Server and App-V database for the Management Server.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>This account is used by the Microsoft Application Virtualization Management Server to connect to the data store and is responsible for servicing client requests for streamed applications.</source>
+          <target>This account is used by the Microsoft Application Virtualization Management Server to connect to the data store and is responsible for servicing client requests for streamed applications.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>There are two options, depending on where the SQL Server and Management Server are to be installed:</source>
+          <target>There are two options, depending on where the SQL Server and Management Server are to be installed:</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>If Management Server and SQL Server are going to be installed on the same computer, add a login for NT AUTHORITY<ph dataRef="id1" id="ph1" />NETWORK SERVICE and add it to the SFTUser and SFTEveryone database roles.</source>
+          <target>If Management Server and SQL Server are going to be installed on the same computer, add a login for NT AUTHORITY<ph dataRef="id1" id="ph1" />NETWORK SERVICE and add it to the SFTUser and SFTEveryone database roles.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the Management Server and SQL Server are to be installed on different computers, add a login for “domain<ph dataRef="id1" id="ph1" />App-V Server Name$” (where “App-V Server Name” is the name of the server where the App-V Management Server will be installed) and add it to the SFTUser and SFTEveryone database roles.</source>
+          <target>If the Management Server and SQL Server are to be installed on different computers, add a login for “domain<ph dataRef="id1" id="ph1" />App-V Server Name$” (where “App-V Server Name” is the name of the server where the App-V Management Server will be installed) and add it to the SFTUser and SFTEveryone database roles.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Open the query window on the SQL window and run the following SQL:</source>
+          <target>Open the query window on the SQL window and run the following SQL:</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Where the APPVIRTDB is the name of the App-V Database created on the SQL Server in the previous step, and the user who is going to do the install of the App-v server needs to be a member of “domain<ph dataRef="id1" id="ph1" />App-V Admins” (where “domain” and “App-V Admins” will be changed to reflect your own environment).</source>
+          <target>Where the APPVIRTDB is the name of the App-V Database created on the SQL Server in the previous step, and the user who is going to do the install of the App-v server needs to be a member of “domain<ph dataRef="id1" id="ph1" />App-V Admins” (where “domain” and “App-V Admins” will be changed to reflect your own environment).</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Tasks to be performed by the Infrastructure administrators</source>
+          <target>Tasks to be performed by the Infrastructure administrators</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Administrator in the “App-V Admins” group should install App-V.</source>
+          <target>Administrator in the “App-V Admins” group should install App-V.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Use information from the SQL administrators for selecting the SQL Server and database created in the previous steps.</source>
+          <target>Use information from the SQL administrators for selecting the SQL Server and database created in the previous steps.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Administrator in the “App-V Admins” group logs in to Application Virtualization Management Console and deletes the following objects from the Management Console.</source>
+          <target>Administrator in the “App-V Admins” group logs in to Application Virtualization Management Console and deletes the following objects from the Management Console.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Warning</source>
+          <target>Warning</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>This is required as the traditional setup populates certain records in the database that are not populated if you run the install against an already existing database.</source>
+          <target>This is required as the traditional setup populates certain records in the database that are not populated if you run the install against an already existing database.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Delete the following objects:</source>
+          <target>Delete the following objects:</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Under “Server Groups,” “Default Server Group,” delete “Application Virtualization Management Server”</source>
+          <target>Under “Server Groups,” “Default Server Group,” delete “Application Virtualization Management Server”</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Under “Server Groups,” delete “Default Server Group”</source>
+          <target>Under “Server Groups,” delete “Default Server Group”</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Under “Provider Policies,” delete “Default Provider”</source>
+          <target>Under “Provider Policies,” delete “Default Provider”</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Administrator in the App-V admins group should then create:</source>
+          <target>Administrator in the App-V admins group should then create:</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Under “Provider Policies,” create a New Provider Policy</source>
+          <target>Under “Provider Policies,” create a New Provider Policy</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Create a “Default Server Group”</source>
+          <target>Create a “Default Server Group”</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>You must create a “Default Server” group even if you will not be used.</source>
+          <target>You must create a “Default Server” group even if you will not be used.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>The server installer only looks for the "Default Server Group" when trying to add the server.</source>
+          <target>The server installer only looks for the "Default Server Group" when trying to add the server.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>If there is no "Default Server Group" then the installation will fail.</source>
+          <target>If there is no "Default Server Group" then the installation will fail.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>If you plan on using server groups other than the default that is fine, it’s just necessary to retain the "Default Server Group" if you plan on adding subsequent App-V Management Servers to your infrastructure.</source>
+          <target>If you plan on using server groups other than the default that is fine, it’s just necessary to retain the "Default Server Group" if you plan on adding subsequent App-V Management Servers to your infrastructure.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Assign the App-V Users Group to the New Provider Policy created above</source>
+          <target>Assign the App-V Users Group to the New Provider Policy created above</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Under “Server Groups,” create a New Server Group, specifying the New Provider Policy</source>
+          <target>Under “Server Groups,” create a New Server Group, specifying the New Provider Policy</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Under the New Server group, create a New Application Virtualization Management Server</source>
+          <target>Under the New Server group, create a New Application Virtualization Management Server</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Do not restart the service before completing all of the above steps!</source>
+          <target>Do not restart the service before completing all of the above steps!</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Administrator restarts the Application Virtualization Management Server service.</source>
+          <target>Administrator restarts the Application Virtualization Management Server service.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>Conclusion</source>
+          <target>Conclusion</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>In conclusion, the information in this document allows an administrator to work with the SQL administrators to develop a deployment path that works for the security and administrative divisions in an organization.</source>
+          <target>In conclusion, the information in this document allows an administrator to work with the SQL administrators to develop a deployment path that works for the security and administrative divisions in an organization.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>After reading this document and testing the tasks documented, an administrator should be ready to implement their App-V infrastructure in this type of environment.</source>
+          <target>After reading this document and testing the tasks documented, an administrator should be ready to implement their App-V infrastructure in this type of environment.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

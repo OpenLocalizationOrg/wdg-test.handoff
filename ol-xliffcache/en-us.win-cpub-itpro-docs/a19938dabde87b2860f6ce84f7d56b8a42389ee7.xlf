@@ -1,0 +1,1905 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\mbam-v25\how-to-enable-bitlocker-by-using-mbam-as-part-of-a-windows-deploymentmbam-25.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">a19938dabde87b2860f6ce84f7d56b8a42389ee7</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>How to Enable BitLocker by Using MBAM as Part of a Windows Deployment</source>
+          <target>How to Enable BitLocker by Using MBAM as Part of a Windows Deployment</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>How to Enable BitLocker by Using MBAM as Part of a Windows Deployment</source>
+          <target>How to Enable BitLocker by Using MBAM as Part of a Windows Deployment</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>How to Enable BitLocker by Using MBAM as Part of a Windows Deployment</source>
+          <target>How to Enable BitLocker by Using MBAM as Part of a Windows Deployment</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This topic explains how to enable BitLocker on an end user's computer by using MBAM as part of your Windows imaging and deployment process.</source>
+          <target>This topic explains how to enable BitLocker on an end user's computer by using MBAM as part of your Windows imaging and deployment process.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Prerequisites:</source>
+          <target>Prerequisites:</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>An existing Windows image deployment process – Microsoft Deployment Toolkit (MDT), Microsoft System Center Configuration Manager, or some other imaging tool or process – must be in place</source>
+          <target>An existing Windows image deployment process – Microsoft Deployment Toolkit (MDT), Microsoft System Center Configuration Manager, or some other imaging tool or process – must be in place</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>TPM must be enabled in the BIOS and visible to the OS</source>
+          <target>TPM must be enabled in the BIOS and visible to the OS</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>MBAM server infrastructure must be in place and accessible</source>
+          <target>MBAM server infrastructure must be in place and accessible</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The system partition required by BitLocker must be created</source>
+          <target>The system partition required by BitLocker must be created</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>The machine must be domain joined during imaging before MBAM fully enables BitLocker</source>
+          <target>The machine must be domain joined during imaging before MBAM fully enables BitLocker</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>To enable BitLocker using MBAM 2.5 SP1 as part of a Windows deployment</source>
+          <target>To enable BitLocker using MBAM 2.5 SP1 as part of a Windows deployment</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">`Invoke-MbamClientDeployment.ps1`</data>
+        </originalData>
+        <segment state="initial">
+          <source>In MBAM 2.5 SP1, the recommended approach to enable BitLocker during a Windows Deployment is by using the <ph dataRef="id1" id="ph1" /> PowerShell script.</source>
+          <target>In MBAM 2.5 SP1, the recommended approach to enable BitLocker during a Windows Deployment is by using the <ph dataRef="id1" id="ph1" /> PowerShell script.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">`Invoke-MbamClientDeployment.ps1`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> script enacts BitLocker during the imaging process.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> script enacts BitLocker during the imaging process.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>When required by BitLocker policy, the MBAM agent immediately prompts the domain user to create a PIN or password when the domain user first logs on after imaging.</source>
+          <target>When required by BitLocker policy, the MBAM agent immediately prompts the domain user to create a PIN or password when the domain user first logs on after imaging.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Easy to use with MDT, System Center Configuration Manager, or standalone imaging processes</source>
+          <target>Easy to use with MDT, System Center Configuration Manager, or standalone imaging processes</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Compatible with PowerShell 2.0 or higher</source>
+          <target>Compatible with PowerShell 2.0 or higher</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Encrypt OS volume with TPM key protector</source>
+          <target>Encrypt OS volume with TPM key protector</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Fully support BitLocker pre-provisioning</source>
+          <target>Fully support BitLocker pre-provisioning</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Optionally encrypt FDDs</source>
+          <target>Optionally encrypt FDDs</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Escrow TPM OwnerAuth, even on Windows 8 or higher (MBAM still must own the TPM on Windows 7 for escrow to occur)</source>
+          <target>Escrow TPM OwnerAuth, even on Windows 8 or higher (MBAM still must own the TPM on Windows 7 for escrow to occur)</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Escrow recovery keys and recovery key packages</source>
+          <target>Escrow recovery keys and recovery key packages</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Report encryption status immediately</source>
+          <target>Report encryption status immediately</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>New WMI providers</source>
+          <target>New WMI providers</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Detailed logging</source>
+          <target>Detailed logging</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Robust error handling</source>
+          <target>Robust error handling</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">`Invoke-MbamClientDeployment.ps1`</data>
+          <data id="id2">[</data>
+          <data id="id3">](https://www.microsoft.com/download/details.aspx?id=48698)</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can download the <ph dataRef="id1" id="ph1" /> script from <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Microsoft.com Download Center</pc>.</source>
+          <target>You can download the <ph dataRef="id1" id="ph1" /> script from <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Microsoft.com Download Center</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>This is the main script that your deployment system will call to configure BitLocker drive encryption and record recovery keys with the MBAM Server.</source>
+          <target>This is the main script that your deployment system will call to configure BitLocker drive encryption and record recovery keys with the MBAM Server.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">`Invoke-MbamClientDeployment.ps1`</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WMI deployment methods for MBAM:</pc> The following WMI methods have been added in MBAM 2.5 SP1 to support enabling BitLocker by using the <ph dataRef="id3" id="ph1" /> PowerShell script.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WMI deployment methods for MBAM:</pc> The following WMI methods have been added in MBAM 2.5 SP1 to support enabling BitLocker by using the <ph dataRef="id3" id="ph1" /> PowerShell script.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>MBAM<ph dataRef="id1" id="ph1" />Machine WMI Class</source>
+          <target>MBAM<ph dataRef="id1" id="ph1" />Machine WMI Class</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PrepareTpmAndEscrowOwnerAuth:</pc> Reads the TPM OwnerAuth and sends it to the MBAM recovery database by using the MBAM recovery service.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PrepareTpmAndEscrowOwnerAuth:</pc> Reads the TPM OwnerAuth and sends it to the MBAM recovery database by using the MBAM recovery service.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>If the TPM is not owned and auto-provisioning is not on, it generates a TPM OwnerAuth and takes ownership.</source>
+          <target>If the TPM is not owned and auto-provisioning is not on, it generates a TPM OwnerAuth and takes ownership.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>If it fails, an error code is returned for troubleshooting.</source>
+          <target>If it fails, an error code is returned for troubleshooting.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Parameter</source>
+          <target>Parameter</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>RecoveryServiceEndPoint</source>
+          <target>RecoveryServiceEndPoint</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>A string specifying the MBAM recovery service endpoint.</source>
+          <target>A string specifying the MBAM recovery service endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Here are a list of common error messages:</source>
+          <target>Here are a list of common error messages:</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Common return values</source>
+          <target>Common return values</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Error message</source>
+          <target>Error message</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>S_OK</source>
+          <target>S_OK</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>0 (0x0)</source>
+          <target>0 (0x0)</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>The method was successful.</source>
+          <target>The method was successful.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>MBAM_E_TPM_NOT_PRESENT</source>
+          <target>MBAM_E_TPM_NOT_PRESENT</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>2147746304 (0x80040200)</source>
+          <target>2147746304 (0x80040200)</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>TPM is not present in the computer or is disabled in the BIOS configuration.</source>
+          <target>TPM is not present in the computer or is disabled in the BIOS configuration.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>MBAM_E_TPM_INCORRECT_STATE</source>
+          <target>MBAM_E_TPM_INCORRECT_STATE</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>2147746305 (0x80040201)</source>
+          <target>2147746305 (0x80040201)</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>TPM is not in the correct state (enabled, activated and owner installation allowed).</source>
+          <target>TPM is not in the correct state (enabled, activated and owner installation allowed).</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>MBAM_E_TPM_AUTO_PROVISIONING_PENDING</source>
+          <target>MBAM_E_TPM_AUTO_PROVISIONING_PENDING</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>2147746306 (0x80040202)</source>
+          <target>2147746306 (0x80040202)</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>MBAM cannot take ownership of TPM because auto-provisioning is pending.</source>
+          <target>MBAM cannot take ownership of TPM because auto-provisioning is pending.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Try again after auto-provisioning is completed.</source>
+          <target>Try again after auto-provisioning is completed.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>MBAM_E_TPM_OWNERAUTH_READFAIL</source>
+          <target>MBAM_E_TPM_OWNERAUTH_READFAIL</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>2147746307 (0x80040203)</source>
+          <target>2147746307 (0x80040203)</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>MBAM cannot read the TPM owner authorization value.</source>
+          <target>MBAM cannot read the TPM owner authorization value.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>The value might have been removed after a successful escrow.</source>
+          <target>The value might have been removed after a successful escrow.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>On Windows 7, MBAM cannot read the value if the TPM is owned by others.</source>
+          <target>On Windows 7, MBAM cannot read the value if the TPM is owned by others.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>MBAM_E_REBOOT_REQUIRED</source>
+          <target>MBAM_E_REBOOT_REQUIRED</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>2147746308 (0x80040204)</source>
+          <target>2147746308 (0x80040204)</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>The computer must be restarted to set TPM to the correct state.</source>
+          <target>The computer must be restarted to set TPM to the correct state.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>You might need to manually reboot the computer.</source>
+          <target>You might need to manually reboot the computer.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>MBAM_E_SHUTDOWN_REQUIRED</source>
+          <target>MBAM_E_SHUTDOWN_REQUIRED</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>2147746309 (0x80040205)</source>
+          <target>2147746309 (0x80040205)</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>The computer must be shut down and turned back on to set TPM to the correct state.</source>
+          <target>The computer must be shut down and turned back on to set TPM to the correct state.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>You might need to manually reboot the computer.</source>
+          <target>You might need to manually reboot the computer.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>WS_E_ENDPOINT_ACCESS_DENIED</source>
+          <target>WS_E_ENDPOINT_ACCESS_DENIED</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>2151481349 (0x803D0005)</source>
+          <target>2151481349 (0x803D0005)</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Access was denied by the remote endpoint.</source>
+          <target>Access was denied by the remote endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>WS_E_ENDPOINT_NOT_FOUND</source>
+          <target>WS_E_ENDPOINT_NOT_FOUND</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>2151481357 (0x803D000D)</source>
+          <target>2151481357 (0x803D000D)</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>The remote endpoint does not exist or could not be located.</source>
+          <target>The remote endpoint does not exist or could not be located.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>**WS_E_ENDPOINT_FAILURE</source>
+          <target>**WS_E_ENDPOINT_FAILURE</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>2151481357 (0x803D000F)</source>
+          <target>2151481357 (0x803D000F)</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>The remote endpoint could not process the request.</source>
+          <target>The remote endpoint could not process the request.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>WS_E_ENDPOINT_UNREACHABLE</source>
+          <target>WS_E_ENDPOINT_UNREACHABLE</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>2151481360 (0x803D0010)</source>
+          <target>2151481360 (0x803D0010)</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>The remote endpoint was not reachable.</source>
+          <target>The remote endpoint was not reachable.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>WS_E_ENDPOINT_FAULT_RECEIVED</source>
+          <target>WS_E_ENDPOINT_FAULT_RECEIVED</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>2151481363 (0x803D0013)</source>
+          <target>2151481363 (0x803D0013)</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>A message containing a fault was received from the remote endpoint.</source>
+          <target>A message containing a fault was received from the remote endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Make sure you are connecting to the correct service endpoint.</source>
+          <target>Make sure you are connecting to the correct service endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WS_E_INVALID_ENDPOINT_URL</pc> 2151481376 (0x803D0020)</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WS_E_INVALID_ENDPOINT_URL</pc> 2151481376 (0x803D0020)</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>The endpoint address URL is not valid.</source>
+          <target>The endpoint address URL is not valid.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>The URL must start with “http” or “https”.</source>
+          <target>The URL must start with “http” or “https”.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ReportStatus:</pc> Reads the compliance status of the volume and sends it to the MBAM compliance status database by using the MBAM status reporting service.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ReportStatus:</pc> Reads the compliance status of the volume and sends it to the MBAM compliance status database by using the MBAM status reporting service.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>The status includes cipher strength, protector type, protector state and encryption state.</source>
+          <target>The status includes cipher strength, protector type, protector state and encryption state.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>If it fails, an error code is returned for troubleshooting.</source>
+          <target>If it fails, an error code is returned for troubleshooting.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Parameter</source>
+          <target>Parameter</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>ReportingServiceEndPoint</source>
+          <target>ReportingServiceEndPoint</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>A string specifying the MBAM status reporting service endpoint.</source>
+          <target>A string specifying the MBAM status reporting service endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Here are a list of common error messages:</source>
+          <target>Here are a list of common error messages:</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Common return values</source>
+          <target>Common return values</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Error message</source>
+          <target>Error message</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>S_OK</source>
+          <target>S_OK</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>0 (0x0)</source>
+          <target>0 (0x0)</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>The method was successful</source>
+          <target>The method was successful</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>WS_E_ENDPOINT_ACCESS_DENIED</source>
+          <target>WS_E_ENDPOINT_ACCESS_DENIED</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>2151481349 (0x803D0005)</source>
+          <target>2151481349 (0x803D0005)</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Access was denied by the remote endpoint.</source>
+          <target>Access was denied by the remote endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>WS_E_ENDPOINT_NOT_FOUND</source>
+          <target>WS_E_ENDPOINT_NOT_FOUND</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>2151481357 (0x803D000D)</source>
+          <target>2151481357 (0x803D000D)</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>The remote endpoint does not exist or could not be located.</source>
+          <target>The remote endpoint does not exist or could not be located.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>WS_E_ENDPOINT_FAILURE</source>
+          <target>WS_E_ENDPOINT_FAILURE</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>2151481357 (0x803D000F)</source>
+          <target>2151481357 (0x803D000F)</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>The remote endpoint could not process the request.</source>
+          <target>The remote endpoint could not process the request.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>WS_E_ENDPOINT_UNREACHABLE</source>
+          <target>WS_E_ENDPOINT_UNREACHABLE</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>2151481360 (0x803D0010)</source>
+          <target>2151481360 (0x803D0010)</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>The remote endpoint was not reachable.</source>
+          <target>The remote endpoint was not reachable.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>WS_E_ENDPOINT_FAULT_RECEIVED</source>
+          <target>WS_E_ENDPOINT_FAULT_RECEIVED</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>2151481363 (0x803D0013)</source>
+          <target>2151481363 (0x803D0013)</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>A message containing a fault was received from the remote endpoint.</source>
+          <target>A message containing a fault was received from the remote endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Make sure you are connecting to the correct service endpoint.</source>
+          <target>Make sure you are connecting to the correct service endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>WS_E_INVALID_ENDPOINT_URL</source>
+          <target>WS_E_INVALID_ENDPOINT_URL</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>2151481376 (0x803D0020)</source>
+          <target>2151481376 (0x803D0020)</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>The endpoint address URL is not valid.</source>
+          <target>The endpoint address URL is not valid.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>The URL must start with “http” or “https”.</source>
+          <target>The URL must start with “http” or “https”.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>MBAM<ph dataRef="id1" id="ph1" />Volume WMI Class</source>
+          <target>MBAM<ph dataRef="id1" id="ph1" />Volume WMI Class</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <originalData>
+          <data id="id1">   **</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EscrowRecoveryKey:</pc> Reads the recovery numerical password and key package of the volume and sends them to the MBAM recovery database by using the MBAM recovery service.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EscrowRecoveryKey:</pc> Reads the recovery numerical password and key package of the volume and sends them to the MBAM recovery database by using the MBAM recovery service.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>If it fails, an error code is returned for troubleshooting.</source>
+          <target>If it fails, an error code is returned for troubleshooting.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Parameter</source>
+          <target>Parameter</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>RecoveryServiceEndPoint</source>
+          <target>RecoveryServiceEndPoint</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>A string specifying the MBAM recovery service endpoint.</source>
+          <target>A string specifying the MBAM recovery service endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Here are a list of common error messages:</source>
+          <target>Here are a list of common error messages:</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Common return values</source>
+          <target>Common return values</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Error message</source>
+          <target>Error message</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>S_OK</source>
+          <target>S_OK</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>0 (0x0)</source>
+          <target>0 (0x0)</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>The method was successful</source>
+          <target>The method was successful</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>FVE_E_LOCKED_VOLUME</source>
+          <target>FVE_E_LOCKED_VOLUME</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>2150694912 (0x80310000)</source>
+          <target>2150694912 (0x80310000)</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>The volume is locked.</source>
+          <target>The volume is locked.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>FVE_E_PROTECTOR_NOT_FOUND</source>
+          <target>FVE_E_PROTECTOR_NOT_FOUND</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>2150694963 (0x80310033)</source>
+          <target>2150694963 (0x80310033)</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>A Numerical Password protector was not found for the volume.</source>
+          <target>A Numerical Password protector was not found for the volume.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>WS_E_ENDPOINT_ACCESS_DENIED</source>
+          <target>WS_E_ENDPOINT_ACCESS_DENIED</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>2151481349 (0x803D0005)</source>
+          <target>2151481349 (0x803D0005)</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Access was denied by the remote endpoint.</source>
+          <target>Access was denied by the remote endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>WS_E_ENDPOINT_NOT_FOUND</source>
+          <target>WS_E_ENDPOINT_NOT_FOUND</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>2151481357 (0x803D000D)</source>
+          <target>2151481357 (0x803D000D)</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>The remote endpoint does not exist or could not be located.</source>
+          <target>The remote endpoint does not exist or could not be located.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>WS_E_ENDPOINT_FAILURE</source>
+          <target>WS_E_ENDPOINT_FAILURE</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>2151481357 (0x803D000F)</source>
+          <target>2151481357 (0x803D000F)</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>The remote endpoint could not process the request.</source>
+          <target>The remote endpoint could not process the request.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>WS_E_ENDPOINT_UNREACHABLE</source>
+          <target>WS_E_ENDPOINT_UNREACHABLE</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>2151481360 (0x803D0010)</source>
+          <target>2151481360 (0x803D0010)</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>The remote endpoint was not reachable.</source>
+          <target>The remote endpoint was not reachable.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>WS_E_ENDPOINT_FAULT_RECEIVED</source>
+          <target>WS_E_ENDPOINT_FAULT_RECEIVED</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>2151481363 (0x803D0013)</source>
+          <target>2151481363 (0x803D0013)</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>A message containing a fault was received from the remote endpoint.</source>
+          <target>A message containing a fault was received from the remote endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Make sure you are connecting to the correct service endpoint.</source>
+          <target>Make sure you are connecting to the correct service endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>WS_E_INVALID_ENDPOINT_URL</source>
+          <target>WS_E_INVALID_ENDPOINT_URL</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>2151481376 (0x803D0020)</source>
+          <target>2151481376 (0x803D0020)</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>The endpoint address URL is not valid.</source>
+          <target>The endpoint address URL is not valid.</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>The URL must start with “http” or “https”.</source>
+          <target>The URL must start with “http” or “https”.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>Deploy MBAM by using Microsoft Deployment Toolkit (MDT) and PowerShell</source>
+          <target>Deploy MBAM by using Microsoft Deployment Toolkit (MDT) and PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>In MDT, create a new deployment share or open an existing deployment share.</source>
+          <target>In MDT, create a new deployment share or open an existing deployment share.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <originalData>
+          <data id="id1">`Invoke-MbamClientDeployment.ps1`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> PowerShell script can be used with any imaging process or tool.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> PowerShell script can be used with any imaging process or tool.</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>This section shows how to integrate it by using MDT, but the steps are similar to integrating it with any other process or tool.</source>
+          <target>This section shows how to integrate it by using MDT, but the steps are similar to integrating it with any other process or tool.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>Caution</source>
+          <target>Caution</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <originalData>
+          <data id="id1">`SaveWinPETpmOwnerAuth.wsf`</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you are using BitLocker pre-provisioning (WinPE) and want to maintain the TPM owner authorization value, you must add the <ph dataRef="id1" id="ph1" /> script in WinPE immediately before the installation reboots into the full operating system.</source>
+          <target>If you are using BitLocker pre-provisioning (WinPE) and want to maintain the TPM owner authorization value, you must add the <ph dataRef="id1" id="ph1" /> script in WinPE immediately before the installation reboots into the full operating system.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>If you do not use this script, you will lose the TPM owner authorization value on reboot.</source>
+          <target>If you do not use this script, you will lose the TPM owner authorization value on reboot.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <originalData>
+          <data id="id1">`Invoke-MbamClientDeployment.ps1`</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">&amp;lt;</data>
+          <data id="id5">&amp;gt;\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Copy <ph dataRef="id1" id="ph1" /> to <pc dataRefEnd="id3" dataRefStart="id2" id="p1"><ph dataRef="id4" id="ph2" />DeploymentShare<ph dataRef="id5" id="ph3" />Scripts</pc>.</source>
+          <target>Copy <ph dataRef="id1" id="ph1" /> to <pc dataRefEnd="id3" dataRefStart="id2" id="p1"><ph dataRef="id4" id="ph2" />DeploymentShare<ph dataRef="id5" id="ph3" />Scripts</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <originalData>
+          <data id="id1">`SaveWinPETpmOwnerAuth.wsf`</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">&amp;lt;</data>
+          <data id="id5">&amp;gt;\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you are using pre-provisioning, copy the <ph dataRef="id1" id="ph1" /> file into <pc dataRefEnd="id3" dataRefStart="id2" id="p1"><ph dataRef="id4" id="ph2" />DeploymentShare<ph dataRef="id5" id="ph3" />Scripts</pc>.</source>
+          <target>If you are using pre-provisioning, copy the <ph dataRef="id1" id="ph1" /> file into <pc dataRefEnd="id3" dataRefStart="id2" id="p1"><ph dataRef="id4" id="ph2" />DeploymentShare<ph dataRef="id5" id="ph3" />Scripts</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>Add the MBAM 2.5 SP1 client application to the Applications node in the deployment share.</source>
+          <target>Add the MBAM 2.5 SP1 client application to the Applications node in the deployment share.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applications</pc> node, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Application</pc>.</source>
+          <target>Under the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applications</pc> node, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Application</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application with Source Files</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application with Source Files</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Name</pc>, type “MBAM 2.5 SP1 Client”.</source>
+          <target>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Application Name</pc>, type “MBAM 2.5 SP1 Client”.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <originalData>
+          <data id="id1">`MBAMClientSetup-&lt;Version&gt;.msi`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Browse to the directory containing <ph dataRef="id1" id="ph1" />.</source>
+          <target>Browse to the directory containing <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>Type “MBAM 2.5 SP1 Client” as the directory to create.</source>
+          <target>Type “MBAM 2.5 SP1 Client” as the directory to create.</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <originalData>
+          <data id="id1">`msiexec /i MBAMClientSetup-&lt;Version&gt;.msi /quiet`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter <ph dataRef="id1" id="ph1" /> at the command line.</source>
+          <target>Enter <ph dataRef="id1" id="ph1" /> at the command line.</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>Accept the remaining defaults to complete the New Application wizard.</source>
+          <target>Accept the remaining defaults to complete the New Application wizard.</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In MDT, right-click the name of the deployment share and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc>.</source>
+          <target>In MDT, right-click the name of the deployment share and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Rules</pc> tab.</source>
+          <target>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Rules</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>Add the following lines:</source>
+          <target>Add the following lines:</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>Click OK to close the window.</source>
+          <target>Click OK to close the window.</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>Under the Task Sequences node, edit an existing task sequence used for Windows Deployment.</source>
+          <target>Under the Task Sequences node, edit an existing task sequence used for Windows Deployment.</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you want, you can create a new task sequence by right-clicking the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task Sequences</pc> node, selecting <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Task Sequence</pc>, and completing the wizard.</source>
+          <target>If you want, you can create a new task sequence by right-clicking the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task Sequences</pc> node, selecting <pc dataRefEnd="id4" dataRefStart="id3" id="p2">New Task Sequence</pc>, and completing the wizard.</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task Sequence</pc> tab of the selected task sequence, perform these steps:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task Sequence</pc> tab of the selected task sequence, perform these steps:</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Preinstall</pc> folder, enable the optional task <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable BitLocker (Offline)</pc> if you want BitLocker enabled in WinPE, which encrypts used space only.</source>
+          <target>Under the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Preinstall</pc> folder, enable the optional task <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable BitLocker (Offline)</pc> if you want BitLocker enabled in WinPE, which encrypts used space only.</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>To persist TPM OwnerAuth when using pre-provisioning, allowing MBAM to escrow it later, do the following:</source>
+          <target>To persist TPM OwnerAuth when using pre-provisioning, allowing MBAM to escrow it later, do the following:</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Find the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install Operating System</pc> step</source>
+          <target>Find the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install Operating System</pc> step</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add a new <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run Command Line</pc> step after it</source>
+          <target>Add a new <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run Command Line</pc> step after it</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Name the step <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Persist TPM OwnerAuth</pc></source>
+          <target>Name the step <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Persist TPM OwnerAuth</pc></target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>Set the command line to</source>
+          <target>Set the command line to</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">State Restore</pc> folder, delete the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable BitLocker</pc> task.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">State Restore</pc> folder, delete the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable BitLocker</pc> task.</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">State Restore</pc> folder under <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Custom Tasks</pc>, create a new <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Install Application</pc> task and name it <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Install MBAM Agent</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">State Restore</pc> folder under <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Custom Tasks</pc>, create a new <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Install Application</pc> task and name it <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Install MBAM Agent</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install Single Application</pc> radio button and browse to the MBAM 2.5 SP1 client application created earlier.</source>
+          <target>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install Single Application</pc> radio button and browse to the MBAM 2.5 SP1 client application created earlier.</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">State Restore</pc> folder under <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Custom Tasks</pc>, create a new <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Run PowerShell Script</pc> task (after the MBAM 2.5 SP1 Client application step) with the following settings (update the parameters as appropriate for your environment):</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">State Restore</pc> folder under <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Custom Tasks</pc>, create a new <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Run PowerShell Script</pc> task (after the MBAM 2.5 SP1 Client application step) with the following settings (update the parameters as appropriate for your environment):</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>Name: Configure BitLocker for MBAM</source>
+          <target>Name: Configure BitLocker for MBAM</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>PowerShell script:</source>
+          <target>PowerShell script:</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>Parameters:</source>
+          <target>Parameters:</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>-RecoveryServiceEndpoint</source>
+          <target>-RecoveryServiceEndpoint</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>Required</source>
+          <target>Required</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>MBAM recovery service endpoint</source>
+          <target>MBAM recovery service endpoint</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>-StatusReportingServiceEndpoint</source>
+          <target>-StatusReportingServiceEndpoint</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>Optional</source>
+          <target>Optional</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>MBAM status reporting service endpoint</source>
+          <target>MBAM status reporting service endpoint</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>-EncryptionMethod</source>
+          <target>-EncryptionMethod</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>Optional</source>
+          <target>Optional</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <segment state="initial">
+          <source>Encryption method (default: AES 128)</source>
+          <target>Encryption method (default: AES 128)</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>-EncryptAndEscrowDataVolume</source>
+          <target>-EncryptAndEscrowDataVolume</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>Switch</source>
+          <target>Switch</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <segment state="initial">
+          <source>Specify to encrypt data volume(s) and escrow data volume recovery key(s)</source>
+          <target>Specify to encrypt data volume(s) and escrow data volume recovery key(s)</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>-WaitForEncryptionToComplete</source>
+          <target>-WaitForEncryptionToComplete</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>Switch</source>
+          <target>Switch</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>Specify to wait for the encryption to complete</source>
+          <target>Specify to wait for the encryption to complete</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>-DoNotResumeSuspendedEncryption</source>
+          <target>-DoNotResumeSuspendedEncryption</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>Switch</source>
+          <target>Switch</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>Specify that the deployment script will not resume suspended encryption</source>
+          <target>Specify that the deployment script will not resume suspended encryption</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <segment state="initial">
+          <source>-IgnoreEscrowOwnerAuthFailure</source>
+          <target>-IgnoreEscrowOwnerAuthFailure</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <segment state="initial">
+          <source>Switch</source>
+          <target>Switch</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <segment state="initial">
+          <source>Specify to ignore TPM owner-auth escrow failure.</source>
+          <target>Specify to ignore TPM owner-auth escrow failure.</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <segment state="initial">
+          <source>It should be used in the scenarios where MBAM is not able to read the TPM owner-auth, e.g. if TPM auto provisioning is enabled</source>
+          <target>It should be used in the scenarios where MBAM is not able to read the TPM owner-auth, e.g. if TPM auto provisioning is enabled</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <segment state="initial">
+          <source>-IgnoreEscrowRecoveryKeyFailure</source>
+          <target>-IgnoreEscrowRecoveryKeyFailure</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <segment state="initial">
+          <source>Switch</source>
+          <target>Switch</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <segment state="initial">
+          <source>Specify to ignore volume recovery key escrow failure</source>
+          <target>Specify to ignore volume recovery key escrow failure</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <segment state="initial">
+          <source>-IgnoreReportStatusFailure</source>
+          <target>-IgnoreReportStatusFailure</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <segment state="initial">
+          <source>Switch</source>
+          <target>Switch</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>Specify to ignore status reporting failure</source>
+          <target>Specify to ignore status reporting failure</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <segment state="initial">
+          <source>To enable BitLocker using MBAM 2.5 or earlier as part of a Windows deployment</source>
+          <target>To enable BitLocker using MBAM 2.5 or earlier as part of a Windows deployment</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>Install the MBAM Client.</source>
+          <target>Install the MBAM Client.</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](how-to-deploy-the-mbam-client-by-using-a-command-line.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For instructions, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Deploy the MBAM Client by Using a Command Line</pc>.</source>
+          <target>For instructions, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Deploy the MBAM Client by Using a Command Line</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <segment state="initial">
+          <source>Join the computer to a domain (recommended).</source>
+          <target>Join the computer to a domain (recommended).</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <segment state="initial">
+          <source>If the computer is not joined to a domain, the recovery password is not stored in the MBAM Key Recovery service.</source>
+          <target>If the computer is not joined to a domain, the recovery password is not stored in the MBAM Key Recovery service.</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <segment state="initial">
+          <source>By default, MBAM does not allow encryption to occur unless the recovery key can be stored.</source>
+          <target>By default, MBAM does not allow encryption to occur unless the recovery key can be stored.</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <segment state="initial">
+          <source>If a computer starts in recovery mode before the recovery key is stored on the MBAM Server, no recovery method is available, and the computer has to be reimaged.</source>
+          <target>If a computer starts in recovery mode before the recovery key is stored on the MBAM Server, no recovery method is available, and the computer has to be reimaged.</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <segment state="initial">
+          <source>Open a command prompt as an administrator, and stop the MBAM service.</source>
+          <target>Open a command prompt as an administrator, and stop the MBAM service.</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set the service to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manual</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">On demand</pc> by typing the following commands:</source>
+          <target>Set the service to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manual</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">On demand</pc> by typing the following commands:</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <segment state="initial">
+          <source>net stop mbamagent</source>
+          <target>net stop mbamagent</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <segment state="initial">
+          <source>sc config mbamagent start= demand</source>
+          <target>sc config mbamagent start= demand</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <segment state="initial">
+          <source>Set the registry values so that the MBAM Client ignores the Group Policy settings and instead sets encryption to start the time Windows is deployed to that client computer.</source>
+          <target>Set the registry values so that the MBAM Client ignores the Group Policy settings and instead sets encryption to start the time Windows is deployed to that client computer.</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <segment state="initial">
+          <source>Caution</source>
+          <target>Caution</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <segment state="initial">
+          <source>This step describes how to modify the Windows registry.</source>
+          <target>This step describes how to modify the Windows registry.</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <segment state="initial">
+          <source>Using Registry Editor incorrectly can cause serious issues that can require you to reinstall Windows.</source>
+          <target>Using Registry Editor incorrectly can cause serious issues that can require you to reinstall Windows.</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <segment state="initial">
+          <source>We cannot guarantee that issues resulting from the incorrect use of Registry Editor can be resolved.</source>
+          <target>We cannot guarantee that issues resulting from the incorrect use of Registry Editor can be resolved.</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <segment state="initial">
+          <source>Use Registry Editor at your own risk.</source>
+          <target>Use Registry Editor at your own risk.</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set the TPM for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating system only encryption</pc>, run Regedit.exe, and then import the registry key template from C:<ph dataRef="id3" id="ph1" />Program Files<ph dataRef="id4" id="ph2" />Microsoft<ph dataRef="id5" id="ph3" />MDOP MBAM<ph dataRef="id6" id="ph4" />MBAMDeploymentKeyTemplate.reg.</source>
+          <target>Set the TPM for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating system only encryption</pc>, run Regedit.exe, and then import the registry key template from C:<ph dataRef="id3" id="ph1" />Program Files<ph dataRef="id4" id="ph2" />Microsoft<ph dataRef="id5" id="ph3" />MDOP MBAM<ph dataRef="id6" id="ph4" />MBAMDeploymentKeyTemplate.reg.</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In Regedit.exe, go to HKLM<ph dataRef="id1" id="ph1" />SOFTWARE<ph dataRef="id2" id="ph2" />Microsoft<ph dataRef="id3" id="ph3" />MBAM, and configure the settings that are listed in the following table.</source>
+          <target>In Regedit.exe, go to HKLM<ph dataRef="id1" id="ph1" />SOFTWARE<ph dataRef="id2" id="ph2" />Microsoft<ph dataRef="id3" id="ph3" />MBAM, and configure the settings that are listed in the following table.</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <segment state="initial">
+          <source>You can set Group Policy settings or registry values related to MBAM here.</source>
+          <target>You can set Group Policy settings or registry values related to MBAM here.</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <segment state="initial">
+          <source>These settings will override previously set values.</source>
+          <target>These settings will override previously set values.</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <segment state="initial">
+          <source>Registry entry Configuration settings</source>
+          <target>Registry entry Configuration settings</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <segment state="initial">
+          <source>DeploymentTime</source>
+          <target>DeploymentTime</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>0 = Off</source>
+          <target>0 = Off</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <segment state="initial">
+          <source>1 = Use deployment time policy settings (default) – use this setting to enable encryption at the time Windows is deployed to the client computer.</source>
+          <target>1 = Use deployment time policy settings (default) – use this setting to enable encryption at the time Windows is deployed to the client computer.</target>
+        </segment>
+      </unit>
+      <unit id="354">
+        <segment state="initial">
+          <source>UseKeyRecoveryService</source>
+          <target>UseKeyRecoveryService</target>
+        </segment>
+      </unit>
+      <unit id="355">
+        <segment state="initial">
+          <source>0 = Do not use key escrow (the next two registry entries are not required in this case)</source>
+          <target>0 = Do not use key escrow (the next two registry entries are not required in this case)</target>
+        </segment>
+      </unit>
+      <unit id="356">
+        <segment state="initial">
+          <source>1 = Use key escrow in Key Recovery system (default)</source>
+          <target>1 = Use key escrow in Key Recovery system (default)</target>
+        </segment>
+      </unit>
+      <unit id="357">
+        <segment state="initial">
+          <source>This is the recommended setting, which enables MBAM to store the recovery keys.</source>
+          <target>This is the recommended setting, which enables MBAM to store the recovery keys.</target>
+        </segment>
+      </unit>
+      <unit id="358">
+        <segment state="initial">
+          <source>The computer must be able to communicate with the MBAM Key Recovery service.</source>
+          <target>The computer must be able to communicate with the MBAM Key Recovery service.</target>
+        </segment>
+      </unit>
+      <unit id="359">
+        <segment state="initial">
+          <source>Verify that the computer can communicate with the service before you proceed.</source>
+          <target>Verify that the computer can communicate with the service before you proceed.</target>
+        </segment>
+      </unit>
+      <unit id="360">
+        <segment state="initial">
+          <source>KeyRecoveryOptions</source>
+          <target>KeyRecoveryOptions</target>
+        </segment>
+      </unit>
+      <unit id="361">
+        <segment state="initial">
+          <source>0 = Uploads Recovery Key only</source>
+          <target>0 = Uploads Recovery Key only</target>
+        </segment>
+      </unit>
+      <unit id="362">
+        <segment state="initial">
+          <source>1 = Uploads Recovery Key and Key Recovery Package (default)</source>
+          <target>1 = Uploads Recovery Key and Key Recovery Package (default)</target>
+        </segment>
+      </unit>
+      <unit id="363">
+        <segment state="initial">
+          <source>KeyRecoveryServiceEndPoint</source>
+          <target>KeyRecoveryServiceEndPoint</target>
+        </segment>
+      </unit>
+      <unit id="364">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set this value to the URL for the server running the Key Recovery service, for example, http://<ph dataRef="id1" id="ph1" />computer name<ph dataRef="id2" id="ph2" />/MBAMRecoveryAndHardwareService/CoreService.svc.</source>
+          <target>Set this value to the URL for the server running the Key Recovery service, for example, http://<ph dataRef="id1" id="ph1" />computer name<ph dataRef="id2" id="ph2" />/MBAMRecoveryAndHardwareService/CoreService.svc.</target>
+        </segment>
+      </unit>
+      <unit id="365">
+        <segment state="initial">
+          <source>The MBAM Client will restart the system during the MBAM Client deployment.</source>
+          <target>The MBAM Client will restart the system during the MBAM Client deployment.</target>
+        </segment>
+      </unit>
+      <unit id="366">
+        <segment state="initial">
+          <source>When you are ready for this restart, run the following command at a command prompt as an administrator:</source>
+          <target>When you are ready for this restart, run the following command at a command prompt as an administrator:</target>
+        </segment>
+      </unit>
+      <unit id="367">
+        <segment state="initial">
+          <source>net start mbamagent</source>
+          <target>net start mbamagent</target>
+        </segment>
+      </unit>
+      <unit id="368">
+        <segment state="initial">
+          <source>When the computers restarts, and the BIOS prompts you, accept the TPM change.</source>
+          <target>When the computers restarts, and the BIOS prompts you, accept the TPM change.</target>
+        </segment>
+      </unit>
+      <unit id="369">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>During the Windows client operating system imaging process, when you are ready to start encryption, open a command prompt as an administrator, and type the following commands to set the start to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatic</pc> and to restart the MBAM Client agent:</source>
+          <target>During the Windows client operating system imaging process, when you are ready to start encryption, open a command prompt as an administrator, and type the following commands to set the start to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatic</pc> and to restart the MBAM Client agent:</target>
+        </segment>
+      </unit>
+      <unit id="370">
+        <segment state="initial">
+          <source>sc config mbamagent start= auto</source>
+          <target>sc config mbamagent start= auto</target>
+        </segment>
+      </unit>
+      <unit id="371">
+        <segment state="initial">
+          <source>net start mbamagent</source>
+          <target>net start mbamagent</target>
+        </segment>
+      </unit>
+      <unit id="372">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>To delete the bypass registry values, run Regedit.exe, and go to the HKLM<ph dataRef="id1" id="ph1" />SOFTWARE<ph dataRef="id2" id="ph2" />Microsoft registry entry.</source>
+          <target>To delete the bypass registry values, run Regedit.exe, and go to the HKLM<ph dataRef="id1" id="ph1" />SOFTWARE<ph dataRef="id2" id="ph2" />Microsoft registry entry.</target>
+        </segment>
+      </unit>
+      <unit id="373">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM</pc> node, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Delete</pc>.</source>
+          <target>Right-click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM</pc> node, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Delete</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="374">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="375">
+        <segment state="initial">
+          <source>Deploying the MBAM 2.5 Client</source>
+          <target>Deploying the MBAM 2.5 Client</target>
+        </segment>
+      </unit>
+      <unit id="376">
+        <segment state="initial">
+          <source>Planning for MBAM 2.5 Client Deployment</source>
+          <target>Planning for MBAM 2.5 Client Deployment</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

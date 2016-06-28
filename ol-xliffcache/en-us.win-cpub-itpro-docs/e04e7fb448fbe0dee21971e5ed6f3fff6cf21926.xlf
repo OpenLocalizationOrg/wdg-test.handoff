@@ -1,0 +1,914 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\types-of-attacks-for-volume-encryption-keys.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">e04e7fb448fbe0dee21971e5ed6f3fff6cf21926</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Types of attacks for volume encryption keys (Windows 10)</source>
+          <target>Types of attacks for volume encryption keys (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>There are many ways Windows helps protect your organization from attacks, including Unified Extensible Firmware Interface (UEFI) secure boot, Trusted Platform Module (TPM), Group Policy, complex passwords, and account lockouts.</source>
+          <target>There are many ways Windows helps protect your organization from attacks, including Unified Extensible Firmware Interface (UEFI) secure boot, Trusted Platform Module (TPM), Group Policy, complex passwords, and account lockouts.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Types of attacks for volume encryption keys</source>
+          <target>Types of attacks for volume encryption keys</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>There are many ways Windows helps protect your organization from attacks, including Unified Extensible Firmware Interface (UEFI) secure boot, Trusted Platform Module (TPM), Group Policy, complex passwords, and account lockouts.</source>
+          <target>There are many ways Windows helps protect your organization from attacks, including Unified Extensible Firmware Interface (UEFI) secure boot, Trusted Platform Module (TPM), Group Policy, complex passwords, and account lockouts.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>The next few sections describe each type of attack that could be used to compromise a volume encryption key, whether for BitLocker or a non-Microsoft encryption solution.</source>
+          <target>The next few sections describe each type of attack that could be used to compromise a volume encryption key, whether for BitLocker or a non-Microsoft encryption solution.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>After an attacker has compromised a volume encryption key, the attacker can read data from your system drive or even install malware while Windows is offline.</source>
+          <target>After an attacker has compromised a volume encryption key, the attacker can read data from your system drive or even install malware while Windows is offline.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Each section begins with a graphical overview of the attack’s strengths and weaknesses as well as suggested mitigations.</source>
+          <target>Each section begins with a graphical overview of the attack’s strengths and weaknesses as well as suggested mitigations.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Bootkit and rootkit attacks</source>
+          <target>Bootkit and rootkit attacks</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Rootkits are a sophisticated and dangerous type of malware that runs in kernel mode, using the same privileges as the operating system.</source>
+          <target>Rootkits are a sophisticated and dangerous type of malware that runs in kernel mode, using the same privileges as the operating system.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Because rootkits have the same or possibly even more rights than the operating system, they can completely hide themselves from Windows and even an antimalware solution.</source>
+          <target>Because rootkits have the same or possibly even more rights than the operating system, they can completely hide themselves from Windows and even an antimalware solution.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Often, rootkits are part of an entire suite of malware that can bypass local logins, record passwords, transfer private files, and capture cryptography keys.</source>
+          <target>Often, rootkits are part of an entire suite of malware that can bypass local logins, record passwords, transfer private files, and capture cryptography keys.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Different types of bootkits and rootkits load at different software levels:</source>
+          <target>Different types of bootkits and rootkits load at different software levels:</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Kernel level.</source>
+          <target>Kernel level.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Rootkits running at the kernel level have the highest privilege in the operating system.</source>
+          <target>Rootkits running at the kernel level have the highest privilege in the operating system.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>They may be able to inject malicious code or replace portions of the core operating system, including both the kernel and device drivers.</source>
+          <target>They may be able to inject malicious code or replace portions of the core operating system, including both the kernel and device drivers.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Application level.</source>
+          <target>Application level.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>These rootkits are aimed to replace application binaries with malicious code, such as a Trojan, and can even modify the behavior of existing applications.</source>
+          <target>These rootkits are aimed to replace application binaries with malicious code, such as a Trojan, and can even modify the behavior of existing applications.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Library level.</source>
+          <target>Library level.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>The purpose of library-level rootkits is to hook, patch, or replace system calls with malicious code that can hide the malware’s presence.</source>
+          <target>The purpose of library-level rootkits is to hook, patch, or replace system calls with malicious code that can hide the malware’s presence.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Hypervisor level.</source>
+          <target>Hypervisor level.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Hypervisor rootkits target the boot sequence.</source>
+          <target>Hypervisor rootkits target the boot sequence.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Their primary purpose is to modify the boot sequence to load themselves as a hypervisor.</source>
+          <target>Their primary purpose is to modify the boot sequence to load themselves as a hypervisor.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Firmware level.</source>
+          <target>Firmware level.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>These rootkits overwrite the PC’s BIOS firmware, giving the malware low-level access and potentially the ability to install or hide malware, even if it’s cleaned or removed from the hard disk.</source>
+          <target>These rootkits overwrite the PC’s BIOS firmware, giving the malware low-level access and potentially the ability to install or hide malware, even if it’s cleaned or removed from the hard disk.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Regardless of the operating system or encryption method, rootkits have access to confidential data once installed.</source>
+          <target>Regardless of the operating system or encryption method, rootkits have access to confidential data once installed.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Application-level rootkits can read any files the user can access, bypassing volume-level encryption.</source>
+          <target>Application-level rootkits can read any files the user can access, bypassing volume-level encryption.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Kernel-, library-, hypervisor-, and firmware-level rootkits have direct access to system files on encrypted volumes and can also retrieve an encryption key from memory.</source>
+          <target>Kernel-, library-, hypervisor-, and firmware-level rootkits have direct access to system files on encrypted volumes and can also retrieve an encryption key from memory.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Windows offers substantial protection from bootkits and rootkits, but it is possible to bypass operating system security when an attacker has physical access to the device and can install the malware to the device while Windows is offline.</source>
+          <target>Windows offers substantial protection from bootkits and rootkits, but it is possible to bypass operating system security when an attacker has physical access to the device and can install the malware to the device while Windows is offline.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>For example, an attacker might boot a PC from a USB flash drive containing malware that starts before Windows.</source>
+          <target>For example, an attacker might boot a PC from a USB flash drive containing malware that starts before Windows.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>The malware can replace system files or the PC’s firmware or simply start Windows under its control.</source>
+          <target>The malware can replace system files or the PC’s firmware or simply start Windows under its control.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>To sufficiently protect a PC from boot and rootkits, devices must use pre-boot authentication or Secure Boot, or the encryption solution must use the device’s Trusted Platform Module (TPM) as a means of monitoring the integrity of the end-to-end boot process.</source>
+          <target>To sufficiently protect a PC from boot and rootkits, devices must use pre-boot authentication or Secure Boot, or the encryption solution must use the device’s Trusted Platform Module (TPM) as a means of monitoring the integrity of the end-to-end boot process.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Pre-boot authentication is available for any device, regardless of the hardware, but because it is inconvenient to users, it should be used only to mitigate threats that are applicable to the device.</source>
+          <target>Pre-boot authentication is available for any device, regardless of the hardware, but because it is inconvenient to users, it should be used only to mitigate threats that are applicable to the device.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>On devices with Secure Boot enabled, you do not need to use pre-boot authentication to protect against boot and rootkit attacks.</source>
+          <target>On devices with Secure Boot enabled, you do not need to use pre-boot authentication to protect against boot and rootkit attacks.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Although password protection of the UEFI configuration is important for protecting a device’s configuration and preventing an attacker from disabling Secure Boot, use of a TPM and its Platform Configuration Register (PCR) measurements (PCR7) to ensure that the system’s bootloader (whether a Windows or non-Microsoft encryption solution) is tamper free and the first code to start on the device is critical.</source>
+          <target>Although password protection of the UEFI configuration is important for protecting a device’s configuration and preventing an attacker from disabling Secure Boot, use of a TPM and its Platform Configuration Register (PCR) measurements (PCR7) to ensure that the system’s bootloader (whether a Windows or non-Microsoft encryption solution) is tamper free and the first code to start on the device is critical.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>An encryption solution that doesn’t use a device’s TPM to protect its components from tampering may be unable to protect itself from bootkit-level infections that could log a user’s password or acquire encryption keys.</source>
+          <target>An encryption solution that doesn’t use a device’s TPM to protect its components from tampering may be unable to protect itself from bootkit-level infections that could log a user’s password or acquire encryption keys.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>For this reason, when BitLocker is configured on devices that include a TPM, the TPM and its PCRs are always used to secure and confirm the integrity of the pre–operating system environment before making encrypted volumes accessible.</source>
+          <target>For this reason, when BitLocker is configured on devices that include a TPM, the TPM and its PCRs are always used to secure and confirm the integrity of the pre–operating system environment before making encrypted volumes accessible.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Any changes to the UEFI configuration invalidates the PCR7 and require the user to enter the BitLocker recovery key.</source>
+          <target>Any changes to the UEFI configuration invalidates the PCR7 and require the user to enter the BitLocker recovery key.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Because of this feature, it’s not critical to password-protect your UEFI configuration.</source>
+          <target>Because of this feature, it’s not critical to password-protect your UEFI configuration.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>If an attacker successfully turns off Secure Boot or otherwise changes the UEFI configuration, they will need to enter the BitLocker recovery key, but UEFI password protection is a best practice and is still required for systems not using a TPM (such as non-Microsoft alternatives).</source>
+          <target>If an attacker successfully turns off Secure Boot or otherwise changes the UEFI configuration, they will need to enter the BitLocker recovery key, but UEFI password protection is a best practice and is still required for systems not using a TPM (such as non-Microsoft alternatives).</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Brute-force Sign-in Attacks</source>
+          <target>Brute-force Sign-in Attacks</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Attackers can find any password if you allow them to guess enough times.</source>
+          <target>Attackers can find any password if you allow them to guess enough times.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>The process of trying millions of different passwords until you find the right one is known as a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">brute-force sign-in attack</pc>.</source>
+          <target>The process of trying millions of different passwords until you find the right one is known as a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">brute-force sign-in attack</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>In theory, an attacker could obtain any password by using this method.</source>
+          <target>In theory, an attacker could obtain any password by using this method.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Three opportunities for brute-force attacks exist:</source>
+          <target>Three opportunities for brute-force attacks exist:</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Against the pre-boot authenticator.</source>
+          <target>Against the pre-boot authenticator.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>An attacker could attack the device directly by attempting to guess the user’s BitLocker PIN or an equivalent authenticator.</source>
+          <target>An attacker could attack the device directly by attempting to guess the user’s BitLocker PIN or an equivalent authenticator.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>The TPM mitigates this approach by invoking an anti-hammering lockout capability that requires the user to wait until the lockout period ends or enter the BitLocker recovery key.</source>
+          <target>The TPM mitigates this approach by invoking an anti-hammering lockout capability that requires the user to wait until the lockout period ends or enter the BitLocker recovery key.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Against the recovery key.</source>
+          <target>Against the recovery key.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>An attacker could attempt to guess the 48-digit BitLocker recovery key.</source>
+          <target>An attacker could attempt to guess the 48-digit BitLocker recovery key.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Even without a lockout period, the key is long enough to make brute-force attacks impractical.</source>
+          <target>Even without a lockout period, the key is long enough to make brute-force attacks impractical.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Specifically, the BitLocker recovery key has 128 bits of entropy; thus, the average brute-force attack would succeed after 18,446,744,073,709,551,616 guesses.</source>
+          <target>Specifically, the BitLocker recovery key has 128 bits of entropy; thus, the average brute-force attack would succeed after 18,446,744,073,709,551,616 guesses.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>If an attacker could guess 1 million passwords per second, the average brute-force attack would require more than 580,000 years to be successful.</source>
+          <target>If an attacker could guess 1 million passwords per second, the average brute-force attack would require more than 580,000 years to be successful.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Against the operating system sign-in authenticator.</source>
+          <target>Against the operating system sign-in authenticator.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>An attacker can attempt to guess a valid user name and password.</source>
+          <target>An attacker can attempt to guess a valid user name and password.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Windows implements a delay between password guesses, slowing down brute-force attacks.</source>
+          <target>Windows implements a delay between password guesses, slowing down brute-force attacks.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>In addition, all recent versions of Windows allow administrators to require complex passwords and password lockouts.</source>
+          <target>In addition, all recent versions of Windows allow administrators to require complex passwords and password lockouts.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Similarly, administrators can use Microsoft Exchange ActiveSync policy or Group Policy to configure Windows 8.1 and Windows 8 to automatically restart and require the user to enter the BitLocker 48-digit recovery key after a specified number of invalid password attempts.</source>
+          <target>Similarly, administrators can use Microsoft Exchange ActiveSync policy or Group Policy to configure Windows 8.1 and Windows 8 to automatically restart and require the user to enter the BitLocker 48-digit recovery key after a specified number of invalid password attempts.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>When these settings are enabled and users follow best practices for complex passwords, brute-force attacks against the operating system sign-in are impractical.</source>
+          <target>When these settings are enabled and users follow best practices for complex passwords, brute-force attacks against the operating system sign-in are impractical.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>In general, brute-force sign-in attacks are not practical against Windows when administrators enforce complex passwords and account lockouts.</source>
+          <target>In general, brute-force sign-in attacks are not practical against Windows when administrators enforce complex passwords and account lockouts.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Direct Memory Access Attacks</source>
+          <target>Direct Memory Access Attacks</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Direct memory access (DMA) allows certain types of hardware devices to communicate directly with a device’s system memory.</source>
+          <target>Direct memory access (DMA) allows certain types of hardware devices to communicate directly with a device’s system memory.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>For example, if you use Thunderbolt to connect another device to your computer, the second device automatically has Read and Write access to the target computer’s memory.</source>
+          <target>For example, if you use Thunderbolt to connect another device to your computer, the second device automatically has Read and Write access to the target computer’s memory.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Unfortunately, DMA ports don’t use authentication and access control to protect the contents of the computer’s memory.</source>
+          <target>Unfortunately, DMA ports don’t use authentication and access control to protect the contents of the computer’s memory.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Whereas Windows can often prevent system components and apps from reading and writing to protected parts of memory, a device can use DMA to read any location in memory, including the location of any encryption keys.</source>
+          <target>Whereas Windows can often prevent system components and apps from reading and writing to protected parts of memory, a device can use DMA to read any location in memory, including the location of any encryption keys.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>DMA attacks are relatively easy to execute and require little technical skills.</source>
+          <target>DMA attacks are relatively easy to execute and require little technical skills.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://www.lostpassword.com/)</data>
+          <data id="id3">[</data>
+          <data id="id4">](http://elcomsoft.com/)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Anyone can download a tool from the Internet, such as those made by <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Passware</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ElcomSoft</pc>, and others, and then use a DMA attack to read confidential data from a PC’s memory.</source>
+          <target>Anyone can download a tool from the Internet, such as those made by <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Passware</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ElcomSoft</pc>, and others, and then use a DMA attack to read confidential data from a PC’s memory.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Because encryption solutions store their encryption keys in memory, they can be accessed by a DMA attack.</source>
+          <target>Because encryption solutions store their encryption keys in memory, they can be accessed by a DMA attack.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Not all port types are vulnerable to DMA attacks.</source>
+          <target>Not all port types are vulnerable to DMA attacks.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>USB in particular does not allow DMA, but devices that have any of the following port types are vulnerable:</source>
+          <target>USB in particular does not allow DMA, but devices that have any of the following port types are vulnerable:</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>FireWire</source>
+          <target>FireWire</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Thunderbolt</source>
+          <target>Thunderbolt</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>ExpressCard</source>
+          <target>ExpressCard</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>PCMCIA</source>
+          <target>PCMCIA</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>PCI</source>
+          <target>PCI</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>PCI-X</source>
+          <target>PCI-X</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>PCI Express</source>
+          <target>PCI Express</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>To perform a DMA attack, attackers typically connect a second PC that is running a memory-scanning tool (for example, Passware, ElcomSoft) to the FireWire or Thunderbolt port of the target computer.</source>
+          <target>To perform a DMA attack, attackers typically connect a second PC that is running a memory-scanning tool (for example, Passware, ElcomSoft) to the FireWire or Thunderbolt port of the target computer.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>When connected, the software scans the system memory of the target and locates the encryption key.</source>
+          <target>When connected, the software scans the system memory of the target and locates the encryption key.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Once acquired, the key can be used to decrypt the drive and read or modify its contents.</source>
+          <target>Once acquired, the key can be used to decrypt the drive and read or modify its contents.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>A much more efficient form of this attack exists in theory: An attacker crafts a custom FireWire or Thunderbolt device that has the DMA attack logic programmed on it.</source>
+          <target>A much more efficient form of this attack exists in theory: An attacker crafts a custom FireWire or Thunderbolt device that has the DMA attack logic programmed on it.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Now, the attacker simply needs to physically connect the device.</source>
+          <target>Now, the attacker simply needs to physically connect the device.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>If the attacker does not have physical access, they could disguise it as a free USB flash drive and distribute it to employees of a target organization.</source>
+          <target>If the attacker does not have physical access, they could disguise it as a free USB flash drive and distribute it to employees of a target organization.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>When connected, the attacking device could use a DMA attack to scan the PC’s memory for the encryption key.</source>
+          <target>When connected, the attacking device could use a DMA attack to scan the PC’s memory for the encryption key.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>It could then transmit the key (or any data in the PC’s memory) using the PC’s Internet connection or its own wireless connection.</source>
+          <target>It could then transmit the key (or any data in the PC’s memory) using the PC’s Internet connection or its own wireless connection.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>This type of attack would require an extremely high level of sophistication, because it requires that the attacker create a custom device (devices of these types are not readily available in the marketplace at this time).</source>
+          <target>This type of attack would require an extremely high level of sophistication, because it requires that the attacker create a custom device (devices of these types are not readily available in the marketplace at this time).</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Today, one of the most common uses for DMA ports on Windows devices is for developer debugging, a task that some developers need to perform and one that few consumers will ever perform.</source>
+          <target>Today, one of the most common uses for DMA ports on Windows devices is for developer debugging, a task that some developers need to perform and one that few consumers will ever perform.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Because USB; DisplayPort; and other, more secure port types satisfy consumers, most new mobile PCs do not include DMA ports.</source>
+          <target>Because USB; DisplayPort; and other, more secure port types satisfy consumers, most new mobile PCs do not include DMA ports.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Microsoft’s view is that because of the inherent security risks of DMA ports, they do not belong on mobile devices, and Microsoft has prohibited their inclusion on any InstantGo-certified devices.</source>
+          <target>Microsoft’s view is that because of the inherent security risks of DMA ports, they do not belong on mobile devices, and Microsoft has prohibited their inclusion on any InstantGo-certified devices.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>InstantGo devices offer mobile phone–like power management and instant-on capabilities; at the time of writing, they are primarily found in Windows tablets.</source>
+          <target>InstantGo devices offer mobile phone–like power management and instant-on capabilities; at the time of writing, they are primarily found in Windows tablets.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>DMA-based expansion slots are another avenue of attack, but these slots generally appear only on desktop PCs that are designed for expansion.</source>
+          <target>DMA-based expansion slots are another avenue of attack, but these slots generally appear only on desktop PCs that are designed for expansion.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Organizations can use physical security to prevent outside attacks against their desktop PCs.</source>
+          <target>Organizations can use physical security to prevent outside attacks against their desktop PCs.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>In addition, a DMA attack on the expansion slot would require a custom device; as a result, an attacker would most likely insert an interface with a traditional DMA port (for example, FireWire) into the slot to attack the PC.</source>
+          <target>In addition, a DMA attack on the expansion slot would require a custom device; as a result, an attacker would most likely insert an interface with a traditional DMA port (for example, FireWire) into the slot to attack the PC.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>To mitigate a port-based DMA attack an administrator can configure policy settings to disable FireWire and other device types that have DMA.</source>
+          <target>To mitigate a port-based DMA attack an administrator can configure policy settings to disable FireWire and other device types that have DMA.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Also, many PCs allow those devices to be disabled by using firmware settings.</source>
+          <target>Also, many PCs allow those devices to be disabled by using firmware settings.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Although the need for pre-boot authentication can be eliminated at the device level or through Windows configuration, the BitLocker pre-boot authentication feature is still available when needed.</source>
+          <target>Although the need for pre-boot authentication can be eliminated at the device level or through Windows configuration, the BitLocker pre-boot authentication feature is still available when needed.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>When used, it successfully mitigates all types of DMA port and expansion slot attacks on any type of device.</source>
+          <target>When used, it successfully mitigates all types of DMA port and expansion slot attacks on any type of device.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Hyberfil.sys Attacks</source>
+          <target>Hyberfil.sys Attacks</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>The hyberfil.sys file is the Windows hibernation file.</source>
+          <target>The hyberfil.sys file is the Windows hibernation file.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>It contains a snapshot of system memory that is generated when a device goes into hibernation and includes the encryption key for BitLocker and other encryption technologies.</source>
+          <target>It contains a snapshot of system memory that is generated when a device goes into hibernation and includes the encryption key for BitLocker and other encryption technologies.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Attackers have claimed that they have successfully extracted encryption keys from the hyberfil.sys file.</source>
+          <target>Attackers have claimed that they have successfully extracted encryption keys from the hyberfil.sys file.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://www.lostpassword.com/)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Like the DMA port attack discussed in the previous section, tools are available that can scan the hyberfile.sys file and locate the encryption key, including a tool made by <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Passware</pc>.</source>
+          <target>Like the DMA port attack discussed in the previous section, tools are available that can scan the hyberfile.sys file and locate the encryption key, including a tool made by <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Passware</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Microsoft does not consider Windows to be vulnerable to this type of attack, because Windows stores the hyberfil.sys file within the encrypted system volume.</source>
+          <target>Microsoft does not consider Windows to be vulnerable to this type of attack, because Windows stores the hyberfil.sys file within the encrypted system volume.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>As a result, the file would be accessible only if the attacker had both physical and sign-in access to the PC.</source>
+          <target>As a result, the file would be accessible only if the attacker had both physical and sign-in access to the PC.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>When an attacker has sign-in access to the PC, there are few reasons for the attacker to decrypt the drive, because they would already have full access to the data within it.</source>
+          <target>When an attacker has sign-in access to the PC, there are few reasons for the attacker to decrypt the drive, because they would already have full access to the data within it.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>In practice, the only reason an attack on hyberfil.sys would grant an attacker additional access is if an administrator had changed the default Windows configuration and stored the hyberfil.sys file on an unencrypted drive.</source>
+          <target>In practice, the only reason an attack on hyberfil.sys would grant an attacker additional access is if an administrator had changed the default Windows configuration and stored the hyberfil.sys file on an unencrypted drive.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>By default, Windows 10 is designed to be secure against this type of attack.</source>
+          <target>By default, Windows 10 is designed to be secure against this type of attack.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Memory Remanence Attacks</source>
+          <target>Memory Remanence Attacks</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>A memory remanence attack is a side-channel attack that reads the encryption key from memory after restarting a PC.</source>
+          <target>A memory remanence attack is a side-channel attack that reads the encryption key from memory after restarting a PC.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Although a PC’s memory is often considered to be cleared when the PC is restarted, memory chips don’t immediately lose their memory when you disconnect power.</source>
+          <target>Although a PC’s memory is often considered to be cleared when the PC is restarted, memory chips don’t immediately lose their memory when you disconnect power.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Therefore, an attacker who has physical access to the PC’s memory might be able to read data directly from the memory—including the encryption key.</source>
+          <target>Therefore, an attacker who has physical access to the PC’s memory might be able to read data directly from the memory—including the encryption key.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>When performing this type of cold boot attack, the attacker accesses the PC’s physical memory and recovers the encryption key within a few seconds or minutes of disconnecting power.</source>
+          <target>When performing this type of cold boot attack, the attacker accesses the PC’s physical memory and recovers the encryption key within a few seconds or minutes of disconnecting power.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://www.youtube.com/watch?v=JDaicPIgn9U)</data>
+        </originalData>
+        <segment state="initial">
+          <source>This type of attack was demonstrated by researchers at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Princeton University</pc>.</source>
+          <target>This type of attack was demonstrated by researchers at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Princeton University</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>With the encryption key, the attacker would be able to decrypt the drive and access its files.</source>
+          <target>With the encryption key, the attacker would be able to decrypt the drive and access its files.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>To acquire the keys, attackers follow this process:</source>
+          <target>To acquire the keys, attackers follow this process:</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Freeze the PC’s memory.</source>
+          <target>Freeze the PC’s memory.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>For example, an attacker can freeze the memory to −50°C by spraying it with aerosol air duster spray.</source>
+          <target>For example, an attacker can freeze the memory to −50°C by spraying it with aerosol air duster spray.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Restart the PC.</source>
+          <target>Restart the PC.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Instead of restarting Windows, boot to another operating system.</source>
+          <target>Instead of restarting Windows, boot to another operating system.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Typically, this is done by connecting a bootable flash drive or loading a bootable DVD.</source>
+          <target>Typically, this is done by connecting a bootable flash drive or loading a bootable DVD.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>The bootable media loads the memory remanence attack tools, which the attacker uses to scan the system memory and locate the encryption keys.</source>
+          <target>The bootable media loads the memory remanence attack tools, which the attacker uses to scan the system memory and locate the encryption keys.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>The attacker uses the encryption keys to access the drive’s data.</source>
+          <target>The attacker uses the encryption keys to access the drive’s data.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>If the attacker is unable to boot the device to another operating system (for example, if bootable flash drives have been disabled or Secure Boot is enabled), the attacker can attempt to physically remove the frozen memory from the device and attach it to a different, possibly identical device.</source>
+          <target>If the attacker is unable to boot the device to another operating system (for example, if bootable flash drives have been disabled or Secure Boot is enabled), the attacker can attempt to physically remove the frozen memory from the device and attach it to a different, possibly identical device.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA545078)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Fortunately, this process has proven extremely unreliable, as evidenced by the Defence Research and Development Canada (DRDC) Valcartier group’s analysis (see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">An In-depth Analysis of the Cold Boot Attack</pc>).</source>
+          <target>Fortunately, this process has proven extremely unreliable, as evidenced by the Defence Research and Development Canada (DRDC) Valcartier group’s analysis (see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">An In-depth Analysis of the Cold Boot Attack</pc>).</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>On an increasing portion of modern devices, this type of attack is not even possible, because memory is soldered directly to the motherboard.</source>
+          <target>On an increasing portion of modern devices, this type of attack is not even possible, because memory is soldered directly to the motherboard.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Although Princeton’s research proved that this type of attack was possible on devices that have removable memory, device hardware has changed since the research was published in 2008:</source>
+          <target>Although Princeton’s research proved that this type of attack was possible on devices that have removable memory, device hardware has changed since the research was published in 2008:</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Secure Boot prevents the malicious tools that the Princeton attack depends on from running on the target device.</source>
+          <target>Secure Boot prevents the malicious tools that the Princeton attack depends on from running on the target device.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Windows systems with BIOS or UEFI can be locked down with a password, and booting to a USB drive can be prevented.</source>
+          <target>Windows systems with BIOS or UEFI can be locked down with a password, and booting to a USB drive can be prevented.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>If booting to USB is required on the device, it can be limited to starting trusted operating systems by using Secure Boot.</source>
+          <target>If booting to USB is required on the device, it can be limited to starting trusted operating systems by using Secure Boot.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>The discharge rates of memory are highly variable among devices, and many devices have memory that is completely immune to memory remanence attacks.</source>
+          <target>The discharge rates of memory are highly variable among devices, and many devices have memory that is completely immune to memory remanence attacks.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Increased density of memory diminishes their remanence properties and reduces the likelihood that the attack can be successfully executed, even when memory is physically removed and placed in an identical system where the system’s configuration may enable booting to the malicious tools.</source>
+          <target>Increased density of memory diminishes their remanence properties and reduces the likelihood that the attack can be successfully executed, even when memory is physically removed and placed in an identical system where the system’s configuration may enable booting to the malicious tools.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>Because of these factors, this type of attack is rarely possible on modern devices.</source>
+          <target>Because of these factors, this type of attack is rarely possible on modern devices.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Even in cases where the risk factors exist on legacy devices, attackers will find the attack unreliable.</source>
+          <target>Even in cases where the risk factors exist on legacy devices, attackers will find the attack unreliable.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA545078)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For detailed info about the practical uses for forensic memory acquisition and the factors that make a computer vulnerable or resistant to memory remanence attacks, read <pc dataRefEnd="id2" dataRefStart="id1" id="p1">An In-depth Analysis of the Cold Boot Attack</pc>.</source>
+          <target>For detailed info about the practical uses for forensic memory acquisition and the factors that make a computer vulnerable or resistant to memory remanence attacks, read <pc dataRefEnd="id2" dataRefStart="id1" id="p1">An In-depth Analysis of the Cold Boot Attack</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>The BitLocker pre-boot authentication feature can successfully mitigate memory remanence attacks on most devices, but you can also mitigate such attacks by protecting the system UEFI or BIOS and prevent the PC from booting from external media (such as a USB flash drive or DVD).</source>
+          <target>The BitLocker pre-boot authentication feature can successfully mitigate memory remanence attacks on most devices, but you can also mitigate such attacks by protecting the system UEFI or BIOS and prevent the PC from booting from external media (such as a USB flash drive or DVD).</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>The latter option is often a better choice, because it provides sufficient protection without inconveniencing users with pre-boot authentication.</source>
+          <target>The latter option is often a better choice, because it provides sufficient protection without inconveniencing users with pre-boot authentication.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>See also</source>
+          <target>See also</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>BitLocker countermeasures</source>
+          <target>BitLocker countermeasures</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Choose the right BitLocker countermeasure</source>
+          <target>Choose the right BitLocker countermeasure</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>Protect BitLocker from pre-boot attacks</source>
+          <target>Protect BitLocker from pre-boot attacks</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>BitLocker overview</source>
+          <target>BitLocker overview</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

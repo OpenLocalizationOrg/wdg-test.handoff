@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\plan\common-compatibility-issues.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">04d3a1c927e0823b190aafc92c4cbd68c8f3a793</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Common Compatibility Issues (Windows 10)</source>
+          <target>Common Compatibility Issues (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Common Compatibility Issues</source>
+          <target>Common Compatibility Issues</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows 8</source>
+          <target>Windows 8</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Windows 7</source>
+          <target>Windows 7</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Windows Server 2012</source>
+          <target>Windows Server 2012</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Windows Server 2008 R2</source>
+          <target>Windows Server 2008 R2</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Compatibility issues tend to occur with the following technologies:</source>
+          <target>Compatibility issues tend to occur with the following technologies:</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">User Account Control (UAC)</pc>: Adds security to Windows by limiting administrator-level access to the computer, restricting most users to running as Standard Users.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">User Account Control (UAC)</pc>: Adds security to Windows by limiting administrator-level access to the computer, restricting most users to running as Standard Users.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>UAC limits the context in which a process executes to minimize the ability of the user to inadvertently expose the computer to viruses or other malware.</source>
+          <target>UAC limits the context in which a process executes to minimize the ability of the user to inadvertently expose the computer to viruses or other malware.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>UAC affects any application installer or update that requires Administrator permissions to run, performs Administrator checks or actions, or attempts to write to a non-virtualized registry location.</source>
+          <target>UAC affects any application installer or update that requires Administrator permissions to run, performs Administrator checks or actions, or attempts to write to a non-virtualized registry location.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Resource Protection (WRP)</pc>: Enables applications to function properly even if an application attempts to write to protected system files or registry locations.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Resource Protection (WRP)</pc>: Enables applications to function properly even if an application attempts to write to protected system files or registry locations.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>WRP creates a temporary work area and redirects write actions for the application session.</source>
+          <target>WRP creates a temporary work area and redirects write actions for the application session.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>WRP affects any application installation that attempts to replace, modify, or delete protected operating system files or registry keys.</source>
+          <target>WRP affects any application installation that attempts to replace, modify, or delete protected operating system files or registry keys.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Attempts typically fail and return an Access Denied error.</source>
+          <target>Attempts typically fail and return an Access Denied error.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Internet Explorer Protected Mode</pc>: Helps to defend against elevation-of-privilege attacks by restricting the ability to write to any local-computer-zone resources other than temporary Internet files.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Internet Explorer Protected Mode</pc>: Helps to defend against elevation-of-privilege attacks by restricting the ability to write to any local-computer-zone resources other than temporary Internet files.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>This mode affects any website or web application that attempts to modify user files or registry keys or that attempts to open a new window in another domain.</source>
+          <target>This mode affects any website or web application that attempts to modify user files or registry keys or that attempts to open a new window in another domain.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deprecation</pc>: Any application that uses .dll files, executable (.exe) files, COM objects, registry keys, APIs, or other files that have been deprecated from previous versions of Windows may lose functionality or fail to start.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deprecation</pc>: Any application that uses .dll files, executable (.exe) files, COM objects, registry keys, APIs, or other files that have been deprecated from previous versions of Windows may lose functionality or fail to start.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Graphical Identification and Authentication (GINA) DLL</pc>: Prior to the release of Windows Vista, independent software vendors (ISVs) were able to modify authentication by installing a GINA DLL.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Graphical Identification and Authentication (GINA) DLL</pc>: Prior to the release of Windows Vista, independent software vendors (ISVs) were able to modify authentication by installing a GINA DLL.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>The GINA DLL performed the user identification and authentication.</source>
+          <target>The GINA DLL performed the user identification and authentication.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>The current authentication model does not require the GINA DLL and ignores all previous GINA DLLs.</source>
+          <target>The current authentication model does not require the GINA DLL and ignores all previous GINA DLLs.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>This change affects any application or hardware component that attempts to log on by using customized logon applications, including biometric devices (fingerprint readers), customized user interfaces, and virtual private network (VPN) solutions for remote users with customized logon user interfaces.</source>
+          <target>This change affects any application or hardware component that attempts to log on by using customized logon applications, including biometric devices (fingerprint readers), customized user interfaces, and virtual private network (VPN) solutions for remote users with customized logon user interfaces.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Session 0</pc>: Prior to the release of Windows Vista, the first user who logged on to a computer ran in Session 0, which is the same session that is used for system services.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Session 0</pc>: Prior to the release of Windows Vista, the first user who logged on to a computer ran in Session 0, which is the same session that is used for system services.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>The current model requires all users to run in Session 1 or later so that no user runs in the same session as the system services.</source>
+          <target>The current model requires all users to run in Session 1 or later so that no user runs in the same session as the system services.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Applications will fail to start if they depend on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">interactive services</pc>.</source>
+          <target>Applications will fail to start if they depend on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">interactive services</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>An interactive service is any service that attempts to send a window message, attempts to locate a window or additional service, or attempts to run any user processes that open the same named object, unless it is a globally named object.</source>
+          <target>An interactive service is any service that attempts to send a window message, attempts to locate a window or additional service, or attempts to run any user processes that open the same named object, unless it is a globally named object.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Filtering Platform (WFP)</pc>: WFP is an API that enables developers to create code that interacts with the filtering that occurs at several layers in the networking stack and throughout the operating system.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Filtering Platform (WFP)</pc>: WFP is an API that enables developers to create code that interacts with the filtering that occurs at several layers in the networking stack and throughout the operating system.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>If you are using a previous version of the WFP API in your environment, you might experience failures when running network-scanning, antivirus, or firewall applications.</source>
+          <target>If you are using a previous version of the WFP API in your environment, you might experience failures when running network-scanning, antivirus, or firewall applications.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating System Version Changes</pc>: The operating system version number changes with each operating system release.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating System Version Changes</pc>: The operating system version number changes with each operating system release.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GetVersion</pc> function returns the version number when queried by an application.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">GetVersion</pc> function returns the version number when queried by an application.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>This change affects any application or application installer that specifically checks for the operating system version and might prevent the installation from occurring or the application from running.</source>
+          <target>This change affects any application or application installer that specifically checks for the operating system version and might prevent the installation from occurring or the application from running.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 64-bit</pc>: 64-bit versions of Windows use the Windows on Windows 64 (WOW64) emulator.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 64-bit</pc>: 64-bit versions of Windows use the Windows on Windows 64 (WOW64) emulator.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>This emulator enables the 64-bit operating system to run 32-bit applications.</source>
+          <target>This emulator enables the 64-bit operating system to run 32-bit applications.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>The use of this emulator might cause an application or a component that uses 16-bit executables or installers, or 32-bit kernel drivers, to fail to start or to function incorrectly.</source>
+          <target>The use of this emulator might cause an application or a component that uses 16-bit executables or installers, or 32-bit kernel drivers, to fail to start or to function incorrectly.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Using Compatibility Monitor to Send Feedback</source>
+          <target>Using Compatibility Monitor to Send Feedback</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

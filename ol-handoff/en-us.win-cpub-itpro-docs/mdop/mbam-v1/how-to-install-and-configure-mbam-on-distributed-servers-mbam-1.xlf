@@ -1,0 +1,1208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">mdop\mbam-v1\how-to-install-and-configure-mbam-on-distributed-servers-mbam-1.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">5d81d7c28dda3a2c255d201149c0e0d10b58b939</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>How to Install and Configure MBAM on Distributed Servers</source>
+          <target>How to Install and Configure MBAM on Distributed Servers</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>How to Install and Configure MBAM on Distributed Servers</source>
+          <target>How to Install and Configure MBAM on Distributed Servers</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>How to Install and Configure MBAM on Distributed Servers</source>
+          <target>How to Install and Configure MBAM on Distributed Servers</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>The procedures in this topic describe the full installation of the Microsoft BitLocker Administration and Monitoring (MBAM) features on distributed servers.</source>
+          <target>The procedures in this topic describe the full installation of the Microsoft BitLocker Administration and Monitoring (MBAM) features on distributed servers.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Each server feature has certain prerequisites.</source>
+          <target>Each server feature has certain prerequisites.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](mbam-10-deployment-prerequisites.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](mbam-10-supported-configurations.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To verify that you have met the prerequisites and hardware and software requirements, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM 1.0 Deployment Prerequisites</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MBAM 1.0 Supported Configurations</pc>.</source>
+          <target>To verify that you have met the prerequisites and hardware and software requirements, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM 1.0 Deployment Prerequisites</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MBAM 1.0 Supported Configurations</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>In addition, some features require that you provide certain information during the installation process to successfully deploy the feature.</source>
+          <target>In addition, some features require that you provide certain information during the installation process to successfully deploy the feature.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">&amp;lt;</data>
+          <data id="id6">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>To obtain the setup log files, you have to install MBAM by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">msiexec</pc> package and the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/l <ph dataRef="id5" id="ph1" />location<ph dataRef="id6" id="ph2" /></pc> option.</source>
+          <target>To obtain the setup log files, you have to install MBAM by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">msiexec</pc> package and the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/l <ph dataRef="id5" id="ph1" />location<ph dataRef="id6" id="ph2" /></pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Log files are created in the location that you specify.</source>
+          <target>Log files are created in the location that you specify.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Additional setup log files are created in the %temp% folder of the user that runs the MBAM installation.</source>
+          <target>Additional setup log files are created in the %temp% folder of the user that runs the MBAM installation.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Deploy the MBAM Server features</source>
+          <target>Deploy the MBAM Server features</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The following steps describe how to install the general MBAM features.</source>
+          <target>The following steps describe how to install the general MBAM features.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup on 64-bit servers.</source>
+          <target>Make sure that you use the 32-bit setup on 32-bit servers and the 64-bit setup on 64-bit servers.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>To Deploy MBAM Server features</source>
+          <target>To Deploy MBAM Server features</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Start the MBAM installation wizard, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc> at the Welcome page.</source>
+          <target>Start the MBAM installation wizard, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc> at the Welcome page.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Read and accept the Microsoft Software License Terms, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue the installation.</source>
+          <target>Read and accept the Microsoft Software License Terms, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue the installation.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>By default, all MBAM features are selected for installation.</source>
+          <target>By default, all MBAM features are selected for installation.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Clear the features that you want to install elsewhere.</source>
+          <target>Clear the features that you want to install elsewhere.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Features that you want to install on the same computer must be installed all at the same time.</source>
+          <target>Features that you want to install on the same computer must be installed all at the same time.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>MBAM features must be installed in the following order:</source>
+          <target>MBAM features must be installed in the following order:</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Recovery and Hardware Database</source>
+          <target>Recovery and Hardware Database</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Compliance and Audit Database</source>
+          <target>Compliance and Audit Database</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Compliance Audit and Reports</source>
+          <target>Compliance Audit and Reports</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Administration and Monitoring Server</source>
+          <target>Administration and Monitoring Server</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>MBAM Group Policy Template</source>
+          <target>MBAM Group Policy Template</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>The installation wizard checks the prerequisites for your installation and displays the prerequisites that are missing.</source>
+          <target>The installation wizard checks the prerequisites for your installation and displays the prerequisites that are missing.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>If all the prerequisites are met, the installation continues.</source>
+          <target>If all the prerequisites are met, the installation continues.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If a missing prerequisite is detected, you have to resolve the missing prerequisites, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Check prerequisites again</pc>.</source>
+          <target>If a missing prerequisite is detected, you have to resolve the missing prerequisites, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Check prerequisites again</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>If all prerequisites are met this time, the installation will resume.</source>
+          <target>If all prerequisites are met this time, the installation will resume.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>The MBAM Setup wizard will display the installation pages for the selected features.</source>
+          <target>The MBAM Setup wizard will display the installation pages for the selected features.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>The following sections describe the installation procedures for each feature.</source>
+          <target>The following sections describe the installation procedures for each feature.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Typically, each feature is installed on a separate server.</source>
+          <target>Typically, each feature is installed on a separate server.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>If you want to install multiple features on a single server, you may change or eliminate some of the following steps.</source>
+          <target>If you want to install multiple features on a single server, you may change or eliminate some of the following steps.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>To install the Recovery and Hardware Database</source>
+          <target>To install the Recovery and Hardware Database</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Choose an option for MBAM communication encryption.</source>
+          <target>Choose an option for MBAM communication encryption.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>MBAM can encrypt the communication between the Recovery and Hardware Database and the Administration and Monitoring servers.</source>
+          <target>MBAM can encrypt the communication between the Recovery and Hardware Database and the Administration and Monitoring servers.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>If you choose the option to encrypt communication, you are asked to select the authority-provisioned certificate that is used for encryption.</source>
+          <target>If you choose the option to encrypt communication, you are asked to select the authority-provisioned certificate that is used for encryption.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Specify the names of the computers that will be running the Administration and Monitoring Server feature, to configure access to the Recovery and Hardware Database..</source>
+          <target>Specify the names of the computers that will be running the Administration and Monitoring Server feature, to configure access to the Recovery and Hardware Database..</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Once the Administration and Monitoring Server feature is deployed, it connects to the database by using its domain account.</source>
+          <target>Once the Administration and Monitoring Server feature is deployed, it connects to the database by using its domain account.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Database Configuration</pc> for the SQL Server instance that stores the recovery and hardware data.</source>
+          <target>Specify the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Database Configuration</pc> for the SQL Server instance that stores the recovery and hardware data.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>You must also specify where the database will be located and where the log information will be located.</source>
+          <target>You must also specify where the database will be located and where the log information will be located.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue with the MBAM Setup wizard.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue with the MBAM Setup wizard.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>To install the Compliance and Audit Database</source>
+          <target>To install the Compliance and Audit Database</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Choose an option for the MBAM communication encryption.</source>
+          <target>Choose an option for the MBAM communication encryption.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>MBAM can encrypt the communication between the Compliance and Audit Database and the Administration and Monitoring servers.</source>
+          <target>MBAM can encrypt the communication between the Compliance and Audit Database and the Administration and Monitoring servers.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>If you choose the option to encrypt communication, you are asked to select the authority-provisioned certificate that will be used for encryption.</source>
+          <target>If you choose the option to encrypt communication, you are asked to select the authority-provisioned certificate that will be used for encryption.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Specify the user account that will be used to access the database for reports.</source>
+          <target>Specify the user account that will be used to access the database for reports.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Specify the computer names of the computers that you want to run the Administration and Monitoring Server and the Compliance and Audit Reports, to configure the access to the Compliance and Audit Database..</source>
+          <target>Specify the computer names of the computers that you want to run the Administration and Monitoring Server and the Compliance and Audit Reports, to configure the access to the Compliance and Audit Database..</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>After the Administration and Monitoring and the Compliance and Audit Reports Server are deployed, they will connect to the databases by using their domain accounts.</source>
+          <target>After the Administration and Monitoring and the Compliance and Audit Reports Server are deployed, they will connect to the databases by using their domain accounts.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Database Configuration</pc> for the SQL Server instance that will store the compliance and audit data.</source>
+          <target>Specify the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Database Configuration</pc> for the SQL Server instance that will store the compliance and audit data.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>You must also specify where the database will be located and where the log information will be located.</source>
+          <target>You must also specify where the database will be located and where the log information will be located.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue with the MBAM Setup wizard.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue with the MBAM Setup wizard.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>To install the Compliance and Audit Reports</source>
+          <target>To install the Compliance and Audit Reports</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Specify the remote SQL Server instance.</source>
+          <target>Specify the remote SQL Server instance.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />ServerName<ph dataRef="id4" id="ph2" /></pc>,where the Compliance and Audit Database are installed.</source>
+          <target>For example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />ServerName<ph dataRef="id4" id="ph2" /></pc>,where the Compliance and Audit Database are installed.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Specify the name of the Compliance and Audit Database.</source>
+          <target>Specify the name of the Compliance and Audit Database.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>By default, the database name is “MBAM Compliance Status”, but you can change the name when you install the Compliance and Audit Database.</source>
+          <target>By default, the database name is “MBAM Compliance Status”, but you can change the name when you install the Compliance and Audit Database.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Select the SQL Server Reporting Services instance where the Compliance and Audit Reports will be installed.</source>
+          <target>Select the SQL Server Reporting Services instance where the Compliance and Audit Reports will be installed.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Provide the username and password used to access the compliance database.</source>
+          <target>Provide the username and password used to access the compliance database.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue with the MBAM Setup wizard.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue with the MBAM Setup wizard.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>To install the Administration and Monitoring Server feature</source>
+          <target>To install the Administration and Monitoring Server feature</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Choose an option for the MBAM communication encryption.</source>
+          <target>Choose an option for the MBAM communication encryption.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>MBAM can encrypt the communication between the Recovery and Hardware Database and the Administration and Monitoring servers.</source>
+          <target>MBAM can encrypt the communication between the Recovery and Hardware Database and the Administration and Monitoring servers.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>If you choose the option to encrypt communication, you are asked to select the authority-provisioned certificate that is used for encryption.</source>
+          <target>If you choose the option to encrypt communication, you are asked to select the authority-provisioned certificate that is used for encryption.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify the remote SQL Server instance, For example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />ServerName<ph dataRef="id4" id="ph2" /></pc>, where the Compliance and Audit Database are installed.</source>
+          <target>Specify the remote SQL Server instance, For example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />ServerName<ph dataRef="id4" id="ph2" /></pc>, where the Compliance and Audit Database are installed.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Specify the name of the Compliance and Audit Database.</source>
+          <target>Specify the name of the Compliance and Audit Database.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>By default, the database name is MBAM Compliance Status, but, you can change the name when you install the Compliance and Audit Database.</source>
+          <target>By default, the database name is MBAM Compliance Status, but, you can change the name when you install the Compliance and Audit Database.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Specify the remote SQL Server instance.</source>
+          <target>Specify the remote SQL Server instance.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />ServerName<ph dataRef="id4" id="ph2" /></pc>,where the Recovery and Hardware Database are installed.</source>
+          <target>For example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />ServerName<ph dataRef="id4" id="ph2" /></pc>,where the Recovery and Hardware Database are installed.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Specify the name of the Recovery and Hardware Database.</source>
+          <target>Specify the name of the Recovery and Hardware Database.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>By default, the database name is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM Recovery and Hardware</pc>, but you can change the name when you install the Recovery and Hardware Database feature.</source>
+          <target>By default, the database name is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM Recovery and Hardware</pc>, but you can change the name when you install the Recovery and Hardware Database feature.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Specify the URL for the “Home” of the SQL Server Reporting Services (SRS) site.</source>
+          <target>Specify the URL for the “Home” of the SQL Server Reporting Services (SRS) site.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>The default Home location of a SQL Server Reporting Services site instance is at:</source>
+          <target>The default Home location of a SQL Server Reporting Services site instance is at:</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;/</data>
+        </originalData>
+        <segment state="initial">
+          <source>http://<pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />NameofMBAMReportsServer<ph dataRef="id4" id="ph2" /></pc>ReportServer</source>
+          <target>http://<pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />NameofMBAMReportsServer<ph dataRef="id4" id="ph2" /></pc>ReportServer</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+          <data id="id5">\_</data>
+          <data id="id6">*</data>
+          <data id="id7">*</data>
+          <data id="id8">&amp;lt;</data>
+          <data id="id9">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you configured the SQL Server Reporting Services as a named instance, the URL resembles the following:http://<pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />NameofMBAMReportsServer<ph dataRef="id4" id="ph2" /></pc>/ReportServer<ph dataRef="id5" id="ph3" /><pc dataRefEnd="id7" dataRefStart="id6" id="p2"><ph dataRef="id8" id="ph4" />SRSInstanceName<ph dataRef="id9" id="ph5" /></pc></source>
+          <target>If you configured the SQL Server Reporting Services as a named instance, the URL resembles the following:http://<pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />NameofMBAMReportsServer<ph dataRef="id4" id="ph2" /></pc>/ReportServer<ph dataRef="id5" id="ph3" /><pc dataRefEnd="id7" dataRefStart="id6" id="p2"><ph dataRef="id8" id="ph4" />SRSInstanceName<ph dataRef="id9" id="ph5" /></pc></target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Port Number</pc>, the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Host Name</pc> (optional), and the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Installation Path</pc> for the MBAM Administration and Monitoring server</source>
+          <target>Enter the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Port Number</pc>, the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Host Name</pc> (optional), and the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Installation Path</pc> for the MBAM Administration and Monitoring server</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Warning</source>
+          <target>Warning</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>The port number that you specify must be an unused port number on the Administration and Monitoring server, unless you specify a unique host header name.</source>
+          <target>The port number that you specify must be an unused port number on the Administration and Monitoring server, unless you specify a unique host header name.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue with the MBAM Setup wizard.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to continue with the MBAM Setup wizard.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify whether to use Microsoft Updates to help keep your computer secure, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Specify whether to use Microsoft Updates to help keep your computer secure, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>When the selected MBAM feature information is complete, you are ready to start the MBAM installation by using the Setup wizard.</source>
+          <target>When the selected MBAM feature information is complete, you are ready to start the MBAM installation by using the Setup wizard.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Back</pc> to move through the wizard if you have to review or change your installation settings.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Back</pc> to move through the wizard if you have to review or change your installation settings.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc> to begin the installation.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc> to begin the installation.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cancel</pc> to exit the Wizard.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cancel</pc> to exit the Wizard.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Setup installs the MBAM features that you selected and notifies you that the installation is finished.</source>
+          <target>Setup installs the MBAM features that you selected and notifies you that the installation is finished.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc> to exit the wizard.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc> to exit the wizard.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Add users to appropriate MBAM roles, after the MBAM server features are installed..</source>
+          <target>Add users to appropriate MBAM roles, after the MBAM server features are installed..</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](planning-for-mbam-10-administrator-roles.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning for MBAM 1.0 Administrator Roles</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Planning for MBAM 1.0 Administrator Roles</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Post-installation configuration</source>
+          <target>Post-installation configuration</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>After MBAM Setup is finished, you must add user Roles before users can access to features in the MBAM administration website.</source>
+          <target>After MBAM Setup is finished, you must add user Roles before users can access to features in the MBAM administration website.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>On the Administration and Monitoring Server, add users to the following local groups.</source>
+          <target>On the Administration and Monitoring Server, add users to the following local groups.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM Hardware Users</pc>: Members of this local group can access the Hardware feature in the MBAM administration website.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM Hardware Users</pc>: Members of this local group can access the Hardware feature in the MBAM administration website.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM Helpdesk Users</pc>: Members of this local group can access the Drive Recovery and Manage Trusted Platform Modules (TPM) features in the MBAM administration website.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM Helpdesk Users</pc>: Members of this local group can access the Drive Recovery and Manage Trusted Platform Modules (TPM) features in the MBAM administration website.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>All fields in Drive Recovery and Manage TPM are required fields for a Helpdesk User.</source>
+          <target>All fields in Drive Recovery and Manage TPM are required fields for a Helpdesk User.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM Advanced Helpdesk Users</pc>: Members of this local group have advanced access to the Drive Recovery and Manage TPM features in the MBAM administration website.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM Advanced Helpdesk Users</pc>: Members of this local group have advanced access to the Drive Recovery and Manage TPM features in the MBAM administration website.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>For Advanced Helpdesk Users, only the Key ID field is required in Drive Recovery.</source>
+          <target>For Advanced Helpdesk Users, only the Key ID field is required in Drive Recovery.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>In Manage TPM, only the Computer Domain field and Computer Name field are required.</source>
+          <target>In Manage TPM, only the Computer Domain field and Computer Name field are required.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>On the Administration and Monitoring Server, Compliance and Audit Database, and on the server that hosts the Compliance and Audit Reports, add users to the following local group to give them access to the Reports feature in the MBAM administration website.</source>
+          <target>On the Administration and Monitoring Server, Compliance and Audit Database, and on the server that hosts the Compliance and Audit Reports, add users to the following local group to give them access to the Reports feature in the MBAM administration website.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM Report Users</pc>: Members of this local group can access the Reports in the MBAM administration website.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM Report Users</pc>: Members of this local group can access the Reports in the MBAM administration website.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Identical user or group membership of the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM Report Users</pc> local group must be maintained on all computers where the MBAM Administration and Monitoring Server features, Compliance and Audit Database, and the Compliance and Audit Reports are installed.</source>
+          <target>Identical user or group membership of the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM Report Users</pc> local group must be maintained on all computers where the MBAM Administration and Monitoring Server features, Compliance and Audit Database, and the Compliance and Audit Reports are installed.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Validate the MBAM Server feature installation</source>
+          <target>Validate the MBAM Server feature installation</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>When the MBAM Server feature installation is complete, you should validate that the installation has successfully set up all the necessary features for MBAM.</source>
+          <target>When the MBAM Server feature installation is complete, you should validate that the installation has successfully set up all the necessary features for MBAM.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Use the following procedure to confirm that the MBAM service is functional.</source>
+          <target>Use the following procedure to confirm that the MBAM service is functional.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>To validate an MBAM installation</source>
+          <target>To validate an MBAM installation</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On each server, where an MBAM feature is deployed, open <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Control Panel</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Programs</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Programs and Features</pc>.</source>
+          <target>On each server, where an MBAM feature is deployed, open <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Control Panel</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Programs</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Programs and Features</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Verify that <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft BitLocker Administration and Monitoring</pc> appears in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Programs and Features</pc> list.</source>
+          <target>Verify that <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft BitLocker Administration and Monitoring</pc> appears in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Programs and Features</pc> list.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>To validate the MBAM installation, you must use a Domain Account that has local computer administrative credentials on each server.</source>
+          <target>To validate the MBAM installation, you must use a Domain Account that has local computer administrative credentials on each server.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the server where the Recovery and Hardware Database is installed, open SQL Server Management Studio and verify that the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM Recovery and Hardware</pc> database is installed.</source>
+          <target>On the server where the Recovery and Hardware Database is installed, open SQL Server Management Studio and verify that the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM Recovery and Hardware</pc> database is installed.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the server where the Compliance and Audit Database is installed, open SQL Server Management Studio and verify that the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM Compliance Status</pc> database is installed.</source>
+          <target>On the server where the Compliance and Audit Database is installed, open SQL Server Management Studio and verify that the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAM Compliance Status</pc> database is installed.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>On the server where the Compliance and Audit Reports are installed, open a web browser with administrative privileges and browse to the “Home” of the SQL Server Reporting Services site.</source>
+          <target>On the server where the Compliance and Audit Reports are installed, open a web browser with administrative privileges and browse to the “Home” of the SQL Server Reporting Services site.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The default Home location of a SQL Server Reporting Services site instance can be found at http://<pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />NameofMBAMReportsServer<ph dataRef="id4" id="ph2" /></pc>/Reports.aspx.</source>
+          <target>The default Home location of a SQL Server Reporting Services site instance can be found at http://<pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />NameofMBAMReportsServer<ph dataRef="id4" id="ph2" /></pc>/Reports.aspx.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>To find the actual URL, use the Reporting Services Configuration Manager tool and select the instances specified during setup.</source>
+          <target>To find the actual URL, use the Reporting Services Configuration Manager tool and select the instances specified during setup.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Confirm that a folder named <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Malta Compliance Reports</pc> is listed and that it contains five reports and one data source.</source>
+          <target>Confirm that a folder named <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Malta Compliance Reports</pc> is listed and that it contains five reports and one data source.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+          <data id="id5">\_</data>
+          <data id="id6">*</data>
+          <data id="id7">*</data>
+          <data id="id8">&amp;lt;</data>
+          <data id="id9">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If SQL Server Reporting Services was configured as a named instance, the URL should resemble the following:http://<pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />NameofMBAMReportsServer<ph dataRef="id4" id="ph2" /></pc>/Reports<ph dataRef="id5" id="ph3" /><pc dataRefEnd="id7" dataRefStart="id6" id="p2"><ph dataRef="id8" id="ph4" />SRSInstanceName<ph dataRef="id9" id="ph5" /></pc></source>
+          <target>If SQL Server Reporting Services was configured as a named instance, the URL should resemble the following:http://<pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />NameofMBAMReportsServer<ph dataRef="id4" id="ph2" /></pc>/Reports<ph dataRef="id5" id="ph3" /><pc dataRefEnd="id7" dataRefStart="id6" id="p2"><ph dataRef="id8" id="ph4" />SRSInstanceName<ph dataRef="id9" id="ph5" /></pc></target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the server where the Administration and Monitoring feature is installed, run <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Server Manager</pc> and browse to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Roles</pc>, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Web Server (IIS)</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Internet Information Services (IIS) Manager</pc>.</source>
+          <target>On the server where the Administration and Monitoring feature is installed, run <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Server Manager</pc> and browse to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Roles</pc>, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Web Server (IIS)</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Internet Information Services (IIS) Manager</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">*</data>
+          <data id="id4">*</data>
+          <data id="id5">&amp;lt;</data>
+          <data id="id6">&amp;gt;</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Connections</pc> browse to <pc dataRefEnd="id4" dataRefStart="id3" id="p2"><ph dataRef="id5" id="ph1" />computername<ph dataRef="id6" id="ph2" /></pc>, click <pc dataRefEnd="id8" dataRefStart="id7" id="p3">Sites</pc>, and click <pc dataRefEnd="id10" dataRefStart="id9" id="p4">Microsoft BitLocker Administration and Monitoring</pc>.</source>
+          <target>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Connections</pc> browse to <pc dataRefEnd="id4" dataRefStart="id3" id="p2"><ph dataRef="id5" id="ph1" />computername<ph dataRef="id6" id="ph2" /></pc>, click <pc dataRefEnd="id8" dataRefStart="id7" id="p3">Sites</pc>, and click <pc dataRefEnd="id10" dataRefStart="id9" id="p4">Microsoft BitLocker Administration and Monitoring</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Verify that <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAMAdministrationService</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MBAMComplianceStatusService</pc>, and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">MBAMRecoveryAndHardwareService</pc> are listed.</source>
+          <target>Verify that <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBAMAdministrationService</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MBAMComplianceStatusService</pc>, and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">MBAMRecoveryAndHardwareService</pc> are listed.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>On the server where the Administration and Monitoring feature is installed, open a web browser with administrative privileges and browse to the following locations in the MBAM web site, to verify that they load successfully:</source>
+          <target>On the server where the Administration and Monitoring feature is installed, open a web browser with administrative privileges and browse to the following locations in the MBAM web site, to verify that they load successfully:</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://<ph dataRef="id3" id="ph1" />computername<ph dataRef="id4" id="ph2" />/default.aspx</pc> and confirm each of the links for navigation and reports</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://<ph dataRef="id3" id="ph1" />computername<ph dataRef="id4" id="ph2" />/default.aspx</pc> and confirm each of the links for navigation and reports</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>http://<ph dataRef="id1" id="ph1" />computername<ph dataRef="id2" id="ph2" />/MBAMAdministrationService/AdministrationService.svc</source>
+          <target>http://<ph dataRef="id1" id="ph1" />computername<ph dataRef="id2" id="ph2" />/MBAMAdministrationService/AdministrationService.svc</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>http://<ph dataRef="id1" id="ph1" />computername<ph dataRef="id2" id="ph2" />/MBAMComplianceStatusService/StatusReportingService.svc</source>
+          <target>http://<ph dataRef="id1" id="ph1" />computername<ph dataRef="id2" id="ph2" />/MBAMComplianceStatusService/StatusReportingService.svc</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>http://<ph dataRef="id1" id="ph1" />computername<ph dataRef="id2" id="ph2" />/MBAMRecoveryAndHardwareService/CoreService.svc</source>
+          <target>http://<ph dataRef="id1" id="ph1" />computername<ph dataRef="id2" id="ph2" />/MBAMRecoveryAndHardwareService/CoreService.svc</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>Typically, services are installed on the default port 80 without network encryption.</source>
+          <target>Typically, services are installed on the default port 80 without network encryption.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>If the services are installed on a different port, change the URLs to include the appropriate port.</source>
+          <target>If the services are installed on a different port, change the URLs to include the appropriate port.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+          <data id="id5">&amp;lt;</data>
+          <data id="id6">&amp;gt;</data>
+          <data id="id7">*</data>
+          <data id="id8">*</data>
+          <data id="id9">&amp;lt;</data>
+          <data id="id10">&amp;gt;/</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, http://<pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />computername<ph dataRef="id4" id="ph2" />:<ph dataRef="id5" id="ph3" />port<ph dataRef="id6" id="ph4" /></pc>/default.aspx or http://<pc dataRefEnd="id8" dataRefStart="id7" id="p2"><ph dataRef="id9" id="ph5" />hostheadername<ph dataRef="id10" id="ph6" /></pc>default.aspx</source>
+          <target>For example, http://<pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />computername<ph dataRef="id4" id="ph2" />:<ph dataRef="id5" id="ph3" />port<ph dataRef="id6" id="ph4" /></pc>/default.aspx or http://<pc dataRefEnd="id8" dataRefStart="id7" id="p2"><ph dataRef="id9" id="ph5" />hostheadername<ph dataRef="id10" id="ph6" /></pc>default.aspx</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>If the services were installed with network encryption, change http:// to https://.</source>
+          <target>If the services were installed with network encryption, change http:// to https://.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>Verify that each web page loads successfully.</source>
+          <target>Verify that each web page loads successfully.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Deploying the MBAM 1.0 Server Infrastructure</source>
+          <target>Deploying the MBAM 1.0 Server Infrastructure</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

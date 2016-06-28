@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">windows\keep-secure\ad-ds-schema-extensions-to-support-tpm-backup.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">ff604158c050c1f2f0e0acaf5a3a11c3cbeb5fbb</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>AD DS schema extensions to support TPM backup (Windows 10)</source>
+          <target>AD DS schema extensions to support TPM backup (Windows 10)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>This topic provides more details about this change and provides template schema extensions that you can incorporate into your organization.</source>
+          <target>This topic provides more details about this change and provides template schema extensions that you can incorporate into your organization.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>AD DS schema extensions to support TPM backup</source>
+          <target>AD DS schema extensions to support TPM backup</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Applies to</source>
+          <target>Applies to</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This topic provides more details about this change and provides template schema extensions that you can incorporate into your organization.</source>
+          <target>This topic provides more details about this change and provides template schema extensions that you can incorporate into your organization.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Why a schema extension is needed</source>
+          <target>Why a schema extension is needed</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The TPM owner authorization value is now stored in a separate object which is linked to the Computer object.</source>
+          <target>The TPM owner authorization value is now stored in a separate object which is linked to the Computer object.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>This value was stored as a property in the Computer object itself for the default Windows Server 2008 R2 schemas.</source>
+          <target>This value was stored as a property in the Computer object itself for the default Windows Server 2008 R2 schemas.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Windows Server 2012 domain controllers have the default schema to backup TPM owner authorization information in the separate object.</source>
+          <target>Windows Server 2012 domain controllers have the default schema to backup TPM owner authorization information in the separate object.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>If you are not upgrading your domain controller to Windows Server 2012 you need to extend the schema to support this change.</source>
+          <target>If you are not upgrading your domain controller to Windows Server 2012 you need to extend the schema to support this change.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>If Active Directory backup of the TPM owner authorization value is enabled in a Windows Server 2008 R2 environment without extending the schema, the TPM provisioning will fail and the TPM will remain in a Not Ready state for computers running Windows 8.</source>
+          <target>If Active Directory backup of the TPM owner authorization value is enabled in a Windows Server 2008 R2 environment without extending the schema, the TPM provisioning will fail and the TPM will remain in a Not Ready state for computers running Windows 8.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The following are the two schema extensions that you can use to bring your Windows Server 2008 R2 domain to parity with Windows Server 2012:</source>
+          <target>The following are the two schema extensions that you can use to bring your Windows Server 2008 R2 domain to parity with Windows Server 2012:</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>TpmSchemaExtension.ldf</source>
+          <target>TpmSchemaExtension.ldf</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>This schema extension brings parity with the Windows Server 2012 schema and is required if you want to store the TPM owner authorization value for a computer running Windows 8 in a Windows Server 2008 R2 AD DS domain.</source>
+          <target>This schema extension brings parity with the Windows Server 2012 schema and is required if you want to store the TPM owner authorization value for a computer running Windows 8 in a Windows Server 2008 R2 AD DS domain.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>With this extension the TPM owner authorization information will be stored in a separate TPM object linked to the corresponding computer object.</source>
+          <target>With this extension the TPM owner authorization information will be stored in a separate TPM object linked to the corresponding computer object.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>You should be aware that only the Computer object that has created the TPM object can update it.</source>
+          <target>You should be aware that only the Computer object that has created the TPM object can update it.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>This means that any subsequent updates to the TPM objects will not succeed in dual boot scenarios or scenarios where the computer is reimaged resulting in a new AD computer object being created.</source>
+          <target>This means that any subsequent updates to the TPM objects will not succeed in dual boot scenarios or scenarios where the computer is reimaged resulting in a new AD computer object being created.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>If you are planning to support such scenarios, you will need to update the schema further as shown in the schema extension example, TpmSchemaExtensionACLChanges.ldf.</source>
+          <target>If you are planning to support such scenarios, you will need to update the schema further as shown in the schema extension example, TpmSchemaExtensionACLChanges.ldf.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>TpmSchemaExtensionACLChanges.ldf</source>
+          <target>TpmSchemaExtensionACLChanges.ldf</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>This schema update modifies the ACLs on the TPM object to be less restrictive so that any subsequent operating system which takes ownership of the computer object can update the owner authorization value in AD DS.</source>
+          <target>This schema update modifies the ACLs on the TPM object to be less restrictive so that any subsequent operating system which takes ownership of the computer object can update the owner authorization value in AD DS.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>  After implementing this schema update, any computer in the domain can update the OwnerAuth of the TPM object (although it cannot read the OwnerAuth).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>  After implementing this schema update, any computer in the domain can update the OwnerAuth of the TPM object (although it cannot read the OwnerAuth).</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>When using this extension, perform a regular backup of the TPM objects and enable auditing to track the changes for these objects.</source>
+          <target>When using this extension, perform a regular backup of the TPM objects and enable auditing to track the changes for these objects.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>
