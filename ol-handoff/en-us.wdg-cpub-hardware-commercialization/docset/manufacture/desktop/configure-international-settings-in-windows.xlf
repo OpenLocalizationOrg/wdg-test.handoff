@@ -1,0 +1,860 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\configure-international-settings-in-windows.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">97c25d1816fe86f58660e03f2586514b8eb625b1</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Configure International Settings in Windows</source>
+          <target>Configure International Settings in Windows</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Configure International Settings in Windows</source>
+          <target>Configure International Settings in Windows</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Configure International Settings in Windows</source>
+          <target>Configure International Settings in Windows</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>You can specify the default language, locale, and keyboard values during deployment or after Windows is installed.</source>
+          <target>You can specify the default language, locale, and keyboard values during deployment or after Windows is installed.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>You can configure international settings by using the International module for Windows PowerShell, by using an answer file with Windows Setup, or by using Deployment Imaging Servicing and Management (DISM).</source>
+          <target>You can configure international settings by using the International module for Windows PowerShell, by using an answer file with Windows Setup, or by using Deployment Imaging Servicing and Management (DISM).</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](dism-languages-and-international-servicing-command-line-options.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about using DISM to configure international settings in an offline Windows image, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Languages and International Servicing Command-Line Options</pc>.</source>
+          <target>For information about using DISM to configure international settings in an offline Windows image, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Languages and International Servicing Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>In Windows 10, the intl.cpl command line tools do not support the new settings available in the Region and Language section of Control Panel.</source>
+          <target>In Windows 10, the intl.cpl command line tools do not support the new settings available in the Region and Language section of Control Panel.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>For Windows 10, we recommend using the International Windows PowerShell cmdlet settings to automate customizing international settings.</source>
+          <target>For Windows 10, we recommend using the International Windows PowerShell cmdlet settings to automate customizing international settings.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>In addition, Deployment Imaging Servicing and Management (DISM) should also only be used against an offline Windows image.</source>
+          <target>In addition, Deployment Imaging Servicing and Management (DISM) should also only be used against an offline Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>In Windows 10, language settings are dynamically configured based on the user’s language list.</source>
+          <target>In Windows 10, language settings are dynamically configured based on the user’s language list.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Individual settings, such as the display language, default input method, and user locale may be reset dynamically based on user preferences on a running Windows installation.</source>
+          <target>Individual settings, such as the display language, default input method, and user locale may be reset dynamically based on user preferences on a running Windows installation.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Use the International PowerShell cmdlet settings to change the international settings of a running Windows installation.</source>
+          <target>Use the International PowerShell cmdlet settings to change the international settings of a running Windows installation.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Configure international settings by using Winbows PowerShell</source>
+          <target>Configure international settings by using Winbows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>In Windows 10, you can use the International Settings Windows PowerShell cmdlets to change the language on a running Windows installation.</source>
+          <target>In Windows 10, you can use the International Settings Windows PowerShell cmdlets to change the language on a running Windows installation.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Open a Windows PowerShell prompt.</source>
+          <target>Open a Windows PowerShell prompt.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Display the locale information on the computer by running the following command:</source>
+          <target>Display the locale information on the computer by running the following command:</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Set the locale for the region and language that you want.</source>
+          <target>Set the locale for the region and language that you want.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>For example, the following command sets the system locale to Japanese (Japan):</source>
+          <target>For example, the following command sets the system locale to Japanese (Japan):</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?linkid=242247)</data>
+          <data id="id3">[</data>
+          <data id="id4">](http://go.microsoft.com/fwlink/p/?linkid=242254)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For a full description of these cmdlets, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-WinSystemLocale</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Set-WinSystemLocale</pc>.</source>
+          <target>For a full description of these cmdlets, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-WinSystemLocale</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Set-WinSystemLocale</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?linkid=238265)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about using International PowerShell cmdlets, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">International Settings Cmdlets</pc>.</source>
+          <target>For more information about using International PowerShell cmdlets, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">International Settings Cmdlets</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Configure international settings by using Control Panel</source>
+          <target>Configure international settings by using Control Panel</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>On a running Windows installation, you can use Control Panel to select language packs and configure additional international settings.</source>
+          <target>On a running Windows installation, you can use Control Panel to select language packs and configure additional international settings.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the Start page, type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">language</pc>, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add a language</pc>.</source>
+          <target>On the Start page, type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">language</pc>, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add a language</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Browse or search for the language that you want to install.</source>
+          <target>Browse or search for the language that you want to install.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Catalan</pc>, and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc>.</source>
+          <target>For example, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Catalan</pc>, and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Catalan is now added as one of your languages.</source>
+          <target>Catalan is now added as one of your languages.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Change your language preferences</pc> pane, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Options</pc> next to the language that you added.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Change your language preferences</pc> pane, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Options</pc> next to the language that you added.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If a language pack is available for your language, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Download and install language pack</pc>.</source>
+          <target>If a language pack is available for your language, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Download and install language pack</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>When the language pack is installed, the language is displayed as available to use for the Windows display language.</source>
+          <target>When the language pack is installed, the language is displayed as available to use for the Windows display language.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>To make this language your display language, move it to the top of your language list.</source>
+          <target>To make this language your display language, move it to the top of your language list.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Log off and then log back on to Windows for the change to take effect.</source>
+          <target>Log off and then log back on to Windows for the change to take effect.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Installing many additional language packs affects disk space and system performance.</source>
+          <target>Installing many additional language packs affects disk space and system performance.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>In particular, disk space and system performance are affected during servicing operations, such as service pack installations.</source>
+          <target>In particular, disk space and system performance are affected during servicing operations, such as service pack installations.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Therefore, we recommend that you add a language pack to your computer only if you plan to use the language pack.</source>
+          <target>Therefore, we recommend that you add a language pack to your computer only if you plan to use the language pack.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Language packs also let multiple users who share a computer select distinct display languages.</source>
+          <target>Language packs also let multiple users who share a computer select distinct display languages.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>For example, one user can select to see the dialog boxes, menus, and other text in Japanese, whereas another user can select to see the same content in French.</source>
+          <target>For example, one user can select to see the dialog boxes, menus, and other text in Japanese, whereas another user can select to see the same content in French.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Configure international settings by using DISM</source>
+          <target>Configure international settings by using DISM</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>You can use Deployment Imaging Servicing and Management (DISM) to change the international settings against an offline Windows image</source>
+          <target>You can use Deployment Imaging Servicing and Management (DISM) to change the international settings against an offline Windows image</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Mount a Windows image.</source>
+          <target>Mount a Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>For example,</source>
+          <target>For example,</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Get the language settings that are configured in the Windows image by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Get-Intl</pc> parameter.</source>
+          <target>Get the language settings that are configured in the Windows image by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Get-Intl</pc> parameter.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>For example</source>
+          <target>For example</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Change the default language, locale, and other international settings by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/set-allInlt</pc> parameter.</source>
+          <target>Change the default language, locale, and other international settings by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/set-allInlt</pc> parameter.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](dism-languages-and-international-servicing-command-line-options.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For additional parameters and other options, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Languages and International Servicing Command-Line Options</pc>.</source>
+          <target>For additional parameters and other options, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Languages and International Servicing Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Configure international settings by using an answer file</source>
+          <target>Configure international settings by using an answer file</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>You can configure international settings in an answer file in the following ways:</source>
+          <target>You can configure international settings in an answer file in the following ways:</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Language Packs are installed from a distribution share and settings are configured installed during <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WindowsPE</pc> configuration pass.</source>
+          <target>Language Packs are installed from a distribution share and settings are configured installed during <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WindowsPE</pc> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Corporations that deploy a multilingual edition of Windows typically create an answer file that configures international settings during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WindowsPE</pc> configuration pass.</source>
+          <target>Corporations that deploy a multilingual edition of Windows typically create an answer file that configures international settings during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WindowsPE</pc> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>For multilingual deployments, language packs can exist in both a distribution share and in the image.</source>
+          <target>For multilingual deployments, language packs can exist in both a distribution share and in the image.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can add and configure Language packs from the distribution share during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WindowsPE</pc> configuration pass, or you can add these Language pa cks during the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">WindowsPE</pc> configuration pass and configure the settings in another configuration pass.</source>
+          <target>You can add and configure Language packs from the distribution share during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WindowsPE</pc> configuration pass, or you can add these Language pa cks during the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">WindowsPE</pc> configuration pass and configure the settings in another configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The Microsoft-Windows-International-Core-WinPE component includes the settings that you can use to modify the language and locale settings during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass.</source>
+          <target>The Microsoft-Windows-International-Core-WinPE component includes the settings that you can use to modify the language and locale settings during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Additionally, you can change the Setup UI language for Windows Setup by specifying values in this component.</source>
+          <target>Additionally, you can change the Setup UI language for Windows Setup by specifying values in this component.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Language packs are installed to the Windows image and settings are configured during <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">oobesystem</pc> configuration passes.</source>
+          <target>Language packs are installed to the Windows image and settings are configured during <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">oobesystem</pc> configuration passes.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>OEMs and corporations that deploy a single-language edition of Windows to various regions typically create an answer file for each region and set the locale and keyboard settings in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> configuration pass.</source>
+          <target>OEMs and corporations that deploy a single-language edition of Windows to various regions typically create an answer file for each region and set the locale and keyboard settings in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>In this scenario, the language pack is added to the Windows image before international settings are configured.</source>
+          <target>In this scenario, the language pack is added to the Windows image before international settings are configured.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The Microsoft-Windows-International-Core component includes the settings that you can use to modify the language and locale settings during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">oobeSystem</pc> configuration passes.</source>
+          <target>The Microsoft-Windows-International-Core component includes the settings that you can use to modify the language and locale settings during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">oobeSystem</pc> configuration passes.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can pre-select a language and skip the Windows Welcome language selection UI page for users by specifying language and locale settings in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> configuration pass in the Microsoft-Windows-International-Core component.</source>
+          <target>You can pre-select a language and skip the Windows Welcome language selection UI page for users by specifying language and locale settings in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> configuration pass in the Microsoft-Windows-International-Core component.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>In general, a user can choose between the default Setup language and any additional languages that are installed in the image.</source>
+          <target>In general, a user can choose between the default Setup language and any additional languages that are installed in the image.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>The selection of the language will update the other regional settings to the default values that are associated with that language.</source>
+          <target>The selection of the language will update the other regional settings to the default values that are associated with that language.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>The user can then individually change the default settings.</source>
+          <target>The user can then individually change the default settings.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>To configure international settings during the Windows PE configuration pass</source>
+          <target>To configure international settings during the Windows PE configuration pass</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Verify that the necessary language packs are available in the image or in a Windows distribution share.</source>
+          <target>Verify that the necessary language packs are available in the image or in a Windows distribution share.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](add-multilingual-support-to-a-windows-distribution.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about multilingual distribution shares, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Multilingual Support to a Windows Distribution</pc>.</source>
+          <target>For more information about multilingual distribution shares, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Multilingual Support to a Windows Distribution</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Open Windows System Image Manager (Windows SIM) and create an answer file.</source>
+          <target>Open Windows System Image Manager (Windows SIM) and create an answer file.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn915085)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create or Open an Answer File</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create or Open an Answer File</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add the Microsoft-Windows-International-Core-WinPE component to the answer file to apply settings during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass.</source>
+          <target>Add the Microsoft-Windows-International-Core-WinPE component to the answer file to apply settings during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Configure international settings in the Microsoft-Windows-International-Core-WinPE component.</source>
+          <target>Configure international settings in the Microsoft-Windows-International-Core-WinPE component.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, if the Spanish language pack is available in the distribution share, you can add <pc dataRefEnd="id2" dataRefStart="id1" id="p1">es-ES</pc> values to the component settings in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">windowsPE</pc> configuration pass.</source>
+          <target>For example, if the Spanish language pack is available in the distribution share, you can add <pc dataRefEnd="id2" dataRefStart="id1" id="p1">es-ES</pc> values to the component settings in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">windowsPE</pc> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Most system locales require a restart.</source>
+          <target>Most system locales require a restart.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you configure your locale settings during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass, the computer will automatically restart.</source>
+          <target>When you configure your locale settings during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass, the computer will automatically restart.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Additional restarts are not required.</source>
+          <target>Additional restarts are not required.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>For more information about these settings, see the Microsoft-Windows-International-Core-WinPE components in the Windows® Unattended Setup Reference.</source>
+          <target>For more information about these settings, see the Microsoft-Windows-International-Core-WinPE components in the Windows® Unattended Setup Reference.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Save the answer file and close Windows SIM.</source>
+          <target>Save the answer file and close Windows SIM.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>The language pack in the distribution share will be automatically added and the international settings will be applied when you run Windows Setup and specify this answer file.</source>
+          <target>The language pack in the distribution share will be automatically added and the international settings will be applied when you run Windows Setup and specify this answer file.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>To configure international settings during the specialize configuration pass</source>
+          <target>To configure international settings during the specialize configuration pass</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Verify that the necessary language packs are available in the image.</source>
+          <target>Verify that the necessary language packs are available in the image.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](add-and-remove-language-packs-offline-using-dism.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to add a language pack offline, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add and Remove Language Packs Offline Using DISM</pc>.</source>
+          <target>For more information about how to add a language pack offline, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add and Remove Language Packs Offline Using DISM</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn915066)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to add a language pack using an answer file, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add a Package to an Answer File</pc>.</source>
+          <target>For more information about how to add a language pack using an answer file, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add a Package to an Answer File</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Open Windows SIM and create a new answer file.</source>
+          <target>Open Windows SIM and create a new answer file.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn915085)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create or Open an Answer File</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create or Open an Answer File</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add the Microsoft-Windows-International-Core component to apply settings during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">oobeSystem</pc> configuration passes.</source>
+          <target>Add the Microsoft-Windows-International-Core component to apply settings during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">oobeSystem</pc> configuration passes.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Most system locales require a restart.</source>
+          <target>Most system locales require a restart.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you process language settings during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">oobeSystem</pc> configuration passes, the computer might require an additional restart.</source>
+          <target>When you process language settings during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">oobeSystem</pc> configuration passes, the computer might require an additional restart.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Edit the settings for the Microsoft-Windows-International-Core component to configure international settings for a specific region.</source>
+          <target>Edit the settings for the Microsoft-Windows-International-Core component to configure international settings for a specific region.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, you can add <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EN-US</pc> values to the Microsoft-Windows-International-Core settings in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">specialize</pc> configuration pass.</source>
+          <target>For example, you can add <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EN-US</pc> values to the Microsoft-Windows-International-Core settings in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">specialize</pc> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can also pre-select a language and specify language and locale settings in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> configuration pass in the Microsoft-Windows-International-Core component.</source>
+          <target>You can also pre-select a language and specify language and locale settings in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> configuration pass in the Microsoft-Windows-International-Core component.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>When you do this, the Windows Welcome language selection UI page will be skipped when the users boot to Windows Welcome.</source>
+          <target>When you do this, the Windows Welcome language selection UI page will be skipped when the users boot to Windows Welcome.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>In general the user can select between the default Setup language and any additional languages that are installed in the image.</source>
+          <target>In general the user can select between the default Setup language and any additional languages that are installed in the image.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>The selection of the language will update the other regional settings to the default values associated with that language.</source>
+          <target>The selection of the language will update the other regional settings to the default values associated with that language.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>The user can then change these default settings individually.</source>
+          <target>The user can then change these default settings individually.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>For more information about these settings, see the Microsoft-Windows-International-Core component in the Windows® Unattended Setup Reference.</source>
+          <target>For more information about these settings, see the Microsoft-Windows-International-Core component in the Windows® Unattended Setup Reference.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Save the answer file and close Windows SIM.</source>
+          <target>Save the answer file and close Windows SIM.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>When you run Windows Setup specifying this answer file, the regional settings that you specified in the answer file will be applied.</source>
+          <target>When you run Windows Setup specifying this answer file, the regional settings that you specified in the answer file will be applied.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>To change international settings in separate configuration passes in the same answer file:</source>
+          <target>To change international settings in separate configuration passes in the same answer file:</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Create multiple sections in an answer file that will process different language settings during different phases of Windows installation.</source>
+          <target>Create multiple sections in an answer file that will process different language settings during different phases of Windows installation.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>This enables you to configure multiple language settings in an answer file by specifying different settings to be processed in different configuration passes.</source>
+          <target>This enables you to configure multiple language settings in an answer file by specifying different settings to be processed in different configuration passes.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](how-configuration-passes-work.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How Configuration Passes Work</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How Configuration Passes Work</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, you can create language and locale settings in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass with the Microsoft-Windows-International-Core-WinPE component.</source>
+          <target>For example, you can create language and locale settings in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass with the Microsoft-Windows-International-Core-WinPE component.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can then change the default settings in either the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> or the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">specialize</pc> configuration pass by adding settings to the Microsoft-Windows-International-Core component.</source>
+          <target>You can then change the default settings in either the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> or the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">specialize</pc> configuration pass by adding settings to the Microsoft-Windows-International-Core component.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, you can specify <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EN-US</pc> as the default language to use on the computer in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">windowsPE</pc> configuration pass.</source>
+          <target>For example, you can specify <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EN-US</pc> as the default language to use on the computer in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">windowsPE</pc> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Then, if you intend to send the computer to a different region, you can add more language and locale settings to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> configuration pass.</source>
+          <target>Then, if you intend to send the computer to a different region, you can add more language and locale settings to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If language settings are processed during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> configuration pass, a restart might be required.</source>
+          <target>If language settings are processed during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> configuration pass, a restart might be required.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Also, the time that is required for the computer to process the language settings might prevent the end user from starting Windows Welcome quickly.</source>
+          <target>Also, the time that is required for the computer to process the language settings might prevent the end user from starting Windows Welcome quickly.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Windows Setup Technical Reference</source>
+          <target>Windows Setup Technical Reference</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Windows System Image Manager Technical Reference</source>
+          <target>Windows System Image Manager Technical Reference</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Add Language Packs to Windows</source>
+          <target>Add Language Packs to Windows</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Add and Remove Language Packs Offline Using DISM</source>
+          <target>Add and Remove Language Packs Offline Using DISM</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

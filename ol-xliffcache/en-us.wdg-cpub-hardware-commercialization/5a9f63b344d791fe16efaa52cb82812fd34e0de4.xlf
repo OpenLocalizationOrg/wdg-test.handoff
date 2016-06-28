@@ -1,0 +1,1263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\dism-global-options-for-command-line-syntax.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">5a9f63b344d791fe16efaa52cb82812fd34e0de4</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>DISM Global Options for Command-Line Syntax</source>
+          <target>DISM Global Options for Command-Line Syntax</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>DISM Global Options for Command-Line Syntax</source>
+          <target>DISM Global Options for Command-Line Syntax</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>DISM Global Options for Command-Line Syntax</source>
+          <target>DISM Global Options for Command-Line Syntax</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Global options can be added to most of the servicing and imaging options in the Deployment Image Servicing and Management (DISM) tool.</source>
+          <target>Global options can be added to most of the servicing and imaging options in the Deployment Image Servicing and Management (DISM) tool.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>These options can be used to access the command-line help, specify the location of files to use, and control logging.</source>
+          <target>These options can be used to access the command-line help, specify the location of files to use, and control logging.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Basic Syntax for Servicing Commands</source>
+          <target>Basic Syntax for Servicing Commands</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>After you have mounted or applied a Windows® image so that it is available offline as a flat file structure, you can specify any DISM global options, the servicing option that will update your image, and the location of the offline image.</source>
+          <target>After you have mounted or applied a Windows® image so that it is available offline as a flat file structure, you can specify any DISM global options, the servicing option that will update your image, and the location of the offline image.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>You can use only one servicing option per command line.</source>
+          <target>You can use only one servicing option per command line.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you are servicing a running computer, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Online</pc> option instead of specifying the location of the offline Windows image.</source>
+          <target>If you are servicing a running computer, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Online</pc> option instead of specifying the location of the offline Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>The commands and options that are available for servicing an image depend on which Windows operating system you are servicing.</source>
+          <target>The commands and options that are available for servicing an image depend on which Windows operating system you are servicing.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>They also depend on whether the image is offline or a running operating system.</source>
+          <target>They also depend on whether the image is offline or a running operating system.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>All commands work on an offline Windows image.</source>
+          <target>All commands work on an offline Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Subsets of the commands are available for servicing a running operating system.</source>
+          <target>Subsets of the commands are available for servicing a running operating system.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The base syntax for DISM servicing commands is:</source>
+          <target>The base syntax for DISM servicing commands is:</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">&amp;lt;</data>
+          <data id="id6">*</data>
+          <data id="id7">*</data>
+          <data id="id8">\_</data>
+          <data id="id9">\_</data>
+          <data id="id10">&amp;gt; | </data>
+          <data id="id11">**</data>
+          <data id="id12">**</data>
+          <data id="id13">\[</data>
+          <data id="id14">**</data>
+          <data id="id15">**</data>
+          <data id="id16">\_</data>
+          <data id="id17">\_</data>
+          <data id="id18">\]</data>
+          <data id="id19">**</data>
+          <data id="id20">**</data>
+          <data id="id21">\_</data>
+          <data id="id22">\[&amp;lt;</data>
+          <data id="id23">*</data>
+          <data id="id24">*</data>
+          <data id="id25">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM.exe</pc> {<pc dataRefEnd="id4" dataRefStart="id3" id="p2">/Image:</pc><ph dataRef="id5" id="ph1" /><pc dataRefEnd="id7" dataRefStart="id6" id="p3">path<ph dataRef="id8" id="ph2" />to<ph dataRef="id9" id="ph3" />image</pc><ph dataRef="id10" id="ph4" /><pc dataRefEnd="id12" dataRefStart="id11" id="p4">/Online</pc>} <ph dataRef="id13" id="ph5" /><pc dataRefEnd="id15" dataRefStart="id14" id="p5">dism<ph dataRef="id16" id="ph6" />global<ph dataRef="id17" id="ph7" />options</pc><ph dataRef="id18" id="ph8" /> {<pc dataRefEnd="id20" dataRefStart="id19" id="p6">servicing<ph dataRef="id21" id="ph9" />option</pc>} <ph dataRef="id22" id="ph10" /><pc dataRefEnd="id24" dataRefStart="id23" id="p7">servicing<ph dataRef="id25" id="ph11" />argument</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM.exe</pc> {<pc dataRefEnd="id4" dataRefStart="id3" id="p2">/Image:</pc><ph dataRef="id5" id="ph1" /><pc dataRefEnd="id7" dataRefStart="id6" id="p3">path<ph dataRef="id8" id="ph2" />to<ph dataRef="id9" id="ph3" />image</pc><ph dataRef="id10" id="ph4" /><pc dataRefEnd="id12" dataRefStart="id11" id="p4">/Online</pc>} <ph dataRef="id13" id="ph5" /><pc dataRefEnd="id15" dataRefStart="id14" id="p5">dism<ph dataRef="id16" id="ph6" />global<ph dataRef="id17" id="ph7" />options</pc><ph dataRef="id18" id="ph8" /> {<pc dataRefEnd="id20" dataRefStart="id19" id="p6">servicing<ph dataRef="id21" id="ph9" />option</pc>} <ph dataRef="id22" id="ph10" /><pc dataRefEnd="id24" dataRefStart="id23" id="p7">servicing<ph dataRef="id25" id="ph11" />argument</pc></target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](deployment-image-servicing-and-management--dism--command-line-options.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about servicing commands, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Image Servicing and Management (DISM) Command-Line Options</pc>.</source>
+          <target>For more information about servicing commands, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Image Servicing and Management (DISM) Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Basic Syntax for Imaging Commands</source>
+          <target>Basic Syntax for Imaging Commands</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Many of the global options are also available for imaging commands.</source>
+          <target>Many of the global options are also available for imaging commands.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>The base syntax for DISM imaging commands is:</source>
+          <target>The base syntax for DISM imaging commands is:</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\[</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">\_</data>
+          <data id="id7">\_</data>
+          <data id="id8">\]</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">\_</data>
+          <data id="id12">\[&amp;lt;</data>
+          <data id="id13">*</data>
+          <data id="id14">*</data>
+          <data id="id15">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM.exe</pc>
+            <ph dataRef="id3" id="ph1" />
+            <pc dataRefEnd="id5" dataRefStart="id4" id="p2">dism<ph dataRef="id6" id="ph2" />global<ph dataRef="id7" id="ph3" />options</pc>
+            <ph dataRef="id8" id="ph4" /> {<pc dataRefEnd="id10" dataRefStart="id9" id="p3">servicing<ph dataRef="id11" id="ph5" />option</pc>} <ph dataRef="id12" id="ph6" /><pc dataRefEnd="id14" dataRefStart="id13" id="p4">servicing<ph dataRef="id15" id="ph7" />argument</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM.exe</pc>
+            <ph dataRef="id3" id="ph1" />
+            <pc dataRefEnd="id5" dataRefStart="id4" id="p2">dism<ph dataRef="id6" id="ph2" />global<ph dataRef="id7" id="ph3" />options</pc>
+            <ph dataRef="id8" id="ph4" /> {<pc dataRefEnd="id10" dataRefStart="id9" id="p3">servicing<ph dataRef="id11" id="ph5" />option</pc>} <ph dataRef="id12" id="ph6" /><pc dataRefEnd="id14" dataRefStart="id13" id="p4">servicing<ph dataRef="id15" id="ph7" />argument</pc></target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](dism-image-management-command-line-options-s14.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about using DISM for image management, such as applying or mounting an image, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Image Management Command-Line Options</pc>.</source>
+          <target>For more information about using DISM for image management, such as applying or mounting an image, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Image Management Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Global Options for Servicing and Imaging Commands</source>
+          <target>Global Options for Servicing and Imaging Commands</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>The following DISM global options are available for an offline image.</source>
+          <target>The following DISM global options are available for an offline image.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">*</data>
+          <data id="id5">*</data>
+          <data id="id6">\_</data>
+          <data id="id7">\_</data>
+          <data id="id8">\_</data>
+          <data id="id9">\_</data>
+          <data id="id10">&amp;gt;</data>
+          <data id="id11">\[</data>
+          <data id="id12">**</data>
+          <data id="id13">**</data>
+          <data id="id14">&amp;lt;</data>
+          <data id="id15">*</data>
+          <data id="id16">*</data>
+          <data id="id17">\_</data>
+          <data id="id18">\_</data>
+          <data id="id19">&amp;gt;\]</data>
+          <data id="id20">\[</data>
+          <data id="id21">**</data>
+          <data id="id22">**</data>
+          <data id="id23">&amp;lt;</data>
+          <data id="id24">*</data>
+          <data id="id25">*</data>
+          <data id="id26">\_</data>
+          <data id="id27">\_</data>
+          <data id="id28">\_</data>
+          <data id="id29">&amp;gt;\]</data>
+          <data id="id30">\[</data>
+          <data id="id31">**</data>
+          <data id="id32">**</data>
+          <data id="id33">&amp;lt;</data>
+          <data id="id34">&amp;gt;\]</data>
+          <data id="id35">\[</data>
+          <data id="id36">**</data>
+          <data id="id37">**</data>
+          <data id="id38">&amp;lt;</data>
+          <data id="id39">*</data>
+          <data id="id40">*</data>
+          <data id="id41">\_</data>
+          <data id="id42">\_</data>
+          <data id="id43">\_</data>
+          <data id="id44">&amp;gt;\]</data>
+          <data id="id45">\[</data>
+          <data id="id46">**</data>
+          <data id="id47">**</data>
+          <data id="id48">\]</data>
+          <data id="id49">\[</data>
+          <data id="id50">**</data>
+          <data id="id51">**</data>
+          <data id="id52">\]</data>
+          <data id="id53">\[</data>
+          <data id="id54">**</data>
+          <data id="id55">**</data>
+          <data id="id56">&amp;lt;</data>
+          <data id="id57">*</data>
+          <data id="id58">*</data>
+          <data id="id59">\_</data>
+          <data id="id60">\_</data>
+          <data id="id61">\_</data>
+          <data id="id62">&amp;gt;\]</data>
+          <data id="id63">\[</data>
+          <data id="id64">**</data>
+          <data id="id65">**</data>
+          <data id="id66">\]</data>
+          <data id="id67">\[</data>
+          <data id="id68">**</data>
+          <data id="id69">**</data>
+          <data id="id70">&amp;lt;</data>
+          <data id="id71">*</data>
+          <data id="id72">*</data>
+          <data id="id73">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM.exe /image:</pc>
+            <ph dataRef="id3" id="ph1" />
+            <pc dataRefEnd="id5" dataRefStart="id4" id="p2">path<ph dataRef="id6" id="ph2" />to<ph dataRef="id7" id="ph3" />offline<ph dataRef="id8" id="ph4" />image<ph dataRef="id9" id="ph5" />directory</pc>
+            <ph dataRef="id10" id="ph6" />
+            <ph dataRef="id11" id="ph7" />
+            <pc dataRefEnd="id13" dataRefStart="id12" id="p3">/WinDir:</pc>
+            <ph dataRef="id14" id="ph8" />
+            <pc dataRefEnd="id16" dataRefStart="id15" id="p4">path<ph dataRef="id17" id="ph9" />to<ph dataRef="id18" id="ph10" />%WINDIR%</pc>
+            <ph dataRef="id19" id="ph11" />
+            <ph dataRef="id20" id="ph12" />
+            <pc dataRefEnd="id22" dataRefStart="id21" id="p5">/LogPath:</pc>
+            <ph dataRef="id23" id="ph13" />
+            <pc dataRefEnd="id25" dataRefStart="id24" id="p6">path<ph dataRef="id26" id="ph14" />to<ph dataRef="id27" id="ph15" />log<ph dataRef="id28" id="ph16" />file.log</pc>
+            <ph dataRef="id29" id="ph17" />
+            <ph dataRef="id30" id="ph18" />
+            <pc dataRefEnd="id32" dataRefStart="id31" id="p7">/LogLevel:</pc>
+            <ph dataRef="id33" id="ph19" />n<ph dataRef="id34" id="ph20" /><ph dataRef="id35" id="ph21" /><pc dataRefEnd="id37" dataRefStart="id36" id="p8">/SysDriveDir:</pc><ph dataRef="id38" id="ph22" /><pc dataRefEnd="id40" dataRefStart="id39" id="p9">path<ph dataRef="id41" id="ph23" />to<ph dataRef="id42" id="ph24" />bootMgr<ph dataRef="id43" id="ph25" />file</pc><ph dataRef="id44" id="ph26" /><ph dataRef="id45" id="ph27" /><pc dataRefEnd="id47" dataRefStart="id46" id="p10">/Quiet</pc><ph dataRef="id48" id="ph28" /><ph dataRef="id49" id="ph29" /><pc dataRefEnd="id51" dataRefStart="id50" id="p11">/NoRestart</pc><ph dataRef="id52" id="ph30" /><ph dataRef="id53" id="ph31" /><pc dataRefEnd="id55" dataRefStart="id54" id="p12">/ScratchDir:</pc><ph dataRef="id56" id="ph32" /><pc dataRefEnd="id58" dataRefStart="id57" id="p13">path<ph dataRef="id59" id="ph33" />to<ph dataRef="id60" id="ph34" />scratch<ph dataRef="id61" id="ph35" />directory</pc><ph dataRef="id62" id="ph36" /><ph dataRef="id63" id="ph37" /><pc dataRefEnd="id65" dataRefStart="id64" id="p14">/English</pc><ph dataRef="id66" id="ph38" /><ph dataRef="id67" id="ph39" /><pc dataRefEnd="id69" dataRefStart="id68" id="p15">/Format:</pc><ph dataRef="id70" id="ph40" /><pc dataRefEnd="id72" dataRefStart="id71" id="p16">output<ph dataRef="id73" id="ph41" />format</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM.exe /image:</pc>
+            <ph dataRef="id3" id="ph1" />
+            <pc dataRefEnd="id5" dataRefStart="id4" id="p2">path<ph dataRef="id6" id="ph2" />to<ph dataRef="id7" id="ph3" />offline<ph dataRef="id8" id="ph4" />image<ph dataRef="id9" id="ph5" />directory</pc>
+            <ph dataRef="id10" id="ph6" />
+            <ph dataRef="id11" id="ph7" />
+            <pc dataRefEnd="id13" dataRefStart="id12" id="p3">/WinDir:</pc>
+            <ph dataRef="id14" id="ph8" />
+            <pc dataRefEnd="id16" dataRefStart="id15" id="p4">path<ph dataRef="id17" id="ph9" />to<ph dataRef="id18" id="ph10" />%WINDIR%</pc>
+            <ph dataRef="id19" id="ph11" />
+            <ph dataRef="id20" id="ph12" />
+            <pc dataRefEnd="id22" dataRefStart="id21" id="p5">/LogPath:</pc>
+            <ph dataRef="id23" id="ph13" />
+            <pc dataRefEnd="id25" dataRefStart="id24" id="p6">path<ph dataRef="id26" id="ph14" />to<ph dataRef="id27" id="ph15" />log<ph dataRef="id28" id="ph16" />file.log</pc>
+            <ph dataRef="id29" id="ph17" />
+            <ph dataRef="id30" id="ph18" />
+            <pc dataRefEnd="id32" dataRefStart="id31" id="p7">/LogLevel:</pc>
+            <ph dataRef="id33" id="ph19" />n<ph dataRef="id34" id="ph20" /><ph dataRef="id35" id="ph21" /><pc dataRefEnd="id37" dataRefStart="id36" id="p8">/SysDriveDir:</pc><ph dataRef="id38" id="ph22" /><pc dataRefEnd="id40" dataRefStart="id39" id="p9">path<ph dataRef="id41" id="ph23" />to<ph dataRef="id42" id="ph24" />bootMgr<ph dataRef="id43" id="ph25" />file</pc><ph dataRef="id44" id="ph26" /><ph dataRef="id45" id="ph27" /><pc dataRefEnd="id47" dataRefStart="id46" id="p10">/Quiet</pc><ph dataRef="id48" id="ph28" /><ph dataRef="id49" id="ph29" /><pc dataRefEnd="id51" dataRefStart="id50" id="p11">/NoRestart</pc><ph dataRef="id52" id="ph30" /><ph dataRef="id53" id="ph31" /><pc dataRefEnd="id55" dataRefStart="id54" id="p12">/ScratchDir:</pc><ph dataRef="id56" id="ph32" /><pc dataRefEnd="id58" dataRefStart="id57" id="p13">path<ph dataRef="id59" id="ph33" />to<ph dataRef="id60" id="ph34" />scratch<ph dataRef="id61" id="ph35" />directory</pc><ph dataRef="id62" id="ph36" /><ph dataRef="id63" id="ph37" /><pc dataRefEnd="id65" dataRefStart="id64" id="p14">/English</pc><ph dataRef="id66" id="ph38" /><ph dataRef="id67" id="ph39" /><pc dataRefEnd="id69" dataRefStart="id68" id="p15">/Format:</pc><ph dataRef="id70" id="ph40" /><pc dataRefEnd="id72" dataRefStart="id71" id="p16">output<ph dataRef="id73" id="ph41" />format</pc></target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>The following DISM global options are available for a running operating system.</source>
+          <target>The following DISM global options are available for a running operating system.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\[</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">&amp;lt;</data>
+          <data id="id7">*</data>
+          <data id="id8">*</data>
+          <data id="id9">\_</data>
+          <data id="id10">\_</data>
+          <data id="id11">\_</data>
+          <data id="id12">&amp;gt;\]</data>
+          <data id="id13">\[</data>
+          <data id="id14">**</data>
+          <data id="id15">**</data>
+          <data id="id16">&amp;lt;</data>
+          <data id="id17">*</data>
+          <data id="id18">*</data>
+          <data id="id19">&amp;gt;\]</data>
+          <data id="id20">\[</data>
+          <data id="id21">**</data>
+          <data id="id22">**</data>
+          <data id="id23">&amp;lt;</data>
+          <data id="id24">*</data>
+          <data id="id25">*</data>
+          <data id="id26">\_</data>
+          <data id="id27">\_</data>
+          <data id="id28">\_</data>
+          <data id="id29">&amp;gt;\]</data>
+          <data id="id30">\[</data>
+          <data id="id31">**</data>
+          <data id="id32">**</data>
+          <data id="id33">\]</data>
+          <data id="id34">\[</data>
+          <data id="id35">**</data>
+          <data id="id36">**</data>
+          <data id="id37">\]</data>
+          <data id="id38">\[</data>
+          <data id="id39">**</data>
+          <data id="id40">**</data>
+          <data id="id41">&amp;lt;</data>
+          <data id="id42">*</data>
+          <data id="id43">*</data>
+          <data id="id44">\_</data>
+          <data id="id45">\_</data>
+          <data id="id46">\_</data>
+          <data id="id47">&amp;gt;\]</data>
+          <data id="id48">\[</data>
+          <data id="id49">**</data>
+          <data id="id50">**</data>
+          <data id="id51">\]</data>
+          <data id="id52">\[</data>
+          <data id="id53">**</data>
+          <data id="id54">**</data>
+          <data id="id55">&amp;lt;</data>
+          <data id="id56">*</data>
+          <data id="id57">*</data>
+          <data id="id58">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM.exe /online</pc>
+            <ph dataRef="id3" id="ph1" />
+            <pc dataRefEnd="id5" dataRefStart="id4" id="p2">/LogPath:</pc>
+            <ph dataRef="id6" id="ph2" />
+            <pc dataRefEnd="id8" dataRefStart="id7" id="p3">path<ph dataRef="id9" id="ph3" />to<ph dataRef="id10" id="ph4" />log<ph dataRef="id11" id="ph5" />file</pc>
+            <ph dataRef="id12" id="ph6" />
+            <ph dataRef="id13" id="ph7" />
+            <pc dataRefEnd="id15" dataRefStart="id14" id="p4">/LogLevel:</pc>
+            <ph dataRef="id16" id="ph8" />
+            <pc dataRefEnd="id18" dataRefStart="id17" id="p5">n</pc>
+            <ph dataRef="id19" id="ph9" />
+            <ph dataRef="id20" id="ph10" />
+            <pc dataRefEnd="id22" dataRefStart="id21" id="p6">/SysDriveDir:</pc>
+            <ph dataRef="id23" id="ph11" />
+            <pc dataRefEnd="id25" dataRefStart="id24" id="p7">path<ph dataRef="id26" id="ph12" />to<ph dataRef="id27" id="ph13" />bootMgr<ph dataRef="id28" id="ph14" />file</pc>
+            <ph dataRef="id29" id="ph15" />
+            <ph dataRef="id30" id="ph16" />
+            <pc dataRefEnd="id32" dataRefStart="id31" id="p8">/Quiet</pc>
+            <ph dataRef="id33" id="ph17" />
+            <ph dataRef="id34" id="ph18" />
+            <pc dataRefEnd="id36" dataRefStart="id35" id="p9">/NoRestart</pc>
+            <ph dataRef="id37" id="ph19" />
+            <ph dataRef="id38" id="ph20" />
+            <pc dataRefEnd="id40" dataRefStart="id39" id="p10">/ScratchDir:</pc>
+            <ph dataRef="id41" id="ph21" />
+            <pc dataRefEnd="id43" dataRefStart="id42" id="p11">path<ph dataRef="id44" id="ph22" />to<ph dataRef="id45" id="ph23" />scratch<ph dataRef="id46" id="ph24" />directory</pc>
+            <ph dataRef="id47" id="ph25" />
+            <ph dataRef="id48" id="ph26" />
+            <pc dataRefEnd="id50" dataRefStart="id49" id="p12">/English</pc>
+            <ph dataRef="id51" id="ph27" />
+            <ph dataRef="id52" id="ph28" />
+            <pc dataRefEnd="id54" dataRefStart="id53" id="p13">/Format:</pc>
+            <ph dataRef="id55" id="ph29" />
+            <pc dataRefEnd="id57" dataRefStart="id56" id="p14">output<ph dataRef="id58" id="ph30" />format</pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM.exe /online</pc>
+            <ph dataRef="id3" id="ph1" />
+            <pc dataRefEnd="id5" dataRefStart="id4" id="p2">/LogPath:</pc>
+            <ph dataRef="id6" id="ph2" />
+            <pc dataRefEnd="id8" dataRefStart="id7" id="p3">path<ph dataRef="id9" id="ph3" />to<ph dataRef="id10" id="ph4" />log<ph dataRef="id11" id="ph5" />file</pc>
+            <ph dataRef="id12" id="ph6" />
+            <ph dataRef="id13" id="ph7" />
+            <pc dataRefEnd="id15" dataRefStart="id14" id="p4">/LogLevel:</pc>
+            <ph dataRef="id16" id="ph8" />
+            <pc dataRefEnd="id18" dataRefStart="id17" id="p5">n</pc>
+            <ph dataRef="id19" id="ph9" />
+            <ph dataRef="id20" id="ph10" />
+            <pc dataRefEnd="id22" dataRefStart="id21" id="p6">/SysDriveDir:</pc>
+            <ph dataRef="id23" id="ph11" />
+            <pc dataRefEnd="id25" dataRefStart="id24" id="p7">path<ph dataRef="id26" id="ph12" />to<ph dataRef="id27" id="ph13" />bootMgr<ph dataRef="id28" id="ph14" />file</pc>
+            <ph dataRef="id29" id="ph15" />
+            <ph dataRef="id30" id="ph16" />
+            <pc dataRefEnd="id32" dataRefStart="id31" id="p8">/Quiet</pc>
+            <ph dataRef="id33" id="ph17" />
+            <ph dataRef="id34" id="ph18" />
+            <pc dataRefEnd="id36" dataRefStart="id35" id="p9">/NoRestart</pc>
+            <ph dataRef="id37" id="ph19" />
+            <ph dataRef="id38" id="ph20" />
+            <pc dataRefEnd="id40" dataRefStart="id39" id="p10">/ScratchDir:</pc>
+            <ph dataRef="id41" id="ph21" />
+            <pc dataRefEnd="id43" dataRefStart="id42" id="p11">path<ph dataRef="id44" id="ph22" />to<ph dataRef="id45" id="ph23" />scratch<ph dataRef="id46" id="ph24" />directory</pc>
+            <ph dataRef="id47" id="ph25" />
+            <ph dataRef="id48" id="ph26" />
+            <pc dataRefEnd="id50" dataRefStart="id49" id="p12">/English</pc>
+            <ph dataRef="id51" id="ph27" />
+            <ph dataRef="id52" id="ph28" />
+            <pc dataRefEnd="id54" dataRefStart="id53" id="p13">/Format:</pc>
+            <ph dataRef="id55" id="ph29" />
+            <pc dataRefEnd="id57" dataRefStart="id56" id="p14">output<ph dataRef="id58" id="ph30" />format</pc>
+          </target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>The following table provides a description of how each DISM global option can be used.</source>
+          <target>The following table provides a description of how each DISM global option can be used.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>These options are not case sensitive.</source>
+          <target>These options are not case sensitive.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Global option</source>
+          <target>Global option</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>/Get-Help</source>
+          <target>/Get-Help</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>/?</source>
+          <target>/?</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Displays information about available DISM command-line options and arguments.</source>
+          <target>Displays information about available DISM command-line options and arguments.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <ph dataRef="id1" id="ph1" />/?</source>
+          <target>Use the <ph dataRef="id1" id="ph1" />/?</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>or <ph dataRef="id1" id="ph1" />/Get-Help<ph dataRef="id2" id="ph2" /> option without specifying an image file to get help on image management commands such as <ph dataRef="id3" id="ph3" />/Mount-Image<ph dataRef="id4" id="ph4" />.</source>
+          <target>or <ph dataRef="id1" id="ph1" />/Get-Help<ph dataRef="id2" id="ph2" /> option without specifying an image file to get help on image management commands such as <ph dataRef="id3" id="ph3" />/Mount-Image<ph dataRef="id4" id="ph4" />.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Example:</source>
+          <target>Example:</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Dism /?</source>
+          <target>Dism /?</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;&amp;lt;&lt;em&gt;</data>
+          <data id="id3">&lt;/em&gt;&amp;gt;</data>
+          <data id="id4">&lt;strong&gt;</data>
+          <data id="id5">&lt;/strong&gt;</data>
+          <data id="id6">&lt;strong&gt;</data>
+          <data id="id7">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify an image file with the <ph dataRef="id1" id="ph1" />/Image:<ph dataRef="id2" id="ph2" />path_to_an_image<ph dataRef="id3" id="ph3" /> option or use the <ph dataRef="id4" id="ph4" />/Online<ph dataRef="id5" id="ph5" /> option to get help on the servicing command in the image, such as <ph dataRef="id6" id="ph6" />/Get-Packages<ph dataRef="id7" id="ph7" />.</source>
+          <target>Specify an image file with the <ph dataRef="id1" id="ph1" />/Image:<ph dataRef="id2" id="ph2" />path_to_an_image<ph dataRef="id3" id="ph3" /> option or use the <ph dataRef="id4" id="ph4" />/Online<ph dataRef="id5" id="ph5" /> option to get help on the servicing command in the image, such as <ph dataRef="id6" id="ph6" />/Get-Packages<ph dataRef="id7" id="ph7" />.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>The options that are available for servicing an image depend on the servicing technology that is available in your image.</source>
+          <target>The options that are available for servicing an image depend on the servicing technology that is available in your image.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Example:</source>
+          <target>Example:</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Dism /image:C:\test\offline /?</source>
+          <target>Dism /image:C:\test\offline /?</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Dism /online /?</source>
+          <target>Dism /online /?</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>You can display additional Help by specifying a command-line option.</source>
+          <target>You can display additional Help by specifying a command-line option.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Example:</source>
+          <target>Example:</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Dism /image:C:\test\offline /Add-Driver /?</source>
+          <target>Dism /image:C:\test\offline /Add-Driver /?</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Dism /image:C:\test\offline /Add-Package /?</source>
+          <target>Dism /image:C:\test\offline /Add-Package /?</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Dism /online /Get-Drivers /?</source>
+          <target>Dism /online /Get-Drivers /?</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&amp;lt;&lt;em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/LogPath:<ph dataRef="id1" id="ph1" />path to log file.log</source>
+          <target>/LogPath:<ph dataRef="id1" id="ph1" />path to log file.log</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Specifies the full path and file name to log to.</source>
+          <target>Specifies the full path and file name to log to.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If not set, the default is: <ph dataRef="id1" id="ph1" />%WINDIR%\Logs\Dism\dism.log</source>
+          <target>If not set, the default is: <ph dataRef="id1" id="ph1" />%WINDIR%\Logs\Dism\dism.log</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>In Windows PE, the default directory is the RAMDISK scratch space which can be as low as 32 MB.</source>
+          <target>In Windows PE, the default directory is the RAMDISK scratch space which can be as low as 32 MB.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>The log file will automatically be archived.</source>
+          <target>The log file will automatically be archived.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>The archived log file will be saved with .bak appended to the file name and a new log file will be generated.</source>
+          <target>The archived log file will be saved with .bak appended to the file name and a new log file will be generated.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Each time the log file is archived the .bak file will be overwritten.</source>
+          <target>Each time the log file is archived the .bak file will be overwritten.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>When using a network share that is not joined to a domain, use the <ph dataRef="id1" id="ph1" />net use<ph dataRef="id2" id="ph2" /> command together with domain credentials to set access permissions before you set the log path for the DISM log.</source>
+          <target>When using a network share that is not joined to a domain, use the <ph dataRef="id1" id="ph1" />net use<ph dataRef="id2" id="ph2" /> command together with domain credentials to set access permissions before you set the log path for the DISM log.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Example:</source>
+          <target>Example:</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Dism /image:C:\test\offline /LogPath:AddPackage.log /Add-Package /PackagePath:C:\packages\package.cab</source>
+          <target>Dism /image:C:\test\offline /LogPath:AddPackage.log /Add-Package /PackagePath:C:\packages\package.cab</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&amp;lt;&lt;em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/LogLevel:<ph dataRef="id1" id="ph1" />n</source>
+          <target>/LogLevel:<ph dataRef="id1" id="ph1" />n</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Specifies the maximum output level shown in the logs.</source>
+          <target>Specifies the maximum output level shown in the logs.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>The default log level is 3.</source>
+          <target>The default log level is 3.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>The accepted values are as follows:</source>
+          <target>The accepted values are as follows:</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>1 = Errors only</source>
+          <target>1 = Errors only</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>2 = Errors and warnings</source>
+          <target>2 = Errors and warnings</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>3 = Errors, warnings, and informational</source>
+          <target>3 = Errors, warnings, and informational</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>4 = All of the information listed previously, plus debug output</source>
+          <target>4 = All of the information listed previously, plus debug output</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Example:</source>
+          <target>Example:</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Dism /image:C:\test\offline /LogPath:AddPackage.log /LogLevel:1 /Add-Package /PackagePath:C:\packages\package.cab</source>
+          <target>Dism /image:C:\test\offline /LogPath:AddPackage.log /LogLevel:1 /Add-Package /PackagePath:C:\packages\package.cab</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&amp;lt;&lt;em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/Image:<ph dataRef="id1" id="ph1" />path_to_offline_image_directory</source>
+          <target>/Image:<ph dataRef="id1" id="ph1" />path_to_offline_image_directory</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>This is the full path to the root directory of the offline Windows image that you will service.</source>
+          <target>This is the full path to the root directory of the offline Windows image that you will service.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the directory named Windows is not a subdirectory of the root directory, <ph dataRef="id1" id="ph1" />/WinDir<ph dataRef="id2" id="ph2" /> must be specified.</source>
+          <target>If the directory named Windows is not a subdirectory of the root directory, <ph dataRef="id1" id="ph1" />/WinDir<ph dataRef="id2" id="ph2" /> must be specified.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>This option cannot be used with <ph dataRef="id1" id="ph1" />/Online<ph dataRef="id2" id="ph2" />.</source>
+          <target>This option cannot be used with <ph dataRef="id1" id="ph1" />/Online<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Example:</source>
+          <target>Example:</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Dism /image:C:\test\offline /LogPath:AddPackage.log /LogLevel:1 /Add-Package /PackagePath:C:\packages\package.cab</source>
+          <target>Dism /image:C:\test\offline /LogPath:AddPackage.log /LogLevel:1 /Add-Package /PackagePath:C:\packages\package.cab</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&amp;lt;&lt;em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/WinDir:<ph dataRef="id1" id="ph1" />path_to_%WINDIR%</source>
+          <target>/WinDir:<ph dataRef="id1" id="ph1" />path_to_%WINDIR%</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Used with the <ph dataRef="id1" id="ph1" />/Image<ph dataRef="id2" id="ph2" /> option to specify the path to the Windows directory relative to the image path.</source>
+          <target>Used with the <ph dataRef="id1" id="ph1" />/Image<ph dataRef="id2" id="ph2" /> option to specify the path to the Windows directory relative to the image path.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>This cannot be the full path to the Windows directory; it should be a relative path.</source>
+          <target>This cannot be the full path to the Windows directory; it should be a relative path.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>If not specified, the default is the Windows directory in the root of the offline image directory.</source>
+          <target>If not specified, the default is the Windows directory in the root of the offline image directory.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>This option cannot be used with the <ph dataRef="id1" id="ph1" />/Online<ph dataRef="id2" id="ph2" /> option.</source>
+          <target>This option cannot be used with the <ph dataRef="id1" id="ph1" />/Online<ph dataRef="id2" id="ph2" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Example:</source>
+          <target>Example:</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Dism /image:C:\test\offline /WinDir:WinNT /Add-Package /PackagePath:C:\packages\package.cab</source>
+          <target>Dism /image:C:\test\offline /WinDir:WinNT /Add-Package /PackagePath:C:\packages\package.cab</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>/Online</source>
+          <target>/Online</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Specifies that the action is to be taken on the operating system that is currently running.</source>
+          <target>Specifies that the action is to be taken on the operating system that is currently running.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>This option cannot be used with the <ph dataRef="id1" id="ph1" />/Image<ph dataRef="id2" id="ph2" /> or the <ph dataRef="id3" id="ph3" />/WinDir<ph dataRef="id4" id="ph4" /> option.</source>
+          <target>This option cannot be used with the <ph dataRef="id1" id="ph1" />/Image<ph dataRef="id2" id="ph2" /> or the <ph dataRef="id3" id="ph3" />/WinDir<ph dataRef="id4" id="ph4" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>When <ph dataRef="id1" id="ph1" />/Online<ph dataRef="id2" id="ph2" /> is used the Windows directory for the online image is automatically detected.</source>
+          <target>When <ph dataRef="id1" id="ph1" />/Online<ph dataRef="id2" id="ph2" /> is used the Windows directory for the online image is automatically detected.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Example:</source>
+          <target>Example:</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Dism /online /Get-Packages</source>
+          <target>Dism /online /Get-Packages</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&amp;lt;&lt;em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/SysDriveDir:<ph dataRef="id1" id="ph1" />path_to_sysdrive_directory</source>
+          <target>/SysDriveDir:<ph dataRef="id1" id="ph1" />path_to_sysdrive_directory</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use <ph dataRef="id1" id="ph1" />/SysDriveDir<ph dataRef="id2" id="ph2" /> to service an installed Windows image from a Windows PE environment.</source>
+          <target>Use <ph dataRef="id1" id="ph1" />/SysDriveDir<ph dataRef="id2" id="ph2" /> to service an installed Windows image from a Windows PE environment.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" />/SysDriveDir<ph dataRef="id2" id="ph2" /> option specifies the path to the location of the BootMgr files.</source>
+          <target>The <ph dataRef="id1" id="ph1" />/SysDriveDir<ph dataRef="id2" id="ph2" /> option specifies the path to the location of the BootMgr files.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>This is necessary only when the BootMgr files are located on a partition other than the one that you are running the command from.</source>
+          <target>This is necessary only when the BootMgr files are located on a partition other than the one that you are running the command from.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>For example, at a Windows PE command prompt, type:</source>
+          <target>For example, at a Windows PE command prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Dism /image:C:\Windows /SysDriveDir:C:\</source>
+          <target>Dism /image:C:\Windows /SysDriveDir:C:\</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>/Quiet</source>
+          <target>/Quiet</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Turns off information and progress output to the console.</source>
+          <target>Turns off information and progress output to the console.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Only error messages will be displayed.</source>
+          <target>Only error messages will be displayed.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>To run in quiet mode, this option must be set every time that the command-line utility is run.</source>
+          <target>To run in quiet mode, this option must be set every time that the command-line utility is run.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Do not use the <ph dataRef="id1" id="ph1" />/Quiet<ph dataRef="id2" id="ph2" /> option with <ph dataRef="id3" id="ph3" />/Get<ph dataRef="id4" id="ph4" /> commands.</source>
+          <target>Do not use the <ph dataRef="id1" id="ph1" />/Quiet<ph dataRef="id2" id="ph2" /> option with <ph dataRef="id3" id="ph3" />/Get<ph dataRef="id4" id="ph4" /> commands.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>No information will be displayed.</source>
+          <target>No information will be displayed.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Example:</source>
+          <target>Example:</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Dism /image:C:\test\offline /Add-Package /PackagePath:C:\packages\package.cab /quiet</source>
+          <target>Dism /image:C:\test\offline /Add-Package /PackagePath:C:\packages\package.cab /quiet</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>/NoRestart</source>
+          <target>/NoRestart</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Suppresses reboot.</source>
+          <target>Suppresses reboot.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>If a reboot is not required, this command does nothing.</source>
+          <target>If a reboot is not required, this command does nothing.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>This option will keep the application from prompting for a restart (or keep it from restarting automatically if the <ph dataRef="id1" id="ph1" />/Quiet<ph dataRef="id2" id="ph2" /> option is used).</source>
+          <target>This option will keep the application from prompting for a restart (or keep it from restarting automatically if the <ph dataRef="id1" id="ph1" />/Quiet<ph dataRef="id2" id="ph2" /> option is used).</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Example:</source>
+          <target>Example:</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Dism /online /Add-Package /PackagePath:C:\packages\package.cab /NoRestart /quiet</source>
+          <target>Dism /online /Add-Package /PackagePath:C:\packages\package.cab /NoRestart /quiet</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;&amp;lt;&lt;em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>/ScratchDir:<ph dataRef="id1" id="ph1" />path_to_scratchdirectory</source>
+          <target>/ScratchDir:<ph dataRef="id1" id="ph1" />path_to_scratchdirectory</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Specifies a temporary directory that will be used when extracting files for temporary use during servicing.</source>
+          <target>Specifies a temporary directory that will be used when extracting files for temporary use during servicing.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>The directory must exist locally.</source>
+          <target>The directory must exist locally.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <originalData>
+          <data id="id1">&lt;em&gt;</data>
+          <data id="id2">&lt;/em&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If not specified, the \Windows\<ph dataRef="id1" id="ph1" />%Temp%<ph dataRef="id2" id="ph2" /> directory will be used, with a subdirectory name of randomly generated hexadecimal value for each run of DISM.</source>
+          <target>If not specified, the \Windows\<ph dataRef="id1" id="ph1" />%Temp%<ph dataRef="id2" id="ph2" /> directory will be used, with a subdirectory name of randomly generated hexadecimal value for each run of DISM.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Items in the scratch directory are deleted after each operation.</source>
+          <target>Items in the scratch directory are deleted after each operation.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>You should not use a network share location as a scratch directory to expand a package (.cab or .msu file) for installation.</source>
+          <target>You should not use a network share location as a scratch directory to expand a package (.cab or .msu file) for installation.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>The directory used for extracting files for temporary usage during servicing should be a local directory.</source>
+          <target>The directory used for extracting files for temporary usage during servicing should be a local directory.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Example:</source>
+          <target>Example:</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Dism /image:C:\test\offline /ScratchDir:C:\Scratch /Add-Package /PackagePath:C:\packages\package.cab</source>
+          <target>Dism /image:C:\test\offline /ScratchDir:C:\Scratch /Add-Package /PackagePath:C:\packages\package.cab</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>/English</source>
+          <target>/English</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Displays command-line output in English.</source>
+          <target>Displays command-line output in English.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Some resources cannot be displayed in English.</source>
+          <target>Some resources cannot be displayed in English.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>This option is not supported when you use the <ph dataRef="id1" id="ph1" />DISM /?</source>
+          <target>This option is not supported when you use the <ph dataRef="id1" id="ph1" />DISM /?</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>command.</source>
+          <target>command.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Example:</source>
+          <target>Example:</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Dism /Get-ImageInfo /ImageFile:C:\test\offline\install.wim /index:1 /English</source>
+          <target>Dism /Get-ImageInfo /ImageFile:C:\test\offline\install.wim /index:1 /English</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>/Format:{Table | List}</source>
+          <target>/Format:{Table | List}</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Specifies the report output format.</source>
+          <target>Specifies the report output format.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Example:</source>
+          <target>Example:</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Dism /Image:C:\test\offline /Get-Apps /Format:table</source>
+          <target>Dism /Image:C:\test\offline /Get-Apps /Format:table</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Deployment Image Servicing and Management (DISM) Command-Line Options</source>
+          <target>Deployment Image Servicing and Management (DISM) Command-Line Options</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>DISM Application Servicing Command-Line Options</source>
+          <target>DISM Application Servicing Command-Line Options</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>DISM Windows Edition-Servicing Command-Line Options</source>
+          <target>DISM Windows Edition-Servicing Command-Line Options</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>DISM Languages and International Servicing Command-Line Options</source>
+          <target>DISM Languages and International Servicing Command-Line Options</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>DISM Operating System Package Servicing Command-Line Options</source>
+          <target>DISM Operating System Package Servicing Command-Line Options</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>DISM Driver Servicing Command-Line Options</source>
+          <target>DISM Driver Servicing Command-Line Options</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>DISM Unattended Servicing Command-Line Options</source>
+          <target>DISM Unattended Servicing Command-Line Options</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>DISM Windows PE Servicing Command-Line Options</source>
+          <target>DISM Windows PE Servicing Command-Line Options</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

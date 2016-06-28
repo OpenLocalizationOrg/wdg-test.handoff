@@ -1,0 +1,910 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\recovery-strategy-for-common-customizations.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">9cb5855102d16e73e20ab30f0045bfd0fa0cbbdc</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Push-button reset features by default restore only drivers (installed through INF packages) and preinstalled Windows apps.</source>
+          <target>Push-button reset features by default restore only drivers (installed through INF packages) and preinstalled Windows apps.</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Recovery components</source>
+          <target>Recovery components</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Recovery components</source>
+          <target>Recovery components</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Push-button reset features by default restore only drivers (installed through INF packages) and preinstalled Windows apps.</source>
+          <target>Push-button reset features by default restore only drivers (installed through INF packages) and preinstalled Windows apps.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>To configure the features to restore other customizations such as settings and Classic Windows applications, you will need to prepare one or more customization packages which contain the customizations.</source>
+          <target>To configure the features to restore other customizations such as settings and Classic Windows applications, you will need to prepare one or more customization packages which contain the customizations.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>These customizations packages are in the form of provisioning packages (.ppkg).</source>
+          <target>These customizations packages are in the form of provisioning packages (.ppkg).</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Push-button reset features look for and automatically restore provisioning packages which are located in the folder C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />Customizations.</source>
+          <target>Push-button reset features look for and automatically restore provisioning packages which are located in the folder C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />Customizations.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>To protect the packages from tampering or accidental deletion, the Write/Modify permissions of C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />Customizations should be restricted to the local Administrators user group.</source>
+          <target>To protect the packages from tampering or accidental deletion, the Write/Modify permissions of C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />Customizations should be restricted to the local Administrators user group.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Some settings and customizations cannot be included in provisioning packages.</source>
+          <target>Some settings and customizations cannot be included in provisioning packages.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Instead, you can restore them using an unattend file applied using the Push-button reset extensibility scripts.</source>
+          <target>Instead, you can restore them using an unattend file applied using the Push-button reset extensibility scripts.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>For settings which are supported by both provisioning packages and unattend, it is recommended that you specify them using only one of the mechanisms, not both.</source>
+          <target>For settings which are supported by both provisioning packages and unattend, it is recommended that you specify them using only one of the mechanisms, not both.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](how-push-button-reset-features-work.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How push-button reset features work</pc>.</source>
+          <target>To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How push-button reset features work</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Capturing Classic Windows applications using Windows User State Migration Tool (USMT)'s ScanState tool</source>
+          <target>Capturing Classic Windows applications using Windows User State Migration Tool (USMT)'s ScanState tool</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The Windows User State Migration Tool (USMT) ScanState.exe has been updated in Windows 10 to support capturing Classic Windows applications applications.</source>
+          <target>The Windows User State Migration Tool (USMT) ScanState.exe has been updated in Windows 10 to support capturing Classic Windows applications applications.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">`/apps`</data>
+        </originalData>
+        <segment state="initial">
+          <source>This functionality can be activated by specifying the <ph dataRef="id1" id="ph1" /> option.</source>
+          <target>This functionality can be activated by specifying the <ph dataRef="id1" id="ph1" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">`/apps`</data>
+        </originalData>
+        <segment state="initial">
+          <source>When <ph dataRef="id1" id="ph1" /> is specified, ScanState uses a set of application discovery rules to determine what should be captured, and stores the output as a reference device data image inside a provisioning package.</source>
+          <target>When <ph dataRef="id1" id="ph1" /> is specified, ScanState uses a set of application discovery rules to determine what should be captured, and stores the output as a reference device data image inside a provisioning package.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>In general, the reference device data includes the following:</source>
+          <target>In general, the reference device data includes the following:</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Classic Windows applications installed using either Microsoft Windows Installer or other installers</source>
+          <target>Classic Windows applications installed using either Microsoft Windows Installer or other installers</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>All files and folders outside of the Windows namespace (in other words, outside of <ph dataRef="id1" id="ph1" />Windows, <ph dataRef="id2" id="ph2" />Program Files, <ph dataRef="id3" id="ph3" />Program Files (x86), <ph dataRef="id4" id="ph4" />ProgramData, and <ph dataRef="id5" id="ph5" />Users).</source>
+          <target>All files and folders outside of the Windows namespace (in other words, outside of <ph dataRef="id1" id="ph1" />Windows, <ph dataRef="id2" id="ph2" />Program Files, <ph dataRef="id3" id="ph3" />Program Files (x86), <ph dataRef="id4" id="ph4" />ProgramData, and <ph dataRef="id5" id="ph5" />Users).</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>This applies only to the volume on which Windows is installed.</source>
+          <target>This applies only to the volume on which Windows is installed.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Not captured: Windows apps.</source>
+          <target>Not captured: Windows apps.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Not captured: User state/data.</source>
+          <target>Not captured: User state/data.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>You can also specify additional rules to include or exclude specific files, folders, and registry settings.</source>
+          <target>You can also specify additional rules to include or exclude specific files, folders, and registry settings.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>For example, if you are using ScanState during factory deployment, you might need to exclude manufacturing-specific tools so that they will not be restored when end users use Push-button reset features.</source>
+          <target>For example, if you are using ScanState during factory deployment, you might need to exclude manufacturing-specific tools so that they will not be restored when end users use Push-button reset features.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">`/i`</data>
+        </originalData>
+        <segment state="initial">
+          <source>To specify additional rules, you will need to author a migration XML and specify the <ph dataRef="id1" id="ph1" /> option when using ScanState.exe.</source>
+          <target>To specify additional rules, you will need to author a migration XML and specify the <ph dataRef="id1" id="ph1" /> option when using ScanState.exe.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>ScanState’s /apps option also supports the following optional parameters:</source>
+          <target>ScanState’s /apps option also supports the following optional parameters:</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Parameter</source>
+          <target>Parameter</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Use</source>
+          <target>Use</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Specifies whether applications, files, and folders outside of the Windows namespace should be captured.</source>
+          <target>Specifies whether applications, files, and folders outside of the Windows namespace should be captured.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">&lt;code&gt;+sysdrive&lt;/code&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If <ph dataRef="id1" id="ph1" /> is specified, all contents on the system drive are examined and eligible to be captured according to the discovery rules.</source>
+          <target>If <ph dataRef="id1" id="ph1" /> is specified, all contents on the system drive are examined and eligible to be captured according to the discovery rules.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">&lt;code&gt;-sysdrive&lt;/code&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If <ph dataRef="id1" id="ph1" /> is specified, only contents within the Windows namespace are examined and eligible to be captured according to the discovery rules.</source>
+          <target>If <ph dataRef="id1" id="ph1" /> is specified, only contents within the Windows namespace are examined and eligible to be captured according to the discovery rules.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>is the default.</source>
+          <target>is the default.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Specifies whether the OEM-specific help and support info should be captured.</source>
+          <target>Specifies whether the OEM-specific help and support info should be captured.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">&lt;code&gt;+oeminfo&lt;/code&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If <ph dataRef="id1" id="ph1" /> is specified, OEM and support info are captured.</source>
+          <target>If <ph dataRef="id1" id="ph1" /> is specified, OEM and support info are captured.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">&lt;code&gt;-oeminfo&lt;/code&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If <ph dataRef="id1" id="ph1" /> is specified, OEM and support info are not captured.</source>
+          <target>If <ph dataRef="id1" id="ph1" /> is specified, OEM and support info are not captured.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>is the default.</source>
+          <target>is the default.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Although push-button reset features can restore multiple provisioning packages, only one of the packages can contain reference device data image captured using ScanState.</source>
+          <target>Although push-button reset features can restore multiple provisioning packages, only one of the packages can contain reference device data image captured using ScanState.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>ScanState should be used only after all customizations have been applied to the PC.</source>
+          <target>ScanState should be used only after all customizations have been applied to the PC.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>It does not support appending additional changes to an existing reference device data image.</source>
+          <target>It does not support appending additional changes to an existing reference device data image.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>A provisioning package captured using ScanState.exe can only be applied using push-button reset features and deployment media created using Windows Imaging and Configuration Designer (ICD).</source>
+          <target>A provisioning package captured using ScanState.exe can only be applied using push-button reset features and deployment media created using Windows Imaging and Configuration Designer (ICD).</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>It cannot be applied using tools such as DISM or USMT’s LoadState.exe.</source>
+          <target>It cannot be applied using tools such as DISM or USMT’s LoadState.exe.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>When you prepare ScanState for capturing customizations, you should exclude Windows Defender settings to prevent possible failures during recovery that can be caused by file conflicts.</source>
+          <target>When you prepare ScanState for capturing customizations, you should exclude Windows Defender settings to prevent possible failures during recovery that can be caused by file conflicts.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](deploy-push-button-reset-features.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see Step 1 in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy push-button reset features</pc>.</source>
+          <target>For more information, see Step 1 in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy push-button reset features</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Creating customization packages using Windows ICD</source>
+          <target>Creating customization packages using Windows ICD</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>For customizations involving settings which apply to all editions of Windows 10 (including Windows 10 Mobile), you can create provisioning packages using the Windows ICD.</source>
+          <target>For customizations involving settings which apply to all editions of Windows 10 (including Windows 10 Mobile), you can create provisioning packages using the Windows ICD.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>In build-to-stock (BTS) scenarios, if you have already captured your Classic Windows applications from your reference PC using the ScanState tool, you can import the output provisioning package into Windows ICD and specify additional settings which should be restored during recovery.</source>
+          <target>In build-to-stock (BTS) scenarios, if you have already captured your Classic Windows applications from your reference PC using the ScanState tool, you can import the output provisioning package into Windows ICD and specify additional settings which should be restored during recovery.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Restoring settings using unattend.xml and extensibility scripts</source>
+          <target>Restoring settings using unattend.xml and extensibility scripts</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Most settings which are configured using unattend.xml and other configuration files (e.g. oobe.xml, LayoutModification.xml) cannot be restored using provisioning packages.</source>
+          <target>Most settings which are configured using unattend.xml and other configuration files (e.g. oobe.xml, LayoutModification.xml) cannot be restored using provisioning packages.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Instead, you will need to use the Push-button reset extensibility points in order to restore them during recovery.</source>
+          <target>Instead, you will need to use the Push-button reset extensibility points in order to restore them during recovery.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>These extensibility points allow you run scripts which can:</source>
+          <target>These extensibility points allow you run scripts which can:</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Inject an unattend.xml into the recovered OS</source>
+          <target>Inject an unattend.xml into the recovered OS</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Copy other configuration files and assets into the recovered OS</source>
+          <target>Copy other configuration files and assets into the recovered OS</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>You should not use unattend.xml (or other mechanisms) to boot the recovered OS into Audit Mode.</source>
+          <target>You should not use unattend.xml (or other mechanisms) to boot the recovered OS into Audit Mode.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>The recovered OS must remain configured to boot to OOBE.</source>
+          <target>The recovered OS must remain configured to boot to OOBE.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>A copy of the configuration files and assets which need to be restored must be placed under C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />OEM.</source>
+          <target>A copy of the configuration files and assets which need to be restored must be placed under C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />OEM.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Contents in this folder are not modified by push-button reset features and are automatically backed up to recovery media created using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create a recovery drive</pc> utility.</source>
+          <target>Contents in this folder are not modified by push-button reset features and are automatically backed up to recovery media created using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create a recovery drive</pc> utility.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>To protect the unattend.xml and configuration files/assets from tampering or accidental deletion, Write/Modify permissions of C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />OEM should be restricted to the local Administrators user group.</source>
+          <target>To protect the unattend.xml and configuration files/assets from tampering or accidental deletion, Write/Modify permissions of C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />OEM should be restricted to the local Administrators user group.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](add-a-script-to-push-button-reset-features.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn how to author scripts to be run using extensibility points, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add a script to push-button reset features</pc>.</source>
+          <target>To learn how to author scripts to be run using extensibility points, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add a script to push-button reset features</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">[</data>
+          <data id="id4">](deploy-push-button-reset-features.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn how to use ScanState to capture and store the resulting PPKG under C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />Customizations, which is restored automatically during PBR, see <pc dataRefEnd="id4" dataRefStart="id3" id="p1">Deploy push-button reset features using ScanState</pc>.</source>
+          <target>To learn how to use ScanState to capture and store the resulting PPKG under C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />Customizations, which is restored automatically during PBR, see <pc dataRefEnd="id4" dataRefStart="id3" id="p1">Deploy push-button reset features using ScanState</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Recovery strategies for common customizations</source>
+          <target>Recovery strategies for common customizations</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>The following table outlines the recovery strategy for common customizations which are described in the User Experience Windows Engineering Guide (UX WEG) as well as those covered in the OEM Policy Document (OPD).</source>
+          <target>The following table outlines the recovery strategy for common customizations which are described in the User Experience Windows Engineering Guide (UX WEG) as well as those covered in the OEM Policy Document (OPD).</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>For up-to-date details on these customizations, refer to the latest version of the UX WEG and OPD.</source>
+          <target>For up-to-date details on these customizations, refer to the latest version of the UX WEG and OPD.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Customization</source>
+          <target>Customization</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>How it is configured</source>
+          <target>How it is configured</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>How it can be restored during PBR</source>
+          <target>How it can be restored during PBR</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>OOBE – HID pairing</source>
+          <target>OOBE – HID pairing</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">&lt;code&gt;&amp;lt;hidSetup&amp;gt;&lt;/code&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Settings in the <ph dataRef="id1" id="ph1" /> section of OOBE.xml and images (e.g. .png files)</source>
+          <target>Settings in the <ph dataRef="id1" id="ph1" /> section of OOBE.xml and images (e.g. .png files)</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Use PBR extensibility script to restore OOBE.xml and images from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility script to restore OOBE.xml and images from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>OOBE – OEM EULA</source>
+          <target>OOBE – OEM EULA</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>setting in OOBE.xml and license terms .rtf file(s) stored under %WINDIR%\System32\Oobe\Info</source>
+          <target>setting in OOBE.xml and license terms .rtf file(s) stored under %WINDIR%\System32\Oobe\Info</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Use PBR extensibility script to restore OOBE.xml and .rtf files from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility script to restore OOBE.xml and .rtf files from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>OOBE – Preconfigured language and time zone</source>
+          <target>OOBE – Preconfigured language and time zone</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">&lt;code&gt;&amp;lt;defaults&amp;gt;&lt;/code&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Settings in the <ph dataRef="id1" id="ph1" /> section of OOBE.xml</source>
+          <target>Settings in the <ph dataRef="id1" id="ph1" /> section of OOBE.xml</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Use PBR extensibility script to restore OOBE.xml from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility script to restore OOBE.xml from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>OOBE – Hide mobile broadband page</source>
+          <target>OOBE – Hide mobile broadband page</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Microsoft-Windows-WwanUI | NotInOOBE setting in unattend.xml</source>
+          <target>Microsoft-Windows-WwanUI | NotInOOBE setting in unattend.xml</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Use PBR extensibility scripts to restore unattend.xml from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility scripts to restore unattend.xml from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>OOBE – OEM Registration page</source>
+          <target>OOBE – OEM Registration page</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Settings in the <ph dataRef="id1" id="ph1" />registration<ph dataRef="id2" id="ph2" /> section of OOBE.xml and HTML files for in-place links</source>
+          <target>Settings in the <ph dataRef="id1" id="ph1" />registration<ph dataRef="id2" id="ph2" /> section of OOBE.xml and HTML files for in-place links</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Use PBR extensibility script to restore OOBE.xml and HTML files from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility script to restore OOBE.xml and HTML files from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Start – Pinned tiles and groups</source>
+          <target>Start – Pinned tiles and groups</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>LayoutModification.xml stored under %SYSTEMDRIVE%\Users\Default\AppData\Local\Microsoft\Windows\Shell or settings under Microsoft-Windows-Shell-Setup | StartTiles in unattend.xml</source>
+          <target>LayoutModification.xml stored under %SYSTEMDRIVE%\Users\Default\AppData\Local\Microsoft\Windows\Shell or settings under Microsoft-Windows-Shell-Setup | StartTiles in unattend.xml</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Use PBR extensibility scripts to restore LayoutModification.xml or unattend.xml from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility scripts to restore LayoutModification.xml or unattend.xml from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Start – Prepopulated MFU list</source>
+          <target>Start – Prepopulated MFU list</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>LayoutModification.xml stored under %SYSTEMDRIVE%\Users\Default\AppData\Local\Microsoft\Windows\Shell</source>
+          <target>LayoutModification.xml stored under %SYSTEMDRIVE%\Users\Default\AppData\Local\Microsoft\Windows\Shell</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Use PBR extensibility scripts to restore LayoutModification.xml from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility scripts to restore LayoutModification.xml from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Continuum – Form factor</source>
+          <target>Continuum – Form factor</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Settings in unattend.xml:</source>
+          <target>Settings in unattend.xml:</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>• Microsoft-Windows-Deployment | DeviceForm</source>
+          <target>• Microsoft-Windows-Deployment | DeviceForm</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>• Microsoft-Windows-GPIOButtons | ConvertibleSlateMode</source>
+          <target>• Microsoft-Windows-GPIOButtons | ConvertibleSlateMode</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Use PBR extensibility scripts to restore unattend.xml from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility scripts to restore unattend.xml from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Continuum – Default mode</source>
+          <target>Continuum – Default mode</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Microsoft-Windows-Shell-Setup | SignInMode setting in unattend.xml</source>
+          <target>Microsoft-Windows-Shell-Setup | SignInMode setting in unattend.xml</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Use PBR extensibility scripts to restore unattend.xml from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility scripts to restore unattend.xml from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Desktop – Default and additional accent colors</source>
+          <target>Desktop – Default and additional accent colors</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>RunSynchronous command in unattend.xml which adds the AGRB hex color values to the registry under HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Accents</source>
+          <target>RunSynchronous command in unattend.xml which adds the AGRB hex color values to the registry under HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Accents</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Use PBR extensibility scripts to restore unattend.xml from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility scripts to restore unattend.xml from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Desktop – Background image</source>
+          <target>Desktop – Background image</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Microsoft-Windows-Shell-Setup | Themes | DesktopBackground setting in unattend.xml and image (e.g. .jpg/.png/.bmp file)</source>
+          <target>Microsoft-Windows-Shell-Setup | Themes | DesktopBackground setting in unattend.xml and image (e.g. .jpg/.png/.bmp file)</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Use PBR extensibility scripts to restore unattend.xml and background image file from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility scripts to restore unattend.xml and background image file from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Desktop – Pinned taskbar items</source>
+          <target>Desktop – Pinned taskbar items</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Settings under Microsoft-Windows-Shell-Setup | TaskbarLinks in unattend.xml and shortcut (.lnk) files stored in a folder under %ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\</source>
+          <target>Settings under Microsoft-Windows-Shell-Setup | TaskbarLinks in unattend.xml and shortcut (.lnk) files stored in a folder under %ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Use PBR extensibility scripts to restore unattend.xml and .lnk files from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility scripts to restore unattend.xml and .lnk files from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Desktop – Systray icons</source>
+          <target>Desktop – Systray icons</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Settings under Microsoft-Windows-Shell-Setup | NotificationArea in unattend.xml</source>
+          <target>Settings under Microsoft-Windows-Shell-Setup | NotificationArea in unattend.xml</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Use PBR extensibility scripts to restore unattend.xml from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility scripts to restore unattend.xml from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Mobile broadband – Rename “WiFi” to “WLAN” in network list</source>
+          <target>Mobile broadband – Rename “WiFi” to “WLAN” in network list</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Microsoft-Windows-SystemSettings | WiFiToWlan setting in unattend.xml</source>
+          <target>Microsoft-Windows-SystemSettings | WiFiToWlan setting in unattend.xml</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Use PBR extensibility scripts to restore unattend.xml from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility scripts to restore unattend.xml from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Mobile broadband – Enable Network Selection control in Settings</source>
+          <target>Mobile broadband – Enable Network Selection control in Settings</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Microsoft-Windows-SystemSettings | DisplayNetworkSelection setting in unattend.xml</source>
+          <target>Microsoft-Windows-SystemSettings | DisplayNetworkSelection setting in unattend.xml</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Use PBR extensibility scripts to restore unattend.xml from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility scripts to restore unattend.xml from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>PC Settings – Preinstalled settings apps</source>
+          <target>PC Settings – Preinstalled settings apps</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Settings apps are preinstalled in the same way as any other app, and automatically appear in Settings.</source>
+          <target>Settings apps are preinstalled in the same way as any other app, and automatically appear in Settings.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Capability declared in the app manifest determines whether it is a settings app or not.</source>
+          <target>Capability declared in the app manifest determines whether it is a settings app or not.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Restored automatically along with other preinstalled apps</source>
+          <target>Restored automatically along with other preinstalled apps</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Default browser and handlers of protocols</source>
+          <target>Default browser and handlers of protocols</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Default application association settings XML file imported using the /Import-DefaultAppAssociations command in DISM</source>
+          <target>Default application association settings XML file imported using the /Import-DefaultAppAssociations command in DISM</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Use PBR extensibility scripts to re-import the XML from C:\Recovery\OEM using DISM</source>
+          <target>Use PBR extensibility scripts to re-import the XML from C:\Recovery\OEM using DISM</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Support information in Contact Support app</source>
+          <target>Support information in Contact Support app</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Settings under Microsoft-Windows-Shell-Setup | OEMInformation in unattend.xml and logo.bmp file</source>
+          <target>Settings under Microsoft-Windows-Shell-Setup | OEMInformation in unattend.xml and logo.bmp file</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Use PBR extensibility scripts to restore unattend.xml and .bmp file from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility scripts to restore unattend.xml and .bmp file from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Store content modifier</source>
+          <target>Store content modifier</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Microsoft-Windows-Store-Client-UI | StoreContentModifier setting in unattend.xml</source>
+          <target>Microsoft-Windows-Store-Client-UI | StoreContentModifier setting in unattend.xml</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Use PBR extensibility scripts to restore unattend.xml from C:\Recovery\OEM</source>
+          <target>Use PBR extensibility scripts to restore unattend.xml from C:\Recovery\OEM</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Classic Windows applications (including driver applets installed via setup.exe)</source>
+          <target>Classic Windows applications (including driver applets installed via setup.exe)</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>MSI or custom installers</source>
+          <target>MSI or custom installers</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Use ScanState to capture and store the resulting PPKG under C:\Recovery\Customizations, which is restored automatically during PBR.</source>
+          <target>Use ScanState to capture and store the resulting PPKG under C:\Recovery\Customizations, which is restored automatically during PBR.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>RDX contents</source>
+          <target>RDX contents</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>See UX WEG for details</source>
+          <target>See UX WEG for details</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>Should not be restored during PBR</source>
+          <target>Should not be restored during PBR</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

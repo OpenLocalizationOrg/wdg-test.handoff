@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\copy-dism-to-another-computer.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">7fcc7d07a132286da114a9833ae9a220c992e3a1</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Install Windows 10 using a previous version of Windows PE</source>
+          <target>Install Windows 10 using a previous version of Windows PE</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Install Windows 10 using a previous version of Windows PE</source>
+          <target>Install Windows 10 using a previous version of Windows PE</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Install Windows 10 using a previous version of Windows PE</source>
+          <target>Install Windows 10 using a previous version of Windows PE</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>To install some features of Windows 10, such as Compact OS, you'll need the Windows 10 version of DISM.</source>
+          <target>To install some features of Windows 10, such as Compact OS, you'll need the Windows 10 version of DISM.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>You can include the latest version DISM in your Windows Preinstallation Environment (WinPE) image, or run it from a separate location, such as on a removable drive.</source>
+          <target>You can include the latest version DISM in your Windows Preinstallation Environment (WinPE) image, or run it from a separate location, such as on a removable drive.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>If you include it with WinPE, it will add roughly 4MB to the size of your DISM image.</source>
+          <target>If you include it with WinPE, it will add roughly 4MB to the size of your DISM image.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>You'll need to install and configure the drivers needed for DISM, including the wimmount.sys and wofadk.sys drivers, each time you boot WinPE.</source>
+          <target>You'll need to install and configure the drivers needed for DISM, including the wimmount.sys and wofadk.sys drivers, each time you boot WinPE.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>To add DISM into your Windows PE image</source>
+          <target>To add DISM into your Windows PE image</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>On your technician PC, install the Windows ADK for Windows 10.</source>
+          <target>On your technician PC, install the Windows ADK for Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Mount WinPE.</source>
+          <target>Mount WinPE.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For WinPE 3.x, mount the file: <ph dataRef="id1" id="ph1" />sources<ph dataRef="id2" id="ph2" />winpe.wim.</source>
+          <target>For WinPE 3.x, mount the file: <ph dataRef="id1" id="ph1" />sources<ph dataRef="id2" id="ph2" />winpe.wim.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For WinPE 4.x and 5.x, mount the file: <ph dataRef="id1" id="ph1" />sources<ph dataRef="id2" id="ph2" />boot.wim.</source>
+          <target>For WinPE 4.x and 5.x, mount the file: <ph dataRef="id1" id="ph1" />sources<ph dataRef="id2" id="ph2" />boot.wim.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Copy the DISM folder from the Windows ADK into a new folder in the mounted WinPE image.</source>
+          <target>Copy the DISM folder from the Windows ADK into a new folder in the mounted WinPE image.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>   Don't overwrite the existing DISM files from the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">system32</pc> folder in the WinPE image.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>   Don't overwrite the existing DISM files from the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">system32</pc> folder in the WinPE image.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Instead, create a new folder on the host computer to copy the Windows ADK files into.</source>
+          <target>Instead, create a new folder on the host computer to copy the Windows ADK files into.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Unmount WinPE.</source>
+          <target>Unmount WinPE.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Create WinPE bootable media, or replace the WinPE image file on your existing removable media.</source>
+          <target>Create WinPE bootable media, or replace the WinPE image file on your existing removable media.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Install and use DISM from WinPE</source>
+          <target>Install and use DISM from WinPE</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Boot your destination device to WinPE.</source>
+          <target>Boot your destination device to WinPE.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Install and configure DISM's required drivers by using either <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WimMountAdkSetupAmd64.exe /Install</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">WimMountAdkSetupX86.exe /Install</pc>.</source>
+          <target>Install and configure DISM's required drivers by using either <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WimMountAdkSetupAmd64.exe /Install</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">WimMountAdkSetupX86.exe /Install</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>For the default (RAMDisk) version of WinPE, you'll need to run this command each time you boot WinPE.</source>
+          <target>For the default (RAMDisk) version of WinPE, you'll need to run this command each time you boot WinPE.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](wpeinit-and-startnetcmd-using-winpe-startup-scripts.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn how to run this command automatically when WinPE boots, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Wpeinit and Startnet.cmd: Using WinPE Startup Scripts</pc>.</source>
+          <target>To learn how to run this command automatically when WinPE boots, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Wpeinit and Startnet.cmd: Using WinPE Startup Scripts</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Verify that the Windows 10 version of DISM is installed.</source>
+          <target>Verify that the Windows 10 version of DISM is installed.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>The output shows the build number, for example:</source>
+          <target>The output shows the build number, for example:</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Run DISM commands from the new folder.</source>
+          <target>Run DISM commands from the new folder.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>DISM Supported Platforms</source>
+          <target>DISM Supported Platforms</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>WinPE: Mount and Customize</source>
+          <target>WinPE: Mount and Customize</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

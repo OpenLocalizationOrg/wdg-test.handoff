@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\performance\wpt\customizing-spinlock-parameters.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">39393d45f28fa01458dee51b21a4510060a8d8c8</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Customizing Spinlock Parameters</source>
+          <target>Customizing Spinlock Parameters</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Customizing Spinlock Parameters</source>
+          <target>Customizing Spinlock Parameters</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Customizing Spinlock Parameters</source>
+          <target>Customizing Spinlock Parameters</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>By default, the system logs one spinlock event for every 1000 non-contended acquisitions, and one spinlock event for every contended acquisition.</source>
+          <target>By default, the system logs one spinlock event for every 1000 non-contended acquisitions, and one spinlock event for every contended acquisition.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Spinlock data collection supports three parameters that enable you to customize data collection.</source>
+          <target>Spinlock data collection supports three parameters that enable you to customize data collection.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>To set spinlock collection parameters, use the following command.</source>
+          <target>To set spinlock collection parameters, use the following command.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Parameters</source>
+          <target>Parameters</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>spin<ph dataRef="id1" id="ph1" />threshold</source>
+          <target>spin<ph dataRef="id1" id="ph1" />threshold</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The spinlock instrumentation provides a capability to trace heavily contended locks.</source>
+          <target>The spinlock instrumentation provides a capability to trace heavily contended locks.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>This is achieved by setting a high spin threshold.</source>
+          <target>This is achieved by setting a high spin threshold.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>If a lock spins less than this threshold, no spinlock event will be logged.</source>
+          <target>If a lock spins less than this threshold, no spinlock event will be logged.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>For example, if this value is 1, one spinlock event is acquired for each attempt to acquire a lock.</source>
+          <target>For example, if this value is 1, one spinlock event is acquired for each attempt to acquire a lock.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>If this value is 10, one spinlock event is logged for each ten attempts to acquire a lock.</source>
+          <target>If this value is 10, one spinlock event is logged for each ten attempts to acquire a lock.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The default value is 1.</source>
+          <target>The default value is 1.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>acquire<ph dataRef="id1" id="ph1" />sample<ph dataRef="id2" id="ph2" />rate</source>
+          <target>acquire<ph dataRef="id1" id="ph1" />sample<ph dataRef="id2" id="ph2" />rate</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Sample rate at which spinlock events are logged during a trace.</source>
+          <target>Sample rate at which spinlock events are logged during a trace.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>For example, if this value is 1000, one spinlock event is logged for each 1000 non-collision event acquisitions.</source>
+          <target>For example, if this value is 1000, one spinlock event is logged for each 1000 non-collision event acquisitions.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>The default value is 1000.</source>
+          <target>The default value is 1000.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>contention<ph dataRef="id1" id="ph1" />sample<ph dataRef="id2" id="ph2" />rate</source>
+          <target>contention<ph dataRef="id1" id="ph1" />sample<ph dataRef="id2" id="ph2" />rate</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Rate at which spinlock events are logged when collisions occur.</source>
+          <target>Rate at which spinlock events are logged when collisions occur.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>For example, if this value is 100, one spinlock event is logged for each 100 spinlock collisions.</source>
+          <target>For example, if this value is 100, one spinlock event is logged for each 100 spinlock collisions.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>The default value is 1.</source>
+          <target>The default value is 1.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Remarks</source>
+          <target>Remarks</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Spinlock collection parameters return to the default values when the system reboots.</source>
+          <target>Spinlock collection parameters return to the default values when the system reboots.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>To ensure valid data collection, always query or set spinlock parameters before starting event data collection.</source>
+          <target>To ensure valid data collection, always query or set spinlock parameters before starting event data collection.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>The following example shows how to query for the current values.</source>
+          <target>The following example shows how to query for the current values.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>The following example sets the spin threshold to 1, the acquire sample rate to 1000, and the spinlock contention sample rate to 100.</source>
+          <target>The following example sets the spin threshold to 1, the acquire sample rate to 1000, and the spinlock contention sample rate to 100.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>This query returns the following result for the values set in the previous example.</source>
+          <target>This query returns the following result for the values set in the previous example.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>spinlock</source>
+          <target>spinlock</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

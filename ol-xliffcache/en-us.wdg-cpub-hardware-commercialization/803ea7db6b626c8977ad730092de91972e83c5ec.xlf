@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\iot\add-a-provisioning-package-to-an-image.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">803ea7db6b626c8977ad730092de91972e83c5ec</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Lab 1d: Add a provisioning package to an image</source>
+          <target>Lab 1d: Add a provisioning package to an image</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Lab 1d: Add a provisioning package to an image</source>
+          <target>Lab 1d: Add a provisioning package to an image</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>This content has been tested on Windows 10 IoT Core Build 10586.</source>
+          <target>This content has been tested on Windows 10 IoT Core Build 10586.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Some of these procedures do not yet work on newer preview builds, including Windows 10, version 1607.</source>
+          <target>Some of these procedures do not yet work on newer preview builds, including Windows 10, version 1607.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>We'll create a provisioning package that contains some sample Wi-Fi settings.</source>
+          <target>We'll create a provisioning package that contains some sample Wi-Fi settings.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>You can use provisioning package in Windows Imaging and Configuration Designer (ICD) to add apps, drivers, features, or to modify many common settings, such as IT device management and policy settings.</source>
+          <target>You can use provisioning package in Windows Imaging and Configuration Designer (ICD) to add apps, drivers, features, or to modify many common settings, such as IT device management and policy settings.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Note, to test Wi-Fi, your board will need Wi-Fi support.</source>
+          <target>Note, to test Wi-Fi, your board will need Wi-Fi support.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>You can use a Wi-Fi adapter/dongle, or use a board like the Raspberry Pi 3 that has Wi-Fi built-in.</source>
+          <target>You can use a Wi-Fi adapter/dongle, or use a board like the Raspberry Pi 3 that has Wi-Fi built-in.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Prerequisites</source>
+          <target>Prerequisites</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](create-a-basic-image.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](deploy-your-app-with-a-standard-board.md)</data>
+          <data id="id5">[</data>
+          <data id="id6">](add-a-registry-setting-to-an-image.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>We'll start with the ProjectA image we created from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lab 1a: Create a basic image</pc>, and updated in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Lab 1b: Add an app to your image</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Lab 1c: Add a file and a registry setting to an image</pc>.</source>
+          <target>We'll start with the ProjectA image we created from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lab 1a: Create a basic image</pc>, and updated in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Lab 1b: Add an app to your image</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Lab 1c: Add a file and a registry setting to an image</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Create your provisioning package in Windows ICD</source>
+          <target>Create your provisioning package in Windows ICD</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Start <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Imaging and Configuration Designer</pc>.</source>
+          <target>Start <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Imaging and Configuration Designer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File <ph dataRef="id3" id="ph1" /> New project</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File <ph dataRef="id3" id="ph1" /> New project</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For this example, use the name "<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ProductAprov</pc>" for the product name, accept the defaults, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>For this example, use the name "<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ProductAprov</pc>" for the product name, accept the defaults, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Provisioning package <ph dataRef="id3" id="ph1" /> Windows 10 IoT Core</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Provisioning package <ph dataRef="id3" id="ph1" /> Windows 10 IoT Core</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>At the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Import a provisioning package (optional)</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc>.</source>
+          <target>At the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Import a provisioning package (optional)</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Add a sample setting:</source>
+          <target>Add a sample setting:</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">&amp;gt;</data>
+          <data id="id5">&amp;gt;</data>
+          <data id="id6">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Runtime settings <ph dataRef="id3" id="ph1" /> Connectivity Profiles <ph dataRef="id4" id="ph2" /> WLAN <ph dataRef="id5" id="ph3" /> WLANSetting <ph dataRef="id6" id="ph4" /> SSID</pc>.</source>
+          <target>Expand <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Runtime settings <ph dataRef="id3" id="ph1" /> Connectivity Profiles <ph dataRef="id4" id="ph2" /> WLAN <ph dataRef="id5" id="ph3" /> WLANSetting <ph dataRef="id6" id="ph4" /> SSID</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Type in the name of a Wi-Fi network name, for example, ContosoWiFi, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc>.</source>
+          <target>Type in the name of a Wi-Fi network name, for example, ContosoWiFi, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SSID &gt; WLANXmlSettings &gt; SecurityType</pc> and choose a setting such as <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Open</pc>.</source>
+          <target>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SSID &gt; WLANXmlSettings &gt; SecurityType</pc> and choose a setting such as <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Open</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SSID &gt; WLANXmlSettings &gt; AutoConnect</pc> and choose a setting such as <pc dataRefEnd="id4" dataRefStart="id3" id="p2">TRUE</pc>.</source>
+          <target>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SSID &gt; WLANXmlSettings &gt; AutoConnect</pc> and choose a setting such as <pc dataRefEnd="id4" dataRefStart="id3" id="p2">TRUE</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Optional: to add more than one WLAN network, go back to WLANSetting, and repeat the process.</source>
+          <target>Optional: to add more than one WLAN network, go back to WLANSetting, and repeat the process.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Optional: add other apps, drivers, and settings through the UI.</source>
+          <target>Optional: add other apps, drivers, and settings through the UI.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn916109)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure customizations using Windows ICD</pc>.</source>
+          <target>To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure customizations using Windows ICD</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Export the provisioning package.</source>
+          <target>Export the provisioning package.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">&amp;gt;</data>
+          <data id="id5">&amp;gt;</data>
+          <data id="id6">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Export <ph dataRef="id3" id="ph1" /> Provisioning Package <ph dataRef="id4" id="ph2" /> Next <ph dataRef="id5" id="ph3" /> Next <ph dataRef="id6" id="ph4" /> Build</pc>.</source>
+          <target>For example, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Export <ph dataRef="id3" id="ph1" /> Provisioning Package <ph dataRef="id4" id="ph2" /> Next <ph dataRef="id5" id="ph3" /> Next <ph dataRef="id6" id="ph4" /> Build</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn916110)</data>
+        </originalData>
+        <segment state="initial">
+          <source>(To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Export a provisioning package</pc>.</source>
+          <target>(To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Export a provisioning package</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>)</source>
+          <target>)</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>At the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All done!</pc></source>
+          <target>At the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All done!</pc></target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>page, click the link to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Output location</pc>.</source>
+          <target>page, click the link to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Output location</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Create a folder for the provisioning package in your test product</source>
+          <target>Create a folder for the provisioning package in your test product</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In File Explorer, create a new folder, C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Products<ph dataRef="id3" id="ph3" />ProductA<ph dataRef="id4" id="ph4" />prov.</source>
+          <target>In File Explorer, create a new folder, C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Products<ph dataRef="id3" id="ph3" />ProductA<ph dataRef="id4" id="ph4" />prov.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>This folder is structure is used by the script: Provisioning.Auto.pkg.xml file in Provisioning.Auto folder.</source>
+          <target>This folder is structure is used by the script: Provisioning.Auto.pkg.xml file in Provisioning.Auto folder.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>No changes are required.</source>
+          <target>No changes are required.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Copy the .ppkg, .cat, and customizations.xml files into this folder.</source>
+          <target>Copy the .ppkg, .cat, and customizations.xml files into this folder.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>If necessary, rename the files to (your project name)prov.cat and (your project name)prov.ppkg, for example, ProductAprov.cat and ProductAprov.ppkg.</source>
+          <target>If necessary, rename the files to (your project name)prov.cat and (your project name)prov.ppkg, for example, ProductAprov.cat and ProductAprov.ppkg.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Optional: update customizations.xml with any desired changes.</source>
+          <target>Optional: update customizations.xml with any desired changes.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn916153)</data>
+        </originalData>
+        <segment state="initial">
+          <source>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows provisioning answer file</pc> for more info.</source>
+          <target>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows provisioning answer file</pc> for more info.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Check the auto-provisioning scripts to make sure they'll include your new provisioning package (optional)</source>
+          <target>Check the auto-provisioning scripts to make sure they'll include your new provisioning package (optional)</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Review the package definition file: Provisioning.Auto.pkg.xml: C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Common<ph dataRef="id3" id="ph3" />Packages<ph dataRef="id4" id="ph4" />Provisioning.Auto<ph dataRef="id5" id="ph5" />Provisioning.Auto.pkg.xml.</source>
+          <target>Review the package definition file: Provisioning.Auto.pkg.xml: C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Common<ph dataRef="id3" id="ph3" />Packages<ph dataRef="id4" id="ph4" />Provisioning.Auto<ph dataRef="id5" id="ph5" />Provisioning.Auto.pkg.xml.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>No changes should required.</source>
+          <target>No changes should required.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Make sure that the package definition file is referenced in the feature manifest.</source>
+          <target>Make sure that the package definition file is referenced in the feature manifest.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, check C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Common<ph dataRef="id3" id="ph3" />Packages<ph dataRef="id4" id="ph4" />OEMCommonFM.xml:</source>
+          <target>For example, check C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Common<ph dataRef="id3" id="ph3" />Packages<ph dataRef="id4" id="ph4" />OEMCommonFM.xml:</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">&lt;arch&gt;\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add the FeatureID to your test configuration file C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Source-<ph dataRef="id3" id="ph3" />Products<ph dataRef="id4" id="ph4" />ProductA<ph dataRef="id5" id="ph5" />TestOEMInput.xml:</source>
+          <target>Add the FeatureID to your test configuration file C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Source-<ph dataRef="id3" id="ph3" />Products<ph dataRef="id4" id="ph4" />ProductA<ph dataRef="id5" id="ph5" />TestOEMInput.xml:</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Build and test the image</source>
+          <target>Build and test the image</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Build the image</source>
+          <target>Build the image</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>From the IoT Core Shell, create the image:</source>
+          <target>From the IoT Core Shell, create the image:</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\&amp;lt;</data>
+          <data id="id4">&amp;gt;\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>This creates the product binaries at C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Build<ph dataRef="id3" id="ph3" />arch<ph dataRef="id4" id="ph4" />ProductA<ph dataRef="id5" id="ph5" />Test<ph dataRef="id6" id="ph6" />Flash.FFU.</source>
+          <target>This creates the product binaries at C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Build<ph dataRef="id3" id="ph3" />arch<ph dataRef="id4" id="ph4" />ProductA<ph dataRef="id5" id="ph5" />Test<ph dataRef="id6" id="ph6" />Flash.FFU.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">&amp;gt;</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Start <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows IoT Core Dashboard</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Setup a new device</pc><ph dataRef="id6" id="ph2" /><pc dataRefEnd="id8" dataRefStart="id7" id="p3">Custom</pc>, and browse to your image.</source>
+          <target>Start <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows IoT Core Dashboard</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Setup a new device</pc><ph dataRef="id6" id="ph2" /><pc dataRefEnd="id8" dataRefStart="id7" id="p3">Custom</pc>, and browse to your image.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Put the Micro SD card in the device, select it, accept the license terms, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc>.</source>
+          <target>Put the Micro SD card in the device, select it, accept the license terms, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>This replaces the previous image with our new image.</source>
+          <target>This replaces the previous image with our new image.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Put the card into the IoT device and start it up.</source>
+          <target>Put the card into the IoT device and start it up.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>After a short while, the device should start automatically, and you should see your app.</source>
+          <target>After a short while, the device should start automatically, and you should see your app.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Check to see if your provisioning settings were applied</source>
+          <target>Check to see if your provisioning settings were applied</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Connect a network cable.</source>
+          <target>Connect a network cable.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>On your technician PC, open Internet Explorer, and type in the address with an http:// prefix and :8080 suffix:</source>
+          <target>On your technician PC, open Internet Explorer, and type in the address with an http:// prefix and :8080 suffix:</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://ms-iot.github.io/content/en-US/win10/tools/DevicePortal.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>This opens the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Device Portal</pc>.</source>
+          <target>This opens the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Device Portal</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>From here, you can upload app packages, see what apps are installed, and switch between them.</source>
+          <target>From here, you can upload app packages, see what apps are installed, and switch between them.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Use the default username (Administrator) and password (p@ssw0rd) to log on.</source>
+          <target>Use the default username (Administrator) and password (p@ssw0rd) to log on.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Networking.</pc></source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Networking.</pc></target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Check the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Profiles</pc> drop-down, you should see the Wi-Fi profile you created.</source>
+          <target>Check the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Profiles</pc> drop-down, you should see the Wi-Fi profile you created.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the device is able to automatically connect to the WiFi network, then under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available Networks</pc>, you should see a checkmark next to the network you configured.</source>
+          <target>If the device is able to automatically connect to the WiFi network, then under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available Networks</pc>, you should see a checkmark next to the network you configured.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>If your network requires steps such as accepting license terms, the device may not auto-connect.</source>
+          <target>If your network requires steps such as accepting license terms, the device may not auto-connect.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Next steps</source>
+          <target>Next steps</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Lab 1e: Add a driver to an image</source>
+          <target>Lab 1e: Add a driver to an image</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,1270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\mobile\configure-customization-settings.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">ef6b80b04abde5d6e2c5a497140b8cb956894e62</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Configure customization settings</source>
+          <target>Configure customization settings</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Configure customization settings</source>
+          <target>Configure customization settings</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Customizations are ways that you can modify the Windows device UI, connectivity settings, and user experience to better reflect your brand and to meet the requirements of the network and market in which the device will ship.</source>
+          <target>Customizations are ways that you can modify the Windows device UI, connectivity settings, and user experience to better reflect your brand and to meet the requirements of the network and market in which the device will ship.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Customizations can include adding apps, modifying the Start layout, configuring network settings using device management, changing the default values in the Settings screen, or adding new wallpapers.</source>
+          <target>Customizations can include adding apps, modifying the Start layout, configuring network settings using device management, changing the default values in the Settings screen, or adding new wallpapers.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows 10 Mobile supports two customization frameworks: MCSF and Windows provisioning.</source>
+          <target>Windows 10 Mobile supports two customization frameworks: MCSF and Windows provisioning.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/mt481438)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about each framework, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for mobile devices</pc>.</source>
+          <target>For more information about each framework, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for mobile devices</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>In this section, we'll focus on adding the Start layout modification file, preloading an app, and configuring some customization settings using MCSF.</source>
+          <target>In this section, we'll focus on adding the Start layout modification file, preloading an app, and configuring some customization settings using MCSF.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757433)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more detailed information about the various customizations you can do, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize using the mobile MCSF framework</pc>.</source>
+          <target>For more detailed information about the various customizations you can do, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize using the mobile MCSF framework</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Create an MCSF customization answer file</source>
+          <target>Create an MCSF customization answer file</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757452)</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use the MCSF <pc dataRefEnd="id2" dataRefStart="id1" id="p1">customization answer file</pc> (CAF) to specify the settings and variants that you want to configure for a custom mobile OS image.</source>
+          <target>You can use the MCSF <pc dataRefEnd="id2" dataRefStart="id1" id="p1">customization answer file</pc> (CAF) to specify the settings and variants that you want to configure for a custom mobile OS image.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Depending on the tools that you're using to build your image, you can use the MCSF CAF as input to ImgGen.cmd or the Windows Imaging and Configuration Designer (ICD) CLI.</source>
+          <target>Depending on the tools that you're using to build your image, you can use the MCSF CAF as input to ImgGen.cmd or the Windows Imaging and Configuration Designer (ICD) CLI.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>This answer file is based on the MCSF schema so if you decide to use another schema, such as the Windows provisioning schema, you need to write a different answer file that follows that schema instead.</source>
+          <target>This answer file is based on the MCSF schema so if you decide to use another schema, such as the Windows provisioning schema, you need to write a different answer file that follows that schema instead.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>If you don't have a pre-existing MCSF CAF, follow this walkthrough to learn how to create a basic MCSF CAF with multivariant support.</source>
+          <target>If you don't have a pre-existing MCSF CAF, follow this walkthrough to learn how to create a basic MCSF CAF with multivariant support.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Multivariant is the generic mechanism that lets you create a single image that can work for multiple markets by dynamically configuring the language, branding, apps, and networking settings during runtime based on the supported conditions, such as mobile operator and locale.</source>
+          <target>Multivariant is the generic mechanism that lets you create a single image that can work for multiple markets by dynamically configuring the language, branding, apps, and networking settings during runtime based on the supported conditions, such as mobile operator and locale.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>If you are building a single variant image, you may skip this walkthrough.</source>
+          <target>If you are building a single variant image, you may skip this walkthrough.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>To create the MCSF CAF with multivariant support</source>
+          <target>To create the MCSF CAF with multivariant support</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Create an XML file and add the following content.</source>
+          <target>Create an XML file and add the following content.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Specify the values for the following attributes, which determines the owner for the customizations:</source>
+          <target>Specify the values for the following attributes, which determines the owner for the customizations:</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> - A string that specifies the name of the customization or package.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> - A string that specifies the name of the customization or package.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>You can specify the name based on the device you're configure, such as "XDeviceCustomizations", or a generic name like "MobileCustomizations".</source>
+          <target>You can specify the name based on the device you're configure, such as "XDeviceCustomizations", or a generic name like "MobileCustomizations".</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Description</pc> - A string to help you identify the customizations defined within the CAF.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Description</pc> - A string to help you identify the customizations defined within the CAF.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Owner</pc> - A string specifying the owner, such as the OEM name.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Owner</pc> - A string specifying the owner, such as the OEM name.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OwnerType</pc> - Set this to "OEM".</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OwnerType</pc> - Set this to "OEM".</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Targets</pc> to use for the variants.</source>
+          <target>Specify the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Targets</pc> to use for the variants.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Targets</pc> describe keying for a variant and must be described or pre-declared before being referenced by the variant.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Targets</pc> describe keying for a variant and must be described or pre-declared before being referenced by the variant.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>To do this:</source>
+          <target>To do this:</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>To set up a Target</source>
+          <target>To set up a Target</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Name the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Target Id</pc>.</source>
+          <target>Name the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Target Id</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Condition</pc>(s) for the target by providing the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Name</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Value</pc>.</source>
+          <target>Specify the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Condition</pc>(s) for the target by providing the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Name</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Value</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>For example, if we creating variants for two fictitious mobile operators, The Phone Company and Fabrikam, and we have their MCC and MNC, we can create a target for each operator using the MCC and MNC.</source>
+          <target>For example, if we creating variants for two fictitious mobile operators, The Phone Company and Fabrikam, and we have their MCC and MNC, we can create a target for each operator using the MCC and MNC.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">*</data>
+          <data id="id4">*</data>
+          <data id="id5">[</data>
+          <data id="id6">](https://msdn.microsoft.com/library/windows/hardware/dn916108)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more about all the supported <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Condition Name</pc>s that you can use, see the section <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Target, TargetState, Condition, and priorities</pc> in <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Create a provisioning package with multivariant settings</pc>.</source>
+          <target>To learn more about all the supported <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Condition Name</pc>s that you can use, see the section <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Target, TargetState, Condition, and priorities</pc> in <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Create a provisioning package with multivariant settings</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Note that in this walkthrough we are not using a provisioning package to declare our multivariant settings; instead, we are adding this directly into the MCSF CAF.</source>
+          <target>Note that in this walkthrough we are not using a provisioning package to declare our multivariant settings; instead, we are adding this directly into the MCSF CAF.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Set up the variant.</source>
+          <target>Set up the variant.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>To do this:</source>
+          <target>To do this:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>To define a Variant</source>
+          <target>To define a Variant</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Variant Name</pc>.</source>
+          <target>Specify the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Variant Name</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TargetRef Id</pc> for the variant.</source>
+          <target>Specify the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TargetRef Id</pc> for the variant.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This should match one of the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Target Id</pc>s you specified in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Targets</pc> section of the CAF.</source>
+          <target>This should match one of the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Target Id</pc>s you specified in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Targets</pc> section of the CAF.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Note that there should only be one <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TargetRef Id</pc> per variant.</source>
+          <target>Note that there should only be one <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TargetRef Id</pc> per variant.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Using our fictitious mobile operators, The Phone Company and Fabrikam, we can define the variants for each of these operators as shown in the following example:</source>
+          <target>Using our fictitious mobile operators, The Phone Company and Fabrikam, we can define the variants for each of these operators as shown in the following example:</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Name and save the XML file; for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />Contoso<ph dataRef="id4" id="ph2" />Customizations<ph dataRef="id5" id="ph3" />MobileCustomizations.xml</pc>.</source>
+          <target>Name and save the XML file; for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />Contoso<ph dataRef="id4" id="ph2" />Customizations<ph dataRef="id5" id="ph3" />MobileCustomizations.xml</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>We'll add the static (common or variant-agnostic) and variant-specific customization settings and values in the next walkthroughs.</source>
+          <target>We'll add the static (common or variant-agnostic) and variant-specific customization settings and values in the next walkthroughs.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Configure the Start layout</source>
+          <target>Configure the Start layout</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](configure-the-start-layout.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this section, we'll use the Start MCSF settings to add the Start layout modification files that you created in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure the Start layout</pc>.</source>
+          <target>In this section, we'll use the Start MCSF settings to add the Start layout modification files that you created in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure the Start layout</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>We'll use one of the layout modification files as the common Start layout and we'll use the other layout modification file for one of the fictitious mobile operator variants.</source>
+          <target>We'll use one of the layout modification files as the common Start layout and we'll use the other layout modification file for one of the fictitious mobile operator variants.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Create and edit the MCSF CAF; for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />Contoso<ph dataRef="id4" id="ph2" />Customizations<ph dataRef="id5" id="ph3" />MobileCustomizations.xml</pc>.</source>
+          <target>Create and edit the MCSF CAF; for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />Contoso<ph dataRef="id4" id="ph2" />Customizations<ph dataRef="id5" id="ph3" />MobileCustomizations.xml</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />Contoso<ph dataRef="id4" id="ph2" />Customizations<ph dataRef="id5" id="ph3" />LayoutModification1.xml</pc> as the common Start layout.</source>
+          <target>Set <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />Contoso<ph dataRef="id4" id="ph2" />Customizations<ph dataRef="id5" id="ph3" />LayoutModification1.xml</pc> as the common Start layout.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">`LayoutModificationFilePath`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Within the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Static</pc> section of the CAF, set <ph dataRef="id3" id="ph1" /> to the file path to the layout modification file.</source>
+          <target>Within the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Static</pc> section of the CAF, set <ph dataRef="id3" id="ph1" /> to the file path to the layout modification file.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>By specifying a new default location for the LayoutModification.xml, you are overriding the default Start layout that's in C:<ph dataRef="id1" id="ph1" />Data<ph dataRef="id2" id="ph2" />ProgramData<ph dataRef="id3" id="ph3" />Microsoft<ph dataRef="id4" id="ph4" />Start<ph dataRef="id5" id="ph5" />Layouts.</source>
+          <target>By specifying a new default location for the LayoutModification.xml, you are overriding the default Start layout that's in C:<ph dataRef="id1" id="ph1" />Data<ph dataRef="id2" id="ph2" />ProgramData<ph dataRef="id3" id="ph3" />Microsoft<ph dataRef="id4" id="ph4" />Start<ph dataRef="id5" id="ph5" />Layouts.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />Contoso<ph dataRef="id4" id="ph2" />Customizations<ph dataRef="id5" id="ph3" />LayoutModification2.xml</pc> as the default Start layout for the fictitious mobile operator, The Phone Company.</source>
+          <target>Set <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />Contoso<ph dataRef="id4" id="ph2" />Customizations<ph dataRef="id5" id="ph3" />LayoutModification2.xml</pc> as the default Start layout for the fictitious mobile operator, The Phone Company.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">`LayoutModificationFilePath`</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Variant</pc> section named ThePhoneCompany, set <ph dataRef="id3" id="ph1" /> to the file path for the second layout modification file.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Variant</pc> section named ThePhoneCompany, set <ph dataRef="id3" id="ph1" /> to the file path for the second layout modification file.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">`LayoutModificationFilePath`</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>
+            <ph dataRef="id3" id="ph1" /> is a FirstVariationOnly setting, which means that it can only be modified during first variation, which is typically when the first valid configuration is found (such as when a SIM is inserted and a marked configuration is found for the SIM).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>
+            <ph dataRef="id3" id="ph1" /> is a FirstVariationOnly setting, which means that it can only be modified during first variation, which is typically when the first valid configuration is found (such as when a SIM is inserted and a marked configuration is found for the SIM).</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>If the configuration changes, such as during a SIM swap, the value for the FirstVariationOnly setting will not be changed again.</source>
+          <target>If the configuration changes, such as during a SIM swap, the value for the FirstVariationOnly setting will not be changed again.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>In this example, when the device boots after flashing a new mobile image and there is no SIM is inserted into the mobile device or a SIM for the fictitious Fabrikam mobile operator (MCC=310, MNC=610) is already in the device, LayoutModification1.xml (Start layout with a folder) will be used.</source>
+          <target>In this example, when the device boots after flashing a new mobile image and there is no SIM is inserted into the mobile device or a SIM for the fictitious Fabrikam mobile operator (MCC=310, MNC=610) is already in the device, LayoutModification1.xml (Start layout with a folder) will be used.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>If a SIM for the fictitious The Phone Company (MCC=410, MNC=510) is inserted after this, the Start layout will not change.</source>
+          <target>If a SIM for the fictitious The Phone Company (MCC=410, MNC=510) is inserted after this, the Start layout will not change.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>However, if the device boots after flashing a new mobile image and there is already a SIM for The Phone Company inserted in the device, LayoutModification2.xml (Start layout with no folder) will be used instead.</source>
+          <target>However, if the device boots after flashing a new mobile image and there is already a SIM for The Phone Company inserted in the device, LayoutModification2.xml (Start layout with no folder) will be used instead.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Preload apps</source>
+          <target>Preload apps</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Partners can preload apps to be packaged and configured to install on mobile devices during the initial device setup process.</source>
+          <target>Partners can preload apps to be packaged and configured to install on mobile devices during the initial device setup process.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>In addition to preloading games, lifestyle apps, and other genres of apps, partners can preload system settings apps or partner account setup apps, just to name a few.</source>
+          <target>In addition to preloading games, lifestyle apps, and other genres of apps, partners can preload system settings apps or partner account setup apps, just to name a few.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn707972)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about preloading apps, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Preinstallable apps for mobile devices</pc>.</source>
+          <target>For more information about preloading apps, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Preinstallable apps for mobile devices</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>  In Windows 10, if you are working with an app developer or creating your own app to preload on the device, you must now request a preinstallation package for the app.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>  In Windows 10, if you are working with an app developer or creating your own app to preload on the device, you must now request a preinstallation package for the app.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=624851)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about this part of the process, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Generate preinstall packages for OEMs</pc>.</source>
+          <target>For more information about this part of the process, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Generate preinstall packages for OEMs</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>The .zip file that's returned as part of this process should contain the app's source file (such as an .appx, .appxbundle, or .xap), a provisioning file (.provxml), and a license file (.xml).</source>
+          <target>The .zip file that's returned as part of this process should contain the app's source file (such as an .appx, .appxbundle, or .xap), a provisioning file (.provxml), and a license file (.xml).</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>If your preinstall package does not contain all of these files, you can't successfully preload the app.</source>
+          <target>If your preinstall package does not contain all of these files, you can't successfully preload the app.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>To preload an app</source>
+          <target>To preload an app</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Verify that the app preinstall package contains all the files you need to preload an app: source file, provisioning file, and license file.</source>
+          <target>Verify that the app preinstall package contains all the files you need to preload an app: source file, provisioning file, and license file.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Add the app to the image.</source>
+          <target>Add the app to the image.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>To do this, follow these steps:</source>
+          <target>To do this, follow these steps:</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add an <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applications</pc> section to the CAF.</source>
+          <target>Add an <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Applications</pc> section to the CAF.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  You can add the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Applications</pc> section within the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Static</pc> section of the CAF, which means the app will be installed for all images regardless of the variant, or you can add it within a particular <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Variant</pc>, which means it will only be installed for a particular variant.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  You can add the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Applications</pc> section within the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Static</pc> section of the CAF, which means the app will be installed for all images regardless of the variant, or you can add it within a particular <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Variant</pc>, which means it will only be installed for a particular variant.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you are preloading more than one app, one can be common to all variants (or within the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Static</pc> section), while another applies only to a particular variant (or within a <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Variant</pc> section).</source>
+          <target>If you are preloading more than one app, one can be common to all variants (or within the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Static</pc> section), while another applies only to a particular variant (or within a <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Variant</pc> section).</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>An example of the latter case can be when you have an app that you only need to install for one particular mobile operator, or country/region, and so on.</source>
+          <target>An example of the latter case can be when you have an app that you only need to install for one particular mobile operator, or country/region, and so on.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">*</data>
+          <data id="id4">*</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Source</pc> to the location and name of your app source file; for example, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">C:<ph dataRef="id5" id="ph1" />Contoso<ph dataRef="id6" id="ph2" />Customizations<ph dataRef="id7" id="ph3" />Apps<ph dataRef="id8" id="ph4" />SampleApp.appx</pc>.</source>
+          <target>Set <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Source</pc> to the location and name of your app source file; for example, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">C:<ph dataRef="id5" id="ph1" />Contoso<ph dataRef="id6" id="ph2" />Customizations<ph dataRef="id7" id="ph3" />Apps<ph dataRef="id8" id="ph4" />SampleApp.appx</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">*</data>
+          <data id="id4">*</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set <pc dataRefEnd="id2" dataRefStart="id1" id="p1">License</pc> to the location and name of your app's license file; for example, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">C:<ph dataRef="id5" id="ph1" />Contoso<ph dataRef="id6" id="ph2" />Customizations<ph dataRef="id7" id="ph3" />Apps<ph dataRef="id8" id="ph4" />SampleAppLicense.xml</pc>.</source>
+          <target>Set <pc dataRefEnd="id2" dataRefStart="id1" id="p1">License</pc> to the location and name of your app's license file; for example, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">C:<ph dataRef="id5" id="ph1" />Contoso<ph dataRef="id6" id="ph2" />Customizations<ph dataRef="id7" id="ph3" />Apps<ph dataRef="id8" id="ph4" />SampleAppLicense.xml</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">*</data>
+          <data id="id4">*</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+          <data id="id9">\_</data>
+          <data id="id10">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ProvXML</pc> to the location and name of your app's provisioning file; for example, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">C:<ph dataRef="id5" id="ph1" />Contoso<ph dataRef="id6" id="ph2" />Customizations<ph dataRef="id7" id="ph3" />Apps<ph dataRef="id8" id="ph4" />mpap<ph dataRef="id9" id="ph5" />sampleapp<ph dataRef="id10" id="ph6" />001.provxml</pc>.</source>
+          <target>Set <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ProvXML</pc> to the location and name of your app's provisioning file; for example, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">C:<ph dataRef="id5" id="ph1" />Contoso<ph dataRef="id6" id="ph2" />Customizations<ph dataRef="id7" id="ph3" />Apps<ph dataRef="id8" id="ph4" />mpap<ph dataRef="id9" id="ph5" />sampleapp<ph dataRef="id10" id="ph6" />001.provxml</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>The provXML file follows a prescribed naming convention.</source>
+          <target>The provXML file follows a prescribed naming convention.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn707972)</data>
+        </originalData>
+        <segment state="initial">
+          <source>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Preinstallable apps for mobile devices</pc> for more information.</source>
+          <target>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Preinstallable apps for mobile devices</pc> for more information.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Save the CAF when you are done adding all the apps.</source>
+          <target>Save the CAF when you are done adding all the apps.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>In some cases, you may need to preload an app that has dependencies on other packages or components.</source>
+          <target>In some cases, you may need to preload an app that has dependencies on other packages or components.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>In this case, you need to make sure that the other packages or components are preinstalled first before your app.</source>
+          <target>In this case, you need to make sure that the other packages or components are preinstalled first before your app.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>If the dependent packages or components are not installed first, your app preload will fail.</source>
+          <target>If the dependent packages or components are not installed first, your app preload will fail.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/mt691485)</data>
+        </originalData>
+        <segment state="initial">
+          <source>We won't walk through this scenario here, but you can find this documented in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Preload an app with a dependency</pc>.</source>
+          <target>We won't walk through this scenario here, but you can find this documented in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Preload an app with a dependency</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Configure the DeviceTargetingInfo metadata for the device</source>
+          <target>Configure the DeviceTargetingInfo metadata for the device</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn772214)</data>
+        </originalData>
+        <segment state="initial">
+          <source>In order to ship a mobile device, at a minimum, you must set the required settings described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Phone metadata in DeviceTargetingInfo</pc>.</source>
+          <target>In order to ship a mobile device, at a minimum, you must set the required settings described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Phone metadata in DeviceTargetingInfo</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Examples of required metadata include:</source>
+          <target>Examples of required metadata include:</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>OEM and mobile operator information, used for display strings in the UI, device update, connecting to the Windows Store, and so on.</source>
+          <target>OEM and mobile operator information, used for display strings in the UI, device update, connecting to the Windows Store, and so on.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Hardware component versions and software versions, used for targeting updates to devices and for user support.</source>
+          <target>Hardware component versions and software versions, used for targeting updates to devices and for user support.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The device's model name, the mobile operator's name, and the manufacturer's name, which appear in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">About</pc> screen in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Settings</pc>.</source>
+          <target>The device's model name, the mobile operator's name, and the manufacturer's name, which appear in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">About</pc> screen in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Settings</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>To configure the DeviceTargetingInfo metadata</source>
+          <target>To configure the DeviceTargetingInfo metadata</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Edit the MCSF CAF; for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />Contoso<ph dataRef="id4" id="ph2" />Customizations<ph dataRef="id5" id="ph3" />MobileCustomizations.xml</pc>.</source>
+          <target>Edit the MCSF CAF; for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />Contoso<ph dataRef="id4" id="ph2" />Customizations<ph dataRef="id5" id="ph3" />MobileCustomizations.xml</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">`DeviceInfo/Static`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Within the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Static</pc> section of the CAF, add a <ph dataRef="id3" id="ph1" /> settings group.</source>
+          <target>Within the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Static</pc> section of the CAF, add a <ph dataRef="id3" id="ph1" /> settings group.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>These settings are image-time only and will be put directly into the registry hive.</source>
+          <target>These settings are image-time only and will be put directly into the registry hive.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <originalData>
+          <data id="id1">`DeviceInfo/Static`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Note that some settings in the <ph dataRef="id1" id="ph1" /> group are optional so you may choose not to specify any values for them or remove them from the CAF.</source>
+          <target>Note that some settings in the <ph dataRef="id1" id="ph1" /> group are optional so you may choose not to specify any values for them or remove them from the CAF.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>The following table summarizes which settings are required, optional, and which ones come from the silicon vendor.</source>
+          <target>The following table summarizes which settings are required, optional, and which ones come from the silicon vendor.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Required setting</source>
+          <target>Required setting</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Optional setting</source>
+          <target>Optional setting</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>SoC vendor setting</source>
+          <target>SoC vendor setting</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>PhoneManufacturer</source>
+          <target>PhoneManufacturer</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>PhoneFirmwareRevision</source>
+          <target>PhoneFirmwareRevision</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>PhoneROMLanguage</source>
+          <target>PhoneROMLanguage</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>PhoneHardwareVariant</source>
+          <target>PhoneHardwareVariant</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>PhoneManufacturerDisplayName</source>
+          <target>PhoneManufacturerDisplayName</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>PhoneRadioHardwareRevision</source>
+          <target>PhoneRadioHardwareRevision</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>PhoneROMVersion</source>
+          <target>PhoneROMVersion</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>PhoneHardwareRevision</source>
+          <target>PhoneHardwareRevision</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>PhoneSOCVersion</source>
+          <target>PhoneSOCVersion</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>PhoneRadioSoftwareRevision</source>
+          <target>PhoneRadioSoftwareRevision</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>PhoneBootLoaderVersion</source>
+          <target>PhoneBootLoaderVersion</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">`PhoneManufacturer`</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  You will need to contact your Microsoft representative to find out the value that you should use for <ph dataRef="id3" id="ph1" />.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  You will need to contact your Microsoft representative to find out the value that you should use for <ph dataRef="id3" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">`DeviceInfo/Variant`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Within the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Variant</pc> section of the CAF, add a <ph dataRef="id3" id="ph1" /> settings group.</source>
+          <target>Within the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Variant</pc> section of the CAF, add a <ph dataRef="id3" id="ph1" /> settings group.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Using our example, we'll add the settings within the variant section for ThePhoneCompany</source>
+          <target>Using our example, we'll add the settings within the variant section for ThePhoneCompany</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>These settings are first variation only and can be configured at runtime, so potentially may be based on the SIM value.</source>
+          <target>These settings are first variation only and can be configured at runtime, so potentially may be based on the SIM value.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">`DeviceInfo/Variant`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Note that some settings in the <ph dataRef="id1" id="ph1" /> group are optional so you may choose not to specify values for them or remove them from the CAF.</source>
+          <target>Note that some settings in the <ph dataRef="id1" id="ph1" /> group are optional so you may choose not to specify values for them or remove them from the CAF.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>The following table summarizes which settings are required, optional, and which ones come from the silicon vendor.</source>
+          <target>The following table summarizes which settings are required, optional, and which ones come from the silicon vendor.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Required setting</source>
+          <target>Required setting</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Optional setting</source>
+          <target>Optional setting</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>PhoneMobileOperatorName</source>
+          <target>PhoneMobileOperatorName</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>PhoneManufacturerModelName</source>
+          <target>PhoneManufacturerModelName</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>PhoneModelName</source>
+          <target>PhoneModelName</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>PhoneMobileOperatorDisplayName</source>
+          <target>PhoneMobileOperatorDisplayName</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>PhoneSupportPhoneNumber</source>
+          <target>PhoneSupportPhoneNumber</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>PhoneSupportLink</source>
+          <target>PhoneSupportLink</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>PhoneOEMSupportLink</source>
+          <target>PhoneOEMSupportLink</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>PhoneRoamingSupportPhoneNumber</source>
+          <target>PhoneRoamingSupportPhoneNumber</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Save the CAF when you are done adding all the values for the required settings or any optional settings you choose to set.</source>
+          <target>Save the CAF when you are done adding all the values for the required settings or any optional settings you choose to set.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn772214)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Follow the guidance in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Phone metadata in DeviceTargetingInfo</pc> to make sure you set the correct values and their formats.</source>
+          <target>Follow the guidance in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Phone metadata in DeviceTargetingInfo</pc> to make sure you set the correct values and their formats.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Configure other customization settings</source>
+          <target>Configure other customization settings</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>There are a variety of other customization settings that you can configure for Windows mobile devices.</source>
+          <target>There are a variety of other customization settings that you can configure for Windows mobile devices.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>For phones in particular, you'll also typically need to provision connectivity settings such as the MMS APN, MMS proxy, IMS services (if supported), and so on.</source>
+          <target>For phones in particular, you'll also typically need to provision connectivity settings such as the MMS APN, MMS proxy, IMS services (if supported), and so on.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>For this walkthrough, we'll assume that you've already configured these settings so we won't cover how to configure these connectivity settings.</source>
+          <target>For this walkthrough, we'll assume that you've already configured these settings so we won't cover how to configure these connectivity settings.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>The MCSF section of the partner documentation provides scenario-based documentation to help you identify the settings you need to configure based on the scenarios or areas you want to enable.</source>
+          <target>The MCSF section of the partner documentation provides scenario-based documentation to help you identify the settings you need to configure based on the scenarios or areas you want to enable.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>For more information about these customizations, see:</source>
+          <target>For more information about these customizations, see:</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757439)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for device management</pc> for info on overriding the default CountryTable.xml, setting the UICC slot for branding configuration, and more.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for device management</pc> for info on overriding the default CountryTable.xml, setting the UICC slot for branding configuration, and more.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757441)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for hardware components</pc> for info on customizing the display, storage, touch, and so on.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for hardware components</pc> for info on customizing the display, storage, touch, and so on.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757434)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for applications and Microsoft components</pc> for info on adding a phone call/SMS filter app, active phone cover settings, and others.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for applications and Microsoft components</pc> for info on adding a phone call/SMS filter app, active phone cover settings, and others.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757435)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for boot, initial setup, and shutdown</pc> to learn about configuring the timezone confirmation page and language selection during device setup, and many more.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for boot, initial setup, and shutdown</pc> to learn about configuring the timezone confirmation page and language selection during device setup, and many more.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757436)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for browser</pc> for info on ways you can customize Microsoft Edge.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for browser</pc> for info on ways you can customize Microsoft Edge.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757437)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for connectivity</pc> to learn more about setting the custom percentages for signal strength bars, preferred data provider list, roaming filter, and so on.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for connectivity</pc> to learn more about setting the custom percentages for signal strength bars, preferred data provider list, roaming filter, and so on.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757438)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for desktop experiences</pc> to customize the device icon and default image that appears when the mobile device is connected to the desktop.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for desktop experiences</pc> to customize the device icon and default image that appears when the mobile device is connected to the desktop.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757440)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for email</pc> to learn how to change the email app to always have a light background.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for email</pc> to learn how to change the email app to always have a light background.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757442)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for maps</pc> for info preloading map data in the user store or SD card, maps for phones shipped in China, and more.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for maps</pc> for info preloading map data in the user store or SD card, maps for phones shipped in China, and more.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757443)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for phone calls</pc> to learn about branding for phone calls, setting up visual voicemail, enabling IMS services and RCS, and many more.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for phone calls</pc> to learn about branding for phone calls, setting up visual voicemail, enabling IMS services and RCS, and many more.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757445)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for photos, music, and videos</pc> for info about audio volume limitation, adding OEM lens apps, and so on.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for photos, music, and videos</pc> for info about audio volume limitation, adding OEM lens apps, and so on.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757448)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for Settings</pc> to learn about all the many customizations you can configure for the settings that appear within the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Settings</pc> app on mobile devices.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for Settings</pc> to learn about all the many customizations you can configure for the settings that appear within the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Settings</pc> app on mobile devices.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757449)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for SMS and MMS</pc> for more info on adding encoding extension tables for SMS, maximum length for messages, intercept deny list, and many more.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for SMS and MMS</pc> for more info on adding encoding extension tables for SMS, maximum length for messages, intercept deny list, and many more.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757450)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for Start</pc> to change the default behavior of the Windows Store live tile.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for Start</pc> to change the default behavior of the Windows Store live tile.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/mt171093)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Note that you may configure the Start layout too, but that's covered in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start layout for Windows 10 mobile editions</pc> and shown as an example in this walkthrough.</source>
+          <target>Note that you may configure the Start layout too, but that's covered in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start layout for Windows 10 mobile editions</pc> and shown as an example in this walkthrough.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,1124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\service\mobile\update-a-kmdf-device-driver.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">64396952a2a0912dd8d8348273da6292e377b07c</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Update a KMDF device driver</source>
+          <target>Update a KMDF device driver</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Update a KMDF device driver</source>
+          <target>Update a KMDF device driver</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Update a KMDF device driver</source>
+          <target>Update a KMDF device driver</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Like all other components that are added to the OS, KMDF (Kernel-Mode Driver Framework) drivers are included in the OS image by using .spkg package files that are referenced by an OEMInput.xml file when OEMs builds the image.</source>
+          <target>Like all other components that are added to the OS, KMDF (Kernel-Mode Driver Framework) drivers are included in the OS image by using .spkg package files that are referenced by an OEMInput.xml file when OEMs builds the image.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Similarly, driver updates are published by using .spkg package files.</source>
+          <target>Similarly, driver updates are published by using .spkg package files.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](update-requirements.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Like all package updates, the package version must be incremented for each update; for more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update requirements</pc>.</source>
+          <target>Like all package updates, the package version must be incremented for each update; for more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update requirements</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When driver updates are prepared, the value of the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DriverVer</pc> directive in the driver INF file must also be incremented.</source>
+          <target>When driver updates are prepared, the value of the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DriverVer</pc> directive in the driver INF file must also be incremented.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>This walkthrough shows how to prepare a KMDF device driver update and confirm that the updated driver is loaded by the OS.</source>
+          <target>This walkthrough shows how to prepare a KMDF device driver update and confirm that the updated driver is loaded by the OS.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>This topic assumes that you are familiar with the general concepts associated with Windows device driver installation and the use of the INF file.</source>
+          <target>This topic assumes that you are familiar with the general concepts associated with Windows device driver installation and the use of the INF file.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/ff549731)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device and driver installation</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device and driver installation</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Driver INF files and updates</source>
+          <target>Driver INF files and updates</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Visual Studio automatically generates an INF file when building a Windows 10 Mobile KMDF driver project.</source>
+          <target>Visual Studio automatically generates an INF file when building a Windows 10 Mobile KMDF driver project.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>In Windows, driver installation uses the INF file directly.</source>
+          <target>In Windows, driver installation uses the INF file directly.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>However, in Windows 10 Mobile, the INF file is converted to a registry entries (.reg) file.</source>
+          <target>However, in Windows 10 Mobile, the INF file is converted to a registry entries (.reg) file.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>The .reg file is included in the .spkg file when the driver is packaged.</source>
+          <target>The .reg file is included in the .spkg file when the driver is packaged.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When creating a KMDF driver update, two version numbers must be incremented: the version number of the .spkg package file and the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DriverVer</pc> value in the INF file.</source>
+          <target>When creating a KMDF driver update, two version numbers must be incremented: the version number of the .spkg package file and the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DriverVer</pc> value in the INF file.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Package version</source>
+          <target>Package version</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>The package version number must be incremented to cause the update to be applied to the OS.</source>
+          <target>The package version number must be incremented to cause the update to be applied to the OS.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>If the update package version is not greater than the existing version, the update will not be applied.</source>
+          <target>If the update package version is not greater than the existing version, the update will not be applied.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>INF driver version</source>
+          <target>INF driver version</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>The INF driver version number must be incremented to cause the updated driver data to be applied to the active driver registry key in the System hive.</source>
+          <target>The INF driver version number must be incremented to cause the updated driver data to be applied to the active driver registry key in the System hive.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>The driver version is specified in the following format:</source>
+          <target>The driver version is specified in the following format:</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">/</data>
+          <data id="id4">*</data>
+          <data id="id5">*</data>
+          <data id="id6">/</data>
+          <data id="id7">*</data>
+          <data id="id8">*</data>
+          <data id="id9">*</data>
+          <data id="id10">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MM</pc>
+            <ph dataRef="id3" id="ph1" />
+            <pc dataRefEnd="id5" dataRefStart="id4" id="p2">DD</pc>
+            <ph dataRef="id6" id="ph2" />
+            <pc dataRefEnd="id8" dataRefStart="id7" id="p3">YYYY</pc>, <pc dataRefEnd="id10" dataRefStart="id9" id="p4">n</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MM</pc>
+            <ph dataRef="id3" id="ph1" />
+            <pc dataRefEnd="id5" dataRefStart="id4" id="p2">DD</pc>
+            <ph dataRef="id6" id="ph2" />
+            <pc dataRefEnd="id8" dataRefStart="id7" id="p3">YYYY</pc>, <pc dataRefEnd="id10" dataRefStart="id9" id="p4">n</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">n</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">n</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">n</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">n</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>n</source>
+          <target>n</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">*</data>
+          <data id="id4">*</data>
+          <data id="id5">*</data>
+          <data id="id6">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MM</pc> is month, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">DD</pc> is day, and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">YYYY</pc> is year, followed by the version number.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MM</pc> is month, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">DD</pc> is day, and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">YYYY</pc> is year, followed by the version number.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>The first digit of the version number is the major version, followed by the minor versions.</source>
+          <target>The first digit of the version number is the major version, followed by the minor versions.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>For driver updates, the entire string is evaluated as the version number.</source>
+          <target>For driver updates, the entire string is evaluated as the version number.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">/</data>
+          <data id="id4">*</data>
+          <data id="id5">*</data>
+          <data id="id6">/</data>
+          <data id="id7">*</data>
+          <data id="id8">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>If just the date (<pc dataRefEnd="id2" dataRefStart="id1" id="p1">MM</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">DD</pc><ph dataRef="id6" id="ph2" /><pc dataRefEnd="id8" dataRefStart="id7" id="p3">YYYY</pc>) is incremented, it is considered to be a newer version of the driver.</source>
+          <target>If just the date (<pc dataRefEnd="id2" dataRefStart="id1" id="p1">MM</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">DD</pc><ph dataRef="id6" id="ph2" /><pc dataRefEnd="id8" dataRefStart="id7" id="p3">YYYY</pc>) is incremented, it is considered to be a newer version of the driver.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Driver walkthrough introduction</source>
+          <target>Driver walkthrough introduction</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>The driver update walkthrough covers the following tasks:</source>
+          <target>The driver update walkthrough covers the following tasks:</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Build the version 1 driver package</source>
+          <target>Build the version 1 driver package</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Add the version 1 driver to the OS</source>
+          <target>Add the version 1 driver to the OS</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>View the driver registry settings</source>
+          <target>View the driver registry settings</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Examine the registry keys to confirm that the driver is active</source>
+          <target>Examine the registry keys to confirm that the driver is active</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Build the version 2 driver package</source>
+          <target>Build the version 2 driver package</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Add the version 2 driver to the OS</source>
+          <target>Add the version 2 driver to the OS</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Confirm that the updated driver is active</source>
+          <target>Confirm that the updated driver is active</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>In this example, the following version numbers are used:</source>
+          <target>In this example, the following version numbers are used:</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Driver version in INF file</source>
+          <target>Driver version in INF file</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Package version</source>
+          <target>Package version</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>11/01/2012,1.00.00.00</source>
+          <target>11/01/2012,1.00.00.00</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>8.00.9907.12</source>
+          <target>8.00.9907.12</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>02/19/2013,1.32.00.00</source>
+          <target>02/19/2013,1.32.00.00</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>8.00.10211.25</source>
+          <target>8.00.10211.25</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>The driver file is named XKmdfDriver.sys, and the INF file is XKmdfDriver.inf.</source>
+          <target>The driver file is named XKmdfDriver.sys, and the INF file is XKmdfDriver.inf.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Replace these file names with the name of the driver that you want to use in this walkthrough.</source>
+          <target>Replace these file names with the name of the driver that you want to use in this walkthrough.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The original driver will be located in the <ph dataRef="id1" id="ph1" />Version1 folder, and the updated version will be located in <ph dataRef="id2" id="ph2" />Version2.</source>
+          <target>The original driver will be located in the <ph dataRef="id1" id="ph1" />Version1 folder, and the updated version will be located in <ph dataRef="id2" id="ph2" />Version2.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>The walkthrough assumes that the following environmental variables are similar to what is shown here:</source>
+          <target>The walkthrough assumes that the following environmental variables are similar to what is shown here:</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Build the version 1 driver package</source>
+          <target>Build the version 1 driver package</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Use the following steps to include the version 1 driver in the OS.</source>
+          <target>Use the following steps to include the version 1 driver in the OS.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Copy the driver files to the <ph dataRef="id1" id="ph1" />Version1 directory:</source>
+          <target>Copy the driver files to the <ph dataRef="id1" id="ph1" />Version1 directory:</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>XKmdfDriver.inf</source>
+          <target>XKmdfDriver.inf</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>XKmdfdriver.pkg.xml</source>
+          <target>XKmdfdriver.pkg.xml</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>XKmdfDriver.sys</source>
+          <target>XKmdfDriver.sys</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">`DriverVer`</data>
+          <data id="id2">`[Version]`</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the XKmdfDriver.inf file, set the <ph dataRef="id1" id="ph1" /> directive in the <ph dataRef="id2" id="ph2" /> section as shown here.</source>
+          <target>In the XKmdfDriver.inf file, set the <ph dataRef="id1" id="ph1" /> directive in the <ph dataRef="id2" id="ph2" /> section as shown here.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>The highlighted string "11/01/2012,1.00.00.00" is the version number of the driver.</source>
+          <target>The highlighted string "11/01/2012,1.00.00.00" is the version number of the driver.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>The package XML (XKmdfdriver.pkg.xml) for the version 1 driver, is shown below.</source>
+          <target>The package XML (XKmdfdriver.pkg.xml) for the version 1 driver, is shown below.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">`Owner`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify an OEM <ph dataRef="id1" id="ph1" /> name.</source>
+          <target>Specify an OEM <ph dataRef="id1" id="ph1" /> name.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Move to the <ph dataRef="id1" id="ph1" />Version1 directory, set the package version as shown, and build the driver package.</source>
+          <target>Move to the <ph dataRef="id1" id="ph1" />Version1 directory, set the package version as shown, and build the driver package.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Confirm that the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OEMName</pc>.Phone.Test.BaseOS.XKmdfDriver.spkg package was built.</source>
+          <target>Confirm that the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OEMName</pc>.Phone.Test.BaseOS.XKmdfDriver.spkg package was built.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Add the version 1 driver to the OS</source>
+          <target>Add the version 1 driver to the OS</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Use the following steps to include the version 1 driver in the OS by using IUTool and a production or test build.</source>
+          <target>Use the following steps to include the version 1 driver in the OS by using IUTool and a production or test build.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Alternatively, include the package in an image and then flash that image to the phone.</source>
+          <target>Alternatively, include the package in an image and then flash that image to the phone.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Connect the device to the PC by using a USB cable.</source>
+          <target>Connect the device to the PC by using a USB cable.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Use IuTool to add the version 1 driver package to an existing image.</source>
+          <target>Use IuTool to add the version 1 driver package to an existing image.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Confirm that the IuTool was able to deploy the package to the device</source>
+          <target>Confirm that the IuTool was able to deploy the package to the device</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>View the driver registry settings</source>
+          <target>View the driver registry settings</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Use the following process to mount the device in mass storage mode and view the registry.</source>
+          <target>Use the following process to mount the device in mass storage mode and view the registry.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Reboot the device to USB mass storage mode.</source>
+          <target>Reboot the device to USB mass storage mode.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>This is done by using a specific key sequence on the phone—for example, holding the camera button down when powering up.</source>
+          <target>This is done by using a specific key sequence on the phone—for example, holding the camera button down when powering up.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Connect the device to the PC with a USB cable.</source>
+          <target>Connect the device to the PC with a USB cable.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>When the device is connected to the PC in USB mass storage mode, it will appear as a logical drive on the PC.</source>
+          <target>When the device is connected to the PC in USB mass storage mode, it will appear as a logical drive on the PC.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Open a Command Prompt window as an administrator.</source>
+          <target>Open a Command Prompt window as an administrator.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Locate the registry SYSTEM hive under the folder <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />WINDOWS<ph dataRef="id4" id="ph2" />SYSTEM32<ph dataRef="id5" id="ph3" />CONFIG</pc>.</source>
+          <target>Locate the registry SYSTEM hive under the folder <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />WINDOWS<ph dataRef="id4" id="ph2" />SYSTEM32<ph dataRef="id5" id="ph3" />CONFIG</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Start the Registry Editor (Regedit.exe) on the PC.</source>
+          <target>Start the Registry Editor (Regedit.exe) on the PC.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the Registry Editor, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Load Hive</pc> and load the SYSTEM hive.</source>
+          <target>In the Registry Editor, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Load Hive</pc> and load the SYSTEM hive.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Provide a name for the imported hive—for this example, DRIVER<ph dataRef="id1" id="ph1" />VERSION1</source>
+          <target>Provide a name for the imported hive—for this example, DRIVER<ph dataRef="id1" id="ph1" />VERSION1</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Proceed to the next section to examine the contents of the imported registry hive.</source>
+          <target>Proceed to the next section to examine the contents of the imported registry hive.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Examine the registry keys to confirm that the driver is active</source>
+          <target>Examine the registry keys to confirm that the driver is active</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>When Windows 10 Mobile installs the driver, the following registry keys appear in the SYSTEM hive:</source>
+          <target>When Windows 10 Mobile installs the driver, the following registry keys appear in the SYSTEM hive:</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">`SYSTEM\DriverDatabase`</data>
+        </originalData>
+        <segment state="initial">
+          <source>A driver-specific registry key is created under <ph dataRef="id1" id="ph1" />.</source>
+          <target>A driver-specific registry key is created under <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">`SYSTEM\ControlSet001\Enum\ROOT\XKmdfDriver`</data>
+        </originalData>
+        <segment state="initial">
+          <source>An active driver subkey is created under <ph dataRef="id1" id="ph1" />.</source>
+          <target>An active driver subkey is created under <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Each of these two areas is discussed in the following sections.</source>
+          <target>Each of these two areas is discussed in the following sections.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Use this information in the registry to determine if the driver is ready to be installed and if the OS has recognized the hardware and installed the proper version of the driver.</source>
+          <target>Use this information in the registry to determine if the driver is ready to be installed and if the OS has recognized the hardware and installed the proper version of the driver.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Driver database</source>
+          <target>Driver database</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <originalData>
+          <data id="id1">`SYSTEM\DriverDatabase`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Driver settings are staged for later installation in <ph dataRef="id1" id="ph1" />.</source>
+          <target>Driver settings are staged for later installation in <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>The OS uses this subkey to install drivers when the new hardware is identified.</source>
+          <target>The OS uses this subkey to install drivers when the new hardware is identified.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>It contains:</source>
+          <target>It contains:</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Information about the XKmdfDriver.inf</source>
+          <target>Information about the XKmdfDriver.inf</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <originalData>
+          <data id="id1">`{4d36e97d-e325-11ce-bfc1-08002be10318}`</data>
+        </originalData>
+        <segment state="initial">
+          <source>A specific GUID <ph dataRef="id1" id="ph1" /> that identifies the XKmdfDriver as a SYSTEM class driver, not a driver that uses a dynamically enumerable bus (such as ACPI or USB).</source>
+          <target>A specific GUID <ph dataRef="id1" id="ph1" /> that identifies the XKmdfDriver as a SYSTEM class driver, not a driver that uses a dynamically enumerable bus (such as ACPI or USB).</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>This example uses a system class driver to simplify the walkthrough, but the concepts illustrated are similar with other types of drivers.</source>
+          <target>This example uses a system class driver to simplify the walkthrough, but the concepts illustrated are similar with other types of drivers.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">`[SYSTEM\DriverDatabase\DeviceIds\{4d36e97d-e325-11ce-bfc1-08002be10318}]`</data>
+          <data id="id2">`{4d36e97d-e325-11ce-bfc1-08002be10318}`</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the package is installed, the XKmkdfDriver.inf is added to <ph dataRef="id1" id="ph1" />, where <ph dataRef="id2" id="ph2" /> is the system driver GUID.</source>
+          <target>When the package is installed, the XKmkdfDriver.inf is added to <ph dataRef="id1" id="ph1" />, where <ph dataRef="id2" id="ph2" /> is the system driver GUID.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <originalData>
+          <data id="id1">`[SYSTEM\DriverDatabase\DeviceIds\Root\XKmdfDriver]`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following shows the system driver GUID in the <ph dataRef="id1" id="ph1" /> registry subkey.</source>
+          <target>The following shows the system driver GUID in the <ph dataRef="id1" id="ph1" /> registry subkey.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">`[SYSTEM\DriverDatabase\DriverInfFiles\XKmdfDriver.inf]`</data>
+          <data id="id2">`"Active"="xkmdfdriver.inf_arm_c8e7ab79be6b088b"`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under the <ph dataRef="id1" id="ph1" /> subkey, the active INF file is specified with the entry <ph dataRef="id2" id="ph2" />.</source>
+          <target>Under the <ph dataRef="id1" id="ph1" /> subkey, the active INF file is specified with the entry <ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">`"Active"`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> entry is pointing to the active driver INF.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> entry is pointing to the active driver INF.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <originalData>
+          <data id="id1">`"Active"`</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the driver package is updated, there are multiple INF settings, and <ph dataRef="id1" id="ph1" /> points to the latest one.</source>
+          <target>When the driver package is updated, there are multiple INF settings, and <ph dataRef="id1" id="ph1" /> points to the latest one.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">`[SYSTEM\DriverDatabase\DriverPackages\xkmdfdriver.inf_arm_c8e7ab79be6b088b]`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> subkey contains a replication of the XKmdfDriver.inf contents.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> subkey contains a replication of the XKmdfDriver.inf contents.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>This subkey references the service associated with the system driver:</source>
+          <target>This subkey references the service associated with the system driver:</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>This subkey sets the driver description strings:</source>
+          <target>This subkey sets the driver description strings:</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>This subkey sets the value of the driver description string:</source>
+          <target>This subkey sets the value of the driver description string:</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Control set enumeration</source>
+          <target>Control set enumeration</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>is created when the OS successfully installs the matching device driver with the INF file.</source>
+          <target>is created when the OS successfully installs the matching device driver with the INF file.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://msdn.microsoft.com/library/windows/hardware/ff546173.aspx)</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKLM<ph dataRef="id3" id="ph1" />SYSTEM<ph dataRef="id4" id="ph2" />CurrentControlSet<ph dataRef="id5" id="ph3" />Enum Registry Tree</pc> on MSDN.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKLM<ph dataRef="id3" id="ph1" />SYSTEM<ph dataRef="id4" id="ph2" />CurrentControlSet<ph dataRef="id5" id="ph3" />Enum Registry Tree</pc> on MSDN.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">`Control`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> subkey contains information for controlling system startup and some aspects of device.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> subkey contains information for controlling system startup and some aspects of device.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://msdn.microsoft.com/library/windows/hardware/ff546165.aspx)</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKLM<ph dataRef="id3" id="ph1" />SYSTEM<ph dataRef="id4" id="ph2" />CurrentControlSet<ph dataRef="id5" id="ph3" />Control Registry Tree</pc> on MSDN.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKLM<ph dataRef="id3" id="ph1" />SYSTEM<ph dataRef="id4" id="ph2" />CurrentControlSet<ph dataRef="id5" id="ph3" />Control Registry Tree</pc> on MSDN.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>indicates that the driver has the 120th rank among SYSTEM class drivers.</source>
+          <target>indicates that the driver has the 120th rank among SYSTEM class drivers.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>This subkey includes the driver date and version as shown here:</source>
+          <target>This subkey includes the driver date and version as shown here:</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>The DeviceClasses subkey includes the device instance ID:</source>
+          <target>The DeviceClasses subkey includes the device instance ID:</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>This next subkey associates the XKmdfDriver with the system containerId 00000000-0000-0000-ffff-ffffffffffff:</source>
+          <target>This next subkey associates the XKmdfDriver with the system containerId 00000000-0000-0000-ffff-ffffffffffff:</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>contains information about the installed driver.</source>
+          <target>contains information about the installed driver.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">`XKmdfDriver\0000`</data>
+        </originalData>
+        <segment state="initial">
+          <source>It has one instance, <ph dataRef="id1" id="ph1" />:</source>
+          <target>It has one instance, <ph dataRef="id1" id="ph1" />:</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>contains the driver file "ImagePath" value; it is ASCII characters encoded in hexadecimal binary format.</source>
+          <target>contains the driver file "ImagePath" value; it is ASCII characters encoded in hexadecimal binary format.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The actual value is "ImagePath" = REG<ph dataRef="id1" id="ph1" />EXPAND<ph dataRef="id2" id="ph2" />SZ: "<ph dataRef="id3" id="ph3" />SystemRoot<ph dataRef="id4" id="ph4" />System32<ph dataRef="id5" id="ph5" />drivers<ph dataRef="id6" id="ph6" />XKmdfDriver.sys".</source>
+          <target>The actual value is "ImagePath" = REG<ph dataRef="id1" id="ph1" />EXPAND<ph dataRef="id2" id="ph2" />SZ: "<ph dataRef="id3" id="ph3" />SystemRoot<ph dataRef="id4" id="ph4" />System32<ph dataRef="id5" id="ph5" />drivers<ph dataRef="id6" id="ph6" />XKmdfDriver.sys".</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://msdn.microsoft.com/library/windows/desktop/ms724884.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Registry Value Types</pc> on MSDN.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Registry Value Types</pc> on MSDN.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>contains the WDF version number:</source>
+          <target>contains the WDF version number:</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Close the tools and eject the device</source>
+          <target>Close the tools and eject the device</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">`DRIVER_VERSION1`</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the Registry Editor, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Unload Hive</pc> to unload the <ph dataRef="id6" id="ph2" /> hive, so that the PC registry is restored to its previous state.</source>
+          <target>In the Registry Editor, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Unload Hive</pc> to unload the <ph dataRef="id6" id="ph2" /> hive, so that the PC registry is restored to its previous state.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Close the Registry Editor.</source>
+          <target>Close the Registry Editor.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Close the Command Prompt window and any open instances of Windows Explorer that were used to view the temp folder.</source>
+          <target>Close the Command Prompt window and any open instances of Windows Explorer that were used to view the temp folder.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Eject the phone (use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Safely Remove Hardware and Eject Media</pc> in the notification area or the Windows Explorer <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Eject</pc> command), and then disconnect the device from the PC.</source>
+          <target>Eject the phone (use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Safely Remove Hardware and Eject Media</pc> in the notification area or the Windows Explorer <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Eject</pc> command), and then disconnect the device from the PC.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Build the version 2 driver package</source>
+          <target>Build the version 2 driver package</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>As described earlier, the new driver version will be 2/19/2013,1.32.00.00, which will be contained in a new package version, 8.00.10211.25.</source>
+          <target>As described earlier, the new driver version will be 2/19/2013,1.32.00.00, which will be contained in a new package version, 8.00.10211.25.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Create a second copy of the driver files in the <ph dataRef="id1" id="ph1" />Version2 directory.</source>
+          <target>Create a second copy of the driver files in the <ph dataRef="id1" id="ph1" />Version2 directory.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <originalData>
+          <data id="id1">`DriverVer`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Edit the XKmdfDriver.inf file and change <ph dataRef="id1" id="ph1" /> to 02/19/2013,1.32.00.00.</source>
+          <target>Edit the XKmdfDriver.inf file and change <ph dataRef="id1" id="ph1" /> to 02/19/2013,1.32.00.00.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Add a new registry value named "DW123", of type DWORD.</source>
+          <target>Add a new registry value named "DW123", of type DWORD.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>The presence of this key is used as an additional indication that the version 2 driver is active.</source>
+          <target>The presence of this key is used as an additional indication that the version 2 driver is active.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Move to the <ph dataRef="id1" id="ph1" />Version2 directory, set the package version, and build the package.</source>
+          <target>Move to the <ph dataRef="id1" id="ph1" />Version2 directory, set the package version, and build the package.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Add the version 2 driver to the OS</source>
+          <target>Add the version 2 driver to the OS</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Use the following steps to include the version 2 driver in the OS using IUTool and a production or test build:</source>
+          <target>Use the following steps to include the version 2 driver in the OS using IUTool and a production or test build:</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>Connect the device to the PC by using a USB cable.</source>
+          <target>Connect the device to the PC by using a USB cable.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Use IuTool to add the version 2 driver package to an existing image.</source>
+          <target>Use IuTool to add the version 2 driver package to an existing image.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Confirm that the IUTool was able to deploy the package to the device</source>
+          <target>Confirm that the IUTool was able to deploy the package to the device</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Confirm that the updated driver is active</source>
+          <target>Confirm that the updated driver is active</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Use the following process to confirm that the updated driver is active.</source>
+          <target>Use the following process to confirm that the updated driver is active.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#viewtheregistry)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the process described previously in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">View the driver registry settings</pc> to load and view the system registry hive.</source>
+          <target>Use the process described previously in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">View the driver registry settings</pc> to load and view the system registry hive.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>DriverPackages should have two INF registry key sets: one for the previously installed driver and the one for the updated driver.</source>
+          <target>DriverPackages should have two INF registry key sets: one for the previously installed driver and the one for the updated driver.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>in XKmdfDriver.inf should point to the newer INF key:</source>
+          <target>in XKmdfDriver.inf should point to the newer INF key:</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>The driver still has the 120th rank under SYSTEM Class driver, but the date and version should be updated.</source>
+          <target>The driver still has the 120th rank under SYSTEM Class driver, but the date and version should be updated.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>"DriverDate"="2-19-2013"</source>
+          <target>"DriverDate"="2-19-2013"</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>"DriverVersion"="1.32.0.0"</source>
+          <target>"DriverVersion"="1.32.0.0"</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <originalData>
+          <data id="id1">`Device Parameters`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The newly added DWORD registry value DW123 should appear under the <ph dataRef="id1" id="ph1" /> subkey.</source>
+          <target>The newly added DWORD registry value DW123 should appear under the <ph dataRef="id1" id="ph1" /> subkey.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#closethetools)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the process described earlier in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Close the tools and eject the phone</pc> to safely disconnect the device</source>
+          <target>Use the process described earlier in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Close the tools and eject the phone</pc> to safely disconnect the device</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Update</source>
+          <target>Update</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

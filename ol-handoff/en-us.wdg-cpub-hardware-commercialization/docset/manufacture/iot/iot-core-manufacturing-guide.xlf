@@ -1,0 +1,848 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\iot\iot-core-manufacturing-guide.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">d6b8ac0c3584fca3a23e024e5e5c93fbf12efb6b</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>This guide walks you through creating Windows 10 IoT Core (IoT Core) images that can be flashed to retail devices and maintained after they have been delivered to your customers.</source>
+          <target>This guide walks you through creating Windows 10 IoT Core (IoT Core) images that can be flashed to retail devices and maintained after they have been delivered to your customers.</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>IoT Core manufacturing guide</source>
+          <target>IoT Core manufacturing guide</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>IoT Core manufacturing guide</source>
+          <target>IoT Core manufacturing guide</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This content has been tested on Windows 10 IoT Core Build 10586.</source>
+          <target>This content has been tested on Windows 10 IoT Core Build 10586.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Some of these procedures do not yet work on newer preview builds, including Windows 10, version 1607.</source>
+          <target>Some of these procedures do not yet work on newer preview builds, including Windows 10, version 1607.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This guide walks you through creating Windows 10 IoT Core (IoT Core) images that can be flashed to retail devices and maintained after you've sent them to your customers.</source>
+          <target>This guide walks you through creating Windows 10 IoT Core (IoT Core) images that can be flashed to retail devices and maintained after you've sent them to your customers.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](iot-core-adk-addons.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To do this, we'll start with a basic IoT Core image structure, provided by the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows ADK IoT Core Add-ons</pc>.</source>
+          <target>To do this, we'll start with a basic IoT Core image structure, provided by the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows ADK IoT Core Add-ons</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>We'll then show you how to wrap your apps, files, settings, and drivers into packages that can go into the image.</source>
+          <target>We'll then show you how to wrap your apps, files, settings, and drivers into packages that can go into the image.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Packages help OEMs, ODMs, developers, and Microsoft all work together to deliver security and feature updates to your devices without stomping on each other's work.</source>
+          <target>Packages help OEMs, ODMs, developers, and Microsoft all work together to deliver security and feature updates to your devices without stomping on each other's work.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>This guide is written toward OEMs, but ODMs and developers can use the same processes to test IoT Core apps, drivers, board support packages (BSPs).</source>
+          <target>This guide is written toward OEMs, but ODMs and developers can use the same processes to test IoT Core apps, drivers, board support packages (BSPs).</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Scenarios</source>
+          <target>Scenarios</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Want to jump right in?</source>
+          <target>Want to jump right in?</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Try our walkthrough of common scenarios:</source>
+          <target>Try our walkthrough of common scenarios:</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Get the tools needed to customize Windows IoT Core</source>
+          <target>Get the tools needed to customize Windows IoT Core</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Lab 1a: Create a basic image</source>
+          <target>Lab 1a: Create a basic image</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Lab 1b: Add an app to your image</source>
+          <target>Lab 1b: Add an app to your image</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Lab 1c: Add a file and a registry setting to an image</source>
+          <target>Lab 1c: Add a file and a registry setting to an image</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Lab 1d: Add a provisioning package to an image</source>
+          <target>Lab 1d: Add a provisioning package to an image</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Lab 1f: Build a retail image</source>
+          <target>Lab 1f: Build a retail image</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Lab 1e: Add a driver to an image</source>
+          <target>Lab 1e: Add a driver to an image</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Lab 2a: Replace a driver in an existing board support package</source>
+          <target>Lab 2a: Replace a driver in an existing board support package</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>(Previous version of this guide): IoT Core deployment and imaging</source>
+          <target>(Previous version of this guide): IoT Core deployment and imaging</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Concepts</source>
+          <target>Concepts</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>You can use the walkthrough as a guide to build both your test and retail images.</source>
+          <target>You can use the walkthrough as a guide to build both your test and retail images.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>In general terms:</source>
+          <target>In general terms:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Add each of your customizations (drivers, apps, settings) into signed package files.</source>
+          <target>Add each of your customizations (drivers, apps, settings) into signed package files.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Create a summary list of these packages, called a feature manifest (FM), which lists your packages by feature name.</source>
+          <target>Create a summary list of these packages, called a feature manifest (FM), which lists your packages by feature name.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Get IoT Core's packages and FMs from us.</source>
+          <target>Get IoT Core's packages and FMs from us.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Get the packages and FMs from your hardware manufacturer, such as a board support package (BSP) and the BSPFM.</source>
+          <target>Get the packages and FMs from your hardware manufacturer, such as a board support package (BSP) and the BSPFM.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>List the FMs and features you want to install in an OEMInput file.</source>
+          <target>List the FMs and features you want to install in an OEMInput file.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Create a flashable image file (FFU) using ImgGen and the OEMInput file.</source>
+          <target>Create a flashable image file (FFU) using ImgGen and the OEMInput file.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Flash the image to your devices.</source>
+          <target>Flash the image to your devices.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>iot core image creation process</source>
+          <target>iot core image creation process</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Packages</source>
+          <target>Packages</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Packages are the logical building blocks of IoT Core.</source>
+          <target>Packages are the logical building blocks of IoT Core.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>They contain all the files, libraries, registry settings, executables, and data on the device.</source>
+          <target>They contain all the files, libraries, registry settings, executables, and data on the device.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>From device drivers to system files, every component must be contained in a package.</source>
+          <target>From device drivers to system files, every component must be contained in a package.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>This modular architecture allows for precise control of updates: a package is the smallest serviceable unit on the device.</source>
+          <target>This modular architecture allows for precise control of updates: a package is the smallest serviceable unit on the device.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Each package contains:</source>
+          <target>Each package contains:</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>The contents of the package, such as a signed driver binary or a signed appx binary.</source>
+          <target>The contents of the package, such as a signed driver binary or a signed appx binary.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>A package definition (.pkg.xml) file specifies the contents of the package and where they should be placed in the final image.</source>
+          <target>A package definition (.pkg.xml) file specifies the contents of the package and where they should be placed in the final image.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>See %SRC<ph dataRef="id1" id="ph1" />DIR%<ph dataRef="id2" id="ph2" />Packages<ph dataRef="id3" id="ph3" /> directory for various samples of package files.</source>
+          <target>See %SRC<ph dataRef="id1" id="ph1" />DIR%<ph dataRef="id2" id="ph2" />Packages<ph dataRef="id3" id="ph3" /> directory for various samples of package files.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>A signature.</source>
+          <target>A signature.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>This can be a test or retail certificate.</source>
+          <target>This can be a test or retail certificate.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">`pkggen`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> tool combines these items into signed packages.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> tool combines these items into signed packages.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">`createpkg`</data>
+          <data id="id2">`createprovpkg`</data>
+          <data id="id3">`createupdatepkgs`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Our samples include scripts: <ph dataRef="id1" id="ph1" />, <ph dataRef="id2" id="ph2" /> and <ph dataRef="id3" id="ph3" />, which call pkggen to create packages for our drivers, apps, and settings.</source>
+          <target>Our samples include scripts: <ph dataRef="id1" id="ph1" />, <ph dataRef="id2" id="ph2" /> and <ph dataRef="id3" id="ph3" />, which call pkggen to create packages for our drivers, apps, and settings.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>The process is similar to that used by Windows 10 Mobile.</source>
+          <target>The process is similar to that used by Windows 10 Mobile.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/dn756642)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more about creating packages, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Creating mobile packages</pc>.</source>
+          <target>To learn more about creating packages, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Creating mobile packages</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Feature manifests (FMs)</source>
+          <target>Feature manifests (FMs)</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>After you've put everything into packages, you'll use FM files to list which of your packages belong in the final image.</source>
+          <target>After you've put everything into packages, you'll use FM files to list which of your packages belong in the final image.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>You can use as many FMs into an image as you want.</source>
+          <target>You can use as many FMs into an image as you want.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>In this guide, we refer to the following FMs:</source>
+          <target>In this guide, we refer to the following FMs:</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OEMFM.xml</pc> includes features an OEM might add to a device, such as the app and a provisioning package.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OEMFM.xml</pc> includes features an OEM might add to a device, such as the app and a provisioning package.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BSPFM.xml</pc> includes features that a hardware manufacturer might use to define a board.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BSPFM.xml</pc> includes features that a hardware manufacturer might use to define a board.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, OEM<ph dataRef="id1" id="ph1" />RPi2FM.xml includes all of the features used for the Raspberry Pi 2.</source>
+          <target>For example, OEM<ph dataRef="id1" id="ph1" />RPi2FM.xml includes all of the features used for the Raspberry Pi 2.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ProdFM.xml</pc> includes features that make up IoT Core.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ProdFM.xml</pc> includes features that make up IoT Core.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>ProdFM refers to a fully-signed version of the OS.</source>
+          <target>ProdFM refers to a fully-signed version of the OS.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>The process is similar to that used by Windows 10 Mobile.</source>
+          <target>The process is similar to that used by Windows 10 Mobile.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn756745)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Feature manifest file contents</pc>.</source>
+          <target>To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Feature manifest file contents</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>You'll list which of the features to add by using these tags:</source>
+          <target>You'll list which of the features to add by using these tags:</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>BasePackages<ph dataRef="id1" id="ph1" />: Packages that you always included in your images, for example, your base app.</source>
+          <target>BasePackages<ph dataRef="id1" id="ph1" />: Packages that you always included in your images, for example, your base app.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">&amp;gt;\\&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Features<ph dataRef="id1" id="ph1" />OEM<ph dataRef="id2" id="ph2" />: Other individual packages that might be specific to a particular product design.</source>
+          <target>Features<ph dataRef="id1" id="ph1" />OEM<ph dataRef="id2" id="ph2" />: Other individual packages that might be specific to a particular product design.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Creating the image: ImgGen and the image configuration file (OEMInput.xml)</source>
+          <target>Creating the image: ImgGen and the image configuration file (OEMInput.xml)</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">`imggen`</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To create the final image, you'll use the <ph dataRef="id1" id="ph1" /> tool with an image configuration file, <pc dataRefEnd="id3" dataRefStart="id2" id="p1">OEMInput.xml file</pc>.</source>
+          <target>To create the final image, you'll use the <ph dataRef="id1" id="ph1" /> tool with an image configuration file, <pc dataRefEnd="id3" dataRefStart="id2" id="p1">OEMInput.xml file</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>These are the same tools used to create Windows 10 Mobile images.</source>
+          <target>These are the same tools used to create Windows 10 Mobile images.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn756778)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OEMInput file contents</pc>.</source>
+          <target>To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OEMInput file contents</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>The image configuration file lists:</source>
+          <target>The image configuration file lists:</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>The feature manifests (FMs) and the packages that you want to install from each one.</source>
+          <target>The feature manifests (FMs) and the packages that you want to install from each one.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>An <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SoC</pc> chip identifier, which is used to help set up the device partitions.</source>
+          <target>An <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SoC</pc> chip identifier, which is used to help set up the device partitions.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>This value is required, even if you're not using one of the devices listed.</source>
+          <target>This value is required, even if you're not using one of the devices listed.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Start with the value for the hardware that most closely resembles your device:</source>
+          <target>Start with the value for the hardware that most closely resembles your device:</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">RPi2</pc>: Raspberry Pi 2 or Raspberry Pi 3 (ARM)</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">RPi2</pc>: Raspberry Pi 2 or Raspberry Pi 3 (ARM)</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBM</pc>: Intel Minnowboard Max (x86)</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MBM</pc>: Intel Minnowboard Max (x86)</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DB</pc>: Qualcomm DragonBoard (ARM32)</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DB</pc>: Qualcomm DragonBoard (ARM32)</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The ReleaseType (either <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Production</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Test</pc>).</source>
+          <target>The ReleaseType (either <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Production</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Test</pc>).</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Retail builds</pc>: We recommend creating retail images early on in your development process to verify that everything will work when you are ready to ship.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Retail builds</pc>: We recommend creating retail images early on in your development process to verify that everything will work when you are ready to ship.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>These builds contain all of the security features enabled.</source>
+          <target>These builds contain all of the security features enabled.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>To use this build type, all of your code must be signed using retail (not test) code signing certificates.</source>
+          <target>To use this build type, all of your code must be signed using retail (not test) code signing certificates.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For a sample, see %SRC<ph dataRef="id1" id="ph1" />DIR%<ph dataRef="id2" id="ph2" />Products<ph dataRef="id3" id="ph3" />SampleA<ph dataRef="id4" id="ph4" />RetailOEMInput.xml.</source>
+          <target>For a sample, see %SRC<ph dataRef="id1" id="ph1" />DIR%<ph dataRef="id2" id="ph2" />Products<ph dataRef="id3" id="ph3" />SampleA<ph dataRef="id4" id="ph4" />RetailOEMInput.xml.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Test builds</pc>: Use these to try out new versions of your apps and drivers created by you and your hardware manufacturer partners.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Test builds</pc>: Use these to try out new versions of your apps and drivers created by you and your hardware manufacturer partners.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>These builds have some security features disabled, which allows you to use either test-signed or production-signed packages.</source>
+          <target>These builds have some security features disabled, which allows you to use either test-signed or production-signed packages.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>These builds also include developer tools such as debug transport, SSH, and PowerShell, that you can use to help troubleshoot issues.</source>
+          <target>These builds also include developer tools such as debug transport, SSH, and PowerShell, that you can use to help troubleshoot issues.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For a sample, see %SRC<ph dataRef="id1" id="ph1" />DIR%<ph dataRef="id2" id="ph2" />Products<ph dataRef="id3" id="ph3" />SampleA<ph dataRef="id4" id="ph4" />TestOEMInput.xml.</source>
+          <target>For a sample, see %SRC<ph dataRef="id1" id="ph1" />DIR%<ph dataRef="id2" id="ph2" />Products<ph dataRef="id3" id="ph3" />SampleA<ph dataRef="id4" id="ph4" />TestOEMInput.xml.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Retail builds</source>
+          <target>Retail builds</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Test builds</source>
+          <target>Test builds</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Image release type</source>
+          <target>Image release type</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>ReleaseType: <ph dataRef="id1" id="ph1" />Production</source>
+          <target>ReleaseType: <ph dataRef="id1" id="ph1" />Production</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>ReleaseType: <ph dataRef="id1" id="ph1" />Test</source>
+          <target>ReleaseType: <ph dataRef="id1" id="ph1" />Test</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Package release type</source>
+          <target>Package release type</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Only Production Type packages are supported</source>
+          <target>Only Production Type packages are supported</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Both Production Type or Test Type are supported</source>
+          <target>Both Production Type or Test Type are supported</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Test-signed packages</source>
+          <target>Test-signed packages</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Not supported</source>
+          <target>Not supported</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Supported.</source>
+          <target>Supported.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>IOT_ENABLE_TESTSIGNING feature must be included.</source>
+          <target>IOT_ENABLE_TESTSIGNING feature must be included.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Code integrity check</source>
+          <target>Code integrity check</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Supported.</source>
+          <target>Supported.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>By default, this is enabled.</source>
+          <target>By default, this is enabled.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Not supported.</source>
+          <target>Not supported.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>IOT_DISABLE_UMCI feature must be included.</source>
+          <target>IOT_DISABLE_UMCI feature must be included.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Board Support Packages (BSPs)</source>
+          <target>Board Support Packages (BSPs)</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Board Support Packages contain a set of software, drivers, and boot configurations for a particular board, typically supplied by a board manufacturer.</source>
+          <target>Board Support Packages contain a set of software, drivers, and boot configurations for a particular board, typically supplied by a board manufacturer.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>The board manufacturer may periodically provide updates for the board, which your devices can receive and apply.</source>
+          <target>The board manufacturer may periodically provide updates for the board, which your devices can receive and apply.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](replace-a-driver-in-an-existing-bsp.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lab 2a: Replace a driver in an existing board support package</pc>, you modify a BSP by adding our own drivers.</source>
+          <target>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lab 2a: Replace a driver in an existing board support package</pc>, you modify a BSP by adding our own drivers.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>When you do this, you become the new owner for the new, modified BSP.</source>
+          <target>When you do this, you become the new owner for the new, modified BSP.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>If the original BSP hardware manufacturer provides any updates to the board, you'll need to choose whether to pass the updates on to your own boards.</source>
+          <target>If the original BSP hardware manufacturer provides any updates to the board, you'll need to choose whether to pass the updates on to your own boards.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>OK, let's try it!</source>
+          <target>OK, let's try it!</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](set-up-your-pc-to-customize-iot-core.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Start here: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get the tools needed to customize Windows IoT Core</pc>.</source>
+          <target>Start here: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get the tools needed to customize Windows IoT Core</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Learn about Windows 10 IoT Core</source>
+          <target>Learn about Windows 10 IoT Core</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>IoT Core Developer Resources</source>
+          <target>IoT Core Developer Resources</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>What's in the Windows ADK IoT Core Add-ons</source>
+          <target>What's in the Windows ADK IoT Core Add-ons</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>IoT Core feature list</source>
+          <target>IoT Core feature list</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>IoT Core Add-ons command-line options</source>
+          <target>IoT Core Add-ons command-line options</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

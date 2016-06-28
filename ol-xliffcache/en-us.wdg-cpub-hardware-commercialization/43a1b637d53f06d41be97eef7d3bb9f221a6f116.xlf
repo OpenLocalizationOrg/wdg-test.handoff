@@ -1,0 +1,1223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\validating-windows-uefi-firmware-update-platform-functionality.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">43a1b637d53f06d41be97eef7d3bb9f221a6f116</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>This document lists the basic validation scenarios that are required to pass before signing-off on the Windows UEFI Firmware Update Platform functionality.</source>
+          <target>This document lists the basic validation scenarios that are required to pass before signing-off on the Windows UEFI Firmware Update Platform functionality.</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Specification can be downloaded from here.</source>
+          <target>Specification can be downloaded from here.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Validating Windows UEFI Firmware Update Platform Functionality</source>
+          <target>Validating Windows UEFI Firmware Update Platform Functionality</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Validating Windows UEFI Firmware Update Platform Functionality</source>
+          <target>Validating Windows UEFI Firmware Update Platform Functionality</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>This document lists the basic validation scenarios that are required to pass before signing-off on the Windows UEFI Firmware Update Platform functionality.</source>
+          <target>This document lists the basic validation scenarios that are required to pass before signing-off on the Windows UEFI Firmware Update Platform functionality.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?linkid=523808)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specification can be downloaded from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">here</pc>.</source>
+          <target>Specification can be downloaded from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">here</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Prerequisites</source>
+          <target>Prerequisites</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>For each EFI System Resource Table (ESRT) entry, you need a capsule for the latest firmware version.</source>
+          <target>For each EFI System Resource Table (ESRT) entry, you need a capsule for the latest firmware version.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The scenarios will refer to the latest version as X. Each ESRT entry is identified using a unique GUID.</source>
+          <target>The scenarios will refer to the latest version as X. Each ESRT entry is identified using a unique GUID.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>For each ESRT entry exposed, create a capsule package that its version is incremented above the package created in step 1.</source>
+          <target>For each ESRT entry exposed, create a capsule package that its version is incremented above the package created in step 1.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>These capsules will be referred to as X+1.</source>
+          <target>These capsules will be referred to as X+1.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Capsules that aid in simulating failure conditions such as a capsule for which the payload is not signed or signed with an invalid PK.</source>
+          <target>Capsules that aid in simulating failure conditions such as a capsule for which the payload is not signed or signed with an invalid PK.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Make sure all capsules to be used are signed appropriately from the OS perspective, catalog signed, and firmware signed, PK signed.</source>
+          <target>Make sure all capsules to be used are signed appropriately from the OS perspective, catalog signed, and firmware signed, PK signed.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Unless, you are specifically testing the negative PK signing cases.</source>
+          <target>Unless, you are specifically testing the negative PK signing cases.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>See “Signing the Firmware driver Package” in the specification for details on how to sign a capsule or firmware driver package.</source>
+          <target>See “Signing the Firmware driver Package” in the specification for details on how to sign a capsule or firmware driver package.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>How To</source>
+          <target>How To</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Install a new capsule or reinstall a previously installed capsule</source>
+          <target>Install a new capsule or reinstall a previously installed capsule</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Open up device manager.</source>
+          <target>Open up device manager.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Find the device node that represents your firmware, it is usually under the “Firmware” devices.</source>
+          <target>Find the device node that represents your firmware, it is usually under the “Firmware” devices.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Right click on the firmware device you wish to update.</source>
+          <target>Right click on the firmware device you wish to update.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update driver software</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update driver software</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You will get a popup that states “Update Driver Software - <ph dataRef="id1" id="ph1" />Firmware<ph dataRef="id2" id="ph2" />”.</source>
+          <target>You will get a popup that states “Update Driver Software - <ph dataRef="id1" id="ph1" />Firmware<ph dataRef="id2" id="ph2" />”.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browse my computer for driver software</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browse my computer for driver software</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the next window, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Let me pick from a list of device drivers on my computer</pc>.</source>
+          <target>On the next window, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Let me pick from a list of device drivers on my computer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the driver has been installed before, select it from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Show compatible hardware</pc> box.</source>
+          <target>If the driver has been installed before, select it from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Show compatible hardware</pc> box.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If it does not exist, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Have disk</pc> and continue on.</source>
+          <target>If it does not exist, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Have disk</pc> and continue on.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Otherwise, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> and reboot the system.</source>
+          <target>Otherwise, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> and reboot the system.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Have Disk</pc>, you will get a popup labeled <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install From Disk</pc>.</source>
+          <target>If you select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Have Disk</pc>, you will get a popup labeled <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install From Disk</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browse</pc> to go to the directory that has the capsule of the firmware you wish to install.</source>
+          <target>Use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browse</pc> to go to the directory that has the capsule of the firmware you wish to install.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the INF file in that directory and hit <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> to install.</source>
+          <target>Select the INF file in that directory and hit <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> to install.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>During installation, if you get a popup saying the driver is not signed, go ahead and accept this driver.</source>
+          <target>During installation, if you get a popup saying the driver is not signed, go ahead and accept this driver.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>The system asks you to reboot.</source>
+          <target>The system asks you to reboot.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>After you installed the capsule for the firmware, you need to reboot.</source>
+          <target>After you installed the capsule for the firmware, you need to reboot.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>If you wish to install multiple capsule packages, then wait to reboot until all capsules are installed and then reboot on the final capsule.</source>
+          <target>If you wish to install multiple capsule packages, then wait to reboot until all capsules are installed and then reboot on the final capsule.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Query the version and status details:</source>
+          <target>Query the version and status details:</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Run the QueryVersionAndStatus.ps1 PowerShell (PS) script to query the current firmware version, last attempt firmware version and last attempt status.</source>
+          <target>Run the QueryVersionAndStatus.ps1 PowerShell (PS) script to query the current firmware version, last attempt firmware version and last attempt status.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>To run the script:</source>
+          <target>To run the script:</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Run PowerShell as administrator.</source>
+          <target>Run PowerShell as administrator.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>(This only has to be done once.)</source>
+          <target>(This only has to be done once.)</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Display the version and status details for the given GUID.</source>
+          <target>Display the version and status details for the given GUID.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Check if firmware update was successful: Refer to the section “Validating the status of the firmware update” in the specification document.</source>
+          <target>Check if firmware update was successful: Refer to the section “Validating the status of the firmware update” in the specification document.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Make sure that the Last Attempt Status and the Current Version matches the expected version.</source>
+          <target>Make sure that the Last Attempt Status and the Current Version matches the expected version.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Recommended: Check to make sure that the devices you are updating are also still functioning.</source>
+          <target>Recommended: Check to make sure that the devices you are updating are also still functioning.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Set the rollback policy: Some of the scenarios might require rolling back firmware.</source>
+          <target>Set the rollback policy: Some of the scenarios might require rolling back firmware.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Rollback is not a production scenario.</source>
+          <target>Rollback is not a production scenario.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>In order to be able to rollback, a registry policy key has to be created.</source>
+          <target>In order to be able to rollback, a registry policy key has to be created.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+          <data id="id9">&amp;lt;</data>
+          <data id="id10">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Create a REG<ph dataRef="id1" id="ph1" />DWORD key with the name “Policy” under the node HKEY<ph dataRef="id2" id="ph2" />LOCAL<ph dataRef="id3" id="ph3" />MACHINE<ph dataRef="id4" id="ph4" />SYSTEM<ph dataRef="id5" id="ph5" />CurrentControlSet<ph dataRef="id6" id="ph6" />Control<ph dataRef="id7" id="ph7" />FirmwareResources<ph dataRef="id8" id="ph8" />{<ph dataRef="id9" id="ph9" />GUID<ph dataRef="id10" id="ph10" />} and set the value of the Policy key to 1.</source>
+          <target>Create a REG<ph dataRef="id1" id="ph1" />DWORD key with the name “Policy” under the node HKEY<ph dataRef="id2" id="ph2" />LOCAL<ph dataRef="id3" id="ph3" />MACHINE<ph dataRef="id4" id="ph4" />SYSTEM<ph dataRef="id5" id="ph5" />CurrentControlSet<ph dataRef="id6" id="ph6" />Control<ph dataRef="id7" id="ph7" />FirmwareResources<ph dataRef="id8" id="ph8" />{<ph dataRef="id9" id="ph9" />GUID<ph dataRef="id10" id="ph10" />} and set the value of the Policy key to 1.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Note that the GUID should be replaced with the actual GUID from the ESRT.</source>
+          <target>Note that the GUID should be replaced with the actual GUID from the ESRT.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Scenarios</source>
+          <target>Scenarios</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>S1: Each ESRT entry is successfully updatable through capsule</source>
+          <target>S1: Each ESRT entry is successfully updatable through capsule</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>The following steps should be completed for each ESRT entry that is supported by the platform.</source>
+          <target>The following steps should be completed for each ESRT entry that is supported by the platform.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Or in other words, for System firmware and each device firmware that supports updating firmware through UpdateCapsule.</source>
+          <target>Or in other words, for System firmware and each device firmware that supports updating firmware through UpdateCapsule.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Steps</source>
+          <target>Steps</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>For each ESRT entry, install the capsule for firmware version X.</source>
+          <target>For each ESRT entry, install the capsule for firmware version X.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Make sure all the above capsules are installed, prior to rebooting.</source>
+          <target>Make sure all the above capsules are installed, prior to rebooting.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Expected Result</source>
+          <target>Expected Result</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Firmware update should be successful for each ESRT entry that was updated.</source>
+          <target>Firmware update should be successful for each ESRT entry that was updated.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>For all ESRT entries, for which the update was attempted, validate that:</source>
+          <target>For all ESRT entries, for which the update was attempted, validate that:</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Current Firmware Version = X</source>
+          <target>Current Firmware Version = X</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Last Attempt Version = X</source>
+          <target>Last Attempt Version = X</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Last Attempt Status = 0 (STATUS<ph dataRef="id1" id="ph1" />SUCCESS)</source>
+          <target>Last Attempt Status = 0 (STATUS<ph dataRef="id1" id="ph1" />SUCCESS)</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>S2: The latest firmware version X is also updatable to X+1</source>
+          <target>S2: The latest firmware version X is also updatable to X+1</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>The following steps should be completed for each ESRT entry that is supported by the platform.</source>
+          <target>The following steps should be completed for each ESRT entry that is supported by the platform.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Or in other words, for System firmware and each device firmware that supports updating firmware through UpdateCapsule.</source>
+          <target>Or in other words, for System firmware and each device firmware that supports updating firmware through UpdateCapsule.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Steps</source>
+          <target>Steps</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Complete scenario S1 above.</source>
+          <target>Complete scenario S1 above.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>For each ESRT entry, install the capsule for firmware version X+1.</source>
+          <target>For each ESRT entry, install the capsule for firmware version X+1.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Expected Result</source>
+          <target>Expected Result</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Firmware update should be successful for each ESRT entry that was updated.</source>
+          <target>Firmware update should be successful for each ESRT entry that was updated.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>For all ESRT entries, for which the update was attempted, validate that:</source>
+          <target>For all ESRT entries, for which the update was attempted, validate that:</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Current Firmware Version = X+1</source>
+          <target>Current Firmware Version = X+1</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Last Attempt Version = X+1</source>
+          <target>Last Attempt Version = X+1</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Last Attempt Status = 0 (STATUS<ph dataRef="id1" id="ph1" />SUCCESS)</source>
+          <target>Last Attempt Status = 0 (STATUS<ph dataRef="id1" id="ph1" />SUCCESS)</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>S3: On failure, firmware update returns the right status code as defined in the specification</source>
+          <target>S3: On failure, firmware update returns the right status code as defined in the specification</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>The Status codes are defined in the section named “UEFI System Resource Table Definition”, in the table with the title “ESRT Last Attempt Status Field Values”.</source>
+          <target>The Status codes are defined in the section named “UEFI System Resource Table Definition”, in the table with the title “ESRT Last Attempt Status Field Values”.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>S3.1 Insufficient Battery and UEFI System Firmware update</source>
+          <target>S3.1 Insufficient Battery and UEFI System Firmware update</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Steps</source>
+          <target>Steps</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Drain the battery charge to less than 25% and then plug-in the AC power.</source>
+          <target>Drain the battery charge to less than 25% and then plug-in the AC power.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Install the capsule for UEFI System Firmware version X+1.</source>
+          <target>Install the capsule for UEFI System Firmware version X+1.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Let’s assume that the current version is X.</source>
+          <target>Let’s assume that the current version is X.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Before rebooting, make sure that the battery charge is less than 25%</source>
+          <target>Before rebooting, make sure that the battery charge is less than 25%</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Expected Result</source>
+          <target>Expected Result</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Firmware update should fail.</source>
+          <target>Firmware update should fail.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>For ESRT entry corresponding to the System Firmware, validate that:</source>
+          <target>For ESRT entry corresponding to the System Firmware, validate that:</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Current Firmware Version = X</source>
+          <target>Current Firmware Version = X</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Last Attempt Version = X+1</source>
+          <target>Last Attempt Version = X+1</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Last Attempt Status = 0xc00002de (STATUS<ph dataRef="id1" id="ph1" />INSUFFICIENT<ph dataRef="id2" id="ph2" />POWER)</source>
+          <target>Last Attempt Status = 0xc00002de (STATUS<ph dataRef="id1" id="ph1" />INSUFFICIENT<ph dataRef="id2" id="ph2" />POWER)</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>S3.2 Insufficient Battery and Device Firmware update</source>
+          <target>S3.2 Insufficient Battery and Device Firmware update</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Steps</source>
+          <target>Steps</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Drain the battery charge to less than 25% and then plug-in the AC power.</source>
+          <target>Drain the battery charge to less than 25% and then plug-in the AC power.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Install the capsules for ALL supported devices in the system with firmware version X+1.</source>
+          <target>Install the capsules for ALL supported devices in the system with firmware version X+1.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Let’s assume that the current firmware version for the given device is X.</source>
+          <target>Let’s assume that the current firmware version for the given device is X.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Before rebooting, make sure that the battery charge is less than 25% .</source>
+          <target>Before rebooting, make sure that the battery charge is less than 25% .</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Expected Result</source>
+          <target>Expected Result</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Firmware update should fail.</source>
+          <target>Firmware update should fail.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>For all ESRT entries, for which the update was attempted, validate that:</source>
+          <target>For all ESRT entries, for which the update was attempted, validate that:</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>Current Firmware Version = X</source>
+          <target>Current Firmware Version = X</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Last Attempt Version = X+1</source>
+          <target>Last Attempt Version = X+1</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Last Attempt Status = 0xc00002de (STATUS<ph dataRef="id1" id="ph1" />INSUFFICIENT<ph dataRef="id2" id="ph2" />POWER)</source>
+          <target>Last Attempt Status = 0xc00002de (STATUS<ph dataRef="id1" id="ph1" />INSUFFICIENT<ph dataRef="id2" id="ph2" />POWER)</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>S3.3 Insufficient Battery, UEFI System and Device Firmware update at the same time</source>
+          <target>S3.3 Insufficient Battery, UEFI System and Device Firmware update at the same time</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Steps</source>
+          <target>Steps</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Drain the battery charge to less than 25% and then plug-in the AC power.</source>
+          <target>Drain the battery charge to less than 25% and then plug-in the AC power.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Install the capsules for UEFI System Firmware and all Device Firmware with version X+1.</source>
+          <target>Install the capsules for UEFI System Firmware and all Device Firmware with version X+1.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Before rebooting, make sure that the battery charge is less than 25%.</source>
+          <target>Before rebooting, make sure that the battery charge is less than 25%.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Expected Result</source>
+          <target>Expected Result</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Firmware update should fail for the System firmware and for all the device firmware for which the update was attempted.</source>
+          <target>Firmware update should fail for the System firmware and for all the device firmware for which the update was attempted.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>For all ESRT entries, for which the update was attempted, validate that:</source>
+          <target>For all ESRT entries, for which the update was attempted, validate that:</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Current Firmware Version = X</source>
+          <target>Current Firmware Version = X</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Last Attempt Version = X+1</source>
+          <target>Last Attempt Version = X+1</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Last Attempt Status = 0xc00002de (STATUS<ph dataRef="id1" id="ph1" />INSUFFICIENT<ph dataRef="id2" id="ph2" />POWER)</source>
+          <target>Last Attempt Status = 0xc00002de (STATUS<ph dataRef="id1" id="ph1" />INSUFFICIENT<ph dataRef="id2" id="ph2" />POWER)</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>S3.4 Firmware update should fail when the capsule is not PK signed</source>
+          <target>S3.4 Firmware update should fail when the capsule is not PK signed</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>The following steps should be completed for each ESRT entry that is supported by the platform.</source>
+          <target>The following steps should be completed for each ESRT entry that is supported by the platform.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Or in other words, for System firmware and each device firmware that supports updating firmware through UpdateCapsule.</source>
+          <target>Or in other words, for System firmware and each device firmware that supports updating firmware through UpdateCapsule.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Steps</source>
+          <target>Steps</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>For each ESRT entry, create a capsule X+2, the payload for which is not signed.</source>
+          <target>For each ESRT entry, create a capsule X+2, the payload for which is not signed.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Install the capsules X+2.</source>
+          <target>Install the capsules X+2.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Let’s assume that the current version is X.</source>
+          <target>Let’s assume that the current version is X.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Expected Result</source>
+          <target>Expected Result</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Firmware update should fail for all the ESRT entries for which the update was attempted.</source>
+          <target>Firmware update should fail for all the ESRT entries for which the update was attempted.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>For all ESRT entries, for which the update was attempted, validate that:</source>
+          <target>For all ESRT entries, for which the update was attempted, validate that:</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Current Firmware Version = X</source>
+          <target>Current Firmware Version = X</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Last Attempt Version = X+2</source>
+          <target>Last Attempt Version = X+2</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Last Attempt Status = 0xC0000022 (STATUS<ph dataRef="id1" id="ph1" />ACCESS<ph dataRef="id2" id="ph2" />DENIED)</source>
+          <target>Last Attempt Status = 0xC0000022 (STATUS<ph dataRef="id1" id="ph1" />ACCESS<ph dataRef="id2" id="ph2" />DENIED)</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>S3.5 Firmware update should fail when the capsule is signed with the wrong PK certificate</source>
+          <target>S3.5 Firmware update should fail when the capsule is signed with the wrong PK certificate</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>The following steps should be completed for each ESRT entry that is supported by the platform.</source>
+          <target>The following steps should be completed for each ESRT entry that is supported by the platform.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Or in other words, for System firmware and each device firmware that supports updating firmware through UpdateCapsule.</source>
+          <target>Or in other words, for System firmware and each device firmware that supports updating firmware through UpdateCapsule.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Steps</source>
+          <target>Steps</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>For each ESRT entry, create a capsule X+2, sign the payload with a wrong key or certificate (for example use a debug signed capsule on a production device).</source>
+          <target>For each ESRT entry, create a capsule X+2, sign the payload with a wrong key or certificate (for example use a debug signed capsule on a production device).</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Install the capsules X+2.</source>
+          <target>Install the capsules X+2.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Let’s assume that the current version is X.</source>
+          <target>Let’s assume that the current version is X.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Expected Result</source>
+          <target>Expected Result</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>Firmware update should fail for all the ESRT entries for which the update was attempted.</source>
+          <target>Firmware update should fail for all the ESRT entries for which the update was attempted.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>For all ESRT entries, for which the update was attempted, validate that:</source>
+          <target>For all ESRT entries, for which the update was attempted, validate that:</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Current Firmware Version = X</source>
+          <target>Current Firmware Version = X</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Last Attempt Version = X+2</source>
+          <target>Last Attempt Version = X+2</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Last Attempt Status = 0xC0000022 (STATUS<ph dataRef="id1" id="ph1" />ACCESS<ph dataRef="id2" id="ph2" />DENIED)</source>
+          <target>Last Attempt Status = 0xC0000022 (STATUS<ph dataRef="id1" id="ph1" />ACCESS<ph dataRef="id2" id="ph2" />DENIED)</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>S3.6 Firmware update should fail when the capsule payload is tampered with</source>
+          <target>S3.6 Firmware update should fail when the capsule payload is tampered with</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>The following steps should be completed for each ESRT entry that is supported by the platform.</source>
+          <target>The following steps should be completed for each ESRT entry that is supported by the platform.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Or in other words, for System firmware and each device firmware that supports updating firmware through UpdateCapsule.</source>
+          <target>Or in other words, for System firmware and each device firmware that supports updating firmware through UpdateCapsule.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>Steps</source>
+          <target>Steps</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>For each ESRT entry, create a capsule X+2, sign the payload with the right key or certificate.</source>
+          <target>For each ESRT entry, create a capsule X+2, sign the payload with the right key or certificate.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Then open the firmware bin file and flip 1 or more bits in the file and save the file back.</source>
+          <target>Then open the firmware bin file and flip 1 or more bits in the file and save the file back.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Regenerate the catalog for the bin file and the INF file.</source>
+          <target>Regenerate the catalog for the bin file and the INF file.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>Install the capsules X+2.</source>
+          <target>Install the capsules X+2.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>Let’s assume that the current version is X.</source>
+          <target>Let’s assume that the current version is X.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Expected Result</source>
+          <target>Expected Result</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Firmware update should fail for all the ESRT entries for which the update was attempted.</source>
+          <target>Firmware update should fail for all the ESRT entries for which the update was attempted.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>For all ESRT entries, for which the update was attempted, validate that:</source>
+          <target>For all ESRT entries, for which the update was attempted, validate that:</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Current Firmware Version = X</source>
+          <target>Current Firmware Version = X</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Last Attempt Version = X+2</source>
+          <target>Last Attempt Version = X+2</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+          <data id="id5">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Last Attempt Status = 0xC0000022 (STATUS<ph dataRef="id1" id="ph1" />ACCESS<ph dataRef="id2" id="ph2" />DENIED) or 0xC000007B (STATUS<ph dataRef="id3" id="ph3" />INVALID<ph dataRef="id4" id="ph4" />IMAGE<ph dataRef="id5" id="ph5" />FORMAT)</source>
+          <target>Last Attempt Status = 0xC0000022 (STATUS<ph dataRef="id1" id="ph1" />ACCESS<ph dataRef="id2" id="ph2" />DENIED) or 0xC000007B (STATUS<ph dataRef="id3" id="ph3" />INVALID<ph dataRef="id4" id="ph4" />IMAGE<ph dataRef="id5" id="ph5" />FORMAT)</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>S3.7: Firmware does not allow rollback beyond the LowestSupportedFirmwareVersion</source>
+          <target>S3.7: Firmware does not allow rollback beyond the LowestSupportedFirmwareVersion</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>The following steps should also be carried out for other device firmware (lower priority).</source>
+          <target>The following steps should also be carried out for other device firmware (lower priority).</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Steps</source>
+          <target>Steps</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>For UEFI System Firmware, create a capsule X+1 such that the “LowestSupportedFirmwareVersion” in the ESRT entry for the system firmware is set to X+1.</source>
+          <target>For UEFI System Firmware, create a capsule X+1 such that the “LowestSupportedFirmwareVersion” in the ESRT entry for the system firmware is set to X+1.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>Install the capsule X+1 and make sure that the update succeeds.</source>
+          <target>Install the capsule X+1 and make sure that the update succeeds.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Create a UEFI System firmware update capsules, such that the version in the INF is X+2 but the actual firmware binary file is of version X.</source>
+          <target>Create a UEFI System firmware update capsules, such that the version in the INF is X+2 but the actual firmware binary file is of version X.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>Install the capsule X+2 and reboot the system.</source>
+          <target>Install the capsule X+2 and reboot the system.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>Expected Result</source>
+          <target>Expected Result</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>Firmware update should fail.</source>
+          <target>Firmware update should fail.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>For ESRT entry corresponding to the System Firmware, validate that:</source>
+          <target>For ESRT entry corresponding to the System Firmware, validate that:</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Current Firmware Version = X+1</source>
+          <target>Current Firmware Version = X+1</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>Last Attempt Version = X+2</source>
+          <target>Last Attempt Version = X+2</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Last Attempt Status = 0xC0000059 (STATUS<ph dataRef="id1" id="ph1" />REVISION<ph dataRef="id2" id="ph2" />MISMATCH)</source>
+          <target>Last Attempt Status = 0xC0000059 (STATUS<ph dataRef="id1" id="ph1" />REVISION<ph dataRef="id2" id="ph2" />MISMATCH)</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>S4: Seamless recovery and firmware update (if implemented)</source>
+          <target>S4: Seamless recovery and firmware update (if implemented)</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>This scenario varies from platform to platform depending on the implementation of the seamless recovery.</source>
+          <target>This scenario varies from platform to platform depending on the implementation of the seamless recovery.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>Based on the implementation, the validation might require creating bad capsules that forces the system into recovery or disconnecting the power in the middle of an update or through any other means of exercising the recovery flows.</source>
+          <target>Based on the implementation, the validation might require creating bad capsules that forces the system into recovery or disconnecting the power in the middle of an update or through any other means of exercising the recovery flows.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>Expected Result</source>
+          <target>Expected Result</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>The system should boot into the OS and the firmware update should be marked as failed.</source>
+          <target>The system should boot into the OS and the firmware update should be marked as failed.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>The version reported by the UEFI firmware resource device should not have changed.</source>
+          <target>The version reported by the UEFI firmware resource device should not have changed.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>S5: Firmware Update adheres to the User Experience (UX) requirement</source>
+          <target>S5: Firmware Update adheres to the User Experience (UX) requirement</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>Steps</source>
+          <target>Steps</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>This scenario can be validated while executing any of the above scenarios that lead to a successful firmware update.</source>
+          <target>This scenario can be validated while executing any of the above scenarios that lead to a successful firmware update.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>Expected Result</source>
+          <target>Expected Result</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>The user experience is in accordance to the specification, see section on “User Experience”.</source>
+          <target>The user experience is in accordance to the specification, see section on “User Experience”.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>The only text that is displayed on the screen is “Please wait while we install a system update”.</source>
+          <target>The only text that is displayed on the screen is “Please wait while we install a system update”.</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>The text is displayed at the right co-ordinates on the screen as called out in the specification.</source>
+          <target>The text is displayed at the right co-ordinates on the screen as called out in the specification.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>OEM Logo is displayed as described in the specification.</source>
+          <target>OEM Logo is displayed as described in the specification.</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>Windows UEFI Firmware Update Platform</source>
+          <target>Windows UEFI Firmware Update Platform</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>UEFI Validation Option ROM Validation Guidance</source>
+          <target>UEFI Validation Option ROM Validation Guidance</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

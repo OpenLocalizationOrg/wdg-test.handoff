@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\configure-multiple-hard-drives.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">81a079863066a48ce15fbf2f023e734d563bec59</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Configure Multiple Hard Drives</source>
+          <target>Configure Multiple Hard Drives</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Configure Multiple Hard Drives</source>
+          <target>Configure Multiple Hard Drives</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Configure Multiple Hard Drives</source>
+          <target>Configure Multiple Hard Drives</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>If you are deploying Windows to a computer that has multiple hard drives, you can verify that the image is applied to a specific hard drive by using hardware-specific identifiers such as the location path or the hardware interrupt value.</source>
+          <target>If you are deploying Windows to a computer that has multiple hard drives, you can verify that the image is applied to a specific hard drive by using hardware-specific identifiers such as the location path or the hardware interrupt value.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">`PCIROOT(0)#PCI(0100)#ATA(C00T00L00)`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The location path is a string that specifies the physical location that each drive is connected to the computer, for example: <ph dataRef="id1" id="ph1" />.</source>
+          <target>The location path is a string that specifies the physical location that each drive is connected to the computer, for example: <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>When manufacturing a computer, use a consistent physical location when connecting your drives, and then use the location path string to identify each hard drive.</source>
+          <target>When manufacturing a computer, use a consistent physical location when connecting your drives, and then use the location path string to identify each hard drive.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For BIOS-based computers or a computer that is running Virtual Disk Service (VDS), you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SELECT DISK=SYSTEM</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SELECT DISK=NEXT</pc> commands to select the appropriate hard drive.</source>
+          <target>For BIOS-based computers or a computer that is running Virtual Disk Service (VDS), you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SELECT DISK=SYSTEM</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SELECT DISK=NEXT</pc> commands to select the appropriate hard drive.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>In this topic:</source>
+          <target>In this topic:</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Identifying a Drive Location Path</source>
+          <target>Identifying a Drive Location Path</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Selecting the System Drive</source>
+          <target>Selecting the System Drive</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Selecting Non-System Drives</source>
+          <target>Selecting Non-System Drives</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Identifying the System Drive After a Reboot</source>
+          <target>Identifying the System Drive After a Reboot</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Formatting Nonsystem Drives</source>
+          <target>Formatting Nonsystem Drives</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Identifying a Disk Location Path</source>
+          <target>Identifying a Disk Location Path</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">&amp;lt;</data>
+          <data id="id6">&amp;gt;</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the DiskPart commands: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">list disk</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">select disk <ph dataRef="id5" id="ph1" />disk number<ph dataRef="id6" id="ph2" /></pc> (Example: <pc dataRefEnd="id8" dataRefStart="id7" id="p3">select disk 1</pc>) to navigate between the drives on your computer.</source>
+          <target>Use the DiskPart commands: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">list disk</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">select disk <ph dataRef="id5" id="ph1" />disk number<ph dataRef="id6" id="ph2" /></pc> (Example: <pc dataRefEnd="id8" dataRefStart="id7" id="p3">select disk 1</pc>) to navigate between the drives on your computer.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">`detail disk`</data>
+        </originalData>
+        <segment state="initial">
+          <source>To show the location path of a selected drive, use the DiskPart command <ph dataRef="id1" id="ph1" />.</source>
+          <target>To show the location path of a selected drive, use the DiskPart command <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">\#</data>
+          <data id="id2">\#</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the following example, the location path of the selected drive is PCIROOT(0)<ph dataRef="id1" id="ph1" />PCI(0100)<ph dataRef="id2" id="ph2" />ATA(C00T00L00).</source>
+          <target>In the following example, the location path of the selected drive is PCIROOT(0)<ph dataRef="id1" id="ph1" />PCI(0100)<ph dataRef="id2" id="ph2" />ATA(C00T00L00).</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Selecting Drives</source>
+          <target>Selecting Drives</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Selecting the System Drive</source>
+          <target>Selecting the System Drive</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BIOS-based computers</pc>: Use the command <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SELECT DISK=SYSTEM</pc> to select the default system drive.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BIOS-based computers</pc>: Use the command <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SELECT DISK=SYSTEM</pc> to select the default system drive.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>This command selects the drive that has an interrupt 13h value of 80h.</source>
+          <target>This command selects the drive that has an interrupt 13h value of 80h.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>If the value 80h is assigned to a USB flash drive, this command selects a hard drive that has a value of 81h.</source>
+          <target>If the value 80h is assigned to a USB flash drive, this command selects a hard drive that has a value of 81h.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>For more information, visit the following Microsoft Developer Network (MSDN) website:</source>
+          <target>For more information, visit the following Microsoft Developer Network (MSDN) website:</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Converting Drive Letters to MS-DOS INT 13H Disk Drive Numbers</source>
+          <target>Converting Drive Letters to MS-DOS INT 13H Disk Drive Numbers</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">&amp;lt;</data>
+          <data id="id6">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UEFI-based computers</pc>: To select a drive, use the DiskPart command <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SELECT DISK=<ph dataRef="id5" id="ph1" />location path<ph dataRef="id6" id="ph2" /></pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UEFI-based computers</pc>: To select a drive, use the DiskPart command <pc dataRefEnd="id4" dataRefStart="id3" id="p2">SELECT DISK=<ph dataRef="id5" id="ph1" />location path<ph dataRef="id6" id="ph2" /></pc>.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Do not use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SELECT DISK=SYSTEM</pc> command or the GetSystemDiskNTPath API on Unified Extensible Firmware Interface (UEFI)-based computers to select the system drive.</source>
+          <target>Do not use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SELECT DISK=SYSTEM</pc> command or the GetSystemDiskNTPath API on Unified Extensible Firmware Interface (UEFI)-based computers to select the system drive.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SELECT DISK=SYSTEM</pc> command and the GetSystemDiskNTPath API identify the drive that the operating system was booted from as the system drive.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SELECT DISK=SYSTEM</pc> command and the GetSystemDiskNTPath API identify the drive that the operating system was booted from as the system drive.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>If you boot from Windows® PE, this command selects the Windows PE drive as the system drive.</source>
+          <target>If you boot from Windows® PE, this command selects the Windows PE drive as the system drive.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>If you boot from a system that has multiple drives that include an EFI system partition (ESP), this command may select the wrong drive.</source>
+          <target>If you boot from a system that has multiple drives that include an EFI system partition (ESP), this command may select the wrong drive.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Selecting Non-System Drives</source>
+          <target>Selecting Non-System Drives</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Select the drive by location path.</source>
+          <target>Select the drive by location path.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+          <data id="id5">&amp;lt;</data>
+          <data id="id6">*</data>
+          <data id="id7">*</data>
+          <data id="id8">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>To select a drive, use the DiskPart command <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SELECT DISK=<ph dataRef="id3" id="ph1" />location path<ph dataRef="id4" id="ph2" /></pc>, where <ph dataRef="id5" id="ph3" /><pc dataRefEnd="id7" dataRefStart="id6" id="p2">location path</pc><ph dataRef="id8" id="ph4" /> is the location path of your drive.</source>
+          <target>To select a drive, use the DiskPart command <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SELECT DISK=<ph dataRef="id3" id="ph1" />location path<ph dataRef="id4" id="ph2" /></pc>, where <ph dataRef="id5" id="ph3" /><pc dataRefEnd="id7" dataRefStart="id6" id="p2">location path</pc><ph dataRef="id8" id="ph4" /> is the location path of your drive.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>This command helps specify a drive by location.</source>
+          <target>This command helps specify a drive by location.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Example:</source>
+          <target>Example:</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Select the drive by using the "NEXT" drive.</source>
+          <target>Select the drive by using the "NEXT" drive.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the DiskPart command <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SELECT DISK=NEXT</pc>.</source>
+          <target>Use the DiskPart command <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SELECT DISK=NEXT</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>This command helps specify any remaining hard drives, regardless of location.</source>
+          <target>This command helps specify any remaining hard drives, regardless of location.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To select more drives, repeat the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SELECT DISK=NEXT</pc> command to select each drive in order.</source>
+          <target>To select more drives, repeat the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SELECT DISK=NEXT</pc> command to select each drive in order.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>If there are no more drives to select, DiskPart returns an error.</source>
+          <target>If there are no more drives to select, DiskPart returns an error.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The computer maintains the context for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SELECT DISK=NEXT</pc> command as long as DiskPart continues running.</source>
+          <target>The computer maintains the context for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SELECT DISK=NEXT</pc> command as long as DiskPart continues running.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>If DISKPART exits, the computer loses this context.</source>
+          <target>If DISKPART exits, the computer loses this context.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>UEFI-based example:</source>
+          <target>UEFI-based example:</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Identifying the System Drive After a Reboot</source>
+          <target>Identifying the System Drive After a Reboot</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>After you reboot, drive lettering may change.</source>
+          <target>After you reboot, drive lettering may change.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>You can use the following example script to select the system drive and then reassign letters to the ESP, recovery, and Windows partitions.</source>
+          <target>You can use the following example script to select the system drive and then reassign letters to the ESP, recovery, and Windows partitions.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Formatting Non-System Drives</source>
+          <target>Formatting Non-System Drives</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>This example script selects the system drive and then skips past the drive without modifying the contents of the drive.</source>
+          <target>This example script selects the system drive and then skips past the drive without modifying the contents of the drive.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>The script then selects two non-system drives and creates a single, formatted, empty partition on each drive.</source>
+          <target>The script then selects two non-system drives and creates a single, formatted, empty partition on each drive.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>The partitions do not receive an image, so it is not necessary to specifically identify them.</source>
+          <target>The partitions do not receive an image, so it is not necessary to specifically identify them.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>UEFI-based example:</source>
+          <target>UEFI-based example:</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Hard Disk Location Path Format</source>
+          <target>Hard Disk Location Path Format</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>DiskPart Command line syntax</source>
+          <target>DiskPart Command line syntax</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

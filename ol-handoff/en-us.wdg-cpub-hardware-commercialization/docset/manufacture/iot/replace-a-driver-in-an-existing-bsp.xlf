@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\iot\replace-a-driver-in-an-existing-bsp.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">ec9414c0f46d425599be6c8f36ed709c48bba081</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Replacing a driver in an existing BSP in a Windows 10 IOT Core image.</source>
+          <target>Replacing a driver in an existing BSP in a Windows 10 IOT Core image.</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Lab 2a: Replace a driver in an existing board support package (BSP)</source>
+          <target>Lab 2a: Replace a driver in an existing board support package (BSP)</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Lab 2a: Replace a driver in an existing board support package (BSP)</source>
+          <target>Lab 2a: Replace a driver in an existing board support package (BSP)</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>If the driver in your pre-built Board Support Package (BSP) doesn't support what you need it to do, you can replace it.</source>
+          <target>If the driver in your pre-built Board Support Package (BSP) doesn't support what you need it to do, you can replace it.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Note, when you modify the BSP, you become the owner for this new, modified BSP.</source>
+          <target>Note, when you modify the BSP, you become the owner for this new, modified BSP.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>If the original BSP hardware manufacturer provides any updates to the board, you'll need to choose whether to pass the updates on to your own boards.</source>
+          <target>If the original BSP hardware manufacturer provides any updates to the board, you'll need to choose whether to pass the updates on to your own boards.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://ms-iot.github.io/content/en-US/win10/samples/DriverLab.htm)</data>
+        </originalData>
+        <segment state="initial">
+          <source>In our lab, we'll again use the sample GPIO driver: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Hello, Blinky!</pc>.</source>
+          <target>In our lab, we'll again use the sample GPIO driver: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Hello, Blinky!</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>We'll also remove the existing GPIO driver from the device.</source>
+          <target>We'll also remove the existing GPIO driver from the device.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Prerequisites</source>
+          <target>Prerequisites</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](add-a-driver-to-an-image.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Complete <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lab 1e: Add a driver to an image</pc>.</source>
+          <target>Complete <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lab 1e: Add a driver to an image</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Create a new BSP working folder</source>
+          <target>Create a new BSP working folder</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Create a duplicate copy of the BSP working folder that you'd like to modify.</source>
+          <target>Create a duplicate copy of the BSP working folder that you'd like to modify.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">&amp;lt;</data>
+          <data id="id9">&amp;gt;\\</data>
+          <data id="id10">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, copy C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Source-<ph dataRef="id3" id="ph3" />arch<ph dataRef="id4" id="ph4" />BSP<ph dataRef="id5" id="ph5" />Rpi2 to C:<ph dataRef="id6" id="ph6" />IoT-ADK-AddonKit<ph dataRef="id7" id="ph7" />Source-<ph dataRef="id8" id="ph8" />arch<ph dataRef="id9" id="ph9" />BSP<ph dataRef="id10" id="ph10" />CustomRpi2.</source>
+          <target>For example, copy C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Source-<ph dataRef="id3" id="ph3" />arch<ph dataRef="id4" id="ph4" />BSP<ph dataRef="id5" id="ph5" />Rpi2 to C:<ph dataRef="id6" id="ph6" />IoT-ADK-AddonKit<ph dataRef="id7" id="ph7" />Source-<ph dataRef="id8" id="ph8" />arch<ph dataRef="id9" id="ph9" />BSP<ph dataRef="id10" id="ph10" />CustomRpi2.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Remove/comment out any driver in the BSP feature manifest file that no longer apply.</source>
+          <target>Remove/comment out any driver in the BSP feature manifest file that no longer apply.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, update: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Source-arm<ph dataRef="id5" id="ph3" />Products<ph dataRef="id6" id="ph4" />ProductB<ph dataRef="id7" id="ph5" />Blinky_RPi2FM.xml</pc>.</source>
+          <target>For example, update: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Source-arm<ph dataRef="id5" id="ph3" />Products<ph dataRef="id6" id="ph4" />ProductB<ph dataRef="id7" id="ph5" />Blinky_RPi2FM.xml</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Add new drivers.</source>
+          <target>Add new drivers.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Optional: Use the same FeatureID as the rest of the files in the BSP (example, RPI2_DRIVERS) gets more easily picked up whenever you use this new BSP.</source>
+          <target>Optional: Use the same FeatureID as the rest of the files in the BSP (example, RPI2_DRIVERS) gets more easily picked up whenever you use this new BSP.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Comment out the Device Info file.</source>
+          <target>Comment out the Device Info file.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>This prevents your device from receiving updates from the original BSP manufacturer that could wipe out your changes.</source>
+          <target>This prevents your device from receiving updates from the original BSP manufacturer that could wipe out your changes.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Create a new product folder</source>
+          <target>Create a new product folder</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Create a new working product folder, adding your BSP name to the end.</source>
+          <target>Create a new working product folder, adding your BSP name to the end.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>This creates the folder: C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Source-<ph dataRef="id3" id="ph3" />arch<ph dataRef="id4" id="ph4" />Products<ph dataRef="id5" id="ph5" />ProductB, which is linked to the new custom BSP.</source>
+          <target>This creates the folder: C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Source-<ph dataRef="id3" id="ph3" />arch<ph dataRef="id4" id="ph4" />Products<ph dataRef="id5" id="ph5" />ProductB, which is linked to the new custom BSP.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Update the project's configuration files</source>
+          <target>Update the project's configuration files</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open your product's test configuration file: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Source-arm<ph dataRef="id5" id="ph3" />Products<ph dataRef="id6" id="ph4" />ProductB<ph dataRef="id7" id="ph5" />TestOEMInput.xml</pc>.</source>
+          <target>Open your product's test configuration file: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Source-arm<ph dataRef="id5" id="ph3" />Products<ph dataRef="id6" id="ph4" />ProductB<ph dataRef="id7" id="ph5" />TestOEMInput.xml</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Add FeatureIDs:</source>
+          <target>Add FeatureIDs:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Add the FeatureIDs: IOT_DISABLE_UMCI and IOT_ENABLE_TESTSIGNING to enable test binaries and packages to work.</source>
+          <target>Add the FeatureIDs: IOT_DISABLE_UMCI and IOT_ENABLE_TESTSIGNING to enable test binaries and packages to work.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Optional: add the FeatureID for the other apps and test packages: OEM_AppxHelloWorld, OEM_CustomCmd, OEM_FileAndRegKey, that you created in Lab 1.</source>
+          <target>Optional: add the FeatureID for the other apps and test packages: OEM_AppxHelloWorld, OEM_CustomCmd, OEM_FileAndRegKey, that you created in Lab 1.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Build and test the image</source>
+          <target>Build and test the image</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Build the image</source>
+          <target>Build the image</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>From the IoT Core Shell, create the image:</source>
+          <target>From the IoT Core Shell, create the image:</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\&amp;lt;</data>
+          <data id="id4">&amp;gt;\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>This creates the product binaries at C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Build<ph dataRef="id3" id="ph3" />arch<ph dataRef="id4" id="ph4" />ProductB<ph dataRef="id5" id="ph5" />Flash.FFU.</source>
+          <target>This creates the product binaries at C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Build<ph dataRef="id3" id="ph3" />arch<ph dataRef="id4" id="ph4" />ProductB<ph dataRef="id5" id="ph5" />Flash.FFU.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">&amp;gt;</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Start <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows IoT Core Dashboard</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Setup a new device</pc><ph dataRef="id6" id="ph2" /><pc dataRefEnd="id8" dataRefStart="id7" id="p3">Custom</pc>, and browse to your image.</source>
+          <target>Start <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows IoT Core Dashboard</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Setup a new device</pc><ph dataRef="id6" id="ph2" /><pc dataRefEnd="id8" dataRefStart="id7" id="p3">Custom</pc>, and browse to your image.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Put the Micro SD card in the device, select it, accept the license terms, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc>.</source>
+          <target>Put the Micro SD card in the device, select it, accept the license terms, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>This replaces the previous image with our new image.</source>
+          <target>This replaces the previous image with our new image.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Put the card into the IoT device and start it up.</source>
+          <target>Put the card into the IoT device and start it up.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>After a short while, the device should start automatically, and you should see your app.</source>
+          <target>After a short while, the device should start automatically, and you should see your app.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Check to see if your driver works</source>
+          <target>Check to see if your driver works</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://ms-iot.github.io/content/en-US/win10/samples/DriverLab3.htm)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">testing procedures in the Hello, Blinky! lab</pc> to test your driver.</source>
+          <target>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">testing procedures in the Hello, Blinky! lab</pc> to test your driver.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

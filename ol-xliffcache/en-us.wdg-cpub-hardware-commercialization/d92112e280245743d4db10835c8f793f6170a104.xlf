@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\performance\wpt\avoid-lost-events.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">d92112e280245743d4db10835c8f793f6170a104</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Avoid Lost Events</source>
+          <target>Avoid Lost Events</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Avoid Lost Events</source>
+          <target>Avoid Lost Events</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Avoid Lost Events</source>
+          <target>Avoid Lost Events</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>In Windows Performance Recorder (WPR), some applications generate so many events that Event Tracing for Windows (ETW) cannot keep up with the logging frequency.</source>
+          <target>In Windows Performance Recorder (WPR), some applications generate so many events that Event Tracing for Windows (ETW) cannot keep up with the logging frequency.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>This problem manifests as lost events in the recordings.</source>
+          <target>This problem manifests as lost events in the recordings.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>The problem can lead to analysis difficulties or erroneous conclusions because of incomplete data.</source>
+          <target>The problem can lead to analysis difficulties or erroneous conclusions because of incomplete data.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>By default, WPR uses paged memory for buffers.</source>
+          <target>By default, WPR uses paged memory for buffers.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">*</data>
+          <data id="id4">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>To set WPR to use non-paged memory for buffers, set the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NonPagedMemory</pc> attribute to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">true</pc> for the provider.</source>
+          <target>To set WPR to use non-paged memory for buffers, set the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NonPagedMemory</pc> attribute to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">true</pc> for the provider.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](authoring-recording-profiles.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](2-system-and-event-provider-definitions.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to create a custom profile, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Authoring Recording Profiles</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">2. System and Event Provider Definitions</pc>.</source>
+          <target>For more information about how to create a custom profile, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Authoring Recording Profiles</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">2. System and Event Provider Definitions</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>You can help prevent WPR from losing ETW buffers or events in the following ways:</source>
+          <target>You can help prevent WPR from losing ETW buffers or events in the following ways:</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Use larger buffers to enable more efficient disk I/O when WPR writes the buffers to disk.</source>
+          <target>Use larger buffers to enable more efficient disk I/O when WPR writes the buffers to disk.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Count requests for the data collection the first time that you use a particular buffer configuration on a computer.</source>
+          <target>Count requests for the data collection the first time that you use a particular buffer configuration on a computer.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the command-line <pc dataRefEnd="id2" dataRefStart="id1" id="p1">recordTempTo</pc> option to record to a different location than the default.</source>
+          <target>Use the command-line <pc dataRefEnd="id2" dataRefStart="id1" id="p1">recordTempTo</pc> option to record to a different location than the default.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Increase the number of buffers.</source>
+          <target>Increase the number of buffers.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Simplify the scenario that you are testing, or select fewer profiles.</source>
+          <target>Simplify the scenario that you are testing, or select fewer profiles.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Free disk space on the system drive.</source>
+          <target>Free disk space on the system drive.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Use advanced hardware to collect the data; for example, use a disk subsystem that has higher throughput.</source>
+          <target>Use advanced hardware to collect the data; for example, use a disk subsystem that has higher throughput.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>This is the last option to consider.</source>
+          <target>This is the last option to consider.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>You can usually avoid losing events by carefully selecting the providers to enable and the buffers to use.</source>
+          <target>You can usually avoid losing events by carefully selecting the providers to enable and the buffers to use.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>WPR Common Scenarios</source>
+          <target>WPR Common Scenarios</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Recording Profiles</source>
+          <target>Recording Profiles</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Logging Mode</source>
+          <target>Logging Mode</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Change the Logging Mode</source>
+          <target>Change the Logging Mode</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Detail Level</source>
+          <target>Detail Level</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Change the Detail Level</source>
+          <target>Change the Detail Level</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Sessions</source>
+          <target>Sessions</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Sessions (Windows Drivers)</source>
+          <target>Sessions (Windows Drivers)</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\performance\wpt\2-system-and-event-provider-definitions.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">342536649a35b9377a99385454a5df50e4d2c96b</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>2. System and Event Provider Definitions</source>
+          <target>2. System and Event Provider Definitions</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>2. System and Event Provider Definitions</source>
+          <target>2. System and Event Provider Definitions</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Windows Performance Recorder (WPR) recording profiles are stored in an XML file that has a .wprp extension.</source>
+          <target>Windows Performance Recorder (WPR) recording profiles are stored in an XML file that has a .wprp extension.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>A system provider definition specifies the system keywords, stacks, and memory pool tags in the .wprp file.</source>
+          <target>A system provider definition specifies the system keywords, stacks, and memory pool tags in the .wprp file.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>In this article:</source>
+          <target>In this article:</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Provider Definition</source>
+          <target>Provider Definition</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>System Providers</source>
+          <target>System Providers</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Event Providers</source>
+          <target>Event Providers</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Heap Event Providers</source>
+          <target>Heap Event Providers</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Capture-State Providers</source>
+          <target>Capture-State Providers</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Provider Definition</source>
+          <target>Provider Definition</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Items in the .wprp file must be defined in the following order:</source>
+          <target>Items in the .wprp file must be defined in the following order:</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>All collectors</source>
+          <target>All collectors</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>System providers</source>
+          <target>System providers</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Event providers</source>
+          <target>Event providers</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Heap providers, if present</source>
+          <target>Heap providers, if present</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>All profiles</source>
+          <target>All profiles</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>In some cases, providers can be defined in, instead of before, the profile definition.</source>
+          <target>In some cases, providers can be defined in, instead of before, the profile definition.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>System Providers</source>
+          <target>System Providers</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The only mandatory attribute for a system provider definition is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Id</pc>.</source>
+          <target>The only mandatory attribute for a system provider definition is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Id</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Inner XML tags specify the keywords, stacks, and pool tags to enable.</source>
+          <target>Inner XML tags specify the keywords, stacks, and pool tags to enable.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](stack-wpa.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](keyword--in-systemprovider-.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For lists of all supported keywords and stacks, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Stack</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Keyword (in SystemProvider)</pc>.</source>
+          <target>For lists of all supported keywords and stacks, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Stack</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Keyword (in SystemProvider)</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>The following code example shows a system provider definition.</source>
+          <target>The following code example shows a system provider definition.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Event Providers</source>
+          <target>Event Providers</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>An event provider definition specifies the Event Tracing for Windows (ETW) provider to use and the keywords and levels to enable.</source>
+          <target>An event provider definition specifies the Event Tracing for Windows (ETW) provider to use and the keywords and levels to enable.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>the, An event provider definition requires a mandatory <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> attribute and a mandatory <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Id</pc> attribute.</source>
+          <target>the, An event provider definition requires a mandatory <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> attribute and a mandatory <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Id</pc> attribute.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> attribute specifies one of the following names:</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> attribute specifies one of the following names:</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>The name of a registered Crimson provider, such as "Microsoft-Windows-Search-Core".</source>
+          <target>The name of a registered Crimson provider, such as "Microsoft-Windows-Search-Core".</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>The provider GUID, such as "49c2c27c-fe2d-40bf-8c4e-c3fb518037e7".</source>
+          <target>The provider GUID, such as "49c2c27c-fe2d-40bf-8c4e-c3fb518037e7".</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>The name of an earlier provider, such as "IE6".</source>
+          <target>The name of an earlier provider, such as "IE6".</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>The special-case name, such as "PerfTrack" or "DotNetProvider".</source>
+          <target>The special-case name, such as "PerfTrack" or "DotNetProvider".</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>You can use the following optional attributes to fine-tune provider parameters:</source>
+          <target>You can use the following optional attributes to fine-tune provider parameters:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Stack</pc>: Indicates whether the provider captures stacks.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Stack</pc>: Indicates whether the provider captures stacks.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>The default setting is "false".</source>
+          <target>The default setting is "false".</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Level</pc>: Specifies the ETW logging level.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Level</pc>: Specifies the ETW logging level.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>The default setting is 0xFF.</source>
+          <target>The default setting is 0xFF.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NonPagedMemory</pc>: Indicates whether WPR uses non-paged memory for the buffer for this provider.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NonPagedMemory</pc>: Indicates whether WPR uses non-paged memory for the buffer for this provider.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>The default setting is "false".</source>
+          <target>The default setting is "false".</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Warning</source>
+          <target>Warning</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Some Windows event providers require the use of nonpaged memory during trace capture.</source>
+          <target>Some Windows event providers require the use of nonpaged memory during trace capture.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">`EventProvider_Microsoft-Windows-Win32k`</data>
+        </originalData>
+        <segment state="initial">
+          <source>An example of an event provider that requires NonPagedMemory is <ph dataRef="id1" id="ph1" />.</source>
+          <target>An example of an event provider that requires NonPagedMemory is <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CaptureStateOnly</pc>: If set to "true", indicates that WPR enables this provider at the specified capture state Only.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CaptureStateOnly</pc>: If set to "true", indicates that WPR enables this provider at the specified capture state Only.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SID</pc>: Specifies whether the extended data of logged events includes the user's security identifier (SID).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SID</pc>: Specifies whether the extended data of logged events includes the user's security identifier (SID).</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TSID</pc>: If set to "true", specifies the terminal session identifier to extended data of logged events.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TSID</pc>: If set to "true", specifies the terminal session identifier to extended data of logged events.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Optional inner XML tags specify the keywords to enable.</source>
+          <target>Optional inner XML tags specify the keywords to enable.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Unlike system providers, event providers do not have defined textual constants.</source>
+          <target>Unlike system providers, event providers do not have defined textual constants.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Therefore, event providers have hexadecimal values.</source>
+          <target>Therefore, event providers have hexadecimal values.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>However, the syntax is the same as that of system providers.</source>
+          <target>However, the syntax is the same as that of system providers.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>If you do not specify keywords, the default value is 0xFFFFFFFFFFFFFFFF.</source>
+          <target>If you do not specify keywords, the default value is 0xFFFFFFFFFFFFFFFF.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Heap Event Providers</source>
+          <target>Heap Event Providers</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>The heap provider definition specifies the process identifier of the process for which WPR captures heap events.</source>
+          <target>The heap provider definition specifies the process identifier of the process for which WPR captures heap events.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Id</pc> is the only mandatory attribute.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Id</pc> is the only mandatory attribute.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HeapProcessId</pc> child element is not mandatory.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HeapProcessId</pc> child element is not mandatory.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This element specifies the process <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Id</pc> attribute of the process that you want to analyze.</source>
+          <target>This element specifies the process <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Id</pc> attribute of the process that you want to analyze.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>The following example shows how to do this.</source>
+          <target>The following example shows how to do this.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Capture-State Providers</source>
+          <target>Capture-State Providers</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Unlike regular providers that are enabled throughout the whole tracing session, capture-state providers are enabled only when you save or start a capture session.</source>
+          <target>Unlike regular providers that are enabled throughout the whole tracing session, capture-state providers are enabled only when you save or start a capture session.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>The following example shows both regular and capture-state providers.</source>
+          <target>The following example shows both regular and capture-state providers.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>The following code example defines two event providers.</source>
+          <target>The following code example defines two event providers.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Authoring Recording Profiles</source>
+          <target>Authoring Recording Profiles</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>1. Collector Definitions</source>
+          <target>1. Collector Definitions</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>3. Profile Definitions</source>
+          <target>3. Profile Definitions</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>SystemProvider</source>
+          <target>SystemProvider</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>EventProvider</source>
+          <target>EventProvider</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>HeapEventProvider</source>
+          <target>HeapEventProvider</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Keyword (in SystemProvider)</source>
+          <target>Keyword (in SystemProvider)</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Stack</source>
+          <target>Stack</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>PoolTag</source>
+          <target>PoolTag</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

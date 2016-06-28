@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\combine-provisioning-packages-into-a-new-image.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">565395052fce5b0ceaf82022ae32bf4ea1398799</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Lab 1b: Create a provisioning package with Windows desktop applications</source>
+          <target>Lab 1b: Create a provisioning package with Windows desktop applications</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Lab 1b: Create a provisioning package with Windows desktop applications</source>
+          <target>Lab 1b: Create a provisioning package with Windows desktop applications</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Now that you've seen how to configure Windows images using Windows Imaging and Configuration Designer (ICD), we'll show you how to add Classic Windows applications and other data by using audit mode.</source>
+          <target>Now that you've seen how to configure Windows images using Windows Imaging and Configuration Designer (ICD), we'll show you how to add Classic Windows applications and other data by using audit mode.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>You'll recapture these Classic Windows applications and data into a provisioning package by using the ScanState tool.</source>
+          <target>You'll recapture these Classic Windows applications and data into a provisioning package by using the ScanState tool.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>As new builds of Windows are released, and as you prepare for different markets, you can mix and match the Windows images and provisioning packages, rather than rebuilding and customizing the images each time.</source>
+          <target>As new builds of Windows are released, and as you prepare for different markets, you can mix and match the Windows images and provisioning packages, rather than rebuilding and customizing the images each time.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Once you’ve captured the provisioning package, you can add it to your image by using Windows ICD.</source>
+          <target>Once you’ve captured the provisioning package, you can add it to your image by using Windows ICD.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>The recovery tools also use this provisioning package.</source>
+          <target>The recovery tools also use this provisioning package.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>When your users refresh the device (often used in case of device failure) or reset the device (often used to clean a device for a new user), the device keeps their installed Windows updates, plus the updates in this provisioning package.</source>
+          <target>When your users refresh the device (often used in case of device failure) or reset the device (often used to clean a device for a new user), the device keeps their installed Windows updates, plus the updates in this provisioning package.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Step 1: Prepare a copy of ScanState</source>
+          <target>Step 1: Prepare a copy of ScanState</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>On your technician PC, plug in another USB key or drive.</source>
+          <target>On your technician PC, plug in another USB key or drive.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In File Explorer, create a new folder on the USB key, for example: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">D:<ph dataRef="id3" id="ph1" />ScanState x64</pc>.</source>
+          <target>In File Explorer, create a new folder on the USB key, for example: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">D:<ph dataRef="id3" id="ph1" />ScanState x64</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Copy the files from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">"C:<ph dataRef="id3" id="ph1" />Program Files (x86)<ph dataRef="id4" id="ph2" />Windows Kits<ph dataRef="id5" id="ph3" />10<ph dataRef="id6" id="ph4" />Assessment and Deployment Kit<ph dataRef="id7" id="ph5" />User State Migration Tool<ph dataRef="id8" id="ph6" />amd64"</pc> into <pc dataRefEnd="id10" dataRefStart="id9" id="p2">D:<ph dataRef="id11" id="ph7" />ScanState x64</pc>.</source>
+          <target>Copy the files from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">"C:<ph dataRef="id3" id="ph1" />Program Files (x86)<ph dataRef="id4" id="ph2" />Windows Kits<ph dataRef="id5" id="ph3" />10<ph dataRef="id6" id="ph4" />Assessment and Deployment Kit<ph dataRef="id7" id="ph5" />User State Migration Tool<ph dataRef="id8" id="ph6" />amd64"</pc> into <pc dataRefEnd="id10" dataRefStart="id9" id="p2">D:<ph dataRef="id11" id="ph7" />ScanState x64</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>You don't need to copy the subfolders.</source>
+          <target>You don't need to copy the subfolders.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+          <data id="id9">\\</data>
+          <data id="id10">**</data>
+          <data id="id11">**</data>
+          <data id="id12">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Copy the files from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">"C:<ph dataRef="id3" id="ph1" />Program Files (x86)<ph dataRef="id4" id="ph2" />Windows Kits<ph dataRef="id5" id="ph3" />10<ph dataRef="id6" id="ph4" />Assessment and Deployment Kit<ph dataRef="id7" id="ph5" />Windows Setup<ph dataRef="id8" id="ph6" />amd64<ph dataRef="id9" id="ph7" />Sources"</pc> into <pc dataRefEnd="id11" dataRefStart="id10" id="p2">D:<ph dataRef="id12" id="ph8" />ScanState x64</pc>.</source>
+          <target>Copy the files from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">"C:<ph dataRef="id3" id="ph1" />Program Files (x86)<ph dataRef="id4" id="ph2" />Windows Kits<ph dataRef="id5" id="ph3" />10<ph dataRef="id6" id="ph4" />Assessment and Deployment Kit<ph dataRef="id7" id="ph5" />Windows Setup<ph dataRef="id8" id="ph6" />amd64<ph dataRef="id9" id="ph7" />Sources"</pc> into <pc dataRefEnd="id11" dataRefStart="id10" id="p2">D:<ph dataRef="id12" id="ph8" />ScanState x64</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>There will be duplicate files, it's OK to skip copying these files.</source>
+          <target>There will be duplicate files, it's OK to skip copying these files.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>You don't need to copy the subfolders.</source>
+          <target>You don't need to copy the subfolders.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Step 2: Install a Classic Windows application in audit mode</source>
+          <target>Step 2: Install a Classic Windows application in audit mode</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Use this method to install classic Windows applications and any drivers that require installation (as opposed to .inf-style drivers.)</source>
+          <target>Use this method to install classic Windows applications and any drivers that require installation (as opposed to .inf-style drivers.)</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>On the reference device, install the image that was created in Lab 1a.</source>
+          <target>On the reference device, install the image that was created in Lab 1a.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>If the image is already installed, start the reference device.</source>
+          <target>If the image is already installed, start the reference device.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Either the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Languages</pc> or the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Hi there</pc> screen appears.</source>
+          <target>Either the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Languages</pc> or the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Hi there</pc> screen appears.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ctrl+Shift+F3</pc> to enter Audit mode.</source>
+          <target>Press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ctrl+Shift+F3</pc> to enter Audit mode.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>The device reboots to the desktop, and the System Preparation Tool (Sysprep) appears.</source>
+          <target>The device reboots to the desktop, and the System Preparation Tool (Sysprep) appears.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>You can close Sysprep.</source>
+          <target>You can close Sysprep.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](install-windows-automatically-from-a-usb-drive-sxs.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Ensure that your customizations from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lab 1a</pc> are available.</source>
+          <target>Ensure that your customizations from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lab 1a</pc> are available.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>To do this, in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> under <pc dataRefEnd="id4" dataRefStart="id3" id="p2">System <ph dataRef="id5" id="ph1" /> About</pc>, you should see the technical support info that you entered earlier appear (company name, support phone number, and support website).</source>
+          <target>To do this, in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> under <pc dataRefEnd="id4" dataRefStart="id3" id="p2">System <ph dataRef="id5" id="ph1" /> About</pc>, you should see the technical support info that you entered earlier appear (company name, support phone number, and support website).</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Install a Classic Windows application application.</source>
+          <target>Install a Classic Windows application application.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">`oemsetup.en-us.com`</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, to install Office 2013, put in a USB key with the Office installation program, open File Explorer and navigate to <ph dataRef="id1" id="ph1" />.</source>
+          <target>For example, to install Office 2013, put in a USB key with the Office installation program, open File Explorer and navigate to <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>To learn more, download the Office OPK Update image from the Office OPK Connect site.</source>
+          <target>To learn more, download the Office OPK Update image from the Office OPK Connect site.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Step 3: Save your updates to a provisioning package</source>
+          <target>Step 3: Save your updates to a provisioning package</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Capture your updates into a provisioning package</source>
+          <target>Capture your updates into a provisioning package</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>First, plug the USB key with ScanState into the reference device.</source>
+          <target>First, plug the USB key with ScanState into the reference device.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">If you'd like to keep a copy of this provisioning package and deploy it to other devices</pc>, save the file to a USB drive.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">If you'd like to keep a copy of this provisioning package and deploy it to other devices</pc>, save the file to a USB drive.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Capture the changes into the provisioning package, and save it on the USB key.</source>
+          <target>Capture the changes into the provisioning package, and save it on the USB key.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>where <pc dataRefEnd="id2" dataRefStart="id1" id="p1">D</pc> is the letter of the drive with ScanState.</source>
+          <target>where <pc dataRefEnd="id2" dataRefStart="id1" id="p1">D</pc> is the letter of the drive with ScanState.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](install-windows-automatically-from-a-usb-drive-sxs.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can now go back to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lab 1</pc> and mix and match this provisioning package with other Windows images and customizations.</source>
+          <target>You can now go back to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lab 1</pc> and mix and match this provisioning package with other Windows images and customizations.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Please refer to Lab 1, Step 1.6 for instructions on how to load a provisioning package in a WICD project, then continue Lab 1 flow.</source>
+          <target>Please refer to Lab 1, Step 1.6 for instructions on how to load a provisioning package in a WICD project, then continue Lab 1 flow.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">For build-to-order devices</pc>, you can wrap up these changes and prepare the device for immediate delivery.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">For build-to-order devices</pc>, you can wrap up these changes and prepare the device for immediate delivery.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Capture the changes to provisioning package, and save it as C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />Customizations<ph dataRef="id3" id="ph3" />usmt.ppkg:</source>
+          <target>Capture the changes to provisioning package, and save it as C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />Customizations<ph dataRef="id3" id="ph3" />usmt.ppkg:</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Step 4: Prepare the device for an end user</source>
+          <target>Step 4: Prepare the device for an end user</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">For build-to-order devices</pc>, prepare the device for the end user: Right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Start</pc>, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Command Prompt (Admin)</pc>, and run the following command:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">For build-to-order devices</pc>, prepare the device for the end user: Right-click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Start</pc>, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Command Prompt (Admin)</pc>, and run the following command:</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>The Sysprep tool reseals the device.</source>
+          <target>The Sysprep tool reseals the device.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>This process can take several minutes.</source>
+          <target>This process can take several minutes.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>After the process completes, the device shuts down automatically.</source>
+          <target>After the process completes, the device shuts down automatically.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>You can now send the device to the customer.</source>
+          <target>You can now send the device to the customer.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

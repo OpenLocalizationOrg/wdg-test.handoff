@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\windows-re-troubleshooting-features.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">a0d68e6f39f9a2fdcb2ee148c576d6dbef3125e0</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Windows RE troubleshooting features</source>
+          <target>Windows RE troubleshooting features</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Windows RE troubleshooting features</source>
+          <target>Windows RE troubleshooting features</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Windows RE troubleshooting features</source>
+          <target>Windows RE troubleshooting features</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>If a Windows device can't start, it automatically fails over to the Windows Recovery Environment (Windows RE).</source>
+          <target>If a Windows device can't start, it automatically fails over to the Windows Recovery Environment (Windows RE).</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>The Automatic Repair tool in Windows RE automates the diagnosis and repair of an unbootable Windows installation.</source>
+          <target>The Automatic Repair tool in Windows RE automates the diagnosis and repair of an unbootable Windows installation.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows RE is also a starting point for several tools for manual system recovery.</source>
+          <target>Windows RE is also a starting point for several tools for manual system recovery.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>This topic describes the automatic failover behavior, manual diagnosis, and repair process in Windows RE.</source>
+          <target>This topic describes the automatic failover behavior, manual diagnosis, and repair process in Windows RE.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>In this topic:</source>
+          <target>In this topic:</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Recovering from Startup Failures</source>
+          <target>Recovering from Startup Failures</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Advanced Troubleshooting Utilities in Windows RE</source>
+          <target>Advanced Troubleshooting Utilities in Windows RE</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Recovering from startup failures</source>
+          <target>Recovering from startup failures</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>If the system detects a boot failure on a computer running Windows, the system automatically fails over into the on-disk Windows RE tool.</source>
+          <target>If the system detects a boot failure on a computer running Windows, the system automatically fails over into the on-disk Windows RE tool.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>At startup, the Windows loader sets a status flag to indicate that the boot process has started.</source>
+          <target>At startup, the Windows loader sets a status flag to indicate that the boot process has started.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Windows typically clears this flag before the Windows logon screen appears.</source>
+          <target>Windows typically clears this flag before the Windows logon screen appears.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>However, if the boot attempt fails, Windows doesn't clear the flag.</source>
+          <target>However, if the boot attempt fails, Windows doesn't clear the flag.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>The next time that the computer starts, the loader detects the flag and assumes that a boot failure occurred.</source>
+          <target>The next time that the computer starts, the loader detects the flag and assumes that a boot failure occurred.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>When this occurs, the loader starts Windows RE instead of Windows.</source>
+          <target>When this occurs, the loader starts Windows RE instead of Windows.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Boot failure detection relies on boot completion and not whether an error occurred in Windows 8.</source>
+          <target>Boot failure detection relies on boot completion and not whether an error occurred in Windows 8.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>For example, a false positive may occur if power is lost during the boot process, and your user starts Windows RE even though the Windows installation is bootable.</source>
+          <target>For example, a false positive may occur if power is lost during the boot process, and your user starts Windows RE even though the Windows installation is bootable.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Because the failover mechanism relies on the Windows boot manager and the Windows boot loader, some failures can make Windows RE inaccessible.</source>
+          <target>Because the failover mechanism relies on the Windows boot manager and the Windows boot loader, some failures can make Windows RE inaccessible.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>In the following scenarios, your user must use the bootable Windows RE media to recover the computer:</source>
+          <target>In the following scenarios, your user must use the bootable Windows RE media to recover the computer:</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Corrupt disk metadata exists in the master boot record (MBR), partition table, or boot sector of a Windows RE partition.</source>
+          <target>Corrupt disk metadata exists in the master boot record (MBR), partition table, or boot sector of a Windows RE partition.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>The boot manager is missing or corrupted.</source>
+          <target>The boot manager is missing or corrupted.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>The Boot Configuration Data (BCD) store is missing or corrupted.</source>
+          <target>The Boot Configuration Data (BCD) store is missing or corrupted.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>If the boot loader can't read or write to the boot status flag, Windows won't be able to automatically fail over into Windows RE.</source>
+          <target>If the boot loader can't read or write to the boot status flag, Windows won't be able to automatically fail over into Windows RE.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>However, your user can still manually start the on-disk Windows RE tool through the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Boot Options</pc> menu.</source>
+          <target>However, your user can still manually start the on-disk Windows RE tool through the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Boot Options</pc> menu.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Advanced troubleshooting utilities in Windows RE</source>
+          <target>Advanced troubleshooting utilities in Windows RE</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Your user can manually start several system recovery tools after starting the on-disk Windows RE tool from the recovery media, or from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Boot Options</pc> menu.</source>
+          <target>Your user can manually start several system recovery tools after starting the on-disk Windows RE tool from the recovery media, or from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Boot Options</pc> menu.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>With the exception of Automatic Repair, the Windows Assessment and Deployment Kit (Windows ADK) doesn't include these tools.</source>
+          <target>With the exception of Automatic Repair, the Windows Assessment and Deployment Kit (Windows ADK) doesn't include these tools.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Push-button reset is the recommended recovery solution in Windows.</source>
+          <target>Push-button reset is the recommended recovery solution in Windows.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Automatic Repair</source>
+          <target>Automatic Repair</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>The Automatic Repair tool automates common diagnostic and repair tasks for non-bootable operating system installations.</source>
+          <target>The Automatic Repair tool automates common diagnostic and repair tasks for non-bootable operating system installations.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Automatic Repair starts if the computer fails over into Windows RE because of a detected boot failure.</source>
+          <target>Automatic Repair starts if the computer fails over into Windows RE because of a detected boot failure.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>If automatic failover to an on-disk instance of Windows RE is not available, your users can also start Automatic Repair as a manual recovery tool from a Windows RE CD or DVD.</source>
+          <target>If automatic failover to an on-disk instance of Windows RE is not available, your users can also start Automatic Repair as a manual recovery tool from a Windows RE CD or DVD.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>System Image Recovery</source>
+          <target>System Image Recovery</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Use System Image Recovery for file backup and system image backup.</source>
+          <target>Use System Image Recovery for file backup and system image backup.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>System Image Recovery requires an external storage device.</source>
+          <target>System Image Recovery requires an external storage device.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>For file backup, your users can let Windows choose what to back up, or they can select individual folders, libraries, and drives.</source>
+          <target>For file backup, your users can let Windows choose what to back up, or they can select individual folders, libraries, and drives.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>By default, backups are created on a regular schedule.</source>
+          <target>By default, backups are created on a regular schedule.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Your users can change the schedule and manually create a backup at any time.</source>
+          <target>Your users can change the schedule and manually create a backup at any time.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>After your user sets up System Image Recovery, Windows keeps track of the new or modified files and folders, adding them to the backup.</source>
+          <target>After your user sets up System Image Recovery, Windows keeps track of the new or modified files and folders, adding them to the backup.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>For system image backup, your users can create a system image or an exact image of a drive.</source>
+          <target>For system image backup, your users can create a system image or an exact image of a drive.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>A system image includes Windows and system settings, programs, and files.</source>
+          <target>A system image includes Windows and system settings, programs, and files.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Your users can use a system image to restore the contents of their computer if the hard disk drive or computer stops working.</source>
+          <target>Your users can use a system image to restore the contents of their computer if the hard disk drive or computer stops working.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>If your users restore their computer from a system image, the restoration is a complete restoration.</source>
+          <target>If your users restore their computer from a system image, the restoration is a complete restoration.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Your users can't choose individual items to restore.</source>
+          <target>Your users can't choose individual items to restore.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>All of the current programs, system settings, and files are replaced.</source>
+          <target>All of the current programs, system settings, and files are replaced.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>If you set up a scheduled file backup, you can include a system image with only the drives Windows requires to run.</source>
+          <target>If you set up a scheduled file backup, you can include a system image with only the drives Windows requires to run.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>You can manually create a system image if you want to include additional data drives.</source>
+          <target>You can manually create a system image if you want to include additional data drives.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Previous system image versions are copies of the files and folders saved automatically by Windows as part of the system protection process.</source>
+          <target>Previous system image versions are copies of the files and folders saved automatically by Windows as part of the system protection process.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Depending on the type of file or folder, your users can open a previous version, save the version to a different location, or restore a previous version.</source>
+          <target>Depending on the type of file or folder, your users can open a previous version, save the version to a different location, or restore a previous version.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Your users can use these previous versions to restore accidentally modified, deleted, or damaged files or folders.</source>
+          <target>Your users can use these previous versions to restore accidentally modified, deleted, or damaged files or folders.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>However, because Windows replaces these files with new versions the files won't be available if the drive fails.</source>
+          <target>However, because Windows replaces these files with new versions the files won't be available if the drive fails.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Command Prompt</source>
+          <target>Command Prompt</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>All Windows PE command-line tools are available from a command prompt window.</source>
+          <target>All Windows PE command-line tools are available from a command prompt window.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>For example, you can use Registry Editor (Regedit.exe), which includes command-line switches, to modify the Windows registry.</source>
+          <target>For example, you can use Registry Editor (Regedit.exe), which includes command-line switches, to modify the Windows registry.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Or, you can use the Chkdisk.exe tool to troubleshoot and fix volumes.</source>
+          <target>Or, you can use the Chkdisk.exe tool to troubleshoot and fix volumes.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=207693)</data>
+          <data id="id3">[</data>
+          <data id="id4">](http://go.microsoft.com/fwlink/?LinkId=207694)</data>
+          <data id="id5">[</data>
+          <data id="id6">](http://go.microsoft.com/fwlink/?LinkId=207695)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Registry Editor</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Chkdsk</pc>, and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Troubleshooting Tools and Strategies</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Registry Editor</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Chkdsk</pc>, and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Troubleshooting Tools and Strategies</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Custom Support and Recovery Tools</source>
+          <target>Custom Support and Recovery Tools</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Computer manufacturers can provide custom support and recovery tools.</source>
+          <target>Computer manufacturers can provide custom support and recovery tools.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>These tools will vary by manufacturer.</source>
+          <target>These tools will vary by manufacturer.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>For more information, see the manufacturer-provided documentation.</source>
+          <target>For more information, see the manufacturer-provided documentation.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>BCDboot Command-Line Options</source>
+          <target>BCDboot Command-Line Options</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>REAgentC Command-Line Options</source>
+          <target>REAgentC Command-Line Options</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

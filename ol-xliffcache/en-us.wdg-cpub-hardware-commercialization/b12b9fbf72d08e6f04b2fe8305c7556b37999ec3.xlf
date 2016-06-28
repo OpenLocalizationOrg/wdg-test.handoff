@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\servicing-the-image-with-windows-updates.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">b12b9fbf72d08e6f04b2fe8305c7556b37999ec3</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>As new Windows updates become available, add them to your image.</source>
+          <target>As new Windows updates become available, add them to your image.</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Lab 2c: Servicing the image with Windows Updates</source>
+          <target>Lab 2c: Servicing the image with Windows Updates</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Lab 2c: Servicing the image with Windows Updates</source>
+          <target>Lab 2c: Servicing the image with Windows Updates</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>As new Windows updates become available, add them to your image.</source>
+          <target>As new Windows updates become available, add them to your image.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>By default, updates installed after a target rollup update are not restored.</source>
+          <target>By default, updates installed after a target rollup update are not restored.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>To ensure that updates preinstalled during manufacturing are not discarded after recovery, they should be marked as permanent by using the /Cleanup-Image command in DISM with the /StartComponentCleanup and /ResetBase options.</source>
+          <target>To ensure that updates preinstalled during manufacturing are not discarded after recovery, they should be marked as permanent by using the /Cleanup-Image command in DISM with the /StartComponentCleanup and /ResetBase options.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Updates marked as permanent are always restored during recovery.</source>
+          <target>Updates marked as permanent are always restored during recovery.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Step 1: Mount the Windows image file</source>
+          <target>Step 1: Mount the Windows image file</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Run the following commands:</source>
+          <target>Run the following commands:</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Where /Index:1 refers to the image you want to mount.</source>
+          <target>Where /Index:1 refers to the image you want to mount.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Note, rem use /Index:2 to mount the Windows 10 Home edition from the default Windows 10 Home/Pro edition.</source>
+          <target>Note, rem use /Index:2 to mount the Windows 10 Home edition from the default Windows 10 Home/Pro edition.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Step 2: Add the Windows update package</source>
+          <target>Step 2: Add the Windows update package</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>From Microsoft Connect, download the Windows update.</source>
+          <target>From Microsoft Connect, download the Windows update.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Save this in the folder: C:<ph dataRef="id1" id="ph1" />WindowsUpdates.</source>
+          <target>Save this in the folder: C:<ph dataRef="id1" id="ph1" />WindowsUpdates.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Add the updates to the image.</source>
+          <target>Add the updates to the image.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>For packages with dependencies, make sure you install the packages in order.</source>
+          <target>For packages with dependencies, make sure you install the packages in order.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>If you’re not sure of the dependencies, it’s OK to put them all in the same folder, and then add them all using the same DISM /Add-Package command.</source>
+          <target>If you’re not sure of the dependencies, it’s OK to put them all in the same folder, and then add them all using the same DISM /Add-Package command.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">`kb1010101.cab`</data>
+          <data id="id2">`kb1020202.cab`</data>
+          <data id="id3">`kb3030303.cab`</data>
+        </originalData>
+        <segment state="initial">
+          <source>where C is the drive letter of the drive and <ph dataRef="id1" id="ph1" />, <ph dataRef="id2" id="ph2" />, and <ph dataRef="id3" id="ph3" /> are update packages that you’re adding to the image.</source>
+          <target>where C is the drive letter of the drive and <ph dataRef="id1" id="ph1" />, <ph dataRef="id2" id="ph2" />, and <ph dataRef="id3" id="ph3" /> are update packages that you’re adding to the image.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Lock in the updates, so that they are restored during a recovery.</source>
+          <target>Lock in the updates, so that they are restored during a recovery.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Step 3: Unmount the images</source>
+          <target>Step 3: Unmount the images</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Close all applications that might access files from the image.</source>
+          <target>Close all applications that might access files from the image.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Commit the changes and unmount the Windows image:</source>
+          <target>Commit the changes and unmount the Windows image:</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\add-a-hardware-recovery-button-to-start-windows-re.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">106dec16c837f414a9bba3047ea465e2fa876947</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>On UEFI-based computers, you can configure a hardware recovery button (or button combination) to start Windows RE, including push-button reset features for Windows 10 for desktop editions (Home, Pro, Enterprise, and Education).</source>
+          <target>On UEFI-based computers, you can configure a hardware recovery button (or button combination) to start Windows RE, including push-button reset features for Windows 10 for desktop editions (Home, Pro, Enterprise, and Education).</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Add a hardware recovery button to start Windows RE</source>
+          <target>Add a hardware recovery button to start Windows RE</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Add a hardware recovery button to start Windows RE</source>
+          <target>Add a hardware recovery button to start Windows RE</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>On UEFI-based computers, you can configure a hardware recovery button (or button combination) to start Windows RE, including push-button reset features for Windows 10 for desktop editions (Home, Pro, Enterprise, and Education).</source>
+          <target>On UEFI-based computers, you can configure a hardware recovery button (or button combination) to start Windows RE, including push-button reset features for Windows 10 for desktop editions (Home, Pro, Enterprise, and Education).</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>This can help users get to the Windows RE menus more easily.</source>
+          <target>This can help users get to the Windows RE menus more easily.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Relative to Windows 8/8.1, the recommended implementation in Windows 10 for such hardware buttons has been greatly simplified.</source>
+          <target>Relative to Windows 8/8.1, the recommended implementation in Windows 10 for such hardware buttons has been greatly simplified.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>You no longer need to copy Windows boot files to an unmanaged location on the EFI system partition (ESP) to create a secondary boot path.</source>
+          <target>You no longer need to copy Windows boot files to an unmanaged location on the EFI system partition (ESP) to create a secondary boot path.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Instead, Windows configures and manages all the on-disk resources required to support the hardware buttons.</source>
+          <target>Instead, Windows configures and manages all the on-disk resources required to support the hardware buttons.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The design can be summarized as follows:</source>
+          <target>The design can be summarized as follows:</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Windows 10 automatically creates a secondary Boot Configuration Data (BCD) store in the folder <ph dataRef="id1" id="ph1" />EFI<ph dataRef="id2" id="ph2" />Microsoft<ph dataRef="id3" id="ph3" />Recovery.</source>
+          <target>Windows 10 automatically creates a secondary Boot Configuration Data (BCD) store in the folder <ph dataRef="id1" id="ph1" />EFI<ph dataRef="id2" id="ph2" />Microsoft<ph dataRef="id3" id="ph3" />Recovery.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>When Windows RE is installed, this secondary BCD store is automatically populated with the appropriate settings to boot Windows RE by default.</source>
+          <target>When Windows RE is installed, this secondary BCD store is automatically populated with the appropriate settings to boot Windows RE by default.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>If the location of Windows RE changes (for example, due to future updates), the secondary BCD store is updated automatically.</source>
+          <target>If the location of Windows RE changes (for example, due to future updates), the secondary BCD store is updated automatically.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>You will still need to create a static boot device entry for recovery at the end of the UEFI firmware boot order list.</source>
+          <target>You will still need to create a static boot device entry for recovery at the end of the UEFI firmware boot order list.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>This boot device entry should point to the default Windows Boot Manager (bootmgfw.efi) in the folder <ph dataRef="id1" id="ph1" />EFI<ph dataRef="id2" id="ph2" />Microsoft<ph dataRef="id3" id="ph3" />Boot on the ESP.</source>
+          <target>This boot device entry should point to the default Windows Boot Manager (bootmgfw.efi) in the folder <ph dataRef="id1" id="ph1" />EFI<ph dataRef="id2" id="ph2" />Microsoft<ph dataRef="id3" id="ph3" />Boot on the ESP.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">`/RecoveryBCD`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The boot device entry must specify the <ph dataRef="id1" id="ph1" /> parameter.</source>
+          <target>The boot device entry must specify the <ph dataRef="id1" id="ph1" /> parameter.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>When the hardware button is triggered, the recovery boot device entry should be selected automatically.</source>
+          <target>When the hardware button is triggered, the recovery boot device entry should be selected automatically.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>To learn more, see your hardware manufacturer's instructions for modifying the UEFI firmware on the device.</source>
+          <target>To learn more, see your hardware manufacturer's instructions for modifying the UEFI firmware on the device.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">`/RecoveryBCD`</data>
+        </originalData>
+        <segment state="initial">
+          <source>When Windows Boot Manager is launched with the <ph dataRef="id1" id="ph1" /> parameter, it uses the secondary BCD store which is configured to boot Windows RE, instead of the default BCD store.</source>
+          <target>When Windows Boot Manager is launched with the <ph dataRef="id1" id="ph1" /> parameter, it uses the secondary BCD store which is configured to boot Windows RE, instead of the default BCD store.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>The following diagram illustrates the recommended implementation and the various boot paths:</source>
+          <target>The following diagram illustrates the recommended implementation and the various boot paths:</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>diagram showing process to add firmware button</source>
+          <target>diagram showing process to add firmware button</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Design recommendations for the hardware button:</source>
+          <target>Design recommendations for the hardware button:</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>The hardware recovery button (or button combination) should be usable even when the PC is powered off.</source>
+          <target>The hardware recovery button (or button combination) should be usable even when the PC is powered off.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>When triggered, the PC should power on and go through the secondary boot path.</source>
+          <target>When triggered, the PC should power on and go through the secondary boot path.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>This eliminates the need for users to press the button within a very short time window during and after POST.</source>
+          <target>This eliminates the need for users to press the button within a very short time window during and after POST.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>For PCs which support firmware options menu, triggering the button (or button combination) should first display a simple menu which gives users the options to either boot Windows RE or to enter the firmware options menu.</source>
+          <target>For PCs which support firmware options menu, triggering the button (or button combination) should first display a simple menu which gives users the options to either boot Windows RE or to enter the firmware options menu.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>This removes the need to support multiple button combinations.</source>
+          <target>This removes the need to support multiple button combinations.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  The hardware button will not be able to boot the PC into Windows RE until Windows RE is installed.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  The hardware button will not be able to boot the PC into Windows RE until Windows RE is installed.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>In general, this means after the PC has completed the Specialize configuration pass.</source>
+          <target>In general, this means after the PC has completed the Specialize configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Deploy Windows RE</source>
+          <target>Deploy Windows RE</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

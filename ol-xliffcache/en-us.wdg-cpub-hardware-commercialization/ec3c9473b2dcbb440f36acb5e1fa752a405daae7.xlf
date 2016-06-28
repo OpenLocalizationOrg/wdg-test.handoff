@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\secure-boot-key-generation-and-signing-using-hsm--example.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">ec3c9473b2dcbb440f36acb5e1fa752a405daae7</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Secure Boot Key Generation and Signing Using HSM (Example)</source>
+          <target>Secure Boot Key Generation and Signing Using HSM (Example)</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Secure Boot Key Generation and Signing Using HSM (Example)</source>
+          <target>Secure Boot Key Generation and Signing Using HSM (Example)</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Secure Boot Key Generation and Signing Using HSM (Example)</source>
+          <target>Secure Boot Key Generation and Signing Using HSM (Example)</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Version 1.3</source>
+          <target>Version 1.3</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Here's an example of how to generate Secure Boot keys (PK and others) by using a hardware security module (HSM).</source>
+          <target>Here's an example of how to generate Secure Boot keys (PK and others) by using a hardware security module (HSM).</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>You'll need to know the Secure Boot Public Key Infrastructure (PKI).</source>
+          <target>You'll need to know the Secure Boot Public Key Infrastructure (PKI).</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](windows-secure-boot-key-creation-and-management-guidance.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 8.1 Secure Boot Key Creation and Management Guidance</pc>.</source>
+          <target>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 8.1 Secure Boot Key Creation and Management Guidance</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Requirements</source>
+          <target>Requirements</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Tools Needed</source>
+          <target>Tools Needed</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>certreq.exe – Available Inbox</source>
+          <target>certreq.exe – Available Inbox</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>certutil.exe – Available Inbox</source>
+          <target>certutil.exe – Available Inbox</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Signtool.exe – Available in the latest Windows SDK</source>
+          <target>Signtool.exe – Available in the latest Windows SDK</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Hardware Security Module (HSM)</source>
+          <target>Hardware Security Module (HSM)</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The whitepaper demonstrates the key generation using examples from the nCipher (now Thales) PCI HSM model nC1003P/nC3023P/nC3033P and the SafeNet Luna HSMs.</source>
+          <target>The whitepaper demonstrates the key generation using examples from the nCipher (now Thales) PCI HSM model nC1003P/nC3023P/nC3033P and the SafeNet Luna HSMs.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Most of the concepts apply to other HSM vendors as well.</source>
+          <target>Most of the concepts apply to other HSM vendors as well.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>For other HSMs, contact your manufacturer for additional instructions on how to tailor your approach with the HSM Cryptographic Service Provider (CSP).</source>
+          <target>For other HSMs, contact your manufacturer for additional instructions on how to tailor your approach with the HSM Cryptographic Service Provider (CSP).</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Approach</source>
+          <target>Approach</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>We use the Microsoft certificate creation tool: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">certreq.exe</pc> to generate the Secure Boot Platform Key (PK) and other keys needed for Secure Boot.</source>
+          <target>We use the Microsoft certificate creation tool: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">certreq.exe</pc> to generate the Secure Boot Platform Key (PK) and other keys needed for Secure Boot.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>The certreq tool can be adapted to use an HSM by providing the Cryptographic Service Provider (CSP) to be the HSM.</source>
+          <target>The certreq tool can be adapted to use an HSM by providing the Cryptographic Service Provider (CSP) to be the HSM.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Find the Cryptographic Service Provider (CSP)</source>
+          <target>Find the Cryptographic Service Provider (CSP)</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>You can use either the certutil.exe tool or a tool used by the HSM to list the CSPs.</source>
+          <target>You can use either the certutil.exe tool or a tool used by the HSM to list the CSPs.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>This example uses the certutil tool to show the CSPs on the Thales/nCipher HSM:</source>
+          <target>This example uses the certutil tool to show the CSPs on the Thales/nCipher HSM:</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">`"nCipher Security World Key Storage Provider"`</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the SHA-256 digesting algorithm, use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CNG</pc> provider: <ph dataRef="id3" id="ph1" />.</source>
+          <target>For the SHA-256 digesting algorithm, use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CNG</pc> provider: <ph dataRef="id3" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Legacy providers do not support SHA-256 and are not suitable for use with Secure Boot.</source>
+          <target>Legacy providers do not support SHA-256 and are not suitable for use with Secure Boot.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>This example uses the built-in Thales/nCipher tool to list the CSP:</source>
+          <target>This example uses the built-in Thales/nCipher tool to list the CSP:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">`"nCipher Security World Key Storage Provider"`</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the SHA-256 digesting algorithm, use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CNG</pc> provider: <ph dataRef="id3" id="ph1" />.</source>
+          <target>For the SHA-256 digesting algorithm, use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CNG</pc> provider: <ph dataRef="id3" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Legacy providers do not support SHA-256 and are not suitable for use with Secure Boot.</source>
+          <target>Legacy providers do not support SHA-256 and are not suitable for use with Secure Boot.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>This example uses the SafeNet Luna HSMs tool to list the CSP:</source>
+          <target>This example uses the SafeNet Luna HSMs tool to list the CSP:</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>For SHA-256 digest algorithm you will need to use a CNG provider – “SafeNet Key Storage Provider”.</source>
+          <target>For SHA-256 digest algorithm you will need to use a CNG provider – “SafeNet Key Storage Provider”.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Legacy providers do not support SHA-256 and are not suitable for use with Secure Boot.</source>
+          <target>Legacy providers do not support SHA-256 and are not suitable for use with Secure Boot.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>To generate the key:</source>
+          <target>To generate the key:</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Sample request.inf file:</source>
+          <target>Sample request.inf file:</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Update the following values:</source>
+          <target>Update the following values:</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">`"CN=Corporation TODO Platform Key,O=TODO Corporation,L=TODO_City,S=TODO_State,C=TODO_Country"`</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Subject:</pc> Replace the TODO’s with real data <ph dataRef="id3" id="ph1" />.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Subject:</pc> Replace the TODO’s with real data <ph dataRef="id3" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ValidityPeriod, ValidityPeriodUnits:</pc> Use the validity period of 6 years.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ValidityPeriod, ValidityPeriodUnits:</pc> Use the validity period of 6 years.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>While a PK may only be valid for 2 years, the 6-year period allows for potential future servicing.</source>
+          <target>While a PK may only be valid for 2 years, the 6-year period allows for potential future servicing.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">KeyContainer:</pc> Enter the container id that you used to create the Key with the HSM.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">KeyContainer:</pc> Enter the container id that you used to create the Key with the HSM.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>You may be asked to provide the tokens that you have used to create the Security World for the Thales HSM.</source>
+          <target>You may be asked to provide the tokens that you have used to create the Security World for the Thales HSM.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Validating certificate (self-signed)</source>
+          <target>Validating certificate (self-signed)</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Verify that the certificate has been generated correctly:</source>
+          <target>Verify that the certificate has been generated correctly:</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Sample output:</source>
+          <target>Sample output:</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Backing up the certificate</source>
+          <target>Backing up the certificate</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>We recommend backing up your certificates.</source>
+          <target>We recommend backing up your certificates.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>This way, if either the certificate store or the server goes down, you can add the certificate back to the store.</source>
+          <target>This way, if either the certificate store or the server goes down, you can add the certificate back to the store.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=317912)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info on certreq.exe, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced Certificate Enrollment and Management: Appendix 3: Certreq.exe Syntax</pc></source>
+          <target>For more info on certreq.exe, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced Certificate Enrollment and Management: Appendix 3: Certreq.exe Syntax</pc></target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Note, the PK is a self-signed certificate, and is also used to sign the KEK.</source>
+          <target>Note, the PK is a self-signed certificate, and is also used to sign the KEK.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>There are 2 parts to PK signing / initial provisioning.</source>
+          <target>There are 2 parts to PK signing / initial provisioning.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Please talk to your Microsoft contact to get these scripts:</source>
+          <target>Please talk to your Microsoft contact to get these scripts:</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>.</source>
+          <target>.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Used by the signtool to sign the PK comes later in the servicing case.</source>
+          <target>Used by the signtool to sign the PK comes later in the servicing case.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>.</source>
+          <target>.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Since we are dealing with the HSM case, the following line applies in the script applies.</source>
+          <target>Since we are dealing with the HSM case, the following line applies in the script applies.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Signing with PK certificate (servicing scenario)</source>
+          <target>Signing with PK certificate (servicing scenario)</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>This section applies to signing with your PK certificate and may not be applicable for initial provisioning of system.</source>
+          <target>This section applies to signing with your PK certificate and may not be applicable for initial provisioning of system.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>However, you can use the method here to test your service scenario.</source>
+          <target>However, you can use the method here to test your service scenario.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Determine the certificate hash (sha1)</source>
+          <target>Determine the certificate hash (sha1)</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Determine the SHA1 hash of the certificate.</source>
+          <target>Determine the SHA1 hash of the certificate.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>You can get the SHA1 hash by using either of the following methods:</source>
+          <target>You can get the SHA1 hash by using either of the following methods:</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In Windows, open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificate</pc> file, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Details</pc> tab, and check the value for <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Thumbprint</pc>.</source>
+          <target>In Windows, open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificate</pc> file, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Details</pc> tab, and check the value for <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Thumbprint</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Or use the following command:</source>
+          <target>Or use the following command:</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Sample output:</source>
+          <target>Sample output:</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Sign with signtool with the certificate store specified as a reference</source>
+          <target>Sign with signtool with the certificate store specified as a reference</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Use the SHA1 hash to sign the KEK certificate:</source>
+          <target>Use the SHA1 hash to sign the KEK certificate:</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Where KEK.bin is the filename of the binary certificate you want to sign.</source>
+          <target>Where KEK.bin is the filename of the binary certificate you want to sign.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Sample output:</source>
+          <target>Sample output:</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=317911)</data>
+          <data id="id3">[</data>
+          <data id="id4">](windows-secure-boot-key-creation-and-management-guidance.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sign Tool (SignTool.exe)</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 8.1 Secure Boot Key Creation and Management Guidance</pc>.</source>
+          <target>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sign Tool (SignTool.exe)</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 8.1 Secure Boot Key Creation and Management Guidance</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Appendix A – Using Thales KeySafe for viewing keys</source>
+          <target>Appendix A – Using Thales KeySafe for viewing keys</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Thales KeySafe is based on a GUI.</source>
+          <target>Thales KeySafe is based on a GUI.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>To use KeySafe, you must have installed JRE/JDK 1.4.2, 1.5, or 1.6.</source>
+          <target>To use KeySafe, you must have installed JRE/JDK 1.4.2, 1.5, or 1.6.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Install Java before you install the nCipher software.</source>
+          <target>Install Java before you install the nCipher software.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">`%NFAST_KMDATA%\config\`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Configure the hardserver config file under the <ph dataRef="id1" id="ph1" /> folder:</source>
+          <target>Configure the hardserver config file under the <ph dataRef="id1" id="ph1" /> folder:</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">`server_startup`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Edit settings in the <ph dataRef="id1" id="ph1" /> section:</source>
+          <target>Edit settings in the <ph dataRef="id1" id="ph1" /> section:</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">nonpriv<ph dataRef="id3" id="ph1" />port</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">nonpriv<ph dataRef="id3" id="ph1" />port</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>This field specifies the port on which the hardserver listens for local non-privileged TCP connections.</source>
+          <target>This field specifies the port on which the hardserver listens for local non-privileged TCP connections.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Default to connecting to port 9000.</source>
+          <target>Default to connecting to port 9000.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">`NFAST_SERVER_PORT`</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the <ph dataRef="id1" id="ph1" /> environment variable is set, it overrides any value set for nonpriv<ph dataRef="id2" id="ph2" />port</source>
+          <target>If the <ph dataRef="id1" id="ph1" /> environment variable is set, it overrides any value set for nonpriv<ph dataRef="id2" id="ph2" />port</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>priv<ph dataRef="id1" id="ph1" />port.</source>
+          <target>priv<ph dataRef="id1" id="ph1" />port.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>This field specifies the port on which the hardserver listens for local privileged TCP connections.</source>
+          <target>This field specifies the port on which the hardserver listens for local privileged TCP connections.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Default to connecting to port 9001.</source>
+          <target>Default to connecting to port 9001.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">`NFAST_SERVER_PRIVPORT`</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the <ph dataRef="id1" id="ph1" /> environment variable is set, it overrides any value set for priv<ph dataRef="id2" id="ph2" />port</source>
+          <target>If the <ph dataRef="id1" id="ph1" /> environment variable is set, it overrides any value set for priv<ph dataRef="id2" id="ph2" />port</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>The following are screenshots from the Thales KeySafe GUI:</source>
+          <target>The following are screenshots from the Thales KeySafe GUI:</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>screen shot of thales keysafe key operations menu</source>
+          <target>screen shot of thales keysafe key operations menu</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>The following image is generated by launching the KeySafe utility and then navigating to the KeyList menu.</source>
+          <target>The following image is generated by launching the KeySafe utility and then navigating to the KeyList menu.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>screen shot of thales keysafe keylist menu</source>
+          <target>screen shot of thales keysafe keylist menu</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>For more info, see the nCipher/Thales Users Guide.</source>
+          <target>For more info, see the nCipher/Thales Users Guide.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Appendix B: Using SafeNet CMU Utility to view keys</source>
+          <target>Appendix B: Using SafeNet CMU Utility to view keys</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>For more details, please consult the SafeNet Luna HSM documentation.</source>
+          <target>For more details, please consult the SafeNet Luna HSM documentation.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Windows 8.1 Secure Boot Key Creation and Management Guidance</source>
+          <target>Windows 8.1 Secure Boot Key Creation and Management Guidance</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Secure Boot Overview</source>
+          <target>Secure Boot Overview</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

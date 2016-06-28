@@ -1,0 +1,936 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\mobile\ffu-image-format.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">d6e05dc603d63b301d55f09f3b632fd635e237f6</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>FFU image format</source>
+          <target>FFU image format</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>FFU image format</source>
+          <target>FFU image format</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>FFU image format</source>
+          <target>FFU image format</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>The following diagram shows both V1 and V2 FFU format.</source>
+          <target>The following diagram shows both V1 and V2 FFU format.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>A major changed introduced in V2 FFU format is the support for multiple data stores – each store contains sector-based data targeting a unique physical partition.</source>
+          <target>A major changed introduced in V2 FFU format is the support for multiple data stores – each store contains sector-based data targeting a unique physical partition.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Security header region</source>
+          <target>Security header region</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>cbSize</source>
+          <target>cbSize</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The size of the SECURITY<ph dataRef="id1" id="ph1" />HEADER struct.</source>
+          <target>The size of the SECURITY<ph dataRef="id1" id="ph1" />HEADER struct.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Used in conjunction with the signature string to identify the FFU security header.</source>
+          <target>Used in conjunction with the signature string to identify the FFU security header.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Signature string</source>
+          <target>Signature string</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>A hard-coded ASCII string of "SignedImage " that identifies this image as a secure FFU image.</source>
+          <target>A hard-coded ASCII string of "SignedImage " that identifies this image as a secure FFU image.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Chunk size in KB</source>
+          <target>Chunk size in KB</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The size of chunks used to generate the hash table.</source>
+          <target>The size of chunks used to generate the hash table.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Used to break the image up into hashable chunks for validation against the hash table entries and ensure the image has not been tampered with since creation.</source>
+          <target>Used to break the image up into hashable chunks for validation against the hash table entries and ensure the image has not been tampered with since creation.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Hash algorithm ID</source>
+          <target>Hash algorithm ID</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Defines which hash algorithm was used to generate the hash table.</source>
+          <target>Defines which hash algorithm was used to generate the hash table.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Catalog size</source>
+          <target>Catalog size</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>The size in bytes of the catalog after the security header.</source>
+          <target>The size in bytes of the catalog after the security header.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Hash table size</source>
+          <target>Hash table size</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>The size in bytes of the hash table after the security header and catalog.</source>
+          <target>The size in bytes of the hash table after the security header and catalog.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security header</pc>, byte count: cbSize</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security header</pc>, byte count: cbSize</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Signed Catalog</pc>, byte count: dwCatalogSize</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Signed Catalog</pc>, byte count: dwCatalogSize</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>A catalog file containing the hash of the hash table blob that will be signed and must match one of the certificates on the device.</source>
+          <target>A catalog file containing the hash of the hash table blob that will be signed and must match one of the certificates on the device.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>This approach allows checking for a signature up front without having the full image on the device before flashing.</source>
+          <target>This approach allows checking for a signature up front without having the full image on the device before flashing.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Streaming data is checked as it is received against the hash table entries.</source>
+          <target>Streaming data is checked as it is received against the hash table entries.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Hash table data</pc>, byte count: dwHashTableSize</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Hash table data</pc>, byte count: dwHashTableSize</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>The actual hashes for each chunk of the base image.</source>
+          <target>The actual hashes for each chunk of the base image.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Chunk validation begins at the image header and ends at the end of the FFU.</source>
+          <target>Chunk validation begins at the image header and ends at the end of the FFU.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Padding</pc> - next section starts on a chunk boundary, byte count: variable</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Padding</pc> - next section starts on a chunk boundary, byte count: variable</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>After the hash table padding (blank space) is added to fill out to current chunk.</source>
+          <target>After the hash table padding (blank space) is added to fill out to current chunk.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>This ensures that the full secure header, catalog, and hash table end at a chunk boundary and the actual image header and beyond are chunk aligned.</source>
+          <target>This ensures that the full secure header, catalog, and hash table end at a chunk boundary and the actual image header and beyond are chunk aligned.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Image header region</source>
+          <target>Image header region</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>cbSize</source>
+          <target>cbSize</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>The size in bytes of the ImageHeader struc.</source>
+          <target>The size in bytes of the ImageHeader struc.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Used in conjunction with the signature string to identify the FFU image header.</source>
+          <target>Used in conjunction with the signature string to identify the FFU image header.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Signature string</source>
+          <target>Signature string</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>A hard-coded string of "ImageFlash " that identifies this image as an FFU image.</source>
+          <target>A hard-coded string of "ImageFlash " that identifies this image as an FFU image.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Manifest Length</source>
+          <target>Manifest Length</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>The size in bytes of the manifest data immediately following the image header.</source>
+          <target>The size in bytes of the manifest data immediately following the image header.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Chunk size</source>
+          <target>Chunk size</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>The size of chunks used to generate the hash table.</source>
+          <target>The size of chunks used to generate the hash table.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Used to break the image up into hashable chunks for validation against the hash table entries and ensure the image has not been tampered with since creation.</source>
+          <target>Used to break the image up into hashable chunks for validation against the hash table entries and ensure the image has not been tampered with since creation.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>This should match the chunk size in the secure header.</source>
+          <target>This should match the chunk size in the secure header.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Used only during image validation.</source>
+          <target>Used only during image validation.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Image header</pc>, byte count: cbSize</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Image header</pc>, byte count: cbSize</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manifest data</pc>, byte count: ManifestLength</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manifest data</pc>, byte count: ManifestLength</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>The manifest contains the description of the device layout and the payload included in the FFU.</source>
+          <target>The manifest contains the description of the device layout and the payload included in the FFU.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Padding</pc> byte count: variable</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Padding</pc> byte count: variable</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>After the manifest padding (blank space) is added to fill out to current chunk.</source>
+          <target>After the manifest padding (blank space) is added to fill out to current chunk.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>This ensures that the data that follows begins on a chunk boundary.</source>
+          <target>This ensures that the data that follows begins on a chunk boundary.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Store header region</source>
+          <target>Store header region</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Store header</source>
+          <target>Store header</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+          <data id="id5">\_</data>
+          <data id="id6">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Store header</pc>, byte count: STORE<ph dataRef="id3" id="ph1" />HEADER<ph dataRef="id4" id="ph2" />V1<ph dataRef="id5" id="ph3" />0<ph dataRef="id6" id="ph4" />SIZE (248 bytes)</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Store header</pc>, byte count: STORE<ph dataRef="id3" id="ph1" />HEADER<ph dataRef="id4" id="ph2" />V1<ph dataRef="id5" id="ph3" />0<ph dataRef="id6" id="ph4" />SIZE (248 bytes)</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>The store header contains metadata that describes the payload.</source>
+          <target>The store header contains metadata that describes the payload.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>This includes update type, validation size, data size, and versioning.</source>
+          <target>This includes update type, validation size, data size, and versioning.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Some information is redundant, but is included for convenience.</source>
+          <target>Some information is redundant, but is included for convenience.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>The store header contains the DWORD count/length fields that describe the validation &amp; write descriptor sections.</source>
+          <target>The store header contains the DWORD count/length fields that describe the validation &amp; write descriptor sections.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>This allows those sections to be copied out and processed later.</source>
+          <target>This allows those sections to be copied out and processed later.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>In V1 FFU format, you should see only one store header.</source>
+          <target>In V1 FFU format, you should see only one store header.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>In V2 FFU format, you should expect to see a number of store headers, depending on the value defined by the NumOfStores struct.</source>
+          <target>In V2 FFU format, you should expect to see a number of store headers, depending on the value defined by the NumOfStores struct.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Validation descriptor region</source>
+          <target>Validation descriptor region</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The validation descriptor region is a collection of VALIDATION<ph dataRef="id1" id="ph1" />ENTRY structs.</source>
+          <target>The validation descriptor region is a collection of VALIDATION<ph dataRef="id1" id="ph1" />ENTRY structs.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>There are dwValidateDescriptorCount of them, and the overall byte count of the region is dwValidateDescriptorLength.</source>
+          <target>There are dwValidateDescriptorCount of them, and the overall byte count of the region is dwValidateDescriptorLength.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Write descriptor region</source>
+          <target>Write descriptor region</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The write descriptor region is a collection of BLOCK<ph dataRef="id1" id="ph1" />DATA<ph dataRef="id2" id="ph2" />ENTRY structs.</source>
+          <target>The write descriptor region is a collection of BLOCK<ph dataRef="id1" id="ph1" />DATA<ph dataRef="id2" id="ph2" />ENTRY structs.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>There are dwWriteDescriptorCount of them, and the overall size in bytes of the region is dwWriteDescriptorLength.</source>
+          <target>There are dwWriteDescriptorCount of them, and the overall size in bytes of the region is dwWriteDescriptorLength.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>MajorVersion, MinorVersion</source>
+          <target>MajorVersion, MinorVersion</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Major and minor versions of the store header.</source>
+          <target>Major and minor versions of the store header.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>FullFlashMajorVersion, FullFlashMinorVersion</source>
+          <target>FullFlashMajorVersion, FullFlashMinorVersion</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Major and minor versions of the full flash update file format.</source>
+          <target>Major and minor versions of the full flash update file format.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>The following table shows the version values for V1 and V2 ffu image formats.</source>
+          <target>The following table shows the version values for V1 and V2 ffu image formats.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>V1</source>
+          <target>V1</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>V2</source>
+          <target>V2</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>MajorVersion</source>
+          <target>MajorVersion</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>1</source>
+          <target>1</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>2</source>
+          <target>2</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>MinorVersion</source>
+          <target>MinorVersion</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>0</source>
+          <target>0</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>0</source>
+          <target>0</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>FullFlashMajorVersion</source>
+          <target>FullFlashMajorVersion</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>2</source>
+          <target>2</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>2</source>
+          <target>2</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>FullFlashMinorVersion</source>
+          <target>FullFlashMinorVersion</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>0</source>
+          <target>0</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>0</source>
+          <target>0</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>The OEM should not flash the image to the device unless the version of the image matches these values.</source>
+          <target>The OEM should not flash the image to the device unless the version of the image matches these values.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>NumOfStores (V2 only)</source>
+          <target>NumOfStores (V2 only)</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Number of stores and their payloads in this FFU.</source>
+          <target>Number of stores and their payloads in this FFU.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>StoreIndex (V2 only)</source>
+          <target>StoreIndex (V2 only)</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Current store index, starting from 1.</source>
+          <target>Current store index, starting from 1.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>StorePayloadSize (V2 only)</source>
+          <target>StorePayloadSize (V2 only)</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Size of the store payload in bytes, excluding padding.</source>
+          <target>Size of the store payload in bytes, excluding padding.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>DevicePathLength (V2 only)</source>
+          <target>DevicePathLength (V2 only)</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Size of the device path that follows, in characters, without including the terminating null character.</source>
+          <target>Size of the device path that follows, in characters, without including the terminating null character.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>DevicePath (V2 only)</source>
+          <target>DevicePath (V2 only)</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Actual device path that the store is targeted for.</source>
+          <target>Actual device path that the store is targeted for.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>This should be the same as device path retrieved from UEFI protocol: DEVICE<ph dataRef="id1" id="ph1" />PATH<ph dataRef="id2" id="ph2" />TO<ph dataRef="id3" id="ph3" />TEXT<ph dataRef="id4" id="ph4" />PROTOCOL.</source>
+          <target>This should be the same as device path retrieved from UEFI protocol: DEVICE<ph dataRef="id1" id="ph1" />PATH<ph dataRef="id2" id="ph2" />TO<ph dataRef="id3" id="ph3" />TEXT<ph dataRef="id4" id="ph4" />PROTOCOL.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>ConvertDevicePathToText()</source>
+          <target>ConvertDevicePathToText()</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Validation Entries</source>
+          <target>Validation Entries</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Validation entries</pc>, element count: dwValidateDescriptorCount, byte count: dwValidateDescriptorLength</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Validation entries</pc>, element count: dwValidateDescriptorCount, byte count: dwValidateDescriptorLength</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>The validation section is used only for partial updates.</source>
+          <target>The validation section is used only for partial updates.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>It contains a set of VALIDATION<ph dataRef="id1" id="ph1" />ENTRY structs.</source>
+          <target>It contains a set of VALIDATION<ph dataRef="id1" id="ph1" />ENTRY structs.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Each validation entry contains a byte array and a range on disk to compare.</source>
+          <target>Each validation entry contains a byte array and a range on disk to compare.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>If the data in the validation entry matches the data on disk, that validation entry is confirmed.</source>
+          <target>If the data in the validation entry matches the data on disk, that validation entry is confirmed.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>If and only if all validation entries are confirmed, the partial update is safe to apply to the device.</source>
+          <target>If and only if all validation entries are confirmed, the partial update is safe to apply to the device.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Validation entry</pc>, byte count: variable</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Validation entry</pc>, byte count: variable</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Each VALIDATION<ph dataRef="id1" id="ph1" />ENTRY struct describes a location on disk that whose data should match the byte array in that entry.</source>
+          <target>Each VALIDATION<ph dataRef="id1" id="ph1" />ENTRY struct describes a location on disk that whose data should match the byte array in that entry.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Block data entries</source>
+          <target>Block data entries</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Block data entries</pc>, element count: dwWriteDescriptorCount, byte count: dwWriteDescriptorLength</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Block data entries</pc>, element count: dwWriteDescriptorCount, byte count: dwWriteDescriptorLength</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>The block data entries describe how to write the data to disk.</source>
+          <target>The block data entries describe how to write the data to disk.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>It is possible to write a single area of the disk more than once or to write the same data to multiple places on the disk, allowing for a compressed payload.</source>
+          <target>It is possible to write a single area of the disk more than once or to write the same data to multiple places on the disk, allowing for a compressed payload.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The write descriptor region is composed of BLOCK<ph dataRef="id1" id="ph1" />DATA<ph dataRef="id2" id="ph2" />ENTRY structs.</source>
+          <target>The write descriptor region is composed of BLOCK<ph dataRef="id1" id="ph1" />DATA<ph dataRef="id2" id="ph2" />ENTRY structs.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Each entry has a size and a byte array, and an array of locations to write to disk.</source>
+          <target>Each entry has a size and a byte array, and an array of locations to write to disk.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The fields <pc dataRefEnd="id2" dataRefStart="id1" id="p1">dwFlashOnlyTableIndex</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">dwFlashOnlyTableCount</pc> are used to determine the last block entry that is necessary to lay out all of the partitions required to re-flash the device.</source>
+          <target>The fields <pc dataRefEnd="id2" dataRefStart="id1" id="p1">dwFlashOnlyTableIndex</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">dwFlashOnlyTableCount</pc> are used to determine the last block entry that is necessary to lay out all of the partitions required to re-flash the device.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>If all of the blocks up to and including this block are successfully flashed to the device, the device can be re-flashed without requiring any silicon vendor or OEM code.</source>
+          <target>If all of the blocks up to and including this block are successfully flashed to the device, the device can be re-flashed without requiring any silicon vendor or OEM code.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Block data entry</pc>, byte count: variable</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Block data entry</pc>, byte count: variable</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Each block data entry describes a block of data in the store data section.</source>
+          <target>Each block data entry describes a block of data in the store data section.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Each entry describes the number of data blocks and the locations to which they should be written on disk.</source>
+          <target>Each entry describes the number of data blocks and the locations to which they should be written on disk.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>The accessMethod is used like the accessMethod in SetFilePointer, meaning that it gives meaning to the blockIndex.</source>
+          <target>The accessMethod is used like the accessMethod in SetFilePointer, meaning that it gives meaning to the blockIndex.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Padding</source>
+          <target>Padding</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Padding</pc> – to allow the next section to start on a block boundary, byte count: variable</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Padding</pc> – to allow the next section to start on a block boundary, byte count: variable</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Image payload region</source>
+          <target>Image payload region</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>The payload of block data to be written to disk, byte count: variable.</source>
+          <target>The payload of block data to be written to disk, byte count: variable.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>This is an array of data blocks.</source>
+          <target>This is an array of data blocks.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Each data block consists of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BytesPerBlock</pc> bytes, where <pc dataRefEnd="id4" dataRefStart="id3" id="p2">BytesPerBlock</pc> is defined in the store header.</source>
+          <target>Each data block consists of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BytesPerBlock</pc> bytes, where <pc dataRefEnd="id4" dataRefStart="id3" id="p2">BytesPerBlock</pc> is defined in the store header.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>In V1 FFU format, you should see only one image payload region.</source>
+          <target>In V1 FFU format, you should see only one image payload region.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>in V2 FFU format, you should expect to see a number of image payload regions depending on the value defined by the NumOfStores struct.</source>
+          <target>in V2 FFU format, you should expect to see a number of image payload regions depending on the value defined by the NumOfStores struct.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Flashing tools</source>
+          <target>Flashing tools</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

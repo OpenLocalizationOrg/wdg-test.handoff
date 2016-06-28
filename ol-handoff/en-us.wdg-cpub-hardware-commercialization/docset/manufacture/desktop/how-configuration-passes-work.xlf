@@ -1,0 +1,1486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\how-configuration-passes-work.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">7604fa13920ab9407775bbb0b5234ec6065506eb</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>How Configuration Passes Work</source>
+          <target>How Configuration Passes Work</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>How Configuration Passes Work</source>
+          <target>How Configuration Passes Work</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>How Configuration Passes Work</source>
+          <target>How Configuration Passes Work</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Configuration passes are the phases of a Windows® installation during which you can customize an image.</source>
+          <target>Configuration passes are the phases of a Windows® installation during which you can customize an image.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows unattended installation settings can be applied in one or more configuration passes, depending on the setting you use.</source>
+          <target>Windows unattended installation settings can be applied in one or more configuration passes, depending on the setting you use.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Understanding how and when configuration passes run is very important in developing a Windows deployment strategy.</source>
+          <target>Understanding how and when configuration passes run is very important in developing a Windows deployment strategy.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>In this topic:</source>
+          <target>In this topic:</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Understanding Configuration Passes</source>
+          <target>Understanding Configuration Passes</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Configuring Device Drivers</source>
+          <target>Configuring Device Drivers</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Configuring International Settings</source>
+          <target>Configuring International Settings</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Examples</source>
+          <target>Examples</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Understanding Configuration Passes</source>
+          <target>Understanding Configuration Passes</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The following diagram shows the relationship between the configuration passes relative to the different deployment tools.</source>
+          <target>The following diagram shows the relationship between the configuration passes relative to the different deployment tools.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>configuration passes overview</source>
+          <target>configuration passes overview</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Not all configuration passes run in a particular installation of Windows.</source>
+          <target>Not all configuration passes run in a particular installation of Windows.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Some configuration passes, such as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">auditSystem</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">auditUser</pc>, run only if you boot the computer to audit mode.</source>
+          <target>Some configuration passes, such as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">auditSystem</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">auditUser</pc>, run only if you boot the computer to audit mode.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Most Windows Setup unattend settings can be added to either the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> or the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">oobeSystem</pc> configuration pass.</source>
+          <target>Most Windows Setup unattend settings can be added to either the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> or the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">oobeSystem</pc> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>The other configuration passes can also be useful in certain situations.</source>
+          <target>The other configuration passes can also be useful in certain situations.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>The following table describes each of the configuration passes.</source>
+          <target>The following table describes each of the configuration passes.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Configuration pass</source>
+          <target>Configuration pass</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Configuration pass runs when</source>
+          <target>Configuration pass runs when</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>windowsPE</source>
+          <target>windowsPE</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Many aspects of the installation process can be automated during the <ph dataRef="id1" id="ph1" />windowsPE<ph dataRef="id2" id="ph2" /> configuration pass.</source>
+          <target>Many aspects of the installation process can be automated during the <ph dataRef="id1" id="ph1" />windowsPE<ph dataRef="id2" id="ph2" /> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>In this pass you can configure:</source>
+          <target>In this pass you can configure:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Windows PE options</source>
+          <target>Windows PE options</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>These options can include specifying the location of the Windows PE log file, which enables networking or a Windows PE page file.</source>
+          <target>These options can include specifying the location of the Windows PE log file, which enables networking or a Windows PE page file.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Windows Setup options</source>
+          <target>Windows Setup options</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>These options can include specifying the Windows image to install and configuring a disk on the destination computer.</source>
+          <target>These options can include specifying the Windows image to install and configuring a disk on the destination computer.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>During this configuration pass, the Windows image is copied to the destination computer after the settings in the <ph dataRef="id1" id="ph1" />windowsPE<ph dataRef="id2" id="ph2" /> configuration pass are processed.</source>
+          <target>During this configuration pass, the Windows image is copied to the destination computer after the settings in the <ph dataRef="id1" id="ph1" />windowsPE<ph dataRef="id2" id="ph2" /> configuration pass are processed.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>If your installation of Windows PE requires boot-critical drivers to access the local hard disk drive or a network, use this configuration pass to add drivers to the Windows PE driver store and to reflect the required boot-critical drivers</source>
+          <target>If your installation of Windows PE requires boot-critical drivers to access the local hard disk drive or a network, use this configuration pass to add drivers to the Windows PE driver store and to reflect the required boot-critical drivers</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>One of the following occurs:</source>
+          <target>One of the following occurs:</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Booting the Windows Setup media</source>
+          <target>Booting the Windows Setup media</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Starting Windows Setup from a previous Windows installation</source>
+          <target>Starting Windows Setup from a previous Windows installation</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>The Windows PE options are applied only when you are running Windows Setup from a Windows PE environment.</source>
+          <target>The Windows PE options are applied only when you are running Windows Setup from a Windows PE environment.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>The Windows Setup options are applied when it runs from either Windows PE or a previous Windows installation.</source>
+          <target>The Windows Setup options are applied when it runs from either Windows PE or a previous Windows installation.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>offlineServicing</source>
+          <target>offlineServicing</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>This configuration pass is used to apply updates, drivers, or language packs to a Windows image.</source>
+          <target>This configuration pass is used to apply updates, drivers, or language packs to a Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>During Windows Setup, the Windows image is applied to a hard disk and any settings in the <ph dataRef="id1" id="ph1" />offlineServicing<ph dataRef="id2" id="ph2" /> section of an answer file are then applied to that image before the computer reboots.</source>
+          <target>During Windows Setup, the Windows image is applied to a hard disk and any settings in the <ph dataRef="id1" id="ph1" />offlineServicing<ph dataRef="id2" id="ph2" /> section of an answer file are then applied to that image before the computer reboots.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>During this configuration pass, you can add drivers to a Windows image before the image starts.</source>
+          <target>During this configuration pass, you can add drivers to a Windows image before the image starts.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>This enables you to install and process out-of-box device drivers during Windows Setup.</source>
+          <target>This enables you to install and process out-of-box device drivers during Windows Setup.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>This configuration pass is also used to apply updates to a Windows image during servicing scenarios.</source>
+          <target>This configuration pass is also used to apply updates to a Windows image during servicing scenarios.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Automatically after the <ph dataRef="id1" id="ph1" />windowsPE<ph dataRef="id2" id="ph2" /> configuration pass and before the computer reboots.</source>
+          <target>Automatically after the <ph dataRef="id1" id="ph1" />windowsPE<ph dataRef="id2" id="ph2" /> configuration pass and before the computer reboots.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>During servicing scenarios when you specify an answer file by using the Deployment Image Servicing and Management tool (Dism.exe).</source>
+          <target>During servicing scenarios when you specify an answer file by using the Deployment Image Servicing and Management tool (Dism.exe).</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>specialize</source>
+          <target>specialize</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>This configuration pass is used to create and configure information in the Windows image, and is specific to the hardware that the Windows image is installing to.</source>
+          <target>This configuration pass is used to create and configure information in the Windows image, and is specific to the hardware that the Windows image is installing to.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the Windows image boots for the first time, the <ph dataRef="id1" id="ph1" />specialize<ph dataRef="id2" id="ph2" /> configuration pass runs.</source>
+          <target>After the Windows image boots for the first time, the <ph dataRef="id1" id="ph1" />specialize<ph dataRef="id2" id="ph2" /> configuration pass runs.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>During this pass, unique security IDs (SIDs) are created.</source>
+          <target>During this pass, unique security IDs (SIDs) are created.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Additionally, you can configure many Windows features, including network settings, international settings, and domain information.</source>
+          <target>Additionally, you can configure many Windows features, including network settings, international settings, and domain information.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The answer file settings for the <ph dataRef="id1" id="ph1" />specialize<ph dataRef="id2" id="ph2" /> pass appear in audit mode.</source>
+          <target>The answer file settings for the <ph dataRef="id1" id="ph1" />specialize<ph dataRef="id2" id="ph2" /> pass appear in audit mode.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>When a computer boots to audit mode, the <ph dataRef="id1" id="ph1" />auditSystem<ph dataRef="id2" id="ph2" /> pass runs, and the computer processes the auditUser settings.</source>
+          <target>When a computer boots to audit mode, the <ph dataRef="id1" id="ph1" />auditSystem<ph dataRef="id2" id="ph2" /> pass runs, and the computer processes the auditUser settings.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Automatically when the Windows image boots for the first time.</source>
+          <target>Automatically when the Windows image boots for the first time.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the next boot after you run the <ph dataRef="id1" id="ph1" />sysprep<ph dataRef="id2" id="ph2" /> command with the <ph dataRef="id3" id="ph3" />/generalize<ph dataRef="id4" id="ph4" /> option.</source>
+          <target>On the next boot after you run the <ph dataRef="id1" id="ph1" />sysprep<ph dataRef="id2" id="ph2" /> command with the <ph dataRef="id3" id="ph3" />/generalize<ph dataRef="id4" id="ph4" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>generalize</source>
+          <target>generalize</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>During this configuration pass, computer-specific information is removed from the Windows installation enabling you to capture and reapply the Windows image to different computers.</source>
+          <target>During this configuration pass, computer-specific information is removed from the Windows installation enabling you to capture and reapply the Windows image to different computers.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>For example, during this pass, the unique security ID (SID), unique device drivers, and other hardware-specific settings are removed from the image.</source>
+          <target>For example, during this pass, the unique security ID (SID), unique device drivers, and other hardware-specific settings are removed from the image.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>This configuration pass enables you to minimally configure the <ph dataRef="id1" id="ph1" />sysprep /generalize<ph dataRef="id2" id="ph2" /> command, in addition to configuring other Windows settings that must persist on your master image.</source>
+          <target>This configuration pass enables you to minimally configure the <ph dataRef="id1" id="ph1" />sysprep /generalize<ph dataRef="id2" id="ph2" /> command, in addition to configuring other Windows settings that must persist on your master image.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the <ph dataRef="id1" id="ph1" />generalize<ph dataRef="id2" id="ph2" /> pass finishes, the next time that Windows image boots, the <ph dataRef="id3" id="ph3" />specialize<ph dataRef="id4" id="ph4" /> configuration pass runs.</source>
+          <target>After the <ph dataRef="id1" id="ph1" />generalize<ph dataRef="id2" id="ph2" /> pass finishes, the next time that Windows image boots, the <ph dataRef="id3" id="ph3" />specialize<ph dataRef="id4" id="ph4" /> configuration pass runs.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">&lt;code&gt;PersistAllDeviceInstalls&lt;/code&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you want to retain the unique device drivers that are installed to your Windows installation, you can use the Microsoft-Windows-PnpSysprep | <ph dataRef="id1" id="ph1" /> setting.</source>
+          <target>If you want to retain the unique device drivers that are installed to your Windows installation, you can use the Microsoft-Windows-PnpSysprep | <ph dataRef="id1" id="ph1" /> setting.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>If this setting is configured, unique device drivers are not removed from the installation.</source>
+          <target>If this setting is configured, unique device drivers are not removed from the installation.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">&lt;code&gt;Generalize&lt;/code&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following setting is configured: Microsoft-Windows-Deployment | <ph dataRef="id1" id="ph1" />.</source>
+          <target>The following setting is configured: Microsoft-Windows-Deployment | <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>or -</source>
+          <target>or -</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Run the <ph dataRef="id1" id="ph1" />sysprep /generalize<ph dataRef="id2" id="ph2" /> command.</source>
+          <target>Run the <ph dataRef="id1" id="ph1" />sysprep /generalize<ph dataRef="id2" id="ph2" /> command.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>auditSystem</source>
+          <target>auditSystem</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>During this configuration pass, settings are processed when Windows is running in system context, before a user logs onto the computer in Aaudit mode.</source>
+          <target>During this configuration pass, settings are processed when Windows is running in system context, before a user logs onto the computer in Aaudit mode.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>This pass is typically used to make additional configurations to an installation, such as installing out-of-box device drivers.</source>
+          <target>This pass is typically used to make additional configurations to an installation, such as installing out-of-box device drivers.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>This pass runs only when a computer is configured to boot to audit mode.</source>
+          <target>This pass runs only when a computer is configured to boot to audit mode.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">&lt;code&gt; Mode&lt;/code&gt;=&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following unattended Setup setting is configured: Microsoft-Windows-Deployment | Reseal | <ph dataRef="id1" id="ph1" />Audit<ph dataRef="id2" id="ph2" />.</source>
+          <target>The following unattended Setup setting is configured: Microsoft-Windows-Deployment | Reseal | <ph dataRef="id1" id="ph1" />Audit<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>or -</source>
+          <target>or -</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Run the <ph dataRef="id1" id="ph1" />sysprep<ph dataRef="id2" id="ph2" /> command with the <ph dataRef="id3" id="ph3" />/audit<ph dataRef="id4" id="ph4" /> option.</source>
+          <target>Run the <ph dataRef="id1" id="ph1" />sysprep<ph dataRef="id2" id="ph2" /> command with the <ph dataRef="id3" id="ph3" />/audit<ph dataRef="id4" id="ph4" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>auditUser</source>
+          <target>auditUser</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>This pass processes unattended Setup settings, after a user logs onto the computer in audit mode.</source>
+          <target>This pass processes unattended Setup settings, after a user logs onto the computer in audit mode.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>This pass is typically used to run custom commands or configure Windows Shell options.</source>
+          <target>This pass is typically used to run custom commands or configure Windows Shell options.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>This pass runs only when a computer is configured to boot to audit mode.</source>
+          <target>This pass runs only when a computer is configured to boot to audit mode.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">&lt;code&gt; Mode&lt;/code&gt;=&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following unattended Setup setting is configured: Microsoft-Windows-Deployment | Reseal | <ph dataRef="id1" id="ph1" />Audit<ph dataRef="id2" id="ph2" />.</source>
+          <target>The following unattended Setup setting is configured: Microsoft-Windows-Deployment | Reseal | <ph dataRef="id1" id="ph1" />Audit<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>or -</source>
+          <target>or -</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Run the <ph dataRef="id1" id="ph1" />sysprep<ph dataRef="id2" id="ph2" /> command with the <ph dataRef="id3" id="ph3" />/audit<ph dataRef="id4" id="ph4" /> option.</source>
+          <target>Run the <ph dataRef="id1" id="ph1" />sysprep<ph dataRef="id2" id="ph2" /> command with the <ph dataRef="id3" id="ph3" />/audit<ph dataRef="id4" id="ph4" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>oobeSystem</source>
+          <target>oobeSystem</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>During this configuration pass, settings are applied to Windows before Windows Welcome starts.</source>
+          <target>During this configuration pass, settings are applied to Windows before Windows Welcome starts.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>This pass is typically used to configure Windows Shell options, create user accounts, and specify language and locale settings.</source>
+          <target>This pass is typically used to configure Windows Shell options, create user accounts, and specify language and locale settings.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The answer file settings for the <ph dataRef="id1" id="ph1" />oobeSystem<ph dataRef="id2" id="ph2" /> pass appear in Windows Welcome, also known as OOBE.</source>
+          <target>The answer file settings for the <ph dataRef="id1" id="ph1" />oobeSystem<ph dataRef="id2" id="ph2" /> pass appear in Windows Welcome, also known as OOBE.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>These settings do not appear in audit mode.</source>
+          <target>These settings do not appear in audit mode.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">&lt;code&gt;Reseal&lt;/code&gt; | &lt;code&gt;Mode&lt;/code&gt;=&lt;strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following setting is configured: Microsoft-Windows-Deployment | <ph dataRef="id1" id="ph1" />OOBE</source>
+          <target>The following setting is configured: Microsoft-Windows-Deployment | <ph dataRef="id1" id="ph1" />OOBE</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>or -</source>
+          <target>or -</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+          <data id="id4">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Run the <ph dataRef="id1" id="ph1" />sysprep<ph dataRef="id2" id="ph2" /> command with the <ph dataRef="id3" id="ph3" />/OOBE<ph dataRef="id4" id="ph4" /> option.</source>
+          <target>Run the <ph dataRef="id1" id="ph1" />sysprep<ph dataRef="id2" id="ph2" /> command with the <ph dataRef="id3" id="ph3" />/OOBE<ph dataRef="id4" id="ph4" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>For more information about Windows components and settings that can be added to an answer file, see the Unattended Windows Setup Reference Guide.</source>
+          <target>For more information about Windows components and settings that can be added to an answer file, see the Unattended Windows Setup Reference Guide.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](deployment-troubleshooting-and-log-files.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](windows-setup-log-files-and-event-logs.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about logging, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Troubleshooting and Log Files</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows Setup Log Files and Event Logs</pc>.</source>
+          <target>For more information about logging, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Troubleshooting and Log Files</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows Setup Log Files and Event Logs</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Configuring Device Drivers</source>
+          <target>Configuring Device Drivers</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>To add out-of-box, boot-critical drivers during an unattended installation, you must make sure that the boot-critical driver is available on preinstallation media.</source>
+          <target>To add out-of-box, boot-critical drivers during an unattended installation, you must make sure that the boot-critical driver is available on preinstallation media.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Boot-critical drivers should be added during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass.</source>
+          <target>Boot-critical drivers should be added during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>All drivers are staged in the driver store, but only boot-critical drivers are reflected or installed in the offline Windows image in addition to the Windows PE image.</source>
+          <target>All drivers are staged in the driver store, but only boot-critical drivers are reflected or installed in the offline Windows image in addition to the Windows PE image.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Non-boot-critical drivers can be added to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">offlineServicing</pc> configuration pass.</source>
+          <target>Non-boot-critical drivers can be added to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">offlineServicing</pc> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>This makes sure that boot-critical drivers are available and when the computer boots, the driver will load.</source>
+          <target>This makes sure that boot-critical drivers are available and when the computer boots, the driver will load.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](device-drivers-and-deployment-overview.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device Drivers and Deployment Overview</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device Drivers and Deployment Overview</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Configuring International Settings</source>
+          <target>Configuring International Settings</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>International settings are available in multiple configuration passes, to enable you to customize the Windows image based on customer requirements and different deployment scenarios.</source>
+          <target>International settings are available in multiple configuration passes, to enable you to customize the Windows image based on customer requirements and different deployment scenarios.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>For example, if you build a computer in the United States (which would be an en-US international setting), you might perform all your tests in English.</source>
+          <target>For example, if you build a computer in the United States (which would be an en-US international setting), you might perform all your tests in English.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>However, if you intend to deliver the computer to France and need Windows to boot in French, you can add the fr-FR language pack, if the language pack is not already installed, and then configure the Microsoft-Windows-International-Core component to apply fr-FR settings during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> configuration pass.</source>
+          <target>However, if you intend to deliver the computer to France and need Windows to boot in French, you can add the fr-FR language pack, if the language pack is not already installed, and then configure the Microsoft-Windows-International-Core component to apply fr-FR settings during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>When the computer boots, the installation will display English text.</source>
+          <target>When the computer boots, the installation will display English text.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>However, after the specialize configuration pass finishes, French text will be displayed.</source>
+          <target>However, after the specialize configuration pass finishes, French text will be displayed.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>You can use DISM to configure the language settings of a Windows image (either online or offline).</source>
+          <target>You can use DISM to configure the language settings of a Windows image (either online or offline).</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](dism-languages-and-international-servicing-command-line-options.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Languages and International Servicing Command-Line Options</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Languages and International Servicing Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>By default, Windows Welcome displays a Regional Settings user interface (UI) page for the end user to select default language, locale, and input settings.</source>
+          <target>By default, Windows Welcome displays a Regional Settings user interface (UI) page for the end user to select default language, locale, and input settings.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can preconfigure the settings on this UI page by specifying language and locale settings in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> configuration pass in the Microsoft-Windows-International-Core component.</source>
+          <target>You can preconfigure the settings on this UI page by specifying language and locale settings in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> configuration pass in the Microsoft-Windows-International-Core component.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If settings are set in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> configuration pass, the Regional Settings page is skipped.</source>
+          <target>If settings are set in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> configuration pass, the Regional Settings page is skipped.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>If language settings are configured during specialize, the Regional Settings page will be displayed.</source>
+          <target>If language settings are configured during specialize, the Regional Settings page will be displayed.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](add-language-packs-to-windows.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Language Packs to Windows</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Language Packs to Windows</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Examples</source>
+          <target>Examples</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>The following sections describe sample deployment scenarios and describe when configuration passes run.</source>
+          <target>The following sections describe sample deployment scenarios and describe when configuration passes run.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>To run Windows Setup</source>
+          <target>To run Windows Setup</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>In this scenario, you install Windows to a new computer.</source>
+          <target>In this scenario, you install Windows to a new computer.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>You start with the Windows product media and an answer file.</source>
+          <target>You start with the Windows product media and an answer file.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Run Windows Setup and specify an answer file.</source>
+          <target>Run Windows Setup and specify an answer file.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Windows Setup starts.</source>
+          <target>Windows Setup starts.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass runs.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass runs.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <originalData>
+          <data id="id1">`&lt;settings pass="windowsPE"&gt;`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Settings in the <ph dataRef="id1" id="ph1" /> section of an answer file are processed.</source>
+          <target>Settings in the <ph dataRef="id1" id="ph1" /> section of an answer file are processed.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>There are two different types of settings that you can configure during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass: Settings that apply to the Windows PE environment, such as the display resolution and log file locations for Windows PE.</source>
+          <target>There are two different types of settings that you can configure during the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass: Settings that apply to the Windows PE environment, such as the display resolution and log file locations for Windows PE.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>You can also specify settings that apply to the Windows installation, such as configuring disk partitions or enabling dynamic updates.</source>
+          <target>You can also specify settings that apply to the Windows installation, such as configuring disk partitions or enabling dynamic updates.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>The Windows PE-specific settings in an answer file are applied only when you are running Windows Setup from a Windows PE environment.</source>
+          <target>The Windows PE-specific settings in an answer file are applied only when you are running Windows Setup from a Windows PE environment.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The Windows Setup options in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass are applied when it runs from either Windows PE or a previous Windows installation.</source>
+          <target>The Windows Setup options in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass are applied when it runs from either Windows PE or a previous Windows installation.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the Windows image is copied to the hard disk, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">offlineServicing</pc> configuration pass runs.</source>
+          <target>After the Windows image is copied to the hard disk, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">offlineServicing</pc> configuration pass runs.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <originalData>
+          <data id="id1">`&lt;servicing&gt;`</data>
+          <data id="id2">`&lt;settings pass="offlineServicing"&gt;`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Any settings in the <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /> section of an answer file are applied to the Windows image.</source>
+          <target>Any settings in the <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /> section of an answer file are applied to the Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Typically, the actions in this configuration pass install or remove packages, language packs, or device drivers.</source>
+          <target>Typically, the actions in this configuration pass install or remove packages, language packs, or device drivers.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The system restarts and Windows Setup runs the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> configuration pass.</source>
+          <target>The system restarts and Windows Setup runs the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <originalData>
+          <data id="id1">`&lt;settings pass="specialize"&gt;`</data>
+        </originalData>
+        <segment state="initial">
+          <source>At this point, settings in the <ph dataRef="id1" id="ph1" /> section of the answer file are processed.</source>
+          <target>At this point, settings in the <ph dataRef="id1" id="ph1" /> section of the answer file are processed.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>After Windows Setup completes, the computer restarts.</source>
+          <target>After Windows Setup completes, the computer restarts.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">`&lt;settings pass="oobeSystem&gt;`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Then, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> configuration pass runs and settings in the <ph dataRef="id3" id="ph1" /> section of an answer file are processed.</source>
+          <target>Then, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> configuration pass runs and settings in the <ph dataRef="id3" id="ph1" /> section of an answer file are processed.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>You can create a separate content file called Oobe.xml that you can use to customize Windows Welcome, Getting Started, and ISP sign up.</source>
+          <target>You can create a separate content file called Oobe.xml that you can use to customize Windows Welcome, Getting Started, and ISP sign up.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Using Oobe.xml is useful for organizing these customizations, because it enables you to maintain a single file that lists all of the branding, license terms, and signup opportunities for multiple countries, regions and/or languages.</source>
+          <target>Using Oobe.xml is useful for organizing these customizations, because it enables you to maintain a single file that lists all of the branding, license terms, and signup opportunities for multiple countries, regions and/or languages.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](configure-oobexml.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Oobe.xml</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Oobe.xml</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Generally, Oobe.xml is used by OEMs and System Builders.</source>
+          <target>Generally, Oobe.xml is used by OEMs and System Builders.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>However some aspects of Oobe.xml might also benefit corporate deployment scenarios.</source>
+          <target>However some aspects of Oobe.xml might also benefit corporate deployment scenarios.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Windows Welcome starts and you can begin using the computer.</source>
+          <target>Windows Welcome starts and you can begin using the computer.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>To run the Sysprep /generalize /shutdown command</source>
+          <target>To run the Sysprep /generalize /shutdown command</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>In this scenario, you will create a reference Windows image to use throughout your environment.</source>
+          <target>In this scenario, you will create a reference Windows image to use throughout your environment.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>You start with a customized Windows installation.</source>
+          <target>You start with a customized Windows installation.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Run the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sysprep</pc> command with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/generalize /shutdown /oobe</pc> options, to create a master image, configure the computer to boot to Windows Welcome, and then shut down the computer.</source>
+          <target>Run the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sysprep</pc> command with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/generalize /shutdown /oobe</pc> options, to create a master image, configure the computer to boot to Windows Welcome, and then shut down the computer.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <originalData>
+          <data id="id1">`&lt;settings pass="generalize"&gt;`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The settings in the <ph dataRef="id1" id="ph1" /> section of an answer file are applied.</source>
+          <target>The settings in the <ph dataRef="id1" id="ph1" /> section of an answer file are applied.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you did not specify an answer file with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sysprep</pc> command, the answer file cached to the computer will be used.</source>
+          <target>If you did not specify an answer file with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sysprep</pc> command, the answer file cached to the computer will be used.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](windows-setup-automation-overview.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to use answer files, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Setup Automation Overview</pc>.</source>
+          <target>For more information about how to use answer files, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Setup Automation Overview</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you specified an answer file with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sysprep</pc> command, that answer file is cached to the %WINDIR%<ph dataRef="id3" id="ph1" />Panther directory of the Windows installation and will be used on subsequent configuration passes.</source>
+          <target>If you specified an answer file with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sysprep</pc> command, that answer file is cached to the %WINDIR%<ph dataRef="id3" id="ph1" />Panther directory of the Windows installation and will be used on subsequent configuration passes.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>The computer shuts down, enabling you to boot to Windows PE or another operating system and capture the image.</source>
+          <target>The computer shuts down, enabling you to boot to Windows PE or another operating system and capture the image.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The next time the Windows image boots, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> configuration pass will run and Windows will boot the computer to Windows Welcome.</source>
+          <target>The next time the Windows image boots, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> configuration pass will run and Windows will boot the computer to Windows Welcome.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>Using a Script to Deploy a Windows Image</source>
+          <target>Using a Script to Deploy a Windows Image</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this scenario, you boot the computer with a master image on which the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sysprep /generalize /shutdown /oobe</pc> command was run and the image was captured.</source>
+          <target>In this scenario, you boot the computer with a master image on which the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sysprep /generalize /shutdown /oobe</pc> command was run and the image was captured.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>You start with a master image, Windows PE and the DISM tool.</source>
+          <target>You start with a master image, Windows PE and the DISM tool.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Apply the master image to a computer by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">dism</pc> command with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/apply-image</pc> option.</source>
+          <target>Apply the master image to a computer by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">dism</pc> command with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/apply-image</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Boot the computer with the master image.</source>
+          <target>Boot the computer with the master image.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Windows starts.</source>
+          <target>Windows starts.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> configuration pass runs.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> configuration pass runs.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <originalData>
+          <data id="id1">`&lt;settings pass="specialize"&gt;`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Settings in the <ph dataRef="id1" id="ph1" /> section of the answer file are processed.</source>
+          <target>Settings in the <ph dataRef="id1" id="ph1" /> section of the answer file are processed.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>The computer restarts.</source>
+          <target>The computer restarts.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> configuration pass runs.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">oobeSystem</pc> configuration pass runs.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <originalData>
+          <data id="id1">`&lt;settings pass="oobeSystem"&gt;`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Settings in the <ph dataRef="id1" id="ph1" /> section of the answer file are processed.</source>
+          <target>Settings in the <ph dataRef="id1" id="ph1" /> section of the answer file are processed.</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>Windows Welcome starts and you can begin using your computer.</source>
+          <target>Windows Welcome starts and you can begin using your computer.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>To boot Windows to audit mode</source>
+          <target>To boot Windows to audit mode</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>In this scenario, you boot a Windows image that is configured to start in audit mode.</source>
+          <target>In this scenario, you boot a Windows image that is configured to start in audit mode.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>Audit mode is useful for adding custom applications, drivers, and other updates to a master image.</source>
+          <target>Audit mode is useful for adding custom applications, drivers, and other updates to a master image.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <originalData>
+          <data id="id1">`Mode`=</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can configure a Windows image to boot the computer to audit mode by configuring the following setting in an answer file: Microsoft-Windows-Deployment | Reseal | <ph dataRef="id1" id="ph1" /><pc dataRefEnd="id3" dataRefStart="id2" id="p1">Audit</pc> or, run the <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Sysprep</pc> command with the <pc dataRefEnd="id7" dataRefStart="id6" id="p3">/audit</pc> option.</source>
+          <target>You can configure a Windows image to boot the computer to audit mode by configuring the following setting in an answer file: Microsoft-Windows-Deployment | Reseal | <ph dataRef="id1" id="ph1" /><pc dataRefEnd="id3" dataRefStart="id2" id="p1">Audit</pc> or, run the <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Sysprep</pc> command with the <pc dataRefEnd="id7" dataRefStart="id6" id="p3">/audit</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>Configure the Windows image to boot the computer to audit mode.</source>
+          <target>Configure the Windows image to boot the computer to audit mode.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this scenario, run the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sysprep</pc> command with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/audit /reboot</pc> options.</source>
+          <target>In this scenario, run the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sysprep</pc> command with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/audit /reboot</pc> options.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Windows reboots the computer.</source>
+          <target>Windows reboots the computer.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">auditSystem</pc> configuration pass runs.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">auditSystem</pc> configuration pass runs.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <originalData>
+          <data id="id1">`&lt;settings pass="auditSystem"&gt;`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Settings in the <ph dataRef="id1" id="ph1" /> section of the answer file are processed.</source>
+          <target>Settings in the <ph dataRef="id1" id="ph1" /> section of the answer file are processed.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>The Built-in administrator account is enabled.</source>
+          <target>The Built-in administrator account is enabled.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">auditUser</pc> configuration pass runs.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">auditUser</pc> configuration pass runs.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <originalData>
+          <data id="id1">`&lt;settings pass="auditUser"&gt;`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Settings in the <ph dataRef="id1" id="ph1" /> section of the answer file are processed.</source>
+          <target>Settings in the <ph dataRef="id1" id="ph1" /> section of the answer file are processed.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>The desktop appears.</source>
+          <target>The desktop appears.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>The next time that you reboot the computer, it will boot to audit mode again.</source>
+          <target>The next time that you reboot the computer, it will boot to audit mode again.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">`Mode`</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To configure the computer to boot to Windows Welcome, you must use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sysprep</pc> command with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/oobe</pc> option, or configure the Microsoft-Windows-Deployment | Reseal | <ph dataRef="id5" id="ph1" /> setting to <pc dataRefEnd="id7" dataRefStart="id6" id="p3">oobe</pc> in an answer file.</source>
+          <target>To configure the computer to boot to Windows Welcome, you must use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sysprep</pc> command with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/oobe</pc> option, or configure the Microsoft-Windows-Deployment | Reseal | <ph dataRef="id5" id="ph1" /> setting to <pc dataRefEnd="id7" dataRefStart="id6" id="p3">oobe</pc> in an answer file.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>To run DISM against an offline Windows image</source>
+          <target>To run DISM against an offline Windows image</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>In this scenario, you run DISM against an offline Windows image.</source>
+          <target>In this scenario, you run DISM against an offline Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>Run DISM tool against an offline Windows image and specify an answer file.</source>
+          <target>Run DISM tool against an offline Windows image and specify an answer file.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>For example, to list the package in an offline Windows image, use the following command:</source>
+          <target>For example, to list the package in an offline Windows image, use the following command:</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <originalData>
+          <data id="id1">`&lt;servicing&gt;`</data>
+          <data id="id2">`&lt;settings pass="offlineServicing"&gt;`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Settings in the <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /> sections of an answer file are applied to the Windows image.</source>
+          <target>Settings in the <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /> sections of an answer file are applied to the Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>The next time that you boot your computer, the packages and settings are processed.</source>
+          <target>The next time that you boot your computer, the packages and settings are processed.</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](dism-image-management-command-line-options-s14.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Image Management Command-Line Options</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Image Management Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>To use DISM on a running Windows image</source>
+          <target>To use DISM on a running Windows image</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>In this scenario, you run the DISM tool against a running Windows installation.</source>
+          <target>In this scenario, you run the DISM tool against a running Windows installation.</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>Run DISM against an online Windows image and specify an answer file.</source>
+          <target>Run DISM against an online Windows image and specify an answer file.</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>For example, to list driver information in a Windows image, use the following command:</source>
+          <target>For example, to list driver information in a Windows image, use the following command:</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you use DISM with an answer file against an online Windows installation, the answer file should contain only the elements in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">offlineServicing</pc> configuration pass.</source>
+          <target>When you use DISM with an answer file against an online Windows installation, the answer file should contain only the elements in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">offlineServicing</pc> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This is because some settings in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> configuration pass might be applied to the online Windows installation.</source>
+          <target>This is because some settings in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">specialize</pc> configuration pass might be applied to the online Windows installation.</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>In some instances, you might be required to restart your computer.</source>
+          <target>In some instances, you might be required to restart your computer.</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <segment state="initial">
+          <source>For example, if you add a language pack to your Windows installation, you must reboot the computer.</source>
+          <target>For example, if you add a language pack to your Windows installation, you must reboot the computer.</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>auditSystem</source>
+          <target>auditSystem</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>auditUser</source>
+          <target>auditUser</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>generalize</source>
+          <target>generalize</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>offlineServicing</source>
+          <target>offlineServicing</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>oobeSystem</source>
+          <target>oobeSystem</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>specialize</source>
+          <target>specialize</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>windowsPE</source>
+          <target>windowsPE</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

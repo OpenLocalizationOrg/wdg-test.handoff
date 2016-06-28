@@ -1,0 +1,909 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\mobile\use-the-windows-icd-cli-to-customize-and-build-a-mobile-image.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">fe50986b73b142fdfae02e53db8dc73e9f3551f5</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>You can use the Windows Imaging and Configuration Designer (ICD) command-line interface (CLI) to generate a new Windows 10 Mobile image.</source>
+          <target>You can use the Windows Imaging and Configuration Designer (ICD) command-line interface (CLI) to generate a new Windows 10 Mobile image.</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Use the Windows ICD CLI to customize and build a mobile image</source>
+          <target>Use the Windows ICD CLI to customize and build a mobile image</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Use the Windows ICD CLI to customize and build a mobile image</source>
+          <target>Use the Windows ICD CLI to customize and build a mobile image</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>You can use the Windows Imaging and Configuration Designer (ICD) command-line interface (CLI) to generate a new Windows 10 Mobile image.</source>
+          <target>You can use the Windows Imaging and Configuration Designer (ICD) command-line interface (CLI) to generate a new Windows 10 Mobile image.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>This imaging method requires a pre-installed OS kit so you must have all the necessary Microsoft OS packages and feature manifest files in your default install path.</source>
+          <target>This imaging method requires a pre-installed OS kit so you must have all the necessary Microsoft OS packages and feature manifest files in your default install path.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>You also need either a BSP.config.xml file, which contains information about the hardware component packages for your board support package (BSP) or you can use an OEMInput.xml file.</source>
+          <target>You also need either a BSP.config.xml file, which contains information about the hardware component packages for your board support package (BSP) or you can use an OEMInput.xml file.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>If you're using a BSP.config.xml file, you can:</source>
+          <target>If you're using a BSP.config.xml file, you can:</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Use the BSP.config.xml file you downloaded as part of the BSP kit, or,</source>
+          <target>Use the BSP.config.xml file you downloaded as part of the BSP kit, or,</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Generate your own BSP.config.xml by running the BSP kit configuration tools from the SoC vendor and selecting your component drivers.</source>
+          <target>Generate your own BSP.config.xml by running the BSP kit configuration tools from the SoC vendor and selecting your component drivers.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Create a WPAF with multivariant support</source>
+          <target>Create a WPAF with multivariant support</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Multivariant provides a generic mechanism for creating a single image that can work for multiple markets.</source>
+          <target>Multivariant provides a generic mechanism for creating a single image that can work for multiple markets.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>You can use it to dynamically configure language, branding, and network settings during runtime based on the mobile operator and locale/country.</source>
+          <target>You can use it to dynamically configure language, branding, and network settings during runtime based on the mobile operator and locale/country.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Unlike the Windows ICD UI, you can use the Windows ICD CLI to to create an image that has multivariant support.</source>
+          <target>Unlike the Windows ICD UI, you can use the Windows ICD CLI to to create an image that has multivariant support.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In order to do this, you must first edit a Windows Provisioning answer file (WPAF), customizations.xml, and add the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Targets</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Variant</pc> sections to the file.</source>
+          <target>In order to do this, you must first edit a Windows Provisioning answer file (WPAF), customizations.xml, and add the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Targets</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Variant</pc> sections to the file.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn916108)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create a provisioning package with multivariant settings</pc> provides a more information about multivariant support in Windows 10 and a list of the conditions that Windows supports along with their priorities.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create a provisioning package with multivariant settings</pc> provides a more information about multivariant support in Windows 10 and a list of the conditions that Windows supports along with their priorities.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>It also provides a step-by-step example on what you need to do.</source>
+          <target>It also provides a step-by-step example on what you need to do.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](use-the-windows-icd-ui-to-customize-and-build-a-mobile-image.md)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this section, we'll modify the customizations.xml file that was created from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the Windows ICD UI to customize and build a mobile image</pc> and include <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Targets</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Variant</pc> sections to support multivariant.</source>
+          <target>In this section, we'll modify the customizations.xml file that was created from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the Windows ICD UI to customize and build a mobile image</pc> and include <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Targets</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Variant</pc> sections to support multivariant.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>If you are building a single variant image, you may skip this section.</source>
+          <target>If you are building a single variant image, you may skip this section.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Locate the provisioning package file, customizations.xml.</source>
+          <target>Locate the provisioning package file, customizations.xml.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">*</data>
+          <data id="id8">*</data>
+          <data id="id9">&amp;lt;</data>
+          <data id="id10">\_</data>
+          <data id="id11">&amp;gt;</data>
+          <data id="id12">\\</data>
+          <data id="id13">\\</data>
+          <data id="id14">\\</data>
+          <data id="id15">*</data>
+          <data id="id16">*</data>
+          <data id="id17">&amp;lt;</data>
+          <data id="id18">\_</data>
+          <data id="id19">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you didn't change the default project location, you can find the package in <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />drive:<ph dataRef="id4" id="ph2" /></pc><ph dataRef="id5" id="ph3" />Users<ph dataRef="id6" id="ph4" /><pc dataRefEnd="id8" dataRefStart="id7" id="p2"><ph dataRef="id9" id="ph5" />user<ph dataRef="id10" id="ph6" />name<ph dataRef="id11" id="ph7" /></pc><ph dataRef="id12" id="ph8" />Documents<ph dataRef="id13" id="ph9" />Windows Imaging and Configuration Designer (WICD)<ph dataRef="id14" id="ph10" /><pc dataRefEnd="id16" dataRefStart="id15" id="p3"><ph dataRef="id17" id="ph11" />project<ph dataRef="id18" id="ph12" />name<ph dataRef="id19" id="ph13" /></pc>.</source>
+          <target>If you didn't change the default project location, you can find the package in <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />drive:<ph dataRef="id4" id="ph2" /></pc><ph dataRef="id5" id="ph3" />Users<ph dataRef="id6" id="ph4" /><pc dataRefEnd="id8" dataRefStart="id7" id="p2"><ph dataRef="id9" id="ph5" />user<ph dataRef="id10" id="ph6" />name<ph dataRef="id11" id="ph7" /></pc><ph dataRef="id12" id="ph8" />Documents<ph dataRef="id13" id="ph9" />Windows Imaging and Configuration Designer (WICD)<ph dataRef="id14" id="ph10" /><pc dataRefEnd="id16" dataRefStart="id15" id="p3"><ph dataRef="id17" id="ph11" />project<ph dataRef="id18" id="ph12" />name<ph dataRef="id19" id="ph13" /></pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Use an XML or text editor to open the customizations.xml file.</source>
+          <target>Use an XML or text editor to open the customizations.xml file.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](use-the-windows-icd-ui-to-customize-and-build-a-mobile-image.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following example shows the contents of the customizations.xml file created in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the Windows ICD UI to customize and build a mobile image</pc>.</source>
+          <target>The following example shows the contents of the customizations.xml file created in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the Windows ICD UI to customize and build a mobile image</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Edit the customizations.xml file and create a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Targets</pc> section to describe the conditions that will handle your multivariant settings.</source>
+          <target>Edit the customizations.xml file and create a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Targets</pc> section to describe the conditions that will handle your multivariant settings.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following example shows the customizations.xml, which has been modified to include the conditions <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MCC</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MNC</pc>.</source>
+          <target>The following example shows the customizations.xml, which has been modified to include the conditions <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MCC</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MNC</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">[</data>
+          <data id="id4">](configure-customization-settings.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For parity, the example uses the same fictitious IDs and conditions that were used in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create an MCSF customization answer file</pc> section in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configure customization settings</pc>.</source>
+          <target>For parity, the example uses the same fictitious IDs and conditions that were used in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create an MCSF customization answer file</pc> section in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configure customization settings</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the customizations.xml file, create two <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Variant</pc> sections:</source>
+          <target>In the customizations.xml file, create two <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Variant</pc> sections:</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> for each variant.</source>
+          <target>Specify a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Name</pc> for each variant.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add a child <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TargetRefs</pc> element.</source>
+          <target>Add a child <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TargetRefs</pc> element.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Within the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TargetRefs</pc> element, add a <pc dataRefEnd="id4" dataRefStart="id3" id="p2">TargetRef</pc> element.</source>
+          <target>Within the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TargetRefs</pc> element, add a <pc dataRefEnd="id4" dataRefStart="id3" id="p2">TargetRef</pc> element.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following example shows what the customizations.xml looks like after adding two variants, ThePhoneCompany and Fabrikam, and then using the two <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Target Id</pc>s we defined in the previous step to use as the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">TargetRef Id</pc> for each variant.</source>
+          <target>The following example shows what the customizations.xml looks like after adding two variants, ThePhoneCompany and Fabrikam, and then using the two <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Target Id</pc>s we defined in the previous step to use as the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">TargetRef Id</pc> for each variant.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Move compliant settings from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Common</pc> section to the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Variant</pc> section.</source>
+          <target>Move compliant settings from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Common</pc> section to the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Variant</pc> section.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  Settings that reside in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Common</pc> section are applied unconditionally on every triggering event.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  Settings that reside in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Common</pc> section are applied unconditionally on every triggering event.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">`DeviceLock/MaxInactivity`</data>
+          <data id="id2">`DeviceLock/ScreenTimeoutWhileLocked`</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the following example, we used the <ph dataRef="id1" id="ph1" /> policy under ThePhoneCompany variant while the <ph dataRef="id2" id="ph2" /> policy was moved under the Fabrikam variant.</source>
+          <target>In the following example, we used the <ph dataRef="id1" id="ph1" /> policy under ThePhoneCompany variant while the <ph dataRef="id2" id="ph2" /> policy was moved under the Fabrikam variant.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Save the updated customizations.xml file and note the path to this updated file.</source>
+          <target>Save the updated customizations.xml file and note the path to this updated file.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>You will need the path as one of the values when you get ready to build the image.</source>
+          <target>You will need the path as one of the values when you get ready to build the image.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Use the Windows ICD command-line interface (CLI) to create a provisioning package using the updated customizations.xml.</source>
+          <target>Use the Windows ICD command-line interface (CLI) to create a provisioning package using the updated customizations.xml.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](https://msdn.microsoft.com/library/windows/hardware/dn916115)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to build a provisioning package and a description of the command switches and parameters, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">To build a provisioning package</pc> in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Use the Windows ICD command-line interface</pc>.</source>
+          <target>For more information about how to build a provisioning package and a description of the command switches and parameters, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">To build a provisioning package</pc> in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Use the Windows ICD command-line interface</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this example, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">StoreFile</pc> corresponds to the location of the settings store that will be used to create the package for the required Windows edition.</source>
+          <target>In this example, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">StoreFile</pc> corresponds to the location of the settings store that will be used to create the package for the required Windows edition.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  The provisioning package created during this step will contain the multivariant settings.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  The provisioning package created during this step will contain the multivariant settings.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use this package either as a standalone package that you can apply to a Windows device, use it as the base when starting another project, or use it as one of one of the inputs (<pc dataRefEnd="id2" dataRefStart="id1" id="p1">/ProvisioningPackage</pc>) when building either a Windows 10 for desktop editions (Home, Pro, Enterprise, and Education) image or Windows 10 Mobile image.</source>
+          <target>You can use this package either as a standalone package that you can apply to a Windows device, use it as the base when starting another project, or use it as one of one of the inputs (<pc dataRefEnd="id2" dataRefStart="id1" id="p1">/ProvisioningPackage</pc>) when building either a Windows 10 for desktop editions (Home, Pro, Enterprise, and Education) image or Windows 10 Mobile image.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Build a mobile image using the Windows ICD CLI</source>
+          <target>Build a mobile image using the Windows ICD CLI</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>This walkthrough shows how to use the Windows ICD CLI to build a mobile image.</source>
+          <target>This walkthrough shows how to use the Windows ICD CLI to build a mobile image.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn916115)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about the Windows ICD CLI, including usage examples and parameter descriptions, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the Windows ICD command-line interface</pc>.</source>
+          <target>For more information about the Windows ICD CLI, including usage examples and parameter descriptions, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the Windows ICD command-line interface</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Open a command-line window with administrator rights.</source>
+          <target>Open a command-line window with administrator rights.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>From the command-line, navigate to the Windows ICD install directory:</source>
+          <target>From the command-line, navigate to the Windows ICD install directory:</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On an x64 computer, go to: C:<ph dataRef="id1" id="ph1" />Program Files (x86)<ph dataRef="id2" id="ph2" />Windows Kits<ph dataRef="id3" id="ph3" />10<ph dataRef="id4" id="ph4" />Assessment and Deployment Kit<ph dataRef="id5" id="ph5" />Imaging and Configuration Designer<ph dataRef="id6" id="ph6" />x86</source>
+          <target>On an x64 computer, go to: C:<ph dataRef="id1" id="ph1" />Program Files (x86)<ph dataRef="id2" id="ph2" />Windows Kits<ph dataRef="id3" id="ph3" />10<ph dataRef="id4" id="ph4" />Assessment and Deployment Kit<ph dataRef="id5" id="ph5" />Imaging and Configuration Designer<ph dataRef="id6" id="ph6" />x86</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On an x86 computer, go to: C:<ph dataRef="id1" id="ph1" />Program Files<ph dataRef="id2" id="ph2" />Windows Kits<ph dataRef="id3" id="ph3" />10<ph dataRef="id4" id="ph4" />Assessment and Deployment Kit<ph dataRef="id5" id="ph5" />Imaging and Configuration Designer<ph dataRef="id6" id="ph6" />x86</source>
+          <target>On an x86 computer, go to: C:<ph dataRef="id1" id="ph1" />Program Files<ph dataRef="id2" id="ph2" />Windows Kits<ph dataRef="id3" id="ph3" />10<ph dataRef="id4" id="ph4" />Assessment and Deployment Kit<ph dataRef="id5" id="ph5" />Imaging and Configuration Designer<ph dataRef="id6" id="ph6" />x86</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](configure-customization-settings.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the updated customizations.xml (with multivariant settings) and the MCSF CAF created in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure customization settings</pc>, use the Windows ICD CLI to build a mobile image.</source>
+          <target>Using the updated customizations.xml (with multivariant settings) and the MCSF CAF created in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure customization settings</pc>, use the Windows ICD CLI to build a mobile image.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>To do this with the example files and using a bsp.config.xml, see the following command:</source>
+          <target>To do this with the example files and using a bsp.config.xml, see the following command:</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">*</data>
+          <data id="id4">*</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">*</data>
+          <data id="id11">*</data>
+          <data id="id12">\\</data>
+          <data id="id13">**</data>
+          <data id="id14">**</data>
+          <data id="id15">*</data>
+          <data id="id16">*</data>
+          <data id="id17">**</data>
+          <data id="id18">**</data>
+          <data id="id19">*</data>
+          <data id="id20">*</data>
+          <data id="id21">\\</data>
+          <data id="id22">\\</data>
+          <data id="id23">\\</data>
+          <data id="id24">**</data>
+          <data id="id25">**</data>
+          <data id="id26">*</data>
+          <data id="id27">*</data>
+          <data id="id28">**</data>
+          <data id="id29">**</data>
+          <data id="id30">*</data>
+          <data id="id31">*</data>
+          <data id="id32">\\</data>
+          <data id="id33">\\</data>
+          <data id="id34">\\</data>
+          <data id="id35">**</data>
+          <data id="id36">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">icd.exe /Build-ImageFromPackages /ImagePath:"</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">C:<ph dataRef="id5" id="ph1" />Contoso<ph dataRef="id6" id="ph2" />Customizations<ph dataRef="id7" id="ph3" />TestFlash2.ffu</pc>
+            <pc dataRefEnd="id9" dataRefStart="id8" id="p3">" /BSPConfigFile:"</pc>
+            <pc dataRefEnd="id11" dataRefStart="id10" id="p4">C:<ph dataRef="id12" id="ph4" />ContosoXDevice.bsp.config.xml</pc>
+            <pc dataRefEnd="id14" dataRefStart="id13" id="p5">" /ImageType:</pc>
+            <pc dataRefEnd="id16" dataRefStart="id15" id="p6">Test</pc>
+            <pc dataRefEnd="id18" dataRefStart="id17" id="p7">/CustomizationXML:"</pc>
+            <pc dataRefEnd="id20" dataRefStart="id19" id="p8">C:<ph dataRef="id21" id="ph5" />Contoso<ph dataRef="id22" id="ph6" />Customizations<ph dataRef="id23" id="ph7" />customizations.xml</pc>
+            <pc dataRefEnd="id25" dataRefStart="id24" id="p9">" /OEMCustomizationVer:</pc>
+            <pc dataRefEnd="id27" dataRefStart="id26" id="p10">1.0.0.0</pc>
+            <pc dataRefEnd="id29" dataRefStart="id28" id="p11">/MCSFCustomizationXML:"</pc>
+            <pc dataRefEnd="id31" dataRefStart="id30" id="p12">C:<ph dataRef="id32" id="ph8" />Contoso<ph dataRef="id33" id="ph9" />Customizations<ph dataRef="id34" id="ph10" />MobileCustomizations.xml</pc>
+            <pc dataRefEnd="id36" dataRefStart="id35" id="p13">"</pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">icd.exe /Build-ImageFromPackages /ImagePath:"</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">C:<ph dataRef="id5" id="ph1" />Contoso<ph dataRef="id6" id="ph2" />Customizations<ph dataRef="id7" id="ph3" />TestFlash2.ffu</pc>
+            <pc dataRefEnd="id9" dataRefStart="id8" id="p3">" /BSPConfigFile:"</pc>
+            <pc dataRefEnd="id11" dataRefStart="id10" id="p4">C:<ph dataRef="id12" id="ph4" />ContosoXDevice.bsp.config.xml</pc>
+            <pc dataRefEnd="id14" dataRefStart="id13" id="p5">" /ImageType:</pc>
+            <pc dataRefEnd="id16" dataRefStart="id15" id="p6">Test</pc>
+            <pc dataRefEnd="id18" dataRefStart="id17" id="p7">/CustomizationXML:"</pc>
+            <pc dataRefEnd="id20" dataRefStart="id19" id="p8">C:<ph dataRef="id21" id="ph5" />Contoso<ph dataRef="id22" id="ph6" />Customizations<ph dataRef="id23" id="ph7" />customizations.xml</pc>
+            <pc dataRefEnd="id25" dataRefStart="id24" id="p9">" /OEMCustomizationVer:</pc>
+            <pc dataRefEnd="id27" dataRefStart="id26" id="p10">1.0.0.0</pc>
+            <pc dataRefEnd="id29" dataRefStart="id28" id="p11">/MCSFCustomizationXML:"</pc>
+            <pc dataRefEnd="id31" dataRefStart="id30" id="p12">C:<ph dataRef="id32" id="ph8" />Contoso<ph dataRef="id33" id="ph9" />Customizations<ph dataRef="id34" id="ph10" />MobileCustomizations.xml</pc>
+            <pc dataRefEnd="id36" dataRefStart="id35" id="p13">"</pc>
+          </target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Here are a few things to keep in mind:</source>
+          <target>Here are a few things to keep in mind:</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Replace all the placeholder values for each parameter with the values that match your assets and directory locations</source>
+          <target>Replace all the placeholder values for each parameter with the values that match your assets and directory locations</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Specify /ImageType because we are using /BSPConfigFile</source>
+          <target>Specify /ImageType because we are using /BSPConfigFile</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Use /CustomizationXML to point to the customizations.xml</source>
+          <target>Use /CustomizationXML to point to the customizations.xml</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Windows ICD requires /OEMCustomizationVer if ProvisioningPackage is defined</source>
+          <target>Windows ICD requires /OEMCustomizationVer if ProvisioningPackage is defined</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+          <data id="id5">&amp;lt;</data>
+          <data id="id6">&amp;gt;</data>
+          <data id="id7">&amp;lt;</data>
+          <data id="id8">&amp;gt;</data>
+          <data id="id9">&amp;lt;</data>
+          <data id="id10">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Make sure the format for the /OEMCustomizationVer version number is in <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />Major<ph dataRef="id4" id="ph2" />.<ph dataRef="id5" id="ph3" />Minor<ph dataRef="id6" id="ph4" />.<ph dataRef="id7" id="ph5" />SubVersion<ph dataRef="id8" id="ph6" />.<ph dataRef="id9" id="ph7" />SubMinorVersion<ph dataRef="id10" id="ph8" /></pc>, such as 1.0.0.0</source>
+          <target>Make sure the format for the /OEMCustomizationVer version number is in <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />Major<ph dataRef="id4" id="ph2" />.<ph dataRef="id5" id="ph3" />Minor<ph dataRef="id6" id="ph4" />.<ph dataRef="id7" id="ph5" />SubVersion<ph dataRef="id8" id="ph6" />.<ph dataRef="id9" id="ph7" />SubMinorVersion<ph dataRef="id10" id="ph8" /></pc>, such as 1.0.0.0</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>To do this with the example files and using an OEMInput.xml file, see the following command:</source>
+          <target>To do this with the example files and using an OEMInput.xml file, see the following command:</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">*</data>
+          <data id="id4">*</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">*</data>
+          <data id="id11">*</data>
+          <data id="id12">\\</data>
+          <data id="id13">**</data>
+          <data id="id14">**</data>
+          <data id="id15">*</data>
+          <data id="id16">*</data>
+          <data id="id17">\\</data>
+          <data id="id18">\\</data>
+          <data id="id19">\\</data>
+          <data id="id20">**</data>
+          <data id="id21">**</data>
+          <data id="id22">*</data>
+          <data id="id23">*</data>
+          <data id="id24">**</data>
+          <data id="id25">**</data>
+          <data id="id26">*</data>
+          <data id="id27">*</data>
+          <data id="id28">\\</data>
+          <data id="id29">\\</data>
+          <data id="id30">\\</data>
+          <data id="id31">**</data>
+          <data id="id32">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">icd.exe /Build-ImageFromPackages /ImagePath:"</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">C:<ph dataRef="id5" id="ph1" />Contoso<ph dataRef="id6" id="ph2" />Customizations<ph dataRef="id7" id="ph3" />TestFlash2.ffu</pc>
+            <pc dataRefEnd="id9" dataRefStart="id8" id="p3">" /OEMInputXML:"</pc>
+            <pc dataRefEnd="id11" dataRefStart="id10" id="p4">C:<ph dataRef="id12" id="ph4" />ContosoTestOEMInput.xml</pc>
+            <pc dataRefEnd="id14" dataRefStart="id13" id="p5">" /CustomizationXML:"</pc>
+            <pc dataRefEnd="id16" dataRefStart="id15" id="p6">C:<ph dataRef="id17" id="ph5" />Contoso<ph dataRef="id18" id="ph6" />Customizations<ph dataRef="id19" id="ph7" />customizations.xml</pc>
+            <pc dataRefEnd="id21" dataRefStart="id20" id="p7">" /OEMCustomizationVer:</pc>
+            <pc dataRefEnd="id23" dataRefStart="id22" id="p8">1.0.0.0</pc>
+            <pc dataRefEnd="id25" dataRefStart="id24" id="p9">/MCSFCustomizationXML:"</pc>
+            <pc dataRefEnd="id27" dataRefStart="id26" id="p10">C:<ph dataRef="id28" id="ph8" />Contoso<ph dataRef="id29" id="ph9" />Customizations<ph dataRef="id30" id="ph10" />MobileCustomizations.xml</pc>
+            <pc dataRefEnd="id32" dataRefStart="id31" id="p11">"</pc>
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">icd.exe /Build-ImageFromPackages /ImagePath:"</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">C:<ph dataRef="id5" id="ph1" />Contoso<ph dataRef="id6" id="ph2" />Customizations<ph dataRef="id7" id="ph3" />TestFlash2.ffu</pc>
+            <pc dataRefEnd="id9" dataRefStart="id8" id="p3">" /OEMInputXML:"</pc>
+            <pc dataRefEnd="id11" dataRefStart="id10" id="p4">C:<ph dataRef="id12" id="ph4" />ContosoTestOEMInput.xml</pc>
+            <pc dataRefEnd="id14" dataRefStart="id13" id="p5">" /CustomizationXML:"</pc>
+            <pc dataRefEnd="id16" dataRefStart="id15" id="p6">C:<ph dataRef="id17" id="ph5" />Contoso<ph dataRef="id18" id="ph6" />Customizations<ph dataRef="id19" id="ph7" />customizations.xml</pc>
+            <pc dataRefEnd="id21" dataRefStart="id20" id="p7">" /OEMCustomizationVer:</pc>
+            <pc dataRefEnd="id23" dataRefStart="id22" id="p8">1.0.0.0</pc>
+            <pc dataRefEnd="id25" dataRefStart="id24" id="p9">/MCSFCustomizationXML:"</pc>
+            <pc dataRefEnd="id27" dataRefStart="id26" id="p10">C:<ph dataRef="id28" id="ph8" />Contoso<ph dataRef="id29" id="ph9" />Customizations<ph dataRef="id30" id="ph10" />MobileCustomizations.xml</pc>
+            <pc dataRefEnd="id32" dataRefStart="id31" id="p11">"</pc>
+          </target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Once the image (FFU) is built, you can flash it to your mobile device by using ffutool.exe or the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy</pc> option in the Windows ICD UI.</source>
+          <target>Once the image (FFU) is built, you can flash it to your mobile device by using ffutool.exe or the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy</pc> option in the Windows ICD UI.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>See the following section for more information.</source>
+          <target>See the following section for more information.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Flash an image to a mobile device</source>
+          <target>Flash an image to a mobile device</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>There are two ways that you can use to flash an image to a mobile device:</source>
+          <target>There are two ways that you can use to flash an image to a mobile device:</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Using ffutool.exe, or,</source>
+          <target>Using ffutool.exe, or,</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Using the built-in flashing functionality in Windows ICD</source>
+          <target>Using the built-in flashing functionality in Windows ICD</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>This section shows how to do both.</source>
+          <target>This section shows how to do both.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Choose one of these methods to flash your image to your mobile device.</source>
+          <target>Choose one of these methods to flash your image to your mobile device.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Follow these steps if you are flashing the image to the device using Windows ICD.</source>
+          <target>Follow these steps if you are flashing the image to the device using Windows ICD.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>To flash an image using Windows ICD</source>
+          <target>To flash an image using Windows ICD</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Boot the device into image or FFU download mode.</source>
+          <target>Boot the device into image or FFU download mode.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>To force your phone into image or FFU download mode manually, press and release the power button to reboot the phone and then immediately press and hold the volume up button.</source>
+          <target>To force your phone into image or FFU download mode manually, press and release the power button to reboot the phone and then immediately press and hold the volume up button.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Note that this option is available only after an initial FFU has been flashed to the phone.</source>
+          <target>Note that this option is available only after an initial FFU has been flashed to the phone.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>If this doesn't work, check and follow the device flashing instructions provided by the SoC vendor.</source>
+          <target>If this doesn't work, check and follow the device flashing instructions provided by the SoC vendor.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Using a USB cable, connect your phone to the host computer.</source>
+          <target>Using a USB cable, connect your phone to the host computer.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Launch Windows ICD.</source>
+          <target>Launch Windows ICD.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy</pc> from the main menu and choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">To USB connected device</pc> to deploy the FFU image to the device.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy</pc> from the main menu and choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">To USB connected device</pc> to deploy the FFU image to the device.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select an FFU image</pc> window, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse...</pc> to launch File Explorer and select the FFU that you want to flash to your target device, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select an FFU image</pc> window, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse...</pc> to launch File Explorer and select the FFU that you want to flash to your target device, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Choose the target device or drive from the list.</source>
+          <target>Choose the target device or drive from the list.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If your device or drive is not listed, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh</pc>.</source>
+          <target>If your device or drive is not listed, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy to device</pc> window, choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Flash</pc> to start flashing the image.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy to device</pc> window, choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Flash</pc> to start flashing the image.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc> to close the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Deployment</pc> page.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc> to close the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Deployment</pc> page.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Follow these steps if you are flashing the image to the device using ffutool.exe.</source>
+          <target>Follow these steps if you are flashing the image to the device using ffutool.exe.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>To flash an image using ffutool.exe</source>
+          <target>To flash an image using ffutool.exe</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Boot the device into FFU flashing mode while it is connected to the host computer.</source>
+          <target>Boot the device into FFU flashing mode while it is connected to the host computer.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>If you didn't include the LABIMAGE optional feature when generating your test image, you can force the device into FFU flashing mode manually by pressing and releasing the power button to boot the device and then immediate pressing and holding the volume up button.</source>
+          <target>If you didn't include the LABIMAGE optional feature when generating your test image, you can force the device into FFU flashing mode manually by pressing and releasing the power button to boot the device and then immediate pressing and holding the volume up button.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>However, note that this option is only available if an FFU has been initially flashed to the device.</source>
+          <target>However, note that this option is only available if an FFU has been initially flashed to the device.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Open a command prompt with administrator rights.</source>
+          <target>Open a command prompt with administrator rights.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Run ffutool.exe from the command line to flash the image.</source>
+          <target>Run ffutool.exe from the command line to flash the image.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>ffutool -flash TestFlash.ffu</source>
+          <target>ffutool -flash TestFlash.ffu</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>No matter which method you used to flash the image to the device, it will take a few minutes for the image to be fully flashed.</source>
+          <target>No matter which method you used to flash the image to the device, it will take a few minutes for the image to be fully flashed.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Once flashing is done, go through device setup and verify that your customizations appear as part of the image.</source>
+          <target>Once flashing is done, go through device setup and verify that your customizations appear as part of the image.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,1432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\deploy-push-button-reset-features.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">98d0204495c6a8a370ffe8a3a7ecd170863d12ce</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Deploy push-button reset features</source>
+          <target>Deploy push-button reset features</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Deploy push-button reset features</source>
+          <target>Deploy push-button reset features</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Push-button reset features are included with Windows 10 for desktop editions (Home, Pro, Enterprise, and Education), though you'll need to perform additional steps to deploy PCs with the following customizations.</source>
+          <target>Push-button reset features are included with Windows 10 for desktop editions (Home, Pro, Enterprise, and Education), though you'll need to perform additional steps to deploy PCs with the following customizations.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Classic Windows applications</source>
+          <target>Classic Windows applications</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows settings, such as customized OOBE screens or Start Menus.</source>
+          <target>Windows settings, such as customized OOBE screens or Start Menus.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Customized partition layouts.</source>
+          <target>Customized partition layouts.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>These steps also show you how to add your own scripts during a reset to capture logs or perform other cleanup tasks.</source>
+          <target>These steps also show you how to add your own scripts during a reset to capture logs or perform other cleanup tasks.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Prerequisites</source>
+          <target>Prerequisites</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>To complete these procedures, you'll need a technician PC which has Windows 10 and the following Windows Assessment and Deployment Kit (ADK) for Windows 10 components installed:</source>
+          <target>To complete these procedures, you'll need a technician PC which has Windows 10 and the following Windows Assessment and Deployment Kit (ADK) for Windows 10 components installed:</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Deployment Tools</source>
+          <target>Deployment Tools</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Windows Preinstallation Environment (Windows PE)</source>
+          <target>Windows Preinstallation Environment (Windows PE)</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Imaging and Configuration Designer (ICD)</source>
+          <target>Imaging and Configuration Designer (ICD)</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>User State Migration Tool (USMT)</source>
+          <target>User State Migration Tool (USMT)</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>You'll also need:</source>
+          <target>You'll also need:</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>A destination PC with drive size of 100 GB or larger</source>
+          <target>A destination PC with drive size of 100 GB or larger</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>A Windows 10 for desktop editions image (install.wim)</source>
+          <target>A Windows 10 for desktop editions image (install.wim)</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>A Windows RE boot image (Winre.wim) (You'll extract this from a Windows 10 image).</source>
+          <target>A Windows RE boot image (Winre.wim) (You'll extract this from a Windows 10 image).</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=526101)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For an overview of the entire deployment process, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Desktop manufacturing guide</pc>.</source>
+          <target>For an overview of the entire deployment process, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Desktop manufacturing guide</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Use the follow steps to prepare the ScanState tool to capture Classic Windows applications after they have been installed:</source>
+          <target>Use the follow steps to prepare the ScanState tool to capture Classic Windows applications after they have been installed:</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Step 1: Prepare the ScanState tool</source>
+          <target>Step 1: Prepare the ScanState tool</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>On the technician PC, copy the Windows ADK files from Windows User State Migration Tool (USMT) and Windows Setup to a working folder.</source>
+          <target>On the technician PC, copy the Windows ADK files from Windows User State Migration Tool (USMT) and Windows Setup to a working folder.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>You'll need to match the architecture of the destination device.</source>
+          <target>You'll need to match the architecture of the destination device.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>You don't need to copy the subfolders.</source>
+          <target>You don't need to copy the subfolders.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>In some instances, Windows Defender settings and detection history might be captured into the customizations package by the ScanState tool.</source>
+          <target>In some instances, Windows Defender settings and detection history might be captured into the customizations package by the ScanState tool.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>This can lead to failures during recovery due to file conflicts, and causes the PC to reboot and enter the "Installing Windows" phase repeatedly.</source>
+          <target>This can lead to failures during recovery due to file conflicts, and causes the PC to reboot and enter the "Installing Windows" phase repeatedly.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>These next steps will prevent the capture of Windows Defender settings.</source>
+          <target>These next steps will prevent the capture of Windows Defender settings.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Using the ScanState tool on a PC running Windows 10, generate a configuration file:</source>
+          <target>Using the ScanState tool on a PC running Windows 10, generate a configuration file:</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Open the configuration file in notepad</source>
+          <target>Open the configuration file in notepad</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Search for the following lines in the configuration file:</source>
+          <target>Search for the following lines in the configuration file:</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Modify the "migrate" value from "yes" to "no" for each line.</source>
+          <target>Modify the "migrate" value from "yes" to "no" for each line.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>In step 10 later in this topic, you will specify the configuration file when you use ScanState to capture the customizations into a .ppkg file.</source>
+          <target>In step 10 later in this topic, you will specify the configuration file when you use ScanState to capture the customizations into a .ppkg file.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Save and close the configuration file.</source>
+          <target>Save and close the configuration file.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Copy the contents of the working folder to a network location or USB flash drive.</source>
+          <target>Copy the contents of the working folder to a network location or USB flash drive.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Use the following steps to customize your Windows RE boot image if additional drivers and language packs are needed.</source>
+          <target>Use the following steps to customize your Windows RE boot image if additional drivers and language packs are needed.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Step 2: Extract and customize the Windows RE boot image (optional)</source>
+          <target>Step 2: Extract and customize the Windows RE boot image (optional)</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the technician PC, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type deployment.</source>
+          <target>On the technician PC, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type deployment.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc>, create the folder structure to store the Windows image and its mount point.</source>
+          <target>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc>, create the folder structure to store the Windows image and its mount point.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Create the folder structure to store the Windows RE boot image and its mount point.</source>
+          <target>Create the folder structure to store the Windows RE boot image and its mount point.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\_</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Mount the Windows image (install.wim) to the folder <ph dataRef="id1" id="ph1" />OS<ph dataRef="id2" id="ph2" />image<ph dataRef="id3" id="ph3" />mount by using DISM.</source>
+          <target>Mount the Windows image (install.wim) to the folder <ph dataRef="id1" id="ph1" />OS<ph dataRef="id2" id="ph2" />image<ph dataRef="id3" id="ph3" />mount by using DISM.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">`Index:1`</data>
+        </originalData>
+        <segment state="initial">
+          <source>where <ph dataRef="id1" id="ph1" /> is the index of the selected image in the Install.wim file.</source>
+          <target>where <ph dataRef="id1" id="ph1" /> is the index of the selected image in the Install.wim file.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Copy the Windows RE image from the mounted Windows image to the new folder.</source>
+          <target>Copy the Windows RE image from the mounted Windows image to the new folder.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Unmount the Windows image.</source>
+          <target>Unmount the Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">`/discard`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tip: If you haven't made any other changes in the Windows image, you can unmount the image faster by using the <ph dataRef="id1" id="ph1" /> option.</source>
+          <target>Tip: If you haven't made any other changes in the Windows image, you can unmount the image faster by using the <ph dataRef="id1" id="ph1" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Mount the Windows RE boot image for editing.</source>
+          <target>Mount the Windows RE boot image for editing.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">`Index:1`</data>
+        </originalData>
+        <segment state="initial">
+          <source>where <ph dataRef="id1" id="ph1" /> is the number of the selected image in the Winre.wim file.</source>
+          <target>where <ph dataRef="id1" id="ph1" /> is the number of the selected image in the Winre.wim file.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Once the Winre.wim file is extracted from the Install.wim file, you can customize the Windows RE boot image.</source>
+          <target>Once the Winre.wim file is extracted from the Install.wim file, you can customize the Windows RE boot image.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Add language packs, boot-critical device drivers, and input device drivers to the Windows RE boot image.</source>
+          <target>Add language packs, boot-critical device drivers, and input device drivers to the Windows RE boot image.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](customize-windows-re.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize Windows RE</pc>.</source>
+          <target>To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customize Windows RE</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Commit your customizations and unmount the image.</source>
+          <target>Commit your customizations and unmount the image.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>If you are planning to customize only the settings common to all editions of Windows 10 (including Windows 10 Mobile), use the following steps to create a provisioning package which specifies settings to be restored during recovery:</source>
+          <target>If you are planning to customize only the settings common to all editions of Windows 10 (including Windows 10 Mobile), use the following steps to create a provisioning package which specifies settings to be restored during recovery:</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Step 3: Create a provisioning package with settings to be restored (optional)</source>
+          <target>Step 3: Create a provisioning package with settings to be restored (optional)</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>On the technician PC, start Windows Imaging and Configuration Designer (ICD).</source>
+          <target>On the technician PC, start Windows Imaging and Configuration Designer (ICD).</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">New Project</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">New Project</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter a project name and description, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc></source>
+          <target>Enter a project name and description, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc></target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select project workflow</pc> step, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Provisioning Package</pc> option, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select project workflow</pc> step, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Provisioning Package</pc> option, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Choose which settings to view and configure</pc> step, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Common to all Windows editions</pc> option, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Choose which settings to view and configure</pc> step, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Common to all Windows editions</pc> option, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Import a provisioning package (optional)</pc> step, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc> to create the new project.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Import a provisioning package (optional)</pc> step, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc> to create the new project.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available customizations</pc> pane to add settings and specify the defaults which should be restored during recovery.</source>
+          <target>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available customizations</pc> pane to add settings and specify the defaults which should be restored during recovery.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The settings will appear in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Selected customizations</pc> pane.</source>
+          <target>The settings will appear in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Selected customizations</pc> pane.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Export</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Provisioning package</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Export</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Provisioning package</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Describe the provisioning package</pc> step, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Describe the provisioning package</pc> step, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select the security details for the provisioning package</pc> step, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select the security details for the provisioning package</pc> step, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select where to save the provisioning package</pc> step, enter a location to save the package (such as a network share) and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select where to save the provisioning package</pc> step, enter a location to save the package (such as a network share) and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Build</pc> to create the provisioning package.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Build</pc> to create the provisioning package.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the provisioning package is created, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc>.</source>
+          <target>After the provisioning package is created, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>If your customizations include settings specific to editions of Windows 10 for desktop editions, use the following steps to create an unattend.xml which specifies the settings to be restored during recovery:</source>
+          <target>If your customizations include settings specific to editions of Windows 10 for desktop editions, use the following steps to create an unattend.xml which specifies the settings to be restored during recovery:</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Step 4: Create an unattend file to restore settings (optional)</source>
+          <target>Step 4: Create an unattend file to restore settings (optional)</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the technician PC, start <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows System Image Manager</pc>.</source>
+          <target>On the technician PC, start <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows System Image Manager</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Select Windows image</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Select Windows image</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When prompted to create a catalog file, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>.</source>
+          <target>When prompted to create a catalog file, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Image</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Answer File</pc> panes to add settings to the Specialize or oobeSystem phase (or both), and specify the defaults which should be restored during recovery.</source>
+          <target>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Image</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Answer File</pc> panes to add settings to the Specialize or oobeSystem phase (or both), and specify the defaults which should be restored during recovery.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Tool</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Validate Answer File</pc> to check for errors.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Tool</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Validate Answer File</pc> to check for errors.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Correct any problem identified.</source>
+          <target>Correct any problem identified.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Save Answer File</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Save Answer File</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter a location to save the answer file (such as a network share) and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc>.</source>
+          <target>Enter a location to save the answer file (such as a network share) and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>If you plan to use Push-button reset’s extensibility points, use the following steps to prepare your extensibility scripts and register them using a Push-button reset configuration file.</source>
+          <target>If you plan to use Push-button reset’s extensibility points, use the following steps to prepare your extensibility scripts and register them using a Push-button reset configuration file.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>  If you have created an unattend file, you must also create a script to reapply it using the BasicReset<ph dataRef="id3" id="ph1" />AfterImageApply and FactoryReset<ph dataRef="id4" id="ph2" />AfterImageApply extensibility points.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>  If you have created an unattend file, you must also create a script to reapply it using the BasicReset<ph dataRef="id3" id="ph1" />AfterImageApply and FactoryReset<ph dataRef="id4" id="ph2" />AfterImageApply extensibility points.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Step 5: Prepare push-button reset extensibility scripts (optional)</source>
+          <target>Step 5: Prepare push-button reset extensibility scripts (optional)</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Create scripts (.cmd) or executables (.exe) to run at the available extensibility points when the Refresh your PC feature runs:</source>
+          <target>Create scripts (.cmd) or executables (.exe) to run at the available extensibility points when the Refresh your PC feature runs:</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>A: At BasicReset<ph dataRef="id1" id="ph1" />BeforeImageApply</source>
+          <target>A: At BasicReset<ph dataRef="id1" id="ph1" />BeforeImageApply</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>B: At BasicReset<ph dataRef="id1" id="ph1" />AfterImageApply</source>
+          <target>B: At BasicReset<ph dataRef="id1" id="ph1" />AfterImageApply</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Create scripts (.cmd) or executables (.exe) to run at the available extensibility points when the Reset your PC feature runs:</source>
+          <target>Create scripts (.cmd) or executables (.exe) to run at the available extensibility points when the Reset your PC feature runs:</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>C: At FactoryReset<ph dataRef="id1" id="ph1" />AfterDiskFormat</source>
+          <target>C: At FactoryReset<ph dataRef="id1" id="ph1" />AfterDiskFormat</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>D: At FactoryReset<ph dataRef="id1" id="ph1" />AfterImageApply</source>
+          <target>D: At FactoryReset<ph dataRef="id1" id="ph1" />AfterImageApply</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Save the scripts to a network location, or USB flash drive.</source>
+          <target>Save the scripts to a network location, or USB flash drive.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Create a ResetConfig.xml file that specifies the location of the scripts that you created for the four extensibility points.</source>
+          <target>Create a ResetConfig.xml file that specifies the location of the scripts that you created for the four extensibility points.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>  If you use a text editor to author the ResetConfig.xml file, save the document with an .xml file name extension and use <pc dataRefEnd="id4" dataRefStart="id3" id="p2">UTF-8 encoding</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>  If you use a text editor to author the ResetConfig.xml file, save the document with an .xml file name extension and use <pc dataRefEnd="id4" dataRefStart="id3" id="p2">UTF-8 encoding</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Do not use Unicode or ANSI.</source>
+          <target>Do not use Unicode or ANSI.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Save the ResetConfig.xml file together with the extensibility scripts that you created.</source>
+          <target>Save the ResetConfig.xml file together with the extensibility scripts that you created.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Step 6: Create bare-metal recovery configuration (optional)</source>
+          <target>Step 6: Create bare-metal recovery configuration (optional)</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>To specify the partition layout to be used when users perform bare metal recovery using recovery media created from their PCs, modify resetconfig.xml to include the following elements:</source>
+          <target>To specify the partition layout to be used when users perform bare metal recovery using recovery media created from their PCs, modify resetconfig.xml to include the following elements:</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MinSize</pc> - Specifies the minimum size of the system disk in megabytes (MB).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MinSize</pc> - Specifies the minimum size of the system disk in megabytes (MB).</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Recovery process will not proceed if the system disk does not meet this minimum size.</source>
+          <target>Recovery process will not proceed if the system disk does not meet this minimum size.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DiskpartScriptPath</pc> - Path to Diskpart script relative to install.wim location.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DiskpartScriptPath</pc> - Path to Diskpart script relative to install.wim location.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>The script should assume that all existing partitions have been deleted, and the system disk has focus in Diskpart.</source>
+          <target>The script should assume that all existing partitions have been deleted, and the system disk has focus in Diskpart.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OSPartition</pc> - The partition to which the recovery image should be applied must be specified.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OSPartition</pc> - The partition to which the recovery image should be applied must be specified.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>The ESP or active partition must be on the same disk as the OS.</source>
+          <target>The ESP or active partition must be on the same disk as the OS.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WindowsREPartition</pc>; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">WindowsREPath –</pc> (Optional) The location in which WinRE should be staged.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WindowsREPartition</pc>; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">WindowsREPath –</pc> (Optional) The location in which WinRE should be staged.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>The WinRE boot image on the media will be copied and registered with the OS.</source>
+          <target>The WinRE boot image on the media will be copied and registered with the OS.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>(Same as running “reagentc.exe /setreimage”)</source>
+          <target>(Same as running “reagentc.exe /setreimage”)</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>If partitioning information is not specified in resetconfig.xml, users can still perform bare metal recovery using media they have created.</source>
+          <target>If partitioning information is not specified in resetconfig.xml, users can still perform bare metal recovery using media they have created.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>However, the default/recommended partition layout for Windows 10 will be used instead.</source>
+          <target>However, the default/recommended partition layout for Windows 10 will be used instead.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Step 7: Create a diskpart script for initial deployment</source>
+          <target>Step 7: Create a diskpart script for initial deployment</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Create a disk partitioning script for initial deployment.</source>
+          <target>Create a disk partitioning script for initial deployment.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UEFI example</pc>:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UEFI example</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BIOS example</pc>:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BIOS example</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Name the script CreatePartitions-UEFI or CreatePartitions-BIOS.txt, and save it to a network location, or USB flash drive.</source>
+          <target>Name the script CreatePartitions-UEFI or CreatePartitions-BIOS.txt, and save it to a network location, or USB flash drive.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Note: In these Diskpart examples, the partitions are assigned the letters S:<ph dataRef="id1" id="ph1" />, W:<ph dataRef="id2" id="ph2" />, and T:<ph dataRef="id3" id="ph3" /> to simplify partition identification.</source>
+          <target>Note: In these Diskpart examples, the partitions are assigned the letters S:<ph dataRef="id1" id="ph1" />, W:<ph dataRef="id2" id="ph2" />, and T:<ph dataRef="id3" id="ph3" /> to simplify partition identification.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the PC reboots, Windows PE automatically assigns the letter C:<ph dataRef="id1" id="ph1" /> to the Windows partition.</source>
+          <target>After the PC reboots, Windows PE automatically assigns the letter C:<ph dataRef="id1" id="ph1" /> to the Windows partition.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>The other partitions do not receive drive letters.</source>
+          <target>The other partitions do not receive drive letters.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Step 8: Create a diskpart script for bare-metal recovery (optional)</source>
+          <target>Step 8: Create a diskpart script for bare-metal recovery (optional)</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Step 8: Create a diskpart script for bare-metal recovery (optional)</source>
+          <target>Step 8: Create a diskpart script for bare-metal recovery (optional)</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Create a diskpart script for bare-metal recovery.</source>
+          <target>Create a diskpart script for bare-metal recovery.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">`select disk`</data>
+          <data id="id4">`clean`</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc> The diskpart script used for bare metal recovery should not include a <ph dataRef="id3" id="ph1" /> or <ph dataRef="id4" id="ph2" /> command.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc> The diskpart script used for bare metal recovery should not include a <ph dataRef="id3" id="ph1" /> or <ph dataRef="id4" id="ph2" /> command.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>The system disk will be selected automatically before the diskpart script is processed.</source>
+          <target>The system disk will be selected automatically before the diskpart script is processed.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UEFI example</pc>:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UEFI example</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BIOS example</pc>:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BIOS example</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Name the script RecreatePartitions-UEFI.txt or RecreatePartitions-BIOS.txt, and save it to the same network location, or USB flash drive as create partitions.</source>
+          <target>Name the script RecreatePartitions-UEFI.txt or RecreatePartitions-BIOS.txt, and save it to the same network location, or USB flash drive as create partitions.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Step 9: Deploy and customize Windows</source>
+          <target>Step 9: Deploy and customize Windows</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>On the destination PC, boot to Windows PE.</source>
+          <target>On the destination PC, boot to Windows PE.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>At the Windows PE command prompt, run the script to create the recommended hard drive partitions.</source>
+          <target>At the Windows PE command prompt, run the script to create the recommended hard drive partitions.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>where N:<ph dataRef="id1" id="ph1" />CreatePartition is the location of the file.</source>
+          <target>where N:<ph dataRef="id1" id="ph1" />CreatePartition is the location of the file.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Apply the Windows reference image to the Windows partition.</source>
+          <target>Apply the Windows reference image to the Windows partition.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Optional: You can also specify the /compact option so that the files written to disk are compressed.</source>
+          <target>Optional: You can also specify the /compact option so that the files written to disk are compressed.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>This is useful if you are deploying Windows onto PCs with limited storage capacity, but is not recommended on PCs with rotational storage devices.</source>
+          <target>This is useful if you are deploying Windows onto PCs with limited storage capacity, but is not recommended on PCs with rotational storage devices.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Configure the system partition by using BCDboot.</source>
+          <target>Configure the system partition by using BCDboot.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Create a folder in the Windows RE tools partition, and copy your custom Windows RE boot image to it.</source>
+          <target>Create a folder in the Windows RE tools partition, and copy your custom Windows RE boot image to it.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>where T:<ph dataRef="id1" id="ph1" /> is the Windows RE tools partition.</source>
+          <target>where T:<ph dataRef="id1" id="ph1" /> is the Windows RE tools partition.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>  You must store Winre.wim in <ph dataRef="id3" id="ph1" />Recovery<ph dataRef="id4" id="ph2" />WindowsRE.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>  You must store Winre.wim in <ph dataRef="id3" id="ph1" />Recovery<ph dataRef="id4" id="ph2" />WindowsRE.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Register the Windows RE boot image together with the Windows image.</source>
+          <target>Register the Windows RE boot image together with the Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use Diskpart to conceal the Windows RE tools (T:<ph dataRef="id1" id="ph1" />) partition from Windows Explorer.</source>
+          <target>Use Diskpart to conceal the Windows RE tools (T:<ph dataRef="id1" id="ph1" />) partition from Windows Explorer.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>For UEFI-based PCs:</source>
+          <target>For UEFI-based PCs:</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>For BIOS-based PCs:</source>
+          <target>For BIOS-based PCs:</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Customize the Windows image on the destination PC:</source>
+          <target>Customize the Windows image on the destination PC:</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Perform offline customizations to the Windows image, such as installing INF-based driver packages specific to the destination PC, installing OS updates and language packs, or provisioning additional Windows apps.</source>
+          <target>Perform offline customizations to the Windows image, such as installing INF-based driver packages specific to the destination PC, installing OS updates and language packs, or provisioning additional Windows apps.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Boot the destination PC to audit mode.</source>
+          <target>Boot the destination PC to audit mode.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>This can be accomplished by using an answer file with the Microsoft-Windows-Deployment | Reseal | Mode = audit setting, or by first booting the PC to OOBE, and then pressing CTRL+SHIFT+F3.</source>
+          <target>This can be accomplished by using an answer file with the Microsoft-Windows-Deployment | Reseal | Mode = audit setting, or by first booting the PC to OOBE, and then pressing CTRL+SHIFT+F3.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Perform any remaining customizations such as installing applications and device software packages that are specific to the destination PC.</source>
+          <target>Perform any remaining customizations such as installing applications and device software packages that are specific to the destination PC.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>If you have installed OS updates, clean up the superseded components and mark the updates as permanent so that they will be restored during recovery:</source>
+          <target>If you have installed OS updates, clean up the superseded components and mark the updates as permanent so that they will be restored during recovery:</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Step 10: Capture and deploy customizations for recovery</source>
+          <target>Step 10: Capture and deploy customizations for recovery</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>Use the ScanState tool to capture the installed customizations into a provisioning package.</source>
+          <target>Use the ScanState tool to capture the installed customizations into a provisioning package.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the /config option to specify the configuration file you modified in Step 1 earlier in this topic, and save the .ppkg file in the folder C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />Customizations.</source>
+          <target>Use the /config option to specify the configuration file you modified in Step 1 earlier in this topic, and save the .ppkg file in the folder C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />Customizations.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>where N:<ph dataRef="id1" id="ph1" /> is the location of the ScanState tool installed in Step 1.</source>
+          <target>where N:<ph dataRef="id1" id="ph1" /> is the location of the ScanState tool installed in Step 1.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>If you have used Windows ICD to create additional provisioning packages with customizations which should be restored during recovery, copy the packages to the destination PC.</source>
+          <target>If you have used Windows ICD to create additional provisioning packages with customizations which should be restored during recovery, copy the packages to the destination PC.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>where N:<ph dataRef="id1" id="ph1" /> is the location where the additional provisioning packages are located.</source>
+          <target>where N:<ph dataRef="id1" id="ph1" /> is the location where the additional provisioning packages are located.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Copy any Push-button reset configuration file (resetconfig.xml) and extensibility scripts to the destination PC, and then configure permissions to write/modify them.</source>
+          <target>Copy any Push-button reset configuration file (resetconfig.xml) and extensibility scripts to the destination PC, and then configure permissions to write/modify them.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>where N:<ph dataRef="id1" id="ph1" /> is the location where the configuration file and scripts are located.</source>
+          <target>where N:<ph dataRef="id1" id="ph1" /> is the location where the configuration file and scripts are located.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>Restrict the Write/Modify permissions of the customizations, and hide the root folder.</source>
+          <target>Restrict the Write/Modify permissions of the customizations, and hide the root folder.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>Use the Sysprep tool to reseal the Windows image without using the /generalize option.</source>
+          <target>Use the Sysprep tool to reseal the Windows image without using the /generalize option.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  Important: You must configure the image that you are shipping to the customer to boot to OOBE.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  Important: You must configure the image that you are shipping to the customer to boot to OOBE.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>(Optional) To save space, you can also convert your installed Classic Windows applications into file pointers referencing the customizations package.</source>
+          <target>(Optional) To save space, you can also convert your installed Classic Windows applications into file pointers referencing the customizations package.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>To do so, boot the destination PC to Windows PE and run the following:</source>
+          <target>To do so, boot the destination PC to Windows PE and run the following:</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>Shut down the destination PC for packaging and shipment.</source>
+          <target>Shut down the destination PC for packaging and shipment.</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>When the user starts the PC for the first time, it will boot to OOBE.</source>
+          <target>When the user starts the PC for the first time, it will boot to OOBE.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>Step 11: Verify your customizations</source>
+          <target>Step 11: Verify your customizations</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Verify that your customizations are restored after recovery, and that they continue to function by running the Refresh your PC and Reset your PC features from the following entry points:</source>
+          <target>Verify that your customizations are restored after recovery, and that they continue to function by running the Refresh your PC and Reset your PC features from the following entry points:</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">&amp;gt;</data>
+          <data id="id6">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings :</pc> From the Start Menu, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Settings <ph dataRef="id5" id="ph1" /> Update &amp; security <ph dataRef="id6" id="ph2" /> Recovery</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings :</pc> From the Start Menu, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Settings <ph dataRef="id5" id="ph1" /> Update &amp; security <ph dataRef="id6" id="ph2" /> Recovery</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get Started</pc> button under <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Reset this PC</pc> and follow the on-screen instructions.</source>
+          <target>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get Started</pc> button under <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Reset this PC</pc> and follow the on-screen instructions.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows RE</pc>: From the Choose an option screen in Windows RE, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Troubleshoot <ph dataRef="id5" id="ph1" /> Reset this PC</pc> and then follow the on-screen instructions</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows RE</pc>: From the Choose an option screen in Windows RE, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Troubleshoot <ph dataRef="id5" id="ph1" /> Reset this PC</pc> and then follow the on-screen instructions</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>Verify that recovery media can be created, and verify its functionality by running the bare metal recovery feature:</source>
+          <target>Verify that recovery media can be created, and verify its functionality by running the bare metal recovery feature:</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>Launch Create a recovery drive from Control Panel.</source>
+          <target>Launch Create a recovery drive from Control Panel.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>Follow the on-screen instructions to create the USB recovery drive.</source>
+          <target>Follow the on-screen instructions to create the USB recovery drive.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Boot the PC from the USB recovery drive</source>
+          <target>Boot the PC from the USB recovery drive</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>From the Choose an option screen, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Troubleshoot</pc></source>
+          <target>From the Choose an option screen, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Troubleshoot</pc></target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recover from a drive</pc> and then follow the on-screen instructions</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recover from a drive</pc> and then follow the on-screen instructions</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  The Push-button reset UI has been redesigned in Windows 10.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  The Push-button reset UI has been redesigned in Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Keep my files</pc> option in the UI now corresponds to the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Refresh your PC</pc> feature, whereas the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Remove everything</pc> option corresponds to the <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Reset your PC</pc> feature.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Keep my files</pc> option in the UI now corresponds to the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Refresh your PC</pc> feature, whereas the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Remove everything</pc> option corresponds to the <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Reset your PC</pc> feature.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>ScanState Syntax</source>
+          <target>ScanState Syntax</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>Bare metal reset/recovery: Create recovery media while deploying new devices</source>
+          <target>Bare metal reset/recovery: Create recovery media while deploying new devices</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>Deploy push-button reset features using ScanState</source>
+          <target>Deploy push-button reset features using ScanState</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

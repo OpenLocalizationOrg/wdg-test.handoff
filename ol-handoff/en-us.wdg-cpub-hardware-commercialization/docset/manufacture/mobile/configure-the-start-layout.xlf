@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\mobile\configure-the-start-layout.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">71e7632b33583d3c7db4cc33b10f028fa7d6dd2e</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Configure the Start layout</source>
+          <target>Configure the Start layout</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Configure the Start layout</source>
+          <target>Configure the Start layout</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>You can now easily configure the default Start layout to include Web links, secondary tiles, folders, and apps.</source>
+          <target>You can now easily configure the default Start layout to include Web links, secondary tiles, folders, and apps.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>The converged Windows 10 Start layout requires that you create a LayoutModification.xml file, which we'll create in this walkthrough.</source>
+          <target>The converged Windows 10 Start layout requires that you create a LayoutModification.xml file, which we'll create in this walkthrough.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  The schema for the LayoutModification.xml file is different from the MCSF customization answer file schema or the Windows provisioning answer file schema.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  The schema for the LayoutModification.xml file is different from the MCSF customization answer file schema or the Windows provisioning answer file schema.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>You will need to use the LayoutModification.xml to fully take advantage of the Start customization in Windows 10 and you can use the Start settings in either MCSF or Windows Provisioning to reference LayoutModification.xml.</source>
+          <target>You will need to use the LayoutModification.xml to fully take advantage of the Start customization in Windows 10 and you can use the Start settings in either MCSF or Windows Provisioning to reference LayoutModification.xml.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>If you are not new to Windows mobile development and were using pre-existing MCSF settings pertaining to the Start layout, we highly recommend that you switch to a LayoutModification.xml to take full advantage of the Start experience.</source>
+          <target>If you are not new to Windows mobile development and were using pre-existing MCSF settings pertaining to the Start layout, we highly recommend that you switch to a LayoutModification.xml to take full advantage of the Start experience.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Also note that not all pre-existing MCSF Start settings are supported in Windows 10.</source>
+          <target>Also note that not all pre-existing MCSF Start settings are supported in Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>In this walkthrough, we will:</source>
+          <target>In this walkthrough, we will:</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Create two versions of the Start layout, one with a folder and another without a folder.</source>
+          <target>Create two versions of the Start layout, one with a folder and another without a folder.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Configure the MCSF Start layout settings to specify that we are using the new layout modification XML for our layout, creating variants in the CAF file, and specifying which Start layout applies to the variants we've created.</source>
+          <target>Configure the MCSF Start layout settings to specify that we are using the new layout modification XML for our layout, creating variants in the CAF file, and specifying which Start layout applies to the variants we've created.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](https://msdn.microsoft.com/library/windows/hardware/mt171093)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  Make sure you've read <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Start layout for Windows 10 mobile editions</pc> before doing this walkthrough.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  Make sure you've read <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Start layout for Windows 10 mobile editions</pc> before doing this walkthrough.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The topic provides more detailed information about each element in LayoutModification.xml, which is not covered in this walkthrough, as well as limitations and restrictions that you need to be aware of.</source>
+          <target>The topic provides more detailed information about each element in LayoutModification.xml, which is not covered in this walkthrough, as well as limitations and restrictions that you need to be aware of.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>To configure the Start layout modification file</source>
+          <target>To configure the Start layout modification file</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Create a file called LayoutModification1.xml.</source>
+          <target>Create a file called LayoutModification1.xml.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Add the XML code to:</source>
+          <target>Add the XML code to:</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Pin a medium-sized tile on row 6, column 0.</source>
+          <target>Pin a medium-sized tile on row 6, column 0.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>The tile is for the MSN News app.</source>
+          <target>The tile is for the MSN News app.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Pin a medium-sized tile on row 6, column 2.</source>
+          <target>Pin a medium-sized tile on row 6, column 2.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>The tile is a Web link for the Contoso home page.</source>
+          <target>The tile is a Web link for the Contoso home page.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Pin a small-sized folder on row 6, column 4.</source>
+          <target>Pin a small-sized folder on row 6, column 4.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>The folder name is "Contoso apps" and it contains the following:</source>
+          <target>The folder name is "Contoso apps" and it contains the following:</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>A medium-sized tile for the MSN Apps app.</source>
+          <target>A medium-sized tile for the MSN Apps app.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>A medium-sized tile for the MSN Money app.</source>
+          <target>A medium-sized tile for the MSN Money app.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>The following XML example shows what you need to add to the LayoutModification.xml file.</source>
+          <target>The following XML example shows what you need to add to the LayoutModification.xml file.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Save the xml file and note the location of the file; for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />Contoso<ph dataRef="id4" id="ph2" />Customizations<ph dataRef="id5" id="ph3" />LayoutModification1.xml</pc>.</source>
+          <target>Save the xml file and note the location of the file; for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />Contoso<ph dataRef="id4" id="ph2" />Customizations<ph dataRef="id5" id="ph3" />LayoutModification1.xml</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using the same xml file, now save it as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">LayoutModification2.xml</pc>.</source>
+          <target>Using the same xml file, now save it as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">LayoutModification2.xml</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Modify the contents of the new <pc dataRefEnd="id2" dataRefStart="id1" id="p1">LayoutModification2.xml</pc> file by deleting everything within the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">start:Folder</pc> element and replacing that folder tile location with the MSN Money app.</source>
+          <target>Modify the contents of the new <pc dataRefEnd="id2" dataRefStart="id1" id="p1">LayoutModification2.xml</pc> file by deleting everything within the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">start:Folder</pc> element and replacing that folder tile location with the MSN Money app.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>The contents of your XML file should look like this:</source>
+          <target>The contents of your XML file should look like this:</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Save the xml file and note the location of the file; for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />Contoso<ph dataRef="id4" id="ph2" />Customizations<ph dataRef="id5" id="ph3" />LayoutModification2.xml</pc>.</source>
+          <target>Save the xml file and note the location of the file; for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />Contoso<ph dataRef="id4" id="ph2" />Customizations<ph dataRef="id5" id="ph3" />LayoutModification2.xml</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Add the layout modification files and configure the Start layout settings in the MCSF CAF or Windows Provisioning answer file (WPAF).</source>
+          <target>Add the layout modification files and configure the Start layout settings in the MCSF CAF or Windows Provisioning answer file (WPAF).</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">[</data>
+          <data id="id4">](configure-customization-settings.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For MCSF: See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure the Start layout</pc> in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configure customization settings</pc>.</source>
+          <target>For MCSF: See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure the Start layout</pc> in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configure customization settings</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">[</data>
+          <data id="id4">](use-the-windows-icd-ui-to-customize-and-build-a-mobile-image.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For Windows Provisioning: If you are using the Windows Imaging and Configuration Designer (ICD) UI, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure the Start layout</pc> in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Use the Windows ICD UI to customize and build a mobile image</pc>.</source>
+          <target>For Windows Provisioning: If you are using the Windows Imaging and Configuration Designer (ICD) UI, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure the Start layout</pc> in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Use the Windows ICD UI to customize and build a mobile image</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">[</data>
+          <data id="id4">](use-the-windows-icd-cli-to-customize-and-build-a-mobile-image.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you are using the Windows ICD CLI (hybrid method), see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure the Start layout</pc> in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Use the Windows ICD CLI to customize and build a mobile image</pc>.</source>
+          <target>If you are using the Windows ICD CLI (hybrid method), see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure the Start layout</pc> in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Use the Windows ICD CLI to customize and build a mobile image</pc>.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>
