@@ -1,0 +1,713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\mobile\creating-mobile-packages.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">ce82422456e4f42a59d26226bda54563ca4527c8</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>This section shows you how to add a fictitious driver and an MCSF customization setting as part of the package.</source>
+          <target>This section shows you how to add a fictitious driver and an MCSF customization setting as part of the package.</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Create mobile packages</source>
+          <target>Create mobile packages</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Create mobile packages</source>
+          <target>Create mobile packages</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>In Windows 10 Mobile, packages make up the building blocks for the OS and they can contain all the files, libraries, registry settings, executables, and data on the mobile device.</source>
+          <target>In Windows 10 Mobile, packages make up the building blocks for the OS and they can contain all the files, libraries, registry settings, executables, and data on the mobile device.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Every OS component, from device drivers to system files, must be contained in a package.</source>
+          <target>Every OS component, from device drivers to system files, must be contained in a package.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>As an OEM, if you have device-specific drivers or customizations that you want to add to the OS, you need to create a package.</source>
+          <target>As an OEM, if you have device-specific drivers or customizations that you want to add to the OS, you need to create a package.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>This section shows you how to add a fictitious driver and an MCSF customization setting as part of the package.</source>
+          <target>This section shows you how to add a fictitious driver and an MCSF customization setting as part of the package.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/dn756642)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more detailed information about mobile packages, including specifying other components and package merging, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Creating mobile packages</pc>.</source>
+          <target>For more detailed information about mobile packages, including specifying other components and package merging, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Creating mobile packages</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Add a driver component</source>
+          <target>Add a driver component</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/ff557557)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more about drivers and get started on writing your own, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device and Driver Technologies</pc>.</source>
+          <target>To learn more about drivers and get started on writing your own, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device and Driver Technologies</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>In this walkthrough, we're downloading the sample echo KMDF driver, converting it to a universal Windows driver, and then using Visual Studio to create a package file.</source>
+          <target>In this walkthrough, we're downloading the sample echo KMDF driver, converting it to a universal Windows driver, and then using Visual Studio to create a package file.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>To add a driver</source>
+          <target>To add a driver</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Download the echo universal driver sample.</source>
+          <target>Download the echo universal driver sample.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">&lt;</data>
+          <data id="id2">&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Download the master.zip file and save it to your local hard drive: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">https://github.com/microsoft/windows-driver-samples/archive/master.zip</pc>.</source>
+          <target>Download the master.zip file and save it to your local hard drive: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">https://github.com/microsoft/windows-driver-samples/archive/master.zip</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Extract all the contents of the master.zip file.</source>
+          <target>Extract all the contents of the master.zip file.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify a new folder, such as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />DriverSamples</pc>, or browse to an existing one to store the extracted files.</source>
+          <target>Specify a new folder, such as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />DriverSamples</pc>, or browse to an existing one to store the extracted files.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the files are extracted, go to the general<ph dataRef="id1" id="ph1" />echo<ph dataRef="id2" id="ph2" />kmdf subfolder within the folder where you saved the extracted files to find the driver solution for the echo driver sample.</source>
+          <target>After the files are extracted, go to the general<ph dataRef="id1" id="ph1" />echo<ph dataRef="id2" id="ph2" />kmdf subfolder within the folder where you saved the extracted files to find the driver solution for the echo driver sample.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">\\</data>
+          <data id="id4">*</data>
+          <data id="id5">*</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+          <data id="id9">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, if you created a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />DriverSamples</pc> folder in the previous step, you can locate the driver solution under <pc dataRefEnd="id5" dataRefStart="id4" id="p2">C:<ph dataRef="id6" id="ph2" />DriverSamples<ph dataRef="id7" id="ph3" />general<ph dataRef="id8" id="ph4" />echo<ph dataRef="id9" id="ph5" />kmdf</pc>.</source>
+          <target>For example, if you created a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />DriverSamples</pc> folder in the previous step, you can locate the driver solution under <pc dataRefEnd="id5" dataRefStart="id4" id="p2">C:<ph dataRef="id6" id="ph2" />DriverSamples<ph dataRef="id7" id="ph3" />general<ph dataRef="id8" id="ph4" />echo<ph dataRef="id9" id="ph5" />kmdf</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Convert the existing echo driver project to a universal Windows driver project.</source>
+          <target>Convert the existing echo driver project to a universal Windows driver project.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>In Visual Studio 2015, open the existing kmdfecho driver project, kmdfecho.sln.</source>
+          <target>In Visual Studio 2015, open the existing kmdfecho driver project, kmdfecho.sln.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Location the Solution Explorer in Visual Studio.</source>
+          <target>Location the Solution Explorer in Visual Studio.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the Solution Explorer pane, right-click on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Solution 'kmdfecho' (3 projects)</pc> and choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configuration Manager</pc>.</source>
+          <target>In the Solution Explorer pane, right-click on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Solution 'kmdfecho' (3 projects)</pc> and choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configuration Manager</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Manager</pc> window, set the target operating system to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Manager</pc> window, set the target operating system to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 10</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click on the driver project and then choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc>.</source>
+          <target>Right-click on the driver project and then choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Manager</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Driver</pc>, verify that the <pc dataRefEnd="id7" dataRefStart="id6" id="p3">Target Platform</pc> is set to <pc dataRefEnd="id9" dataRefStart="id8" id="p4">Universal</pc>.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Manager</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Driver</pc>, verify that the <pc dataRefEnd="id7" dataRefStart="id6" id="p3">Target Platform</pc> is set to <pc dataRefEnd="id9" dataRefStart="id8" id="p4">Universal</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Other choices in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Target Platform</pc> include <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Mobile</pc>.</source>
+          <target>Other choices in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Target Platform</pc> include <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Mobile</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>You may select this option if you want to build a driver that runs on Windows 10 Mobile only.</source>
+          <target>You may select this option if you want to build a driver that runs on Windows 10 Mobile only.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>From Visual Studio 2015, use PkgGen to generate a package file.</source>
+          <target>From Visual Studio 2015, use PkgGen to generate a package file.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">-&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click on the driver project and choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">New Item</pc>.</source>
+          <target>Right-click on the driver project and choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">New Item</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Visual C++</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Windows Driver</pc>, choose <pc dataRefEnd="id7" dataRefStart="id6" id="p3">Package Manifest</pc>, and then click <pc dataRefEnd="id9" dataRefStart="id8" id="p4">Add</pc>.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Visual C++</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Windows Driver</pc>, choose <pc dataRefEnd="id7" dataRefStart="id6" id="p3">Package Manifest</pc>, and then click <pc dataRefEnd="id9" dataRefStart="id8" id="p4">Add</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Visual Studio adds a file called Package.pkg.xml to your driver project.</source>
+          <target>Visual Studio adds a file called Package.pkg.xml to your driver project.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can right-click on the file and choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc> to verify that the item type is set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PkgGen</pc>.</source>
+          <target>You can right-click on the file and choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc> to verify that the item type is set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PkgGen</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the same property page, you can set <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Excluded from Build</pc> to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Yes</pc> if you decide later that you want to build this driver project and not generate a package file.</source>
+          <target>On the same property page, you can set <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Excluded from Build</pc> to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Yes</pc> if you decide later that you want to build this driver project and not generate a package file.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click on the driver project and choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc>.</source>
+          <target>Right-click on the driver project and choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Properties</pc>, open the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PackageGen</pc> node and change the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Version</pc> to a any value that you like.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Properties</pc>, open the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PackageGen</pc> node and change the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Version</pc> to a any value that you like.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, you can set the version to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">1.0.0.0</pc>.</source>
+          <target>For example, you can set the version to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">1.0.0.0</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set the package <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Owner</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Component</pc>, and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">SubComponent</pc> values.</source>
+          <target>Set the package <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Owner</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Component</pc>, and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">SubComponent</pc> values.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click on the driver project and choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc>.</source>
+          <target>Right-click on the driver project and choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Properties</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Set the test certificates to one of the OEM test certificates that was installed when you ran installoemcerts.cmd.</source>
+          <target>Set the test certificates to one of the OEM test certificates that was installed when you ran installoemcerts.cmd.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>For example, you can use CN=Windows Phone OEM Root 2013 (TEST ONLY).</source>
+          <target>For example, you can use CN=Windows Phone OEM Root 2013 (TEST ONLY).</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Save your work and then restart Visual Studio as an administrator.</source>
+          <target>Save your work and then restart Visual Studio as an administrator.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Build your driver.</source>
+          <target>Build your driver.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Visual Studio links against the required libraries and generates a .cat file, an .inf file, a driver binary, and an .spkg file.</source>
+          <target>Visual Studio links against the required libraries and generates a .cat file, an .inf file, a driver binary, and an .spkg file.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Once the driver is built, you should see a new folder named <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ProjectName</pc>.spkg, which contains the .cab and the .spkg.</source>
+          <target>Once the driver is built, you should see a new folder named <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ProjectName</pc>.spkg, which contains the .cab and the .spkg.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>We will use the driver .spkg that you built in this walkthrough and combining it with the .spkg from the next walkthrough to build a mobile OS image.</source>
+          <target>We will use the driver .spkg that you built in this walkthrough and combining it with the .spkg from the next walkthrough to build a mobile OS image.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>To learn about how to run PkgGen.exe outside of Visual Studio, see the next section on adding a customization setting.</source>
+          <target>To learn about how to run PkgGen.exe outside of Visual Studio, see the next section on adding a customization setting.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">[</data>
+          <data id="id4">](https://msdn.microsoft.com/library/dn756642)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Also see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run the pkggen.exe tool</pc> section in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Creating mobile packages</pc>.</source>
+          <target>Also see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run the pkggen.exe tool</pc> section in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Creating mobile packages</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Add an MCSF customization setting</source>
+          <target>Add an MCSF customization setting</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>In Windows 10 Mobile, there are two supported customization frameworks: Managed Centralized Settings Framework (MCSF) and Windows provisioning.</source>
+          <target>In Windows 10 Mobile, there are two supported customization frameworks: Managed Centralized Settings Framework (MCSF) and Windows provisioning.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/mt481438)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about these frameworks, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for mobile devices</pc>.</source>
+          <target>For more information about these frameworks, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Customizations for mobile devices</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>When it comes to adding a custom OEM customization setting, only MCSF is extendable and available for OEMs to declare their own various mobile OS settings in a simple and consistent way that's similar to the Microsoft customization settings.</source>
+          <target>When it comes to adding a custom OEM customization setting, only MCSF is extendable and available for OEMs to declare their own various mobile OS settings in a simple and consistent way that's similar to the Microsoft customization settings.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn772150)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn how to use MCSF and the package XML schema to declare and access custom OEM settings, see the sections in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Managed Centralized Settings Framework (MCSF)</pc>.</source>
+          <target>To learn how to use MCSF and the package XML schema to declare and access custom OEM settings, see the sections in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Managed Centralized Settings Framework (MCSF)</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn757416)</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this walkthrough, we're extending the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Quick actions</pc> customization to use the MCSF schema to create a policy setting that exposes the various slots so that they can be easily configured later without having to remember the registry keys and values.</source>
+          <target>In this walkthrough, we're extending the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Quick actions</pc> customization to use the MCSF schema to create a policy setting that exposes the various slots so that they can be easily configured later without having to remember the registry keys and values.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>To do this, we add the policy settings declarations in a .pkg.xml file and then build this file to create a package.</source>
+          <target>To do this, we add the policy settings declarations in a .pkg.xml file and then build this file to create a package.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>To add a customization setting</source>
+          <target>To add a customization setting</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Write the MCSF policy setting that corresponds to the following registry key:</source>
+          <target>Write the MCSF policy setting that corresponds to the following registry key:</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">X</pc> in the registry key should be replaced with the slot number being configured (beginning with 1).</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">X</pc> in the registry key should be replaced with the slot number being configured (beginning with 1).</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Slots are ordered right-to-left.</source>
+          <target>Slots are ordered right-to-left.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>There is a maximum of 5 slots on a large screen mobile device while mobile devices without a large screen have 4 slots.</source>
+          <target>There is a maximum of 5 slots on a large screen mobile device while mobile devices without a large screen have 4 slots.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>The following code example shows how the MCSF policy settings for the quick actions can be declared:</source>
+          <target>The following code example shows how the MCSF policy settings for the quick actions can be declared:</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Create a .pkg.xml file and add the policy settings in the previous step to the .pkg.xml file.</source>
+          <target>Create a .pkg.xml file and add the policy settings in the previous step to the .pkg.xml file.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>The following example shows how to do this.</source>
+          <target>The following example shows how to do this.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add values for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Owner</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Component</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">SubComponent</pc>, and <pc dataRefEnd="id8" dataRefStart="id7" id="p4">ReleaseType</pc> elements.</source>
+          <target>Add values for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Owner</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Component</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">SubComponent</pc>, and <pc dataRefEnd="id8" dataRefStart="id7" id="p4">ReleaseType</pc> elements.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Owner</pc>="Contoso"</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Owner</pc>="Contoso"</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Component</pc>="Customization.Notifications"</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Component</pc>="Customization.Notifications"</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SubComponent</pc>="QuickActions"</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SubComponent</pc>="QuickActions"</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ReleaseType</pc>="Test"</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ReleaseType</pc>="Test"</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/dn756796)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more about the elements and attributes, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Primary elements and attributes of a package project file</pc>.</source>
+          <target>To learn more about the elements and attributes, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Primary elements and attributes of a package project file</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Name and save the .pkg.xml file as "QuickActions.pkg.xml".</source>
+          <target>Name and save the .pkg.xml file as "QuickActions.pkg.xml".</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Generate a package, or .spkg file, using the "QuickActions.pkg.xml" as input.</source>
+          <target>Generate a package, or .spkg file, using the "QuickActions.pkg.xml" as input.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">[</data>
+          <data id="id4">](https://msdn.microsoft.com/library/dn756642)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run the pkggen.exe tool</pc> in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Creating mobile packages</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run the pkggen.exe tool</pc> in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Creating mobile packages</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>To generate a package using QuickActions.pkg.xml</source>
+          <target>To generate a package using QuickActions.pkg.xml</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Open a command line with administrator privileges.</source>
+          <target>Open a command line with administrator privileges.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Enter the following command to build a package from QuickActions.pkg.xml.</source>
+          <target>Enter the following command to build a package from QuickActions.pkg.xml.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>PkgGen QuickActions.pkg.xml /config:"%WPDKCONTENTROOT%<ph dataRef="id1" id="ph1" />Tools<ph dataRef="id2" id="ph2" />bin<ph dataRef="id3" id="ph3" />i386<ph dataRef="id4" id="ph4" />pkggen.cfg.xml"</source>
+          <target>PkgGen QuickActions.pkg.xml /config:"%WPDKCONTENTROOT%<ph dataRef="id1" id="ph1" />Tools<ph dataRef="id2" id="ph2" />bin<ph dataRef="id3" id="ph3" />i386<ph dataRef="id4" id="ph4" />pkggen.cfg.xml"</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>This command will generate a package called Customization.Notifications.QuickActions.spkg.</source>
+          <target>This command will generate a package called Customization.Notifications.QuickActions.spkg.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>In the next section, we will use this package and add it to a feature manifest file.</source>
+          <target>In the next section, we will use this package and add it to a feature manifest file.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\uefi-installation-media-format-and-default-boot-behavior.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">1f3b61e4dd26ffb6e0516477d9dc73e0ef526ca8</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>UEFI Installation Media Format and default boot behavior</source>
+          <target>UEFI Installation Media Format and default boot behavior</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>UEFI Installation Media Format and default boot behavior</source>
+          <target>UEFI Installation Media Format and default boot behavior</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>UEFI Installation Media Format and default boot behavior</source>
+          <target>UEFI Installation Media Format and default boot behavior</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This section describes the installation media formats and default boot behavior for UEFI platforms.</source>
+          <target>This section describes the installation media formats and default boot behavior for UEFI platforms.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Installation media guidelines</source>
+          <target>Installation media guidelines</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Windows installation media supports boot on both BIOS and UEFI platforms by taking advantage of multi-entry El Torito boot catalog support.</source>
+          <target>Windows installation media supports boot on both BIOS and UEFI platforms by taking advantage of multi-entry El Torito boot catalog support.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>The default El Torito boot entry is a BIOS entry that includes the 80x86 Platform ID, which is defined as “0x00” in hexadecimal.</source>
+          <target>The default El Torito boot entry is a BIOS entry that includes the 80x86 Platform ID, which is defined as “0x00” in hexadecimal.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The second El Torito boot entry is an EFI entry that includes the Platform ID as “0xEF” in hexadecimal.</source>
+          <target>The second El Torito boot entry is an EFI entry that includes the Platform ID as “0xEF” in hexadecimal.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The entry references a FAT partition that contains the bootable EFI application at <ph dataRef="id1" id="ph1" />EFI<ph dataRef="id2" id="ph2" />BOOT<ph dataRef="id3" id="ph3" />BOOTX64.EFI.</source>
+          <target>The entry references a FAT partition that contains the bootable EFI application at <ph dataRef="id1" id="ph1" />EFI<ph dataRef="id2" id="ph2" />BOOT<ph dataRef="id3" id="ph3" />BOOTX64.EFI.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Default boot behavior</source>
+          <target>Default boot behavior</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Firmware vendors must ensure that the following conditions exist:</source>
+          <target>Firmware vendors must ensure that the following conditions exist:</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>The BIOS ignores boot entries that do not have the 80x86 Platform ID, which is defined as “0x00” in hexadecimal.</source>
+          <target>The BIOS ignores boot entries that do not have the 80x86 Platform ID, which is defined as “0x00” in hexadecimal.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Failure to ignore other boot entries results in the display of a confusing boot menu to the end user.</source>
+          <target>Failure to ignore other boot entries results in the display of a confusing boot menu to the end user.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The BIOS boots based on the BIOS entry without prompt.</source>
+          <target>The BIOS boots based on the BIOS entry without prompt.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>The UEFI boot manager ignores boot entries that do not have the “0xEF” Platform ID.</source>
+          <target>The UEFI boot manager ignores boot entries that do not have the “0xEF” Platform ID.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>The UEFI boot manager boots based on the EFI entry without prompt.</source>
+          <target>The UEFI boot manager boots based on the EFI entry without prompt.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>To support the ability to boot from DVD media, the Windows installation DVD contains many El Torito boot entries that enable boot from either BIOS or UEFI.</source>
+          <target>To support the ability to boot from DVD media, the Windows installation DVD contains many El Torito boot entries that enable boot from either BIOS or UEFI.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>The default El Torito boot entry is for BIOS.</source>
+          <target>The default El Torito boot entry is for BIOS.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Windows supports the “Non-removable Media Boot Behavior” section from the UEFI 2.3 specification.</source>
+          <target>Windows supports the “Non-removable Media Boot Behavior” section from the UEFI 2.3 specification.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">*</data>
+          <data id="id9">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>During Windows installation and when updates are required for bootmgfw.efi, Windows copies the Windows boot application from <ph dataRef="id1" id="ph1" />efi<ph dataRef="id2" id="ph2" />microsoft <ph dataRef="id3" id="ph3" />boot<ph dataRef="id4" id="ph4" />bootmgfw.efi to <ph dataRef="id5" id="ph5" />efi<ph dataRef="id6" id="ph6" />boot<ph dataRef="id7" id="ph7" />boot<pc dataRefEnd="id9" dataRefStart="id8" id="p1">{arch}</pc>.efi on the EFI system partition.</source>
+          <target>During Windows installation and when updates are required for bootmgfw.efi, Windows copies the Windows boot application from <ph dataRef="id1" id="ph1" />efi<ph dataRef="id2" id="ph2" />microsoft <ph dataRef="id3" id="ph3" />boot<ph dataRef="id4" id="ph4" />bootmgfw.efi to <ph dataRef="id5" id="ph5" />efi<ph dataRef="id6" id="ph6" />boot<ph dataRef="id7" id="ph7" />boot<pc dataRefEnd="id9" dataRefStart="id8" id="p1">{arch}</pc>.efi on the EFI system partition.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>This copy enables a default boot option for Windows if a nonvolatile RAM (NVRAM) boot entry is not available, such as when a hard disk is moved from one platform to another.</source>
+          <target>This copy enables a default boot option for Windows if a nonvolatile RAM (NVRAM) boot entry is not available, such as when a hard disk is moved from one platform to another.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>When upgrading Windows, Windows preserves the existing boot order.</source>
+          <target>When upgrading Windows, Windows preserves the existing boot order.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>When you perform a clean install of Windows, Windows updates the boot order so that it's the first boot entry in the list.</source>
+          <target>When you perform a clean install of Windows, Windows updates the boot order so that it's the first boot entry in the list.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Other media information</source>
+          <target>Other media information</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>The following additional guidelines apply for boot media:</source>
+          <target>The following additional guidelines apply for boot media:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Windows supports both CD and DVD boot from the Universal Disk Format (UDF) file system.</source>
+          <target>Windows supports both CD and DVD boot from the Universal Disk Format (UDF) file system.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Windows installation media also uses El Torito and is built by using the UDF bridge format to support both ISO 9660 and UDF version 1.02 file systems.</source>
+          <target>Windows installation media also uses El Torito and is built by using the UDF bridge format to support both ISO 9660 and UDF version 1.02 file systems.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>The Windows Assessment and Deployment Kit (Windows ADK) includes an updated version of Oscdimg.exe that supports the creation of a multi-entry El Torito boot catalog.</source>
+          <target>The Windows Assessment and Deployment Kit (Windows ADK) includes an updated version of Oscdimg.exe that supports the creation of a multi-entry El Torito boot catalog.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>UEFI Firmware</source>
+          <target>UEFI Firmware</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>BCDBoot Command-Line Options</source>
+          <target>BCDBoot Command-Line Options</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Boot to UEFI Mode or Legacy BIOS mode</source>
+          <target>Boot to UEFI Mode or Legacy BIOS mode</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>WinPE: Boot in UEFI or legacy BIOS mode</source>
+          <target>WinPE: Boot in UEFI or legacy BIOS mode</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

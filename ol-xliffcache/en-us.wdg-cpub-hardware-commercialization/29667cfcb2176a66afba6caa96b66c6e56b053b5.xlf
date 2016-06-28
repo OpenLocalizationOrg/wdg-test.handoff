@@ -1,0 +1,1078 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\mobile\mmos-image-definition.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">29667cfcb2176a66afba6caa96b66c6e56b053b5</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>MMOS image definition</source>
+          <target>MMOS image definition</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>MMOS image definition</source>
+          <target>MMOS image definition</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>MMOS image definition</source>
+          <target>MMOS image definition</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This section provides instructions for creating Windows 10 Mobile MMOS images.</source>
+          <target>This section provides instructions for creating Windows 10 Mobile MMOS images.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>This process is similar to the process for creating the primary OS image.</source>
+          <target>This process is similar to the process for creating the primary OS image.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Creating an MMOS image</source>
+          <target>Creating an MMOS image</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>The MMOS image created during this process requires packages from the SoC manufacturer and the OEM in addition to those provided by Microsoft.</source>
+          <target>The MMOS image created during this process requires packages from the SoC manufacturer and the OEM in addition to those provided by Microsoft.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The OEM packages that are included in the sample MfgOEMInput.xml configuration file are for illustration purposes only.</source>
+          <target>The OEM packages that are included in the sample MfgOEMInput.xml configuration file are for illustration purposes only.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>OEMs should remove those example packages and replace them with their own OEM packages.</source>
+          <target>OEMs should remove those example packages and replace them with their own OEM packages.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>It is up to the OEM to determine which set to include in MMOS.</source>
+          <target>It is up to the OEM to determine which set to include in MMOS.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>OEMs can add additional OEM packages containing test applications and test controllers, etc.</source>
+          <target>OEMs can add additional OEM packages containing test applications and test controllers, etc.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>All the imaging and packaging tools are located in %WPDKCONTENTROOT%<ph dataRef="id1" id="ph1" />Tools<ph dataRef="id2" id="ph2" />bin<ph dataRef="id3" id="ph3" />i386.</source>
+          <target>All the imaging and packaging tools are located in %WPDKCONTENTROOT%<ph dataRef="id1" id="ph1" />Tools<ph dataRef="id2" id="ph2" />bin<ph dataRef="id3" id="ph3" />i386.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>This path must be included in your environment Path for the tools to work.</source>
+          <target>This path must be included in your environment Path for the tools to work.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>You must run these tools from a Visual Studio command-line window as an Administrator with access to MakeCat.exe in the environment path.</source>
+          <target>You must run these tools from a Visual Studio command-line window as an Administrator with access to MakeCat.exe in the environment path.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Creating OEM packages</source>
+          <target>Creating OEM packages</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Adding content to an image is done by creating your own packages.</source>
+          <target>Adding content to an image is done by creating your own packages.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>OEM packages can be added to an image by modifying the MfgOEMInput.xml file before creating an image with Windows Imaging and Configuration Designer (ICD).</source>
+          <target>OEM packages can be added to an image by modifying the MfgOEMInput.xml file before creating an image with Windows Imaging and Configuration Designer (ICD).</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/dn756642)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For instructions on creating packages, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Creating packages</pc>.</source>
+          <target>For instructions on creating packages, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Creating packages</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Specifying features in MMOS</source>
+          <target>Specifying features in MMOS</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Feature</pc> element in the MfgOEMInput.xml file to include optional packages provided by Microsoft.</source>
+          <target>You can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Feature</pc> element in the MfgOEMInput.xml file to include optional packages provided by Microsoft.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>You can modify the input XML file to support different features in MMOS for development, manufacturing, and retail service needs.</source>
+          <target>You can modify the input XML file to support different features in MMOS for development, manufacturing, and retail service needs.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Manufacturing development and debugging environment</source>
+          <target>Manufacturing development and debugging environment</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>The following features are defined and supported in the manufacturing development and debugging environment.</source>
+          <target>The following features are defined and supported in the manufacturing development and debugging environment.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>This environment can be used to create test applications for use in manufacturing.</source>
+          <target>This environment can be used to create test applications for use in manufacturing.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>The following features can only be used for test-signed packages and are not to be included in Customer Care WIM Images.</source>
+          <target>The following features can only be used for test-signed packages and are not to be included in Customer Care WIM Images.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>General features</source>
+          <target>General features</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Feature</source>
+          <target>Feature</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>ENABLE_BOOT_KEYS_TEST</source>
+          <target>ENABLE_BOOT_KEYS_TEST</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Enables a boot menu that is launched by pressing and holding the power button.</source>
+          <target>Enables a boot menu that is launched by pressing and holding the power button.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Use the Volume key to navigate and the Camera key to select.</source>
+          <target>Use the Volume key to navigate and the Camera key to select.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>This feature is mutually exclusive with <ph dataRef="id1" id="ph1" />ENABLE_BOOT_KEYS_RETAIL<ph dataRef="id2" id="ph2" />.</source>
+          <target>This feature is mutually exclusive with <ph dataRef="id1" id="ph1" />ENABLE_BOOT_KEYS_RETAIL<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>MOBILECOREBOOTSH</source>
+          <target>MOBILECOREBOOTSH</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Enables the bootsh service (bootshscv) so that features in startup.bsc, such as telnet and ftp, can be used.</source>
+          <target>Enables the bootsh service (bootshscv) so that features in startup.bsc, such as telnet and ftp, can be used.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>LABIMAGE</source>
+          <target>LABIMAGE</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>This feature causes the device to enter the FFU download mode automatically when the device is booted.</source>
+          <target>This feature causes the device to enter the FFU download mode automatically when the device is booted.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn789235)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the flashing tools provided by Microsoft</pc>.</source>
+          <target>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the flashing tools provided by Microsoft</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>MFGTSHELL</source>
+          <target>MFGTSHELL</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Enables TShell in MMOS and manufacturing mode.</source>
+          <target>Enables TShell in MMOS and manufacturing mode.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>If you use this, you need to set the TestSirepServer service to auto in your manufacturing profile.</source>
+          <target>If you use this, you need to set the TestSirepServer service to auto in your manufacturing profile.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>OPTIMIZED_BOOT</source>
+          <target>OPTIMIZED_BOOT</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Modifies the behavior of the OS boot process to start some system processes and services before all device drivers are started.</source>
+          <target>Modifies the behavior of the OS boot process to start some system processes and services before all device drivers are started.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Enabling this feature may decrease boot time, but it may also cause regressions in boot behavior in some scenarios.</source>
+          <target>Enabling this feature may decrease boot time, but it may also cause regressions in boot behavior in some scenarios.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>BOOTKEYACTIONS_RETAIL</source>
+          <target>BOOTKEYACTIONS_RETAIL</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>This feature enables a set of button actions for use in retail devices.</source>
+          <target>This feature enables a set of button actions for use in retail devices.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>DISABLE_FFU_PLAT_ID_CHECK</source>
+          <target>DISABLE_FFU_PLAT_ID_CHECK</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Disables the device platform validation in the Microsoft flashing application.</source>
+          <target>Disables the device platform validation in the Microsoft flashing application.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn789235)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about the platform check in flashing, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the flashing tools provided by Microsoft</pc>.</source>
+          <target>For more information about the platform check in flashing, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the flashing tools provided by Microsoft</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>The device platform validation for flashing must not be disabled in retail images.</source>
+          <target>The device platform validation for flashing must not be disabled in retail images.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>PERF_TRACING_TOOLS</source>
+          <target>PERF_TRACING_TOOLS</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Contains tools for doing performance analysis, such as tools for stopping and merging ETL tracing.</source>
+          <target>Contains tools for doing performance analysis, such as tools for stopping and merging ETL tracing.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>ENABLE_BOOT_PERF_BASIC_TRACING</source>
+          <target>ENABLE_BOOT_PERF_BASIC_TRACING</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Enables boot performance tracing events to be generated.</source>
+          <target>Enables boot performance tracing events to be generated.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>ENABLE_BOOT_PERF_CPU_PROFILING_TRACING</source>
+          <target>ENABLE_BOOT_PERF_CPU_PROFILING_TRACING</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Enables CPU profiling events on top of what ENABLE_BOOT_PERF_BASIC_TRACING enables.</source>
+          <target>Enables CPU profiling events on top of what ENABLE_BOOT_PERF_BASIC_TRACING enables.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Debug features</source>
+          <target>Debug features</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Use the following settings to specify the transport that is used for debugging.</source>
+          <target>Use the following settings to specify the transport that is used for debugging.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>If a debugging feature is not specified, debugging will not be enabled in MMOS.</source>
+          <target>If a debugging feature is not specified, debugging will not be enabled in MMOS.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Feature</source>
+          <target>Feature</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>KDNETUSB_ON</source>
+          <target>KDNETUSB_ON</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Includes all kernel debugger transports and enables KDNET over USB.</source>
+          <target>Includes all kernel debugger transports and enables KDNET over USB.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>KDUSB_ON</source>
+          <target>KDUSB_ON</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Includes all kernel debugger transports and enables KDUSB.</source>
+          <target>Includes all kernel debugger transports and enables KDUSB.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Do not include either KDUSB_ON or KDNETUSB_ON if you need to enable MTP or IP over USB in the image.</source>
+          <target>Do not include either KDUSB_ON or KDNETUSB_ON if you need to enable MTP or IP over USB in the image.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>If the kernel debugger is enabled in the image and the debug transports are used to connect to the phone, the kernel debugger has exclusive use of the USB port and prevents MTP and IP over USB from working.</source>
+          <target>If the kernel debugger is enabled in the image and the debug transports are used to connect to the phone, the kernel debugger has exclusive use of the USB port and prevents MTP and IP over USB from working.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>KDSERIAL_ON</source>
+          <target>KDSERIAL_ON</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Includes all kernel debugger transports and enables KDSERIAL with the following settings: 115200 Baud, 8 bit, no parity.</source>
+          <target>Includes all kernel debugger transports and enables KDSERIAL with the following settings: 115200 Baud, 8 bit, no parity.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>KD</source>
+          <target>KD</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Includes all kernel debugger transports in the image, but does not enable the kernel debugger.</source>
+          <target>Includes all kernel debugger transports in the image, but does not enable the kernel debugger.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>MFGCRASHDUMPSUPPORT</source>
+          <target>MFGCRASHDUMPSUPPORT</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>This feature enables offline crash dump functionality by using the wpcrdmp method for MMOS images.</source>
+          <target>This feature enables offline crash dump functionality by using the wpcrdmp method for MMOS images.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>When the device crashes, it activates wpcrdmp and saves a dump of the memory and SOC subsystems to the disk for an offline investigation.</source>
+          <target>When the device crashes, it activates wpcrdmp and saves a dump of the memory and SOC subsystems to the disk for an offline investigation.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>MWDBGSRV</source>
+          <target>MWDBGSRV</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>This feature adds support for the user mode debug server.</source>
+          <target>This feature adds support for the user mode debug server.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>The previous DEBUGGERON feature has been deprecated.</source>
+          <target>The previous DEBUGGERON feature has been deprecated.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Other debug features</source>
+          <target>Other debug features</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Feature</source>
+          <target>Feature</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Dumpsize setting features - The following three features must only be used with the Test and Health image types.</source>
+          <target>Dumpsize setting features - The following three features must only be used with the Test and Health image types.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>These features must not be used with retail images.</source>
+          <target>These features must not be used with retail images.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Only one dumpsize setting can be selected at a time.</source>
+          <target>Only one dumpsize setting can be selected at a time.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>DUMPSIZE512MB</source>
+          <target>DUMPSIZE512MB</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Specifies a pre-allocated crash dump file size of 592 MB.</source>
+          <target>Specifies a pre-allocated crash dump file size of 592 MB.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>This is intended for a phone with 512 MB of memory.</source>
+          <target>This is intended for a phone with 512 MB of memory.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>DUMPSIZE1G</source>
+          <target>DUMPSIZE1G</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Specifies a pre-allocated crash dump file size of 1104 MB.</source>
+          <target>Specifies a pre-allocated crash dump file size of 1104 MB.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>This is intended for a phone with 1024 MB of memory.</source>
+          <target>This is intended for a phone with 1024 MB of memory.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>DUMPSIZE2G</source>
+          <target>DUMPSIZE2G</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Specifies a pre-allocated crash dump file size of 2128 MB.</source>
+          <target>Specifies a pre-allocated crash dump file size of 2128 MB.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>This is intended for a phone with 2048 MB of memory.</source>
+          <target>This is intended for a phone with 2048 MB of memory.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Dump data storage location - The next two settings control if crash dump data is stored on eMMC or if crash dump data is stored on an SD card.</source>
+          <target>Dump data storage location - The next two settings control if crash dump data is stored on eMMC or if crash dump data is stored on an SD card.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Only one of these settings can be selected at a time.</source>
+          <target>Only one of these settings can be selected at a time.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>These two features must only be used with the Test, Health and Selfhost image types.</source>
+          <target>These two features must only be used with the Test, Health and Selfhost image types.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>These features must not be used with retail images.</source>
+          <target>These features must not be used with retail images.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>DEDICATEDDUMPONEMMC</source>
+          <target>DEDICATEDDUMPONEMMC</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Specifies that the DedicatedDumpFile location as c:\crashdump\dedicateddump.sys.</source>
+          <target>Specifies that the DedicatedDumpFile location as c:\crashdump\dedicateddump.sys.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Note<ph dataRef="id1" id="ph1" />  This cannot be used with DEDICATEDDUMPONSDCARD.</source>
+          <target>Note<ph dataRef="id1" id="ph1" />  This cannot be used with DEDICATEDDUMPONSDCARD.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>DEDICATEDDUMPONSD</source>
+          <target>DEDICATEDDUMPONSD</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>DEDICATEDDUMPONSD – Specifies that the DedicatedDumpFile location as d:\dedicateddump.sys</source>
+          <target>DEDICATEDDUMPONSD – Specifies that the DedicatedDumpFile location as d:\dedicateddump.sys</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>When DEDICATEDDUMPONSD is used, crash dump will be disabled if the user removes the SD card or if the card is not present when the device booted.</source>
+          <target>When DEDICATEDDUMPONSD is used, crash dump will be disabled if the user removes the SD card or if the card is not present when the device booted.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>To re-enable crash dump:</source>
+          <target>To re-enable crash dump:</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">&lt;code&gt;HKLM\System\CurrentControlSet\Control\CrashControl\CrashDumpEnabled&lt;/code&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set this registry key <ph dataRef="id1" id="ph1" /> to the value of</source>
+          <target>Set this registry key <ph dataRef="id1" id="ph1" /> to the value of</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Reboot the device.</source>
+          <target>Reboot the device.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Note<ph dataRef="id1" id="ph1" />  This cannot be used with DEDICATEDDUMPONEEMC.</source>
+          <target>Note<ph dataRef="id1" id="ph1" />  This cannot be used with DEDICATEDDUMPONEEMC.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>DBGCHKDISABLE</source>
+          <target>DBGCHKDISABLE</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>This feature disables debugger connection checking and the debugger connection status is ignored.</source>
+          <target>This feature disables debugger connection checking and the debugger connection status is ignored.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>The effect on the debugger behavior is different depending on the SoC that is being used.</source>
+          <target>The effect on the debugger behavior is different depending on the SoC that is being used.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>For QC8x26 and QC8974 devices, include DBGCHKDISABLE to ensure that offline dumps will be generated even if the device is connected to a debugger.</source>
+          <target>For QC8x26 and QC8974 devices, include DBGCHKDISABLE to ensure that offline dumps will be generated even if the device is connected to a debugger.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Otherwise, an Offline Dump (Bug Check Code 0x14C dump) will not be created but a raw dump will still be created.</source>
+          <target>Otherwise, an Offline Dump (Bug Check Code 0x14C dump) will not be created but a raw dump will still be created.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>For 8960 devices, include DBGCHKDISABLE to ensure that offline dumps will be generated even if the device is connected to a debugger.</source>
+          <target>For 8960 devices, include DBGCHKDISABLE to ensure that offline dumps will be generated even if the device is connected to a debugger.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Otherwise, an Offline Dump (i.e. Bug Check Code 0x14C dump) will not be created.</source>
+          <target>Otherwise, an Offline Dump (i.e. Bug Check Code 0x14C dump) will not be created.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>MSVCRT_DEBUG</source>
+          <target>MSVCRT_DEBUG</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>This feature adds support for explicit linking of debug c-runtime libs by including msvcp120d.dll and msvcr120d.dll in the image.</source>
+          <target>This feature adds support for explicit linking of debug c-runtime libs by including msvcp120d.dll and msvcr120d.dll in the image.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://msdn.microsoft.com/library/abx4dbyh.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see this topic on MSDN: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CRT Library Features</pc>.</source>
+          <target>For more information, see this topic on MSDN: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CRT Library Features</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>MWDBGSRV</source>
+          <target>MWDBGSRV</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>This feature adds support for the user mode debug server.</source>
+          <target>This feature adds support for the user mode debug server.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>NOLIVEDUMPS</source>
+          <target>NOLIVEDUMPS</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Disables non-fatal kernel error reports.</source>
+          <target>Disables non-fatal kernel error reports.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>These reports contain debugging information for OS and driver developers.</source>
+          <target>These reports contain debugging information for OS and driver developers.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>TELEMETRYONSDCARD</source>
+          <target>TELEMETRYONSDCARD</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>This feature enables temporary storage of debugging logs and files on the SD card.</source>
+          <target>This feature enables temporary storage of debugging logs and files on the SD card.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>This feature is only appropriate for test/self-host images and only on devices with less than 8 GB of free space of primary storage.</source>
+          <target>This feature is only appropriate for test/self-host images and only on devices with less than 8 GB of free space of primary storage.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Customer Care WIM Images</source>
+          <target>Customer Care WIM Images</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>The following features are supported in MMOS in the manufacturing production environment.</source>
+          <target>The following features are supported in MMOS in the manufacturing production environment.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Feature</source>
+          <target>Feature</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>ENABLE_BOOT_KEYS_RETAIL</source>
+          <target>ENABLE_BOOT_KEYS_RETAIL</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>Enables a set of buttons on the phone for use in retail device.</source>
+          <target>Enables a set of buttons on the phone for use in retail device.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>This feature is mutually exclusive with <ph dataRef="id1" id="ph1" />ENABLE_BOOT_KEYS_TEST<ph dataRef="id2" id="ph2" /> (see the previous table).</source>
+          <target>This feature is mutually exclusive with <ph dataRef="id1" id="ph1" />ENABLE_BOOT_KEYS_TEST<ph dataRef="id2" id="ph2" /> (see the previous table).</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>ENABLE_IP_OVER_USB</source>
+          <target>ENABLE_IP_OVER_USB</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Enables IP Over USB.</source>
+          <target>Enables IP Over USB.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>ENABLE_USB_COMPOSITE</source>
+          <target>ENABLE_USB_COMPOSITE</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Enables the systems on a chip (SoC) provided composite USB stack in MMOS.</source>
+          <target>Enables the systems on a chip (SoC) provided composite USB stack in MMOS.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Dual use features</source>
+          <target>Dual use features</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>These MMOS features can be used with either test or retail customer care images.</source>
+          <target>These MMOS features can be used with either test or retail customer care images.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>ENABLE_MMOS_CHARGING</source>
+          <target>ENABLE_MMOS_CHARGING</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Enables battery charging when running in MMOS.</source>
+          <target>Enables battery charging when running in MMOS.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>UEFI charging must be either disabled or enabled for MMOS to work.</source>
+          <target>UEFI charging must be either disabled or enabled for MMOS to work.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Only one of these options can be set at a time.</source>
+          <target>Only one of these options can be set at a time.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>ENABLE_UEFI_CHARGING</source>
+          <target>ENABLE_UEFI_CHARGING</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>Enables battery charging when running in UEFI.</source>
+          <target>Enables battery charging when running in UEFI.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>DISABLE_UEFI_CHARGING</source>
+          <target>DISABLE_UEFI_CHARGING</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Disables battery charging when running in UEFI.</source>
+          <target>Disables battery charging when running in UEFI.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>There are additional features that are defined in other image types of the operating system that are not supported in MMOS.</source>
+          <target>There are additional features that are defined in other image types of the operating system that are not supported in MMOS.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>This list is not exhaustive, but it provides examples of features that are not supported in the manufacturing or retail environments:</source>
+          <target>This list is not exhaustive, but it provides examples of features that are not supported in the manufacturing or retail environments:</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>TESTINFRASTRUCTURE</source>
+          <target>TESTINFRASTRUCTURE</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>IMGFAKELED</source>
+          <target>IMGFAKELED</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>LABIMAGE</source>
+          <target>LABIMAGE</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>LOCATIONFRAMEWORKAPP</source>
+          <target>LOCATIONFRAMEWORKAPP</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Configuring the MMOS MfgOEMInput.xml file</source>
+          <target>Configuring the MMOS MfgOEMInput.xml file</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>Open the sample MfgOEMInput.xml file using a text editor.</source>
+          <target>Open the sample MfgOEMInput.xml file using a text editor.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>By default, this file is installed to %WPDKCONTENTROOT%<ph dataRef="id1" id="ph1" />OEMInputSamples<ph dataRef="id2" id="ph2" />8960Fluid.</source>
+          <target>By default, this file is installed to %WPDKCONTENTROOT%<ph dataRef="id1" id="ph1" />OEMInputSamples<ph dataRef="id2" id="ph2" />8960Fluid.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Add needed MMOS features as described previously.</source>
+          <target>Add needed MMOS features as described previously.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>Add any required OEM packages to the file.</source>
+          <target>Add any required OEM packages to the file.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">`Manufacturing OS`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Locate the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Product</pc> element and confirm that it is set to "<ph dataRef="id3" id="ph1" />".</source>
+          <target>Locate the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Product</pc> element and confirm that it is set to "<ph dataRef="id3" id="ph1" />".</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>You can optionally update the description to record information about the OS image.</source>
+          <target>You can optionally update the description to record information about the OS image.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Locate the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SOC</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Device</pc> elements and change them as necessary.</source>
+          <target>Locate the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SOC</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Device</pc> elements and change them as necessary.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add %WPDKCONTENTROOT%<ph dataRef="id1" id="ph1" />Tools<ph dataRef="id2" id="ph2" />bin<ph dataRef="id3" id="ph3" />i386 to your environment <pc dataRefEnd="id5" dataRefStart="id4" id="p1">Path</pc> variable.</source>
+          <target>Add %WPDKCONTENTROOT%<ph dataRef="id1" id="ph1" />Tools<ph dataRef="id2" id="ph2" />bin<ph dataRef="id3" id="ph3" />i386 to your environment <pc dataRefEnd="id5" dataRefStart="id4" id="p1">Path</pc> variable.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

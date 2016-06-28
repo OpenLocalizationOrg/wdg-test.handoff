@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\performance\wpt\sessions.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">e8cbf37ae5cdf947c8b0119634a873dd44d23fa7</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Sessions</source>
+          <target>Sessions</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Sessions</source>
+          <target>Sessions</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Sessions</source>
+          <target>Sessions</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Windows Performance Recorder (WPR) extends Event Tracing for Windows (ETW).</source>
+          <target>Windows Performance Recorder (WPR) extends Event Tracing for Windows (ETW).</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>An ETW logging session is a collection of in-memory buffers that accepts events through the ETW Provider application programming interface (API).</source>
+          <target>An ETW logging session is a collection of in-memory buffers that accepts events through the ETW Provider application programming interface (API).</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>These buffers are typically non-paged and are managed by the kernel.</source>
+          <target>These buffers are typically non-paged and are managed by the kernel.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>ETW assigns a buffer to each processor.</source>
+          <target>ETW assigns a buffer to each processor.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>ETW event generation and buffering is lock-free to enable ETW to log all kinds of events.</source>
+          <target>ETW event generation and buffering is lock-free to enable ETW to log all kinds of events.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Every time that ETW calls the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EventWrite</pc> method, ETW reserves space in the current buffer that ETW has allocated to the processor that is running the calling thread.</source>
+          <target>Every time that ETW calls the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EventWrite</pc> method, ETW reserves space in the current buffer that ETW has allocated to the processor that is running the calling thread.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Then, ETW copies the event header and user data into that space.</source>
+          <target>Then, ETW copies the event header and user data into that space.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>When the buffer is full, ETW flushes the buffer to the logging session’s log file or the real-time streaming consumer.</source>
+          <target>When the buffer is full, ETW flushes the buffer to the logging session’s log file or the real-time streaming consumer.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>ETW then assigns a free buffer to that processor.</source>
+          <target>ETW then assigns a free buffer to that processor.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>If the logging throughput exceeds the ability of the flusher to free buffers, all available buffer space in the logging session might become unavailable.</source>
+          <target>If the logging throughput exceeds the ability of the flusher to free buffers, all available buffer space in the logging session might become unavailable.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>For example, this might occur because the disk write throughput is lower than the incoming event throughput.</source>
+          <target>For example, this might occur because the disk write throughput is lower than the incoming event throughput.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+          <data id="id5">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>This causes <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EventWrite</pc> to raise an ERROR<ph dataRef="id3" id="ph1" />NOT<ph dataRef="id4" id="ph2" />ENOUGH<ph dataRef="id5" id="ph3" />MEMORY error and lose the event data.</source>
+          <target>This causes <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EventWrite</pc> to raise an ERROR<ph dataRef="id3" id="ph1" />NOT<ph dataRef="id4" id="ph2" />ENOUGH<ph dataRef="id5" id="ph3" />MEMORY error and lose the event data.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In such cases, ETW increments the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EventsLost</pc> property of the logging session so that consumers can see the data loss.</source>
+          <target>In such cases, ETW increments the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EventsLost</pc> property of the logging session so that consumers can see the data loss.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](avoid-lost-events.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to avoid losing events in a recording, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Avoid Lost Events</pc>.</source>
+          <target>For more information about how to avoid losing events in a recording, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Avoid Lost Events</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Logging to Memory or to a File</source>
+          <target>Logging to Memory or to a File</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>You can configure profiles to record the event data to buffers in memory or to a file.</source>
+          <target>You can configure profiles to record the event data to buffers in memory or to a file.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Buffering mode is an in-memory circular session.</source>
+          <target>Buffering mode is an in-memory circular session.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>You can save the content of this session as a snapshot to an event trace log (ETL) file on request.</source>
+          <target>You can save the content of this session as a snapshot to an event trace log (ETL) file on request.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>WPR does not flush the content of the in-memory buffer space when you save the content.</source>
+          <target>WPR does not flush the content of the in-memory buffer space when you save the content.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>You can leave buffering mode sessions on constantly.</source>
+          <target>You can leave buffering mode sessions on constantly.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>This is especially useful if you do not know when the behavior of interest will occur.</source>
+          <target>This is especially useful if you do not know when the behavior of interest will occur.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Choose buffering mode when the required circular buffer space is small enough to be kept in memory.</source>
+          <target>Choose buffering mode when the required circular buffer space is small enough to be kept in memory.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Sequential log files are best for controlled scenarios.</source>
+          <target>Sequential log files are best for controlled scenarios.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>For example, you can use sequential log files for regression testing or when the occurrence of the behavior of interest is easier to predict.</source>
+          <target>For example, you can use sequential log files for regression testing or when the occurrence of the behavior of interest is easier to predict.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](logging-mode.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about logging options, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Logging Mode</pc>.</source>
+          <target>For more information about logging options, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Logging Mode</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Recording Profiles</source>
+          <target>Recording Profiles</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>A recording profile controls each session.</source>
+          <target>A recording profile controls each session.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>The profile can be either a built-in profile or a user-defined profile.</source>
+          <target>The profile can be either a built-in profile or a user-defined profile.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](recording-profiles.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recording Profiles</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recording Profiles</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Buffer Size</source>
+          <target>Buffer Size</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Buffer size is important for controlling I/O efficiency and ensuring that WPR does not skip large events.</source>
+          <target>Buffer size is important for controlling I/O efficiency and ensuring that WPR does not skip large events.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Very small buffers can reduce I/O write efficiency.</source>
+          <target>Very small buffers can reduce I/O write efficiency.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>We recommend a minimum buffer size of 64 KB or 128 KB to promote good write performance and to reduce disk overhead and lost events.</source>
+          <target>We recommend a minimum buffer size of 64 KB or 128 KB to promote good write performance and to reduce disk overhead and lost events.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Buffer size determines the maximum duration of a recording.</source>
+          <target>Buffer size determines the maximum duration of a recording.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>ETW limits the largest event size to approximately 64 KB.</source>
+          <target>ETW limits the largest event size to approximately 64 KB.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Collectors</source>
+          <target>Collectors</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>You must define a system collector and one or more event collectors for a session in the recording profile.</source>
+          <target>You must define a system collector and one or more event collectors for a session in the recording profile.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>The collector name must be unique to the system and the system must have exclusive write access to the log file.</source>
+          <target>The collector name must be unique to the system and the system must have exclusive write access to the log file.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>The name of the log file must also be unique among the file names of all collectors.</source>
+          <target>The name of the log file must also be unique among the file names of all collectors.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>WPR does not expand environment variables, so the path to the log file must be specified without environment variables.</source>
+          <target>WPR does not expand environment variables, so the path to the log file must be specified without environment variables.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](1-collector-definitions.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">1. Collector Definitions</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">1. Collector Definitions</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Providers</source>
+          <target>Providers</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Logging sessions collect from a defined set of system and event providers.</source>
+          <target>Logging sessions collect from a defined set of system and event providers.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>This is an important item to configure on a per-session basis.</source>
+          <target>This is an important item to configure on a per-session basis.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Most providers can have a many-to-many relationship with sessions.</source>
+          <target>Most providers can have a many-to-many relationship with sessions.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Special providers are necessary for some events, such as kernel or heap events.</source>
+          <target>Special providers are necessary for some events, such as kernel or heap events.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](providers.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Providers</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Providers</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>WPR Features</source>
+          <target>WPR Features</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>WPR Common Scenarios</source>
+          <target>WPR Common Scenarios</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Recording Profiles</source>
+          <target>Recording Profiles</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Buffers</source>
+          <target>Buffers</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>BufferSize</source>
+          <target>BufferSize</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

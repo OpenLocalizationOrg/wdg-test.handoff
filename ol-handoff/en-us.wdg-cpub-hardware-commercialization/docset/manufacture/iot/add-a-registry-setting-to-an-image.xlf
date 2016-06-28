@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\iot\add-a-registry-setting-to-an-image.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">468e6ec2dff5ded85f67a1330269689c54fb14a8</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Lab 1c: Add a file and a registry setting to an image</source>
+          <target>Lab 1c: Add a file and a registry setting to an image</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Lab 1c: Add a file and a registry setting to an image</source>
+          <target>Lab 1c: Add a file and a registry setting to an image</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>This content has been tested on Windows 10 IoT Core Build 10586.</source>
+          <target>This content has been tested on Windows 10 IoT Core Build 10586.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Some of these procedures do not yet work on newer preview builds, including Windows 10, version 1607.</source>
+          <target>Some of these procedures do not yet work on newer preview builds, including Windows 10, version 1607.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Many files and registry keys, and other customizations that you add to your image won't be specific to an architecture.</source>
+          <target>Many files and registry keys, and other customizations that you add to your image won't be specific to an architecture.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>For these, we recommend creating a common package that you can use for all of your builds.</source>
+          <target>For these, we recommend creating a common package that you can use for all of your builds.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>We'll create some test files and registry keys to the image, and again package them up so that they can be serviced after they reach your customers.</source>
+          <target>We'll create some test files and registry keys to the image, and again package them up so that they can be serviced after they reach your customers.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>We'll add these to a common feature manifest (OEMCommonFM.xml), which is used in both your x86 and ARM builds.</source>
+          <target>We'll add these to a common feature manifest (OEMCommonFM.xml), which is used in both your x86 and ARM builds.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Give it a new feature ID, OEM<ph dataRef="id1" id="ph1" />FileAndRegKey.</source>
+          <target>Give it a new feature ID, OEM<ph dataRef="id1" id="ph1" />FileAndRegKey.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>To add the features to the image, we'll go to our Product A, add our Feature Manifest and Feature ID.</source>
+          <target>To add the features to the image, we'll go to our Product A, add our Feature Manifest and Feature ID.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>We're also going to add a helper app, which is listed in feature manifest: OEMCommonFM.xml, with the ID: OEM<ph dataRef="id1" id="ph1" />CustomCmd.</source>
+          <target>We're also going to add a helper app, which is listed in feature manifest: OEMCommonFM.xml, with the ID: OEM<ph dataRef="id1" id="ph1" />CustomCmd.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>We'll add these FMs and Feature IDs to the test image configuration file (TestOEMInput.xml).</source>
+          <target>We'll add these FMs and Feature IDs to the test image configuration file (TestOEMInput.xml).</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Finally, we'll rebuild the project and make sure it works.</source>
+          <target>Finally, we'll rebuild the project and make sure it works.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  As we go through this manufacturing guide, ProjectA will start to resemble the SampleA image that's in C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Source-arm<ph dataRef="id5" id="ph3" />Products<ph dataRef="id6" id="ph4" />SampleA.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  As we go through this manufacturing guide, ProjectA will start to resemble the SampleA image that's in C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Source-arm<ph dataRef="id5" id="ph3" />Products<ph dataRef="id6" id="ph4" />SampleA.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Prerequisites</source>
+          <target>Prerequisites</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](create-a-basic-image.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](deploy-your-app-with-a-standard-board.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>We'll start with the ProjectA image we created from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lab 1a: Create a basic image</pc>, and updated in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Lab 1b: Add an app to your image</pc>.</source>
+          <target>We'll start with the ProjectA image we created from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lab 1a: Create a basic image</pc>, and updated in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Lab 1b: Add an app to your image</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Create your test files</source>
+          <target>Create your test files</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Create a few sample text files using Notepad, title them TestFile1.txt and TestFile2.txt.</source>
+          <target>Create a few sample text files using Notepad, title them TestFile1.txt and TestFile2.txt.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Build a package for your test files</source>
+          <target>Build a package for your test files</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Run <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Tools<ph dataRef="id5" id="ph3" />IoTCoreShell</pc> as an administrator.</source>
+          <target>Run <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Tools<ph dataRef="id5" id="ph3" />IoTCoreShell</pc> as an administrator.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Create a working folder for the registry key and test files, for example:</source>
+          <target>Create a working folder for the registry key and test files, for example:</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The new folder at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Common<ph dataRef="id5" id="ph3" />Packages<ph dataRef="id6" id="ph4" />Registry.ConfigSettings<ph dataRef="id7" id="ph5" /></pc>.</source>
+          <target>The new folder at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Common<ph dataRef="id5" id="ph3" />Packages<ph dataRef="id6" id="ph4" />Registry.ConfigSettings<ph dataRef="id7" id="ph5" /></pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Add sample files to the package</source>
+          <target>Add sample files to the package</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Copy your sample files (TestFile1.txt and TestFile2.txt), into the new folder at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Common<ph dataRef="id5" id="ph3" />Packages<ph dataRef="id6" id="ph4" />Registry.ConfigSettings<ph dataRef="id7" id="ph5" /></pc>.</source>
+          <target>Copy your sample files (TestFile1.txt and TestFile2.txt), into the new folder at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Common<ph dataRef="id5" id="ph3" />Packages<ph dataRef="id6" id="ph4" />Registry.ConfigSettings<ph dataRef="id7" id="ph5" /></pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Update the package definition file, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Common<ph dataRef="id5" id="ph3" />Packages<ph dataRef="id6" id="ph4" />Registry.ConfigSettings<ph dataRef="id7" id="ph5" />Registry.ConfigSettings.pkg.xml</pc>:</source>
+          <target>Update the package definition file, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Common<ph dataRef="id5" id="ph3" />Packages<ph dataRef="id6" id="ph4" />Registry.ConfigSettings<ph dataRef="id7" id="ph5" />Registry.ConfigSettings.pkg.xml</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>The default package definition file includes sample XML that has been commented out.</source>
+          <target>The default package definition file includes sample XML that has been commented out.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Remove the comment marks and instructions, then modify the sample to add your own registry keys and files.</source>
+          <target>Remove the comment marks and instructions, then modify the sample to add your own registry keys and files.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Update the values of RegKey to include a new KeyName, Name, and Value.</source>
+          <target>Update the values of RegKey to include a new KeyName, Name, and Value.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Optional: update the DestinationDir and Name.</source>
+          <target>Optional: update the DestinationDir and Name.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you don't include the DestinationDir option, the files will land in C:<ph dataRef="id1" id="ph1" />Windows<ph dataRef="id2" id="ph2" />system32<ph dataRef="id3" id="ph3" />.</source>
+          <target>If you don't include the DestinationDir option, the files will land in C:<ph dataRef="id1" id="ph1" />Windows<ph dataRef="id2" id="ph2" />system32<ph dataRef="id3" id="ph3" />.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Variables like (runtime.root) are defined in C:<ph dataRef="id1" id="ph1" />Program Files (x86)<ph dataRef="id2" id="ph2" />Windows Kits<ph dataRef="id3" id="ph3" />10<ph dataRef="id4" id="ph4" />Tools<ph dataRef="id5" id="ph5" />bin<ph dataRef="id6" id="ph6" />i386<ph dataRef="id7" id="ph7" />pkggen.cfg.xml.</source>
+          <target>Variables like (runtime.root) are defined in C:<ph dataRef="id1" id="ph1" />Program Files (x86)<ph dataRef="id2" id="ph2" />Windows Kits<ph dataRef="id3" id="ph3" />10<ph dataRef="id4" id="ph4" />Tools<ph dataRef="id5" id="ph5" />bin<ph dataRef="id6" id="ph6" />i386<ph dataRef="id7" id="ph7" />pkggen.cfg.xml.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>From the IoT Core Shell, build the package.</source>
+          <target>From the IoT Core Shell, build the package.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>(The BuildAllPackages tool builds everything in the source folders.)</source>
+          <target>(The BuildAllPackages tool builds everything in the source folders.)</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\&amp;lt;</data>
+          <data id="id6">&amp;gt;\\</data>
+          <data id="id7">\\&amp;lt;</data>
+          <data id="id8">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The package is built, appearing as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Build<ph dataRef="id5" id="ph3" />arch<ph dataRef="id6" id="ph4" />pkgs<ph dataRef="id7" id="ph5" />your OEM name<ph dataRef="id8" id="ph6" />.Registry.ConfigSettings.cab</pc>.</source>
+          <target>The package is built, appearing as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Build<ph dataRef="id5" id="ph3" />arch<ph dataRef="id6" id="ph4" />pkgs<ph dataRef="id7" id="ph5" />your OEM name<ph dataRef="id8" id="ph6" />.Registry.ConfigSettings.cab</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>All packages that you build appear in your architecture-specific folder.</source>
+          <target>All packages that you build appear in your architecture-specific folder.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tip: to quickly rebuild for another architecture, use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">setenv <ph dataRef="id3" id="ph1" />arch<ph dataRef="id4" id="ph2" /></pc>, then <pc dataRefEnd="id6" dataRefStart="id5" id="p2">BuildAllPackages</pc> to rebuild everything for your other architecture.</source>
+          <target>Tip: to quickly rebuild for another architecture, use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">setenv <ph dataRef="id3" id="ph1" />arch<ph dataRef="id4" id="ph2" /></pc>, then <pc dataRefEnd="id6" dataRefStart="id5" id="p2">BuildAllPackages</pc> to rebuild everything for your other architecture.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Update your feature manifest</source>
+          <target>Update your feature manifest</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Add your file package to the feature manifest</source>
+          <target>Add your file package to the feature manifest</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the common feature manifest file, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Common<ph dataRef="id5" id="ph3" />Packages<ph dataRef="id6" id="ph4" />OEMCommonFM.xml</pc></source>
+          <target>Open the common feature manifest file, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Common<ph dataRef="id5" id="ph3" />Packages<ph dataRef="id6" id="ph4" />OEMCommonFM.xml</pc></target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>Create a new PackageFile section in the XML, with your package file listed, and give it a new FeatureID, such as "OEM<ph dataRef="id1" id="ph1" />ConfigSettings".</source>
+          <target>Create a new PackageFile section in the XML, with your package file listed, and give it a new FeatureID, such as "OEM<ph dataRef="id1" id="ph1" />ConfigSettings".</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>You'll now be able to add your test files and reg keys to any of your products by adding a reference to this feature manifest and Feature ID.</source>
+          <target>You'll now be able to add your test files and reg keys to any of your products by adding a reference to this feature manifest and Feature ID.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Update the project's configuration files</source>
+          <target>Update the project's configuration files</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Add your file package</source>
+          <target>Add your file package</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open your product's test configuration file: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Source-arm<ph dataRef="id5" id="ph3" />Products<ph dataRef="id6" id="ph4" />ProductA<ph dataRef="id7" id="ph5" />TestOEMInput.xml</pc>.</source>
+          <target>Open your product's test configuration file: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Source-arm<ph dataRef="id5" id="ph3" />Products<ph dataRef="id6" id="ph4" />ProductA<ph dataRef="id7" id="ph5" />TestOEMInput.xml</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Make sure your feature manifest, OEMCommonFM.xml, is in the list of AdditionalFMs.</source>
+          <target>Make sure your feature manifest, OEMCommonFM.xml, is in the list of AdditionalFMs.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Add it if it isn't there already there:</source>
+          <target>Add it if it isn't there already there:</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Add the FeatureID for your file and reg key:</source>
+          <target>Add the FeatureID for your file and reg key:</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Build and test the image</source>
+          <target>Build and test the image</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Build the image</source>
+          <target>Build the image</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>From the IoT Core Shell, create the image:</source>
+          <target>From the IoT Core Shell, create the image:</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\&amp;lt;</data>
+          <data id="id4">&amp;gt;\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>This creates the product binaries at C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Build<ph dataRef="id3" id="ph3" />arch<ph dataRef="id4" id="ph4" />ProductA<ph dataRef="id5" id="ph5" />Flash.FFU.</source>
+          <target>This creates the product binaries at C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Build<ph dataRef="id3" id="ph3" />arch<ph dataRef="id4" id="ph4" />ProductA<ph dataRef="id5" id="ph5" />Flash.FFU.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">&amp;gt;</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Start <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows IoT Core Dashboard</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Setup a new device</pc><ph dataRef="id6" id="ph2" /><pc dataRefEnd="id8" dataRefStart="id7" id="p3">Custom</pc>, and browse to your image.</source>
+          <target>Start <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows IoT Core Dashboard</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Setup a new device</pc><ph dataRef="id6" id="ph2" /><pc dataRefEnd="id8" dataRefStart="id7" id="p3">Custom</pc>, and browse to your image.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Put the Micro SD card in the device, select it, accept the license terms, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc>.</source>
+          <target>Put the Micro SD card in the device, select it, accept the license terms, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>This replaces the previous image with our new image.</source>
+          <target>This replaces the previous image with our new image.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Put the card into the IoT device and start it up.</source>
+          <target>Put the card into the IoT device and start it up.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>After a short while, the device should start automatically, and you should see your app.</source>
+          <target>After a short while, the device should start automatically, and you should see your app.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Check to see if your files made it</source>
+          <target>Check to see if your files made it</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">\\\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On your technician PC, open File Explorer, and type in the IP address of the device with a <ph dataRef="id1" id="ph1" /> prefix and <ph dataRef="id2" id="ph2" />c$ suffix:</source>
+          <target>On your technician PC, open File Explorer, and type in the IP address of the device with a <ph dataRef="id1" id="ph1" /> prefix and <ph dataRef="id2" id="ph2" />c$ suffix:</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>When prompted, type in the username.</source>
+          <target>When prompted, type in the username.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The default username is: minwinpc<ph dataRef="id1" id="ph1" />administrator and the default password is p@ssw0rd.</source>
+          <target>The default username is: minwinpc<ph dataRef="id1" id="ph1" />administrator and the default password is p@ssw0rd.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Check to see if the files exist.</source>
+          <target>Check to see if the files exist.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Look for:</source>
+          <target>Look for:</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>10.100.0.100\c$<ph dataRef="id1" id="ph1" />Windows<ph dataRef="id2" id="ph2" />system32<ph dataRef="id3" id="ph3" />TestFile1.txt</source>
+          <target>10.100.0.100\c$<ph dataRef="id1" id="ph1" />Windows<ph dataRef="id2" id="ph2" />system32<ph dataRef="id3" id="ph3" />TestFile1.txt</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>10.100.0.100\c$<ph dataRef="id1" id="ph1" />OEMInstall<ph dataRef="id2" id="ph2" />TestFile2.txt</source>
+          <target>10.100.0.100\c$<ph dataRef="id1" id="ph1" />OEMInstall<ph dataRef="id2" id="ph2" />TestFile2.txt</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Check to see if your reg key exists</source>
+          <target>Check to see if your reg key exists</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe)</data>
+        </originalData>
+        <segment state="initial">
+          <source>On your technician PC, connect to your device using an SSH client, such as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PuTTY</pc>.</source>
+          <target>On your technician PC, connect to your device using an SSH client, such as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PuTTY</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>For example, use the IP address and port 22 to connect to the device, then log in using the Administrator account and password.</source>
+          <target>For example, use the IP address and port 22 to connect to the device, then log in using the Administrator account and password.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://ms-iot.github.io/content/en-US/win10/samples/SSH.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>(To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Using SSH to connect and configure a device running Windows IoT Core</pc>.)</source>
+          <target>(To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Using SSH to connect and configure a device running Windows IoT Core</pc>.)</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>From the command line in the SSH client, query the system for the reg key.</source>
+          <target>From the command line in the SSH client, query the system for the reg key.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>The registry tool should return your test values.</source>
+          <target>The registry tool should return your test values.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Next steps</source>
+          <target>Next steps</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Lab 1d: Add a provisioning package to an image</source>
+          <target>Lab 1d: Add a provisioning package to an image</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

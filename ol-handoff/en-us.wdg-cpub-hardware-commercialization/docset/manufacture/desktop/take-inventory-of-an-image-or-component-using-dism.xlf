@@ -1,0 +1,4411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\take-inventory-of-an-image-or-component-using-dism.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">d4cff7a205b475b71f36fadc9855a6d75cbf574a</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Take Inventory of an Image or Component Using DISM</source>
+          <target>Take Inventory of an Image or Component Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Take Inventory of an Image or Component Using DISM</source>
+          <target>Take Inventory of an Image or Component Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Take Inventory of an Image or Component Using DISM</source>
+          <target>Take Inventory of an Image or Component Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>You can take an inventory of what drivers, packages, and other files and settings are included in a Windows image.</source>
+          <target>You can take an inventory of what drivers, packages, and other files and settings are included in a Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>To do so, use Deployment Image Servicing and Management (DISM) servicing commands.</source>
+          <target>To do so, use Deployment Image Servicing and Management (DISM) servicing commands.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>You must mount an offline image from a WIM or VHD file before you can take inventory of or service a specific Windows image.</source>
+          <target>You must mount an offline image from a WIM or VHD file before you can take inventory of or service a specific Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](mount-and-modify-a-windows-image-using-dism.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mount and Modify a Windows Image Using DISM</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mount and Modify a Windows Image Using DISM</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>In this section:</source>
+          <target>In this section:</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Get Windows Image Information</source>
+          <target>Get Windows Image Information</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Get Windows PE Information</source>
+          <target>Get Windows PE Information</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Get Driver Information</source>
+          <target>Get Driver Information</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Get Package and Feature Information</source>
+          <target>Get Package and Feature Information</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Get App Package (.appx) Servicing Information</source>
+          <target>Get App Package (.appx) Servicing Information</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Get International Settings and Languages</source>
+          <target>Get International Settings and Languages</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Get Windows Edition Information</source>
+          <target>Get Windows Edition Information</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Get Application Patch Information</source>
+          <target>Get Application Patch Information</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Get Windows Image Information</source>
+          <target>Get Windows Image Information</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>You can use image commands to list the information about a specific Windows image in a (WIM) file or virtual hard disk (VHD) file, about the images contained in a specific WIM or VHD file, and about mounted WIM or VHD files.</source>
+          <target>You can use image commands to list the information about a specific Windows image in a (WIM) file or virtual hard disk (VHD) file, about the images contained in a specific WIM or VHD file, and about mounted WIM or VHD files.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>This information can help you identify mount locations, image names, or verify the architecture of the image that you are mounting.</source>
+          <target>This information can help you identify mount locations, image names, or verify the architecture of the image that you are mounting.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can gather information about all of the images in a WIM or VHD file by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Get-ImageInfo</pc> servicing command in DISM.</source>
+          <target>You can gather information about all of the images in a WIM or VHD file by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Get-ImageInfo</pc> servicing command in DISM.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>You can also gather information about a specific image in a WIM or VHD file, such as operating system, architecture, and settings, by specifying the name or index number of the image.</source>
+          <target>You can also gather information about a specific image in a WIM or VHD file, such as operating system, architecture, and settings, by specifying the name or index number of the image.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To specify the image in a VHD file, you must use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Index:1</pc> .</source>
+          <target>To specify the image in a VHD file, you must use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Index:1</pc> .</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can identify the images that are currently mounted on your computer, and you can list information about the mounted image such as read/write permissions, mount location, mounted file path, and mounted image index by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Get-MountedImageInfo</pc> servicing command.</source>
+          <target>You can identify the images that are currently mounted on your computer, and you can list information about the mounted image such as read/write permissions, mount location, mounted file path, and mounted image index by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Get-MountedImageInfo</pc> servicing command.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](dism---deployment-image-servicing-and-management-technical-reference-for-windows.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about image commands available in DISM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM - Deployment Image Servicing and Management Technical Reference for Windows</pc>.</source>
+          <target>For more information about image commands available in DISM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM - Deployment Image Servicing and Management Technical Reference for Windows</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>To list images that are contained in a WIM or VHD file</source>
+          <target>To list images that are contained in a WIM or VHD file</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>To list information about all of the images in a WIM or VHD file, at the elevated command prompt, type:</source>
+          <target>To list information about all of the images in a WIM or VHD file, at the elevated command prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When used with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Index</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/Name</pc> options, more detailed information about the specified image is displayed.</source>
+          <target>When used with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Index</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/Name</pc> options, more detailed information about the specified image is displayed.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">`/Index:1`</data>
+        </originalData>
+        <segment state="initial">
+          <source>To specify the image in a VHD file, you must use <ph dataRef="id1" id="ph1" />.</source>
+          <target>To specify the image in a VHD file, you must use <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>The report that is generated includes the following information.</source>
+          <target>The report that is generated includes the following information.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Field</source>
+          <target>Field</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Index</source>
+          <target>Index</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>The index value of the image in the WIM or VHD file.</source>
+          <target>The index value of the image in the WIM or VHD file.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>1</source>
+          <target>1</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Name</source>
+          <target>Name</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>The Windows edition name of the image in the WIM or VHD file.</source>
+          <target>The Windows edition name of the image in the WIM or VHD file.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Windows 8 Pro</source>
+          <target>Windows 8 Pro</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>The description of the image in the WIM or VHD file.</source>
+          <target>The description of the image in the WIM or VHD file.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Windows 8 Pro</source>
+          <target>Windows 8 Pro</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Size</source>
+          <target>Size</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>The size of the image.</source>
+          <target>The size of the image.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>8,045,951,502 bytes</source>
+          <target>8,045,951,502 bytes</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>To list mounted images</source>
+          <target>To list mounted images</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>At the elevated command prompt, type:</source>
+          <target>At the elevated command prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>The report generated includes the following information:</source>
+          <target>The report generated includes the following information:</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Field</source>
+          <target>Field</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Mount Dir</source>
+          <target>Mount Dir</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>The location where the image is mounted.</source>
+          <target>The location where the image is mounted.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>C:\Test\Mount</source>
+          <target>C:\Test\Mount</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Image File</source>
+          <target>Image File</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>The full path to the WIM or VHD file.</source>
+          <target>The full path to the WIM or VHD file.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>C:\Test\Images\install.wim</source>
+          <target>C:\Test\Images\install.wim</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Image Index</source>
+          <target>Image Index</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>The index number of the mounted image that is enclosed in WIM or VHD file.</source>
+          <target>The index number of the mounted image that is enclosed in WIM or VHD file.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>1</source>
+          <target>1</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Mounted Read/Write</source>
+          <target>Mounted Read/Write</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;strong&gt;</data>
+          <data id="id3">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Yes<ph dataRef="id1" id="ph1" /> if the mounted image allows for both read and write access or <ph dataRef="id2" id="ph2" />No<ph dataRef="id3" id="ph3" /> if the mounted image allows for read-only access only.</source>
+          <target>Yes<ph dataRef="id1" id="ph1" /> if the mounted image allows for both read and write access or <ph dataRef="id2" id="ph2" />No<ph dataRef="id3" id="ph3" /> if the mounted image allows for read-only access only.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Status</source>
+          <target>Status</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>The mount status of the image.</source>
+          <target>The mount status of the image.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>The possible values include the following:</source>
+          <target>The possible values include the following:</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>OK.</source>
+          <target>OK.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>The image is mounted.</source>
+          <target>The image is mounted.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>There are no problems.</source>
+          <target>There are no problems.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Needs Remount.</source>
+          <target>Needs Remount.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>The image must be remounted.</source>
+          <target>The image must be remounted.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>This can be caused by rebooting the host system when the image is mounted.</source>
+          <target>This can be caused by rebooting the host system when the image is mounted.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Invalid.<ph dataRef="id1" id="ph1" />: the image is in an invalid state.</source>
+          <target>Invalid.<ph dataRef="id1" id="ph1" />: the image is in an invalid state.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You might have to use <ph dataRef="id1" id="ph1" />/Cleanup-Mountpoints<ph dataRef="id2" id="ph2" /> on the image.</source>
+          <target>You might have to use <ph dataRef="id1" id="ph1" />/Cleanup-Mountpoints<ph dataRef="id2" id="ph2" /> on the image.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>OK</source>
+          <target>OK</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Get Windows PE Information</source>
+          <target>Get Windows PE Information</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>You can mount a Windows Preinstallation Environment (Windows PE) image for servicing in the same way you would any Windows image.</source>
+          <target>You can mount a Windows Preinstallation Environment (Windows PE) image for servicing in the same way you would any Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>There are also Windows PE servicing commands that are specific to a Windows PE image.</source>
+          <target>There are also Windows PE servicing commands that are specific to a Windows PE image.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>These commands can be used to list Windows PE settings such as scratchspace, targetpath, and profiling information.</source>
+          <target>These commands can be used to list Windows PE settings such as scratchspace, targetpath, and profiling information.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](dism-windows-pe-servicing-command-line-options.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about Windows PE servicing commands available in DISM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Windows PE Servicing Command-Line Options</pc>.</source>
+          <target>For more information about Windows PE servicing commands available in DISM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Windows PE Servicing Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>To list all settings in the mounted Windows PE image.</source>
+          <target>To list all settings in the mounted Windows PE image.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>To list information about all of the Windows PE settings in the mounted Windows PE image, at the elevated command prompt, type:</source>
+          <target>To list information about all of the Windows PE settings in the mounted Windows PE image, at the elevated command prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>The report generated includes the following information:</source>
+          <target>The report generated includes the following information:</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Field</source>
+          <target>Field</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Profiling</source>
+          <target>Profiling</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Reports whether Windows PE profiling is enabled or disabled.</source>
+          <target>Reports whether Windows PE profiling is enabled or disabled.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Disabled</source>
+          <target>Disabled</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Scratch Space</source>
+          <target>Scratch Space</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>The amount of writeable space available on the Windows PE system volume when booted in ramdisk mode.</source>
+          <target>The amount of writeable space available on the Windows PE system volume when booted in ramdisk mode.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>32MB</source>
+          <target>32MB</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>TargetPath</source>
+          <target>TargetPath</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>The path to the root of the Windows PE image at boot time.</source>
+          <target>The path to the root of the Windows PE image at boot time.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>X:\</source>
+          <target>X:\</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Get Driver Information</source>
+          <target>Get Driver Information</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>The driver-servicing commands can be used to enumerate driver packages in the driver store based on their .inf files.</source>
+          <target>The driver-servicing commands can be used to enumerate driver packages in the driver store based on their .inf files.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Get</pc> commands to display basic information about third-party driver packages or all driver packages in the offline image.</source>
+          <target>You can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Get</pc> commands to display basic information about third-party driver packages or all driver packages in the offline image.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>When you point to an offline image or a running operating system, you can determine what driver packages are in the image, and get information about the drivers.</source>
+          <target>When you point to an offline image or a running operating system, you can determine what driver packages are in the image, and get information about the drivers.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>You can display detailed information about a specific installed .inf file, or one that is not yet installed.</source>
+          <target>You can display detailed information about a specific installed .inf file, or one that is not yet installed.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Installed drivers in the driver store will be named Oem0.inf, Oem1.inf, and so on.</source>
+          <target>Installed drivers in the driver store will be named Oem0.inf, Oem1.inf, and so on.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](dism-driver-servicing-command-line-options-s14.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about driver-servicing commands available in DISM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Driver Servicing Command-Line Options</pc>.</source>
+          <target>For more information about driver-servicing commands available in DISM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Driver Servicing Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>To list driver packages in the offline image</source>
+          <target>To list driver packages in the offline image</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Use one of the following commands to list information about all of the driver packages in a mounted offline Windows image:</source>
+          <target>Use one of the following commands to list information about all of the driver packages in a mounted offline Windows image:</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>For a running operating system, type one of the following commands:</source>
+          <target>For a running operating system, type one of the following commands:</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>The report generated includes the following information:</source>
+          <target>The report generated includes the following information:</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Field</source>
+          <target>Field</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Published Name</source>
+          <target>Published Name</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>The name of the driver package after it is added to the driver store.</source>
+          <target>The name of the driver package after it is added to the driver store.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Oem0.inf</source>
+          <target>Oem0.inf</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Original File Name</source>
+          <target>Original File Name</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>The original .inf file name of the driver package.</source>
+          <target>The original .inf file name of the driver package.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Toaster.inf</source>
+          <target>Toaster.inf</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Inbox</source>
+          <target>Inbox</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;strong&gt;</data>
+          <data id="id3">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Yes<ph dataRef="id1" id="ph1" /> for a default driver (inbox driver) or <ph dataRef="id2" id="ph2" />No<ph dataRef="id3" id="ph3" /> for third-party driver packages.</source>
+          <target>Yes<ph dataRef="id1" id="ph1" /> for a default driver (inbox driver) or <ph dataRef="id2" id="ph2" />No<ph dataRef="id3" id="ph3" /> for third-party driver packages.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Class Name</source>
+          <target>Class Name</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>The friendly name of the device class the driver is a member of.</source>
+          <target>The friendly name of the device class the driver is a member of.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Printer</source>
+          <target>Printer</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Provider Name</source>
+          <target>Provider Name</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>The provider or digital signature for the driver package.</source>
+          <target>The provider or digital signature for the driver package.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Microsoft</source>
+          <target>Microsoft</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Date</source>
+          <target>Date</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>The date associated with the driver, as it is specified in the .inf file.</source>
+          <target>The date associated with the driver, as it is specified in the .inf file.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>The date will be formatted appropriately for your locale.</source>
+          <target>The date will be formatted appropriately for your locale.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>10/31/2006</source>
+          <target>10/31/2006</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Version</source>
+          <target>Version</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>The version number that is specified in the INF driverVer directive.</source>
+          <target>The version number that is specified in the INF driverVer directive.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>6.1.6801.0</source>
+          <target>6.1.6801.0</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>To get information about a specific driver</source>
+          <target>To get information about a specific driver</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>List information about a specific driver package in the offline Windows image.</source>
+          <target>List information about a specific driver package in the offline Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>For example, type:</source>
+          <target>For example, type:</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>For a running operating system, type:</source>
+          <target>For a running operating system, type:</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>The report generated includes the following information:</source>
+          <target>The report generated includes the following information:</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>Field</source>
+          <target>Field</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Published Name</source>
+          <target>Published Name</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>The name of the driver package after it is added to the driver store.</source>
+          <target>The name of the driver package after it is added to the driver store.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Oem0.inf</source>
+          <target>Oem0.inf</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Driver Store Path</source>
+          <target>Driver Store Path</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>The path to the driver location.</source>
+          <target>The path to the driver location.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>If the driver is installed, the path to the driver store is listed.</source>
+          <target>If the driver is installed, the path to the driver store is listed.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>If the driver is not installed yet, the path to the driver on the servicing host is listed.</source>
+          <target>If the driver is not installed yet, the path to the driver on the servicing host is listed.</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>E:\Images\Mount_depset\Windows\System32\DriverStore\FileRepository\Fasttx2k.inf_x86_neutral_0328f62e\Fasttx2k.inf</source>
+          <target>E:\Images\Mount_depset\Windows\System32\DriverStore\FileRepository\Fasttx2k.inf_x86_neutral_0328f62e\Fasttx2k.inf</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>Class Name</source>
+          <target>Class Name</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>The friendly name of the device class the driver is a member of.</source>
+          <target>The friendly name of the device class the driver is a member of.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>Printer</source>
+          <target>Printer</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>Class Description</source>
+          <target>Class Description</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>The description of the device class the driver is a member of.</source>
+          <target>The description of the device class the driver is a member of.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>Printers</source>
+          <target>Printers</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Class GUID</source>
+          <target>Class GUID</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>The GUID of the device class that the driver is a member of.</source>
+          <target>The GUID of the device class that the driver is a member of.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>{4D36E97B-E325-11CE-BFC1-08002BE10318}</source>
+          <target>{4D36E97B-E325-11CE-BFC1-08002BE10318}</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>Date</source>
+          <target>Date</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>The date associated with the driver, as it is specified in the .inf file.</source>
+          <target>The date associated with the driver, as it is specified in the .inf file.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>The date will be formatted appropriately for your locale.</source>
+          <target>The date will be formatted appropriately for your locale.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>8/6/2003</source>
+          <target>8/6/2003</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Version</source>
+          <target>Version</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>The driver version number that is specified in the INF driverVer directive.</source>
+          <target>The driver version number that is specified in the INF driverVer directive.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>1.0.1.37</source>
+          <target>1.0.1.37</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>Boot Critical</source>
+          <target>Boot Critical</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+          <data id="id2">&lt;strong&gt;</data>
+          <data id="id3">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Yes<ph dataRef="id1" id="ph1" /> if the driver is boot critical or <ph dataRef="id2" id="ph2" />No<ph dataRef="id3" id="ph3" /> if it is not.</source>
+          <target>Yes<ph dataRef="id1" id="ph1" /> if the driver is boot critical or <ph dataRef="id2" id="ph2" />No<ph dataRef="id3" id="ph3" /> if it is not.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>Drivers for architecture</source>
+          <target>Drivers for architecture</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>The architecture of the image that it is installed on.</source>
+          <target>The architecture of the image that it is installed on.</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>If the driver is not installed yet, the field is reported repeatedly for each supported operating system architecture.</source>
+          <target>If the driver is not installed yet, the field is reported repeatedly for each supported operating system architecture.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>x86</source>
+          <target>x86</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>Manufacturer</source>
+          <target>Manufacturer</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>The manufacturer of the supported device.</source>
+          <target>The manufacturer of the supported device.</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>Adventure Works</source>
+          <target>Adventure Works</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>A description of the supported device.</source>
+          <target>A description of the supported device.</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>Windows XP Adventure Works 376 Controller</source>
+          <target>Windows XP Adventure Works 376 Controller</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>Architecture</source>
+          <target>Architecture</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <segment state="initial">
+          <source>The architecture of the driver.</source>
+          <target>The architecture of the driver.</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>x86</source>
+          <target>x86</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>Hardware ID</source>
+          <target>Hardware ID</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>The hardware ID of the supported device.</source>
+          <target>The hardware ID of the supported device.</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>ABC_3376</source>
+          <target>ABC_3376</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>Service Name</source>
+          <target>Service Name</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>The service name of the driver.</source>
+          <target>The service name of the driver.</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>C1232k</source>
+          <target>C1232k</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>Compatible IDs</source>
+          <target>Compatible IDs</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>Alternate Plug and Play (PnP) IDs for the device, if any apply.</source>
+          <target>Alternate Plug and Play (PnP) IDs for the device, if any apply.</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>*12ABC</source>
+          <target>*12ABC</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>Exclude IDs</source>
+          <target>Exclude IDs</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>PnP IDs that will not match the device, any apply.</source>
+          <target>PnP IDs that will not match the device, any apply.</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>*A_123</source>
+          <target>*A_123</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>If you point to a driver that is not yet installed, the report will be slightly different.</source>
+          <target>If you point to a driver that is not yet installed, the report will be slightly different.</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>Get Package and Feature Information</source>
+          <target>Get Package and Feature Information</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>You can use operating system package-servicing commands to obtain information about Windows packages.</source>
+          <target>You can use operating system package-servicing commands to obtain information about Windows packages.</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>You can also use DISM and package-servicing commands to obtain information about Windows features, either offline or on a running Windows installation.</source>
+          <target>You can also use DISM and package-servicing commands to obtain information about Windows features, either offline or on a running Windows installation.</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/PackagePath</pc> option to specify a .cab file or a folder where the .cab file is extracted.</source>
+          <target>You can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/PackagePath</pc> option to specify a .cab file or a folder where the .cab file is extracted.</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>You cannot use this command to obtain package information for .msu files.</source>
+          <target>You cannot use this command to obtain package information for .msu files.</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Alternately, you can use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Get-Packages</pc> to find the name of a package, and then use <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/PackageName</pc> to specify the name of the package.</source>
+          <target>Alternately, you can use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Get-Packages</pc> to find the name of a package, and then use <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/PackageName</pc> to specify the name of the package.</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>You can display detailed information about a feature.</source>
+          <target>You can display detailed information about a feature.</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You must use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/FeatureName</pc> option with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/Get</pc> command.</source>
+          <target>You must use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/FeatureName</pc> option with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/Get</pc> command.</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Get-Features</pc> option to find the name of the feature in the image.</source>
+          <target>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Get-Features</pc> option to find the name of the feature in the image.</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>Feature names are case sensitive if you are servicing a Windows image other than Windows 8.</source>
+          <target>Feature names are case sensitive if you are servicing a Windows image other than Windows 8.</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](dism-operating-system-package-servicing-command-line-options.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about operating system package-servicing commands available in DISM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Operating System Package Servicing Command-Line Options</pc>.</source>
+          <target>For more information about operating system package-servicing commands available in DISM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Operating System Package Servicing Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>To list all packages in the image</source>
+          <target>To list all packages in the image</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>To list information about all of the packages in the offline Windows image, type the following command:</source>
+          <target>To list information about all of the packages in the offline Windows image, type the following command:</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <segment state="initial">
+          <source>For a running operating system, type the following command:</source>
+          <target>For a running operating system, type the following command:</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <segment state="initial">
+          <source>The report generated includes the following information:</source>
+          <target>The report generated includes the following information:</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <segment state="initial">
+          <source>Field</source>
+          <target>Field</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <segment state="initial">
+          <source>Package Identity</source>
+          <target>Package Identity</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <segment state="initial">
+          <source>The name of the package as it appears in the image.</source>
+          <target>The name of the package as it appears in the image.</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <segment state="initial">
+          <source>Microsoft-Windows-NetFx3-OC-Package~31bf3856ad364e35~x86~en-US~6.1.6772.0</source>
+          <target>Microsoft-Windows-NetFx3-OC-Package~31bf3856ad364e35~x86~en-US~6.1.6772.0</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <segment state="initial">
+          <source>State</source>
+          <target>State</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>The current state of the package.</source>
+          <target>The current state of the package.</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <segment state="initial">
+          <source>Such as:</source>
+          <target>Such as:</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>Installed.</source>
+          <target>Installed.</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <segment state="initial">
+          <source>The package is installed.</source>
+          <target>The package is installed.</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <segment state="initial">
+          <source>Install Pending.</source>
+          <target>Install Pending.</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <segment state="initial">
+          <source>The package is installed but requires a reboot to complete the pending online actions.</source>
+          <target>The package is installed but requires a reboot to complete the pending online actions.</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <segment state="initial">
+          <source>Staged.</source>
+          <target>Staged.</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <segment state="initial">
+          <source>The package is staged for installation.</source>
+          <target>The package is staged for installation.</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <segment state="initial">
+          <source>Installed</source>
+          <target>Installed</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <segment state="initial">
+          <source>Release Type</source>
+          <target>Release Type</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <segment state="initial">
+          <source>The type of package that it is.</source>
+          <target>The type of package that it is.</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <segment state="initial">
+          <source>Such as:</source>
+          <target>Such as:</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <segment state="initial">
+          <source>Feature Pack.</source>
+          <target>Feature Pack.</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <segment state="initial">
+          <source>A Windows operating system feature.</source>
+          <target>A Windows operating system feature.</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <segment state="initial">
+          <source>Language Pack.</source>
+          <target>Language Pack.</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <segment state="initial">
+          <source>A Windows operating system Language pack or Language Interface Pack (LIP).</source>
+          <target>A Windows operating system Language pack or Language Interface Pack (LIP).</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <segment state="initial">
+          <source>Foundation.</source>
+          <target>Foundation.</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <segment state="initial">
+          <source>Core operating system components including optional features.</source>
+          <target>Core operating system components including optional features.</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <segment state="initial">
+          <source>Feature Pack</source>
+          <target>Feature Pack</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <segment state="initial">
+          <source>Install Time</source>
+          <target>Install Time</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <segment state="initial">
+          <source>The UTC date and time when the installation occurred.</source>
+          <target>The UTC date and time when the installation occurred.</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <segment state="initial">
+          <source>If the package is not installed yet, the Install Time field is left blank.</source>
+          <target>If the package is not installed yet, the Install Time field is left blank.</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <segment state="initial">
+          <source>8/18/2008 7:58:00 PM</source>
+          <target>8/18/2008 7:58:00 PM</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <segment state="initial">
+          <source>To list information about a specific package</source>
+          <target>To list information about a specific package</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <segment state="initial">
+          <source>To list information about a specific package in the offline Windows image, type one of the following commands:</source>
+          <target>To list information about a specific package in the offline Windows image, type one of the following commands:</target>
+        </segment>
+      </unit>
+      <unit id="354">
+        <segment state="initial">
+          <source>For a running operating system, type one of the following commands:</source>
+          <target>For a running operating system, type one of the following commands:</target>
+        </segment>
+      </unit>
+      <unit id="355">
+        <segment state="initial">
+          <source>The report generated includes the following information:</source>
+          <target>The report generated includes the following information:</target>
+        </segment>
+      </unit>
+      <unit id="356">
+        <segment state="initial">
+          <source>Field</source>
+          <target>Field</target>
+        </segment>
+      </unit>
+      <unit id="357">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="358">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="359">
+        <segment state="initial">
+          <source>Package Identity</source>
+          <target>Package Identity</target>
+        </segment>
+      </unit>
+      <unit id="360">
+        <segment state="initial">
+          <source>The name of the package as it appears in the image.</source>
+          <target>The name of the package as it appears in the image.</target>
+        </segment>
+      </unit>
+      <unit id="361">
+        <segment state="initial">
+          <source>Microsoft-Windows-NetFx3-OC-Package~31bf3856ad364e35~x86~en-US~6.1.6772.0</source>
+          <target>Microsoft-Windows-NetFx3-OC-Package~31bf3856ad364e35~x86~en-US~6.1.6772.0</target>
+        </segment>
+      </unit>
+      <unit id="362">
+        <segment state="initial">
+          <source>Applicable</source>
+          <target>Applicable</target>
+        </segment>
+      </unit>
+      <unit id="363">
+        <segment state="initial">
+          <source>Indicates if the package applies to the image.</source>
+          <target>Indicates if the package applies to the image.</target>
+        </segment>
+      </unit>
+      <unit id="364">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="365">
+        <segment state="initial">
+          <source>Copyright</source>
+          <target>Copyright</target>
+        </segment>
+      </unit>
+      <unit id="366">
+        <segment state="initial">
+          <source>Copyright information for the package.</source>
+          <target>Copyright information for the package.</target>
+        </segment>
+      </unit>
+      <unit id="367">
+        <segment state="initial">
+          <source>Copyright© Microsoft Corporation.</source>
+          <target>Copyright© Microsoft Corporation.</target>
+        </segment>
+      </unit>
+      <unit id="368">
+        <segment state="initial">
+          <source>All Rights Reserved.</source>
+          <target>All Rights Reserved.</target>
+        </segment>
+      </unit>
+      <unit id="369">
+        <segment state="initial">
+          <source>Company</source>
+          <target>Company</target>
+        </segment>
+      </unit>
+      <unit id="370">
+        <segment state="initial">
+          <source>The company that provided the package, if available.</source>
+          <target>The company that provided the package, if available.</target>
+        </segment>
+      </unit>
+      <unit id="371">
+        <segment state="initial">
+          <source>Microsoft Corporation</source>
+          <target>Microsoft Corporation</target>
+        </segment>
+      </unit>
+      <unit id="372">
+        <segment state="initial">
+          <source>Creation Time</source>
+          <target>Creation Time</target>
+        </segment>
+      </unit>
+      <unit id="373">
+        <segment state="initial">
+          <source>The date and time the package was created, if available.</source>
+          <target>The date and time the package was created, if available.</target>
+        </segment>
+      </unit>
+      <unit id="374">
+        <segment state="initial">
+          <source>8/18/2008 7:58:00 PM</source>
+          <target>8/18/2008 7:58:00 PM</target>
+        </segment>
+      </unit>
+      <unit id="375">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="376">
+        <segment state="initial">
+          <source>A brief description of the package.</source>
+          <target>A brief description of the package.</target>
+        </segment>
+      </unit>
+      <unit id="377">
+        <segment state="initial">
+          <source>Fix for KB300106</source>
+          <target>Fix for KB300106</target>
+        </segment>
+      </unit>
+      <unit id="378">
+        <segment state="initial">
+          <source>Install Client</source>
+          <target>Install Client</target>
+        </segment>
+      </unit>
+      <unit id="379">
+        <segment state="initial">
+          <source>The client tool that installed the package.</source>
+          <target>The client tool that installed the package.</target>
+        </segment>
+      </unit>
+      <unit id="380">
+        <segment state="initial">
+          <source>DISM Package Manager Provider</source>
+          <target>DISM Package Manager Provider</target>
+        </segment>
+      </unit>
+      <unit id="381">
+        <segment state="initial">
+          <source>Install Package Name</source>
+          <target>Install Package Name</target>
+        </segment>
+      </unit>
+      <unit id="382">
+        <segment state="initial">
+          <source>The installed package.mum file name.</source>
+          <target>The installed package.mum file name.</target>
+        </segment>
+      </unit>
+      <unit id="383">
+        <segment state="initial">
+          <source>Microsoft-Windows-NetFx3-OC-Package~31bf3856ad364e35~x86~en-US~6.1.6772.0.mum</source>
+          <target>Microsoft-Windows-NetFx3-OC-Package~31bf3856ad364e35~x86~en-US~6.1.6772.0.mum</target>
+        </segment>
+      </unit>
+      <unit id="384">
+        <segment state="initial">
+          <source>Install Time</source>
+          <target>Install Time</target>
+        </segment>
+      </unit>
+      <unit id="385">
+        <segment state="initial">
+          <source>The date and time the package was installed.</source>
+          <target>The date and time the package was installed.</target>
+        </segment>
+      </unit>
+      <unit id="386">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the package is not installed yet, the <ph dataRef="id1" id="ph1" />Install Time<ph dataRef="id2" id="ph2" /> field is left blank.</source>
+          <target>If the package is not installed yet, the <ph dataRef="id1" id="ph1" />Install Time<ph dataRef="id2" id="ph2" /> field is left blank.</target>
+        </segment>
+      </unit>
+      <unit id="387">
+        <segment state="initial">
+          <source>8/18/2008 7:58:00 PM</source>
+          <target>8/18/2008 7:58:00 PM</target>
+        </segment>
+      </unit>
+      <unit id="388">
+        <segment state="initial">
+          <source>Last Update Time</source>
+          <target>Last Update Time</target>
+        </segment>
+      </unit>
+      <unit id="389">
+        <segment state="initial">
+          <source>The date the package was last updated, if available.</source>
+          <target>The date the package was last updated, if available.</target>
+        </segment>
+      </unit>
+      <unit id="390">
+        <segment state="initial">
+          <source>8/18/2008 7:58:00 PM</source>
+          <target>8/18/2008 7:58:00 PM</target>
+        </segment>
+      </unit>
+      <unit id="391">
+        <segment state="initial">
+          <source>Name</source>
+          <target>Name</target>
+        </segment>
+      </unit>
+      <unit id="392">
+        <segment state="initial">
+          <source>The display name of the package, localized if available.</source>
+          <target>The display name of the package, localized if available.</target>
+        </segment>
+      </unit>
+      <unit id="393">
+        <originalData>
+          <data id="id1">&amp;quot;</data>
+          <data id="id2">&amp;quot;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Generally, <ph dataRef="id1" id="ph1" />default<ph dataRef="id2" id="ph2" /> will be displayed for all servicing packages.</source>
+          <target>Generally, <ph dataRef="id1" id="ph1" />default<ph dataRef="id2" id="ph2" /> will be displayed for all servicing packages.</target>
+        </segment>
+      </unit>
+      <unit id="394">
+        <segment state="initial">
+          <source>ActiveX® Installer Service</source>
+          <target>ActiveX® Installer Service</target>
+        </segment>
+      </unit>
+      <unit id="395">
+        <segment state="initial">
+          <source>Product Name</source>
+          <target>Product Name</target>
+        </segment>
+      </unit>
+      <unit id="396">
+        <segment state="initial">
+          <source>The name of the product that the package belongs to, if available.</source>
+          <target>The name of the product that the package belongs to, if available.</target>
+        </segment>
+      </unit>
+      <unit id="397">
+        <segment state="initial">
+          <source>Microsoft-Windows-NetFx3-OC-Package</source>
+          <target>Microsoft-Windows-NetFx3-OC-Package</target>
+        </segment>
+      </unit>
+      <unit id="398">
+        <segment state="initial">
+          <source>Product Version</source>
+          <target>Product Version</target>
+        </segment>
+      </unit>
+      <unit id="399">
+        <segment state="initial">
+          <source>The version of the product that the package belongs to, if available.</source>
+          <target>The version of the product that the package belongs to, if available.</target>
+        </segment>
+      </unit>
+      <unit id="400">
+        <segment state="initial">
+          <source>123.01.0000</source>
+          <target>123.01.0000</target>
+        </segment>
+      </unit>
+      <unit id="401">
+        <segment state="initial">
+          <source>Release Type</source>
+          <target>Release Type</target>
+        </segment>
+      </unit>
+      <unit id="402">
+        <segment state="initial">
+          <source>The type of package that it is.</source>
+          <target>The type of package that it is.</target>
+        </segment>
+      </unit>
+      <unit id="403">
+        <segment state="initial">
+          <source>Such as:</source>
+          <target>Such as:</target>
+        </segment>
+      </unit>
+      <unit id="404">
+        <segment state="initial">
+          <source>Feature Pack.</source>
+          <target>Feature Pack.</target>
+        </segment>
+      </unit>
+      <unit id="405">
+        <segment state="initial">
+          <source>A Windows operating system feature.</source>
+          <target>A Windows operating system feature.</target>
+        </segment>
+      </unit>
+      <unit id="406">
+        <segment state="initial">
+          <source>Language Pack.</source>
+          <target>Language Pack.</target>
+        </segment>
+      </unit>
+      <unit id="407">
+        <segment state="initial">
+          <source>A Windows operating system Language pack or Language Interface Pack (LIP).</source>
+          <target>A Windows operating system Language pack or Language Interface Pack (LIP).</target>
+        </segment>
+      </unit>
+      <unit id="408">
+        <segment state="initial">
+          <source>Foundation.</source>
+          <target>Foundation.</target>
+        </segment>
+      </unit>
+      <unit id="409">
+        <segment state="initial">
+          <source>Core operating system components including optional features.</source>
+          <target>Core operating system components including optional features.</target>
+        </segment>
+      </unit>
+      <unit id="410">
+        <segment state="initial">
+          <source>Feature Pack</source>
+          <target>Feature Pack</target>
+        </segment>
+      </unit>
+      <unit id="411">
+        <segment state="initial">
+          <source>Restart Required</source>
+          <target>Restart Required</target>
+        </segment>
+      </unit>
+      <unit id="412">
+        <segment state="initial">
+          <source>Indicates if a reboot is required when you install or uninstall the package online.</source>
+          <target>Indicates if a reboot is required when you install or uninstall the package online.</target>
+        </segment>
+      </unit>
+      <unit id="413">
+        <segment state="initial">
+          <source>Possible</source>
+          <target>Possible</target>
+        </segment>
+      </unit>
+      <unit id="414">
+        <segment state="initial">
+          <source>Support Information</source>
+          <target>Support Information</target>
+        </segment>
+      </unit>
+      <unit id="415">
+        <segment state="initial">
+          <source>Where to find support information, if available.</source>
+          <target>Where to find support information, if available.</target>
+        </segment>
+      </unit>
+      <unit id="416">
+        <segment state="initial">
+          <source>http://support.microsoft.com/?kbid=300106</source>
+          <target>http://support.microsoft.com/?kbid=300106</target>
+        </segment>
+      </unit>
+      <unit id="417">
+        <segment state="initial">
+          <source>State</source>
+          <target>State</target>
+        </segment>
+      </unit>
+      <unit id="418">
+        <segment state="initial">
+          <source>Indicates if the package is installed in the operating system.</source>
+          <target>Indicates if the package is installed in the operating system.</target>
+        </segment>
+      </unit>
+      <unit id="419">
+        <segment state="initial">
+          <source>Possible values include the following:</source>
+          <target>Possible values include the following:</target>
+        </segment>
+      </unit>
+      <unit id="420">
+        <segment state="initial">
+          <source>Not Present.</source>
+          <target>Not Present.</target>
+        </segment>
+      </unit>
+      <unit id="421">
+        <segment state="initial">
+          <source>The package is not installed.</source>
+          <target>The package is not installed.</target>
+        </segment>
+      </unit>
+      <unit id="422">
+        <segment state="initial">
+          <source>Installed.</source>
+          <target>Installed.</target>
+        </segment>
+      </unit>
+      <unit id="423">
+        <segment state="initial">
+          <source>The package is installed.</source>
+          <target>The package is installed.</target>
+        </segment>
+      </unit>
+      <unit id="424">
+        <segment state="initial">
+          <source>Install Pending.</source>
+          <target>Install Pending.</target>
+        </segment>
+      </unit>
+      <unit id="425">
+        <segment state="initial">
+          <source>The package will be installed but requires a reboot to complete pending online actions.</source>
+          <target>The package will be installed but requires a reboot to complete pending online actions.</target>
+        </segment>
+      </unit>
+      <unit id="426">
+        <segment state="initial">
+          <source>Staged.</source>
+          <target>Staged.</target>
+        </segment>
+      </unit>
+      <unit id="427">
+        <segment state="initial">
+          <source>The package is staged for installation.</source>
+          <target>The package is staged for installation.</target>
+        </segment>
+      </unit>
+      <unit id="428">
+        <segment state="initial">
+          <source>Installed</source>
+          <target>Installed</target>
+        </segment>
+      </unit>
+      <unit id="429">
+        <segment state="initial">
+          <source>Completely offline capable</source>
+          <target>Completely offline capable</target>
+        </segment>
+      </unit>
+      <unit id="430">
+        <segment state="initial">
+          <source>Yes.</source>
+          <target>Yes.</target>
+        </segment>
+      </unit>
+      <unit id="431">
+        <segment state="initial">
+          <source>The package can be installed offline without booting the image.</source>
+          <target>The package can be installed offline without booting the image.</target>
+        </segment>
+      </unit>
+      <unit id="432">
+        <segment state="initial">
+          <source>No.</source>
+          <target>No.</target>
+        </segment>
+      </unit>
+      <unit id="433">
+        <segment state="initial">
+          <source>You must boot into the image in order to complete installation of this package.</source>
+          <target>You must boot into the image in order to complete installation of this package.</target>
+        </segment>
+      </unit>
+      <unit id="434">
+        <segment state="initial">
+          <source>Undetermined.</source>
+          <target>Undetermined.</target>
+        </segment>
+      </unit>
+      <unit id="435">
+        <segment state="initial">
+          <source>You may have to boot into the image in order to complete the installation of this package.</source>
+          <target>You may have to boot into the image in order to complete the installation of this package.</target>
+        </segment>
+      </unit>
+      <unit id="436">
+        <segment state="initial">
+          <source>Many packages can be installed offline entirely.</source>
+          <target>Many packages can be installed offline entirely.</target>
+        </segment>
+      </unit>
+      <unit id="437">
+        <segment state="initial">
+          <source>If you attempt to install a package offline and a reboot is required, it will be reported in the log file.</source>
+          <target>If you attempt to install a package offline and a reboot is required, it will be reported in the log file.</target>
+        </segment>
+      </unit>
+      <unit id="438">
+        <segment state="initial">
+          <source>You can check the status of a package using the Get-PackageInfo command.</source>
+          <target>You can check the status of a package using the Get-PackageInfo command.</target>
+        </segment>
+      </unit>
+      <unit id="439">
+        <segment state="initial">
+          <source>This field is only applicable to Windows 8, Windows Server® 2012, and Windows Preinstallation Environment (Windows PE) 4.0 target images.</source>
+          <target>This field is only applicable to Windows 8, Windows Server® 2012, and Windows Preinstallation Environment (Windows PE) 4.0 target images.</target>
+        </segment>
+      </unit>
+      <unit id="440">
+        <segment state="initial">
+          <source>Custom Properties</source>
+          <target>Custom Properties</target>
+        </segment>
+      </unit>
+      <unit id="441">
+        <segment state="initial">
+          <source>A list of custom properties defined in the package manifest file.</source>
+          <target>A list of custom properties defined in the package manifest file.</target>
+        </segment>
+      </unit>
+      <unit id="442">
+        <segment state="initial">
+          <source>If there are no custom properties, (No custom properties found) will be displayed.</source>
+          <target>If there are no custom properties, (No custom properties found) will be displayed.</target>
+        </segment>
+      </unit>
+      <unit id="443">
+        <segment state="initial">
+          <source>Dependency: Language Pack</source>
+          <target>Dependency: Language Pack</target>
+        </segment>
+      </unit>
+      <unit id="444">
+        <segment state="initial">
+          <source>Features listing for package</source>
+          <target>Features listing for package</target>
+        </segment>
+      </unit>
+      <unit id="445">
+        <segment state="initial">
+          <source>A list of the features found in the package.</source>
+          <target>A list of the features found in the package.</target>
+        </segment>
+      </unit>
+      <unit id="446">
+        <segment state="initial">
+          <source>If there is no feature in the package, the package identity will be displayed followed by (No features found for this package).</source>
+          <target>If there is no feature in the package, the package identity will be displayed followed by (No features found for this package).</target>
+        </segment>
+      </unit>
+      <unit id="447">
+        <segment state="initial">
+          <source>Microsoft-Windows-NetFx3-OC-Package~31bf3856ad364e35~x86~en-US~6.1.6772.0 (No features found for this package)</source>
+          <target>Microsoft-Windows-NetFx3-OC-Package~31bf3856ad364e35~x86~en-US~6.1.6772.0 (No features found for this package)</target>
+        </segment>
+      </unit>
+      <unit id="448">
+        <segment state="initial">
+          <source>To list all features in the image</source>
+          <target>To list all features in the image</target>
+        </segment>
+      </unit>
+      <unit id="449">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="450">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="451">
+        <segment state="initial">
+          <source>To list information about the features in the offline Windows image, type one of the following commands:</source>
+          <target>To list information about the features in the offline Windows image, type one of the following commands:</target>
+        </segment>
+      </unit>
+      <unit id="452">
+        <segment state="initial">
+          <source>For a running operating system, type one of the following commands:</source>
+          <target>For a running operating system, type one of the following commands:</target>
+        </segment>
+      </unit>
+      <unit id="453">
+        <segment state="initial">
+          <source>The report generated includes the following information:</source>
+          <target>The report generated includes the following information:</target>
+        </segment>
+      </unit>
+      <unit id="454">
+        <segment state="initial">
+          <source>Field</source>
+          <target>Field</target>
+        </segment>
+      </unit>
+      <unit id="455">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="456">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="457">
+        <segment state="initial">
+          <source>Feature Name</source>
+          <target>Feature Name</target>
+        </segment>
+      </unit>
+      <unit id="458">
+        <segment state="initial">
+          <source>The name of the feature as it appears in the image.</source>
+          <target>The name of the feature as it appears in the image.</target>
+        </segment>
+      </unit>
+      <unit id="459">
+        <segment state="initial">
+          <source>InboxGames</source>
+          <target>InboxGames</target>
+        </segment>
+      </unit>
+      <unit id="460">
+        <segment state="initial">
+          <source>State</source>
+          <target>State</target>
+        </segment>
+      </unit>
+      <unit id="461">
+        <segment state="initial">
+          <source>The current state of the feature.</source>
+          <target>The current state of the feature.</target>
+        </segment>
+      </unit>
+      <unit id="462">
+        <segment state="initial">
+          <source>Possible values include the following:</source>
+          <target>Possible values include the following:</target>
+        </segment>
+      </unit>
+      <unit id="463">
+        <segment state="initial">
+          <source>Enabled.</source>
+          <target>Enabled.</target>
+        </segment>
+      </unit>
+      <unit id="464">
+        <segment state="initial">
+          <source>The feature is enabled.</source>
+          <target>The feature is enabled.</target>
+        </segment>
+      </unit>
+      <unit id="465">
+        <segment state="initial">
+          <source>Disabled.</source>
+          <target>Disabled.</target>
+        </segment>
+      </unit>
+      <unit id="466">
+        <segment state="initial">
+          <source>The feature is disabled.</source>
+          <target>The feature is disabled.</target>
+        </segment>
+      </unit>
+      <unit id="467">
+        <segment state="initial">
+          <source>Enable Pending.</source>
+          <target>Enable Pending.</target>
+        </segment>
+      </unit>
+      <unit id="468">
+        <segment state="initial">
+          <source>The feature will be enabled but requires a reboot to complete pending online actions.</source>
+          <target>The feature will be enabled but requires a reboot to complete pending online actions.</target>
+        </segment>
+      </unit>
+      <unit id="469">
+        <segment state="initial">
+          <source>Disable Pending.</source>
+          <target>Disable Pending.</target>
+        </segment>
+      </unit>
+      <unit id="470">
+        <segment state="initial">
+          <source>The feature will be disabled but requires a reboot to complete pending online actions.</source>
+          <target>The feature will be disabled but requires a reboot to complete pending online actions.</target>
+        </segment>
+      </unit>
+      <unit id="471">
+        <segment state="initial">
+          <source>Disabled with Payload Removed.</source>
+          <target>Disabled with Payload Removed.</target>
+        </segment>
+      </unit>
+      <unit id="472">
+        <segment state="initial">
+          <source>The feature is disabled and its payload has been removed.</source>
+          <target>The feature is disabled and its payload has been removed.</target>
+        </segment>
+      </unit>
+      <unit id="473">
+        <segment state="initial">
+          <source>Only the package metadata is present in the image.</source>
+          <target>Only the package metadata is present in the image.</target>
+        </segment>
+      </unit>
+      <unit id="474">
+        <segment state="initial">
+          <source>The payload can be restored and the feature can be enabled on demand after the image is deployed.</source>
+          <target>The payload can be restored and the feature can be enabled on demand after the image is deployed.</target>
+        </segment>
+      </unit>
+      <unit id="475">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](configure-a-windows-repair-source.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about features on demand, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure a Windows Repair Source</pc>.</source>
+          <target>For more information about features on demand, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure a Windows Repair Source</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="476">
+        <segment state="initial">
+          <source>Disabled</source>
+          <target>Disabled</target>
+        </segment>
+      </unit>
+      <unit id="477">
+        <segment state="initial">
+          <source>To list information about a specific feature</source>
+          <target>To list information about a specific feature</target>
+        </segment>
+      </unit>
+      <unit id="478">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="479">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="480">
+        <segment state="initial">
+          <source>To list information about a specific feature in the offline Windows image, type one of the following commands:</source>
+          <target>To list information about a specific feature in the offline Windows image, type one of the following commands:</target>
+        </segment>
+      </unit>
+      <unit id="481">
+        <segment state="initial">
+          <source>For a running operating system, type the following command:</source>
+          <target>For a running operating system, type the following command:</target>
+        </segment>
+      </unit>
+      <unit id="482">
+        <segment state="initial">
+          <source>The report generated includes the following information:</source>
+          <target>The report generated includes the following information:</target>
+        </segment>
+      </unit>
+      <unit id="483">
+        <segment state="initial">
+          <source>Field</source>
+          <target>Field</target>
+        </segment>
+      </unit>
+      <unit id="484">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="485">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="486">
+        <segment state="initial">
+          <source>Feature Name</source>
+          <target>Feature Name</target>
+        </segment>
+      </unit>
+      <unit id="487">
+        <segment state="initial">
+          <source>Name of the feature.</source>
+          <target>Name of the feature.</target>
+        </segment>
+      </unit>
+      <unit id="488">
+        <segment state="initial">
+          <source>InboxGames</source>
+          <target>InboxGames</target>
+        </segment>
+      </unit>
+      <unit id="489">
+        <segment state="initial">
+          <source>Display Name</source>
+          <target>Display Name</target>
+        </segment>
+      </unit>
+      <unit id="490">
+        <segment state="initial">
+          <source>The name of the feature as it appears in the user interface.</source>
+          <target>The name of the feature as it appears in the user interface.</target>
+        </segment>
+      </unit>
+      <unit id="491">
+        <segment state="initial">
+          <source>Games</source>
+          <target>Games</target>
+        </segment>
+      </unit>
+      <unit id="492">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="493">
+        <segment state="initial">
+          <source>A brief description of the feature.</source>
+          <target>A brief description of the feature.</target>
+        </segment>
+      </unit>
+      <unit id="494">
+        <segment state="initial">
+          <source>Standard inbox games.</source>
+          <target>Standard inbox games.</target>
+        </segment>
+      </unit>
+      <unit id="495">
+        <segment state="initial">
+          <source>Restart Required</source>
+          <target>Restart Required</target>
+        </segment>
+      </unit>
+      <unit id="496">
+        <segment state="initial">
+          <source>Indicates if a restart is required when you enable or disable this feature.</source>
+          <target>Indicates if a restart is required when you enable or disable this feature.</target>
+        </segment>
+      </unit>
+      <unit id="497">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="498">
+        <segment state="initial">
+          <source>State</source>
+          <target>State</target>
+        </segment>
+      </unit>
+      <unit id="499">
+        <segment state="initial">
+          <source>The current state of the feature.</source>
+          <target>The current state of the feature.</target>
+        </segment>
+      </unit>
+      <unit id="500">
+        <segment state="initial">
+          <source>Possible values include the following:</source>
+          <target>Possible values include the following:</target>
+        </segment>
+      </unit>
+      <unit id="501">
+        <segment state="initial">
+          <source>Enabled.</source>
+          <target>Enabled.</target>
+        </segment>
+      </unit>
+      <unit id="502">
+        <segment state="initial">
+          <source>The feature is enabled.</source>
+          <target>The feature is enabled.</target>
+        </segment>
+      </unit>
+      <unit id="503">
+        <segment state="initial">
+          <source>Disabled.</source>
+          <target>Disabled.</target>
+        </segment>
+      </unit>
+      <unit id="504">
+        <segment state="initial">
+          <source>The feature is disabled.</source>
+          <target>The feature is disabled.</target>
+        </segment>
+      </unit>
+      <unit id="505">
+        <segment state="initial">
+          <source>Enable Pending.</source>
+          <target>Enable Pending.</target>
+        </segment>
+      </unit>
+      <unit id="506">
+        <segment state="initial">
+          <source>The feature will be enabled but requires a reboot to complete pending online actions.</source>
+          <target>The feature will be enabled but requires a reboot to complete pending online actions.</target>
+        </segment>
+      </unit>
+      <unit id="507">
+        <segment state="initial">
+          <source>Disable Pending.</source>
+          <target>Disable Pending.</target>
+        </segment>
+      </unit>
+      <unit id="508">
+        <segment state="initial">
+          <source>The feature will be disabled but requires a reboot to complete pending online actions.</source>
+          <target>The feature will be disabled but requires a reboot to complete pending online actions.</target>
+        </segment>
+      </unit>
+      <unit id="509">
+        <segment state="initial">
+          <source>Disabled with Payload Removed.</source>
+          <target>Disabled with Payload Removed.</target>
+        </segment>
+      </unit>
+      <unit id="510">
+        <segment state="initial">
+          <source>The feature is disabled and its payload has been removed.</source>
+          <target>The feature is disabled and its payload has been removed.</target>
+        </segment>
+      </unit>
+      <unit id="511">
+        <segment state="initial">
+          <source>Only the package metadata is present in the image.</source>
+          <target>Only the package metadata is present in the image.</target>
+        </segment>
+      </unit>
+      <unit id="512">
+        <segment state="initial">
+          <source>The payload can be restored and the feature can be enabled on demand after the image is deployed.</source>
+          <target>The payload can be restored and the feature can be enabled on demand after the image is deployed.</target>
+        </segment>
+      </unit>
+      <unit id="513">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](configure-a-windows-repair-source.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about features on demand, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure a Windows Repair Source</pc>.</source>
+          <target>For more information about features on demand, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure a Windows Repair Source</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="514">
+        <segment state="initial">
+          <source>Disabled</source>
+          <target>Disabled</target>
+        </segment>
+      </unit>
+      <unit id="515">
+        <segment state="initial">
+          <source>Custom Properties</source>
+          <target>Custom Properties</target>
+        </segment>
+      </unit>
+      <unit id="516">
+        <segment state="initial">
+          <source>A list of custom properties defined in the package manifest file.</source>
+          <target>A list of custom properties defined in the package manifest file.</target>
+        </segment>
+      </unit>
+      <unit id="517">
+        <segment state="initial">
+          <source>If there are no custom properties, (No custom properties found) will be displayed.</source>
+          <target>If there are no custom properties, (No custom properties found) will be displayed.</target>
+        </segment>
+      </unit>
+      <unit id="518">
+        <segment state="initial">
+          <source>Dependency: Language Pack</source>
+          <target>Dependency: Language Pack</target>
+        </segment>
+      </unit>
+      <unit id="519">
+        <segment state="initial">
+          <source>Get App Package (.appx) Servicing Information</source>
+          <target>Get App Package (.appx) Servicing Information</target>
+        </segment>
+      </unit>
+      <unit id="520">
+        <segment state="initial">
+          <source>You can use the app package (.appx) servicing commands to list the provisioned apps in a Windows image.</source>
+          <target>You can use the app package (.appx) servicing commands to list the provisioned apps in a Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="521">
+        <segment state="initial">
+          <source>Provisioned apps will be registered for every user profile that is created for the Windows image.</source>
+          <target>Provisioned apps will be registered for every user profile that is created for the Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="522">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](dism-app-package--appx-or-appxbundle--servicing-command-line-options.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about app package servicing commands available in DISM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM App Package (.appx or .appxbundle) Servicing Command-Line Options</pc>.</source>
+          <target>For more information about app package servicing commands available in DISM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM App Package (.appx or .appxbundle) Servicing Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="523">
+        <segment state="initial">
+          <source>To list provisioned apps in the Windows image</source>
+          <target>To list provisioned apps in the Windows image</target>
+        </segment>
+      </unit>
+      <unit id="524">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="525">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="526">
+        <segment state="initial">
+          <source>To list provisioned apps in a mounted offline Windows image, type:</source>
+          <target>To list provisioned apps in a mounted offline Windows image, type:</target>
+        </segment>
+      </unit>
+      <unit id="527">
+        <segment state="initial">
+          <source>For a running operating system, type:</source>
+          <target>For a running operating system, type:</target>
+        </segment>
+      </unit>
+      <unit id="528">
+        <segment state="initial">
+          <source>The report generated includes the following information:</source>
+          <target>The report generated includes the following information:</target>
+        </segment>
+      </unit>
+      <unit id="529">
+        <segment state="initial">
+          <source>Field</source>
+          <target>Field</target>
+        </segment>
+      </unit>
+      <unit id="530">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="531">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="532">
+        <segment state="initial">
+          <source>DisplayName</source>
+          <target>DisplayName</target>
+        </segment>
+      </unit>
+      <unit id="533">
+        <segment state="initial">
+          <source>The name of the app.</source>
+          <target>The name of the app.</target>
+        </segment>
+      </unit>
+      <unit id="534">
+        <segment state="initial">
+          <source>Fabrikam.Sample.CS</source>
+          <target>Fabrikam.Sample.CS</target>
+        </segment>
+      </unit>
+      <unit id="535">
+        <segment state="initial">
+          <source>Version</source>
+          <target>Version</target>
+        </segment>
+      </unit>
+      <unit id="536">
+        <segment state="initial">
+          <source>The version number of the app package.</source>
+          <target>The version number of the app package.</target>
+        </segment>
+      </unit>
+      <unit id="537">
+        <segment state="initial">
+          <source>1.0.0.0</source>
+          <target>1.0.0.0</target>
+        </segment>
+      </unit>
+      <unit id="538">
+        <segment state="initial">
+          <source>Architecture</source>
+          <target>Architecture</target>
+        </segment>
+      </unit>
+      <unit id="539">
+        <segment state="initial">
+          <source>The architecture of the app.</source>
+          <target>The architecture of the app.</target>
+        </segment>
+      </unit>
+      <unit id="540">
+        <segment state="initial">
+          <source>neutral</source>
+          <target>neutral</target>
+        </segment>
+      </unit>
+      <unit id="541">
+        <segment state="initial">
+          <source>ResourceID</source>
+          <target>ResourceID</target>
+        </segment>
+      </unit>
+      <unit id="542">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?linkid=252145)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">App packaging glossary</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">App packaging glossary</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="543">
+        <segment state="initial">
+          <source>PackageName</source>
+          <target>PackageName</target>
+        </segment>
+      </unit>
+      <unit id="544">
+        <segment state="initial">
+          <source>The full name of the app package.</source>
+          <target>The full name of the app package.</target>
+        </segment>
+      </unit>
+      <unit id="545">
+        <segment state="initial">
+          <source>Fabrikam.Sample.CS_1.0.0.0_neutral_s9y1p3hwd5qda</source>
+          <target>Fabrikam.Sample.CS_1.0.0.0_neutral_s9y1p3hwd5qda</target>
+        </segment>
+      </unit>
+      <unit id="546">
+        <segment state="initial">
+          <source>Get International Settings and Languages</source>
+          <target>Get International Settings and Languages</target>
+        </segment>
+      </unit>
+      <unit id="547">
+        <segment state="initial">
+          <source>The international servicing commands can be used to query existing international settings in Windows and Windows PE images.</source>
+          <target>The international servicing commands can be used to query existing international settings in Windows and Windows PE images.</target>
+        </segment>
+      </unit>
+      <unit id="548">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](dism-languages-and-international-servicing-command-line-options.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about operating system package-servicing commands available in DISM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Languages and International Servicing Command-Line Options</pc>.</source>
+          <target>For more information about operating system package-servicing commands available in DISM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Languages and International Servicing Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="549">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="550">
+        <segment state="initial">
+          <source>International servicing commands cannot be used on a Windows Vista or Windows Server 2008 image.</source>
+          <target>International servicing commands cannot be used on a Windows Vista or Windows Server 2008 image.</target>
+        </segment>
+      </unit>
+      <unit id="551">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/online</pc> option to display information about international settings and languages in the running operating system.</source>
+          <target>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/online</pc> option to display information about international settings and languages in the running operating system.</target>
+        </segment>
+      </unit>
+      <unit id="552">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">*</data>
+          <data id="id5">*</data>
+          <data id="id6">\_</data>
+          <data id="id7">\_</data>
+          <data id="id8">\_</data>
+          <data id="id9">\_</data>
+          <data id="id10">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/image:</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">path<ph dataRef="id6" id="ph2" />to<ph dataRef="id7" id="ph3" />offline<ph dataRef="id8" id="ph4" />image<ph dataRef="id9" id="ph5" />directory</pc><ph dataRef="id10" id="ph6" /> to display information about international settings and languages in the offline image.</source>
+          <target>Use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/image:</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">path<ph dataRef="id6" id="ph2" />to<ph dataRef="id7" id="ph3" />offline<ph dataRef="id8" id="ph4" />image<ph dataRef="id9" id="ph5" />directory</pc><ph dataRef="id10" id="ph6" /> to display information about international settings and languages in the offline image.</target>
+        </segment>
+      </unit>
+      <unit id="553">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When used with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/image</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/distribution</pc> options, information about international settings and languages in the distribution is displayed.</source>
+          <target>When used with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/image</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/distribution</pc> options, information about international settings and languages in the distribution is displayed.</target>
+        </segment>
+      </unit>
+      <unit id="554">
+        <segment state="initial">
+          <source>To list all international settings and languages</source>
+          <target>To list all international settings and languages</target>
+        </segment>
+      </unit>
+      <unit id="555">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="556">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="557">
+        <segment state="initial">
+          <source>To list information about all of the international settings in the offline Windows image, type one of the following commands:</source>
+          <target>To list information about all of the international settings in the offline Windows image, type one of the following commands:</target>
+        </segment>
+      </unit>
+      <unit id="558">
+        <segment state="initial">
+          <source>For a running operating system, type the following command:</source>
+          <target>For a running operating system, type the following command:</target>
+        </segment>
+      </unit>
+      <unit id="559">
+        <segment state="initial">
+          <source>The report generated includes the following information:</source>
+          <target>The report generated includes the following information:</target>
+        </segment>
+      </unit>
+      <unit id="560">
+        <segment state="initial">
+          <source>Field</source>
+          <target>Field</target>
+        </segment>
+      </unit>
+      <unit id="561">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="562">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="563">
+        <segment state="initial">
+          <source>Default system UI language</source>
+          <target>Default system UI language</target>
+        </segment>
+      </unit>
+      <unit id="564">
+        <segment state="initial">
+          <source>The language that is currently set as the default system UI language.</source>
+          <target>The language that is currently set as the default system UI language.</target>
+        </segment>
+      </unit>
+      <unit id="565">
+        <segment state="initial">
+          <source>en-US</source>
+          <target>en-US</target>
+        </segment>
+      </unit>
+      <unit id="566">
+        <segment state="initial">
+          <source>System locale</source>
+          <target>System locale</target>
+        </segment>
+      </unit>
+      <unit id="567">
+        <segment state="initial">
+          <source>The language for non-Unicode programs (also referred to as system locale) and font settings.</source>
+          <target>The language for non-Unicode programs (also referred to as system locale) and font settings.</target>
+        </segment>
+      </unit>
+      <unit id="568">
+        <segment state="initial">
+          <source>en-US</source>
+          <target>en-US</target>
+        </segment>
+      </unit>
+      <unit id="569">
+        <segment state="initial">
+          <source>Default timezone</source>
+          <target>Default timezone</target>
+        </segment>
+      </unit>
+      <unit id="570">
+        <segment state="initial">
+          <source>The time zone that is currently set as the default.</source>
+          <target>The time zone that is currently set as the default.</target>
+        </segment>
+      </unit>
+      <unit id="571">
+        <segment state="initial">
+          <source>Pacific Standard Time</source>
+          <target>Pacific Standard Time</target>
+        </segment>
+      </unit>
+      <unit id="572">
+        <segment state="initial">
+          <source>User locale for default user</source>
+          <target>User locale for default user</target>
+        </segment>
+      </unit>
+      <unit id="573">
+        <originalData>
+          <data id="id1">&amp;quot;</data>
+          <data id="id2">&amp;quot;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" />standards and formats<ph dataRef="id2" id="ph2" /> language (also referred to as user locale) that is set for the default user.</source>
+          <target>The <ph dataRef="id1" id="ph1" />standards and formats<ph dataRef="id2" id="ph2" /> language (also referred to as user locale) that is set for the default user.</target>
+        </segment>
+      </unit>
+      <unit id="574">
+        <segment state="initial">
+          <source>en-US</source>
+          <target>en-US</target>
+        </segment>
+      </unit>
+      <unit id="575">
+        <segment state="initial">
+          <source>Location</source>
+          <target>Location</target>
+        </segment>
+      </unit>
+      <unit id="576">
+        <segment state="initial">
+          <source>The geographical location that is currently set for the operating system.</source>
+          <target>The geographical location that is currently set for the operating system.</target>
+        </segment>
+      </unit>
+      <unit id="577">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=131360)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about geographical locations, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Table of Geographical Locations</pc>.</source>
+          <target>For more information about geographical locations, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Table of Geographical Locations</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="578">
+        <segment state="initial">
+          <source>United States</source>
+          <target>United States</target>
+        </segment>
+      </unit>
+      <unit id="579">
+        <segment state="initial">
+          <source>Active keyboards</source>
+          <target>Active keyboards</target>
+        </segment>
+      </unit>
+      <unit id="580">
+        <segment state="initial">
+          <source>The value pair for the active keyboard.</source>
+          <target>The value pair for the active keyboard.</target>
+        </segment>
+      </unit>
+      <unit id="581">
+        <segment state="initial">
+          <source>In the example provided, 0409 is the language identifier and 00000409 is the keyboard identifier.</source>
+          <target>In the example provided, 0409 is the language identifier and 00000409 is the keyboard identifier.</target>
+        </segment>
+      </unit>
+      <unit id="582">
+        <segment state="initial">
+          <source>0409:00000409</source>
+          <target>0409:00000409</target>
+        </segment>
+      </unit>
+      <unit id="583">
+        <segment state="initial">
+          <source>Default keyboards</source>
+          <target>Default keyboards</target>
+        </segment>
+      </unit>
+      <unit id="584">
+        <segment state="initial">
+          <source>The value pair for the default keyboard.</source>
+          <target>The value pair for the default keyboard.</target>
+        </segment>
+      </unit>
+      <unit id="585">
+        <segment state="initial">
+          <source>In the example provided, 0409 is the language identifier and 00000409 is the keyboard identifier.</source>
+          <target>In the example provided, 0409 is the language identifier and 00000409 is the keyboard identifier.</target>
+        </segment>
+      </unit>
+      <unit id="586">
+        <segment state="initial">
+          <source>0409:00000409</source>
+          <target>0409:00000409</target>
+        </segment>
+      </unit>
+      <unit id="587">
+        <segment state="initial">
+          <source>Installed language(s)</source>
+          <target>Installed language(s)</target>
+        </segment>
+      </unit>
+      <unit id="588">
+        <segment state="initial">
+          <source>A list of all installed language packs.</source>
+          <target>A list of all installed language packs.</target>
+        </segment>
+      </unit>
+      <unit id="589">
+        <segment state="initial">
+          <source>en-US</source>
+          <target>en-US</target>
+        </segment>
+      </unit>
+      <unit id="590">
+        <segment state="initial">
+          <source>Type</source>
+          <target>Type</target>
+        </segment>
+      </unit>
+      <unit id="591">
+        <segment state="initial">
+          <source>The type of each installed language pack.</source>
+          <target>The type of each installed language pack.</target>
+        </segment>
+      </unit>
+      <unit id="592">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](add-language-packs-to-windows.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Language Packs to Windows</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Language Packs to Windows</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="593">
+        <segment state="initial">
+          <source>en-US</source>
+          <target>en-US</target>
+        </segment>
+      </unit>
+      <unit id="594">
+        <segment state="initial">
+          <source>Type: Fully localized language</source>
+          <target>Type: Fully localized language</target>
+        </segment>
+      </unit>
+      <unit id="595">
+        <segment state="initial">
+          <source>ar-SA</source>
+          <target>ar-SA</target>
+        </segment>
+      </unit>
+      <unit id="596">
+        <segment state="initial">
+          <source>Type: Partially localized language, MUI type</source>
+          <target>Type: Partially localized language, MUI type</target>
+        </segment>
+      </unit>
+      <unit id="597">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Fallback Languages <ph dataRef="id1" id="ph1" />en-US<ph dataRef="id2" id="ph2" />, <ph dataRef="id3" id="ph3" />fr-FR</source>
+          <target>Fallback Languages <ph dataRef="id1" id="ph1" />en-US<ph dataRef="id2" id="ph2" />, <ph dataRef="id3" id="ph3" />fr-FR</target>
+        </segment>
+      </unit>
+      <unit id="598">
+        <segment state="initial">
+          <source>Distribution languages</source>
+          <target>Distribution languages</target>
+        </segment>
+      </unit>
+      <unit id="599">
+        <segment state="initial">
+          <source>A list of the languages that are available in the distribution share.</source>
+          <target>A list of the languages that are available in the distribution share.</target>
+        </segment>
+      </unit>
+      <unit id="600">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="601">
+        <segment state="initial">
+          <source>This list includes the name of the folder in the distribution share.</source>
+          <target>This list includes the name of the folder in the distribution share.</target>
+        </segment>
+      </unit>
+      <unit id="602">
+        <segment state="initial">
+          <source>The language of the actual LP.cab file in the folder is not validated.</source>
+          <target>The language of the actual LP.cab file in the folder is not validated.</target>
+        </segment>
+      </unit>
+      <unit id="603">
+        <segment state="initial">
+          <source>For example, if the path to the distribution is …\Langpacks\bg-BG\Lp.cab, the value of bg-BG will be reported as the language in the distribution share even if the LP.cab file is not the correct .cab file for bg-BG.</source>
+          <target>For example, if the path to the distribution is …\Langpacks\bg-BG\Lp.cab, the value of bg-BG will be reported as the language in the distribution share even if the LP.cab file is not the correct .cab file for bg-BG.</target>
+        </segment>
+      </unit>
+      <unit id="604">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The default language in the distribution is: <ph dataRef="id1" id="ph1" />ja-JP</source>
+          <target>The default language in the distribution is: <ph dataRef="id1" id="ph1" />ja-JP</target>
+        </segment>
+      </unit>
+      <unit id="605">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The other available languages in the distribution are: <ph dataRef="id1" id="ph1" />bg-BG<ph dataRef="id2" id="ph2" />, <ph dataRef="id3" id="ph3" />nl-NL</source>
+          <target>The other available languages in the distribution are: <ph dataRef="id1" id="ph1" />bg-BG<ph dataRef="id2" id="ph2" />, <ph dataRef="id3" id="ph3" />nl-NL</target>
+        </segment>
+      </unit>
+      <unit id="606">
+        <segment state="initial">
+          <source>Keyboard layered driver</source>
+          <target>Keyboard layered driver</target>
+        </segment>
+      </unit>
+      <unit id="607">
+        <segment state="initial">
+          <source>A list of the keyboard drivers for Japanese or Korean keyboards, if any are installed.</source>
+          <target>A list of the keyboard drivers for Japanese or Korean keyboards, if any are installed.</target>
+        </segment>
+      </unit>
+      <unit id="608">
+        <segment state="initial">
+          <source>Japanese Keyboard (106/109 Key)</source>
+          <target>Japanese Keyboard (106/109 Key)</target>
+        </segment>
+      </unit>
+      <unit id="609">
+        <segment state="initial">
+          <source>Get Windows Edition Information</source>
+          <target>Get Windows Edition Information</target>
+        </segment>
+      </unit>
+      <unit id="610">
+        <segment state="initial">
+          <source>You can use the edition-servicing commands to obtain information about which editions of Windows are available for upgrade.</source>
+          <target>You can use the edition-servicing commands to obtain information about which editions of Windows are available for upgrade.</target>
+        </segment>
+      </unit>
+      <unit id="611">
+        <segment state="initial">
+          <source>Target editions are the editions of Windows that you can upgrade to.</source>
+          <target>Target editions are the editions of Windows that you can upgrade to.</target>
+        </segment>
+      </unit>
+      <unit id="612">
+        <segment state="initial">
+          <source>You can display information about the current edition or the target edition of an offline Windows image or a running operating system.</source>
+          <target>You can display information about the current edition or the target edition of an offline Windows image or a running operating system.</target>
+        </segment>
+      </unit>
+      <unit id="613">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](dism-windows-edition-servicing-command-line-options.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about Windows edition servicing commands available in DISM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Windows Edition-Servicing Command-Line Options</pc>.</source>
+          <target>For more information about Windows edition servicing commands available in DISM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Windows Edition-Servicing Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="614">
+        <segment state="initial">
+          <source>To get information about the current Windows editions</source>
+          <target>To get information about the current Windows editions</target>
+        </segment>
+      </unit>
+      <unit id="615">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="616">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="617">
+        <segment state="initial">
+          <source>To list information about the current edition of the offline Windows image, type the following command:</source>
+          <target>To list information about the current edition of the offline Windows image, type the following command:</target>
+        </segment>
+      </unit>
+      <unit id="618">
+        <segment state="initial">
+          <source>For a running operating system, type the following command:</source>
+          <target>For a running operating system, type the following command:</target>
+        </segment>
+      </unit>
+      <unit id="619">
+        <segment state="initial">
+          <source>To get information about target editions of Windows</source>
+          <target>To get information about target editions of Windows</target>
+        </segment>
+      </unit>
+      <unit id="620">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="621">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="622">
+        <segment state="initial">
+          <source>To list information about the target edition of the offline Windows image, type the following command:</source>
+          <target>To list information about the target edition of the offline Windows image, type the following command:</target>
+        </segment>
+      </unit>
+      <unit id="623">
+        <segment state="initial">
+          <source>For a running operating system, type the following command:</source>
+          <target>For a running operating system, type the following command:</target>
+        </segment>
+      </unit>
+      <unit id="624">
+        <segment state="initial">
+          <source>Get Application Patch Information</source>
+          <target>Get Application Patch Information</target>
+        </segment>
+      </unit>
+      <unit id="625">
+        <segment state="initial">
+          <source>Application servicing command-line options can be used on a offline image to check the applicability of Microsoft® Windows® Installer application patches (.msp files) and to query your offline image for information about installed Windows Installer applications (.msi files) and application patches (.msp files).</source>
+          <target>Application servicing command-line options can be used on a offline image to check the applicability of Microsoft® Windows® Installer application patches (.msp files) and to query your offline image for information about installed Windows Installer applications (.msi files) and application patches (.msp files).</target>
+        </segment>
+      </unit>
+      <unit id="626">
+        <segment state="initial">
+          <source>You can display detailed information about installed MSP patches filtered by patch and application.</source>
+          <target>You can display detailed information about installed MSP patches filtered by patch and application.</target>
+        </segment>
+      </unit>
+      <unit id="627">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/PatchCode</pc> option is specified, detailed information is displayed for all Windows Installer applications that the patch is applied to.</source>
+          <target>If the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/PatchCode</pc> option is specified, detailed information is displayed for all Windows Installer applications that the patch is applied to.</target>
+        </segment>
+      </unit>
+      <unit id="628">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/ProductCode</pc> option is specified, information about all MSP patches in the specified application is displayed.</source>
+          <target>If the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/ProductCode</pc> option is specified, information about all MSP patches in the specified application is displayed.</target>
+        </segment>
+      </unit>
+      <unit id="629">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/PatchCode</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/ProductCode</pc> options are both specified, information is displayed only if that specific patch is applied to the specified Windows Installer application.</source>
+          <target>If the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/PatchCode</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/ProductCode</pc> options are both specified, information is displayed only if that specific patch is applied to the specified Windows Installer application.</target>
+        </segment>
+      </unit>
+      <unit id="630">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/PatchCode</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/ProductCode</pc> options are not specified, all installed Windows Installer packages and MSP patches are displayed.</source>
+          <target>If the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/PatchCode</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/ProductCode</pc> options are not specified, all installed Windows Installer packages and MSP patches are displayed.</target>
+        </segment>
+      </unit>
+      <unit id="631">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](dism-application-servicing-command-line-options.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about application servicing commands available in DISM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Application Servicing Command-Line Options</pc>.</source>
+          <target>For more information about application servicing commands available in DISM, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Application Servicing Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="632">
+        <segment state="initial">
+          <source>To list information about installed MSP patches</source>
+          <target>To list information about installed MSP patches</target>
+        </segment>
+      </unit>
+      <unit id="633">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="634">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="635">
+        <segment state="initial">
+          <source>To list information about the MSP patches, type one of the following commands:</source>
+          <target>To list information about the MSP patches, type one of the following commands:</target>
+        </segment>
+      </unit>
+      <unit id="636">
+        <segment state="initial">
+          <source>The report generated includes the following information:</source>
+          <target>The report generated includes the following information:</target>
+        </segment>
+      </unit>
+      <unit id="637">
+        <segment state="initial">
+          <source>Field</source>
+          <target>Field</target>
+        </segment>
+      </unit>
+      <unit id="638">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="639">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="640">
+        <segment state="initial">
+          <source>Patch Code</source>
+          <target>Patch Code</target>
+        </segment>
+      </unit>
+      <unit id="641">
+        <segment state="initial">
+          <source>A GUID identifying a specific Windows Installer package.</source>
+          <target>A GUID identifying a specific Windows Installer package.</target>
+        </segment>
+      </unit>
+      <unit id="642">
+        <segment state="initial">
+          <source>The package code associates an .msi file together with an application or product and can also be used for the verification of sources.</source>
+          <target>The package code associates an .msi file together with an application or product and can also be used for the verification of sources.</target>
+        </segment>
+      </unit>
+      <unit id="643">
+        <segment state="initial">
+          <source>{8ACD2816-595D-48AA-A43B-3523CAA4F692}</source>
+          <target>{8ACD2816-595D-48AA-A43B-3523CAA4F692}</target>
+        </segment>
+      </unit>
+      <unit id="644">
+        <segment state="initial">
+          <source>Product Code</source>
+          <target>Product Code</target>
+        </segment>
+      </unit>
+      <unit id="645">
+        <segment state="initial">
+          <source>A GUID that is the principal identification of an application or product.</source>
+          <target>A GUID that is the principal identification of an application or product.</target>
+        </segment>
+      </unit>
+      <unit id="646">
+        <segment state="initial">
+          <source>{7764DEFC-C5D1-413C-8428-2AA903BF6DAA}</source>
+          <target>{7764DEFC-C5D1-413C-8428-2AA903BF6DAA}</target>
+        </segment>
+      </unit>
+      <unit id="647">
+        <segment state="initial">
+          <source>Patch Name</source>
+          <target>Patch Name</target>
+        </segment>
+      </unit>
+      <unit id="648">
+        <segment state="initial">
+          <source>The registered display name for the patch.</source>
+          <target>The registered display name for the patch.</target>
+        </segment>
+      </unit>
+      <unit id="649">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For patches that do not include the <ph dataRef="id1" id="ph1" />DisplayName<ph dataRef="id2" id="ph2" /> property in the MsiPatchMetadata table, the returned display name is an empty string.</source>
+          <target>For patches that do not include the <ph dataRef="id1" id="ph1" />DisplayName<ph dataRef="id2" id="ph2" /> property in the MsiPatchMetadata table, the returned display name is an empty string.</target>
+        </segment>
+      </unit>
+      <unit id="650">
+        <segment state="initial">
+          <source>QFE9 - Non Removable</source>
+          <target>QFE9 - Non Removable</target>
+        </segment>
+      </unit>
+      <unit id="651">
+        <segment state="initial">
+          <source>Patch State</source>
+          <target>Patch State</target>
+        </segment>
+      </unit>
+      <unit id="652">
+        <segment state="initial">
+          <source>1 if this patch is currently applied to the product.</source>
+          <target>1 if this patch is currently applied to the product.</target>
+        </segment>
+      </unit>
+      <unit id="653">
+        <segment state="initial">
+          <source>2 if this patch has been superseded by another patch.</source>
+          <target>2 if this patch has been superseded by another patch.</target>
+        </segment>
+      </unit>
+      <unit id="654">
+        <segment state="initial">
+          <source>4 if this patch has been made obsolete by another patch.</source>
+          <target>4 if this patch has been made obsolete by another patch.</target>
+        </segment>
+      </unit>
+      <unit id="655">
+        <segment state="initial">
+          <source>1 (Applied)</source>
+          <target>1 (Applied)</target>
+        </segment>
+      </unit>
+      <unit id="656">
+        <segment state="initial">
+          <source>Patch Uninstallable</source>
+          <target>Patch Uninstallable</target>
+        </segment>
+      </unit>
+      <unit id="657">
+        <segment state="initial">
+          <source>1 if the patch is marked as possible to uninstall from the product.</source>
+          <target>1 if the patch is marked as possible to uninstall from the product.</target>
+        </segment>
+      </unit>
+      <unit id="658">
+        <segment state="initial">
+          <source>In this case, the installer can still block the uninstallation if this patch is required by another patch that cannot be uninstalled.</source>
+          <target>In this case, the installer can still block the uninstallation if this patch is required by another patch that cannot be uninstalled.</target>
+        </segment>
+      </unit>
+      <unit id="659">
+        <segment state="initial">
+          <source>Otherwise 0 is reported.</source>
+          <target>Otherwise 0 is reported.</target>
+        </segment>
+      </unit>
+      <unit id="660">
+        <segment state="initial">
+          <source>0</source>
+          <target>0</target>
+        </segment>
+      </unit>
+      <unit id="661">
+        <segment state="initial">
+          <source>Help Link</source>
+          <target>Help Link</target>
+        </segment>
+      </unit>
+      <unit id="662">
+        <segment state="initial">
+          <source>Where to find support information, if available.</source>
+          <target>Where to find support information, if available.</target>
+        </segment>
+      </unit>
+      <unit id="663">
+        <segment state="initial">
+          <source>http://www.microsoft.com</source>
+          <target>http://www.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="664">
+        <segment state="initial">
+          <source>Transforms</source>
+          <target>Transforms</target>
+        </segment>
+      </unit>
+      <unit id="665">
+        <segment state="initial">
+          <source>The set of patch transforms applied to the product by the last patch installation.</source>
+          <target>The set of patch transforms applied to the product by the last patch installation.</target>
+        </segment>
+      </unit>
+      <unit id="666">
+        <segment state="initial">
+          <source>This value may not be available for per-user unmanaged applications if the user is not logged on to the computer.</source>
+          <target>This value may not be available for per-user unmanaged applications if the user is not logged on to the computer.</target>
+        </segment>
+      </unit>
+      <unit id="667">
+        <segment state="initial">
+          <source>:App1RTMToApp1QFE9;:#App1RTMToApp1QFE9</source>
+          <target>:App1RTMToApp1QFE9;:#App1RTMToApp1QFE9</target>
+        </segment>
+      </unit>
+      <unit id="668">
+        <segment state="initial">
+          <source>Local Package</source>
+          <target>Local Package</target>
+        </segment>
+      </unit>
+      <unit id="669">
+        <segment state="initial">
+          <source>The location of the local cached patch file that is used by the product.</source>
+          <target>The location of the local cached patch file that is used by the product.</target>
+        </segment>
+      </unit>
+      <unit id="670">
+        <segment state="initial">
+          <source>C:\Windows\Installer\132f5c.msp</source>
+          <target>C:\Windows\Installer\132f5c.msp</target>
+        </segment>
+      </unit>
+      <unit id="671">
+        <segment state="initial">
+          <source>Install Date</source>
+          <target>Install Date</target>
+        </segment>
+      </unit>
+      <unit id="672">
+        <segment state="initial">
+          <source>The date when the patch was applied to the product.</source>
+          <target>The date when the patch was applied to the product.</target>
+        </segment>
+      </unit>
+      <unit id="673">
+        <segment state="initial">
+          <source>20080912</source>
+          <target>20080912</target>
+        </segment>
+      </unit>
+      <unit id="674">
+        <segment state="initial">
+          <source>To list information about MSP patches applied to an application</source>
+          <target>To list information about MSP patches applied to an application</target>
+        </segment>
+      </unit>
+      <unit id="675">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="676">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="677">
+        <segment state="initial">
+          <source>To list information about the MSP patches, type one of the following commands:</source>
+          <target>To list information about the MSP patches, type one of the following commands:</target>
+        </segment>
+      </unit>
+      <unit id="678">
+        <segment state="initial">
+          <source>The report generated includes the following information:</source>
+          <target>The report generated includes the following information:</target>
+        </segment>
+      </unit>
+      <unit id="679">
+        <segment state="initial">
+          <source>Field</source>
+          <target>Field</target>
+        </segment>
+      </unit>
+      <unit id="680">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="681">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="682">
+        <segment state="initial">
+          <source>Patch Code</source>
+          <target>Patch Code</target>
+        </segment>
+      </unit>
+      <unit id="683">
+        <segment state="initial">
+          <source>A GUID identifying a particular Windows Installer package.</source>
+          <target>A GUID identifying a particular Windows Installer package.</target>
+        </segment>
+      </unit>
+      <unit id="684">
+        <segment state="initial">
+          <source>The package code associates an .msi file together with an application or product and can also be used for the verification of sources.</source>
+          <target>The package code associates an .msi file together with an application or product and can also be used for the verification of sources.</target>
+        </segment>
+      </unit>
+      <unit id="685">
+        <segment state="initial">
+          <source>{8ACD2816-595D-48AA-A43B-3523CAA4F692}</source>
+          <target>{8ACD2816-595D-48AA-A43B-3523CAA4F692}</target>
+        </segment>
+      </unit>
+      <unit id="686">
+        <segment state="initial">
+          <source>Product Code</source>
+          <target>Product Code</target>
+        </segment>
+      </unit>
+      <unit id="687">
+        <segment state="initial">
+          <source>A GUID that is the principal identification of an application or product.</source>
+          <target>A GUID that is the principal identification of an application or product.</target>
+        </segment>
+      </unit>
+      <unit id="688">
+        <segment state="initial">
+          <source>{7764DEFC-C5D1-413C-8428-2AA903BF6DAA}</source>
+          <target>{7764DEFC-C5D1-413C-8428-2AA903BF6DAA}</target>
+        </segment>
+      </unit>
+      <unit id="689">
+        <segment state="initial">
+          <source>Patch Name</source>
+          <target>Patch Name</target>
+        </segment>
+      </unit>
+      <unit id="690">
+        <segment state="initial">
+          <source>The registered display name for the patch.</source>
+          <target>The registered display name for the patch.</target>
+        </segment>
+      </unit>
+      <unit id="691">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For patches that do not include the <ph dataRef="id1" id="ph1" />DisplayName<ph dataRef="id2" id="ph2" /> property in the MsiPatchMetadata table, the returned display name is an empty string.</source>
+          <target>For patches that do not include the <ph dataRef="id1" id="ph1" />DisplayName<ph dataRef="id2" id="ph2" /> property in the MsiPatchMetadata table, the returned display name is an empty string.</target>
+        </segment>
+      </unit>
+      <unit id="692">
+        <segment state="initial">
+          <source>QFE9 - Non Removable</source>
+          <target>QFE9 - Non Removable</target>
+        </segment>
+      </unit>
+      <unit id="693">
+        <segment state="initial">
+          <source>To list information about all Windows Installer applications</source>
+          <target>To list information about all Windows Installer applications</target>
+        </segment>
+      </unit>
+      <unit id="694">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="695">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="696">
+        <segment state="initial">
+          <source>To list information about the MSP patches, type the following command:</source>
+          <target>To list information about the MSP patches, type the following command:</target>
+        </segment>
+      </unit>
+      <unit id="697">
+        <segment state="initial">
+          <source>The report generated lists the product code and product name for applications that are installed in the offline image.</source>
+          <target>The report generated lists the product code and product name for applications that are installed in the offline image.</target>
+        </segment>
+      </unit>
+      <unit id="698">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="699">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Product Code : <pc dataRefEnd="id2" dataRefStart="id1" id="p1">{DB935363-5A68-47AF-A55A-CFC90F2E83BC}</pc></source>
+          <target>Product Code : <pc dataRefEnd="id2" dataRefStart="id1" id="p1">{DB935363-5A68-47AF-A55A-CFC90F2E83BC}</pc></target>
+        </segment>
+      </unit>
+      <unit id="700">
+        <segment state="initial">
+          <source>Product Name : MsiTestApplication2</source>
+          <target>Product Name : MsiTestApplication2</target>
+        </segment>
+      </unit>
+      <unit id="701">
+        <segment state="initial">
+          <source>To list information about a specific Windows Installer application</source>
+          <target>To list information about a specific Windows Installer application</target>
+        </segment>
+      </unit>
+      <unit id="702">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="703">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="704">
+        <segment state="initial">
+          <source>To list information about the MSP patches, type the following command:</source>
+          <target>To list information about the MSP patches, type the following command:</target>
+        </segment>
+      </unit>
+      <unit id="705">
+        <segment state="initial">
+          <source>The report generated includes the following information:</source>
+          <target>The report generated includes the following information:</target>
+        </segment>
+      </unit>
+      <unit id="706">
+        <segment state="initial">
+          <source>Field</source>
+          <target>Field</target>
+        </segment>
+      </unit>
+      <unit id="707">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="708">
+        <segment state="initial">
+          <source>Example</source>
+          <target>Example</target>
+        </segment>
+      </unit>
+      <unit id="709">
+        <segment state="initial">
+          <source>Product Code</source>
+          <target>Product Code</target>
+        </segment>
+      </unit>
+      <unit id="710">
+        <segment state="initial">
+          <source>A GUID that is the principal identification of an application or product.</source>
+          <target>A GUID that is the principal identification of an application or product.</target>
+        </segment>
+      </unit>
+      <unit id="711">
+        <segment state="initial">
+          <source>{DB935363-5A68-47AF-A55A-CFC90F2E83BC}</source>
+          <target>{DB935363-5A68-47AF-A55A-CFC90F2E83BC}</target>
+        </segment>
+      </unit>
+      <unit id="712">
+        <segment state="initial">
+          <source>Product Name</source>
+          <target>Product Name</target>
+        </segment>
+      </unit>
+      <unit id="713">
+        <segment state="initial">
+          <source>The name of the application.</source>
+          <target>The name of the application.</target>
+        </segment>
+      </unit>
+      <unit id="714">
+        <segment state="initial">
+          <source>MsiTestApplication2</source>
+          <target>MsiTestApplication2</target>
+        </segment>
+      </unit>
+      <unit id="715">
+        <segment state="initial">
+          <source>Product State</source>
+          <target>Product State</target>
+        </segment>
+      </unit>
+      <unit id="716">
+        <segment state="initial">
+          <source>The installation state for the product at initialization.</source>
+          <target>The installation state for the product at initialization.</target>
+        </segment>
+      </unit>
+      <unit id="717">
+        <segment state="initial">
+          <source>-1 if the product is neither advertised nor installed.</source>
+          <target>-1 if the product is neither advertised nor installed.</target>
+        </segment>
+      </unit>
+      <unit id="718">
+        <segment state="initial">
+          <source>1 if the product is advertised but not installed.</source>
+          <target>1 if the product is advertised but not installed.</target>
+        </segment>
+      </unit>
+      <unit id="719">
+        <segment state="initial">
+          <source>2 if the product is installed for a different user.</source>
+          <target>2 if the product is installed for a different user.</target>
+        </segment>
+      </unit>
+      <unit id="720">
+        <segment state="initial">
+          <source>5 if the product is installed for the current user.</source>
+          <target>5 if the product is installed for the current user.</target>
+        </segment>
+      </unit>
+      <unit id="721">
+        <segment state="initial">
+          <source>5 (Installed)</source>
+          <target>5 (Installed)</target>
+        </segment>
+      </unit>
+      <unit id="722">
+        <segment state="initial">
+          <source>Package Code</source>
+          <target>Package Code</target>
+        </segment>
+      </unit>
+      <unit id="723">
+        <segment state="initial">
+          <source>A GUID identifying a particular Windows Installer package.</source>
+          <target>A GUID identifying a particular Windows Installer package.</target>
+        </segment>
+      </unit>
+      <unit id="724">
+        <segment state="initial">
+          <source>The package code associates an .msi file together with an application or product and can also be used for the verification of sources.</source>
+          <target>The package code associates an .msi file together with an application or product and can also be used for the verification of sources.</target>
+        </segment>
+      </unit>
+      <unit id="725">
+        <segment state="initial">
+          <source>{C67CA1AE-6074-4810-BD74-F6BBB609744A}</source>
+          <target>{C67CA1AE-6074-4810-BD74-F6BBB609744A}</target>
+        </segment>
+      </unit>
+      <unit id="726">
+        <segment state="initial">
+          <source>Product Version</source>
+          <target>Product Version</target>
+        </segment>
+      </unit>
+      <unit id="727">
+        <segment state="initial">
+          <source>The version of the product in string format.</source>
+          <target>The version of the product in string format.</target>
+        </segment>
+      </unit>
+      <unit id="728">
+        <segment state="initial">
+          <source>1.0.0</source>
+          <target>1.0.0</target>
+        </segment>
+      </unit>
+      <unit id="729">
+        <segment state="initial">
+          <source>Assignment Type</source>
+          <target>Assignment Type</target>
+        </segment>
+      </unit>
+      <unit id="730">
+        <segment state="initial">
+          <source>0 if the product is advertised or installed per-user.</source>
+          <target>0 if the product is advertised or installed per-user.</target>
+        </segment>
+      </unit>
+      <unit id="731">
+        <segment state="initial">
+          <source>1 if the product is advertised or installed per-computer for all users.</source>
+          <target>1 if the product is advertised or installed per-computer for all users.</target>
+        </segment>
+      </unit>
+      <unit id="732">
+        <segment state="initial">
+          <source>1 (Per-Machine)</source>
+          <target>1 (Per-Machine)</target>
+        </segment>
+      </unit>
+      <unit id="733">
+        <segment state="initial">
+          <source>Publisher</source>
+          <target>Publisher</target>
+        </segment>
+      </unit>
+      <unit id="734">
+        <segment state="initial">
+          <source>The name of the manufacturer for the product.</source>
+          <target>The name of the manufacturer for the product.</target>
+        </segment>
+      </unit>
+      <unit id="735">
+        <segment state="initial">
+          <source>Microsoft MSI Test</source>
+          <target>Microsoft MSI Test</target>
+        </segment>
+      </unit>
+      <unit id="736">
+        <segment state="initial">
+          <source>Language</source>
+          <target>Language</target>
+        </segment>
+      </unit>
+      <unit id="737">
+        <segment state="initial">
+          <source>The decimal identifier for the product language.</source>
+          <target>The decimal identifier for the product language.</target>
+        </segment>
+      </unit>
+      <unit id="738">
+        <segment state="initial">
+          <source>1033</source>
+          <target>1033</target>
+        </segment>
+      </unit>
+      <unit id="739">
+        <segment state="initial">
+          <source>Install Source</source>
+          <target>Install Source</target>
+        </segment>
+      </unit>
+      <unit id="740">
+        <segment state="initial">
+          <source>The directory that contains the source .cab file or the source file tree of the installation package.</source>
+          <target>The directory that contains the source .cab file or the source file tree of the installation package.</target>
+        </segment>
+      </unit>
+      <unit id="741">
+        <segment state="initial">
+          <source>E:\Testpkg\App2_RTM\</source>
+          <target>E:\Testpkg\App2_RTM\</target>
+        </segment>
+      </unit>
+      <unit id="742">
+        <segment state="initial">
+          <source>Package Name</source>
+          <target>Package Name</target>
+        </segment>
+      </unit>
+      <unit id="743">
+        <segment state="initial">
+          <source>The name of the original installation package.</source>
+          <target>The name of the original installation package.</target>
+        </segment>
+      </unit>
+      <unit id="744">
+        <segment state="initial">
+          <source>MsiTestApplication2.msi</source>
+          <target>MsiTestApplication2.msi</target>
+        </segment>
+      </unit>
+      <unit id="745">
+        <segment state="initial">
+          <source>Help Link</source>
+          <target>Help Link</target>
+        </segment>
+      </unit>
+      <unit id="746">
+        <segment state="initial">
+          <source>Where to find support information, if available.</source>
+          <target>Where to find support information, if available.</target>
+        </segment>
+      </unit>
+      <unit id="747">
+        <segment state="initial">
+          <source>http://www.microsoft.com/management</source>
+          <target>http://www.microsoft.com/management</target>
+        </segment>
+      </unit>
+      <unit id="748">
+        <segment state="initial">
+          <source>Transforms</source>
+          <target>Transforms</target>
+        </segment>
+      </unit>
+      <unit id="749">
+        <segment state="initial">
+          <source>The set of patch transforms applied to the product by the last patch installation.</source>
+          <target>The set of patch transforms applied to the product by the last patch installation.</target>
+        </segment>
+      </unit>
+      <unit id="750">
+        <segment state="initial">
+          <source>This value may not be available for per-user unmanaged applications if the user is not logged on to the computer.</source>
+          <target>This value may not be available for per-user unmanaged applications if the user is not logged on to the computer.</target>
+        </segment>
+      </unit>
+      <unit id="751">
+        <originalData>
+          <data id="id1">\{</data>
+        </originalData>
+        <segment state="initial">
+          <source>C:\Windows\Installer<ph dataRef="id1" id="ph1" />BDB20E90-3ACD-450B-BBDE-61E39687C6B1}\ACBlueT02.mst</source>
+          <target>C:\Windows\Installer<ph dataRef="id1" id="ph1" />BDB20E90-3ACD-450B-BBDE-61E39687C6B1}\ACBlueT02.mst</target>
+        </segment>
+      </unit>
+      <unit id="752">
+        <segment state="initial">
+          <source>Local Package</source>
+          <target>Local Package</target>
+        </segment>
+      </unit>
+      <unit id="753">
+        <segment state="initial">
+          <source>The location of the local cached package.</source>
+          <target>The location of the local cached package.</target>
+        </segment>
+      </unit>
+      <unit id="754">
+        <segment state="initial">
+          <source>C:\Windows\Installer\132f3b.msi</source>
+          <target>C:\Windows\Installer\132f3b.msi</target>
+        </segment>
+      </unit>
+      <unit id="755">
+        <segment state="initial">
+          <source>Install Date</source>
+          <target>Install Date</target>
+        </segment>
+      </unit>
+      <unit id="756">
+        <segment state="initial">
+          <source>The date the application was installed.</source>
+          <target>The date the application was installed.</target>
+        </segment>
+      </unit>
+      <unit id="757">
+        <segment state="initial">
+          <source>20080912</source>
+          <target>20080912</target>
+        </segment>
+      </unit>
+      <unit id="758">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="759">
+        <segment state="initial">
+          <source>Service a Windows Image Using DISM</source>
+          <target>Service a Windows Image Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="760">
+        <segment state="initial">
+          <source>Service a Windows PE Image with DISM</source>
+          <target>Service a Windows PE Image with DISM</target>
+        </segment>
+      </unit>
+      <unit id="761">
+        <segment state="initial">
+          <source>Deployment Image Servicing and Management (DISM) Best Practices</source>
+          <target>Deployment Image Servicing and Management (DISM) Best Practices</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

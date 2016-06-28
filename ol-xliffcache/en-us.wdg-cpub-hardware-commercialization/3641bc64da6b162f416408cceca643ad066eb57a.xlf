@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\add-and-remove-drivers-to-an-offline-windows-image.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">3641bc64da6b162f416408cceca643ad066eb57a</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Add and Remove Drivers to an Offline Windows Image</source>
+          <target>Add and Remove Drivers to an Offline Windows Image</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Add and Remove Drivers to an Offline Windows Image</source>
+          <target>Add and Remove Drivers to an Offline Windows Image</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Add and Remove Drivers to an Offline Windows Image</source>
+          <target>Add and Remove Drivers to an Offline Windows Image</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>You can use the Deployment Image Servicing and Management (DISM) tool to install or remove driver (.inf) files in an offline Windows image.</source>
+          <target>You can use the Deployment Image Servicing and Management (DISM) tool to install or remove driver (.inf) files in an offline Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>You can either apply an unattended answer file to a mounted .wim, .vhd, or .vhdx file, or you can add or remove the drivers directly by using the command prompt.</source>
+          <target>You can either apply an unattended answer file to a mounted .wim, .vhd, or .vhdx file, or you can add or remove the drivers directly by using the command prompt.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>When you use DISM to install a device driver to an offline image, the device driver is added to the driver store in the offline image.</source>
+          <target>When you use DISM to install a device driver to an offline image, the device driver is added to the driver store in the offline image.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>When the image is booted, Plug and Play (PnP) runs and associates the drivers in the store to the corresponding devices on the computer.</source>
+          <target>When the image is booted, Plug and Play (PnP) runs and associates the drivers in the store to the corresponding devices on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>   To add drivers to a Windows 10 image offline, you must use a technician computer running Windows 10, Windows Server 2016 Technical Preview, or Windows Preinstallation Environment (WinPE) for Windows 10.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>   To add drivers to a Windows 10 image offline, you must use a technician computer running Windows 10, Windows Server 2016 Technical Preview, or Windows Preinstallation Environment (WinPE) for Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Driver signature verification may fail when you add a driver to a Windows 10 image offline from a technician computer running any other operating system.</source>
+          <target>Driver signature verification may fail when you add a driver to a Windows 10 image offline from a technician computer running any other operating system.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>To add drivers to an offline image by using DISM</source>
+          <target>To add drivers to an offline image by using DISM</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>At an elevated command prompt, retrieve the name or index number for the image that you want to modify.</source>
+          <target>At an elevated command prompt, retrieve the name or index number for the image that you want to modify.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>For example, type:</source>
+          <target>For example, type:</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>An index or name value is required for most operations that specify a WIM file.</source>
+          <target>An index or name value is required for most operations that specify a WIM file.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">`/Index:1`</data>
+        </originalData>
+        <segment state="initial">
+          <source>For a VHD file, you must specify <ph dataRef="id1" id="ph1" />.</source>
+          <target>For a VHD file, you must specify <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Mount the offline Windows image.</source>
+          <target>Mount the offline Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>For example, type:</source>
+          <target>For example, type:</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Add a driver to the image.</source>
+          <target>Add a driver to the image.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To install all of the drivers from a folder and all its subfolders, point to the folder and use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Recurse</pc> option.</source>
+          <target>To install all of the drivers from a folder and all its subfolders, point to the folder and use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Recurse</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Warning</pc>  While /Recurse can be handy, it's easy to bloat your image with it.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Warning</pc>  While /Recurse can be handy, it's easy to bloat your image with it.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Some driver packages include multiple .inf driver packages, which often share payload files from the same folder.</source>
+          <target>Some driver packages include multiple .inf driver packages, which often share payload files from the same folder.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>During installation, each .inf driver package is expanded into a separate folder, each with a copy of the payload files.</source>
+          <target>During installation, each .inf driver package is expanded into a separate folder, each with a copy of the payload files.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>We've seen cases where a popular driver in a 900MB folder added 10GB to images when added with the /Recurse option.</source>
+          <target>We've seen cases where a popular driver in a 900MB folder added 10GB to images when added with the /Recurse option.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To install an unsigned driver, use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/ForceUnsigned</pc> to override the requirement that drivers installed on X64-based computers must have a digital signature.</source>
+          <target>To install an unsigned driver, use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/ForceUnsigned</pc> to override the requirement that drivers installed on X64-based computers must have a digital signature.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Review the list of third-party driver (.inf) files in the Windows image.</source>
+          <target>Review the list of third-party driver (.inf) files in the Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">\*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Drivers added to the Windows image are named Oem<ph dataRef="id1" id="ph1" />.inf.</source>
+          <target>Drivers added to the Windows image are named Oem<ph dataRef="id1" id="ph1" />.inf.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>This is to guarantee unique naming for new drivers added to the computer.</source>
+          <target>This is to guarantee unique naming for new drivers added to the computer.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>For example, the files MyDriver1.inf and MyDriver2.inf are renamed Oem0.inf and Oem1.inf.</source>
+          <target>For example, the files MyDriver1.inf and MyDriver2.inf are renamed Oem0.inf and Oem1.inf.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Commit the changes and unmount the image.</source>
+          <target>Commit the changes and unmount the image.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>To remove drivers from an offline image by using DISM</source>
+          <target>To remove drivers from an offline image by using DISM</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>At an elevated command prompt, retrieve the name or index number for the image that you want to modify.</source>
+          <target>At an elevated command prompt, retrieve the name or index number for the image that you want to modify.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>An index or name value is required for most operations that specify a WIM file.</source>
+          <target>An index or name value is required for most operations that specify a WIM file.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">`/Index:1`</data>
+        </originalData>
+        <segment state="initial">
+          <source>For a VHD file, you must specify <ph dataRef="id1" id="ph1" />.</source>
+          <target>For a VHD file, you must specify <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Mount the offline Windows image.</source>
+          <target>Mount the offline Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Remove a specific driver from the image.</source>
+          <target>Remove a specific driver from the image.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Multiple drivers can be removed on one command line.</source>
+          <target>Multiple drivers can be removed on one command line.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Warning</source>
+          <target>Warning</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Removing a boot-critical driver package can make the offline Windows image unbootable.</source>
+          <target>Removing a boot-critical driver package can make the offline Windows image unbootable.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](dism-driver-servicing-command-line-options-s14.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Driver Servicing Command-Line Options</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Driver Servicing Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Commit the changes and unmount the image.</source>
+          <target>Commit the changes and unmount the image.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>To add drivers to an offline Windows image by using an unattended answer file</source>
+          <target>To add drivers to an offline Windows image by using an unattended answer file</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Locate the device driver .inf files that you intend to install on the Windows image.</source>
+          <target>Locate the device driver .inf files that you intend to install on the Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>All drivers in the directory and subdirectories that are referenced in the answer file are added to the image.</source>
+          <target>All drivers in the directory and subdirectories that are referenced in the answer file are added to the image.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>You should manage the answer file and these directories carefully to address concerns about increasing the size of the image with unnecessary driver packages.</source>
+          <target>You should manage the answer file and these directories carefully to address concerns about increasing the size of the image with unnecessary driver packages.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Use Windows System Image Manager (Windows SIM) to create an answer file that contains the paths to the device drivers that you intend to install.</source>
+          <target>Use Windows System Image Manager (Windows SIM) to create an answer file that contains the paths to the device drivers that you intend to install.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add the Microsoft-Windows-PnpCustomizationsNonWinPE component to your answer file in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">offlineServicing</pc> configuration pass.</source>
+          <target>Add the Microsoft-Windows-PnpCustomizationsNonWinPE component to your answer file in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">offlineServicing</pc> configuration pass.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft-Windows-PnpCustomizationsNonWinPE</pc> node in the answer file.</source>
+          <target>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft-Windows-PnpCustomizationsNonWinPE</pc> node in the answer file.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DevicePaths</pc>, and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Insert New PathAndCredentials</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DevicePaths</pc>, and then select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Insert New PathAndCredentials</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>A new <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PathAndCredentials</pc> list item appears.</source>
+          <target>A new <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PathAndCredentials</pc> list item appears.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For each location that you intend to access, add a separate <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PathAndCredentials</pc> list item.</source>
+          <target>For each location that you intend to access, add a separate <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PathAndCredentials</pc> list item.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>In the Microsoft-Windows-PnpCustomizationsNonWinPE component, specify the path to the device driver and the credentials that are used to access the file, if the file is on a network share.</source>
+          <target>In the Microsoft-Windows-PnpCustomizationsNonWinPE component, specify the path to the device driver and the credentials that are used to access the file, if the file is on a network share.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can include multiple device driver paths by adding multiple <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PathAndCredentials</pc> list items.</source>
+          <target>You can include multiple device driver paths by adding multiple <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PathAndCredentials</pc> list items.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you add multiple list items, you must increment the value of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Key</pc> for each path.</source>
+          <target>If you add multiple list items, you must increment the value of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Key</pc> for each path.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, you can add two separate driver paths where the value of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Key</pc> for the first path is equal to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1</pc> and the value of <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Key</pc> for the second path is equal to <pc dataRefEnd="id8" dataRefStart="id7" id="p4">2</pc>.</source>
+          <target>For example, you can add two separate driver paths where the value of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Key</pc> for the first path is equal to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1</pc> and the value of <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Key</pc> for the second path is equal to <pc dataRefEnd="id8" dataRefStart="id7" id="p4">2</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Save the answer file and exit Windows SIM.</source>
+          <target>Save the answer file and exit Windows SIM.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>The answer file must resemble the following sample.</source>
+          <target>The answer file must resemble the following sample.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Mount the Windows image that you intend to install the drivers to by using DISM.</source>
+          <target>Mount the Windows image that you intend to install the drivers to by using DISM.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>For example, type:</source>
+          <target>For example, type:</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>An index or name value is required for most operations that specify a WIM file.</source>
+          <target>An index or name value is required for most operations that specify a WIM file.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">`/Index:1`</data>
+        </originalData>
+        <segment state="initial">
+          <source>For a VHD file, you must specify <ph dataRef="id1" id="ph1" />.</source>
+          <target>For a VHD file, you must specify <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Use DISM to apply the answer file to the mounted Windows image.</source>
+          <target>Use DISM to apply the answer file to the mounted Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>For example, type:</source>
+          <target>For example, type:</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](dism-unattended-servicing-command-line-options.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to apply an answer file, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Unattended Servicing Command-Line Options</pc>.</source>
+          <target>For more information about how to apply an answer file, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Unattended Servicing Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>The .inf files referenced in the path in the answer file are added to the Windows image.</source>
+          <target>The .inf files referenced in the path in the answer file are added to the Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Review the list of third-party driver (.inf) files in the Windows image.</source>
+          <target>Review the list of third-party driver (.inf) files in the Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">\*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Drivers added to the Windows image are named Oem<ph dataRef="id1" id="ph1" />.inf.</source>
+          <target>Drivers added to the Windows image are named Oem<ph dataRef="id1" id="ph1" />.inf.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>This is to guarantee that all new drivers that are added to the computer are uniquely named.</source>
+          <target>This is to guarantee that all new drivers that are added to the computer are uniquely named.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>For example, the files MyDriver1.inf and MyDriver2.inf are renamed Oem0.inf and Oem1.inf.</source>
+          <target>For example, the files MyDriver1.inf and MyDriver2.inf are renamed Oem0.inf and Oem1.inf.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>For example, type:</source>
+          <target>For example, type:</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Unmount the .wim file and commit the changes.</source>
+          <target>Unmount the .wim file and commit the changes.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>For example, type:</source>
+          <target>For example, type:</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you need drivers for WinPE to see the local hard disk drive or a network, you must use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass of an answer file to add drivers to the WinPE driver store and to reflect boot-critical drivers required by WinPE.</source>
+          <target>If you need drivers for WinPE to see the local hard disk drive or a network, you must use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">windowsPE</pc> configuration pass of an answer file to add drivers to the WinPE driver store and to reflect boot-critical drivers required by WinPE.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](add-device-drivers-to-windows-during-windows-setup.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Device Drivers to Windows During Windows Setup</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Device Drivers to Windows During Windows Setup</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Device Drivers and Deployment Overview</source>
+          <target>Device Drivers and Deployment Overview</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Add Device Drivers to Windows During Windows Setup</source>
+          <target>Add Device Drivers to Windows During Windows Setup</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>DISM - Deployment Image Servicing and Management Technical Reference for Windows</source>
+          <target>DISM - Deployment Image Servicing and Management Technical Reference for Windows</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

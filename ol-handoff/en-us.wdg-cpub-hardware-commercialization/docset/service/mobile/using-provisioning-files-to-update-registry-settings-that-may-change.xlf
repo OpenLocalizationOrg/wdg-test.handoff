@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\service\mobile\using-provisioning-files-to-update-registry-settings-that-may-change.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">0f354226eae0445d2513e7f4b88a15ac6e5dac3e</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Using provisioning files to update registry settings that may change</source>
+          <target>Using provisioning files to update registry settings that may change</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Using provisioning files to update registry settings that may change</source>
+          <target>Using provisioning files to update registry settings that may change</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Using provisioning files to update registry settings that may change</source>
+          <target>Using provisioning files to update registry settings that may change</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Standard package updates are not applied to registry data that have been changed—for example, by a user who alters a menu setting that is stored in the registry.</source>
+          <target>Standard package updates are not applied to registry data that have been changed—for example, by a user who alters a menu setting that is stored in the registry.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>To update the values of this category of registry data, provisioning XML (provxml) must be used.</source>
+          <target>To update the values of this category of registry data, provisioning XML (provxml) must be used.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>If provxml is not used to update the registry data that has been changed since the device was flashed in the factory, the update will report success to the user, but the registry changes in a standard update will not be applied.</source>
+          <target>If provxml is not used to update the registry data that has been changed since the device was flashed in the factory, the update will report success to the user, but the registry changes in a standard update will not be applied.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Registry updates for entries that will not be changed can be handled by using standard updates.</source>
+          <target>Registry updates for entries that will not be changed can be handled by using standard updates.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Only use provxml files in updates when there is an unavoidable need to update registry entries that may change.</source>
+          <target>Only use provxml files in updates when there is an unavoidable need to update registry entries that may change.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Registry update strategies</source>
+          <target>Registry update strategies</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>To avoid the need to update existing registry data, your code could be updated to read the existing registry data and migrate it to a new key, so that any existing user settings are preserved.</source>
+          <target>To avoid the need to update existing registry data, your code could be updated to read the existing registry data and migrate it to a new key, so that any existing user settings are preserved.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Alternatively, approaches such as adding a version number check when the application starts (to determine which registry values to use) may be appropriate.</source>
+          <target>Alternatively, approaches such as adding a version number check when the application starts (to determine which registry values to use) may be appropriate.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>If none of these approaches are possible, provxml can be used to overwrite the existing registry settings.</source>
+          <target>If none of these approaches are possible, provxml can be used to overwrite the existing registry settings.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Updating registry settings with provxml</source>
+          <target>Updating registry settings with provxml</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Most updates can be created without the need for provisioning XML (provxml).</source>
+          <target>Most updates can be created without the need for provisioning XML (provxml).</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>But there are certain situations where the use of provxml may be required.</source>
+          <target>But there are certain situations where the use of provxml may be required.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>If a registry value can be modified by a user setting or code that executes on the phone at any time before the update is applied, standard package updates respect those changes and do not overwrite the existing registry data.</source>
+          <target>If a registry value can be modified by a user setting or code that executes on the phone at any time before the update is applied, standard package updates respect those changes and do not overwrite the existing registry data.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>In this situation, the provxml described here must be used.</source>
+          <target>In this situation, the provxml described here must be used.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>You can use OMA CP provisioning using provxml.</source>
+          <target>You can use OMA CP provisioning using provxml.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>This sample provxml sets the value of a single registry entry.</source>
+          <target>This sample provxml sets the value of a single registry entry.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Use the following syntax for the provxml file naming:</source>
+          <target>Use the following syntax for the provxml file naming:</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the value of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">n</pc> for the first update, start with 001 and increment the value for each subsequent update.</source>
+          <target>For the value of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">n</pc> for the first update, start with 001 and increment the value for each subsequent update.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>All provxml updates are applied in the order specified by <pc dataRefEnd="id2" dataRefStart="id1" id="p1">n</pc>.</source>
+          <target>All provxml updates are applied in the order specified by <pc dataRefEnd="id2" dataRefStart="id1" id="p1">n</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Creating a package for the provxml</source>
+          <target>Creating a package for the provxml</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Create a package file that places these files in the proper update directory as shown.</source>
+          <target>Create a package file that places these files in the proper update directory as shown.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Provide an appropriate Owner value.</source>
+          <target>Provide an appropriate Owner value.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/dn756796)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Primary elements and attributes of a package project file</pc>.</source>
+          <target>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Primary elements and attributes of a package project file</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Generate the package, and then include the provisioning package in the OS image that will be used to submit updates to Microsoft.</source>
+          <target>Generate the package, and then include the provisioning package in the OS image that will be used to submit updates to Microsoft.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/dn756642)</data>
+          <data id="id3">[</data>
+          <data id="id4">](submit-an-update.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Creating packages</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Submit an update</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Creating packages</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Submit an update</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Resetting the phone and provxml registry updates</source>
+          <target>Resetting the phone and provxml registry updates</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Update provxml files are processed after an update has been applied to the device.</source>
+          <target>Update provxml files are processed after an update has been applied to the device.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>When the update is applied, the registry changes are stored in both the base OS image and the current, active registry.</source>
+          <target>When the update is applied, the registry changes are stored in both the base OS image and the current, active registry.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>This means that when the device is reset, the registry changes that were delivered in an update are present, but updates to associated store apps that use those registry settings may not be present on the device.</source>
+          <target>This means that when the device is reset, the registry changes that were delivered in an update are present, but updates to associated store apps that use those registry settings may not be present on the device.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>As OEMs prepare updates, they must identify possible usage scenarios, such as the phone being reset, and test those to create the desired user experience.</source>
+          <target>As OEMs prepare updates, they must identify possible usage scenarios, such as the phone being reset, and test those to create the desired user experience.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Testing provisioning file in updates</source>
+          <target>Testing provisioning file in updates</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Two scenarios must be tested to validate an update provisioning file:</source>
+          <target>Two scenarios must be tested to validate an update provisioning file:</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Update—Using a base image, apply the update.</source>
+          <target>Update—Using a base image, apply the update.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Verify that the changes in the provxml were applied.</source>
+          <target>Verify that the changes in the provxml were applied.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">&amp;gt;</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">&amp;gt;</data>
+          <data id="id10">**</data>
+          <data id="id11">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Reset—To test this after the phone has been updated, use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">System</pc><ph dataRef="id6" id="ph2" /><pc dataRefEnd="id8" dataRefStart="id7" id="p3">About</pc><ph dataRef="id9" id="ph3" /><pc dataRefEnd="id11" dataRefStart="id10" id="p4">Reset your phone</pc>.</source>
+          <target>Reset—To test this after the phone has been updated, use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">System</pc><ph dataRef="id6" id="ph2" /><pc dataRefEnd="id8" dataRefStart="id7" id="p3">About</pc><ph dataRef="id9" id="ph3" /><pc dataRefEnd="id11" dataRefStart="id10" id="p4">Reset your phone</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Verify that the update changes in the provxml were applied.</source>
+          <target>Verify that the update changes in the provxml were applied.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>It is important to verify that the update will work properly if the user has altered settings that the update targets.</source>
+          <target>It is important to verify that the update will work properly if the user has altered settings that the update targets.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>In addition, the standard guidance for update testing should be followed.</source>
+          <target>In addition, the standard guidance for update testing should be followed.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](test-an-update.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Test an update</pc>.</source>
+          <target>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Test an update</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Provxml update error handling</source>
+          <target>Provxml update error handling</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>During an update, provxml files are processed on a best-effort basis.</source>
+          <target>During an update, provxml files are processed on a best-effort basis.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>If a provxml file cannot be processed due to formatting errors or permissions issues, the file is skipped, and processing of subsequent provxmls continues.</source>
+          <target>If a provxml file cannot be processed due to formatting errors or permissions issues, the file is skipped, and processing of subsequent provxmls continues.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+          <data id="id8">\\</data>
+          <data id="id9">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In development of the prvoxml, you can check the status that is stored in the registry at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKLM<ph dataRef="id3" id="ph1" />Software<ph dataRef="id4" id="ph2" />Microsoft<ph dataRef="id5" id="ph3" />Windows<ph dataRef="id6" id="ph4" />CurrentVersion<ph dataRef="id7" id="ph5" />DataMigrationFramework<ph dataRef="id8" id="ph6" />ProvisioningStatus<ph dataRef="id9" id="ph7" />Microsoft</pc>.</source>
+          <target>In development of the prvoxml, you can check the status that is stored in the registry at <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKLM<ph dataRef="id3" id="ph1" />Software<ph dataRef="id4" id="ph2" />Microsoft<ph dataRef="id5" id="ph3" />Windows<ph dataRef="id6" id="ph4" />CurrentVersion<ph dataRef="id7" id="ph5" />DataMigrationFramework<ph dataRef="id8" id="ph6" />ProvisioningStatus<ph dataRef="id9" id="ph7" />Microsoft</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>A registry entry is created for each provxml file that is processed, and the HRESULT from processing the file is stored as the entry value.</source>
+          <target>A registry entry is created for each provxml file that is processed, and the HRESULT from processing the file is stored as the entry value.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

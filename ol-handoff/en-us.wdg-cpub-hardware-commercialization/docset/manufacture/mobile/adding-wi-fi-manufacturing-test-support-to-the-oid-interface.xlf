@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\mobile\adding-wi-fi-manufacturing-test-support-to-the-oid-interface.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">88de35047cb964f2afffc815033397be56c76406</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Adding Wi-Fi manufacturing test support to the OID interface</source>
+          <target>Adding Wi-Fi manufacturing test support to the OID interface</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Adding Wi-Fi manufacturing test support to the OID interface</source>
+          <target>Adding Wi-Fi manufacturing test support to the OID interface</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Adding Wi-Fi manufacturing test support to the OID interface</source>
+          <target>Adding Wi-Fi manufacturing test support to the OID interface</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>To ensure that all device components are integrated, functioning correctly, calibrated properly, and meet all regulatory requirements, OEMs run a number of standard ad-hoc tests to ensure that any problems are found and corrected before the device goes to retail.</source>
+          <target>To ensure that all device components are integrated, functioning correctly, calibrated properly, and meet all regulatory requirements, OEMs run a number of standard ad-hoc tests to ensure that any problems are found and corrected before the device goes to retail.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>These tests are also occasionally run at retail outlets to check for proper component operation.</source>
+          <target>These tests are also occasionally run at retail outlets to check for proper component operation.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>The implementation of these test interfaces and mechanisms is performed by hardware vendors (IHVs).</source>
+          <target>The implementation of these test interfaces and mechanisms is performed by hardware vendors (IHVs).</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://msdn.microsoft.com/library/ff560670.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>This section describes an extension to the existing <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Wi-Fi OID documentation</pc> so that IHVs can implement a standard set of interfaces that OEMs can use to create test applications.</source>
+          <target>This section describes an extension to the existing <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Wi-Fi OID documentation</pc> so that IHVs can implement a standard set of interfaces that OEMs can use to create test applications.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Assumptions</source>
+          <target>Assumptions</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>To perform these manufacturing tests, the device must be operating in a special operation mode called manufacturing mode.</source>
+          <target>To perform these manufacturing tests, the device must be operating in a special operation mode called manufacturing mode.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>In manufacturing mode, only specific parts of the operating system are loaded in order to enable the proper execution of the component tests.</source>
+          <target>In manufacturing mode, only specific parts of the operating system are loaded in order to enable the proper execution of the component tests.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Normal Wi-Fi operations, such as scanning and automatically connecting to networks, are disabled when the device is running in manufacturing mode.</source>
+          <target>Normal Wi-Fi operations, such as scanning and automatically connecting to networks, are disabled when the device is running in manufacturing mode.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Manufacturing mode can be entered in the manufacturing environment or during customer service.</source>
+          <target>Manufacturing mode can be entered in the manufacturing environment or during customer service.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Writing to the Device Provisioning Partition (DPP) can only be performed in the manufacturing environment.</source>
+          <target>Writing to the Device Provisioning Partition (DPP) can only be performed in the manufacturing environment.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>If an OID that writes to the DPP is invoked in a non-manufacturing environment, the attempt to write to the DPP fails.</source>
+          <target>If an OID that writes to the DPP is invoked in a non-manufacturing environment, the attempt to write to the DPP fails.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Manufacturing operations should have only a transient effect on the system, and the state should not persist across reboots.</source>
+          <target>Manufacturing operations should have only a transient effect on the system, and the state should not persist across reboots.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Driver requirements</source>
+          <target>Driver requirements</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>The Wi-Fi miniport driver must be able to operate in normal mode or manufacturing test mode, and it must be able to switch between modes at any time.</source>
+          <target>The Wi-Fi miniport driver must be able to operate in normal mode or manufacturing test mode, and it must be able to switch between modes at any time.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>The driver determines the appropriate mode during initialization by querying a specific registry key.</source>
+          <target>The driver determines the appropriate mode during initialization by querying a specific registry key.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>The following illustration shows the architecture of the manufacturing test environment.</source>
+          <target>The following illustration shows the architecture of the manufacturing test environment.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>mte design</source>
+          <target>mte design</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>In this section</source>
+          <target>In this section</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Reporting operating mode capabilities</source>
+          <target>Reporting operating mode capabilities</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Describes the requirements and behavior for reporting changes with drivers operating in manufacturing test mode.</source>
+          <target>Describes the requirements and behavior for reporting changes with drivers operating in manufacturing test mode.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Supporting updated OID behavior in manufacturing mode</source>
+          <target>Supporting updated OID behavior in manufacturing mode</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Describes the updated OIDs that must be supported by the Wi-Fi miniport driver.</source>
+          <target>Describes the updated OIDs that must be supported by the Wi-Fi miniport driver.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Supporting existing OID commands in manufacturing mode</source>
+          <target>Supporting existing OID commands in manufacturing mode</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Describes the existing OIDs that must be supported by the Wi-Fi miniport driver.</source>
+          <target>Describes the existing OIDs that must be supported by the Wi-Fi miniport driver.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Supporting new OID commands for manufacturing mode</source>
+          <target>Supporting new OID commands for manufacturing mode</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Describes the new OIDs that must be supported by the Wi-Fi miniport driver.</source>
+          <target>Describes the new OIDs that must be supported by the Wi-Fi miniport driver.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Supporting new callbacks for manufacturing mode</source>
+          <target>Supporting new callbacks for manufacturing mode</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Describes the new OID callback that must be supported by the Wi-Fi miniport driver.</source>
+          <target>Describes the new OID callback that must be supported by the Wi-Fi miniport driver.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

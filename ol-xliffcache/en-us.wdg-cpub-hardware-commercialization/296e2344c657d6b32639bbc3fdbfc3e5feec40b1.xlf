@@ -1,0 +1,1004 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\performance\wpt\optimizing-performance-and-responsiveness-exercise-3.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">296e2344c657d6b32639bbc3fdbfc3e5feec40b1</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Exercise 3 - Understand Critical Path and Wait Analysis</source>
+          <target>Exercise 3 - Understand Critical Path and Wait Analysis</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Scenarios and activities can be unexpectedly delayed.</source>
+          <target>Scenarios and activities can be unexpectedly delayed.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>For example, opening a tab within Microsoft Edge may sometimes take longer than expected.</source>
+          <target>For example, opening a tab within Microsoft Edge may sometimes take longer than expected.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Exercise 3 - Understand Critical Path and Wait Analysis</source>
+          <target>Exercise 3 - Understand Critical Path and Wait Analysis</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Scenarios and activities can be unexpectedly delayed.</source>
+          <target>Scenarios and activities can be unexpectedly delayed.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>For example, opening a tab within Microsoft Edge may sometimes take longer than expected.</source>
+          <target>For example, opening a tab within Microsoft Edge may sometimes take longer than expected.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>An activity is defined as a series of operations, some sequential and some parallel, that flows from a start event to an end event.</source>
+          <target>An activity is defined as a series of operations, some sequential and some parallel, that flows from a start event to an end event.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Any start/end event pair in a trace can be viewed as an activity.</source>
+          <target>Any start/end event pair in a trace can be viewed as an activity.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The longest path through this series of operations is known as the critical path.</source>
+          <target>The longest path through this series of operations is known as the critical path.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Reducing the duration of any operation on the critical path directly reduces the duration of the overall activity.</source>
+          <target>Reducing the duration of any operation on the critical path directly reduces the duration of the overall activity.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>It is recommended that you identify the process and the thread that completed the activity and work backwards from the time the activity completed.</source>
+          <target>It is recommended that you identify the process and the thread that completed the activity and work backwards from the time the activity completed.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Start by analyzing the thread that completed the activity to determine how that thread spent most of its time and in what state: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">running</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ready</pc>, or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">waiting</pc>.</source>
+          <target>Start by analyzing the thread that completed the activity to determine how that thread spent most of its time and in what state: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">running</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ready</pc>, or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">waiting</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Significant running times indicate that direct CPU usage might be contributing to the duration of the critical path.</source>
+          <target>Significant running times indicate that direct CPU usage might be contributing to the duration of the critical path.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Time spent in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ready</pc> state indicates that other threads contribute to the duration of the critical path by preventing a thread on the critical path from executing.</source>
+          <target>Time spent in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ready</pc> state indicates that other threads contribute to the duration of the critical path by preventing a thread on the critical path from executing.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Time spent <pc dataRefEnd="id2" dataRefStart="id1" id="p1">waiting</pc> points to I/O, timers, or other threads and processes on the critical path for which the current thread was waiting.</source>
+          <target>Time spent <pc dataRefEnd="id2" dataRefStart="id1" id="p1">waiting</pc> points to I/O, timers, or other threads and processes on the critical path for which the current thread was waiting.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Each thread that readies the current thread is probably another link in the critical path and can also be analyzed until the duration of the critical path is accounted for.</source>
+          <target>Each thread that readies the current thread is probably another link in the critical path and can also be analyzed until the duration of the critical path is accounted for.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>All the required information is recorded in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CPU Usage (Precise)</pc> graph and table in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">WPA</pc>.</source>
+          <target>All the required information is recorded in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CPU Usage (Precise)</pc> graph and table in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">WPA</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>CPU usage events that are logged by the dispatcher are associated with context switches.</source>
+          <target>CPU usage events that are logged by the dispatcher are associated with context switches.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This table focuses on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThread</pc> which is the thread that was switched in, and each row represents a context switch.</source>
+          <target>This table focuses on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThread</pc> which is the thread that was switched in, and each row represents a context switch.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Data is collected for the following event sequence:</source>
+          <target>Data is collected for the following event sequence:</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThread</pc> is switched out due to a blocking function call.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThread</pc> is switched out due to a blocking function call.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThread</pc> is made ready to run by the readying thread.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThread</pc> is made ready to run by the readying thread.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThread</pc> is switched in, thereby switching out an old thread.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThread</pc> is switched in, thereby switching out an old thread.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThread</pc> is switched out again.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThread</pc> is switched out again.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Here are the interesting columns in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CPU Usage (Precise)</pc> table.</source>
+          <target>Here are the interesting columns in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CPU Usage (Precise)</pc> table.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Column</source>
+          <target>Column</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Details</source>
+          <target>Details</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>% CPU Usage</source>
+          <target>% CPU Usage</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>The CPU usage of the new thread after it is switched.</source>
+          <target>The CPU usage of the new thread after it is switched.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>This value is expressed as a percentage of the total CPU time over the currently visible time period.</source>
+          <target>This value is expressed as a percentage of the total CPU time over the currently visible time period.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Count</source>
+          <target>Count</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>The number of context switches that are represented by the row.</source>
+          <target>The number of context switches that are represented by the row.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>This is always 1 for individual rows.</source>
+          <target>This is always 1 for individual rows.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>CPU Usage (ms)</source>
+          <target>CPU Usage (ms)</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>The CPU usage of the new thread after the context switch.</source>
+          <target>The CPU usage of the new thread after the context switch.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>NewProcess</source>
+          <target>NewProcess</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>The process of the new thread.</source>
+          <target>The process of the new thread.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>NewThreadId</source>
+          <target>NewThreadId</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>The thread ID of the new thread.</source>
+          <target>The thread ID of the new thread.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>NewThreadStack</source>
+          <target>NewThreadStack</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>The stack of the new thread when it is switched in.</source>
+          <target>The stack of the new thread when it is switched in.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Usually indicates what the thread was blocked or waiting on.</source>
+          <target>Usually indicates what the thread was blocked or waiting on.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Ready(s)</source>
+          <target>Ready(s)</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>The time that the thread spent in the Ready queue (due to pre-emption or CPU starvation).</source>
+          <target>The time that the thread spent in the Ready queue (due to pre-emption or CPU starvation).</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>ReadyingThreadId</source>
+          <target>ReadyingThreadId</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>The thread ID of the readying thread.</source>
+          <target>The thread ID of the readying thread.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>ReadyingProcess</source>
+          <target>ReadyingProcess</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>The process that owns the readying thread.</source>
+          <target>The process that owns the readying thread.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>ReadyThreadStack</source>
+          <target>ReadyThreadStack</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>The stack of the readying thread.</source>
+          <target>The stack of the readying thread.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>ReadyTime (s)</source>
+          <target>ReadyTime (s)</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>The time when the new thread was readied.</source>
+          <target>The time when the new thread was readied.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>SwitchInTime(s)</source>
+          <target>SwitchInTime(s)</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>The time when the new thread was switched in.</source>
+          <target>The time when the new thread was switched in.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Waits (s)</source>
+          <target>Waits (s)</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>The amount of time a thread waited on a logical or physical resource.</source>
+          <target>The amount of time a thread waited on a logical or physical resource.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The wait ends when <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThreadId</pc> is signaled by <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ReadyingThreadId</pc>.</source>
+          <target>The wait ends when <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThreadId</pc> is signaled by <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ReadyingThreadId</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Step 1: Capture and open a trace for a UI delay problem</source>
+          <target>Step 1: Capture and open a trace for a UI delay problem</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>This exercise will focus on a dummy process with an unresponsive UI.</source>
+          <target>This exercise will focus on a dummy process with an unresponsive UI.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>The process is a simple Windows Form application with a button and a text box.</source>
+          <target>The process is a simple Windows Form application with a button and a text box.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>When the button is clicked, the UI becomes unresponsive for 20 seconds until the text box is updated.</source>
+          <target>When the button is clicked, the UI becomes unresponsive for 20 seconds until the text box is updated.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>You will analyze the critical path of this operation.</source>
+          <target>You will analyze the critical path of this operation.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](http://download.microsoft.com/download/9/C/5/9C562A35-2E52-4CAE-A662-753486C13F4A/UIDelay.exe)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Download <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UIDelay.exe</pc> from <pc dataRefEnd="id4" dataRefStart="id3" id="p2">here</pc>.</source>
+          <target>Download <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UIDelay.exe</pc> from <pc dataRefEnd="id4" dataRefStart="id3" id="p2">here</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Launch <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UIDelay.exe</pc>.</source>
+          <target>Launch <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UIDelay.exe</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPR</pc> from the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Start</pc> menu.</source>
+          <target>Open <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPR</pc> from the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Start</pc> menu.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Modify the tracing configuration.</source>
+          <target>Modify the tracing configuration.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">First Level Triage</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">CPU Usage</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">First Level Triage</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">CPU Usage</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> as the performance scenario.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> as the performance scenario.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Verbose</pc> as the detail level.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Verbose</pc> as the detail level.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>.</source>
+          <target>Click on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UIDelay.exe</pc>, click on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Click</pc> button.</source>
+          <target>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UIDelay.exe</pc>, click on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Click</pc> button.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Wait until the text box shows “Done!”</source>
+          <target>Wait until the text box shows “Done!”</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPR</pc>, save the trace and open it with <pc dataRefEnd="id4" dataRefStart="id3" id="p2">WPA.</pc></source>
+          <target>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPR</pc>, save the trace and open it with <pc dataRefEnd="id4" dataRefStart="id3" id="p2">WPA.</pc></target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trace</pc> menu and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configure symbols path</pc>.</source>
+          <target>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trace</pc> menu and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configure symbols path</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Specify the path of the symbol cache.</source>
+          <target>Specify the path of the symbol cache.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://go.microsoft.com/fwlink/?linkid=623019)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information on symbols, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Symbol Support</pc> page on MSDN.</source>
+          <target>For more information on symbols, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Symbol Support</pc> page on MSDN.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trace</pc> menu and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Load symbols</pc>.</source>
+          <target>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trace</pc> menu and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Load symbols</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Step 2: Identify the delayed UI thread</source>
+          <target>Step 2: Identify the delayed UI thread</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Before performing critical path analysis, you must first identify the activity start and stop events.</source>
+          <target>Before performing critical path analysis, you must first identify the activity start and stop events.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Find the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UI Delays</pc> graph in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">System Activity</pc> node of the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Graph Explorer</pc>.</source>
+          <target>Find the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UI Delays</pc> graph in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">System Activity</pc> node of the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Graph Explorer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Drag and drop the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UI Delays</pc> graph in the analysis tab.</source>
+          <target>Drag and drop the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UI Delays</pc> graph in the analysis tab.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Find the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UIDelay.exe</pc> process.</source>
+          <target>Find the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UIDelay.exe</pc> process.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Its duration should be around 20 seconds.</source>
+          <target>Its duration should be around 20 seconds.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This indicates that there was a delay of 20 seconds on the UI thread of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UIDelay.exe</pc>.</source>
+          <target>This indicates that there was a delay of 20 seconds on the UI thread of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UIDelay.exe</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The UI thread identifier is shown in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Thread Id</pc> column.</source>
+          <target>The UI thread identifier is shown in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Thread Id</pc> column.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>In this example, it is 24174.</source>
+          <target>In this example, it is 24174.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>This value will be different in the trace you’ve captured on your machine.</source>
+          <target>This value will be different in the trace you’ve captured on your machine.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Make sure to note the thread ID.</source>
+          <target>Make sure to note the thread ID.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the entire <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UIDelay.exe</pc> time interval, right-click and zoom in.</source>
+          <target>Select the entire <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UIDelay.exe</pc> time interval, right-click and zoom in.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>You should always zoom in the regions you’re trying to analyze.</source>
+          <target>You should always zoom in the regions you’re trying to analyze.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>It reduces the amount of noise introduced by unrelated activities.</source>
+          <target>It reduces the amount of noise introduced by unrelated activities.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Step 3: Analyze the UI delay critical path</source>
+          <target>Step 3: Analyze the UI delay critical path</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Now that you have an analysis starting point with the thread ID and the timestamps, you can start digging into the activity critical path to understand the sequence of events that lead to a 20 seconds delay on the UI thread.</source>
+          <target>Now that you have an analysis starting point with the thread ID and the timestamps, you can start digging into the activity critical path to understand the sequence of events that lead to a 20 seconds delay on the UI thread.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThreadId</pc> for this step is the thread you identified in Step 2 (Thread 24174 in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">UIDelay.exe</pc> process).</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThreadId</pc> for this step is the thread you identified in Step 2 (Thread 24174 in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">UIDelay.exe</pc> process).</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CPU Usage (Precise)</pc> graph to the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">analysis</pc> tab and apply the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Utilization by Process, Thread</pc> preset.</source>
+          <target>Add the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CPU Usage (Precise)</pc> graph to the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">analysis</pc> tab and apply the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Utilization by Process, Thread</pc> preset.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click the column headers and make the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThreadStack</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ReadyThreadStack</pc>, and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">CPU Usage (ms)</pc> columns visible.</source>
+          <target>Right-click the column headers and make the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThreadStack</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ReadyThreadStack</pc>, and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">CPU Usage (ms)</pc> columns visible.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\[</data>
+          <data id="id4">\]</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">\[</data>
+          <data id="id8">\]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Remove the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ready (us) <ph dataRef="id3" id="ph1" />Max<ph dataRef="id4" id="ph2" /></pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p2">Waits (us) <ph dataRef="id7" id="ph3" />Max<ph dataRef="id8" id="ph4" /></pc> columns.</source>
+          <target>Remove the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ready (us) <ph dataRef="id3" id="ph1" />Max<ph dataRef="id4" id="ph2" /></pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p2">Waits (us) <ph dataRef="id7" id="ph3" />Max<ph dataRef="id8" id="ph4" /></pc> columns.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>Your viewport should now look like this.</source>
+          <target>Your viewport should now look like this.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">\[</data>
+          <data id="id8">\]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Find and expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UIDelay.exe</pc> process in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">NewProcess</pc> column and sort by <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Waits (us) <ph dataRef="id7" id="ph1" />Sum<ph dataRef="id8" id="ph2" /></pc> by clicking on the column header.</source>
+          <target>Find and expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UIDelay.exe</pc> process in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">NewProcess</pc> column and sort by <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Waits (us) <ph dataRef="id7" id="ph1" />Sum<ph dataRef="id8" id="ph2" /></pc> by clicking on the column header.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Search for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThreadId</pc> in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">UIDelay.exe</pc> process, and analyze its time spent in the Running, Ready, or Waiting state.</source>
+          <target>Search for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThreadId</pc> in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">UIDelay.exe</pc> process, and analyze its time spent in the Running, Ready, or Waiting state.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>In the following example, you can find that:</source>
+          <target>In the following example, you can find that:</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>The thread is consuming 10.025 seconds of CPU time.</source>
+          <target>The thread is consuming 10.025 seconds of CPU time.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>The thread is waiting for 5.159 seconds.</source>
+          <target>The thread is waiting for 5.159 seconds.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>The thread is in the ready state for a negligible amount of time (10ms).</source>
+          <target>The thread is in the ready state for a negligible amount of time (10ms).</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can analyze the 10 seconds of CPU activity using the same methodology described in Exercise 2, Step 4 using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CPU Usage (sampled)</pc> graph and looking at the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">UIDelay.exe</pc> process.</source>
+          <target>You can analyze the 10 seconds of CPU activity using the same methodology described in Exercise 2, Step 4 using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CPU Usage (sampled)</pc> graph and looking at the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">UIDelay.exe</pc> process.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To discover what the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThreadId</pc> was waiting for, expand the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">NewThreadId</pc> group to display the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">NewThreadStack</pc>.</source>
+          <target>To discover what the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NewThreadId</pc> was waiting for, expand the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">NewThreadId</pc> group to display the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">NewThreadStack</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\[</data>
+          <data id="id4">\]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />Root<ph dataRef="id4" id="ph2" /></pc> and identify the function calls leading to waits.</source>
+          <target>Expand <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />Root<ph dataRef="id4" id="ph2" /></pc> and identify the function calls leading to waits.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UIDelay.exe</pc> thread ID 24174 is waiting on underlying blocking function calls for 5.073 seconds when the button click function is triggered:</source>
+          <target>In this example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UIDelay.exe</pc> thread ID 24174 is waiting on underlying blocking function calls for 5.073 seconds when the button click function is triggered:</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>5.021 seconds are due to operations underneath the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ExecuteWMICall</pc> function.</source>
+          <target>5.021 seconds are due to operations underneath the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ExecuteWMICall</pc> function.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>35 ms are due to operations underneath the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PingServer</pc> function.</source>
+          <target>35 ms are due to operations underneath the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PingServer</pc> function.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Step 3.1: Look at the ExecuteWMICall code path</source>
+          <target>Step 3.1: Look at the ExecuteWMICall code path</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you expand the call stack further under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ExecuteWMICall</pc>, you’ll find that the UI thread is actually sleeping for 5 seconds by explicitly calling <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Thread.Sleep</pc>.</source>
+          <target>If you expand the call stack further under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ExecuteWMICall</pc>, you’ll find that the UI thread is actually sleeping for 5 seconds by explicitly calling <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Thread.Sleep</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>This kind of behavior should be avoided at all cost as it directly impacts responsiveness.</source>
+          <target>This kind of behavior should be avoided at all cost as it directly impacts responsiveness.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>If the code needs to wait for information, it should do it asynchronously on a separate thread and use an event-driven method.</source>
+          <target>If the code needs to wait for information, it should do it asynchronously on a separate thread and use an event-driven method.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Step 3.2: Look at the PingServer code</source>
+          <target>Step 3.2: Look at the PingServer code</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you expand the call stack further under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PingServer</pc>, you’ll find that the UI thread has I/O dependencies as it is sending <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Ping</pc> commands over the network.</source>
+          <target>If you expand the call stack further under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PingServer</pc>, you’ll find that the UI thread has I/O dependencies as it is sending <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Ping</pc> commands over the network.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>While the delay is very small (35 ms), it should be avoided on a UI thread.</source>
+          <target>While the delay is very small (35 ms), it should be avoided on a UI thread.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Keep in mind that the average person will notice any UI delay larger than 100 ms.</source>
+          <target>Keep in mind that the average person will notice any UI delay larger than 100 ms.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>This operation could increase the total activity elapsed time above 100 ms, resulting in users having a bad perception of responsiveness.</source>
+          <target>This operation could increase the total activity elapsed time above 100 ms, resulting in users having a bad perception of responsiveness.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Those operations should happen asynchronously on a separate thread and not block the UI.</source>
+          <target>Those operations should happen asynchronously on a separate thread and not block the UI.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

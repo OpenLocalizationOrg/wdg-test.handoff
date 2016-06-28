@@ -1,0 +1,1180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\performance\assessments\minifilter-diagnostics.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">b26973a70b88a8f9a1ae5da4ee70bd323b4a5400</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Minifilter Diagnostics</source>
+          <target>Minifilter Diagnostics</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Minifilter Diagnostics</source>
+          <target>Minifilter Diagnostics</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Minifilter Diagnostics</source>
+          <target>Minifilter Diagnostics</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This topic can help you interpret the results produced by running one of the minifilter diagnostic assessments, or results that are produced by enabling the minifilter diagnostic mode in an assessment.</source>
+          <target>This topic can help you interpret the results produced by running one of the minifilter diagnostic assessments, or results that are produced by enabling the minifilter diagnostic mode in an assessment.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>It also provides guidance on how to use the results to identify and resolve common issues that negatively affect the end user’s experience and perceived performance of a computer.</source>
+          <target>It also provides guidance on how to use the results to identify and resolve common issues that negatively affect the end user’s experience and perceived performance of a computer.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>A minifilter driver is a file system filter that intercepts requests that are targeted at a file system or another file system filter.</source>
+          <target>A minifilter driver is a file system filter that intercepts requests that are targeted at a file system or another file system filter.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>By intercepting the request before it reaches its intended target, the filter driver can extend or replace functionality provided by the original target of the request.</source>
+          <target>By intercepting the request before it reaches its intended target, the filter driver can extend or replace functionality provided by the original target of the request.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Examples of file system filter drivers include anti-virus filters, backup agents, and encryption/decryption products.</source>
+          <target>Examples of file system filter drivers include anti-virus filters, backup agents, and encryption/decryption products.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Filter drivers are made possible by a legacy driver that is named Filter Driver.</source>
+          <target>Filter drivers are made possible by a legacy driver that is named Filter Driver.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>A minifilter exposes callbacks for pre and post processing of file I/O.</source>
+          <target>A minifilter exposes callbacks for pre and post processing of file I/O.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>The filter driver communicates with the minifilter through these callbacks.</source>
+          <target>The filter driver communicates with the minifilter through these callbacks.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Minifilters are used to process standard I/O; they are not used when an application uses memory mapped files.</source>
+          <target>Minifilters are used to process standard I/O; they are not used when an application uses memory mapped files.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>In this topic:</source>
+          <target>In this topic:</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>About Minifilter Diagnostic Mode</source>
+          <target>About Minifilter Diagnostic Mode</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Metrics</source>
+          <target>Metrics</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>About Minifilter Diagnostic Mode</source>
+          <target>About Minifilter Diagnostic Mode</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Minifilters were designed to make intercepting file I/O easier than it would be using other profiling software.</source>
+          <target>Minifilters were designed to make intercepting file I/O easier than it would be using other profiling software.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Without minifilters, developers must write legacy drivers which can be challenging and error-prone.</source>
+          <target>Without minifilters, developers must write legacy drivers which can be challenging and error-prone.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Since minifilters run code on most file I/O, their performance can significantly affect applications and the end-user experience.</source>
+          <target>Since minifilters run code on most file I/O, their performance can significantly affect applications and the end-user experience.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>A poorly implemented minifilter can cause perceived slowness of the computer.</source>
+          <target>A poorly implemented minifilter can cause perceived slowness of the computer.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Minifilter diagnostic mode is designed to help identify such drivers by running three I/O intensive tasks, which include the following:</source>
+          <target>Minifilter diagnostic mode is designed to help identify such drivers by running three I/O intensive tasks, which include the following:</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Standard file system operations such as moving, copying, and deleting a file.</source>
+          <target>Standard file system operations such as moving, copying, and deleting a file.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Load an application and monitor the I/O required to load all of its dependencies.</source>
+          <target>Load an application and monitor the I/O required to load all of its dependencies.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Boot the computer and monitor I/O to assist in finding minifilters that may have a negative effect on boot and shutdown performance.</source>
+          <target>Boot the computer and monitor I/O to assist in finding minifilters that may have a negative effect on boot and shutdown performance.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>There are three assessments that include an assessment setting to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable Minifilter Diagnostic Mode</pc> while the assessment is running.</source>
+          <target>There are three assessments that include an assessment setting to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable Minifilter Diagnostic Mode</pc> while the assessment is running.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>By default, the minifilter diagnostic mode is disabled for these assessments:</source>
+          <target>By default, the minifilter diagnostic mode is disabled for these assessments:</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>File Handling</source>
+          <target>File Handling</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Internet Explorer Startup Performance</source>
+          <target>Internet Explorer Startup Performance</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Boot Performance (Fast Startup)</source>
+          <target>Boot Performance (Fast Startup)</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>These three assessments are also available with minifilter diagnostics enabled by default.</source>
+          <target>These three assessments are also available with minifilter diagnostics enabled by default.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>They are listed with other available assessments as:</source>
+          <target>They are listed with other available assessments as:</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Minifilter Diagnostic: File Handling</source>
+          <target>Minifilter Diagnostic: File Handling</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Minifilter Diagnostic: Internet Explorer</source>
+          <target>Minifilter Diagnostic: Internet Explorer</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Minifilter Diagnostic: Boot Performance (Fast Startup)</source>
+          <target>Minifilter Diagnostic: Boot Performance (Fast Startup)</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Running all three assessments (with minifilter diagnostics enabled), provides a broad view of how minifilters affect the system.</source>
+          <target>Running all three assessments (with minifilter diagnostics enabled), provides a broad view of how minifilters affect the system.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Each assessment runs a particular scenario and collects data on the behavior of the minifilters installed on the system.</source>
+          <target>Each assessment runs a particular scenario and collects data on the behavior of the minifilters installed on the system.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>This data can then be analyzed using the Windows Assessment Console, the Windows Assessment Services - Client (Windows ASC) or Windows Performance Analyzer (WPA).</source>
+          <target>This data can then be analyzed using the Windows Assessment Console, the Windows Assessment Services - Client (Windows ASC) or Windows Performance Analyzer (WPA).</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>The assessment tools group the data in a different way than WPA does, but all of these tools enable you to drill down to see the effect of the minifilters.</source>
+          <target>The assessment tools group the data in a different way than WPA does, but all of these tools enable you to drill down to see the effect of the minifilters.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Minifilter Diagnostic: File Handling assessment</source>
+          <target>Minifilter Diagnostic: File Handling assessment</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>The Minifilter Diagnostic: File Handling assessment performs file system actions such as moving, copying and deleting files on the file system.</source>
+          <target>The Minifilter Diagnostic: File Handling assessment performs file system actions such as moving, copying and deleting files on the file system.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>This assessment measures wall clock time and throughput for each of these types of I/O.</source>
+          <target>This assessment measures wall clock time and throughput for each of these types of I/O.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](file-handling.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about this assessment, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File Handling</pc>.</source>
+          <target>For more information about this assessment, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File Handling</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>The Minifilter Diagnostic: File Handling assessment collects data such as the wall clock time required to copy, move or delete a file on the file system, in addition to throughput, where applicable.</source>
+          <target>The Minifilter Diagnostic: File Handling assessment collects data such as the wall clock time required to copy, move or delete a file on the file system, in addition to throughput, where applicable.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>When you drill down to see all the major minifilter callback routines, you can find the number of times that each was called, the time it took to complete the calls, and the average and maximum times.</source>
+          <target>When you drill down to see all the major minifilter callback routines, you can find the number of times that each was called, the time it took to complete the calls, and the average and maximum times.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Minifilter Diagnostic: Internet Explorer</source>
+          <target>Minifilter Diagnostic: Internet Explorer</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>The Minifilter Diagnostic: Internet Explorer assessment opens a single tab with simple content, in a new Internet Explorer window.</source>
+          <target>The Minifilter Diagnostic: Internet Explorer assessment opens a single tab with simple content, in a new Internet Explorer window.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Internet Explorer is a medium to large size application that has a long list of dependent DLLs.</source>
+          <target>Internet Explorer is a medium to large size application that has a long list of dependent DLLs.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>The assessment serves as a proxy for starting any application and then monitoring how well the installed minifilters behave.</source>
+          <target>The assessment serves as a proxy for starting any application and then monitoring how well the installed minifilters behave.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](internet-explorer-startup-performance.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about this assessment, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Internet Explorer Startup Performance</pc>.</source>
+          <target>For more information about this assessment, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Internet Explorer Startup Performance</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>The Minifilter Diagnostic: Internet Explorer assessment provides data such as the time that it takes to create a frame, create a tab, and start the application.</source>
+          <target>The Minifilter Diagnostic: Internet Explorer assessment provides data such as the time that it takes to create a frame, create a tab, and start the application.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>When you drill down to see all the major mini filter callback routines, you can find the number of times that each was called, the time it took to complete the calls, and the average and maximum times.</source>
+          <target>When you drill down to see all the major mini filter callback routines, you can find the number of times that each was called, the time it took to complete the calls, and the average and maximum times.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Minifilter Diagnostic: Boot Performance (Fast Startup)</source>
+          <target>Minifilter Diagnostic: Boot Performance (Fast Startup)</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>The Minifilter Diagnostic: Boot Performance (Fast Startup) assessment boots the system and monitors I/O activity during this critical time period.</source>
+          <target>The Minifilter Diagnostic: Boot Performance (Fast Startup) assessment boots the system and monitors I/O activity during this critical time period.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>The results data is organized by the phase of the boot.</source>
+          <target>The results data is organized by the phase of the boot.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>There are 17 phases to the boot process.</source>
+          <target>There are 17 phases to the boot process.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>A given mini filter may affect the boot in more than one phase.</source>
+          <target>A given mini filter may affect the boot in more than one phase.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](onoff-transition-performance.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about this assessment, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">On/Off Transition Performance</pc>.</source>
+          <target>For more information about this assessment, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">On/Off Transition Performance</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>When you drill down to see all the major mini filter callback routines, you can find the number of times each was called, the time that it took to complete the calls, and the average and maximum times.</source>
+          <target>When you drill down to see all the major mini filter callback routines, you can find the number of times each was called, the time that it took to complete the calls, and the average and maximum times.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>For more information about result specific to each assessment, see:</source>
+          <target>For more information about result specific to each assessment, see:</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Results for the File Handling Assessment</source>
+          <target>Results for the File Handling Assessment</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Results for the Internet Explorer Startup Performance Assessment</source>
+          <target>Results for the Internet Explorer Startup Performance Assessment</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Results for the On/Off Assessments</source>
+          <target>Results for the On/Off Assessments</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>There are two types of issues generated by assessments.</source>
+          <target>There are two types of issues generated by assessments.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>There are pre-configuration issues that you can control by addressing the errors and warnings that appear before the assessment starts.</source>
+          <target>There are pre-configuration issues that you can control by addressing the errors and warnings that appear before the assessment starts.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>If you don’t address these before the assessment starts, issues are generated and added to the assessment results.</source>
+          <target>If you don’t address these before the assessment starts, issues are generated and added to the assessment results.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>The other type of issue is generated when a metric value is compared to the goal for that metric.</source>
+          <target>The other type of issue is generated when a metric value is compared to the goal for that metric.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>You often begin your analysis with these issues.</source>
+          <target>You often begin your analysis with these issues.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Some issues require reconfiguring the computer and running the assessment again, and others are measurements taken during the assessment that reveal potential issues.</source>
+          <target>Some issues require reconfiguring the computer and running the assessment again, and others are measurements taken during the assessment that reveal potential issues.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>By running these three assessments you can see the affect that minifilters have on startup, and common usage of the computer.</source>
+          <target>By running these three assessments you can see the affect that minifilters have on startup, and common usage of the computer.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>The results might highlight issues specific to the assessment scenario, but the results can also be used to identify minifilter issues and compare results.</source>
+          <target>The results might highlight issues specific to the assessment scenario, but the results can also be used to identify minifilter issues and compare results.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>For example, you can compare the affect that various anti-virus (AV) packages have on the system by running the assessments on two identical systems that differ only because of the AV software that is installed.</source>
+          <target>For example, you can compare the affect that various anti-virus (AV) packages have on the system by running the assessments on two identical systems that differ only because of the AV software that is installed.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>You can also compare two different computers that have the same AV software installed.</source>
+          <target>You can also compare two different computers that have the same AV software installed.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Or, you can use just one computer and run the assessments with one AV program installed, and then uninstall it and install a different AV program, before you run the three assessments again.</source>
+          <target>Or, you can use just one computer and run the assessments with one AV program installed, and then uninstall it and install a different AV program, before you run the three assessments again.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Either way, you can open all the results for a side-by-side comparison, and begin your analysis.</source>
+          <target>Either way, you can open all the results for a side-by-side comparison, and begin your analysis.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Metrics</source>
+          <target>Metrics</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>This section describes the key minifilter metrics, common causes of poor results for these metrics, and common remediation for issues.</source>
+          <target>This section describes the key minifilter metrics, common causes of poor results for these metrics, and common remediation for issues.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>This section also attempts to identify the audience that has the most influence on each of these metrics.</source>
+          <target>This section also attempts to identify the audience that has the most influence on each of these metrics.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>In this section:</source>
+          <target>In this section:</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Minifilter Metric Hierarchy</source>
+          <target>Minifilter Metric Hierarchy</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Longest Delay</source>
+          <target>Longest Delay</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Minifilter Delay</source>
+          <target>Minifilter Delay</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Average Call Length</source>
+          <target>Average Call Length</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Minifilter Callbacks</source>
+          <target>Minifilter Callbacks</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Minifilter Metric Hierarchy</source>
+          <target>Minifilter Metric Hierarchy</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>The minifilter diagnostic mode produces duration metrics.</source>
+          <target>The minifilter diagnostic mode produces duration metrics.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>For example, when the minifilter diagnostic is enabled for the File Handling assessment, the duration for the copy workload is displayed, in addition to sub-metrics grouped by minifilter or grouped by callback type.</source>
+          <target>For example, when the minifilter diagnostic is enabled for the File Handling assessment, the duration for the copy workload is displayed, in addition to sub-metrics grouped by minifilter or grouped by callback type.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>The basic hierarchy of the minifilter metrics is displayed in the following diagram:</source>
+          <target>The basic hierarchy of the minifilter metrics is displayed in the following diagram:</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>shows levels of results for minifilters</source>
+          <target>shows levels of results for minifilters</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Minifilter metric values are deeply nested under logical groupings.</source>
+          <target>Minifilter metric values are deeply nested under logical groupings.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>This hierarchy of results enables you to view the details of an assessment workload or phase that generated the results that you are interested in.</source>
+          <target>This hierarchy of results enables you to view the details of an assessment workload or phase that generated the results that you are interested in.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Once you expand the results for a workload, you can see the list of minifilters and the results that they each provide that are aggregated to the workload level.</source>
+          <target>Once you expand the results for a workload, you can see the list of minifilters and the results that they each provide that are aggregated to the workload level.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Select a particular minifilter from the list, and you can see the list of calls made against that minifilter.</source>
+          <target>Select a particular minifilter from the list, and you can see the list of calls made against that minifilter.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Select an interesting call, and you can review the pre- or post-operations that generated the results that you find interesting.</source>
+          <target>Select an interesting call, and you can review the pre- or post-operations that generated the results that you find interesting.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Here’s an example:</source>
+          <target>Here’s an example:</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the File Handling Performance assessment, the first level of detail is called the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workload</pc> level.</source>
+          <target>In the File Handling Performance assessment, the first level of detail is called the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workload</pc> level.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>In Boot Performance assessment or in the Internet Explorer Startup Performance assessment, the first level of detail is called the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Phase</pc> level.</source>
+          <target>In Boot Performance assessment or in the Internet Explorer Startup Performance assessment, the first level of detail is called the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Phase</pc> level.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>sample results for minifilter drill down</source>
+          <target>sample results for minifilter drill down</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>In this scenario, the CopyPG workload had a value of 14.494.</source>
+          <target>In this scenario, the CopyPG workload had a value of 14.494.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>When you expand that result, you find that it was the minifilter1.sys driver that contributed a value of 11.541 to the CopyPG workload value.</source>
+          <target>When you expand that result, you find that it was the minifilter1.sys driver that contributed a value of 11.541 to the CopyPG workload value.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>When you expand the minifilter1.sys result, you see that the Cleanup callback type was the source of the value of 11.541.</source>
+          <target>When you expand the minifilter1.sys result, you see that the Cleanup callback type was the source of the value of 11.541.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>When you expand the Cleanup callback type, you find that it was the MiniFilterPreOpComp operation that was measured at a value of 11.541.</source>
+          <target>When you expand the Cleanup callback type, you find that it was the MiniFilterPreOpComp operation that was measured at a value of 11.541.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Using this method, you can establish exactly which operation, callback type, minifilter, or workload/phase produced any particular result.</source>
+          <target>Using this method, you can establish exactly which operation, callback type, minifilter, or workload/phase produced any particular result.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In addition, each <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group By</pc> drop-down button shows other metrics that are not visible by default.</source>
+          <target>In addition, each <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Group By</pc> drop-down button shows other metrics that are not visible by default.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Select any of these additional categories to see more metrics for your analysis.</source>
+          <target>Select any of these additional categories to see more metrics for your analysis.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Longest Delay</source>
+          <target>Longest Delay</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>The longest delay metric is the longest delay found in the trace while the assessment was running.</source>
+          <target>The longest delay metric is the longest delay found in the trace while the assessment was running.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>This metric is available for all the major I/O operations such as the Create, Control, Cleanup, Information, Read, Write and Acquire lock operations.</source>
+          <target>This metric is available for all the major I/O operations such as the Create, Control, Cleanup, Information, Read, Write and Acquire lock operations.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Large values for this metric can indicate perceivable stalls when performing file operations, Internet Explorer startup and boot.</source>
+          <target>Large values for this metric can indicate perceivable stalls when performing file operations, Internet Explorer startup and boot.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Most applicable to:</pc> Minifilter ISVs have the largest direct influence on this metric by the way they implement the minifilter.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Most applicable to:</pc> Minifilter ISVs have the largest direct influence on this metric by the way they implement the minifilter.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>End users and OEMs have indirect influence on this metric based on the minifilter products that they install.</source>
+          <target>End users and OEMs have indirect influence on this metric based on the minifilter products that they install.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Typical Influencing Factors</source>
+          <target>Typical Influencing Factors</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Large values in this metric are typically caused by background activity on the system while the assessment is running, but it can also be caused by an incorrect minifilter design.</source>
+          <target>Large values in this metric are typically caused by background activity on the system while the assessment is running, but it can also be caused by an incorrect minifilter design.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>For certain workloads (such as, copy), the size of the files can also affect this metric.</source>
+          <target>For certain workloads (such as, copy), the size of the files can also affect this metric.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Analysis and Remediation Steps</source>
+          <target>Analysis and Remediation Steps</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>When using minifilter results to identify regressions in a single software component, it is most relevant to compare results created by running the assessment against two versions of the same component, or to compare the results of two similar products from different application writers.</source>
+          <target>When using minifilter results to identify regressions in a single software component, it is most relevant to compare results created by running the assessment against two versions of the same component, or to compare the results of two similar products from different application writers.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>The first step is to find the longest delay.</source>
+          <target>The first step is to find the longest delay.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>To do this, expand the Minifilter Details, right-click the Longest Delay column and choose Sort by Descending.</source>
+          <target>To do this, expand the Minifilter Details, right-click the Longest Delay column and choose Sort by Descending.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>To ensure the fidelity of results data:</source>
+          <target>To ensure the fidelity of results data:</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Close any applications that are running in the background.</source>
+          <target>Close any applications that are running in the background.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Once the primary component has been identified, consider isolating the impact by stopping other optional services and running the assessment again for comparison.</source>
+          <target>Once the primary component has been identified, consider isolating the impact by stopping other optional services and running the assessment again for comparison.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Ensure that the system is not under any memory pressure when running this assessment.</source>
+          <target>Ensure that the system is not under any memory pressure when running this assessment.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Run the assessment multiple times to confirm that the metric value was not the result of a transient file system event (such as a cache flush).</source>
+          <target>Run the assessment multiple times to confirm that the metric value was not the result of a transient file system event (such as a cache flush).</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Address any warnings or issues that occur because of the assessment so that they no longer appear.</source>
+          <target>Address any warnings or issues that occur because of the assessment so that they no longer appear.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Minifilters are often associated with a service.</source>
+          <target>Minifilters are often associated with a service.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>If these steps do not resolve the issue, consider replacing the minifilter product with a different product that offers similar functionality or test for a different version of the minifilter.</source>
+          <target>If these steps do not resolve the issue, consider replacing the minifilter product with a different product that offers similar functionality or test for a different version of the minifilter.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>An application developer who wants to find the root cause of the issue can perform a deeper analysis, by opening the trace in WPA.</source>
+          <target>An application developer who wants to find the root cause of the issue can perform a deeper analysis, by opening the trace in WPA.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>The analysis view of minifilter delays in WPA is a good starting point for deep analysis.</source>
+          <target>The analysis view of minifilter delays in WPA is a good starting point for deep analysis.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+          <data id="id5">\_</data>
+          <data id="id6">\_</data>
+          <data id="id7">\_</data>
+          <data id="id8">\_</data>
+          <data id="id9">\_</data>
+          <data id="id10">\*</data>
+        </originalData>
+        <segment state="initial">
+          <source>There will be several ETL files if you run all three assessments, FileOrg.etl, IELaunch<ph dataRef="id1" id="ph1" />Warm<ph dataRef="id2" id="ph2" />1, IELaunch<ph dataRef="id3" id="ph3" />Warm<ph dataRef="id4" id="ph4" />2, IELaunch<ph dataRef="id5" id="ph5" />Warm<ph dataRef="id6" id="ph6" />3, IELaunch<ph dataRef="id7" id="ph7" />Cold<ph dataRef="id8" id="ph8" />1, and several ETL files for the boot assessment named FastStartup<ph dataRef="id9" id="ph9" />Analysis-<ph dataRef="id10" id="ph10" />.</source>
+          <target>There will be several ETL files if you run all three assessments, FileOrg.etl, IELaunch<ph dataRef="id1" id="ph1" />Warm<ph dataRef="id2" id="ph2" />1, IELaunch<ph dataRef="id3" id="ph3" />Warm<ph dataRef="id4" id="ph4" />2, IELaunch<ph dataRef="id5" id="ph5" />Warm<ph dataRef="id6" id="ph6" />3, IELaunch<ph dataRef="id7" id="ph7" />Cold<ph dataRef="id8" id="ph8" />1, and several ETL files for the boot assessment named FastStartup<ph dataRef="id9" id="ph9" />Analysis-<ph dataRef="id10" id="ph10" />.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>These .etl files can be used by anyone who understands WPA.</source>
+          <target>These .etl files can be used by anyone who understands WPA.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Minifilter Delay</source>
+          <target>Minifilter Delay</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Minifilter Delay is the measure of the cumulative duration of time spent by the minifilter.</source>
+          <target>Minifilter Delay is the measure of the cumulative duration of time spent by the minifilter.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>This metric shows how much time is utilized by the minifilter and how much time is utilized by other activity that ran during the assessment.</source>
+          <target>This metric shows how much time is utilized by the minifilter and how much time is utilized by other activity that ran during the assessment.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Large values in this metric can indicate that the user may experience poor responsiveness when performing file operations.</source>
+          <target>Large values in this metric can indicate that the user may experience poor responsiveness when performing file operations.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Most applicable to:</pc> Minifilter ISVs have the largest direct influence on this metric by the way they implement the minifilter.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Most applicable to:</pc> Minifilter ISVs have the largest direct influence on this metric by the way they implement the minifilter.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>End users and OEMs have indirect influence on this metric based on the minifilter products that they install.</source>
+          <target>End users and OEMs have indirect influence on this metric based on the minifilter products that they install.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Typical Influencing Factors</source>
+          <target>Typical Influencing Factors</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Large values in this metric are typically caused by a less effective minifilter design.</source>
+          <target>Large values in this metric are typically caused by a less effective minifilter design.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>For certain workloads (such as copy), the size, number and type of files can also affect this metric.</source>
+          <target>For certain workloads (such as copy), the size, number and type of files can also affect this metric.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>For example, the difference between a media file and a text file.</source>
+          <target>For example, the difference between a media file and a text file.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>Analysis and Remediation Steps</source>
+          <target>Analysis and Remediation Steps</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>To ensure the fidelity of results data</source>
+          <target>To ensure the fidelity of results data</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Close any applications that are running in the background.</source>
+          <target>Close any applications that are running in the background.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Once the primary component has been identified, consider isolating the impact by stopping other optional services and running the assessment again for comparison.</source>
+          <target>Once the primary component has been identified, consider isolating the impact by stopping other optional services and running the assessment again for comparison.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>Ensure that the system is not under any memory pressure when running this assessment.</source>
+          <target>Ensure that the system is not under any memory pressure when running this assessment.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>Run the assessment multiple times to confirm that the metric value was not the result of a transient file system event (such as a cache flush).</source>
+          <target>Run the assessment multiple times to confirm that the metric value was not the result of a transient file system event (such as a cache flush).</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Address any warnings or issues that occur because of the assessment so that they no longer appear.</source>
+          <target>Address any warnings or issues that occur because of the assessment so that they no longer appear.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Look for patterns in the top delays.</source>
+          <target>Look for patterns in the top delays.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>If these steps do not resolve the issue, consider replacing the minifilter product with a different product that offers similar functionality or test for a different version of the minifilter.</source>
+          <target>If these steps do not resolve the issue, consider replacing the minifilter product with a different product that offers similar functionality or test for a different version of the minifilter.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>The application developer trying to discover the root cause of the issue can perform a deeper analysis by opening the trace in in WPA.</source>
+          <target>The application developer trying to discover the root cause of the issue can perform a deeper analysis by opening the trace in in WPA.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>The mini filter delays analysis view is a good starting point for deeper analysis.</source>
+          <target>The mini filter delays analysis view is a good starting point for deeper analysis.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+          <data id="id5">\_</data>
+          <data id="id6">\_</data>
+          <data id="id7">\_</data>
+          <data id="id8">\_</data>
+          <data id="id9">\_</data>
+          <data id="id10">\*</data>
+        </originalData>
+        <segment state="initial">
+          <source>There will be several ETL files if you run all three assessments, FileOrg.etl, IELaunch<ph dataRef="id1" id="ph1" />Warm<ph dataRef="id2" id="ph2" />1, IELaunch<ph dataRef="id3" id="ph3" />Warm<ph dataRef="id4" id="ph4" />2, IELaunch<ph dataRef="id5" id="ph5" />Warm<ph dataRef="id6" id="ph6" />3, IELaunch<ph dataRef="id7" id="ph7" />Cold<ph dataRef="id8" id="ph8" />1 and A host of ETL files for the boot assessment named FastStartup<ph dataRef="id9" id="ph9" />Analysis-<ph dataRef="id10" id="ph10" /> These etl files can be used by anyone that understands WPA.</source>
+          <target>There will be several ETL files if you run all three assessments, FileOrg.etl, IELaunch<ph dataRef="id1" id="ph1" />Warm<ph dataRef="id2" id="ph2" />1, IELaunch<ph dataRef="id3" id="ph3" />Warm<ph dataRef="id4" id="ph4" />2, IELaunch<ph dataRef="id5" id="ph5" />Warm<ph dataRef="id6" id="ph6" />3, IELaunch<ph dataRef="id7" id="ph7" />Cold<ph dataRef="id8" id="ph8" />1 and A host of ETL files for the boot assessment named FastStartup<ph dataRef="id9" id="ph9" />Analysis-<ph dataRef="id10" id="ph10" /> These etl files can be used by anyone that understands WPA.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>Average Call Length</source>
+          <target>Average Call Length</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>This metric is the average time that is spent in each callback.</source>
+          <target>This metric is the average time that is spent in each callback.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Large values in this metric can indicate perceivable delays when performing file operations.</source>
+          <target>Large values in this metric can indicate perceivable delays when performing file operations.</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>Where the longest delay metric can indicate a specific problem or cause, the average is a good measure of the overall behavior of the minifilter.</source>
+          <target>Where the longest delay metric can indicate a specific problem or cause, the average is a good measure of the overall behavior of the minifilter.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>However, just using the average could cause you to overlook extremes such as a large number of identical calls or one very large delay.</source>
+          <target>However, just using the average could cause you to overlook extremes such as a large number of identical calls or one very large delay.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Most applicable to:</pc> Minifilter ISVs have the largest direct influence on this metric by the way that they implement the minifilter.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Most applicable to:</pc> Minifilter ISVs have the largest direct influence on this metric by the way that they implement the minifilter.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>End users and OEMs have indirect influence on this metric based on the minifilter products that they install.</source>
+          <target>End users and OEMs have indirect influence on this metric based on the minifilter products that they install.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>Typical Influencing Factors</source>
+          <target>Typical Influencing Factors</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>Large values in this metric can be caused by an incorrect minifilter design.</source>
+          <target>Large values in this metric can be caused by an incorrect minifilter design.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>For certain workloads (copy), the size of the files being operated on can also affect this metric.</source>
+          <target>For certain workloads (copy), the size of the files being operated on can also affect this metric.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Analysis and Remediation Steps</source>
+          <target>Analysis and Remediation Steps</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>When using minifilter metrics to identify regressions in a single software component, it is most relevant to create and compare the results that are created from two versions of the same component and look for regressions or to compare the results of two similar products from different application writers.</source>
+          <target>When using minifilter metrics to identify regressions in a single software component, it is most relevant to create and compare the results that are created from two versions of the same component and look for regressions or to compare the results of two similar products from different application writers.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>Average call length provides objective contextual information to apply perspective to the result returned in the Minifilter Delay metric.</source>
+          <target>Average call length provides objective contextual information to apply perspective to the result returned in the Minifilter Delay metric.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>When comparing results, if the Minifilter Delay metric increases and the average does not increase, then the increase in the Minifilter Delay metric does not usually indicate a problem.</source>
+          <target>When comparing results, if the Minifilter Delay metric increases and the average does not increase, then the increase in the Minifilter Delay metric does not usually indicate a problem.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>If Minifilter Delay and Average Call Length trend in the same direction, then the increase in the Minifilter Delay metric generally indicates a change in performance.</source>
+          <target>If Minifilter Delay and Average Call Length trend in the same direction, then the increase in the Minifilter Delay metric generally indicates a change in performance.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>To find the root cause for this type of issue, look for patterns in the top delays.</source>
+          <target>To find the root cause for this type of issue, look for patterns in the top delays.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>If these steps do not resolve the issue, consider replacing the minifilter product with a different product that offers similar functionality or test for a different version of the minifilter.</source>
+          <target>If these steps do not resolve the issue, consider replacing the minifilter product with a different product that offers similar functionality or test for a different version of the minifilter.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Minifilter Callbacks</source>
+          <target>Minifilter Callbacks</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>This metric is the number of times the minifilter is called by the operating system or other applications and services that are running on the system.</source>
+          <target>This metric is the number of times the minifilter is called by the operating system or other applications and services that are running on the system.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>You can drill down to see this number for the various types of callbacks.</source>
+          <target>You can drill down to see this number for the various types of callbacks.</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Most applicable to:</pc> End users and OEMs have indirect influence on this metric based on the minifilter products that they install, and their ability to uninstall services and applications that affect this metric.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Most applicable to:</pc> End users and OEMs have indirect influence on this metric based on the minifilter products that they install, and their ability to uninstall services and applications that affect this metric.</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>There are no remediation steps as this metric is only dependent on the applications that are installed on the system.</source>
+          <target>There are no remediation steps as this metric is only dependent on the applications that are installed on the system.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>Windows Assessment Toolkit</source>
+          <target>Windows Assessment Toolkit</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>Assessments</source>
+          <target>Assessments</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>On/Off Transition Performance</source>
+          <target>On/Off Transition Performance</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,1091 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\performance\assessments\prepare-to-deploy-and-assess-a-bare-metal-computer.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">e8aabc6f4e6ce106d4dc36c22c6eddcbe82811cc</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Prepare to deploy and assess a bare metal computer</source>
+          <target>Prepare to deploy and assess a bare metal computer</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Prepare to deploy and assess a bare metal computer</source>
+          <target>Prepare to deploy and assess a bare metal computer</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Prepare to deploy and assess a bare metal computer</source>
+          <target>Prepare to deploy and assess a bare metal computer</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This topic walks you through the steps that are required to prepare and add a bare metal computer to your Windows Assessment Services inventory.</source>
+          <target>This topic walks you through the steps that are required to prepare and add a bare metal computer to your Windows Assessment Services inventory.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>You will then create a project and job that includes the computer, and also the image and answer file that are used to deploy an image to that computer before it is assessed.</source>
+          <target>You will then create a project and job that includes the computer, and also the image and answer file that are used to deploy an image to that computer before it is assessed.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>In this topic:</source>
+          <target>In this topic:</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Step1: Add network adapter drivers to the Boot.wim</source>
+          <target>Step1: Add network adapter drivers to the Boot.wim</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Step 2: Prepare the Windows PE USB Drive for test computer inventory</source>
+          <target>Step 2: Prepare the Windows PE USB Drive for test computer inventory</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Step 3: Add test computers to your inventory</source>
+          <target>Step 3: Add test computers to your inventory</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Step 4: Add images and unattended answer files</source>
+          <target>Step 4: Add images and unattended answer files</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Step 5: Add the assets to a project</source>
+          <target>Step 5: Add the assets to a project</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Step 6: Add the assets to a job</source>
+          <target>Step 6: Add the assets to a job</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Adding network adapter drivers to the Boot.wim</source>
+          <target>Adding network adapter drivers to the Boot.wim</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Add network adapter (NIC) drivers to the Windows PE images that Windows Deployment Services uses.</source>
+          <target>Add network adapter (NIC) drivers to the Windows PE images that Windows Deployment Services uses.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>This step is required only when the test computers require out-of-box NIC drivers so that they have network connectivity during inventory or after the Windows image is deployed.</source>
+          <target>This step is required only when the test computers require out-of-box NIC drivers so that they have network connectivity during inventory or after the Windows image is deployed.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>You need the NIC drivers when you boot a bare metal computer (a computer that doesn’t have an operating system installed) in Windows PE.</source>
+          <target>You need the NIC drivers when you boot a bare metal computer (a computer that doesn’t have an operating system installed) in Windows PE.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>To add NIC drivers to the boot.wim</source>
+          <target>To add NIC drivers to the boot.wim</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>On the server, create a folder for the NIC drivers and copy them to the folder.</source>
+          <target>On the server, create a folder for the NIC drivers and copy them to the folder.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>For example, if your drivers are stored on a share, you can use a command such as the following:</source>
+          <target>For example, if your drivers are stored on a share, you can use a command such as the following:</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Administrative Tools</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows Deployment Services</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Administrative Tools</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows Deployment Services</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Servers</pc> node and expand your server name.</source>
+          <target>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Servers</pc> node and expand your server name.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Drivers</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add Driver Package</pc>.</source>
+          <target>Right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Drivers</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add Driver Package</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the Add Driver Package wizard, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select all driver packages from a folder</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc>.</source>
+          <target>In the Add Driver Package wizard, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select all driver packages from a folder</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Browse to the folder that contains the out-of-box NIC drivers, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Browse to the folder that contains the out-of-box NIC drivers, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the Add Driver Package wizard, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>In the Add Driver Package wizard, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available Driver Packages</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available Driver Packages</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Summary</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Summary</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the drivers are copied to the driver store, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>When the drivers are copied to the driver store, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Driver Groups</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Select an existing driver group</pc>, verify that <pc dataRefEnd="id6" dataRefStart="id5" id="p3">DriverGroup1</pc> is selected, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Driver Groups</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Select an existing driver group</pc>, verify that <pc dataRefEnd="id6" dataRefStart="id5" id="p3">DriverGroup1</pc> is selected, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Servers</pc> node, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Boot Images</pc>, right-click the boot image where you want to inject the driver, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Driver Packages to Image</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Servers</pc> node, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Boot Images</pc>, right-click the boot image where you want to inject the driver, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Driver Packages to Image</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the Add Driver Package to Boot Image Wizard, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Before You Begin</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>In the Add Driver Package to Boot Image Wizard, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Before You Begin</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Driver Packages</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Package Class</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Edit</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Driver Packages</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Package Class</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Edit</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Delete everything except <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Net</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</source>
+          <target>Delete everything except <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Net</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the Add Driver Package to Boot Image Wizard, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Search for Packages</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc> again.</source>
+          <target>In the Add Driver Package to Boot Image Wizard, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Search for Packages</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc> again.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the drivers are added, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc>.</source>
+          <target>When the drivers are added, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Your boot image now has out-of-box NIC drivers.</source>
+          <target>Your boot image now has out-of-box NIC drivers.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Repeat these steps for each Windows Deployment Services boot.wim architecture.</source>
+          <target>Repeat these steps for each Windows Deployment Services boot.wim architecture.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Preparing the Windows PE USB drive for test computer inventory</source>
+          <target>Preparing the Windows PE USB drive for test computer inventory</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>To inventory bare metal computers, you must create a bootable USB drive to start the computer and add it to the inventory.</source>
+          <target>To inventory bare metal computers, you must create a bootable USB drive to start the computer and add it to the inventory.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?linkid=219488)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to prepare a bootable Windows PE USB flash drive, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Walkthrough: Install Windows PE to CD, USB Flash Drive, or USB Hard Drive</pc>.</source>
+          <target>For more information about how to prepare a bootable Windows PE USB flash drive, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Walkthrough: Install Windows PE to CD, USB Flash Drive, or USB Hard Drive</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>The walkthrough creates bootable media by using the default Windows PE image (WinPE.wim) without customizing it.</source>
+          <target>The walkthrough creates bootable media by using the default Windows PE image (WinPE.wim) without customizing it.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Before you use the bootable USB flash drive for inventory, you must copy the RelaxWinPE.wim file to the source folder on the USB flash drive, as shown in the procedure in the following section.</source>
+          <target>Before you use the bootable USB flash drive for inventory, you must copy the RelaxWinPE.wim file to the source folder on the USB flash drive, as shown in the procedure in the following section.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>To inventory x86-based test computers, you must use an x86-based Windows PE image.</source>
+          <target>To inventory x86-based test computers, you must use an x86-based Windows PE image.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>To inventory AMD64-based test computers, you must use an AMD64-based Windows PE image.</source>
+          <target>To inventory AMD64-based test computers, you must use an AMD64-based Windows PE image.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>This procedure uses an x86-based image.</source>
+          <target>This procedure uses an x86-based image.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>If your test computers are both x86 and AMD64 based, create a USB flash drive for each architecture.</source>
+          <target>If your test computers are both x86 and AMD64 based, create a USB flash drive for each architecture.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>To replace the boot.wim file with the Windows AS WinPE.wim file</source>
+          <target>To replace the boot.wim file with the Windows AS WinPE.wim file</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>On the technician computer where you created the Windows PE build environment, type the following command:</source>
+          <target>On the technician computer where you created the Windows PE build environment, type the following command:</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Repeat the previous step to create a USB flash drive for each architecture that you need for your test computers.</source>
+          <target>Repeat the previous step to create a USB flash drive for each architecture that you need for your test computers.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>To inventory x86-based test computers, you must use an x86-based Windows PE image.</source>
+          <target>To inventory x86-based test computers, you must use an x86-based Windows PE image.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>To inventory AMD64-based test computers, you must use an AMD64-based Windows PE image.</source>
+          <target>To inventory AMD64-based test computers, you must use an AMD64-based Windows PE image.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Now that the bootable Windows PE USB flash drive is prepared and NIC drivers are in place, you can add assets such as computers, images and answer files to the Windows Assessment Services inventory and then include the assets in your projects and jobs.</source>
+          <target>Now that the bootable Windows PE USB flash drive is prepared and NIC drivers are in place, you can add assets such as computers, images and answer files to the Windows Assessment Services inventory and then include the assets in your projects and jobs.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Adding test computers to your inventory</source>
+          <target>Adding test computers to your inventory</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>You can add bare-metal computers (computers without a running operating system) in addition to computers that have a running operating system to the Windows Assessment Services inventory so that you can use the assessment tools to assess these computers.</source>
+          <target>You can add bare-metal computers (computers without a running operating system) in addition to computers that have a running operating system to the Windows Assessment Services inventory so that you can use the assessment tools to assess these computers.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>When the test computer doesn't have a running operating system, use the USB flash drive to boot and inventory the computer, as shown in procedure in the following section.</source>
+          <target>When the test computer doesn't have a running operating system, use the USB flash drive to boot and inventory the computer, as shown in procedure in the following section.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Warning</source>
+          <target>Warning</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>You shouldn't include a test computer in multiple Windows Assessment Services server inventories at the same time.</source>
+          <target>You shouldn't include a test computer in multiple Windows Assessment Services server inventories at the same time.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>When a test computer appears in multiple Windows Assessment Services server inventories, it causes a race condition between the Windows Deployment Services instances on each server.</source>
+          <target>When a test computer appears in multiple Windows Assessment Services server inventories, it causes a race condition between the Windows Deployment Services instances on each server.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>If you must move a test computer from one inventory to another, in the Windows Assessment Services - Client (Windows ASC), delete the computer asset from the first Windows Assessment Services inventory, and then add it to the inventory on the new Windows Assessment Services server.</source>
+          <target>If you must move a test computer from one inventory to another, in the Windows Assessment Services - Client (Windows ASC), delete the computer asset from the first Windows Assessment Services inventory, and then add it to the inventory on the new Windows Assessment Services server.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>To add bare-metal computers to your inventory</source>
+          <target>To add bare-metal computers to your inventory</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Insert the USB flash drive into the test computer.</source>
+          <target>Insert the USB flash drive into the test computer.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Turn on the computer, and press the key that opens the boot-device selection menu for the computer, such as Esc.</source>
+          <target>Turn on the computer, and press the key that opens the boot-device selection menu for the computer, such as Esc.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Select the USB flash drive as the boot device.</source>
+          <target>Select the USB flash drive as the boot device.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>When the computer reboots, provide the following information:</source>
+          <target>When the computer reboots, provide the following information:</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Computer name.</source>
+          <target>Computer name.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>The computer name must contain only alphanumeric characters and dashes.</source>
+          <target>The computer name must contain only alphanumeric characters and dashes.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>If the computer name contains an underscore or other extended characters, the computer may not be discoverable via Domain Name System (DNS).</source>
+          <target>If the computer name contains an underscore or other extended characters, the computer may not be discoverable via Domain Name System (DNS).</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>The computer name must be 15 characters or less.</source>
+          <target>The computer name must be 15 characters or less.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Computer location.</source>
+          <target>Computer location.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>The computer location must be 78 characters or less.</source>
+          <target>The computer location must be 78 characters or less.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Whether you want to perform Driver Scavenge.</source>
+          <target>Whether you want to perform Driver Scavenge.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Driver Scavenge copies drivers found on the computer to the Windows Assessment Services driver store.</source>
+          <target>Driver Scavenge copies drivers found on the computer to the Windows Assessment Services driver store.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Remove the USB flash drive from the test computer.</source>
+          <target>Remove the USB flash drive from the test computer.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>The computer will reboot.</source>
+          <target>The computer will reboot.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>If you deploy images by using Windows Assessment Services, we recommend setting the boot order in BIOS so that Preboot Execution Environment (PXE) is first in the boot order.</source>
+          <target>If you deploy images by using Windows Assessment Services, we recommend setting the boot order in BIOS so that Preboot Execution Environment (PXE) is first in the boot order.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>This way, you don't have to manually press the boot-order keyboard shortcut and select network boot before a job starts.</source>
+          <target>This way, you don't have to manually press the boot-order keyboard shortcut and select network boot before a job starts.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the Windows ASC from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> menu.</source>
+          <target>Open the Windows ASC from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> menu.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Getting Started</pc> page, verify that the correct number of computers have been added to your server inventory.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Getting Started</pc> page, verify that the correct number of computers have been added to your server inventory.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Adding images and unattended answer Files</source>
+          <target>Adding images and unattended answer Files</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>You must copy the Windows imaging (.wim) files to the image share before you import them to the Windows Assessment Services inventory and use them for deployment.</source>
+          <target>You must copy the Windows imaging (.wim) files to the image share before you import them to the Windows Assessment Services inventory and use them for deployment.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>The answer files that you want to use for deployment must also be available in the appropriate server share.</source>
+          <target>The answer files that you want to use for deployment must also be available in the appropriate server share.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>To add images to the image share and inventory</source>
+          <target>To add images to the image share and inventory</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the Windows Assessment Services server, copy your .wim files to C:<ph dataRef="id1" id="ph1" />relax<ph dataRef="id2" id="ph2" />images.</source>
+          <target>On the Windows Assessment Services server, copy your .wim files to C:<ph dataRef="id1" id="ph1" />relax<ph dataRef="id2" id="ph2" />images.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>The image path cannot contain spaces.</source>
+          <target>The image path cannot contain spaces.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>These images are in the Windows Assessment Services server image share, but they haven't been imported into the inventory database.</source>
+          <target>These images are in the Windows Assessment Services server image share, but they haven't been imported into the inventory database.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>To import the images into the inventory database, use one of these methods:</source>
+          <target>To import the images into the inventory database, use one of these methods:</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Getting Started</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Import images now</pc>, select the images, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Import</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">OK</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Getting Started</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Import images now</pc>, select the images, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Import</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the Windows ASC, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Server</pc> menu, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Manager inventory</pc>, click the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Images</pc> tab, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Add</pc>.</source>
+          <target>In the Windows ASC, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Server</pc> menu, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Manager inventory</pc>, click the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Images</pc> tab, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Add</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>To add answer files to a share</source>
+          <target>To add answer files to a share</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>A default Unattend.xml answer file for each supported architecture is provided at %systemdrive%<ph dataRef="id1" id="ph1" />relax<ph dataRef="id2" id="ph2" />scripts<ph dataRef="id3" id="ph3" />templates.</source>
+          <target>A default Unattend.xml answer file for each supported architecture is provided at %systemdrive%<ph dataRef="id1" id="ph1" />relax<ph dataRef="id2" id="ph2" />scripts<ph dataRef="id3" id="ph3" />templates.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>You can use the default answer file, or you can copy the template Unattend.xml and modify it in Windows System Image Manager.</source>
+          <target>You can use the default answer file, or you can copy the template Unattend.xml and modify it in Windows System Image Manager.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=214570)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to modify an answer file, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows System Image Manager (Windows SIM) Technical Reference</pc>.</source>
+          <target>For more information about how to modify an answer file, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows System Image Manager (Windows SIM) Technical Reference</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Copy Unattend.xml answer files to %systemdrive%<ph dataRef="id1" id="ph1" />relax<ph dataRef="id2" id="ph2" />unattendfiles.</source>
+          <target>Copy Unattend.xml answer files to %systemdrive%<ph dataRef="id1" id="ph1" />relax<ph dataRef="id2" id="ph2" />unattendfiles.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you provide separate unattended answer files for specific images, give each new answer file a unique name before you copy it to %systemdrive%<ph dataRef="id1" id="ph1" />relax<ph dataRef="id2" id="ph2" />unattendfiles.</source>
+          <target>If you provide separate unattended answer files for specific images, give each new answer file a unique name before you copy it to %systemdrive%<ph dataRef="id1" id="ph1" />relax<ph dataRef="id2" id="ph2" />unattendfiles.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>When you add images to a project in the Windows ASC, specify the path of the answer file that you want to use with that image.</source>
+          <target>When you add images to a project in the Windows ASC, specify the path of the answer file that you want to use with that image.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>When deploying an image to an OEM Activation 3.0 (OA 3.0) system, use a custom unattend.xml answer file with a product key that is associated with the image.</source>
+          <target>When deploying an image to an OEM Activation 3.0 (OA 3.0) system, use a custom unattend.xml answer file with a product key that is associated with the image.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Adding assets to a project</source>
+          <target>Adding assets to a project</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>A project is a collection of assets that you want to assess.</source>
+          <target>A project is a collection of assets that you want to assess.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>It identifies multiple computers and multiple images that are a subset of all the computers and images that you added to your inventory.</source>
+          <target>It identifies multiple computers and multiple images that are a subset of all the computers and images that you added to your inventory.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>If the computers that you add to the project are bare metal computers, or if you want to refresh the image on the test computer, you also select the images that you want to apply to each computer.</source>
+          <target>If the computers that you add to the project are bare metal computers, or if you want to refresh the image on the test computer, you also select the images that you want to apply to each computer.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>When multiple people are working with different test computers and images in the same server inventory, you can use projects to partition an individual's workspace.</source>
+          <target>When multiple people are working with different test computers and images in the same server inventory, you can use projects to partition an individual's workspace.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>To add assets to a new project</source>
+          <target>To add assets to a new project</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the Windows ASC, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Getting Started</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create New Project</pc>.</source>
+          <target>In the Windows ASC, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Getting Started</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create New Project</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Project name</pc> box, type a name for your project.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Project name</pc> box, type a name for your project.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Description</pc> box, type a description.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Description</pc> box, type a description.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Keywords</pc> box, enter keywords, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Keywords</pc> box, enter keywords, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select machines to include in this project</pc> window, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc> and select the computer that you want to include in this project, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Next</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select machines to include in this project</pc> window, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc> and select the computer that you want to include in this project, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Image Inventory</pc> window, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc> and select images to add to your project, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Finish</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Image Inventory</pc> window, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc> and select images to add to your project, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">OK</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Finish</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>If your test computers already have a running operating system, you don't have to add images to the project.</source>
+          <target>If your test computers already have a running operating system, you don't have to add images to the project.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Adding assets to a job</source>
+          <target>Adding assets to a job</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>A job associates assets (a computer and a Windows image) with assessments.</source>
+          <target>A job associates assets (a computer and a Windows image) with assessments.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>A job can contain multiple computers, the corresponding images and unattended answer files, and multiple assessments.</source>
+          <target>A job can contain multiple computers, the corresponding images and unattended answer files, and multiple assessments.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>You can use all the assets that were added to the project, use only a subset of those assets, or run different jobs on different assets that are available in the project.</source>
+          <target>You can use all the assets that were added to the project, use only a subset of those assets, or run different jobs on different assets that are available in the project.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>To add assets to a job and deploy an image</source>
+          <target>To add assets to a job and deploy an image</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>In the Windows ASC, create or open a job.</source>
+          <target>In the Windows ASC, create or open a job.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Job settings</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Overview</pc>, and verify that the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Apply image</pc> check box is selected.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Job settings</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Overview</pc>, and verify that the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Apply image</pc> check box is selected.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you want to inject matching Plug and Play drivers from a Dynamic Driver Provisioning driver store during image deployment, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Dynamic Driver Provisioning</pc>.</source>
+          <target>If you want to inject matching Plug and Play drivers from a Dynamic Driver Provisioning driver store during image deployment, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Dynamic Driver Provisioning</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Job settings</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Assets</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add</pc> to select the computers that you want run the job on.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Job settings</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Assets</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add</pc> to select the computers that you want run the job on.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Evaluation Assets</pc> window, select the computers that you want to assess, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Finish</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Evaluation Assets</pc> window, select the computers that you want to assess, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Finish</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The computers appear on the right side of the Windows ASC under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Evaluation assets</pc>.</source>
+          <target>The computers appear on the right side of the Windows ASC under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Evaluation assets</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select a computer, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Change Image</pc>, select the image that you want to apply to that computer, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</source>
+          <target>Select a computer, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Change Image</pc>, select the image that you want to apply to that computer, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>The computer and the image architecture must match, except that you can select an x86-based image to deploy to an x64-based computer.</source>
+          <target>The computer and the image architecture must match, except that you can select an x86-based image to deploy to an x64-based computer.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Next steps</source>
+          <target>Next steps</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>In these steps, you prepared the Windows PE boot environment, booted a bare metal computer and added it to the Windows Assessment Services inventory.</source>
+          <target>In these steps, you prepared the Windows PE boot environment, booted a bare metal computer and added it to the Windows Assessment Services inventory.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>Then you added the computers, images, and answer files to the server inventory and created a project and a job that included these assets.</source>
+          <target>Then you added the computers, images, and answer files to the server inventory and created a project and a job that included these assets.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>The next step is to add assessments to the job, configure the job and assessment settings, and then click Run.</source>
+          <target>The next step is to add assessments to the job, configure the job and assessment settings, and then click Run.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>When you run the job, the Windows image is deployed to the computer before the assessments that are included in the job are run.</source>
+          <target>When you run the job, the Windows image is deployed to the computer before the assessments that are included in the job are run.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Windows Assessment Services common scenarios</source>
+          <target>Windows Assessment Services common scenarios</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

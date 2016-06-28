@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\iot\create-a-basic-image.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">43b15e7a1bc7d509d2423cec4bca3d4cfc0478cf</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Lab 1a: Create a basic image</source>
+          <target>Lab 1a: Create a basic image</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Lab 1a: Create a basic image</source>
+          <target>Lab 1a: Create a basic image</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>This content has been tested on Windows 10 IoT Core Build 10586.</source>
+          <target>This content has been tested on Windows 10 IoT Core Build 10586.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Some of these procedures do not yet work on newer preview builds, including Windows 10, version 1607.</source>
+          <target>Some of these procedures do not yet work on newer preview builds, including Windows 10, version 1607.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>To get started, we'll create a basic Windows 10 IoT Core (IoT Core) image, flash it to a micro SD card, and put it into a device to make sure that everything's working properly.</source>
+          <target>To get started, we'll create a basic Windows 10 IoT Core (IoT Core) image, flash it to a micro SD card, and put it into a device to make sure that everything's working properly.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>We'll create a product folder that represents our first design.</source>
+          <target>We'll create a product folder that represents our first design.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>For our first product design, we'll customize just enough for the IoT core device to boot up and run the built-in OOBE app, which we should be able to see on an HDMI-compatible monitor.</source>
+          <target>For our first product design, we'll customize just enough for the IoT core device to boot up and run the built-in OOBE app, which we should be able to see on an HDMI-compatible monitor.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Prerequisites</source>
+          <target>Prerequisites</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](set-up-your-pc-to-customize-iot-core.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get the tools needed to customize Windows IoT Core</pc> to get your technician PC ready.</source>
+          <target>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get the tools needed to customize Windows IoT Core</pc> to get your technician PC ready.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Create a basic image</source>
+          <target>Create a basic image</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Set your OEM name (one-time only)</source>
+          <target>Set your OEM name (one-time only)</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the file <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Tools<ph dataRef="id5" id="ph3" />setOEM.cmd</pc> in Notepad, and modify it with your company name.</source>
+          <target>Open the file <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id4" id="ph2" />Tools<ph dataRef="id5" id="ph3" />setOEM.cmd</pc> in Notepad, and modify it with your company name.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>We've added this variable to help you create packages with names that are easy to differentiate from those provided from other manufacturers you're working with.</source>
+          <target>We've added this variable to help you create packages with names that are easy to differentiate from those provided from other manufacturers you're working with.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Start the IoT Core shell, choose your architecture, and install test certificates</source>
+          <target>Start the IoT Core shell, choose your architecture, and install test certificates</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In Windows Explorer, go to the folder where you installed the IoT Core ADK Add-Ons, for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit</pc>, and open IoTCoreShell.cmd.</source>
+          <target>In Windows Explorer, go to the folder where you installed the IoT Core ADK Add-Ons, for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">C:<ph dataRef="id3" id="ph1" />IoT-ADK-AddonKit</pc>, and open IoTCoreShell.cmd.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>It should prompt you to run as an administrator.</source>
+          <target>It should prompt you to run as an administrator.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The new value for OEM<ph dataRef="id1" id="ph1" />NAME should appear when you start the tool.</source>
+          <target>The new value for OEM<ph dataRef="id1" id="ph1" />NAME should appear when you start the tool.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Troubleshooting: Error: "The system cannot find the path specified".</source>
+          <target>Troubleshooting: Error: "The system cannot find the path specified".</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>If you get this, right-click the icon and modify the path in "Target" to the location you've chosen to install the tools.</source>
+          <target>If you get this, right-click the icon and modify the path in "Target" to the location you've chosen to install the tools.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>At the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set Environment for Architecture</pc> prompt, select 1 for ARM or 2 for x86, based on the architecture for the boards that you'll be developing.</source>
+          <target>At the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set Environment for Architecture</pc> prompt, select 1 for ARM or 2 for x86, based on the architecture for the boards that you'll be developing.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">1</pc> to create an image that's compatible with the Raspberry Pi 2 or Raspberry Pi 3, or press <pc dataRefEnd="id4" dataRefStart="id3" id="p2">2</pc> to create an image that's compatible with the Minnowboard Max.</source>
+          <target>For example, press <pc dataRefEnd="id2" dataRefStart="id1" id="p1">1</pc> to create an image that's compatible with the Raspberry Pi 2 or Raspberry Pi 3, or press <pc dataRefEnd="id4" dataRefStart="id3" id="p2">2</pc> to create an image that's compatible with the Minnowboard Max.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>The launch tool sets the default architecture, and sets a version number for the design, which you can use for future updates.</source>
+          <target>The launch tool sets the default architecture, and sets a version number for the design, which you can use for future updates.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>The first version number defaults to 10.0.0.0.</source>
+          <target>The first version number defaults to 10.0.0.0.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>(Why a four-part version number?</source>
+          <target>(Why a four-part version number?</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../../service/mobile/update-requirements.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Learn about versioning schemes in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update requirements</pc>.)</source>
+          <target>Learn about versioning schemes in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update requirements</pc>.)</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>One-time tasks</source>
+          <target>One-time tasks</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>These tasks only need to be done the first time you install the IoT ADK AddonKit.</source>
+          <target>These tasks only need to be done the first time you install the IoT ADK AddonKit.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Install OEM test certificates.</source>
+          <target>Install OEM test certificates.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>You'll use these to sign your test binaries.</source>
+          <target>You'll use these to sign your test binaries.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>The certificates are added to the root.</source>
+          <target>The certificates are added to the root.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/library/windows/hardware/dn756804)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set up the signing environment</pc></source>
+          <target>To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set up the signing environment</pc></target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Build all of the packages in the working folders.</source>
+          <target>Build all of the packages in the working folders.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Create a new test image</source>
+          <target>Create a new test image</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Create a new product folder.</source>
+          <target>Create a new product folder.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>This folder represents a new device we want to build, and contains sample customization files that we can use to start our project.</source>
+          <target>This folder represents a new device we want to build, and contains sample customization files that we can use to start our project.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>This creates the folder: C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Source-<ph dataRef="id3" id="ph3" />arch<ph dataRef="id4" id="ph4" />Products<ph dataRef="id5" id="ph5" />ProductA.</source>
+          <target>This creates the folder: C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Source-<ph dataRef="id3" id="ph3" />arch<ph dataRef="id4" id="ph4" />Products<ph dataRef="id5" id="ph5" />ProductA.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Eject any removable storage drives, including the Micro SD card and any USB flash drives.</source>
+          <target>Eject any removable storage drives, including the Micro SD card and any USB flash drives.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Create a flashable test image using the default files.</source>
+          <target>Create a flashable test image using the default files.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Test images include additional tools, and you can create test images using either signed or unsigned test packages.</source>
+          <target>Test images include additional tools, and you can create test images using either signed or unsigned test packages.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\&amp;lt;</data>
+          <data id="id4">&amp;gt;\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>This creates a FFU file with your basic image at C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Build<ph dataRef="id3" id="ph3" />arch<ph dataRef="id4" id="ph4" />ProductA<ph dataRef="id5" id="ph5" />Test.</source>
+          <target>This creates a FFU file with your basic image at C:<ph dataRef="id1" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id2" id="ph2" />Build<ph dataRef="id3" id="ph3" />arch<ph dataRef="id4" id="ph4" />ProductA<ph dataRef="id5" id="ph5" />Test.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Troubleshooting:</source>
+          <target>Troubleshooting:</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>ERROR CODES: 0x80070005 or 0x800705b4: Reopen the IoT Core Shell as an administrator, unplug all external drives (including micro SD cards and USB thumb drives), and try again.</source>
+          <target>ERROR CODES: 0x80070005 or 0x800705b4: Reopen the IoT Core Shell as an administrator, unplug all external drives (including micro SD cards and USB thumb drives), and try again.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](set-up-your-pc-to-customize-iot-core.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If this doesn't work, go back to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set up your PC and download the samples</pc> and make sure everything's installed.</source>
+          <target>If this doesn't work, go back to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set up your PC and download the samples</pc> and make sure everything's installed.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Flash the image to a memory card</source>
+          <target>Flash the image to a memory card</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Start the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows IoT Core Dashboard</pc>.</source>
+          <target>Start the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows IoT Core Dashboard</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Plug your micro SD card into your technician PC, and select it in the tool.</source>
+          <target>Plug your micro SD card into your technician PC, and select it in the tool.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>From <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Setup a new device</pc>, select Device Type: <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Custom</pc>.</source>
+          <target>From <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Setup a new device</pc>, select Device Type: <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Custom</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\&amp;lt;</data>
+          <data id="id8">&amp;gt;\\</data>
+          <data id="id9">\\</data>
+          <data id="id10">\\</data>
+          <data id="id11">**</data>
+          <data id="id12">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>From <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Flash the pre-downloaded file (Flash.ffu) to the SD card</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc>, browse to your FFU file (C:<ph dataRef="id5" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id6" id="ph2" />Build<ph dataRef="id7" id="ph3" />arch<ph dataRef="id8" id="ph4" />ProductA<ph dataRef="id9" id="ph5" />Test<ph dataRef="id10" id="ph6" />ProductA.ffu), then click <pc dataRefEnd="id12" dataRefStart="id11" id="p3">Next</pc>.</source>
+          <target>From <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Flash the pre-downloaded file (Flash.ffu) to the SD card</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc>, browse to your FFU file (C:<ph dataRef="id5" id="ph1" />IoT-ADK-AddonKit<ph dataRef="id6" id="ph2" />Build<ph dataRef="id7" id="ph3" />arch<ph dataRef="id8" id="ph4" />ProductA<ph dataRef="id9" id="ph5" />Test<ph dataRef="id10" id="ph6" />ProductA.ffu), then click <pc dataRefEnd="id12" dataRefStart="id11" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Accept the license terms, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc>.</source>
+          <target>Accept the license terms, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>The Windows IoT Core Dashboard formats the micro SD card and installs the new image.</source>
+          <target>The Windows IoT Core Dashboard formats the micro SD card and installs the new image.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Boot it up</source>
+          <target>Boot it up</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Connect your IoT device, such as a Raspberry Pi 2, into a monitor using an HDMI cable.</source>
+          <target>Connect your IoT device, such as a Raspberry Pi 2, into a monitor using an HDMI cable.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  When possible, use a direct connection to an HDMI port.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  When possible, use a direct connection to an HDMI port.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>The display may not appear when using DVI/VGA adapters or hubs.</source>
+          <target>The display may not appear when using DVI/VGA adapters or hubs.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Put in the micro SD card with your image.</source>
+          <target>Put in the micro SD card with your image.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Power it on.</source>
+          <target>Power it on.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://ms-iot.github.io/content/en-US/win10/samples/IoTDefaultApp.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>After a short while, the device should start automatically, and you should see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">default app</pc> (code-named "Bertha"), which shows basic info about the image.</source>
+          <target>After a short while, the device should start automatically, and you should see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">default app</pc> (code-named "Bertha"), which shows basic info about the image.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  Some devices may be extremely slow to boot up on the first boot when using some 8GB class 10 SD cards.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  Some devices may be extremely slow to boot up on the first boot when using some 8GB class 10 SD cards.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Slow boot times may be over 15 minutes.</source>
+          <target>Slow boot times may be over 15 minutes.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Subsequent boots will be much quicker on the affected cards.</source>
+          <target>Subsequent boots will be much quicker on the affected cards.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Next steps</source>
+          <target>Next steps</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](deploy-your-app-with-a-standard-board.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Leave the device on for now, and continue to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lab 1b: Add an app to your image</pc>.</source>
+          <target>Leave the device on for now, and continue to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Lab 1b: Add an app to your image</pc>.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

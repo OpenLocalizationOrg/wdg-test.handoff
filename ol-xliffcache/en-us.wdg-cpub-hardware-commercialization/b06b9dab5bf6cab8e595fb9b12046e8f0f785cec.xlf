@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\apply-images-using-dism.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">b06b9dab5bf6cab8e595fb9b12046e8f0f785cec</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Apply Images Using DISM</source>
+          <target>Apply Images Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Apply Images Using DISM</source>
+          <target>Apply Images Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Apply Images Using DISM</source>
+          <target>Apply Images Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This topic describes how to deploy images captured from your reference computer to one or more destination computers using the Deployment Image Servicing and Management (DISM) tool.</source>
+          <target>This topic describes how to deploy images captured from your reference computer to one or more destination computers using the Deployment Image Servicing and Management (DISM) tool.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](configure-uefigpt-based-hard-drive-partitions.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](configure-biosmbr-based-hard-drive-partitions.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about configuring recommended hard drive partitions, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure UEFI/GPT-Based Hard Drive Partitions</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configure BIOS/MBR-Based Hard Drive Partitions</pc>.</source>
+          <target>For more information about configuring recommended hard drive partitions, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure UEFI/GPT-Based Hard Drive Partitions</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configure BIOS/MBR-Based Hard Drive Partitions</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Apply a Windows Image</source>
+          <target>Apply a Windows Image</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>On the destination computer, you will create a structure for the partitions where you apply your images.</source>
+          <target>On the destination computer, you will create a structure for the partitions where you apply your images.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The partition structure on the destination computer must match the partition structure of the reference computer.</source>
+          <target>The partition structure on the destination computer must match the partition structure of the reference computer.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>If you apply an image to a volume with an existing Windows installation, files from the previous installation may not be deleted.</source>
+          <target>If you apply an image to a volume with an existing Windows installation, files from the previous installation may not be deleted.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Format the volume by using a tool such as DiskPart before applying the new image.</source>
+          <target>Format the volume by using a tool such as DiskPart before applying the new image.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>To partition the hard drive and apply an image</source>
+          <target>To partition the hard drive and apply an image</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Boot the destination computer to Windows PE.</source>
+          <target>Boot the destination computer to Windows PE.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](winpe-intro.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows PE (WinPE) Technical Reference</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows PE (WinPE) Technical Reference</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Connect to the network distribution share where your Windows image is stored.</source>
+          <target>Connect to the network distribution share where your Windows image is stored.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">net use</pc> command to do this:</source>
+          <target>For example, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">net use</pc> command to do this:</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>If prompted, provide your network credentials.</source>
+          <target>If prompted, provide your network credentials.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">`diskpart`</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>At the Windows PE command prompt, type <ph dataRef="id1" id="ph1" /> to start the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Diskpart</pc> tool.</source>
+          <target>At the Windows PE command prompt, type <ph dataRef="id1" id="ph1" /> to start the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Diskpart</pc> tool.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Create your partition structure using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Diskpart</pc> tool.</source>
+          <target>Create your partition structure using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Diskpart</pc> tool.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>This example temporarily assigns these drive letters: Windows=C, System=S, and Recovery=R.</source>
+          <target>This example temporarily assigns these drive letters: Windows=C, System=S, and Recovery=R.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>If you’re deploying to PCs with unformatted hard drives, change the Windows drive letter to a letter that’s near the end of the alphabet, such as W, to avoid drive letter conflicts.</source>
+          <target>If you’re deploying to PCs with unformatted hard drives, change the Windows drive letter to a letter that’s near the end of the alphabet, such as W, to avoid drive letter conflicts.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Do not use X, because this drive letter is reserved for Windows PE.</source>
+          <target>Do not use X, because this drive letter is reserved for Windows PE.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>After the PC reboots, the Windows partition is assigned the letter C, and the other partitions don’t receive drive letters.</source>
+          <target>After the PC reboots, the Windows partition is assigned the letter C, and the other partitions don’t receive drive letters.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](configure-biosmbr-based-hard-drive-partitions.md)</data>
+          <data id="id3">[</data>
+          <data id="id4">](configure-uefigpt-based-hard-drive-partitions.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For examples of recommended partition structures, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure BIOS/MBR-Based Hard Drive Partitions</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configure UEFI/GPT-Based Hard Drive Partitions</pc>.</source>
+          <target>For examples of recommended partition structures, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure BIOS/MBR-Based Hard Drive Partitions</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configure UEFI/GPT-Based Hard Drive Partitions</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">`diskpart /s &lt;script&gt;`</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can automate this task with the <ph dataRef="id1" id="ph1" /> command.</source>
+          <target>You can automate this task with the <ph dataRef="id1" id="ph1" /> command.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=128458)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Diskpart Command line syntax</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Diskpart Command line syntax</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Use the DISM tool to apply images to your Windows partition.</source>
+          <target>Use the DISM tool to apply images to your Windows partition.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">*</data>
+          <data id="id6">*</data>
+          <data id="id7">&amp;lt;</data>
+          <data id="id8">\_</data>
+          <data id="id9">&amp;gt;</data>
+          <data id="id10">*</data>
+          <data id="id11">*</data>
+          <data id="id12">&amp;lt;</data>
+          <data id="id13">\_</data>
+          <data id="id14">&amp;gt;</data>
+          <data id="id15">*</data>
+          <data id="id16">*</data>
+          <data id="id17">&amp;lt;</data>
+          <data id="id18">\_</data>
+          <data id="id19">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>For each partition that you apply an image to, run the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM</pc><pc dataRefEnd="id4" dataRefStart="id3" id="p2">/apply-image</pc> /imageFile: <pc dataRefEnd="id6" dataRefStart="id5" id="p3"><ph dataRef="id7" id="ph1" />image<ph dataRef="id8" id="ph2" />file<ph dataRef="id9" id="ph3" /></pc> /index:<pc dataRefEnd="id11" dataRefStart="id10" id="p4"><ph dataRef="id12" id="ph4" />index<ph dataRef="id13" id="ph5" />number<ph dataRef="id14" id="ph6" /></pc> /ApplyDir:<pc dataRefEnd="id16" dataRefStart="id15" id="p5"><ph dataRef="id17" id="ph7" />image<ph dataRef="id18" id="ph8" />path<ph dataRef="id19" id="ph9" /></pc> command.</source>
+          <target>For each partition that you apply an image to, run the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM</pc><pc dataRefEnd="id4" dataRefStart="id3" id="p2">/apply-image</pc> /imageFile: <pc dataRefEnd="id6" dataRefStart="id5" id="p3"><ph dataRef="id7" id="ph1" />image<ph dataRef="id8" id="ph2" />file<ph dataRef="id9" id="ph3" /></pc> /index:<pc dataRefEnd="id11" dataRefStart="id10" id="p4"><ph dataRef="id12" id="ph4" />index<ph dataRef="id13" id="ph5" />number<ph dataRef="id14" id="ph6" /></pc> /ApplyDir:<pc dataRefEnd="id16" dataRefStart="id15" id="p5"><ph dataRef="id17" id="ph7" />image<ph dataRef="id18" id="ph8" />path<ph dataRef="id19" id="ph9" /></pc> command.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](dism-supported-platforms.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  If the DISM /Apply-Image command fails, make sure you’re using a <pc dataRefEnd="id4" dataRefStart="id3" id="p2">supported version of DISM</pc> for that Windows image.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  If the DISM /Apply-Image command fails, make sure you’re using a <pc dataRefEnd="id4" dataRefStart="id3" id="p2">supported version of DISM</pc> for that Windows image.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>For example, to apply a Windows 10 image, you’ll need the Windows 10 version of DISM.</source>
+          <target>For example, to apply a Windows 10 image, you’ll need the Windows 10 version of DISM.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>To set up a basic system partition, you can use the BCDboot tool to copy a simple set of system files to a system partition.</source>
+          <target>To set up a basic system partition, you can use the BCDboot tool to copy a simple set of system files to a system partition.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>These files include boot configuration data (BCD) information that is used to start Windows:</source>
+          <target>These files include boot configuration data (BCD) information that is used to start Windows:</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Use the BCDboot tool to copy common system partition files and to initialize boot configuration data:</source>
+          <target>Use the BCDboot tool to copy common system partition files and to initialize boot configuration data:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](bcdboot-command-line-options-techref-di.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about the BCDboot tool, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BCDboot Command-Line Options</pc>.</source>
+          <target>For more information about the BCDboot tool, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BCDboot Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>You can also set up the system partition by applying an image.</source>
+          <target>You can also set up the system partition by applying an image.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM</pc><pc dataRefEnd="id4" dataRefStart="id3" id="p2">/apply-image</pc> command.</source>
+          <target>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM</pc><pc dataRefEnd="id4" dataRefStart="id3" id="p2">/apply-image</pc> command.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>You can set up the computer to reinstall your Windows image in the event of a system failure.</source>
+          <target>You can set up the computer to reinstall your Windows image in the event of a system failure.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](windows-recovery-environment--windows-re--technical-reference.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Recovery Environment (Windows RE) Technical Reference</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Recovery Environment (Windows RE) Technical Reference</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Microsoft Reserved partitions (MSR) and Extended partitions are managed by the computer.</source>
+          <target>Microsoft Reserved partitions (MSR) and Extended partitions are managed by the computer.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Do not apply an image to these partitions.</source>
+          <target>Do not apply an image to these partitions.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>You can use audit mode to test the computer and to perform additional customizations before you ship it to your end user.</source>
+          <target>You can use audit mode to test the computer and to perform additional customizations before you ship it to your end user.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](boot-windows-to-audit-mode-or-oobe.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Boot Windows to Audit Mode or OOBE</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Boot Windows to Audit Mode or OOBE</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>You can also perform some customizations to the computer without booting it.</source>
+          <target>You can also perform some customizations to the computer without booting it.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](service-an-applied-windows-image.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Service an Applied Windows Image</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Service an Applied Windows Image</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you receive the error message: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Bootmgr not found. Press CTRL+ALT+DEL</pc>, this indicates that Windows cannot identify the boot information in the active partition.</source>
+          <target>If you receive the error message: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Bootmgr not found. Press CTRL+ALT+DEL</pc>, this indicates that Windows cannot identify the boot information in the active partition.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>If you receive this error message, check the following:</source>
+          <target>If you receive this error message, check the following:</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Use the DiskPart tool to check to make sure that the system partition is set to Active.</source>
+          <target>Use the DiskPart tool to check to make sure that the system partition is set to Active.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Check to make sure that the active partition includes system files.</source>
+          <target>Check to make sure that the active partition includes system files.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Capture Images of Hard Disk Partitions Using DISM</source>
+          <target>Capture Images of Hard Disk Partitions Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Boot Windows to Audit Mode or OOBE</source>
+          <target>Boot Windows to Audit Mode or OOBE</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>DISM Image Management Command-Line Options</source>
+          <target>DISM Image Management Command-Line Options</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Applying Images using a script</source>
+          <target>Applying Images using a script</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

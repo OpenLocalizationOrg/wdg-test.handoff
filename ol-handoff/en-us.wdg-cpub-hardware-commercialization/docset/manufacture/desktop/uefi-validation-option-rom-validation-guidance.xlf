@@ -1,0 +1,1591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\uefi-validation-option-rom-validation-guidance.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">03b717a34b5fd7ff2d494cf658f3298789d9b29c</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>UEFI Validation Option ROM Guidance</source>
+          <target>UEFI Validation Option ROM Guidance</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>UEFI Validation Option ROM Guidance</source>
+          <target>UEFI Validation Option ROM Guidance</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>UEFI Validation Option ROM Guidance</source>
+          <target>UEFI Validation Option ROM Guidance</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <originalData>
+          <data id="id1">&lt;</data>
+          <data id="id2">&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Vishal Manan, Architect, OEM Consulting, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">vmanan@microsoft.com</pc></source>
+          <target>Vishal Manan, Architect, OEM Consulting, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">vmanan@microsoft.com</pc></target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](mailto:%20jerecox@microsoft.com)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Jeremiah Cox, Sr. SDET, Windows Security &amp; Identity Team, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">jerecox@microsoft.com</pc></source>
+          <target>Jeremiah Cox, Sr. SDET, Windows Security &amp; Identity Team, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">jerecox@microsoft.com</pc></target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](mailto:%20tolin@microsoft.com)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tony Lin, Engineering Service Engineer, TW-WIN Plan Ecosystem, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">tolin@microsoft.com</pc></source>
+          <target>Tony Lin, Engineering Service Engineer, TW-WIN Plan Ecosystem, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">tolin@microsoft.com</pc></target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Version 1.3</source>
+          <target>Version 1.3</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>This document helps OEMs and ODMs validate that their firmware checks the signatures of its option ROM as part of the Secure Boot chain of trust.</source>
+          <target>This document helps OEMs and ODMs validate that their firmware checks the signatures of its option ROM as part of the Secure Boot chain of trust.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>This guide assumes you know the fundamentals of UEFI, basic understanding of Secure Boot (Chapters 1, 2, 13, 20 and 27 of the UEFI specification), and PKI security model.</source>
+          <target>This guide assumes you know the fundamentals of UEFI, basic understanding of Secure Boot (Chapters 1, 2, 13, 20 and 27 of the UEFI specification), and PKI security model.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>On this page:</source>
+          <target>On this page:</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Introduction</source>
+          <target>Introduction</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>1. UEFI and Option ROMs</source>
+          <target>1. UEFI and Option ROMs</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>2. Problem statement</source>
+          <target>2. Problem statement</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>3. Who is affected?</source>
+          <target>3. Who is affected?</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>4. How to test for it?</source>
+          <target>4. How to test for it?</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>5. How to fix it</source>
+          <target>5. How to fix it</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>6. Resources</source>
+          <target>6. Resources</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Appendix A: Alternate approach to testing using unsigned option ROM drivers</source>
+          <target>Appendix A: Alternate approach to testing using unsigned option ROM drivers</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Appendix B: Scripts for enabling Secure Boot with NULL db</source>
+          <target>Appendix B: Scripts for enabling Secure Boot with NULL db</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Introduction</source>
+          <target>Introduction</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Option ROMs (or OpROMs) are firmware run by the PC BIOS during platform initialization.</source>
+          <target>Option ROMs (or OpROMs) are firmware run by the PC BIOS during platform initialization.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>They are usually stored on a plug-in card, though they can reside on the system board.</source>
+          <target>They are usually stored on a plug-in card, though they can reside on the system board.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Devices that typically require option ROMs are video cards, network adapters, and storage drivers for RAID modules.</source>
+          <target>Devices that typically require option ROMs are video cards, network adapters, and storage drivers for RAID modules.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>These option ROMs also typically provide firmware drivers to the PC.</source>
+          <target>These option ROMs also typically provide firmware drivers to the PC.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>They include a variety of types of firmware drivers, including legacy PC-AT, Open Firmware, and EFI option ROMs.</source>
+          <target>They include a variety of types of firmware drivers, including legacy PC-AT, Open Firmware, and EFI option ROMs.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Examples of firmware drivers include Video BIOS on video cards, PXE boot drivers for Ethernet adapters, and storage drivers on RAID controllers.</source>
+          <target>Examples of firmware drivers include Video BIOS on video cards, PXE boot drivers for Ethernet adapters, and storage drivers on RAID controllers.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>These devices typically have Option ROMs that provide firmware drivers.</source>
+          <target>These devices typically have Option ROMs that provide firmware drivers.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>The Unified Extensible Firmware Interface (UEFI) has support for Legacy mode option ROMs.</source>
+          <target>The Unified Extensible Firmware Interface (UEFI) has support for Legacy mode option ROMs.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>As per latest UEFI specification (currently at 2.3.1 Errata C – section 2.5.1.2), ISA (legacy) option ROMs are not a part of the UEFI Specification.</source>
+          <target>As per latest UEFI specification (currently at 2.3.1 Errata C – section 2.5.1.2), ISA (legacy) option ROMs are not a part of the UEFI Specification.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>For the purposes of this discussion, only PCI-based UEFI-compatible option ROMs will be considered.</source>
+          <target>For the purposes of this discussion, only PCI-based UEFI-compatible option ROMs will be considered.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Option ROMs can be used when it's not be possible to embed a device's firmware in the PC firmware.</source>
+          <target>Option ROMs can be used when it's not be possible to embed a device's firmware in the PC firmware.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>When the option ROM carries the driver, the IHV can leverage that driver, and keep the driver and device in one place.</source>
+          <target>When the option ROM carries the driver, the IHV can leverage that driver, and keep the driver and device in one place.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>This document talks about why you need to validate option ROMs and shows some techniques of doing it.</source>
+          <target>This document talks about why you need to validate option ROMs and shows some techniques of doing it.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Supporting both UEFI BIOS and Legacy BIOS</source>
+          <target>Supporting both UEFI BIOS and Legacy BIOS</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Many manufacturers create devices that include option ROMs and firmware for many types of PCs.</source>
+          <target>Many manufacturers create devices that include option ROMs and firmware for many types of PCs.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Common combos include:</source>
+          <target>Common combos include:</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Legacy ROM Only</source>
+          <target>Legacy ROM Only</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>UEFI Native OpROM</source>
+          <target>UEFI Native OpROM</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Legacy ROM + UEFI EBC OpROM</source>
+          <target>Legacy ROM + UEFI EBC OpROM</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Legacy ROM + UEFI x64 OpROM</source>
+          <target>Legacy ROM + UEFI x64 OpROM</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Legacy ROM + UEFI x64 + UEFI IA32</source>
+          <target>Legacy ROM + UEFI x64 + UEFI IA32</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Legacy ROM + UEFI x64 + UEFI IA32 + UEFI EBC OpROM</source>
+          <target>Legacy ROM + UEFI x64 + UEFI IA32 + UEFI EBC OpROM</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>UEFI BIOS can load and execute legacy firmware drivers when a Compatibility Support Module (CSM) is enabled.</source>
+          <target>UEFI BIOS can load and execute legacy firmware drivers when a Compatibility Support Module (CSM) is enabled.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Note that when Secure Boot is enabled, execution of the Compatibility Support Module and legacy ROMs is prohibited because legacy firmware drivers do not support authentication.If the Option ROM format in the BIOS configuration is set to legacy ROM, it will always use the legacy ROM on the device.</source>
+          <target>Note that when Secure Boot is enabled, execution of the Compatibility Support Module and legacy ROMs is prohibited because legacy firmware drivers do not support authentication.If the Option ROM format in the BIOS configuration is set to legacy ROM, it will always use the legacy ROM on the device.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the Option ROM format is set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UEFI Compatible</pc>, it will use the newer EFI ROM if one is present and the legacy ROM if one is not.</source>
+          <target>If the Option ROM format is set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UEFI Compatible</pc>, it will use the newer EFI ROM if one is present and the legacy ROM if one is not.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>UEFI drivers are necessary for many of the new firmware level security features as well as to enable UEFI boot sequences.</source>
+          <target>UEFI drivers are necessary for many of the new firmware level security features as well as to enable UEFI boot sequences.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>For example, installing Windows from an optical disk which is attached to a non-UEFI compatible storage controller is not possible when a system is booting in UEFI mode when Secure Boot is enabled.</source>
+          <target>For example, installing Windows from an optical disk which is attached to a non-UEFI compatible storage controller is not possible when a system is booting in UEFI mode when Secure Boot is enabled.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>1. UEFI and Option ROMs</source>
+          <target>1. UEFI and Option ROMs</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>diagram of uefi driver considerations</source>
+          <target>diagram of uefi driver considerations</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Figure 2: UEFI Driver Security Consideration, Source: UEFI 2.3.1 Errata C</source>
+          <target>Figure 2: UEFI Driver Security Consideration, Source: UEFI 2.3.1 Errata C</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>From Section 31.1.4 from the UEFI 2.3.1 Errata C:</source>
+          <target>From Section 31.1.4 from the UEFI 2.3.1 Errata C:</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Since the UEFI user profile details a number of security-related privileges, it is important that the User Identity Manager and User Credential Providers and the environment in which they execute are trusted.</source>
+          <target>Since the UEFI user profile details a number of security-related privileges, it is important that the User Identity Manager and User Credential Providers and the environment in which they execute are trusted.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>This includes:</source>
+          <target>This includes:</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Protecting the storage area where these drivers are stored.</source>
+          <target>Protecting the storage area where these drivers are stored.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Protecting the means by which these drivers are selected.</source>
+          <target>Protecting the means by which these drivers are selected.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Protecting the execution environment of these drivers from unverified drivers.</source>
+          <target>Protecting the execution environment of these drivers from unverified drivers.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>The data structures used by these drivers should not be corrupted by unauthorized drivers while they are still being used.</source>
+          <target>The data structures used by these drivers should not be corrupted by unauthorized drivers while they are still being used.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Components like User Identity Manager, the User Credential drivers and on board drivers maybe located in a secure location like write-protected flash drive which is trusted by platform policy.</source>
+          <target>Components like User Identity Manager, the User Credential drivers and on board drivers maybe located in a secure location like write-protected flash drive which is trusted by platform policy.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Some other drivers may reside on an unprotected storage locations like option ROMs or a hard drive partition and may be easily replaced.</source>
+          <target>Some other drivers may reside on an unprotected storage locations like option ROMs or a hard drive partition and may be easily replaced.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>These drivers must be verified.</source>
+          <target>These drivers must be verified.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">\#\#\#\#</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, either the default platform policy must successfully be able to verify drivers listed in the Driver<ph dataRef="id1" id="ph1" /> load options, or else the user must be identified prior to processing these drivers.</source>
+          <target>For example, either the default platform policy must successfully be able to verify drivers listed in the Driver<ph dataRef="id1" id="ph1" /> load options, or else the user must be identified prior to processing these drivers.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Otherwise, the driver execution should be deferred.</source>
+          <target>Otherwise, the driver execution should be deferred.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">\#\#\#\#</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the user profile is changed through a subsequent call to Identify () or through dynamic authentication, the Driver<ph dataRef="id1" id="ph1" /> options may not be processed again.</source>
+          <target>If the user profile is changed through a subsequent call to Identify () or through dynamic authentication, the Driver<ph dataRef="id1" id="ph1" /> options may not be processed again.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>The user profile database is closed using different UEFI signal events based on whether it can be protected.</source>
+          <target>The user profile database is closed using different UEFI signal events based on whether it can be protected.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>UEFI Drivers &amp; UEFI option ROMs will only be executed for devices in the boot path.</source>
+          <target>UEFI Drivers &amp; UEFI option ROMs will only be executed for devices in the boot path.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>PCI spec allows multiple option ROM images on the same device.</source>
+          <target>PCI spec allows multiple option ROM images on the same device.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>These option ROMS could be Legacy x86 &amp; UEFI.</source>
+          <target>These option ROMS could be Legacy x86 &amp; UEFI.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>UEFI firmware sets platform policy for picking the option ROM.</source>
+          <target>UEFI firmware sets platform policy for picking the option ROM.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>That can make the optional adapter's ROM execute as its own control device.</source>
+          <target>That can make the optional adapter's ROM execute as its own control device.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>The firmware verifies signatures during BDS and DXE phases.</source>
+          <target>The firmware verifies signatures during BDS and DXE phases.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>The sequence of events is as follows:</source>
+          <target>The sequence of events is as follows:</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Initialize PCI and derivative Buses</source>
+          <target>Initialize PCI and derivative Buses</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Probe PCI Devices for option ROMs</source>
+          <target>Probe PCI Devices for option ROMs</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Found option ROMs are mapped in memory</source>
+          <target>Found option ROMs are mapped in memory</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>DXE phase loads any UEFI drivers in ROMs</source>
+          <target>DXE phase loads any UEFI drivers in ROMs</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>UEFI option ROMs can be anywhere in memory.</source>
+          <target>UEFI option ROMs can be anywhere in memory.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>The default is to let the ROM on the card manage the device.</source>
+          <target>The default is to let the ROM on the card manage the device.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>UEFI allows platform to control policy around what option ROM controls what device using EFI<ph dataRef="id1" id="ph1" />PLATFORM<ph dataRef="id2" id="ph2" />DRIVER<ph dataRef="id3" id="ph3" />OVERRIDE.</source>
+          <target>UEFI allows platform to control policy around what option ROM controls what device using EFI<ph dataRef="id1" id="ph1" />PLATFORM<ph dataRef="id2" id="ph2" />DRIVER<ph dataRef="id3" id="ph3" />OVERRIDE.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>UEFI supports option ROMs to register a configuration interface.</source>
+          <target>UEFI supports option ROMs to register a configuration interface.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>On a PC with Secure Boot enabled, option ROM drivers pose a security threat if they are not signed or not validated.</source>
+          <target>On a PC with Secure Boot enabled, option ROM drivers pose a security threat if they are not signed or not validated.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Signature validation for option ROMs is a WHCK requirement.</source>
+          <target>Signature validation for option ROMs is a WHCK requirement.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>The same is true while servicing option ROMs to make sure that the update is validated prior to installation.</source>
+          <target>The same is true while servicing option ROMs to make sure that the update is validated prior to installation.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>From the UEFI 2.3.1 Eratta C specification:</source>
+          <target>From the UEFI 2.3.1 Eratta C specification:</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Mandatory.</source>
+          <target>Mandatory.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Signed Firmware Code Integrity Check</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Signed Firmware Code Integrity Check</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Firmware that is installed by the OEM and is either read-only or protected by a secure firmware update process, as defined above, may be considered protected.</source>
+          <target>Firmware that is installed by the OEM and is either read-only or protected by a secure firmware update process, as defined above, may be considered protected.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Systems shall verify that all unprotected firmware components, UEFI drivers, and UEFI applications are sigend using minimum RSA-2048 with SHA-256 (MD5 and SHA-1 are prohibited)</pc>, and verify that UEFI applications and drivers that are not signed as per these requirements will fail to run (this is the default policy for acceptable signature algorithms).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Systems shall verify that all unprotected firmware components, UEFI drivers, and UEFI applications are sigend using minimum RSA-2048 with SHA-256 (MD5 and SHA-1 are prohibited)</pc>, and verify that UEFI applications and drivers that are not signed as per these requirements will fail to run (this is the default policy for acceptable signature algorithms).</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>If an images signature is not found in the authorized database, or is found in the forbidden database, the image must not be started, and instead, information about it shall be placed in the Image Execution Information Table.11.</source>
+          <target>If an images signature is not found in the authorized database, or is found in the forbidden database, the image must not be started, and instead, information about it shall be placed in the Image Execution Information Table.11.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Mandatory.</source>
+          <target>Mandatory.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Verify Signature of all Boot Apps and Boot Loaders.</source>
+          <target>Verify Signature of all Boot Apps and Boot Loaders.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Upon power-on, the platform shall start executing boot firmware and use public key cryptography as per algorithm policy to verify the signatures of all images in the boot sequence up-to and including the Windows Boot Manager.</source>
+          <target>Upon power-on, the platform shall start executing boot firmware and use public key cryptography as per algorithm policy to verify the signatures of all images in the boot sequence up-to and including the Windows Boot Manager.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>2. Problem statement</source>
+          <target>2. Problem statement</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Some builds of Secure Boot-enabled UEFI BIOS, including Tiano Core, did not by default authenticate UEFI option ROMs because signed UEFI option ROMs were not available during Secure Boot development.</source>
+          <target>Some builds of Secure Boot-enabled UEFI BIOS, including Tiano Core, did not by default authenticate UEFI option ROMs because signed UEFI option ROMs were not available during Secure Boot development.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>This exposes an attack surface/vulnerability in UEFI Secure Boot.</source>
+          <target>This exposes an attack surface/vulnerability in UEFI Secure Boot.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>2.1.</source>
+          <target>2.1.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Vulnerability</source>
+          <target>Vulnerability</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>This vulnerability was still present in EDK II and UDK2010 as of August 2013.</source>
+          <target>This vulnerability was still present in EDK II and UDK2010 as of August 2013.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>The source maintainers are aware of the issue and a bug is filed.</source>
+          <target>The source maintainers are aware of the issue and a bug is filed.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Any firmware derived from EDK II and UDK2010 should verify how Option ROM verification is managed.</source>
+          <target>Any firmware derived from EDK II and UDK2010 should verify how Option ROM verification is managed.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">`PcdOptionRomImageVerificationPolicy`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Option ROM verification behavior is controlled by a PCD value <ph dataRef="id1" id="ph1" /> in the EDK II SecurityPkg package.</source>
+          <target>Option ROM verification behavior is controlled by a PCD value <ph dataRef="id1" id="ph1" /> in the EDK II SecurityPkg package.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The source code for the TianoCore vulnerability is SecurityPkg<ph dataRef="id1" id="ph1" />SecurityPkg.dec file:</source>
+          <target>The source code for the TianoCore vulnerability is SecurityPkg<ph dataRef="id1" id="ph1" />SecurityPkg.dec file:</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <originalData>
+          <data id="id1">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The default value (0x00) is ALWAYS<ph dataRef="id1" id="ph1" />EXECUTE, which does not properly perform verification of signed drivers in Option ROMs for add-in peripherals.</source>
+          <target>The default value (0x00) is ALWAYS<ph dataRef="id1" id="ph1" />EXECUTE, which does not properly perform verification of signed drivers in Option ROMs for add-in peripherals.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>This is not an ideal value for any system implementing UEFI Secure Boot functionality.</source>
+          <target>This is not an ideal value for any system implementing UEFI Secure Boot functionality.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Recommended Value (Best Security):</source>
+          <target>Recommended Value (Best Security):</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Recommended Value (Best Flexibility):</source>
+          <target>Recommended Value (Best Flexibility):</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>In EDK II &amp; UDK2010, proper coding practice uses an override mechanism to modify PCD values for platform firmware.</source>
+          <target>In EDK II &amp; UDK2010, proper coding practice uses an override mechanism to modify PCD values for platform firmware.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">`PcdOptionRomImageVerificationPolicy`</data>
+          <data id="id2">`SecurityPkg\SecurityPkg.dec`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Therefore, the value for <ph dataRef="id1" id="ph1" /> should not be changed in <ph dataRef="id2" id="ph2" />.</source>
+          <target>Therefore, the value for <ph dataRef="id1" id="ph1" /> should not be changed in <ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>The override value should be set in the platform’s DSC file.</source>
+          <target>The override value should be set in the platform’s DSC file.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>An example is shown below using Nt32Pkg<ph dataRef="id1" id="ph1" />Nt32Pkg.dsc:</source>
+          <target>An example is shown below using Nt32Pkg<ph dataRef="id1" id="ph1" />Nt32Pkg.dsc:</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">`[PcdsFixedAtBuild]`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The PCD override should be placed under the <ph dataRef="id1" id="ph1" /> section of the DSC file.</source>
+          <target>The PCD override should be placed under the <ph dataRef="id1" id="ph1" /> section of the DSC file.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>The exact mechanism for overriding parameters may differ depending on BIOS vendor tools.</source>
+          <target>The exact mechanism for overriding parameters may differ depending on BIOS vendor tools.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>This vulnerability may exist in early implementations of UEFI Secure Boot BIOS from independent BIOS vendors.</source>
+          <target>This vulnerability may exist in early implementations of UEFI Secure Boot BIOS from independent BIOS vendors.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Contact your BIOS vendor to determine if your version may be impacted.</source>
+          <target>Contact your BIOS vendor to determine if your version may be impacted.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>3. Who is affected?</source>
+          <target>3. Who is affected?</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>A UEFI PC which implements Secure Boot and has a UEFI option ROM driver which is not signed.</source>
+          <target>A UEFI PC which implements Secure Boot and has a UEFI option ROM driver which is not signed.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Furthermore, the firmware for compatibility to get the existing cards working may have a security vulnerability which doesn’t verify option ROMs.</source>
+          <target>Furthermore, the firmware for compatibility to get the existing cards working may have a security vulnerability which doesn’t verify option ROMs.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Laptops, netbooks, ultrabooks, &amp; tablets: most are not affected</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Laptops, netbooks, ultrabooks, &amp; tablets: most are not affected</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Option ROMs are typically present on backplane buses such as PCI/e, ISA, and their derivatives (ExpressCard, miniPCI, CardBus, PCCard, LPC, ThunderBolt etc).</source>
+          <target>Option ROMs are typically present on backplane buses such as PCI/e, ISA, and their derivatives (ExpressCard, miniPCI, CardBus, PCCard, LPC, ThunderBolt etc).</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>If a laptop has none of these exposed, then its attack surface is greatly reduced.</source>
+          <target>If a laptop has none of these exposed, then its attack surface is greatly reduced.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Moreover, it is likely UEFI drivers for onboard laptop components are integrated into the core BIOS firmware volume, not located on a separate option ROM.</source>
+          <target>Moreover, it is likely UEFI drivers for onboard laptop components are integrated into the core BIOS firmware volume, not located on a separate option ROM.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Thus most laptops are not at risk.</source>
+          <target>Thus most laptops are not at risk.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Also, when Legacy option ROMs are disabled, it looks like UEFI only supports PCI-based option ROMs.</source>
+          <target>Also, when Legacy option ROMs are disabled, it looks like UEFI only supports PCI-based option ROMs.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>However, if you have a desktop, motherboard or a server which has a UEFI BIOS and implement Secure Boot, you may be affected.</source>
+          <target>However, if you have a desktop, motherboard or a server which has a UEFI BIOS and implement Secure Boot, you may be affected.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>On a server’s dedicated RAID controller, or add-in storage controller for SATA, FC etc. or Ethernet PCIe network cards may have option ROMs.</source>
+          <target>On a server’s dedicated RAID controller, or add-in storage controller for SATA, FC etc. or Ethernet PCIe network cards may have option ROMs.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Add-in controllers supporting a wide array of functionality on servers are common so this especially applies to the server space.</source>
+          <target>Add-in controllers supporting a wide array of functionality on servers are common so this especially applies to the server space.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>This can potentially affect 32-bit and 64-bit PCs, both class 2 and class 3.</source>
+          <target>This can potentially affect 32-bit and 64-bit PCs, both class 2 and class 3.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>If a Secure Boot platform supports option ROMs from devices not permanently attached to the platform and it supports the ability to authenticate those option ROMs, then it must support the option ROM validation methods described in Network Protocols — UDP and MTFTP and the authenticated EFI variables described in UEFI specification 2.3.1 Errata C Section 7.2.</source>
+          <target>If a Secure Boot platform supports option ROMs from devices not permanently attached to the platform and it supports the ability to authenticate those option ROMs, then it must support the option ROM validation methods described in Network Protocols — UDP and MTFTP and the authenticated EFI variables described in UEFI specification 2.3.1 Errata C Section 7.2.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>4. How to test for it?</source>
+          <target>4. How to test for it?</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>If you are developing the firmware and it is based on Tiano Core please check for vulnerability mentioned in the section 2.1.</source>
+          <target>If you are developing the firmware and it is based on Tiano Core please check for vulnerability mentioned in the section 2.1.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>If you are using another IBV’s firmware please check with them.</source>
+          <target>If you are using another IBV’s firmware please check with them.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Or you could do the test it yourself as mentioned below.</source>
+          <target>Or you could do the test it yourself as mentioned below.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>You will need the following:</source>
+          <target>You will need the following:</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>PC under test with UEFI firmware</source>
+          <target>PC under test with UEFI firmware</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>PCI device with Option ROM on the PC under test (like a video card)</source>
+          <target>PCI device with Option ROM on the PC under test (like a video card)</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Make sure Secure Boot is enabled</source>
+          <target>Make sure Secure Boot is enabled</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Steps for testing:</source>
+          <target>Steps for testing:</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Insert a UEFI add on PCI card with UEFI Option ROM to the PC under test.</source>
+          <target>Insert a UEFI add on PCI card with UEFI Option ROM to the PC under test.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>If you are using a PCI video card for testing, hookup an external monitor.</source>
+          <target>If you are using a PCI video card for testing, hookup an external monitor.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Enable Secure Boot with the settings below:</source>
+          <target>Enable Secure Boot with the settings below:</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>PK: Your PK or self-signed Test PK</source>
+          <target>PK: Your PK or self-signed Test PK</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>KEK: MS KEK, PK-signed Fabrikam test KEK or another KEK</source>
+          <target>KEK: MS KEK, PK-signed Fabrikam test KEK or another KEK</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>DB: NULL.</source>
+          <target>DB: NULL.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>(This must be NULL.)</source>
+          <target>(This must be NULL.)</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>DBX: NULL.</source>
+          <target>DBX: NULL.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>SecureBoot: The UEFI variable should be set to true</source>
+          <target>SecureBoot: The UEFI variable should be set to true</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Reboot the PC</source>
+          <target>Reboot the PC</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Expect the following result:</source>
+          <target>Expect the following result:</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>If the UEFI firmware is implemented correctly, the UEFI option ROM driver wouldn’t load since the presence of an option ROM will make the firmware check the “Db” for a certificate.</source>
+          <target>If the UEFI firmware is implemented correctly, the UEFI option ROM driver wouldn’t load since the presence of an option ROM will make the firmware check the “Db” for a certificate.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Since the “Db” is NULL the UEFI driver will fail to load.</source>
+          <target>Since the “Db” is NULL the UEFI driver will fail to load.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>For example, if you are using the video card to test, you will see that nothing shows up on display.</source>
+          <target>For example, if you are using the video card to test, you will see that nothing shows up on display.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>If the firmware isn’t implemented correctly, UEFI driver will load from the option ROM since the firmware doesn’t check for signatures in “Db”.</source>
+          <target>If the firmware isn’t implemented correctly, UEFI driver will load from the option ROM since the firmware doesn’t check for signatures in “Db”.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>For example, if you are using the video card for test, you will see that the monitor hooked to the option ROM card will have display.</source>
+          <target>For example, if you are using the video card for test, you will see that the monitor hooked to the option ROM card will have display.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>It doesn’t matter if the UEFI option ROM driver is signed or not, the option ROM will not load when DB is null and SB is enabled (PK and KEK are enrolled).</source>
+          <target>It doesn’t matter if the UEFI option ROM driver is signed or not, the option ROM will not load when DB is null and SB is enabled (PK and KEK are enrolled).</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>Please refer to sample scripts available in the WHCK for generating the PK and KEK.</source>
+          <target>Please refer to sample scripts available in the WHCK for generating the PK and KEK.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <originalData>
+          <data id="id1">&lt;</data>
+          <data id="id2">&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can download the scripts from here: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://go.microsoft.com/fwlink/?LinkId=321292</pc> .</source>
+          <target>You can download the scripts from here: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://go.microsoft.com/fwlink/?LinkId=321292</pc> .</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Appendix B has sample scripts and more details.</source>
+          <target>Appendix B has sample scripts and more details.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>You can also reference Appendix A for another approach to performing the above test.</source>
+          <target>You can also reference Appendix A for another approach to performing the above test.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>This approach doesn’t require setting the DB to Null but needs an unsigned UEFI option ROM driver from the IHV.</source>
+          <target>This approach doesn’t require setting the DB to Null but needs an unsigned UEFI option ROM driver from the IHV.</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>5. How to fix it</source>
+          <target>5. How to fix it</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>If the above test fails, work with your IBV to acquire the necessary versions and configure them to validate option ROMs.</source>
+          <target>If the above test fails, work with your IBV to acquire the necessary versions and configure them to validate option ROMs.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Make sure that the firmware passes the test.</source>
+          <target>Make sure that the firmware passes the test.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>For PCs which have shipped you will need to do a secure firmware update.</source>
+          <target>For PCs which have shipped you will need to do a secure firmware update.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?linkid=321186)</data>
+          <data id="id3">[</data>
+          <data id="id4">](windows-secure-boot-key-creation-and-management-guidance.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Please refer to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NIST publication 800-147</pc> and/or see <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 8.1 Secure Boot Key Creation and Management Guidance</pc>.</source>
+          <target>Please refer to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NIST publication 800-147</pc> and/or see <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows 8.1 Secure Boot Key Creation and Management Guidance</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>You can test the PC and leverage Windows HCK as a test tool (not a certification tool) for testing the secure firmware update.</source>
+          <target>You can test the PC and leverage Windows HCK as a test tool (not a certification tool) for testing the secure firmware update.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>5.1.</source>
+          <target>5.1.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>Signing the driver</source>
+          <target>Signing the driver</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>In case you find that you may have unsigned drivers on UEFI option ROMs please read below on how to fix that.</source>
+          <target>In case you find that you may have unsigned drivers on UEFI option ROMs please read below on how to fix that.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Sign each option ROM driver individually.</source>
+          <target>Sign each option ROM driver individually.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>That will break the format of the PCI Option ROM.</source>
+          <target>That will break the format of the PCI Option ROM.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>You only need to sign the UEFI driver before creating the combined Option ROM.</source>
+          <target>You only need to sign the UEFI driver before creating the combined Option ROM.</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>Before inserting the UEFI driver in the OpROM, sign the UEFI image and test it with Secure Boot ON &amp; OFF at the UEFI Shell (load/unload the driver file).</source>
+          <target>Before inserting the UEFI driver in the OpROM, sign the UEFI image and test it with Secure Boot ON &amp; OFF at the UEFI Shell (load/unload the driver file).</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>Then put the signed driver into the combined option ROM.</source>
+          <target>Then put the signed driver into the combined option ROM.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>You can direct your IHV to Microsoft SysDev center to get their UEFI option ROMs signed through a service available through SysDev center.</source>
+          <target>You can direct your IHV to Microsoft SysDev center to get their UEFI option ROMs signed through a service available through SysDev center.</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>5.2.</source>
+          <target>5.2.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>Validation of update</source>
+          <target>Validation of update</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>Run the test you mentioned above to verify that the vulnerability does not exist.</source>
+          <target>Run the test you mentioned above to verify that the vulnerability does not exist.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>Use the HCK tests to ensure that there are no functional regressions.</source>
+          <target>Use the HCK tests to ensure that there are no functional regressions.</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>6. Resources</source>
+          <target>6. Resources</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <originalData>
+          <data id="id1">&lt;</data>
+          <data id="id2">&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>UEFI Platform Initialization Specification, Volume 5 Standards, 1.2.1 Errata A: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://go.microsoft.com/fwlink/p/?linkid=220187</pc></source>
+          <target>UEFI Platform Initialization Specification, Volume 5 Standards, 1.2.1 Errata A: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://go.microsoft.com/fwlink/p/?linkid=220187</pc></target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>Relevant info from UEFI 2.3.1 spec:</source>
+          <target>Relevant info from UEFI 2.3.1 spec:</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>2.5.1: Legacy Option ROM Issues</source>
+          <target>2.5.1: Legacy Option ROM Issues</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>10: Protocols –UEFI Driver Model</source>
+          <target>10: Protocols –UEFI Driver Model</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>13.4.2: PCI Option ROMs</source>
+          <target>13.4.2: PCI Option ROMs</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>20: EFI Byte Code Virtual Machine</source>
+          <target>20: EFI Byte Code Virtual Machine</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <segment state="initial">
+          <source>28: HII Overview</source>
+          <target>28: HII Overview</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>29: HII Protocols</source>
+          <target>29: HII Protocols</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>30: HII Configuration Processing and Browser Protocol</source>
+          <target>30: HII Configuration Processing and Browser Protocol</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>UEFI Forum Learning Center</source>
+          <target>UEFI Forum Learning Center</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>UEFI IHV resources @ intel.com</source>
+          <target>UEFI IHV resources @ intel.com</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=398276)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TianoCore edk2-devel mailing list</pc> for support from other UEFI developers</source>
+          <target>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">TianoCore edk2-devel mailing list</pc> for support from other UEFI developers</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?linkid=321288)</data>
+        </originalData>
+        <segment state="initial">
+          <source>TechNet: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Best Practices for Enterprise Security: Security strategies</pc></source>
+          <target>TechNet: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Best Practices for Enterprise Security: Security strategies</pc></target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkID=220187)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UEFI specification</pc> errata C</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UEFI specification</pc> errata C</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>Trusted Computing Group</source>
+          <target>Trusted Computing Group</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>Tianocore UEFI Development Kit</source>
+          <target>Tianocore UEFI Development Kit</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>UEFI Firmware</source>
+          <target>UEFI Firmware</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>Intel Press: Beyond BIOS 2nd Edition</source>
+          <target>Intel Press: Beyond BIOS 2nd Edition</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>Windows 8.1 Secure Boot Key Creation and Management Guidance</source>
+          <target>Windows 8.1 Secure Boot Key Creation and Management Guidance</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>Validating Windows UEFI Firmware Update Platform Functionality</source>
+          <target>Validating Windows UEFI Firmware Update Platform Functionality</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>Appendix A: Alternate approach to testing using unsigned option ROM drivers</source>
+          <target>Appendix A: Alternate approach to testing using unsigned option ROM drivers</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>This approach relies on getting tools from IHV to make sure that the UEFI option ROM driver is signed.</source>
+          <target>This approach relies on getting tools from IHV to make sure that the UEFI option ROM driver is signed.</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>You will need the following:</source>
+          <target>You will need the following:</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>PC under test with UEFI firmware</source>
+          <target>PC under test with UEFI firmware</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>PCI device with an unsigned Option ROM driver attached to the PC under test (like a Video card)</source>
+          <target>PCI device with an unsigned Option ROM driver attached to the PC under test (like a Video card)</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>Make sure Secure Boot is enabled</source>
+          <target>Make sure Secure Boot is enabled</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>Option IHV tools to detect signature on option ROM driver if it isn’t apparent that the option ROM driver is signed or not</source>
+          <target>Option IHV tools to detect signature on option ROM driver if it isn’t apparent that the option ROM driver is signed or not</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <segment state="initial">
+          <source>If the firmware is implemented correctly, and the option ROM is unsigned the card should fail the check by firmware and not load the driver on the card.</source>
+          <target>If the firmware is implemented correctly, and the option ROM is unsigned the card should fail the check by firmware and not load the driver on the card.</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+          <data id="id5">\_</data>
+          <data id="id6">\_</data>
+          <data id="id7">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The PC should report an error code such as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EFI<ph dataRef="id3" id="ph1" />IMAGE<ph dataRef="id4" id="ph2" />EXECUTION<ph dataRef="id5" id="ph3" />AUTH<ph dataRef="id6" id="ph4" />SIG<ph dataRef="id7" id="ph5" />FOUND</pc>.</source>
+          <target>The PC should report an error code such as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EFI<ph dataRef="id3" id="ph1" />IMAGE<ph dataRef="id4" id="ph2" />EXECUTION<ph dataRef="id5" id="ph3" />AUTH<ph dataRef="id6" id="ph4" />SIG<ph dataRef="id7" id="ph5" />FOUND</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>In case you are using a video card, you may see that the PC shows just a black screen since the option ROM driver didn’t load.</source>
+          <target>In case you are using a video card, you may see that the PC shows just a black screen since the option ROM driver didn’t load.</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <segment state="initial">
+          <source>If the firmware is implemented incorrectly, this test would work.</source>
+          <target>If the firmware is implemented incorrectly, this test would work.</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>Appendix B: Scripts for enabling Secure Boot with NULL db</source>
+          <target>Appendix B: Scripts for enabling Secure Boot with NULL db</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>You can either use your current set of Secure Boot variables (PK and KEK) or generate test ones for testing this.</source>
+          <target>You can either use your current set of Secure Boot variables (PK and KEK) or generate test ones for testing this.</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>Below are steps used to generate the test PK, KEK and setting Db to NULL.</source>
+          <target>Below are steps used to generate the test PK, KEK and setting Db to NULL.</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>Make sure that Secure Boot is not enabled; otherwise these steps would require signed UEFI bin files.</source>
+          <target>Make sure that Secure Boot is not enabled; otherwise these steps would require signed UEFI bin files.</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>We set the Secure Boot variable – Db, KEK and PK in reverse order so we don’t have to sign the UEFI bin files.</source>
+          <target>We set the Secure Boot variable – Db, KEK and PK in reverse order so we don’t have to sign the UEFI bin files.</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <segment state="initial">
+          <source>Prior to this step the PC should be in setup mode.</source>
+          <target>Prior to this step the PC should be in setup mode.</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <segment state="initial">
+          <source>Create KEK and PK certificates</source>
+          <target>Create KEK and PK certificates</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=271979)</data>
+        </originalData>
+        <segment state="initial">
+          <source>This step requires the makecert.exe tool available in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows SDK</pc>.</source>
+          <target>This step requires the makecert.exe tool available in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows SDK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <segment state="initial">
+          <source>Script to generate test PK</source>
+          <target>Script to generate test PK</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <originalData>
+          <data id="id1">&lt;</data>
+          <data id="id2">&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can either use your own PK or leverage the scripts from the WHCK for this <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://go.microsoft.com/fwlink/?LinkId=321292</pc></source>
+          <target>You can either use your own PK or leverage the scripts from the WHCK for this <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://go.microsoft.com/fwlink/?LinkId=321292</pc></target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <segment state="initial">
+          <source>A sample is provided below.</source>
+          <target>A sample is provided below.</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <segment state="initial">
+          <source>Generate test KEK or use your own OEM KEK</source>
+          <target>Generate test KEK or use your own OEM KEK</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <segment state="initial">
+          <source>You can leverage your own OEM KEK or scripts from the WHCK for this.</source>
+          <target>You can leverage your own OEM KEK or scripts from the WHCK for this.</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">&lt;</data>
+          <data id="id4">&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can also use the Fabrikam<ph dataRef="id1" id="ph1" />PK<ph dataRef="id2" id="ph2" />SigList.bin from <pc dataRefEnd="id4" dataRefStart="id3" id="p1">http://go.microsoft.com/fwlink/?LinkId=321292</pc> instead of generating your own test KEK.</source>
+          <target>You can also use the Fabrikam<ph dataRef="id1" id="ph1" />PK<ph dataRef="id2" id="ph2" />SigList.bin from <pc dataRefEnd="id4" dataRefStart="id3" id="p1">http://go.microsoft.com/fwlink/?LinkId=321292</pc> instead of generating your own test KEK.</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>A sample is provided below.</source>
+          <target>A sample is provided below.</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <segment state="initial">
+          <source>Set Db to Null and set KEK and PK</source>
+          <target>Set Db to Null and set KEK and PK</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>The first thing this script does is set the Db to Null.</source>
+          <target>The first thing this script does is set the Db to Null.</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <segment state="initial">
+          <source>Please keep in mind if the Fabrikam Test KEK CA is the only KEK CA present (meaning there is no Windows KEK CA), the PC may boot into Windows RE.</source>
+          <target>Please keep in mind if the Fabrikam Test KEK CA is the only KEK CA present (meaning there is no Windows KEK CA), the PC may boot into Windows RE.</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <segment state="initial">
+          <source>Plug in the option ROM card and test</source>
+          <target>Plug in the option ROM card and test</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <segment state="initial">
+          <source>The test should either pass or fail based on firmware correctness.</source>
+          <target>The test should either pass or fail based on firmware correctness.</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <segment state="initial">
+          <source>If the option ROM in the firmware is implemented correctly, and you are using a video card for testing, then there should be no display to the attached monitor.</source>
+          <target>If the option ROM in the firmware is implemented correctly, and you are using a video card for testing, then there should be no display to the attached monitor.</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <segment state="initial">
+          <source>However, if you are using incorrect firmware, the video card should have output on the display.</source>
+          <target>However, if you are using incorrect firmware, the video card should have output on the display.</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <segment state="initial">
+          <source>Windows Secure Boot Key Creation and Management Guidance</source>
+          <target>Windows Secure Boot Key Creation and Management Guidance</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <segment state="initial">
+          <source>Secure Boot Overview</source>
+          <target>Secure Boot Overview</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <segment state="initial">
+          <source>Validating Windows UEFI Firmware Update Platform Functionality</source>
+          <target>Validating Windows UEFI Firmware Update Platform Functionality</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,1131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\preinstall-apps-using-dism.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">225c0e2bb5b2f762cf9abe28eb92eec93fc03e18</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Preinstall Apps Using DISM</source>
+          <target>Preinstall Apps Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Preinstall Apps Using DISM</source>
+          <target>Preinstall Apps Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Preinstall Apps Using DISM</source>
+          <target>Preinstall Apps Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Interested in preinstalling Windows Store apps, but you aren’t an OEM?</source>
+          <target>Interested in preinstalling Windows Store apps, but you aren’t an OEM?</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](sideload-apps-with-dism-s14.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about sideloading apps for organizations, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sideload Apps with DISM</pc>.</source>
+          <target>For information about sideloading apps for organizations, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sideload Apps with DISM</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>To pre-install Windows Store apps in your images, you’ll need to use the Windows Assessment and Deployment Kit (Windows ADK).</source>
+          <target>To pre-install Windows Store apps in your images, you’ll need to use the Windows Assessment and Deployment Kit (Windows ADK).</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>This section explains the steps involved in preinstalling apps as part of your images.</source>
+          <target>This section explains the steps involved in preinstalling apps as part of your images.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Work with app packages</source>
+          <target>Work with app packages</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>For offline provisioning of an app into an image, you can use either the Dism.exe tool or the DISM cmdlets in Windows PowerShell to add an app from a folder of unpacked files.</source>
+          <target>For offline provisioning of an app into an image, you can use either the Dism.exe tool or the DISM cmdlets in Windows PowerShell to add an app from a folder of unpacked files.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>To extract the package files</source>
+          <target>To extract the package files</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Browse to the folder where you saved the app packages that you downloaded from the Partner Dashboard.</source>
+          <target>Browse to the folder where you saved the app packages that you downloaded from the Partner Dashboard.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Right-click each .zip folder containing your app package files.</source>
+          <target>Right-click each .zip folder containing your app package files.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extract All</pc> and select a location to save the package file folders.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extract All</pc> and select a location to save the package file folders.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The folder contains the all of the unpacked files for the package, including a main package, any dependency packages, and the license file.</source>
+          <target>The folder contains the all of the unpacked files for the package, including a main package, any dependency packages, and the license file.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>   Do not modify the folder once you have extracted the package files.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>   Do not modify the folder once you have extracted the package files.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>If you change, add, or remove any files in the folder, the app will fail either during installation or launch.</source>
+          <target>If you change, add, or remove any files in the folder, the app will fail either during installation or launch.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Even browsing the folder may cause problems.</source>
+          <target>Even browsing the folder may cause problems.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>You’ll need to use the license file from the package files to test your provisioned image.</source>
+          <target>You’ll need to use the license file from the package files to test your provisioned image.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Creating your own custom data file will not allow you to accurately test an app preinstalled by an OEM.</source>
+          <target>Creating your own custom data file will not allow you to accurately test an app preinstalled by an OEM.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>For offline provisioning of an app into an image, you can use either the Dism.exe tool or the DISM cmdlets in Windows PowerShell to add an app from a folder of unpacked files.</source>
+          <target>For offline provisioning of an app into an image, you can use either the Dism.exe tool or the DISM cmdlets in Windows PowerShell to add an app from a folder of unpacked files.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>To preinstall a Store-signed app by using the Dism.exe tool</source>
+          <target>To preinstall a Store-signed app by using the Dism.exe tool</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Open the Deployment Tools Command Prompt, installed with the Windows ADK, with administrator privileges.</source>
+          <target>Open the Deployment Tools Command Prompt, installed with the Windows ADK, with administrator privileges.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>From the Start screen, type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc>, right-click the icon, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as Administrator</pc>.</source>
+          <target>From the Start screen, type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc>, right-click the icon, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as Administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Mount the offline image for servicing.</source>
+          <target>Mount the offline image for servicing.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>At the command prompt, type:</source>
+          <target>At the command prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Add the app to the mounted image.</source>
+          <target>Add the app to the mounted image.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Use the /PackagePath option and the /DependencyPackagePath option to specify the location of the folder containing all of the unpacked files and the dependency files from the Store package.</source>
+          <target>Use the /PackagePath option and the /DependencyPackagePath option to specify the location of the folder containing all of the unpacked files and the dependency files from the Store package.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>/PackagePath should specify the root folder for the extracted folders.</source>
+          <target>/PackagePath should specify the root folder for the extracted folders.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>The root folder contains the license.xml, AUMIDs.txt, and all of the package files.</source>
+          <target>The root folder contains the license.xml, AUMIDs.txt, and all of the package files.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>At the command prompt, type:</source>
+          <target>At the command prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Save changes and unmount the image.</source>
+          <target>Save changes and unmount the image.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>At the command prompt, type:</source>
+          <target>At the command prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>To preinstall a Store-signed app by using Windows PowerShell</source>
+          <target>To preinstall a Store-signed app by using Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Open Windows PowerShell with administrator privileges.</source>
+          <target>Open Windows PowerShell with administrator privileges.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>You must be running Windows 10 or Windows 8.1 on the host PC or install a supported version of Windows PowerShell.</source>
+          <target>You must be running Windows 10 or Windows 8.1 on the host PC or install a supported version of Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?linkid=239927)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Use DISM in Windows PowerShell</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Use DISM in Windows PowerShell</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Mount the image.</source>
+          <target>Mount the image.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>At the Windows PowerShell prompt, type:</source>
+          <target>At the Windows PowerShell prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Use the Add-AppxProvisionedPackage cmdlet in Windows PowerShell to preinstall the app.</source>
+          <target>Use the Add-AppxProvisionedPackage cmdlet in Windows PowerShell to preinstall the app.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Use the /PackagePath option and the /DependencyPackagePath option to specify the location of the folder containing all of the unpacked files and the dependency files from the Store package.</source>
+          <target>Use the /PackagePath option and the /DependencyPackagePath option to specify the location of the folder containing all of the unpacked files and the dependency files from the Store package.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>In Windows PowerShell, type:</source>
+          <target>In Windows PowerShell, type:</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Save changes and dismount the image.</source>
+          <target>Save changes and dismount the image.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>At the Windows PowerShell prompt, type:</source>
+          <target>At the Windows PowerShell prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>   Windows Store apps don't run in audit mode.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>   Windows Store apps don't run in audit mode.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>To test your deployment, run Windows and create a new user profile.</source>
+          <target>To test your deployment, run Windows and create a new user profile.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=311789)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about audit mode, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Understanding Audit mode</pc> in the TechNet library.</source>
+          <target>For more information about audit mode, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Understanding Audit mode</pc> in the TechNet library.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>   If you are preinstalling a mobile broadband device app, you must insert the SIM card in the PC before you run the specialize phase of Sysprep.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>   If you are preinstalling a mobile broadband device app, you must insert the SIM card in the PC before you run the specialize phase of Sysprep.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#bkmk-broadband-intro)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about preinstalling a mobile broadband device app, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Preinstall the Necessary Components for a Mobile Broadband Application Experience</pc>.</source>
+          <target>For more information about preinstalling a mobile broadband device app, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Preinstall the Necessary Components for a Mobile Broadband Application Experience</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Update or remove packages</source>
+          <target>Update or remove packages</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>You can remove a preinstalled app, including the license and custom data files, from a Windows image by using the DISM.exe tool or the DISM cmdlets in Windows PowerShell.</source>
+          <target>You can remove a preinstalled app, including the license and custom data files, from a Windows image by using the DISM.exe tool or the DISM cmdlets in Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>You should remove the old version of the app before installing a new one.</source>
+          <target>You should remove the old version of the app before installing a new one.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>To remove a preinstalled app by using the Dism.exe tool</source>
+          <target>To remove a preinstalled app by using the Dism.exe tool</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Open the Deployment Tools Command Prompt, installed with the Windows ADK, with administrator privileges.</source>
+          <target>Open the Deployment Tools Command Prompt, installed with the Windows ADK, with administrator privileges.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>From the Start screen, type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc>, right-click the icon, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as Administrator</pc>.</source>
+          <target>From the Start screen, type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc>, right-click the icon, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as Administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Mount the offline image for servicing.</source>
+          <target>Mount the offline image for servicing.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>At the command prompt, type:</source>
+          <target>At the command prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Find the full package name of the app that you want to remove.</source>
+          <target>Find the full package name of the app that you want to remove.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>At the command prompt, type:</source>
+          <target>At the command prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Remove the app from the mounted image.</source>
+          <target>Remove the app from the mounted image.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>For example, at the command prompt, type:</source>
+          <target>For example, at the command prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>   If the app isn't registered to a user profile in the image—for example if the image is generalized and hasn't been deployed—it's removed from the image.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>   If the app isn't registered to a user profile in the image—for example if the image is generalized and hasn't been deployed—it's removed from the image.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>If the Windows image has been booted and a user profile has been created, the provisioned app is registered for that user and must be removed by using the Remove-AppxPackage cmdlets after you remove the provisioning for the app.</source>
+          <target>If the Windows image has been booted and a user profile has been created, the provisioned app is registered for that user and must be removed by using the Remove-AppxPackage cmdlets after you remove the provisioning for the app.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>If you want to update the app, you can preinstall the updated version of the Store-signed app.</source>
+          <target>If you want to update the app, you can preinstall the updated version of the Store-signed app.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>At a command prompt, type:</source>
+          <target>At a command prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Save changes and unmount the image.</source>
+          <target>Save changes and unmount the image.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>At the command prompt, type:</source>
+          <target>At the command prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>To remove a provisioned app by using Windows PowerShell</source>
+          <target>To remove a provisioned app by using Windows PowerShell</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Open Windows PowerShell with administrator privileges.</source>
+          <target>Open Windows PowerShell with administrator privileges.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>You must be running Windows 10 or Windows 8.x on the host PC or install a supported version of Windows PowerShell.</source>
+          <target>You must be running Windows 10 or Windows 8.x on the host PC or install a supported version of Windows PowerShell.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=239927)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Use DISM in Windows PowerShell</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Use DISM in Windows PowerShell</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Mount the image.</source>
+          <target>Mount the image.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>At the Windows PowerShell prompt, type:</source>
+          <target>At the Windows PowerShell prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Find the full package name of the app you want to remove.</source>
+          <target>Find the full package name of the app you want to remove.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>At the Windows PowerShell prompt, type:</source>
+          <target>At the Windows PowerShell prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Use the Add-AppxProvisionedPackage cmdlet in Windows PowerShell to remove the app.</source>
+          <target>Use the Add-AppxProvisionedPackage cmdlet in Windows PowerShell to remove the app.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>In Windows PowerShell, type:</source>
+          <target>In Windows PowerShell, type:</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  If the app isn't registered to a user profile in the image—for example if the image is generalized and hasn't been deployed—it's removed from the image.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  If the app isn't registered to a user profile in the image—for example if the image is generalized and hasn't been deployed—it's removed from the image.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>If the Windows image has been booted and a user profile has been created, the provisioned app is registered for that user and must be removed by using the Remove-AppxPackage cmdlets after you remove the provisioning for the app.</source>
+          <target>If the Windows image has been booted and a user profile has been created, the provisioned app is registered for that user and must be removed by using the Remove-AppxPackage cmdlets after you remove the provisioning for the app.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>If you want to update the app, you can preinstall the updated version of the Store-signed app.</source>
+          <target>If you want to update the app, you can preinstall the updated version of the Store-signed app.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>At the Windows PowerShell prompt, type:</source>
+          <target>At the Windows PowerShell prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Save changes and dismount the image.</source>
+          <target>Save changes and dismount the image.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>At the Windows PowerShell prompt, type:</source>
+          <target>At the Windows PowerShell prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Use custom data files</source>
+          <target>Use custom data files</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Apps that are preinstalled on a PC can access custom data specific to the installation.</source>
+          <target>Apps that are preinstalled on a PC can access custom data specific to the installation.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>This custom data is added to the app during preinstallation and becomes available at runtime.</source>
+          <target>This custom data is added to the app during preinstallation and becomes available at runtime.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Custom data enables developers to customize an app's features and functionality, including providing reporting capabilities.</source>
+          <target>Custom data enables developers to customize an app's features and functionality, including providing reporting capabilities.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Add a custom data file to a Windows image</source>
+          <target>Add a custom data file to a Windows image</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You must specify the custom data file when you preinstall the app by using the DISM tool and through Windows PowerShell using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add-AppxProvisionedPackage</pc> cmdlet.</source>
+          <target>You must specify the custom data file when you preinstall the app by using the DISM tool and through Windows PowerShell using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add-AppxProvisionedPackage</pc> cmdlet.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>The following command shows how to do this using the DISM tool:</source>
+          <target>The following command shows how to do this using the DISM tool:</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>If a custom data file already exists in the data store for an app—for example, if the package has already been added to the image—the existing file is overwritten.</source>
+          <target>If a custom data file already exists in the data store for an app—for example, if the package has already been added to the image—the existing file is overwritten.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>If the installation fails, the file isn't restored.</source>
+          <target>If the installation fails, the file isn't restored.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>You can release updates to an app through the Store without losing the custom data file.</source>
+          <target>You can release updates to an app through the Store without losing the custom data file.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>However, if a user deletes the app, the custom data file is no longer available, even if the user reinstalls the app.</source>
+          <target>However, if a user deletes the app, the custom data file is no longer available, even if the user reinstalls the app.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Test custom data for preinstalled apps</source>
+          <target>Test custom data for preinstalled apps</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Apps that are preinstalled on a PC can access custom data specific to the installation.</source>
+          <target>Apps that are preinstalled on a PC can access custom data specific to the installation.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>This custom data is added to the app during preinstallation and becomes available to the app at runtime.</source>
+          <target>This custom data is added to the app during preinstallation and becomes available to the app at runtime.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>Custom data enables developers to customize an app's features and functionality, including providing reporting capabilities.</source>
+          <target>Custom data enables developers to customize an app's features and functionality, including providing reporting capabilities.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>The Custom.data file appears at the app's installed location.</source>
+          <target>The Custom.data file appears at the app's installed location.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>The name Custom.data is hard-coded and can't be modified.</source>
+          <target>The name Custom.data is hard-coded and can't be modified.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Your app can check for the existence of this file to determine if the app was preinstalled on the PC.</source>
+          <target>Your app can check for the existence of this file to determine if the app was preinstalled on the PC.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Here's an example of how to access the Custom.data file.</source>
+          <target>Here's an example of how to access the Custom.data file.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Your Custom.data file can include any content and be in any format your app requires.</source>
+          <target>Your Custom.data file can include any content and be in any format your app requires.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>The preinstallation process simply makes it available to your app.</source>
+          <target>The preinstallation process simply makes it available to your app.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Developers can supply the data file to the preinstallation partner, or you can agree to a format that enables the partner to generate the content.</source>
+          <target>Developers can supply the data file to the preinstallation partner, or you can agree to a format that enables the partner to generate the content.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Test your custom data</source>
+          <target>Test your custom data</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>When you're building and debugging your app in Microsoft Visual Studio, you can't access the Custom.data file from the app's installed location because the app isn't preinstalled yet.</source>
+          <target>When you're building and debugging your app in Microsoft Visual Studio, you can't access the Custom.data file from the app's installed location because the app isn't preinstalled yet.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>You can simulate using your Custom.data file by putting a test Custom.data file in the app itself, and then loading and testing the app local file.</source>
+          <target>You can simulate using your Custom.data file by putting a test Custom.data file in the app itself, and then loading and testing the app local file.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>To do this, modify the code sample from:</source>
+          <target>To do this, modify the code sample from:</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>to:</source>
+          <target>to:</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>After you have verified your file format and content, you can change the location of the Custom.data file to the final location, as shown in the original example above.</source>
+          <target>After you have verified your file format and content, you can change the location of the Custom.data file to the final location, as shown in the original example above.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>To test your Custom.data file</source>
+          <target>To test your Custom.data file</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Open the Deployment Tools Command Prompt, installed with the Windows ADK, with administrator privileges.</source>
+          <target>Open the Deployment Tools Command Prompt, installed with the Windows ADK, with administrator privileges.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>From the Start screen, type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc>, right-click the icon, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as Administrator</pc>.</source>
+          <target>From the Start screen, type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc>, right-click the icon, and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run as Administrator</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Add the application with the custom data file:</source>
+          <target>Add the application with the custom data file:</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <originalData>
+          <data id="id1">`/PackagePath:.\CustomData_1.0.0.1_AnyCPU_Debug.appx`</data>
+          <data id="id2">`/CustomDataPath:.\Test.txt`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Where <ph dataRef="id1" id="ph1" /> points to your local app test package, and where <ph dataRef="id2" id="ph2" /> points to your Custom.data file.</source>
+          <target>Where <ph dataRef="id1" id="ph1" /> points to your local app test package, and where <ph dataRef="id2" id="ph2" /> points to your Custom.data file.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Be aware that the file name you provide here isn't used after the data is installed in your app.</source>
+          <target>Be aware that the file name you provide here isn't used after the data is installed in your app.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The app now has a tile on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> screen of the PC used to test the app.</source>
+          <target>The app now has a tile on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> screen of the PC used to test the app.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>The app should be able to access the Custom.data file.</source>
+          <target>The app should be able to access the Custom.data file.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If additional debugging is needed, attach a debugger after starting the app from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> screen.</source>
+          <target>If additional debugging is needed, attach a debugger after starting the app from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> screen.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>   You might be required to sign out and sign in again to see the app on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Start</pc> screen.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>   You might be required to sign out and sign in again to see the app on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Start</pc> screen.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>After you're done testing your app, you must remove the preinstalled package to continue using your Dev environment.</source>
+          <target>After you're done testing your app, you must remove the preinstalled package to continue using your Dev environment.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To remove the preinstalled package using Windows PowerShell, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-AppxPackage</pc> cmdlet to provide the full app package name through the pipeline to the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Remove-ProvisionedAppxPackage</pc> cmdlet:</source>
+          <target>To remove the preinstalled package using Windows PowerShell, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get-AppxPackage</pc> cmdlet to provide the full app package name through the pipeline to the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Remove-ProvisionedAppxPackage</pc> cmdlet:</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <originalData>
+          <data id="id1">`*CustomData*`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Where <ph dataRef="id1" id="ph1" /> is the known part of your app's name</source>
+          <target>Where <ph dataRef="id1" id="ph1" /> is the known part of your app's name</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Preinstall a Windows Store device app or mobile broadband app</source>
+          <target>Preinstall a Windows Store device app or mobile broadband app</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>You can preinstall the necessary components for a Windows Store device app or a mobile broadband app using the Deployment Image Servicing and Management (DISM) platform.</source>
+          <target>You can preinstall the necessary components for a Windows Store device app or a mobile broadband app using the Deployment Image Servicing and Management (DISM) platform.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>   This article is intended for OEMs, who will be supporting a Windows Store device app or the mobile broadband app on their devices.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>   This article is intended for OEMs, who will be supporting a Windows Store device app or the mobile broadband app on their devices.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>For each type of app, two things should be preinstalled to provide the correct Windows Store device app or mobile broadband app:</source>
+          <target>For each type of app, two things should be preinstalled to provide the correct Windows Store device app or mobile broadband app:</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Windows Store device app, preinstall:</source>
+          <target>Windows Store device app, preinstall:</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>The device metadata package</source>
+          <target>The device metadata package</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>The app</source>
+          <target>The app</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Windows Store mobile broadband app, preinstall:</source>
+          <target>Windows Store mobile broadband app, preinstall:</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>The service metadata package</source>
+          <target>The service metadata package</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>The app</source>
+          <target>The app</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>   Although metadata packages and the corresponding apps are parsed immediately after the OOBE process completes, a user might be able to launch the app before the metadata package is parsed.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>   Although metadata packages and the corresponding apps are parsed immediately after the OOBE process completes, a user might be able to launch the app before the metadata package is parsed.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>In this case, the user will see an access denied error.</source>
+          <target>In this case, the user will see an access denied error.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>To avoid this, apply both the metadata package and the app to the system image.</source>
+          <target>To avoid this, apply both the metadata package and the app to the system image.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Preinstall the device metadata or service metadata package</source>
+          <target>Preinstall the device metadata or service metadata package</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>To preinstall a device metadata or service metadata package</source>
+          <target>To preinstall a device metadata or service metadata package</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>If you are preinstalling a Windows Store device app then you should have acquired the device metadata package.</source>
+          <target>If you are preinstalling a Windows Store device app then you should have acquired the device metadata package.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>If you are preinstalling a mobile broadband app then you should have acquired the service metadata package.</source>
+          <target>If you are preinstalling a mobile broadband app then you should have acquired the service metadata package.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>   Device metadata packages and service metadata packages use the same file name extension (.devicemetadata-ms).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>   Device metadata packages and service metadata packages use the same file name extension (.devicemetadata-ms).</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Copy the device metadata or service metadata package (devicemetadata-ms file) to your system image in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">%ProgramData%<ph dataRef="id3" id="ph1" />Microsoft<ph dataRef="id4" id="ph2" />Windows<ph dataRef="id5" id="ph3" />DeviceMetadataStore</pc> folder.</source>
+          <target>Copy the device metadata or service metadata package (devicemetadata-ms file) to your system image in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">%ProgramData%<ph dataRef="id3" id="ph1" />Microsoft<ph dataRef="id4" id="ph2" />Windows<ph dataRef="id5" id="ph3" />DeviceMetadataStore</pc> folder.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>You can do this in one of the following ways:</source>
+          <target>You can do this in one of the following ways:</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>Online before running Sysprep</source>
+          <target>Online before running Sysprep</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>Offline after running Sysprep by using DISM.</source>
+          <target>Offline after running Sysprep by using DISM.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>To do this:</source>
+          <target>To do this:</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Mount the offline image for servicing.</source>
+          <target>Mount the offline image for servicing.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Copy the metadata package files to the device metadata store of the mounted image.</source>
+          <target>Copy the metadata package files to the device metadata store of the mounted image.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, to copy the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">0ECF2029-2C6A-41AE-9E0A-63FFC9EAD877.devicemetadata-ms</pc> metadata package file to the device metadata store, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ProgramData<ph dataRef="id5" id="ph1" />Microsoft<ph dataRef="id6" id="ph2" />Windows<ph dataRef="id7" id="ph3" />DeviceMetadataStore</pc>:</source>
+          <target>For example, to copy the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">0ECF2029-2C6A-41AE-9E0A-63FFC9EAD877.devicemetadata-ms</pc> metadata package file to the device metadata store, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ProgramData<ph dataRef="id5" id="ph1" />Microsoft<ph dataRef="id6" id="ph2" />Windows<ph dataRef="id7" id="ph3" />DeviceMetadataStore</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Save the changes and unmount the image.</source>
+          <target>Save the changes and unmount the image.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/hh825236.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info about offline image servicing, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Overview</pc>.</source>
+          <target>For more info about offline image servicing, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Overview</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/p/?LinkId=698640)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info about service metadata, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Service metadata</pc>.</source>
+          <target>For more info about service metadata, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Service metadata</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>Preinstall the Windows Store device app or mobile broadband app</source>
+          <target>Preinstall the Windows Store device app or mobile broadband app</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>To preinstall the Windows Store device app or mobile broadband app</source>
+          <target>To preinstall the Windows Store device app or mobile broadband app</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>Mount the offline image for servicing.</source>
+          <target>Mount the offline image for servicing.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>Add the Windows Store device app or mobile broadband app to the image.</source>
+          <target>Add the Windows Store device app or mobile broadband app to the image.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Save the changes and unmount the image.</source>
+          <target>Save the changes and unmount the image.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\bcd-system-store-settings-for-uefi.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">b6ec1fa73a37e1f512e20dd9fcc7c041dd9b3373</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>BCD System Store Settings for UEFI</source>
+          <target>BCD System Store Settings for UEFI</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>BCD System Store Settings for UEFI</source>
+          <target>BCD System Store Settings for UEFI</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>BCD System Store Settings for UEFI</source>
+          <target>BCD System Store Settings for UEFI</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>For a typical deployment scenario, you do not need to modify the BCD store.</source>
+          <target>For a typical deployment scenario, you do not need to modify the BCD store.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>This topic discusses the various BCD settings in the BCD store that you can modify.</source>
+          <target>This topic discusses the various BCD settings in the BCD store that you can modify.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>On UEFI systems, this includes settings for the following boot applications:</source>
+          <target>On UEFI systems, this includes settings for the following boot applications:</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Windows Boot Manager</source>
+          <target>Windows Boot Manager</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Windows Boot Loader</source>
+          <target>Windows Boot Loader</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Windows Memory Tester</source>
+          <target>Windows Memory Tester</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>The following sections describe the available settings for each of these boot applications in detail and how to modify each application for UEFI systems.</source>
+          <target>The following sections describe the available settings for each of these boot applications in detail and how to modify each application for UEFI systems.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>For simplicity, the BCDEdit examples in this section modify the BCD system store.</source>
+          <target>For simplicity, the BCDEdit examples in this section modify the BCD system store.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>To modify another store, such as a copy of the BCD-template, include the store name in the command line.</source>
+          <target>To modify another store, such as a copy of the BCD-template, include the store name in the command line.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Windows Boot Manager Settings for UEFI</source>
+          <target>Windows Boot Manager Settings for UEFI</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">`{bootmgr}`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Windows Boot Manager (<ph dataRef="id1" id="ph1" />) manages the boot process.</source>
+          <target>Windows Boot Manager (<ph dataRef="id1" id="ph1" />) manages the boot process.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>UEFI-based systems contain a firmware boot manager, Bootmgfw.efi, that loads an EFI application that is based on variables that are stored in NVRAM.</source>
+          <target>UEFI-based systems contain a firmware boot manager, Bootmgfw.efi, that loads an EFI application that is based on variables that are stored in NVRAM.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">`device`</data>
+          <data id="id2">`path`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The BCD settings for the <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /> elements in Windows Boot Manager indicate the firmware boot manager.</source>
+          <target>The BCD settings for the <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /> elements in Windows Boot Manager indicate the firmware boot manager.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>The template that is named BCD-template for Windows includes the following settings for Windows Boot Manager.</source>
+          <target>The template that is named BCD-template for Windows includes the following settings for Windows Boot Manager.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Device Setting</source>
+          <target>Device Setting</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">`device`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> element specifies the volume that contains Windows Boot Manager.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> element specifies the volume that contains Windows Boot Manager.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">`device`</data>
+        </originalData>
+        <segment state="initial">
+          <source>For UEFI systems, the <ph dataRef="id1" id="ph1" /> element for Windows Boot Manager is set to the system partition volume letter.</source>
+          <target>For UEFI systems, the <ph dataRef="id1" id="ph1" /> element for Windows Boot Manager is set to the system partition volume letter.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>To determine the correct volume letter, use the Diskpart tool to view the disk partitions.</source>
+          <target>To determine the correct volume letter, use the Diskpart tool to view the disk partitions.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>The following example assumes that the system has a single hard drive that has multiple partitions, including a system partition that has been assigned a drive letter of S.</source>
+          <target>The following example assumes that the system has a single hard drive that has multiple partitions, including a system partition that has been assigned a drive letter of S.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>The following Diskpart commands select disk 0 and then list the details of the volumes on that disk, including their drive letters.</source>
+          <target>The following Diskpart commands select disk 0 and then list the details of the volumes on that disk, including their drive letters.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>It shows volume 2 as the system partition.</source>
+          <target>It shows volume 2 as the system partition.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the system partition does not have an assigned drive letter, assign one by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Diskpart assign</pc> command.</source>
+          <target>If the system partition does not have an assigned drive letter, assign one by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Diskpart assign</pc> command.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>The following example assumes that the system partition is volume 2 and assigns it S as the drive letter.</source>
+          <target>The following example assumes that the system partition is volume 2 and assigns it S as the drive letter.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">`device`</data>
+        </originalData>
+        <segment state="initial">
+          <source>After you have determined the system partition volume, set the <ph dataRef="id1" id="ph1" /> element for Windows Boot Manager to the corresponding drive letter.</source>
+          <target>After you have determined the system partition volume, set the <ph dataRef="id1" id="ph1" /> element for Windows Boot Manager to the corresponding drive letter.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">`device`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following example sets <ph dataRef="id1" id="ph1" /> to drive S.</source>
+          <target>The following example sets <ph dataRef="id1" id="ph1" /> to drive S.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Path Setting</source>
+          <target>Path Setting</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">`path`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> element specifies the location of the Windows Boot Manager application on that volume.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> element specifies the location of the Windows Boot Manager application on that volume.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">`path`</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For UEFI systems, <ph dataRef="id1" id="ph1" /> indicates the firmware boot manager, whose path is <ph dataRef="id2" id="ph2" />EFI<ph dataRef="id3" id="ph3" />Microsoft<ph dataRef="id4" id="ph4" />Boot<ph dataRef="id5" id="ph5" />Bootmgfw.efi.</source>
+          <target>For UEFI systems, <ph dataRef="id1" id="ph1" /> indicates the firmware boot manager, whose path is <ph dataRef="id2" id="ph2" />EFI<ph dataRef="id3" id="ph3" />Microsoft<ph dataRef="id4" id="ph4" />Boot<ph dataRef="id5" id="ph5" />Bootmgfw.efi.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>You can confirm that BCD-template has the correct path by enumerating the values in the store, as follows:</source>
+          <target>You can confirm that BCD-template has the correct path by enumerating the values in the store, as follows:</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">`path`</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>To explicitly set <ph dataRef="id1" id="ph1" /> to <ph dataRef="id2" id="ph2" />EFI<ph dataRef="id3" id="ph3" />Microsoft<ph dataRef="id4" id="ph4" />Boot<ph dataRef="id5" id="ph5" />Bootmgfw.efi, use the following command.</source>
+          <target>To explicitly set <ph dataRef="id1" id="ph1" /> to <ph dataRef="id2" id="ph2" />EFI<ph dataRef="id3" id="ph3" />Microsoft<ph dataRef="id4" id="ph4" />Boot<ph dataRef="id5" id="ph5" />Bootmgfw.efi, use the following command.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Other Settings</source>
+          <target>Other Settings</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>You should set Windows Boot Manager to be the first item in the display order of the UEFI firmware, as shown in the following example.</source>
+          <target>You should set Windows Boot Manager to be the first item in the display order of the UEFI firmware, as shown in the following example.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>You should also specify the topmost Windows boot loader application in the Windows Boot Manager display order.</source>
+          <target>You should also specify the topmost Windows boot loader application in the Windows Boot Manager display order.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>The following example shows how to put a specified Windows boot loader at the top of the display order.</source>
+          <target>The following example shows how to put a specified Windows boot loader at the top of the display order.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the preceding example, <ph dataRef="id1" id="ph1" />GUID<ph dataRef="id2" id="ph2" /> is the identifier for the specified Windows boot loader object.</source>
+          <target>In the preceding example, <ph dataRef="id1" id="ph1" />GUID<ph dataRef="id2" id="ph2" /> is the identifier for the specified Windows boot loader object.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>The next section discusses this identifier in greater detail.</source>
+          <target>The next section discusses this identifier in greater detail.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>A multiboot system that has multiple installed operating systems has multiple instances of the Windows boot loader.</source>
+          <target>A multiboot system that has multiple installed operating systems has multiple instances of the Windows boot loader.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Each instance of the Windows boot loader has its own identifier.</source>
+          <target>Each instance of the Windows boot loader has its own identifier.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">`{default}`</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can set the default Windows boot loader (<ph dataRef="id1" id="ph1" />) to any of these identifiers.</source>
+          <target>You can set the default Windows boot loader (<ph dataRef="id1" id="ph1" />) to any of these identifiers.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Windows Boot Loader Settings</source>
+          <target>Windows Boot Loader Settings</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>A BCD store has at least one instance, and optionally multiple instances, of the Windows boot loader.</source>
+          <target>A BCD store has at least one instance, and optionally multiple instances, of the Windows boot loader.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>A separate BCD object represents each instance.</source>
+          <target>A separate BCD object represents each instance.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Each instance loads one of the installed versions of Windows that has a configuration that the object's elements have specified.</source>
+          <target>Each instance loads one of the installed versions of Windows that has a configuration that the object's elements have specified.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">`device`</data>
+          <data id="id2">`path`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Each Windows boot loader object has its own identifier, and the object's <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /> settings indicate the correct partition and boot application.</source>
+          <target>Each Windows boot loader object has its own identifier, and the object's <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /> settings indicate the correct partition and boot application.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>for Windows has a single Windows boot loader object that has the following settings.</source>
+          <target>for Windows has a single Windows boot loader object that has the following settings.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>The identifier for this Windows boot loader is {9f25ee7a-e7b7-11db-94b5-f7e662935912}.</source>
+          <target>The identifier for this Windows boot loader is {9f25ee7a-e7b7-11db-94b5-f7e662935912}.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>You can use this GUID on your system or let the BCDEdit tool generate a new GUID for you.</source>
+          <target>You can use this GUID on your system or let the BCDEdit tool generate a new GUID for you.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>To simplify BCDEdit commands, you can specify one of the Windows boot loaders in the BCD system store as the default loader.</source>
+          <target>To simplify BCDEdit commands, you can specify one of the Windows boot loaders in the BCD system store as the default loader.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">`{default}`</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can then use the standard identifier (<ph dataRef="id1" id="ph1" />) in place of the full GUID.The following example specifies the Windows boot loader for EFI as the default boot loader, assuming that it uses the identifier GUID from BCD-template.</source>
+          <target>You can then use the standard identifier (<ph dataRef="id1" id="ph1" />) in place of the full GUID.The following example specifies the Windows boot loader for EFI as the default boot loader, assuming that it uses the identifier GUID from BCD-template.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Device and OSDevice Settings</source>
+          <target>Device and OSDevice Settings</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>The following elements specify key locations:</source>
+          <target>The following elements specify key locations:</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">`device`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> element specifies the partition that contains the boot application.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> element specifies the partition that contains the boot application.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">`osdevice`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> element specifies the partition that contains the system root.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> element specifies the partition that contains the system root.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>For the Windows boot loader for EFI, both elements are usually set to the drive letter of the Windows system partition.</source>
+          <target>For the Windows boot loader for EFI, both elements are usually set to the drive letter of the Windows system partition.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">`osdevice`</data>
+          <data id="id2">`device`</data>
+        </originalData>
+        <segment state="initial">
+          <source>However, if BitLocker is enabled or a computer has multiple installed versions of Windows, <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /> might be set to different partitions.BCD-template sets both elements to drive C, which is the typical value.</source>
+          <target>However, if BitLocker is enabled or a computer has multiple installed versions of Windows, <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /> might be set to different partitions.BCD-template sets both elements to drive C, which is the typical value.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">`osdevice`</data>
+          <data id="id2">`device`</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can also explicitly set the <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /> values, as shown in the following example.</source>
+          <target>You can also explicitly set the <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /> values, as shown in the following example.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>The example also assumes that you have specified the Windows boot loader for EFI as the default boot-loader object.</source>
+          <target>The example also assumes that you have specified the Windows boot loader for EFI as the default boot-loader object.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Path Setting</source>
+          <target>Path Setting</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">`path`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> element of a Windows boot loader specifies the location of the boot loader on that volume.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> element of a Windows boot loader specifies the location of the boot loader on that volume.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">`path`</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For UEFI systems, <ph dataRef="id1" id="ph1" /> indicates the Windows boot loader for EFI, whose path is <ph dataRef="id2" id="ph2" />Windows<ph dataRef="id3" id="ph3" />System32<ph dataRef="id4" id="ph4" />Winload.efi.</source>
+          <target>For UEFI systems, <ph dataRef="id1" id="ph1" /> indicates the Windows boot loader for EFI, whose path is <ph dataRef="id2" id="ph2" />Windows<ph dataRef="id3" id="ph3" />System32<ph dataRef="id4" id="ph4" />Winload.efi.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">`path`</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can confirm that BCD-template has the correct <ph dataRef="id1" id="ph1" /> value by enumerating the values in the store.</source>
+          <target>You can confirm that BCD-template has the correct <ph dataRef="id1" id="ph1" /> value by enumerating the values in the store.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">`path`</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can also explicitly set the <ph dataRef="id1" id="ph1" /> value, as shown in the following example.</source>
+          <target>You can also explicitly set the <ph dataRef="id1" id="ph1" /> value, as shown in the following example.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Windows Memory Tester Settings</source>
+          <target>Windows Memory Tester Settings</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">`{memdiag}`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The Windows memory tester (<ph dataRef="id1" id="ph1" />) runs memory diagnostics at boot time.</source>
+          <target>The Windows memory tester (<ph dataRef="id1" id="ph1" />) runs memory diagnostics at boot time.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">`device`</data>
+          <data id="id2">`path`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The BCD settings for the application's <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /> elements indicate the correct application.</source>
+          <target>The BCD settings for the application's <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /> elements indicate the correct application.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">`{memdiag}`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Note: Intel Itanium computers do not include a Windows memory tester and do not require <ph dataRef="id1" id="ph1" /> settings.</source>
+          <target>Note: Intel Itanium computers do not include a Windows memory tester and do not require <ph dataRef="id1" id="ph1" /> settings.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>BCD-template for Windows has the following settings.</source>
+          <target>BCD-template for Windows has the following settings.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Device Setting</source>
+          <target>Device Setting</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">`device`</data>
+        </originalData>
+        <segment state="initial">
+          <source>For UEFI systems, the <ph dataRef="id1" id="ph1" /> element for the Windows memory tester is set to the system partition drive letter.</source>
+          <target>For UEFI systems, the <ph dataRef="id1" id="ph1" /> element for the Windows memory tester is set to the system partition drive letter.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>The following example assumes that the system partition is drive S, as used in earlier examples.</source>
+          <target>The following example assumes that the system partition is drive S, as used in earlier examples.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Path Setting</source>
+          <target>Path Setting</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">`path`</data>
+          <data id="id2">`device`</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> element specifies the location of Windows Test Manager on the volume that the <ph dataRef="id2" id="ph2" /> element has specified.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> element specifies the location of Windows Test Manager on the volume that the <ph dataRef="id2" id="ph2" /> element has specified.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <originalData>
+          <data id="id1">`path`</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+          <data id="id5">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>For UEFI systems, <ph dataRef="id1" id="ph1" /> indicates the EFI version of the application (<ph dataRef="id2" id="ph2" />EFI<ph dataRef="id3" id="ph3" />Microsoft<ph dataRef="id4" id="ph4" />Boot<ph dataRef="id5" id="ph5" />Memtest.efi).</source>
+          <target>For UEFI systems, <ph dataRef="id1" id="ph1" /> indicates the EFI version of the application (<ph dataRef="id2" id="ph2" />EFI<ph dataRef="id3" id="ph3" />Microsoft<ph dataRef="id4" id="ph4" />Boot<ph dataRef="id5" id="ph5" />Memtest.efi).</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">`path`</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can confirm that BCD-template has the correct <ph dataRef="id1" id="ph1" /> value by enumerating the values in the store.</source>
+          <target>You can confirm that BCD-template has the correct <ph dataRef="id1" id="ph1" /> value by enumerating the values in the store.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">`path`</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can also use the BCDEdit tool to explicitly set the <ph dataRef="id1" id="ph1" /> value, as shown in the following example.</source>
+          <target>You can also use the BCDEdit tool to explicitly set the <ph dataRef="id1" id="ph1" /> value, as shown in the following example.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

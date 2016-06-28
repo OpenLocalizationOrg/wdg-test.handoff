@@ -1,0 +1,1799 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\how-push-button-reset-features-work.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">8753ab6303b314a5661cb9613c365067ae51c5ed</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>How push-button reset features work</source>
+          <target>How push-button reset features work</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>How push-button reset features work</source>
+          <target>How push-button reset features work</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>How push-button reset features work</source>
+          <target>How push-button reset features work</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Restoring the operating system and customizations</source>
+          <target>Restoring the operating system and customizations</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>This section discusses the mechanisms Push-button reset features use to restore software on the PC.</source>
+          <target>This section discusses the mechanisms Push-button reset features use to restore software on the PC.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Restoring Windows</source>
+          <target>Restoring Windows</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Push-button reset features restore Windows 10 by constructing a new copy of the OS using runtime system files located in the Windows Component Store (C:<ph dataRef="id1" id="ph1" />Windows<ph dataRef="id2" id="ph2" />WinSxS).</source>
+          <target>Push-button reset features restore Windows 10 by constructing a new copy of the OS using runtime system files located in the Windows Component Store (C:<ph dataRef="id1" id="ph1" />Windows<ph dataRef="id2" id="ph2" />WinSxS).</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>This allows recovery to be possible even without a separate recovery image containing a backup copy of all system files.</source>
+          <target>This allows recovery to be possible even without a separate recovery image containing a backup copy of all system files.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>In addition, push-button reset features restore Windows to an updated state rather than to the factory-preinstalled state.</source>
+          <target>In addition, push-button reset features restore Windows to an updated state rather than to the factory-preinstalled state.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Specifically, the latest release or major update installed on the PC (such as Windows 10, version 1511) will be restored, while other updates installed after that are discarded.</source>
+          <target>Specifically, the latest release or major update installed on the PC (such as Windows 10, version 1511) will be restored, while other updates installed after that are discarded.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>This approach provides a balance between user experience in terms of the number of updates which need to be reinstalled and the features’ effectiveness in addressing update problems.</source>
+          <target>This approach provides a balance between user experience in terms of the number of updates which need to be reinstalled and the features’ effectiveness in addressing update problems.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>It also allows Windows to remove older system files which are no longer needed for runtime use or for recovery, freeing up disk space.</source>
+          <target>It also allows Windows to remove older system files which are no longer needed for runtime use or for recovery, freeing up disk space.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>By default, non-major updates are not restored.</source>
+          <target>By default, non-major updates are not restored.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>To ensure that updates preinstalled during manufacturing are not discarded after recovery, they should be marked as permanent by using the /Cleanup-Image command in DISM with the /StartComponentCleanup and /ResetBase options.</source>
+          <target>To ensure that updates preinstalled during manufacturing are not discarded after recovery, they should be marked as permanent by using the /Cleanup-Image command in DISM with the /StartComponentCleanup and /ResetBase options.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Updates marked as permanent are always restored during recovery.</source>
+          <target>Updates marked as permanent are always restored during recovery.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Restoring language packs</source>
+          <target>Restoring language packs</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Language packs that are installed and used by at least one user account are restored.</source>
+          <target>Language packs that are installed and used by at least one user account are restored.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Other language packs are removed from the Windows Component Store seven days after the Out-of-Box Experience (OOBE).</source>
+          <target>Other language packs are removed from the Windows Component Store seven days after the Out-of-Box Experience (OOBE).</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Using Push-button reset features after that will not restore the removed language packs.</source>
+          <target>Using Push-button reset features after that will not restore the removed language packs.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>On PCs running single-language editions of Windows, such as Windows 10 Home, users cannot download or install additional language packs, and they cannot use push-button reset features to switch languages if the preinstalled language packs have been removed.</source>
+          <target>On PCs running single-language editions of Windows, such as Windows 10 Home, users cannot download or install additional language packs, and they cannot use push-button reset features to switch languages if the preinstalled language packs have been removed.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Restoring drivers</source>
+          <target>Restoring drivers</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Drivers are restored in a similar fashion as the OS.</source>
+          <target>Drivers are restored in a similar fashion as the OS.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Instead of restoring them from a recovery image, existing drivers are preserved across recovery.</source>
+          <target>Instead of restoring them from a recovery image, existing drivers are preserved across recovery.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>As with system files, drivers are restored to the state they were in when the most recent release or major update is installed.</source>
+          <target>As with system files, drivers are restored to the state they were in when the most recent release or major update is installed.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>If the customer performs recovery after booting up a new PC preinstalled with Windows 10, drivers that are present during OOBE will be restored, even if newer drivers have been installed since.</source>
+          <target>If the customer performs recovery after booting up a new PC preinstalled with Windows 10, drivers that are present during OOBE will be restored, even if newer drivers have been installed since.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>If the customer performs recovery after upgrading from Windows 10 to Windows 10, version 1511, the drivers that are present during the upgrade will be restored, even if newer drivers have been installed since.</source>
+          <target>If the customer performs recovery after upgrading from Windows 10 to Windows 10, version 1511, the drivers that are present during the upgrade will be restored, even if newer drivers have been installed since.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Device applets which are installed outside of the driver INF package are not restored as part of this process.</source>
+          <target>Device applets which are installed outside of the driver INF package are not restored as part of this process.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>They are restored to factory version and state in the same way as other customizations such as Classic Windows applications.</source>
+          <target>They are restored to factory version and state in the same way as other customizations such as Classic Windows applications.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>(See Restoring other customizations for more information.) If the device applet must always stay in sync (version wise) with the driver, it is recommended that both the driver and the device applet be installed via the same INF package.</source>
+          <target>(See Restoring other customizations for more information.) If the device applet must always stay in sync (version wise) with the driver, it is recommended that both the driver and the device applet be installed via the same INF package.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Restoring previously installed Windows apps</source>
+          <target>Restoring previously installed Windows apps</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Preinstalled Windows apps are always restored to their factory version and state.</source>
+          <target>Preinstalled Windows apps are always restored to their factory version and state.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Instead of restoring them from a recovery image, a copy of the Windows apps is automatically backed up when they are provisioned during image customization and manufacturing, and the backups are restored when Push-button reset features are used.</source>
+          <target>Instead of restoring them from a recovery image, a copy of the Windows apps is automatically backed up when they are provisioned during image customization and manufacturing, and the backups are restored when Push-button reset features are used.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Restoring other customizations</source>
+          <target>Restoring other customizations</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>By default, Push-button reset features restore only OS files, drivers, and preinstalled Universal Windows apps.</source>
+          <target>By default, Push-button reset features restore only OS files, drivers, and preinstalled Universal Windows apps.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Different mechanisms are used to restore other customizations, such as settings and Classic Windows applications.</source>
+          <target>Different mechanisms are used to restore other customizations, such as settings and Classic Windows applications.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Classic Windows applications</pc> can be captured using the User State Migration Tool’s (USMT) ScanState utility into a reference device data image within a provisioning package.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Classic Windows applications</pc> can be captured using the User State Migration Tool’s (USMT) ScanState utility into a reference device data image within a provisioning package.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Push-button reset features look for and automatically restore this provisioning package from a well-known location.</source>
+          <target>Push-button reset features look for and automatically restore this provisioning package from a well-known location.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings common to all editions of Windows 10</pc> (including Windows 10 Mobile) can be set using the Windows Imaging and Configuration Designer (ICD) tool and stored in provisioning packages.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings common to all editions of Windows 10</pc> (including Windows 10 Mobile) can be set using the Windows Imaging and Configuration Designer (ICD) tool and stored in provisioning packages.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Push-button reset features look for and automatically restore these provisioning packages from a well-known location.</source>
+          <target>Push-button reset features look for and automatically restore these provisioning packages from a well-known location.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Alternatively, these settings can be restored using a combination of an unattend file and extensibility scripts for Push-button reset.</source>
+          <target>Alternatively, these settings can be restored using a combination of an unattend file and extensibility scripts for Push-button reset.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings specific to editions of Windows 10 for desktop editions (Home, Pro, Enterprise, and Education)</pc> can be restored using a combination of an unattend file and extensibility scripts for Push-button reset.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings specific to editions of Windows 10 for desktop editions (Home, Pro, Enterprise, and Education)</pc> can be restored using a combination of an unattend file and extensibility scripts for Push-button reset.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Examples of these settings include manufacturer support information, manufacturer logos and Start Menu layout.</source>
+          <target>Examples of these settings include manufacturer support information, manufacturer logos and Start Menu layout.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Many of the settings customizations allowed or required by the OPD are specific to Windows 10 for desktop, and cannot be stored in provisioning packages created using Windows ICD.</source>
+          <target>Many of the settings customizations allowed or required by the OPD are specific to Windows 10 for desktop, and cannot be stored in provisioning packages created using Windows ICD.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>For Windows 10 RTM, the use of an unattend file and Push-button reset extensibility scripts is recommended for restoring all settings customizations during recovery.</source>
+          <target>For Windows 10 RTM, the use of an unattend file and Push-button reset extensibility scripts is recommended for restoring all settings customizations during recovery.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>The use of provisioning packages created using Windows ICD is completely optional.</source>
+          <target>The use of provisioning packages created using Windows ICD is completely optional.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Refresh your PC</source>
+          <target>Refresh your PC</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>The Refresh your PC feature can be summarized in the following steps:</source>
+          <target>The Refresh your PC feature can be summarized in the following steps:</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>PC boots into the Windows Recovery Environment (Windows RE).</source>
+          <target>PC boots into the Windows Recovery Environment (Windows RE).</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EXTENSIBILITY POINT A</pc>: OEMs can optionally add a script here.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EXTENSIBILITY POINT A</pc>: OEMs can optionally add a script here.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#extensibility-points)</data>
+        </originalData>
+        <segment state="initial">
+          <source>(See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extensibility points</pc> later in this topic).</source>
+          <target>(See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extensibility points</pc> later in this topic).</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>User accounts, settings, and data are gathered and moved to a temporary location.</source>
+          <target>User accounts, settings, and data are gathered and moved to a temporary location.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>A new copy of the OS is constructed in a temporary location using files from the Windows Component Store.</source>
+          <target>A new copy of the OS is constructed in a temporary location using files from the Windows Component Store.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Customizations stored in provisioning packages under C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />Customizations are applied to the new OS.</source>
+          <target>Customizations stored in provisioning packages under C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />Customizations are applied to the new OS.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Drivers are copied from the existing OS and injected into the new OS.</source>
+          <target>Drivers are copied from the existing OS and injected into the new OS.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Preinstalled Windows apps are restored from their backup location.</source>
+          <target>Preinstalled Windows apps are restored from their backup location.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>System-critical settings are applied to the new OS.</source>
+          <target>System-critical settings are applied to the new OS.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Existing OS is moved to C:<ph dataRef="id1" id="ph1" />Windows.old.</source>
+          <target>Existing OS is moved to C:<ph dataRef="id1" id="ph1" />Windows.old.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>New OS is moved to the root of the OS volume.</source>
+          <target>New OS is moved to the root of the OS volume.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EXTENSIBILITY POINT B</pc>: OEMs can optionally add a script here.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EXTENSIBILITY POINT B</pc>: OEMs can optionally add a script here.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#extensibility-points)</data>
+        </originalData>
+        <segment state="initial">
+          <source>(See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extensibility points</pc> later in this topic).</source>
+          <target>(See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extensibility points</pc> later in this topic).</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>PC reboots to the new OS.</source>
+          <target>PC reboots to the new OS.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>During first boot, user data and settings are reapplied.</source>
+          <target>During first boot, user data and settings are reapplied.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Preserved settings</source>
+          <target>Preserved settings</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh your PC</pc> feature preserves a number of system and user settings that are required to keep the system running while minimizing the need for users to reconfigure their PCs.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh your PC</pc> feature preserves a number of system and user settings that are required to keep the system running while minimizing the need for users to reconfigure their PCs.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Preserved settings can be broadly categorized into one of the following categories:</source>
+          <target>Preserved settings can be broadly categorized into one of the following categories:</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Are required for users to log on to their PCs after running the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh your PC</pc> feature.</source>
+          <target>Are required for users to log on to their PCs after running the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh your PC</pc> feature.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Affect how users access their documents and personal files.</source>
+          <target>Affect how users access their documents and personal files.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Are difficult for most users to recreate.</source>
+          <target>Are difficult for most users to recreate.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Affect system security or user privacy.</source>
+          <target>Affect system security or user privacy.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Personalize the PC.</source>
+          <target>Personalize the PC.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>The preserved settings are summarized as follows:</source>
+          <target>The preserved settings are summarized as follows:</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>User accounts (local, domain, Microsoft account), and group memberships</source>
+          <target>User accounts (local, domain, Microsoft account), and group memberships</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Domain settings</source>
+          <target>Domain settings</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Windows Update settings</source>
+          <target>Windows Update settings</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Library settings</source>
+          <target>Library settings</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Lock screen background</source>
+          <target>Lock screen background</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Desktop themes</source>
+          <target>Desktop themes</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>International settings</source>
+          <target>International settings</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Wireless network profiles</source>
+          <target>Wireless network profiles</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Settings configured in Windows Welcome</source>
+          <target>Settings configured in Windows Welcome</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>User data</source>
+          <target>User data</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Because user data can be stored in many locations, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh your PC</pc> feature preserves most folders and files that are not part of a standard Windows installation.</source>
+          <target>Because user data can be stored in many locations, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh your PC</pc> feature preserves most folders and files that are not part of a standard Windows installation.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh your PC</pc> feature refreshes the following system locations and does not preserve the contents.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh your PC</pc> feature refreshes the following system locations and does not preserve the contents.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Windows</source>
+          <target>Windows</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Program Files</source>
+          <target>Program Files</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Program Files(x86)</source>
+          <target>Program Files(x86)</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>ProgramData</source>
+          <target>ProgramData</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">\\&amp;lt;</data>
+          <data id="id2">&amp;gt;\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Users<ph dataRef="id1" id="ph1" />user name<ph dataRef="id2" id="ph2" />AppData (in each user profile)</source>
+          <target>Users<ph dataRef="id1" id="ph1" />user name<ph dataRef="id2" id="ph2" />AppData (in each user profile)</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  Some applications store user data in the <ph dataRef="id3" id="ph1" />AppData folder in user profiles.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  Some applications store user data in the <ph dataRef="id3" id="ph1" />AppData folder in user profiles.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" />AppData folders are available in C:<ph dataRef="id2" id="ph2" />Windows.old after using the <pc dataRefEnd="id4" dataRefStart="id3" id="p1">Refresh your PC</pc> feature.</source>
+          <target>The <ph dataRef="id1" id="ph1" />AppData folders are available in C:<ph dataRef="id2" id="ph2" />Windows.old after using the <pc dataRefEnd="id4" dataRefStart="id3" id="p1">Refresh your PC</pc> feature.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh your PC</pc> feature bypasses the following locations and preserves the contents:</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh your PC</pc> feature bypasses the following locations and preserves the contents:</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>File History versioning data</source>
+          <target>File History versioning data</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>All files and folders on non-OS partitions</source>
+          <target>All files and folders on non-OS partitions</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Windows Applications</source>
+          <target>Windows Applications</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>The Refresh your PC feature handles application types differently in order to ensure that the PC can be restored to a reliable state.</source>
+          <target>The Refresh your PC feature handles application types differently in order to ensure that the PC can be restored to a reliable state.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>Applications are handled as follows:</source>
+          <target>Applications are handled as follows:</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>User-acquired Windows apps from the Windows Store are not preserved.</source>
+          <target>User-acquired Windows apps from the Windows Store are not preserved.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Users will need to reinstall them from the Windows Store.</source>
+          <target>Users will need to reinstall them from the Windows Store.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>This is a change from Windows 8/8.1.</source>
+          <target>This is a change from Windows 8/8.1.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Preinstalled Windows apps are restored to their factory version and state.</source>
+          <target>Preinstalled Windows apps are restored to their factory version and state.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Updates to these apps will be downloaded and reapplied automatically when internet connectivity is available.</source>
+          <target>Updates to these apps will be downloaded and reapplied automatically when internet connectivity is available.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>User-acquired Classic Windows applications are not preserved.</source>
+          <target>User-acquired Classic Windows applications are not preserved.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Users will need to reinstall them manually.</source>
+          <target>Users will need to reinstall them manually.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Preinstalled Classic Windows applications captured in the customizations provisioning package will be restored to their factory condition, even if users have previously uninstalled them.</source>
+          <target>Preinstalled Classic Windows applications captured in the customizations provisioning package will be restored to their factory condition, even if users have previously uninstalled them.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">\\</data>
+          <data id="id4">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh your PC</pc> feature does not preserve user-installed Classic Windows applications by default, and locations that are commonly used for storing application settings (<ph dataRef="id3" id="ph1" />AppData and <ph dataRef="id4" id="ph2" />ProgramData) are deleted.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh your PC</pc> feature does not preserve user-installed Classic Windows applications by default, and locations that are commonly used for storing application settings (<ph dataRef="id3" id="ph1" />AppData and <ph dataRef="id4" id="ph2" />ProgramData) are deleted.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Manufacturers can leverage the push-button reset extensibility points to save and later restore specific application settings and data, if necessary.</source>
+          <target>Manufacturers can leverage the push-button reset extensibility points to save and later restore specific application settings and data, if necessary.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Reset your PC</source>
+          <target>Reset your PC</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>The Reset your PC feature can be summarized in the following steps:</source>
+          <target>The Reset your PC feature can be summarized in the following steps:</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>PC boots into the Windows Recovery Environment (Windows RE).</source>
+          <target>PC boots into the Windows Recovery Environment (Windows RE).</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>User accounts, data and installed Windows apps and Classic Windows applications are removed from the OS volume.</source>
+          <target>User accounts, data and installed Windows apps and Classic Windows applications are removed from the OS volume.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Data volumes are formatted (if requested by the user).</source>
+          <target>Data volumes are formatted (if requested by the user).</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Data erasure is performed on OS and data volumes (if requested by the user).</source>
+          <target>Data erasure is performed on OS and data volumes (if requested by the user).</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EXTENSIBILITY POINT C</pc>: OEMs can optionally add a script here.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EXTENSIBILITY POINT C</pc>: OEMs can optionally add a script here.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#extensibility-points)</data>
+        </originalData>
+        <segment state="initial">
+          <source>(See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extensibility points</pc> later in this topic).</source>
+          <target>(See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extensibility points</pc> later in this topic).</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>A new copy of the OS is constructed in a temporary location using files from the Windows Component Store.</source>
+          <target>A new copy of the OS is constructed in a temporary location using files from the Windows Component Store.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Customizations stored in provisioning packages under C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />Customizations are applied to the new OS.</source>
+          <target>Customizations stored in provisioning packages under C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />Customizations are applied to the new OS.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Drivers are copied from the existing OS and injected into the new OS.</source>
+          <target>Drivers are copied from the existing OS and injected into the new OS.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Preinstalled Universal Windows apps are restored from their backup location.</source>
+          <target>Preinstalled Universal Windows apps are restored from their backup location.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Existing OS is removed.</source>
+          <target>Existing OS is removed.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>New OS is moved to the root of the OS volume.</source>
+          <target>New OS is moved to the root of the OS volume.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EXTENSIBILITY POINT D</pc>: OEMs can optionally add a script here.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EXTENSIBILITY POINT D</pc>: OEMs can optionally add a script here.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#extensibility-points)</data>
+        </originalData>
+        <segment state="initial">
+          <source>(See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extensibility points</pc> later in this topic).</source>
+          <target>(See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extensibility points</pc> later in this topic).</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>PC reboots to the new OS.</source>
+          <target>PC reboots to the new OS.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>OOBE starts.</source>
+          <target>OOBE starts.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Data removal options</source>
+          <target>Data removal options</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When users use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reset your PC</pc> feature, they will be presented with options that affect the way that their data is removed from the PC.</source>
+          <target>When users use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reset your PC</pc> feature, they will be presented with options that affect the way that their data is removed from the PC.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>If the PC has more than one user-accessible hard drive volumes, users can choose to remove data from all volumes or only the Windows volume.</source>
+          <target>If the PC has more than one user-accessible hard drive volumes, users can choose to remove data from all volumes or only the Windows volume.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>The Windows volume is never formatted, as the files needed to rebuild the OS are on it.</source>
+          <target>The Windows volume is never formatted, as the files needed to rebuild the OS are on it.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Instead, user data files are deleted individually.</source>
+          <target>Instead, user data files are deleted individually.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>If user chooses to remove data from all volumes, the data volumes are formatted.</source>
+          <target>If user chooses to remove data from all volumes, the data volumes are formatted.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>Users can choose to simply delete their files or to also perform data erasure on the drive(s) so that recovery of the data by someone else is much more difficult.</source>
+          <target>Users can choose to simply delete their files or to also perform data erasure on the drive(s) so that recovery of the data by someone else is much more difficult.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Manufacturers must configure custom utility partitions as follows to ensure these partitions are not affected by the reset process.</source>
+          <target>Manufacturers must configure custom utility partitions as follows to ensure these partitions are not affected by the reset process.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+          <data id="id3">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>For UEFI-based PCs, utility partitions on GUID Partition Table (GPT) disks should have the GPT<ph dataRef="id1" id="ph1" />ATTRIBUTE<ph dataRef="id2" id="ph2" />PLATFORM<ph dataRef="id3" id="ph3" />REQUIRED attribute set.</source>
+          <target>For UEFI-based PCs, utility partitions on GUID Partition Table (GPT) disks should have the GPT<ph dataRef="id1" id="ph1" />ATTRIBUTE<ph dataRef="id2" id="ph2" />PLATFORM<ph dataRef="id3" id="ph3" />REQUIRED attribute set.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=617162)</data>
+          <data id="id3">\_</data>
+          <data id="id4">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PARTITION<ph dataRef="id3" id="ph1" />INFORMATION<ph dataRef="id4" id="ph2" />GPT structure</pc> for more information on GPT partition attributes.</source>
+          <target>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PARTITION<ph dataRef="id3" id="ph1" />INFORMATION<ph dataRef="id4" id="ph2" />GPT structure</pc> for more information on GPT partition attributes.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>For BIOS-based PCs, utility partitions on Master Boot Record (MBR) disks must be of a type other than 0x7, 0x0c, 0x0b, 0x0e, 0x06, and 0x42.</source>
+          <target>For BIOS-based PCs, utility partitions on Master Boot Record (MBR) disks must be of a type other than 0x7, 0x0c, 0x0b, 0x0e, 0x06, and 0x42.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>The time it takes to perform data erasure depends on drive speed, partition size, and whether the drive is encrypted using Windows BitLocker Drive Encryption.</source>
+          <target>The time it takes to perform data erasure depends on drive speed, partition size, and whether the drive is encrypted using Windows BitLocker Drive Encryption.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>The data erasure functionality is targeted at consumers and does not meet government and industry data erasure standards.</source>
+          <target>The data erasure functionality is targeted at consumers and does not meet government and industry data erasure standards.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Bare metal recovery</source>
+          <target>Bare metal recovery</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>If the user needs to replace their hard drive or completely wipe it, they can use bootable recovery media to perform bare metal recovery.</source>
+          <target>If the user needs to replace their hard drive or completely wipe it, they can use bootable recovery media to perform bare metal recovery.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Bare metal recovery removes all existing partitions on the system disk and recreates all partitions, before restoring software onto the PC.</source>
+          <target>Bare metal recovery removes all existing partitions on the system disk and recreates all partitions, before restoring software onto the PC.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Two types of recovery media are supported:</source>
+          <target>Two types of recovery media are supported:</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">User-created recovery media</pc> using the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create a recovery drive</pc> utility in Windows 10.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">User-created recovery media</pc> using the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create a recovery drive</pc> utility in Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>This backs up the files needed to restore the PC to a pristine state.</source>
+          <target>This backs up the files needed to restore the PC to a pristine state.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manufacturer-created recovery media</pc> for support and refurbishing scenarios by placing a recovery image on a piece of bootable Windows RE media.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manufacturer-created recovery media</pc> for support and refurbishing scenarios by placing a recovery image on a piece of bootable Windows RE media.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>When user-created recovery media are used, the bare metal recovery feature can be summarized in the following steps:</source>
+          <target>When user-created recovery media are used, the bare metal recovery feature can be summarized in the following steps:</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>The system disk is identified.</source>
+          <target>The system disk is identified.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>All partitions from the system disk are removed.</source>
+          <target>All partitions from the system disk are removed.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Data erasure is performed on the system disk (if requested by the user).</source>
+          <target>Data erasure is performed on the system disk (if requested by the user).</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Factory or default partition layout is recreated on the system disk.</source>
+          <target>Factory or default partition layout is recreated on the system disk.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>All partitions are formatted.</source>
+          <target>All partitions are formatted.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>Recovery files from recovery media are copied to the OS volume.</source>
+          <target>Recovery files from recovery media are copied to the OS volume.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>A new copy of the OS is constructed at the root of the OS volume.</source>
+          <target>A new copy of the OS is constructed at the root of the OS volume.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Customizations stored in provisioning packages are applied.</source>
+          <target>Customizations stored in provisioning packages are applied.</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>Drivers are injected into the new OS.</source>
+          <target>Drivers are injected into the new OS.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>Preinstalled Windows apps are restored.</source>
+          <target>Preinstalled Windows apps are restored.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Boot files are configured on the system partition.</source>
+          <target>Boot files are configured on the system partition.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>PC reboots to the new OS.</source>
+          <target>PC reboots to the new OS.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>OOBE starts.</source>
+          <target>OOBE starts.</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>Data removal options</source>
+          <target>Data removal options</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>When users use the bare metal recovery feature, they can choose to perform data erasure on the entire system disk before the factory partition layout is reapplied.</source>
+          <target>When users use the bare metal recovery feature, they can choose to perform data erasure on the entire system disk before the factory partition layout is reapplied.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>On most PCs, this data erasure process is done in software, writing cryptographically random patterns to the entire LBA range of the system disk once.</source>
+          <target>On most PCs, this data erasure process is done in software, writing cryptographically random patterns to the entire LBA range of the system disk once.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>However, on certain hardware configurations, the data erasure process is performed by the storage device’s hardware controller.</source>
+          <target>However, on certain hardware configurations, the data erasure process is performed by the storage device’s hardware controller.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>This often takes less time to complete and is usually more thorough in removing remnant data.</source>
+          <target>This often takes less time to complete and is usually more thorough in removing remnant data.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>Hardware-based data erasure is supported on PCs with storage devices which meet the following criteria:</source>
+          <target>Hardware-based data erasure is supported on PCs with storage devices which meet the following criteria:</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>eMMC</source>
+          <target>eMMC</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>Supports the Secure Trim and Sanitize commands</source>
+          <target>Supports the Secure Trim and Sanitize commands</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>System disk selection</source>
+          <target>System disk selection</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Bare metal recovery automatically identifies the system disk using the following methods:</source>
+          <target>Bare metal recovery automatically identifies the system disk using the following methods:</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>Adaptor location path and GUID of the system disk are written to a UEFI variable during OOBE.</source>
+          <target>Adaptor location path and GUID of the system disk are written to a UEFI variable during OOBE.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>Performed only when both the system and Windows partitions are on the system disk.</source>
+          <target>Performed only when both the system and Windows partitions are on the system disk.</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>The variable is updated if necessary when Windows RE gets disabled and then re-enabled.</source>
+          <target>The variable is updated if necessary when Windows RE gets disabled and then re-enabled.</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>During bare metal recovery, if multiple internal disks are detected, the system disk is searched in this order:</source>
+          <target>During bare metal recovery, if multiple internal disks are detected, the system disk is searched in this order:</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>Disk with GUID matching the value stored in the UEFI variable.</source>
+          <target>Disk with GUID matching the value stored in the UEFI variable.</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>Disk with location path matching the value stored in firmware.</source>
+          <target>Disk with location path matching the value stored in firmware.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>Disk with an existing ESP.</source>
+          <target>Disk with an existing ESP.</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>If multiple disks with ESP are found, bare metal recovery will not proceed.</source>
+          <target>If multiple disks with ESP are found, bare metal recovery will not proceed.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>Uninitialized (raw) disk.</source>
+          <target>Uninitialized (raw) disk.</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>If multiple uninitialized disks are found, bare metal recovery will not proceed.</source>
+          <target>If multiple uninitialized disks are found, bare metal recovery will not proceed.</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>On legacy BIOS/MBR systems, the BIOS-reported system disk is used.</source>
+          <target>On legacy BIOS/MBR systems, the BIOS-reported system disk is used.</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>User-created recovery media</source>
+          <target>User-created recovery media</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>When users create USB recovery media using the Create a recovery drive utility, the resulting media always contain a bootable copy of Windows RE.</source>
+          <target>When users create USB recovery media using the Create a recovery drive utility, the resulting media always contain a bootable copy of Windows RE.</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>This gives users access to troubleshooting and recovery tools when booting from recovery media.</source>
+          <target>This gives users access to troubleshooting and recovery tools when booting from recovery media.</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>Users can optionally back up files required to perform bare metal recovery.</source>
+          <target>Users can optionally back up files required to perform bare metal recovery.</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>When the option is selected, the following are copied onto the USB recovery media as well:</source>
+          <target>When the option is selected, the following are copied onto the USB recovery media as well:</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <segment state="initial">
+          <source>Windows Component Store</source>
+          <target>Windows Component Store</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>Installed drivers</source>
+          <target>Installed drivers</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>Backup of preinstalled Windows apps</source>
+          <target>Backup of preinstalled Windows apps</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Provisioning packages containing preinstalled customizations (under C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />Customizations)</source>
+          <target>Provisioning packages containing preinstalled customizations (under C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />Customizations)</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Push-button Reset configuration XML and scripts (under C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />OEM)</source>
+          <target>Push-button Reset configuration XML and scripts (under C:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />OEM)</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>Manufacturer-created recovery media</source>
+          <target>Manufacturer-created recovery media</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>Bare metal recovery supports the use of a recovery WIM image when the media are prepared by manufacturers.</source>
+          <target>Bare metal recovery supports the use of a recovery WIM image when the media are prepared by manufacturers.</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>This type of media is primarily used in support and refurbishing scenarios.</source>
+          <target>This type of media is primarily used in support and refurbishing scenarios.</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>Manufacturer-created media must contain the following:</source>
+          <target>Manufacturer-created media must contain the following:</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>A bootable Windows RE image.</source>
+          <target>A bootable Windows RE image.</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>A Push-button reset-compatible recovery image (install.wim).</source>
+          <target>A Push-button reset-compatible recovery image (install.wim).</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>A Push-button reset configuration file (Resetconfig.xml) which specifies disk partitioning information.</source>
+          <target>A Push-button reset configuration file (Resetconfig.xml) which specifies disk partitioning information.</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>A DISKPART script to perform partitioning of the disk.</source>
+          <target>A DISKPART script to perform partitioning of the disk.</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>Extensibility points for push-button reset features</source>
+          <target>Extensibility points for push-button reset features</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Push-button reset provides extensibility points where manufacturers can insert custom operations when a user runs the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh your PC</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Reset your PC</pc> features.</source>
+          <target>Push-button reset provides extensibility points where manufacturers can insert custom operations when a user runs the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh your PC</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Reset your PC</pc> features.</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>See the sections above to see where the custom operations that can be executed for these features appear.</source>
+          <target>See the sections above to see where the custom operations that can be executed for these features appear.</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The extensibility points for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh your PC</pc> are summarized in the following table:</source>
+          <target>The extensibility points for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh your PC</pc> are summarized in the following table:</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>Ext.</source>
+          <target>Ext.</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>point</source>
+          <target>point</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>System state</source>
+          <target>System state</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>Example usage</source>
+          <target>Example usage</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <segment state="initial">
+          <source>A</source>
+          <target>A</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>Settings and data to be migrated have been moved to a temporary location</source>
+          <target>Settings and data to be migrated have been moved to a temporary location</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>Copy files, drivers, or settings that are not migrated by default when the user runs the Refresh your PC feature.</source>
+          <target>Copy files, drivers, or settings that are not migrated by default when the user runs the Refresh your PC feature.</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <segment state="initial">
+          <source>B</source>
+          <target>B</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>The OS has been rebuilt.</source>
+          <target>The OS has been rebuilt.</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>Drivers and customizations have been reapplied.</source>
+          <target>Drivers and customizations have been reapplied.</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>Only critical system settings have been migrated.</source>
+          <target>Only critical system settings have been migrated.</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>Restore customization files (e.g. unattend.xml, layoutmodification.xml), or files and settings you might have backed up at extensibility point A.</source>
+          <target>Restore customization files (e.g. unattend.xml, layoutmodification.xml), or files and settings you might have backed up at extensibility point A.</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The extensibility points for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reset your PC</pc> are summarized in the following table:</source>
+          <target>The extensibility points for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reset your PC</pc> are summarized in the following table:</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>Ext.</source>
+          <target>Ext.</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <segment state="initial">
+          <source>point</source>
+          <target>point</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <segment state="initial">
+          <source>System state</source>
+          <target>System state</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <segment state="initial">
+          <source>Example usage</source>
+          <target>Example usage</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <segment state="initial">
+          <source>C</source>
+          <target>C</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <segment state="initial">
+          <source>All user data have been removed from the Windows partition and data partitions have (optionally) been formatted.</source>
+          <target>All user data have been removed from the Windows partition and data partitions have (optionally) been formatted.</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <segment state="initial">
+          <source>Reconfigure data partitions if needed.</source>
+          <target>Reconfigure data partitions if needed.</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Important<ph dataRef="id1" id="ph1" />  Do not modify the Windows partition.</source>
+          <target>Important<ph dataRef="id1" id="ph1" />  Do not modify the Windows partition.</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <segment state="initial">
+          <source>D</source>
+          <target>D</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <segment state="initial">
+          <source>The OS has been rebuilt.</source>
+          <target>The OS has been rebuilt.</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>Drivers and customizations have been reapplied.</source>
+          <target>Drivers and customizations have been reapplied.</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <segment state="initial">
+          <source>Restore customization files (e.g. unattend.xml, layoutmodification.xml), or apply additional customizations.</source>
+          <target>Restore customization files (e.g. unattend.xml, layoutmodification.xml), or apply additional customizations.</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>Compact OS</source>
+          <target>Compact OS</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <segment state="initial">
+          <source>Compact OS is a collection of technologies which allow Windows 10 to be deployed on PCs with storage capacity as low as 16 gigabytes (GB).</source>
+          <target>Compact OS is a collection of technologies which allow Windows 10 to be deployed on PCs with storage capacity as low as 16 gigabytes (GB).</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <segment state="initial">
+          <source>The following two technologies in particular work in conjunction with the Push-button reset changes to reduce Windows’ disk footprint:</source>
+          <target>The following two technologies in particular work in conjunction with the Push-button reset changes to reduce Windows’ disk footprint:</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <segment state="initial">
+          <source>Per-file compression When applying a reference image file (WIM) to a PC, the files written to the disk can be compressed individually using the XPRESS Huffman codec.</source>
+          <target>Per-file compression When applying a reference image file (WIM) to a PC, the files written to the disk can be compressed individually using the XPRESS Huffman codec.</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <segment state="initial">
+          <source>This is the same codec used by the WIMBoot technology in Windows 8.1.</source>
+          <target>This is the same codec used by the WIMBoot technology in Windows 8.1.</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <segment state="initial">
+          <source>When Push-button reset features rebuilds the OS, the runtime system files remain compressed.</source>
+          <target>When Push-button reset features rebuilds the OS, the runtime system files remain compressed.</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <segment state="initial">
+          <source>Single-instancing of installed customizations After the installed customizations (e.g. Classic Windows applications) have been captured (using ScanState) into a reference device data image stored inside a provisioning package, the two copies of the customizations can be singled-instanced to reduce disk footprint impact.</source>
+          <target>Single-instancing of installed customizations After the installed customizations (e.g. Classic Windows applications) have been captured (using ScanState) into a reference device data image stored inside a provisioning package, the two copies of the customizations can be singled-instanced to reduce disk footprint impact.</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>This is accomplished by converting the installed customizations (e.g. C:<ph dataRef="id1" id="ph1" />Program Files<ph dataRef="id2" id="ph2" />Foo<ph dataRef="id3" id="ph3" />Foo.exe) into file pointers linked to the contents of the reference device data image.</source>
+          <target>This is accomplished by converting the installed customizations (e.g. C:<ph dataRef="id1" id="ph1" />Program Files<ph dataRef="id2" id="ph2" />Foo<ph dataRef="id3" id="ph3" />Foo.exe) into file pointers linked to the contents of the reference device data image.</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <segment state="initial">
+          <source>The following diagram illustrates the high-level content layout of PCs with Compact OS enabled:</source>
+          <target>The following diagram illustrates the high-level content layout of PCs with Compact OS enabled:</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <segment state="initial">
+          <source>Both technologies are optional and can be configured during deployment.</source>
+          <target>Both technologies are optional and can be configured during deployment.</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <segment state="initial">
+          <source>Updating the on-disk Windows Recovery Environment</source>
+          <target>Updating the on-disk Windows Recovery Environment</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <segment state="initial">
+          <source>In Windows 10, the on-disk copy of Windows RE can be serviced as part of rollup updates for the OS.</source>
+          <target>In Windows 10, the on-disk copy of Windows RE can be serviced as part of rollup updates for the OS.</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <segment state="initial">
+          <source>Not all rollup updates will service Windows RE.</source>
+          <target>Not all rollup updates will service Windows RE.</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <segment state="initial">
+          <source>Unlike the normal OS update process, updates for Windows RE do not directly serviced the on-disk Windows RE image (winre.wim).</source>
+          <target>Unlike the normal OS update process, updates for Windows RE do not directly serviced the on-disk Windows RE image (winre.wim).</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <segment state="initial">
+          <source>Instead, a newer version of the Windows RE image replaces the existing one, with the following contents being injected or migrated into the new image:</source>
+          <target>Instead, a newer version of the Windows RE image replaces the existing one, with the following contents being injected or migrated into the new image:</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <segment state="initial">
+          <source>Boot critical and input device drivers from the full OS environment are added to the new Windows RE image.</source>
+          <target>Boot critical and input device drivers from the full OS environment are added to the new Windows RE image.</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Windows RE customizations under <ph dataRef="id1" id="ph1" />Sources<ph dataRef="id2" id="ph2" />Recovery of the mounted winre.wim are migrated to the new image.</source>
+          <target>Windows RE customizations under <ph dataRef="id1" id="ph1" />Sources<ph dataRef="id2" id="ph2" />Recovery of the mounted winre.wim are migrated to the new image.</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <segment state="initial">
+          <source>The following contents from the existing Windows RE image are not migrated to the new image:</source>
+          <target>The following contents from the existing Windows RE image are not migrated to the new image:</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <segment state="initial">
+          <source>Drivers which are in the existing Windows RE image but not in the full OS environment</source>
+          <target>Drivers which are in the existing Windows RE image but not in the full OS environment</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <segment state="initial">
+          <source>Windows PE optional components which are not part of the default Windows RE image</source>
+          <target>Windows PE optional components which are not part of the default Windows RE image</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <segment state="initial">
+          <source>Language packs for Windows PE and optional components</source>
+          <target>Language packs for Windows PE and optional components</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <segment state="initial">
+          <source>The Windows RE update process makes every effort to reuse the existing Windows RE partition without any modification.</source>
+          <target>The Windows RE update process makes every effort to reuse the existing Windows RE partition without any modification.</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <segment state="initial">
+          <source>However, in some rare situations where the new Windows RE image (along with the migrated/injected contents) does not fit in the existing Windows RE partition, the update process will behave as follows:</source>
+          <target>However, in some rare situations where the new Windows RE image (along with the migrated/injected contents) does not fit in the existing Windows RE partition, the update process will behave as follows:</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>If the existing Windows RE partition is located immediately after the Windows partition, the Windows partition will be shrunk and space will be added to the Windows RE partition.</source>
+          <target>If the existing Windows RE partition is located immediately after the Windows partition, the Windows partition will be shrunk and space will be added to the Windows RE partition.</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <segment state="initial">
+          <source>The new Windows RE image will be installed onto the expanded Windows RE partition.</source>
+          <target>The new Windows RE image will be installed onto the expanded Windows RE partition.</target>
+        </segment>
+      </unit>
+      <unit id="354">
+        <segment state="initial">
+          <source>If the existing Windows RE partition is not located immediately after the Windows partition, the Windows partition will be shrunk and a new Windows RE partition will be created.</source>
+          <target>If the existing Windows RE partition is not located immediately after the Windows partition, the Windows partition will be shrunk and a new Windows RE partition will be created.</target>
+        </segment>
+      </unit>
+      <unit id="355">
+        <segment state="initial">
+          <source>The new Windows RE image will be installed onto this new Windows RE partition.</source>
+          <target>The new Windows RE image will be installed onto this new Windows RE partition.</target>
+        </segment>
+      </unit>
+      <unit id="356">
+        <segment state="initial">
+          <source>The existing Windows RE partition will be orphaned.</source>
+          <target>The existing Windows RE partition will be orphaned.</target>
+        </segment>
+      </unit>
+      <unit id="357">
+        <segment state="initial">
+          <source>If the existing Windows RE partition cannot be reused and the Windows partition cannot successfully be shrunk, the new Windows RE image will be installed onto the Windows partition.</source>
+          <target>If the existing Windows RE partition cannot be reused and the Windows partition cannot successfully be shrunk, the new Windows RE image will be installed onto the Windows partition.</target>
+        </segment>
+      </unit>
+      <unit id="358">
+        <segment state="initial">
+          <source>The existing Windows RE partition will be orphaned.</source>
+          <target>The existing Windows RE partition will be orphaned.</target>
+        </segment>
+      </unit>
+      <unit id="359">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>  To ensure that your customizations continue to work after Windows RE has been updated, they must not depend on functionalities provided by Windows PE optional components which are not in the default Windows RE image (e.g. WinPE-NetFX).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc>  To ensure that your customizations continue to work after Windows RE has been updated, they must not depend on functionalities provided by Windows PE optional components which are not in the default Windows RE image (e.g. WinPE-NetFX).</target>
+        </segment>
+      </unit>
+      <unit id="360">
+        <segment state="initial">
+          <source>To facilitate development of Windows RE customizations, the WinPE-HTA optional component has been added to the default Windows RE image in Windows 10.</source>
+          <target>To facilitate development of Windows RE customizations, the WinPE-HTA optional component has been added to the default Windows RE image in Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="361">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  The new Windows RE image deployed as part of the rollup update contains language resources only for the system default language, even if the existing Windows RE image contains resources for multiple languages.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note</pc>  The new Windows RE image deployed as part of the rollup update contains language resources only for the system default language, even if the existing Windows RE image contains resources for multiple languages.</target>
+        </segment>
+      </unit>
+      <unit id="362">
+        <segment state="initial">
+          <source>On most PCs, the system default language is the language selected at the time of OOBE.</source>
+          <target>On most PCs, the system default language is the language selected at the time of OOBE.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

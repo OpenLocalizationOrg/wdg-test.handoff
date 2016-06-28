@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\mobile\flashing-security-requirements.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">2da4f6874ba64baebd511e7641e421ba2a8b1d1a</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Flashing security requirements</source>
+          <target>Flashing security requirements</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Flashing security requirements</source>
+          <target>Flashing security requirements</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Flashing security requirements</source>
+          <target>Flashing security requirements</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Before flashing occurs, all OEM flashing mechanisms must validate cryptographic signatures in the image that chain to keys owned by the OEM.</source>
+          <target>Before flashing occurs, all OEM flashing mechanisms must validate cryptographic signatures in the image that chain to keys owned by the OEM.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>This validation of the cryptographic signature on the image must be done on the device (not on a desktop flashing tool) and must be done before the image is flashed to eMMC memory.</source>
+          <target>This validation of the cryptographic signature on the image must be done on the device (not on a desktop flashing tool) and must be done before the image is flashed to eMMC memory.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>This requirement is intended to protect devices from being compromised by users attempting to subvert the security protections in the system.</source>
+          <target>This requirement is intended to protect devices from being compromised by users attempting to subvert the security protections in the system.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Mechanisms that can flash or update the state of the device (debuggers, memory inspectors, etc.) and that are not properly secured could be used by an attacker to circumvent the device’s security mechanisms.</source>
+          <target>Mechanisms that can flash or update the state of the device (debuggers, memory inspectors, etc.) and that are not properly secured could be used by an attacker to circumvent the device’s security mechanisms.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>The implemented solutions must be fully resilient even if the device is reverse engineered (that is, even if the user understands the operation of the security code in the firmware or SoC).</source>
+          <target>The implemented solutions must be fully resilient even if the device is reverse engineered (that is, even if the user understands the operation of the security code in the firmware or SoC).</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Flashing security requirements summary</source>
+          <target>Flashing security requirements summary</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Security on retail devices must also meet the following requirements:</source>
+          <target>Security on retail devices must also meet the following requirements:</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Only secure flashing technologies can be included on retail devices.</source>
+          <target>Only secure flashing technologies can be included on retail devices.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Images to be flashed must be cryptographically signed through a process that is controlled and verified by the OEM or Microsoft.</source>
+          <target>Images to be flashed must be cryptographically signed through a process that is controlled and verified by the OEM or Microsoft.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Cryptographic signatures on images to be flashed must be verified by code on the device immediately before flashing.</source>
+          <target>Cryptographic signatures on images to be flashed must be verified by code on the device immediately before flashing.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Code that verifies cryptographic signatures on the device must be tamper proof, and cryptographic key material on the device used for verification must be trustworthy at the point in time that it is used.</source>
+          <target>Code that verifies cryptographic signatures on the device must be tamper proof, and cryptographic key material on the device used for verification must be trustworthy at the point in time that it is used.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Sufficiently large encryption algorithms must be used—at a minimum, RSA 2048 with SHA-256.</source>
+          <target>Sufficiently large encryption algorithms must be used—at a minimum, RSA 2048 with SHA-256.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>The flashing tool must check the SMBIOS device identification values before flashing.</source>
+          <target>The flashing tool must check the SMBIOS device identification values before flashing.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](developing-custom-oem-flashing-tools.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Developing custom OEM flashing tools</pc>.</source>
+          <target>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Developing custom OEM flashing tools</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>The flashing tool must implement image integrity validation to protect against tampered images.</source>
+          <target>The flashing tool must implement image integrity validation to protect against tampered images.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](developing-custom-oem-flashing-tools.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Developing custom OEM flashing tools</pc>.</source>
+          <target>For more info, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Developing custom OEM flashing tools</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Industry best practices for source code development and supply chain security must be followed.</source>
+          <target>Industry best practices for source code development and supply chain security must be followed.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>A threat model must be applied to identify priority risks, threats, and vulnerabilities.</source>
+          <target>A threat model must be applied to identify priority risks, threats, and vulnerabilities.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Recommended flashing solution</source>
+          <target>Recommended flashing solution</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>The following diagram illustrates a flashing solution that conforms to the flashing security requirements.</source>
+          <target>The following diagram illustrates a flashing solution that conforms to the flashing security requirements.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Images to be flashed must be signed by the OEM signing authority using documented procedures, ensuring that there is a high level of control and security throughout the process.</source>
+          <target>Images to be flashed must be signed by the OEM signing authority using documented procedures, ensuring that there is a high level of control and security throughout the process.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>The component that initiates the flashing operation must perform a cryptographic verification of the signature on the image to be flashed using trustworthy key material immediately before flashing.</source>
+          <target>The component that initiates the flashing operation must perform a cryptographic verification of the signature on the image to be flashed using trustworthy key material immediately before flashing.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">\_</data>
+          <data id="id2">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>The cryptographic key should be stored so that it is tied either to secure boot key material (OEM<ph dataRef="id1" id="ph1" />PK<ph dataRef="id2" id="ph2" />HASH or UEFI Variable PK) or to a public key that is embedded in a binary that is cryptographically validated by secure boot.</source>
+          <target>The cryptographic key should be stored so that it is tied either to secure boot key material (OEM<ph dataRef="id1" id="ph1" />PK<ph dataRef="id2" id="ph2" />HASH or UEFI Variable PK) or to a public key that is embedded in a binary that is cryptographically validated by secure boot.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>It is not acceptable to store the public or private key in the DPP, or in any other unsigned and unvalidated file store.</source>
+          <target>It is not acceptable to store the public or private key in the DPP, or in any other unsigned and unvalidated file store.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">\-</data>
+          <data id="id2">\-</data>
+        </originalData>
+        <segment state="initial">
+          <source>oem<ph dataRef="id1" id="ph1" />fieldservicesec<ph dataRef="id2" id="ph2" />flashingreq</source>
+          <target>oem<ph dataRef="id1" id="ph1" />fieldservicesec<ph dataRef="id2" id="ph2" />flashingreq</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Developing custom OEM flashing tools</source>
+          <target>Developing custom OEM flashing tools</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Implementing image integrity validation in custom flashing tools</source>
+          <target>Implementing image integrity validation in custom flashing tools</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

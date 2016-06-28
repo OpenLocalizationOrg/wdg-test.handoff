@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\mount-and-modify-a-windows-image-using-dism.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">4050ae9186d2e519b390f660db932ebc4a9d1cab</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Mount and Modify a Windows Image Using DISM</source>
+          <target>Mount and Modify a Windows Image Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Mount and Modify a Windows Image Using DISM</source>
+          <target>Mount and Modify a Windows Image Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Mount and Modify a Windows Image Using DISM</source>
+          <target>Mount and Modify a Windows Image Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>You can use the Deployment Image Servicing and Management (DISM) tool to mount a Windows image from a WIM or VHD file.</source>
+          <target>You can use the Deployment Image Servicing and Management (DISM) tool to mount a Windows image from a WIM or VHD file.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Mounting an image maps the contents of the image to a directory so that you can service the image using DISM without booting into the image.</source>
+          <target>Mounting an image maps the contents of the image to a directory so that you can service the image using DISM without booting into the image.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>You can also perform common file operations, such as copying, pasting, and editing on a mounted image.</source>
+          <target>You can also perform common file operations, such as copying, pasting, and editing on a mounted image.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>DISM cannot mount a Windows image from a VHD on Windows Vista with Service Pack 1 (SP1) or Windows Server 2008.</source>
+          <target>DISM cannot mount a Windows image from a VHD on Windows Vista with Service Pack 1 (SP1) or Windows Server 2008.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>You must attach the VHD using the DiskPart tool before you can use DISM to service the image.</source>
+          <target>You must attach the VHD using the DiskPart tool before you can use DISM to service the image.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>When you service VHD images that have been attached using the DiskPart tool, the changes are automatically committed with each operation and cannot be discarded.</source>
+          <target>When you service VHD images that have been attached using the DiskPart tool, the changes are automatically committed with each operation and cannot be discarded.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>You can mount and modify multiple images on a single computer.</source>
+          <target>You can mount and modify multiple images on a single computer.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](deployment-image-servicing-and-management--dism--best-practices.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Image Servicing and Management (DISM) Best Practices</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Image Servicing and Management (DISM) Best Practices</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Mounting an Image</source>
+          <target>Mounting an Image</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can mount an image using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/optimize</pc> option to reduce initial mount time.</source>
+          <target>You can mount an image using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/optimize</pc> option to reduce initial mount time.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>However, When using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/optimize</pc> option, processes that are ordinarily performed during a mount will instead be completed the first time that you access a directory.</source>
+          <target>However, When using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/optimize</pc> option, processes that are ordinarily performed during a mount will instead be completed the first time that you access a directory.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>As a result, there may be an increase in the time that is required to access a directory for the first time after mounting an image using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/optimize</pc> option.</source>
+          <target>As a result, there may be an increase in the time that is required to access a directory for the first time after mounting an image using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/optimize</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>To mount an image</source>
+          <target>To mount an image</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Open a command prompt with administrator privileges.</source>
+          <target>Open a command prompt with administrator privileges.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>If you are using a version of Windows other than Windows 8, use the Deployment Tools Cmd Prompt installed with the ADK or navigate to the DISM directory on your local computer.</source>
+          <target>If you are using a version of Windows other than Windows 8, use the Deployment Tools Cmd Prompt installed with the ADK or navigate to the DISM directory on your local computer.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Mount the image.</source>
+          <target>Mount the image.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Note</source>
+          <target>Note</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">`/index:1`</data>
+        </originalData>
+        <segment state="initial">
+          <source>To mount a Windows image from a VHD file, you must specify <ph dataRef="id1" id="ph1" />.</source>
+          <target>To mount a Windows image from a VHD file, you must specify <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can also add options to mount the image with read-only permissions or to reduce the initial mount time with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Optimize</pc> option.</source>
+          <target>You can also add options to mount the image with read-only permissions or to reduce the initial mount time with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Optimize</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>For example,</source>
+          <target>For example,</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](dism-image-management-command-line-options-s14.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about the options available for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Mount-Image</pc> option in DISM, see <pc dataRefEnd="id4" dataRefStart="id3" id="p2">DISM Image Management Command-Line Options</pc>.</source>
+          <target>For more information about the options available for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Mount-Image</pc> option in DISM, see <pc dataRefEnd="id4" dataRefStart="id3" id="p2">DISM Image Management Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Modifying an Image</source>
+          <target>Modifying an Image</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>After you mount an image, you can browse the directory of the image.</source>
+          <target>After you mount an image, you can browse the directory of the image.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>You can review the file and folder structure, and add, edit, or delete files and folders.</source>
+          <target>You can review the file and folder structure, and add, edit, or delete files and folders.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>You can also use the DISM tool to add and remove drivers and packages, including language packs, enumerate drivers and packages, modify configuration settings, and more.</source>
+          <target>You can also use the DISM tool to add and remove drivers and packages, including language packs, enumerate drivers and packages, modify configuration settings, and more.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](service-a-windows-image-using-dism.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Service a Windows Image Using DISM</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Service a Windows Image Using DISM</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>To view and modify an image</source>
+          <target>To view and modify an image</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>On your technician computer open the mounted directory.</source>
+          <target>On your technician computer open the mounted directory.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>For example,</source>
+          <target>For example,</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Delete, edit, or add additional files and folders to the location where they must appear after they have been applied to the destination computer.</source>
+          <target>Delete, edit, or add additional files and folders to the location where they must appear after they have been applied to the destination computer.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\_</data>
+          <data id="id3">\\</data>
+          <data id="id4">\_</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, C:<ph dataRef="id1" id="ph1" />program<ph dataRef="id2" id="ph2" />files<ph dataRef="id3" id="ph3" />application<ph dataRef="id4" id="ph4" />name.</source>
+          <target>For example, C:<ph dataRef="id1" id="ph1" />program<ph dataRef="id2" id="ph2" />files<ph dataRef="id3" id="ph3" />application<ph dataRef="id4" id="ph4" />name.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>If you must add an application or a device, verify that you included all of the required files.</source>
+          <target>If you must add an application or a device, verify that you included all of the required files.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Although you can add application files and folders, you cannot install applications.</source>
+          <target>Although you can add application files and folders, you cannot install applications.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Committing Changes to an Image</source>
+          <target>Committing Changes to an Image</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>You can commit changes to an image without unmounting the image.</source>
+          <target>You can commit changes to an image without unmounting the image.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>To commit changes to an image</source>
+          <target>To commit changes to an image</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>At the command prompt, type:</source>
+          <target>At the command prompt, type:</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/CheckIntegrity</pc> to detect and track .wim file corruption when you commit changes to the image.</source>
+          <target>Use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/CheckIntegrity</pc> to detect and track .wim file corruption when you commit changes to the image.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you apply or mount the image, use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/CheckIntegrity</pc> again to stop the operation if file corruption was detected.</source>
+          <target>When you apply or mount the image, use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/CheckIntegrity</pc> again to stop the operation if file corruption was detected.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/CheckIntegrity</pc> cannot be used with virtual hard disk (VHD) files.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/CheckIntegrity</pc> cannot be used with virtual hard disk (VHD) files.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Unmounting an Image</source>
+          <target>Unmounting an Image</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>After you modify an image, you must unmount it.</source>
+          <target>After you modify an image, you must unmount it.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>If you mounted your image with the default read/write permissions, you can commit your changes.</source>
+          <target>If you mounted your image with the default read/write permissions, you can commit your changes.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>This makes your modifications a permanent part of the image.</source>
+          <target>This makes your modifications a permanent part of the image.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>To unmount an image</source>
+          <target>To unmount an image</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Open a command prompt with administrator privileges.</source>
+          <target>Open a command prompt with administrator privileges.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>If you are using a version of Windows other than Windows 8, use the Deployment Tools Cmd Prompt installed with the ADK or navigate to the DISM directory on your local computer.</source>
+          <target>If you are using a version of Windows other than Windows 8, use the Deployment Tools Cmd Prompt installed with the ADK or navigate to the DISM directory on your local computer.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>For Windows 10:</source>
+          <target>For Windows 10:</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">&amp;lt;</data>
+          <data id="id4">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>where <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />architecture<ph dataRef="id4" id="ph2" /></pc> can be x86 or amd64.</source>
+          <target>where <pc dataRefEnd="id2" dataRefStart="id1" id="p1"><ph dataRef="id3" id="ph1" />architecture<ph dataRef="id4" id="ph2" /></pc> can be x86 or amd64.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Unmount the image.</source>
+          <target>Unmount the image.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">`C:\test\offline`</data>
+        </originalData>
+        <segment state="initial">
+          <source>where <ph dataRef="id1" id="ph1" /> is the location of the mount directory.</source>
+          <target>where <ph dataRef="id1" id="ph1" /> is the location of the mount directory.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>If you do not specify the parameters to unmount, this option lists all of the mounted images but does not perform the unmount action.</source>
+          <target>If you do not specify the parameters to unmount, this option lists all of the mounted images but does not perform the unmount action.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Important</source>
+          <target>Important</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You must use either the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/commit</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/discard</pc> argument when you use the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">/unmount</pc> option.</source>
+          <target>You must use either the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/commit</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/discard</pc> argument when you use the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">/unmount</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>After modifying an image, you can apply the image from a network share or from local media, such as a CD/DVD or a USB flash drive (UFD).</source>
+          <target>After modifying an image, you can apply the image from a network share or from local media, such as a CD/DVD or a USB flash drive (UFD).</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Troubleshooting</source>
+          <target>Troubleshooting</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>If the DISM commands in this topic fail, try the following:</source>
+          <target>If the DISM commands in this topic fail, try the following:</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Make sure that you are using the Windows 10 version of DISM that is installed with the Windows ADK.</source>
+          <target>Make sure that you are using the Windows 10 version of DISM that is installed with the Windows ADK.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you are using a Windows 8.1, Windows 8, or Windows 7 PC, use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> to access the tools that are installed with the Windows 10 version of the Windows ADK.</source>
+          <target>If you are using a Windows 8.1, Windows 8, or Windows 7 PC, use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment and Imaging Tools Environment</pc> to access the tools that are installed with the Windows 10 version of the Windows ADK.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Don’t mount images to protected folders, such as your User<ph dataRef="id1" id="ph1" />Documents folder.</source>
+          <target>Don’t mount images to protected folders, such as your User<ph dataRef="id1" id="ph1" />Documents folder.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>If DISM processes are interrupted, consider temporarily disconnecting from the network and disabling virus protection.</source>
+          <target>If DISM processes are interrupted, consider temporarily disconnecting from the network and disabling virus protection.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>If DISM processes are interrupted, consider running the commands from the Windows Preinstallation Environment (WinPE) instead.</source>
+          <target>If DISM processes are interrupted, consider running the commands from the Windows Preinstallation Environment (WinPE) instead.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>DISM Image Management Command-Line Options</source>
+          <target>DISM Image Management Command-Line Options</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Service a Windows Image Using DISM</source>
+          <target>Service a Windows Image Using DISM</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

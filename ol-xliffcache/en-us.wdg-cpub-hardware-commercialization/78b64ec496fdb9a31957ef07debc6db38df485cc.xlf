@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\performance\wpt\memory-footprint-optimization.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">78b64ec496fdb9a31957ef07debc6db38df485cc</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Memory Footprint Optimization</source>
+          <target>Memory Footprint Optimization</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>The amount of memory available on a system significantly impacts the user experience.</source>
+          <target>The amount of memory available on a system significantly impacts the user experience.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Memory Footprint Optimization</source>
+          <target>Memory Footprint Optimization</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>The amount of memory available on a system significantly impacts the user experience.</source>
+          <target>The amount of memory available on a system significantly impacts the user experience.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>The impact affects areas ranging from the overall responsiveness of the system to battery life.</source>
+          <target>The impact affects areas ranging from the overall responsiveness of the system to battery life.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Available memory is an important factor to consider when evaluating the complete experience on a low memory device where Windows relies heavily on paging and swapping of content from memory.</source>
+          <target>Available memory is an important factor to consider when evaluating the complete experience on a low memory device where Windows relies heavily on paging and swapping of content from memory.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This guide walks you through the process of analyzing memory-related performance issues and identifying the root cause, whether it’s a driver or a user mode process, using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Performance Toolkit</pc>.</source>
+          <target>This guide walks you through the process of analyzing memory-related performance issues and identifying the root cause, whether it’s a driver or a user mode process, using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Performance Toolkit</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Topics include:</source>
+          <target>Topics include:</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Driver and application footprint</source>
+          <target>Driver and application footprint</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Working Sets and Resident Sets</source>
+          <target>Working Sets and Resident Sets</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Pool memory allocations</source>
+          <target>Pool memory allocations</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Heap and VirtualAlloc memory allocations</source>
+          <target>Heap and VirtualAlloc memory allocations</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Goals</source>
+          <target>Goals</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>This guide will show you how to perform the following tasks:</source>
+          <target>This guide will show you how to perform the following tasks:</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Performance Recorder (WPR)</pc> to gather traces of memory-related issues.</source>
+          <target>Use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Performance Recorder (WPR)</pc> to gather traces of memory-related issues.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Use the Assessment and Deployment Kit (ADK) Memory Footprint assessment to gather a memory usage baseline.</source>
+          <target>Use the Assessment and Deployment Kit (ADK) Memory Footprint assessment to gather a memory usage baseline.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Analyze paged/non-paged pool memory usage by drivers.</source>
+          <target>Analyze paged/non-paged pool memory usage by drivers.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Analyze working sets and resident sets of processes.</source>
+          <target>Analyze working sets and resident sets of processes.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Understand how and when memory is dynamically allocated by drivers and processes.</source>
+          <target>Understand how and when memory is dynamically allocated by drivers and processes.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Tools</source>
+          <target>Tools</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>In the past, a kernel debugger along with a large number of cryptic commands had to be used to discover what data and file pages currently occupy physical memory.</source>
+          <target>In the past, a kernel debugger along with a large number of cryptic commands had to be used to discover what data and file pages currently occupy physical memory.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Now, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Performance Toolkit (WPT)</pc> to collect and display this information in a more understandable and actionable manner through built-in Windows instrumentation.</source>
+          <target>Now, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Performance Toolkit (WPT)</pc> to collect and display this information in a more understandable and actionable manner through built-in Windows instrumentation.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPT</pc> consists of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows Performance Analyzer (WPA)</pc> and the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows Performance Recorder (WPR)</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPT</pc> consists of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows Performance Analyzer (WPA)</pc> and the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Windows Performance Recorder (WPR)</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>The Windows Assessment Toolkit in the ADK can also be used to obtain a memory footprint assessment.</source>
+          <target>The Windows Assessment Toolkit in the ADK can also be used to obtain a memory footprint assessment.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>This assessment creates a snapshot of memory use during a series of system reboots and immediately after the desktop is visible.</source>
+          <target>This assessment creates a snapshot of memory use during a series of system reboots and immediately after the desktop is visible.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>It does not evaluate memory use during ordinary computer operations.</source>
+          <target>It does not evaluate memory use during ordinary computer operations.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The ADK <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Assessment Console (WAC)</pc> is the tool used to run assessments and generate visual performance reports.</source>
+          <target>The ADK <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Assessment Console (WAC)</pc> is the tool used to run assessments and generate visual performance reports.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Terminology</source>
+          <target>Terminology</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Term</source>
+          <target>Term</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Definition</source>
+          <target>Definition</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Sharable pages</source>
+          <target>Sharable pages</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Pages that one or more processes can use.</source>
+          <target>Pages that one or more processes can use.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Examples include code pages within executable images (.dll, .exe, and .cpl) or data file pages (.txt, .doc, etc.).</source>
+          <target>Examples include code pages within executable images (.dll, .exe, and .cpl) or data file pages (.txt, .doc, etc.).</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Private pages</source>
+          <target>Private pages</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Pages used exclusively by a single process and most commonly contain dynamically allocated data such as Heap or VirtualAlloc.</source>
+          <target>Pages used exclusively by a single process and most commonly contain dynamically allocated data such as Heap or VirtualAlloc.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Process Working Set</source>
+          <target>Process Working Set</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Set of pages recently referenced by a process and contains both private and shared pages.</source>
+          <target>Set of pages recently referenced by a process and contains both private and shared pages.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Process Private Working Set</source>
+          <target>Process Private Working Set</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Set of private non-sharable pages recently referenced by a process.</source>
+          <target>Set of private non-sharable pages recently referenced by a process.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Available</source>
+          <target>Available</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Amount of memory immediately available for use by processes on the system.</source>
+          <target>Amount of memory immediately available for use by processes on the system.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>This metric is composed of pages on the Standby list that do not need to be written to persistent storage before they can be repurposed by other processes.</source>
+          <target>This metric is composed of pages on the Standby list that do not need to be written to persistent storage before they can be repurposed by other processes.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Exercises</source>
+          <target>Exercises</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>This guide consists of the following exercises.</source>
+          <target>This guide consists of the following exercises.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Exercise 1 - Identify Processes with Large Working Sets</source>
+          <target>Exercise 1 - Identify Processes with Large Working Sets</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Exercise 2 - Track User Mode Process Allocations</source>
+          <target>Exercise 2 - Track User Mode Process Allocations</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Exercise 3 - Track Driver Footprint and Dynamic Allocations During Boot</source>
+          <target>Exercise 3 - Track Driver Footprint and Dynamic Allocations During Boot</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

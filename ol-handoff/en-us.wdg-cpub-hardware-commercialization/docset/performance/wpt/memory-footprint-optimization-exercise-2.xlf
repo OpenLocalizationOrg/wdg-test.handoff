@@ -1,0 +1,1447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\performance\wpt\memory-footprint-optimization-exercise-2.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">a64132710ec9911abac39523efd30601c90f71d5</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Exercise 2 - Track User Mode Process Allocations</source>
+          <target>Exercise 2 - Track User Mode Process Allocations</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Heap allocations are made directly via Heap APIs (HeapAlloc, HeapRealloc, and C/C++ allocations such as new, alloc, realloc, calloc) and are serviced using three types of heaps</source>
+          <target>Heap allocations are made directly via Heap APIs (HeapAlloc, HeapRealloc, and C/C++ allocations such as new, alloc, realloc, calloc) and are serviced using three types of heaps</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Exercise 2 - Track User Mode Process Allocations</source>
+          <target>Exercise 2 - Track User Mode Process Allocations</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">**</data>
+          <data id="id12">**</data>
+          <data id="id13">**</data>
+          <data id="id14">**</data>
+          <data id="id15">**</data>
+          <data id="id16">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Heap</pc> allocations are made directly via <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Heap</pc> APIs (<pc dataRefEnd="id6" dataRefStart="id5" id="p3">HeapAlloc</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">HeapRealloc</pc>, and C/C++ allocations such as <pc dataRefEnd="id10" dataRefStart="id9" id="p5">new</pc>, <pc dataRefEnd="id12" dataRefStart="id11" id="p6">alloc</pc>, <pc dataRefEnd="id14" dataRefStart="id13" id="p7">realloc</pc>, <pc dataRefEnd="id16" dataRefStart="id15" id="p8">calloc</pc>) and are serviced using three types of heaps:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Heap</pc> allocations are made directly via <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Heap</pc> APIs (<pc dataRefEnd="id6" dataRefStart="id5" id="p3">HeapAlloc</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">HeapRealloc</pc>, and C/C++ allocations such as <pc dataRefEnd="id10" dataRefStart="id9" id="p5">new</pc>, <pc dataRefEnd="id12" dataRefStart="id11" id="p6">alloc</pc>, <pc dataRefEnd="id14" dataRefStart="id13" id="p7">realloc</pc>, <pc dataRefEnd="id16" dataRefStart="id15" id="p8">calloc</pc>) and are serviced using three types of heaps:</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mainline NT Heap</pc> – Services allocation requests of sizes less than 64 KB.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mainline NT Heap</pc> – Services allocation requests of sizes less than 64 KB.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Low Fragmentation Heap</pc> – Composed of sub-segments that service allocation requests of fixed size blocks.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Low Fragmentation Heap</pc> – Composed of sub-segments that service allocation requests of fixed size blocks.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> – Services allocation requests of sizes greater than 64 KB.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> – Services allocation requests of sizes greater than 64 KB.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> is used for large dynamic memory allocations that are made directly via the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">VirtualAlloc</pc> API.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> is used for large dynamic memory allocations that are made directly via the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">VirtualAlloc</pc> API.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The typical usage is usually for bitmaps or buffers.</source>
+          <target>The typical usage is usually for bitmaps or buffers.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> to reserve a block of pages and then make additional calls to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">VirtualAlloc</pc> to commit individual pages from the reserved block.</source>
+          <target>You can use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> to reserve a block of pages and then make additional calls to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">VirtualAlloc</pc> to commit individual pages from the reserved block.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>This enables a process to reserve a range of its virtual address space without consuming physical storage until it is needed.</source>
+          <target>This enables a process to reserve a range of its virtual address space without consuming physical storage until it is needed.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>There are two concepts to understand in this area:</source>
+          <target>There are two concepts to understand in this area:</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reserved memory</pc>: Reserves an address range for usage but does not acquire memory resources.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reserved memory</pc>: Reserves an address range for usage but does not acquire memory resources.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Committed memory</pc>: Ensures that either physical memory or page file space will be available if the addresses are referenced.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Committed memory</pc>: Ensures that either physical memory or page file space will be available if the addresses are referenced.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>In this exercise, you will learn how to gather traces to investigate how a user mode process allocates memory.</source>
+          <target>In this exercise, you will learn how to gather traces to investigate how a user mode process allocates memory.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The exercise focuses on a dummy test process called <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> that allocates memory through:</source>
+          <target>The exercise focuses on a dummy test process called <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> that allocates memory through:</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> API to commit large memory buffers.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> API to commit large memory buffers.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The C++ <pc dataRefEnd="id2" dataRefStart="id1" id="p1">new</pc> operator to instantiate small objects.</source>
+          <target>The C++ <pc dataRefEnd="id2" dataRefStart="id1" id="p1">new</pc> operator to instantiate small objects.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](http://download.microsoft.com/download/9/C/8/9C88C0A1-1200-416A-B92B-2EBB128E4A4B/MemoryTestApp.exe)</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can download <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> from <pc dataRefEnd="id4" dataRefStart="id3" id="p2">here</pc>.</source>
+          <target>You can download <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> from <pc dataRefEnd="id4" dataRefStart="id3" id="p2">here</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Step 1: Gather a virtualAlloc/heap trace using WPR</source>
+          <target>Step 1: Gather a virtualAlloc/heap trace using WPR</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Large memory allocations are usually the ones that impact the footprint of a process and are serviced by the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> API.</source>
+          <target>Large memory allocations are usually the ones that impact the footprint of a process and are serviced by the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> API.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This is where all investigations should begin, but it is also possible that a process misbehaves with smaller allocations (e.g. memory leaks using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">new</pc> operator in C++, etc.).</source>
+          <target>This is where all investigations should begin, but it is also possible that a process misbehaves with smaller allocations (e.g. memory leaks using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">new</pc> operator in C++, etc.).</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Heap tracing becomes useful when this situation happens.</source>
+          <target>Heap tracing becomes useful when this situation happens.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Step 1.1: Prepare the system for heap tracing</source>
+          <target>Step 1.1: Prepare the system for heap tracing</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Heap tracing should be considered optional and done when <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> analysis does not provide any relevant explanation for a memory usage issue.</source>
+          <target>Heap tracing should be considered optional and done when <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> analysis does not provide any relevant explanation for a memory usage issue.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Heap tracing tends to produce larger traces, and it is recommended to enable tracing only for the individual processes that you’re investigating.</source>
+          <target>Heap tracing tends to produce larger traces, and it is recommended to enable tracing only for the individual processes that you’re investigating.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add the registry key for the process of interest (<pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> in this case); heap tracing is then enabled for every subsequent process creation.</source>
+          <target>Add the registry key for the process of interest (<pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> in this case); heap tracing is then enabled for every subsequent process creation.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Step 1.2: Capture a trace using WPR</source>
+          <target>Step 1.2: Capture a trace using WPR</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this step, you’ll gather a trace using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPR</pc> that contains <pc dataRefEnd="id4" dataRefStart="id3" id="p2">VirtualAlloc</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Heap</pc> data.</source>
+          <target>In this step, you’ll gather a trace using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPR</pc> that contains <pc dataRefEnd="id4" dataRefStart="id3" id="p2">VirtualAlloc</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Heap</pc> data.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPR</pc> and modify the tracing configuration.</source>
+          <target>Open <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPR</pc> and modify the tracing configuration.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Heap</pc> providers.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Heap</pc> providers.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">general</pc> as the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">performance scenario</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">general</pc> as the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">performance scenario</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">general</pc> as the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">logging mode</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">general</pc> as the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">logging mode</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> to start tracing.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> to start tracing.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Launch <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc>, and wait for the process to terminate (it should take around 30 seconds).</source>
+          <target>Launch <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc>, and wait for the process to terminate (it should take around 30 seconds).</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Return to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPR</pc>, save the trace, and open it with <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows Performance Analyzer (WPA)</pc>.</source>
+          <target>Return to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPR</pc>, save the trace, and open it with <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows Performance Analyzer (WPA)</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trace</pc> menu and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configure symbols path</pc>.</source>
+          <target>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trace</pc> menu and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configure symbols path</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Specify the path of the symbol cache.</source>
+          <target>Specify the path of the symbol cache.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://go.microsoft.com/fwlink/?linkid=623019)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information on symbols, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Symbol Support</pc> page on MSDN.</source>
+          <target>For more information on symbols, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Symbol Support</pc> page on MSDN.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trace</pc> menu and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Load symbols</pc>.</source>
+          <target>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trace</pc> menu and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Load symbols</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You now have a trace that contains all memory allocation patterns for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> process during its lifetime.</source>
+          <target>You now have a trace that contains all memory allocation patterns for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> process during its lifetime.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Step 2: Review VirtualAlloc dynamic allocations</source>
+          <target>Step 2: Review VirtualAlloc dynamic allocations</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The detailed <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> data is exposed via the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">‘VirtualAlloc Commit Lifetimes’</pc> graph in WPA.</source>
+          <target>The detailed <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> data is exposed via the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">‘VirtualAlloc Commit Lifetimes’</pc> graph in WPA.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>The key columns of interest are the following:</source>
+          <target>The key columns of interest are the following:</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Column</source>
+          <target>Column</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Process</source>
+          <target>Process</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The name of the process that performs memory allocations through <ph dataRef="id1" id="ph1" />VirtualAlloc<ph dataRef="id2" id="ph2" />.</source>
+          <target>The name of the process that performs memory allocations through <ph dataRef="id1" id="ph1" />VirtualAlloc<ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Commit Stack</source>
+          <target>Commit Stack</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>The call stack that shows the code path leading to memory being allocated.</source>
+          <target>The call stack that shows the code path leading to memory being allocated.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Commit Time</source>
+          <target>Commit Time</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>The timestamp of when memory was allocated.</source>
+          <target>The timestamp of when memory was allocated.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Decommit Time</source>
+          <target>Decommit Time</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>The timestamp of when memory was freed.</source>
+          <target>The timestamp of when memory was freed.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Impacting Size</source>
+          <target>Impacting Size</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>The size of outstanding allocations or the size difference between the start and end of the selected time interval.</source>
+          <target>The size of outstanding allocations or the size difference between the start and end of the selected time interval.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>This size adjusts based on the selected view port.</source>
+          <target>This size adjusts based on the selected view port.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+          <data id="id3">&lt;strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" />Impacting Size<ph dataRef="id2" id="ph2" /> value will be zero if all memory allocated by a process is freed by the end of the visualized interval in <ph dataRef="id3" id="ph3" />WPA.</source>
+          <target>The <ph dataRef="id1" id="ph1" />Impacting Size<ph dataRef="id2" id="ph2" /> value will be zero if all memory allocated by a process is freed by the end of the visualized interval in <ph dataRef="id3" id="ph3" />WPA.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Size</source>
+          <target>Size</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>The cumulative sum of all allocation during the selected time interval.</source>
+          <target>The cumulative sum of all allocation during the selected time interval.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Follow these steps to analyze <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc></source>
+          <target>Follow these steps to analyze <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc></target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Find the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc Commit Lifetimes</pc> graph in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Memory</pc> category of the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Graph Explorer</pc>.</source>
+          <target>Find the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc Commit Lifetimes</pc> graph in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Memory</pc> category of the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Graph Explorer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Drag and drop the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc Commit Lifetimes</pc> onto the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Analysis</pc> tab.</source>
+          <target>Drag and drop the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc Commit Lifetimes</pc> onto the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Analysis</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Organize the table to show these columns.</source>
+          <target>Organize the table to show these columns.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Right-click on the column headers to add or remove columns.</source>
+          <target>Right-click on the column headers to add or remove columns.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Process</source>
+          <target>Process</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Impacting Type</source>
+          <target>Impacting Type</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Commit Stack</source>
+          <target>Commit Stack</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Commit Time</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Decommit Time</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Commit Time</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Decommit Time</pc></target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Count</source>
+          <target>Count</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Size</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Size</pc></target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Find <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> in the process list.</source>
+          <target>Find <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> in the process list.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Apply a filter to keep only <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> on the graph.</source>
+          <target>Apply a filter to keep only <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> on the graph.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click, and select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Filter</pc> to Selection.</source>
+          <target>Right-click, and select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Filter</pc> to Selection.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Your analysis viewport should look similar to this:</source>
+          <target>Your analysis viewport should look similar to this:</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>In the preceding example, two values are of interest:</source>
+          <target>In the preceding example, two values are of interest:</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Size</pc> of 126 MB: This indicates that <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MemoryTestApp.exe</pc> allocated a total of 125 MB over the course of its lifespan.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Size</pc> of 126 MB: This indicates that <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MemoryTestApp.exe</pc> allocated a total of 125 MB over the course of its lifespan.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>It represents the cumulative sum of all <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> API calls made by the process and its dependencies.</source>
+          <target>It represents the cumulative sum of all <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> API calls made by the process and its dependencies.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> of 0 MB: This indicates that all of the memory allocated by the process is freed by the end of the time interval being currently analyzed.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> of 0 MB: This indicates that all of the memory allocated by the process is freed by the end of the time interval being currently analyzed.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>The system didn’t suffer from an increase of its steady state memory usage.</source>
+          <target>The system didn’t suffer from an increase of its steady state memory usage.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Step 2.1: Analyze steady state memory usage</source>
+          <target>Step 2.1: Analyze steady state memory usage</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>When investigating memory allocation, you should try to answer the question: “Why is the steady state memory usage growing for this scenario?”</source>
+          <target>When investigating memory allocation, you should try to answer the question: “Why is the steady state memory usage growing for this scenario?”</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> example, you can see that it has about 10 MB of steady state memory allocated at the beginning, and then it increases to 20 MB halfway through.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> example, you can see that it has about 10 MB of steady state memory allocated at the beginning, and then it increases to 20 MB halfway through.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>To investigate this behavior, narrow the zoom to around the time interval when the sudden increase occurs in the middle of the trace.</source>
+          <target>To investigate this behavior, narrow the zoom to around the time interval when the sudden increase occurs in the middle of the trace.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Your viewport should look like this.</source>
+          <target>Your viewport should look like this.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>As you can see, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> is now <pc dataRefEnd="id4" dataRefStart="id3" id="p2">10 MB</pc>.</source>
+          <target>As you can see, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> is now <pc dataRefEnd="id4" dataRefStart="id3" id="p2">10 MB</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>This means that, between the start and the end of the time interval being analyzed, there’s a 10 MB increase in steady state memory usage.</source>
+          <target>This means that, between the start and the end of the time interval being analyzed, there’s a 10 MB increase in steady state memory usage.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Sort by <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> by clicking on the column header.</source>
+          <target>Sort by <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> by clicking on the column header.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> row (in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Process</pc> column).</source>
+          <target>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> row (in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Process</pc> column).</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting</pc> row (in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Impacting Type</pc> column).</source>
+          <target>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting</pc> row (in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Impacting Type</pc> column).</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Navigate through the process <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Commit Stack</pc> until you find the function that allocated 10 MB of memory.</source>
+          <target>Navigate through the process <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Commit Stack</pc> until you find the function that allocated 10 MB of memory.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this example, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Main</pc> function of <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MemoryTestApp.exe</pc> allocates 10 MB of memory in the middle of the workload by directly calling <pc dataRefEnd="id6" dataRefStart="id5" id="p3">VirtualAlloc</pc>.</source>
+          <target>In this example, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Main</pc> function of <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MemoryTestApp.exe</pc> allocates 10 MB of memory in the middle of the workload by directly calling <pc dataRefEnd="id6" dataRefStart="id5" id="p3">VirtualAlloc</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>In the real world, the application developer should determine if the allocation is reasonable or if the code could be rearranged to minimize the steady state memory usage increase.</source>
+          <target>In the real world, the application developer should determine if the allocation is reasonable or if the code could be rearranged to minimize the steady state memory usage increase.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can now <pc dataRefEnd="id2" dataRefStart="id1" id="p1">unzoom</pc> the viewport in WPA.</source>
+          <target>You can now <pc dataRefEnd="id2" dataRefStart="id1" id="p1">unzoom</pc> the viewport in WPA.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Step 2.2: Analyze transient (or peak) memory usage</source>
+          <target>Step 2.2: Analyze transient (or peak) memory usage</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>When investigating memory allocations, you should try to answer the question: “Why is there a transient peak in the memory usage for this part of the scenario?”</source>
+          <target>When investigating memory allocations, you should try to answer the question: “Why is there a transient peak in the memory usage for this part of the scenario?”</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Transient allocations cause spikes in memory usage, and can lead to fragmentation and push valuable content out of the system Standby cache when there’s memory pressure.</source>
+          <target>Transient allocations cause spikes in memory usage, and can lead to fragmentation and push valuable content out of the system Standby cache when there’s memory pressure.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTest</pc> example, you can see that there are 10 different spikes of memory usage (of 10 MB) evenly scattered across the trace.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTest</pc> example, you can see that there are 10 different spikes of memory usage (of 10 MB) evenly scattered across the trace.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Narrow the zoom to the last four spikes, to focus on a smaller region of interest and reduce noise from non-relevant behaviors.</source>
+          <target>Narrow the zoom to the last four spikes, to focus on a smaller region of interest and reduce noise from non-relevant behaviors.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Your viewport should look like this:</source>
+          <target>Your viewport should look like this:</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Sort by <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Size</pc> by clicking on the column header.</source>
+          <target>Sort by <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Size</pc> by clicking on the column header.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> row (in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Process</pc> column).</source>
+          <target>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> row (in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Process</pc> column).</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Transient</pc> row (in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Impacting Type</pc> column).</source>
+          <target>Click on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Transient</pc> row (in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Impacting Type</pc> column).</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>This should highlight in blue all the spikes of memory usage in the viewport.</source>
+          <target>This should highlight in blue all the spikes of memory usage in the viewport.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Note the value of the different columns:</source>
+          <target>Note the value of the different columns:</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Count</pc> = 4: This indicates that four transient memory allocations were made during that time interval.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Count</pc> = 4: This indicates that four transient memory allocations were made during that time interval.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> = 0 MB: This indicates that all four transient memory allocations were freed by the end of the time interval.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> = 0 MB: This indicates that all four transient memory allocations were freed by the end of the time interval.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Size</pc> = 40 MB: This indicates that sum of all four transient memory allocations amount to 40 MB of memory.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Size</pc> = 40 MB: This indicates that sum of all four transient memory allocations amount to 40 MB of memory.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Navigate through the process <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Commit Stack</pc> until you find the functions that allocated 40 MB of memory.</source>
+          <target>Navigate through the process <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Commit Stack</pc> until you find the functions that allocated 40 MB of memory.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this example, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Main</pc> function of <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MemoryTestApp.exe</pc> calls a function named <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Operation1</pc>, which in turn calls a function named <pc dataRefEnd="id8" dataRefStart="id7" id="p4">ManipulateTemporaryBuffer</pc>.</source>
+          <target>In this example, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Main</pc> function of <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MemoryTestApp.exe</pc> calls a function named <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Operation1</pc>, which in turn calls a function named <pc dataRefEnd="id8" dataRefStart="id7" id="p4">ManipulateTemporaryBuffer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ManipulateTemporaryBuffer</pc> function then directly calls <pc dataRefEnd="id4" dataRefStart="id3" id="p2">VirtualAlloc</pc> four times, creating and freeing a 10 MB memory buffer every time.</source>
+          <target>This <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ManipulateTemporaryBuffer</pc> function then directly calls <pc dataRefEnd="id4" dataRefStart="id3" id="p2">VirtualAlloc</pc> four times, creating and freeing a 10 MB memory buffer every time.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>The buffers only last 100 ms each.</source>
+          <target>The buffers only last 100 ms each.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The buffers' allocation and free times are represented by the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Commit Time</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Decommit Time</pc> columns.</source>
+          <target>The buffers' allocation and free times are represented by the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Commit Time</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Decommit Time</pc> columns.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>In the real world, the application developer would determine if those short-lived transient temporary buffer allocations are necessary, or if they can be replaced by using a permanent memory buffer for the operation.</source>
+          <target>In the real world, the application developer would determine if those short-lived transient temporary buffer allocations are necessary, or if they can be replaced by using a permanent memory buffer for the operation.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can now <pc dataRefEnd="id2" dataRefStart="id1" id="p1">unzoom</pc> the viewport in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">WPA</pc>.</source>
+          <target>You can now <pc dataRefEnd="id2" dataRefStart="id1" id="p1">unzoom</pc> the viewport in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">WPA</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Step 3: Review heap dynamic allocations</source>
+          <target>Step 3: Review heap dynamic allocations</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>So far, the analysis has only focused on large memory allocations that are serviced by the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> API.</source>
+          <target>So far, the analysis has only focused on large memory allocations that are serviced by the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">VirtualAlloc</pc> API.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>The next step is to determine if there are issues with other small allocations made by the process, using the Heap data initially gathered.</source>
+          <target>The next step is to determine if there are issues with other small allocations made by the process, using the Heap data initially gathered.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The detailed Heap data is exposed via the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">“Heap Allocations”</pc> graph in WPA.</source>
+          <target>The detailed Heap data is exposed via the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">“Heap Allocations”</pc> graph in WPA.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>The key columns of interest are the following:</source>
+          <target>The key columns of interest are the following:</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Column</source>
+          <target>Column</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Process</source>
+          <target>Process</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>The name of the process that is performing memory allocation.</source>
+          <target>The name of the process that is performing memory allocation.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Handle</source>
+          <target>Handle</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>The identifier of the Heap that is used to service the allocation.</source>
+          <target>The identifier of the Heap that is used to service the allocation.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Heaps can be created, so there could be multiple heap handles for the process.</source>
+          <target>Heaps can be created, so there could be multiple heap handles for the process.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Stack</source>
+          <target>Stack</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>The call stack that shows the code path that leads to memory being allocated.</source>
+          <target>The call stack that shows the code path that leads to memory being allocated.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Alloc Time</source>
+          <target>Alloc Time</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>The timestamp of when memory was allocated.</source>
+          <target>The timestamp of when memory was allocated.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Impacting Size</source>
+          <target>Impacting Size</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>The size of outstanding allocations or the difference between the start and end of the selected viewport.</source>
+          <target>The size of outstanding allocations or the difference between the start and end of the selected viewport.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>This size adjusts based on the selected time interval.</source>
+          <target>This size adjusts based on the selected time interval.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Size</source>
+          <target>Size</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>The cumulative sum of all allocations/deallocations.</source>
+          <target>The cumulative sum of all allocations/deallocations.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Follow these steps to analyze <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc></source>
+          <target>Follow these steps to analyze <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc></target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Find the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Heap Allocations</pc> graph in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Memory</pc> category of the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Graph Explorer</pc>.</source>
+          <target>Find the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Heap Allocations</pc> graph in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Memory</pc> category of the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Graph Explorer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Drag and drop the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Heap Allocations</pc> onto the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Analysis</pc> tab.</source>
+          <target>Drag and drop the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Heap Allocations</pc> onto the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Analysis</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Organize the table to show these columns:</source>
+          <target>Organize the table to show these columns:</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>Process</source>
+          <target>Process</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Handle</source>
+          <target>Handle</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Impacting Type</source>
+          <target>Impacting Type</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Stack</source>
+          <target>Stack</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>AllocTime</source>
+          <target>AllocTime</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>Count</source>
+          <target>Count</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Size</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Size</pc></target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Find <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> in the process list.</source>
+          <target>Find <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> in the process list.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Apply a filter to keep only <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> on the graph.</source>
+          <target>Apply a filter to keep only <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MemoryTestApp.exe</pc> on the graph.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Right-click and select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Filter</pc> to Selection.</source>
+          <target>Right-click and select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Filter</pc> to Selection.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Your viewport should look like this:</source>
+          <target>Your viewport should look like this:</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>In this example, you can see that one of the heaps is steadily increasing in size over time at a constant rate.</source>
+          <target>In this example, you can see that one of the heaps is steadily increasing in size over time at a constant rate.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>There are 1200 memory allocations on that heap, accounting for 130 KB of used memory by the end of the interval.</source>
+          <target>There are 1200 memory allocations on that heap, accounting for 130 KB of used memory by the end of the interval.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>Zoom in on a smaller interval (for example, 10 seconds) in the middle of the trace.</source>
+          <target>Zoom in on a smaller interval (for example, 10 seconds) in the middle of the trace.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the head <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Handle</pc> that shows the largest amount of allocations (as shown in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Impacting Size</pc> column).</source>
+          <target>Expand the head <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Handle</pc> that shows the largest amount of allocations (as shown in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Impacting Size</pc> column).</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting</pc> type.</source>
+          <target>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting</pc> type.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Navigate through the process <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Stack</pc> until you find the function that is responsible for allocating all this memory.</source>
+          <target>Navigate through the process <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Stack</pc> until you find the function that is responsible for allocating all this memory.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this example, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Main</pc> function of <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MemoryTestApp.exe</pc> calls a function named <pc dataRefEnd="id6" dataRefStart="id5" id="p3">InnerLoopOperation</pc>.</source>
+          <target>In this example, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Main</pc> function of <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MemoryTestApp.exe</pc> calls a function named <pc dataRefEnd="id6" dataRefStart="id5" id="p3">InnerLoopOperation</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This <pc dataRefEnd="id2" dataRefStart="id1" id="p1">InnerLoopOperation</pc> function then allocates 40 bytes of memory 319 times through the C++ <pc dataRefEnd="id4" dataRefStart="id3" id="p2">new</pc> operator.</source>
+          <target>This <pc dataRefEnd="id2" dataRefStart="id1" id="p1">InnerLoopOperation</pc> function then allocates 40 bytes of memory 319 times through the C++ <pc dataRefEnd="id4" dataRefStart="id3" id="p2">new</pc> operator.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>This memory remains allocated until the process is terminated.</source>
+          <target>This memory remains allocated until the process is terminated.</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>In the real world, the application developer should then determine if this behavior implies a possible memory leak and fix the issue.</source>
+          <target>In the real world, the application developer should then determine if this behavior implies a possible memory leak and fix the issue.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>Step 4: Clean up the test system</source>
+          <target>Step 4: Clean up the test system</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Once the analysis is complete, you should clean up the registry to make sure that heap tracing is disabled for the process.</source>
+          <target>Once the analysis is complete, you should clean up the registry to make sure that heap tracing is disabled for the process.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>Run this command on an elevated command prompt:</source>
+          <target>Run this command on an elevated command prompt:</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

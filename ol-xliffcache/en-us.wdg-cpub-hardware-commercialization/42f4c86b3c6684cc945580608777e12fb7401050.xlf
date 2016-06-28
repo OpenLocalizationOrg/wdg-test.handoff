@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\deployment-troubleshooting-and-log-files.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">42f4c86b3c6684cc945580608777e12fb7401050</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Deployment Troubleshooting and Log Files</source>
+          <target>Deployment Troubleshooting and Log Files</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Deployment Troubleshooting and Log Files</source>
+          <target>Deployment Troubleshooting and Log Files</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Deployment Troubleshooting and Log Files</source>
+          <target>Deployment Troubleshooting and Log Files</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>The following section describes the relationship between common deployment scenarios and their associated log files.</source>
+          <target>The following section describes the relationship between common deployment scenarios and their associated log files.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows® deployment is a highly customizable process, which has the potential for many points of failure.</source>
+          <target>Windows® deployment is a highly customizable process, which has the potential for many points of failure.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Identifying the specific point of failure you have encountered begins with understanding how the underlying technologies work.</source>
+          <target>Identifying the specific point of failure you have encountered begins with understanding how the underlying technologies work.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Windows Setup Scenario</source>
+          <target>Windows Setup Scenario</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>This scenario begins with completing Windows Setup on a new computer, so that you arrive at the desktop.</source>
+          <target>This scenario begins with completing Windows Setup on a new computer, so that you arrive at the desktop.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>This scenario is most common when you are creating a reference image.</source>
+          <target>This scenario is most common when you are creating a reference image.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>This process is also known as the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">first user experience</pc>.</source>
+          <target>This process is also known as the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">first user experience</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>As shown in the following illustration, the key to solving failures is identifying where you are in the installation process and when a failure occurs.</source>
+          <target>As shown in the following illustration, the key to solving failures is identifying where you are in the installation process and when a failure occurs.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Because you are creating a new installation, the hard drive is not initially available, so Windows Setup writes logs into memory, specifically in a Windows PE session (X:<ph dataRef="id1" id="ph1" />Windows).</source>
+          <target>Because you are creating a new installation, the hard drive is not initially available, so Windows Setup writes logs into memory, specifically in a Windows PE session (X:<ph dataRef="id1" id="ph1" />Windows).</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the hard drive is formatted, Setup continues logging directly onto the new hard drive (C:<ph dataRef="id1" id="ph1" />Windows).</source>
+          <target>After the hard drive is formatted, Setup continues logging directly onto the new hard drive (C:<ph dataRef="id1" id="ph1" />Windows).</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Log files created during the Windows PE session are temporary.</source>
+          <target>Log files created during the Windows PE session are temporary.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>windows setup log files</source>
+          <target>windows setup log files</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>When a failure occurs in Windows Setup, review the entries in the Setuperr.log file first, then the Setupact.log file second, and then other log files as needed.</source>
+          <target>When a failure occurs in Windows Setup, review the entries in the Setuperr.log file first, then the Setupact.log file second, and then other log files as needed.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Windows Setup-Related Log Files</source>
+          <target>Windows Setup-Related Log Files</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Log file</source>
+          <target>Log file</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Location</source>
+          <target>Location</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Setupact.log</source>
+          <target>Setupact.log</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Primary log file for most errors that occur during the Windows installation process.</source>
+          <target>Primary log file for most errors that occur during the Windows installation process.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>There are several instances of the Setupact.log file, depending on what point in the installation process the failure occurs.</source>
+          <target>There are several instances of the Setupact.log file, depending on what point in the installation process the failure occurs.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>It is important to know which version of the Setupact.log file to look at, based on the phase you are in.</source>
+          <target>It is important to know which version of the Setupact.log file to look at, based on the phase you are in.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Setup (specialize):<ph dataRef="id1" id="ph1" /> X:\Windows\panther</source>
+          <target>Setup (specialize):<ph dataRef="id1" id="ph1" /> X:\Windows\panther</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Setup (OOBE), LogonUI, OEM First Run:<ph dataRef="id1" id="ph1" />%windir%\panther</source>
+          <target>Setup (OOBE), LogonUI, OEM First Run:<ph dataRef="id1" id="ph1" />%windir%\panther</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Out-Of-Box Experience (OOBE):<ph dataRef="id1" id="ph1" /> %windir%\panther\unattendGC</source>
+          <target>Out-Of-Box Experience (OOBE):<ph dataRef="id1" id="ph1" /> %windir%\panther\unattendGC</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Setuperr.log</source>
+          <target>Setuperr.log</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>High-level list of errors that occurred during the <ph dataRef="id1" id="ph1" />specialize<ph dataRef="id2" id="ph2" /> phase of Setup.</source>
+          <target>High-level list of errors that occurred during the <ph dataRef="id1" id="ph1" />specialize<ph dataRef="id2" id="ph2" /> phase of Setup.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>The Setuperr.log file does not provide any specific details.</source>
+          <target>The Setuperr.log file does not provide any specific details.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Setup (specialize):<ph dataRef="id1" id="ph1" /> %windir%\panther</source>
+          <target>Setup (specialize):<ph dataRef="id1" id="ph1" /> %windir%\panther</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Setup (specialize):<ph dataRef="id1" id="ph1" /> %windir%\panther</source>
+          <target>Setup (specialize):<ph dataRef="id1" id="ph1" /> %windir%\panther</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Setup (OOBE), LogonUI, OEM First Run:<ph dataRef="id1" id="ph1" /> %windir%\panther</source>
+          <target>Setup (OOBE), LogonUI, OEM First Run:<ph dataRef="id1" id="ph1" /> %windir%\panther</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Setupapi.offline.log</source>
+          <target>Setupapi.offline.log</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Driver failures during the Component Specialization sub-phase of the Setup <ph dataRef="id1" id="ph1" />specialize<ph dataRef="id2" id="ph2" /> phase.</source>
+          <target>Driver failures during the Component Specialization sub-phase of the Setup <ph dataRef="id1" id="ph1" />specialize<ph dataRef="id2" id="ph2" /> phase.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>%windir%\inf</source>
+          <target>%windir%\inf</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Cbs_unattend.log</source>
+          <target>Cbs_unattend.log</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Unattended-setup servicing failures.</source>
+          <target>Unattended-setup servicing failures.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>%windir%\panther</source>
+          <target>%windir%\panther</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Setupapi.dev.log</source>
+          <target>Setupapi.dev.log</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Driver failures during the <ph dataRef="id1" id="ph1" />oobe<ph dataRef="id2" id="ph2" /> phase of Setup.</source>
+          <target>Driver failures during the <ph dataRef="id1" id="ph1" />oobe<ph dataRef="id2" id="ph2" /> phase of Setup.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>%windir%\inf</source>
+          <target>%windir%\inf</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Sessions.xml</source>
+          <target>Sessions.xml</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>An XML-based transaction log file that tracks all servicing activity, based on session id, client, status, tasks, and actions.</source>
+          <target>An XML-based transaction log file that tracks all servicing activity, based on session id, client, status, tasks, and actions.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>If necessary, the Sessions.log file will point to the DISM.log and CBS.log files for more details.</source>
+          <target>If necessary, the Sessions.log file will point to the DISM.log and CBS.log files for more details.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>%windir%\servicing\sessions</source>
+          <target>%windir%\servicing\sessions</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>CBS.log</source>
+          <target>CBS.log</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Servicing log file that provides more details about offline-servicing failures.</source>
+          <target>Servicing log file that provides more details about offline-servicing failures.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>%windir%\panther</source>
+          <target>%windir%\panther</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Offline Servicing Scenario</source>
+          <target>Offline Servicing Scenario</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>This scenario involves adding and removing updates, drivers, and language packs, and configuring other settings, without booting Windows.</source>
+          <target>This scenario involves adding and removing updates, drivers, and language packs, and configuring other settings, without booting Windows.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Offline servicing is an efficient way to manage existing images that are stored on a server, because it eliminates the need for recreating updated images.</source>
+          <target>Offline servicing is an efficient way to manage existing images that are stored on a server, because it eliminates the need for recreating updated images.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>You can perform offline servicing on an image that is mounted or applied to a drive or directory.</source>
+          <target>You can perform offline servicing on an image that is mounted or applied to a drive or directory.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>offline servicing failure analysis</source>
+          <target>offline servicing failure analysis</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>The Deployment Image Servicing and Management (DISM) tool is the primary tool for all offline-servicing tasks.</source>
+          <target>The Deployment Image Servicing and Management (DISM) tool is the primary tool for all offline-servicing tasks.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>DISM runs from a command prompt from Windows PE or a running Windows operating system.</source>
+          <target>DISM runs from a command prompt from Windows PE or a running Windows operating system.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>If a failure occurs when executing a DISM command, the tool will provide an immediate response, and log the issue in the DISM.log file.</source>
+          <target>If a failure occurs when executing a DISM command, the tool will provide an immediate response, and log the issue in the DISM.log file.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>The Session.xml file is a transaction log file that captures all servicing activities on the target operating system.</source>
+          <target>The Session.xml file is a transaction log file that captures all servicing activities on the target operating system.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>The Session.xml file can be used in conjunction with the DISM.log file to determine points of failures and the required servicing activity.</source>
+          <target>The Session.xml file can be used in conjunction with the DISM.log file to determine points of failures and the required servicing activity.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>When a failure occurs in offline servicing, look at the DISM.log file first for specific errors.</source>
+          <target>When a failure occurs in offline servicing, look at the DISM.log file first for specific errors.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>If the DISM.log file doesn’t contain any errors, review the Sessions.xml log file second, and then the CBS.log file.</source>
+          <target>If the DISM.log file doesn’t contain any errors, review the Sessions.xml log file second, and then the CBS.log file.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Offline Servicing Related Log Files</source>
+          <target>Offline Servicing Related Log Files</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Log file</source>
+          <target>Log file</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Location</source>
+          <target>Location</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>DISM.log</source>
+          <target>DISM.log</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Primary log file for all offline actions using DISM.</source>
+          <target>Primary log file for all offline actions using DISM.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>%windir%\logs\dism</source>
+          <target>%windir%\logs\dism</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can also create the DISM log file in a different location by using the <ph dataRef="id1" id="ph1" />/LogPath<ph dataRef="id2" id="ph2" /> option.</source>
+          <target>You can also create the DISM log file in a different location by using the <ph dataRef="id1" id="ph1" />/LogPath<ph dataRef="id2" id="ph2" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">&lt;strong&gt;</data>
+          <data id="id2">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>The level of data written to the log file can also be controlled by using the <ph dataRef="id1" id="ph1" />/LogLevel<ph dataRef="id2" id="ph2" /> option.</source>
+          <target>The level of data written to the log file can also be controlled by using the <ph dataRef="id1" id="ph1" />/LogLevel<ph dataRef="id2" id="ph2" /> option.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Sessions.xml</source>
+          <target>Sessions.xml</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>An XML-based transaction log that tracks all servicing activity, based on session id, client, status, tasks, and actions.</source>
+          <target>An XML-based transaction log that tracks all servicing activity, based on session id, client, status, tasks, and actions.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>If necessary, the Sessions.log file will point to the DISM.log and CBS.log files for more details.</source>
+          <target>If necessary, the Sessions.log file will point to the DISM.log and CBS.log files for more details.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>%windir%\servicing\sessions</source>
+          <target>%windir%\servicing\sessions</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](understanding-servicing-strategies.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more about offline servicing, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Understanding Servicing Strategies</pc>.</source>
+          <target>To learn more about offline servicing, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Understanding Servicing Strategies</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Online Servicing Scenario</source>
+          <target>Online Servicing Scenario</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>This scenario is servicing a running operating system.</source>
+          <target>This scenario is servicing a running operating system.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>This scenario involves booting the computer to audit mode to add drivers, applications, and other packages.</source>
+          <target>This scenario involves booting the computer to audit mode to add drivers, applications, and other packages.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Online servicing is ideal for drivers if the driver packages have co-installers or application dependencies.</source>
+          <target>Online servicing is ideal for drivers if the driver packages have co-installers or application dependencies.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>It is also efficient when the majority of your servicing packages have installers, the updates are in either .msi or KB.exe file formats, or the applications rely on Windows-installed services and technologies (such as the .NET Framework or full plug and play support).</source>
+          <target>It is also efficient when the majority of your servicing packages have installers, the updates are in either .msi or KB.exe file formats, or the applications rely on Windows-installed services and technologies (such as the .NET Framework or full plug and play support).</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>online servicing failure analysis</source>
+          <target>online servicing failure analysis</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Like offline servicing, all logging is captured in the DISM.log, CBS.log, and Sessions.xml files.</source>
+          <target>Like offline servicing, all logging is captured in the DISM.log, CBS.log, and Sessions.xml files.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>If a failure occurs when executing a DISM command, the tool will provide immediate response as well as log the issue in the DISM.log file.</source>
+          <target>If a failure occurs when executing a DISM command, the tool will provide immediate response as well as log the issue in the DISM.log file.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>The Session.xml file is a transaction log file that captures all servicing activities on the target operating system.</source>
+          <target>The Session.xml file is a transaction log file that captures all servicing activities on the target operating system.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>The Session.xml file can be used in conjunction with the DISM.log file to determine points of failures and the required servicing activities.</source>
+          <target>The Session.xml file can be used in conjunction with the DISM.log file to determine points of failures and the required servicing activities.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>When a failure occurs in offline servicing, look at the DISM.log file for specific errors.</source>
+          <target>When a failure occurs in offline servicing, look at the DISM.log file for specific errors.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>If the DISM.log file doesn’t contain any errors, review the Sessions.xml log file and then the CBS.log file.</source>
+          <target>If the DISM.log file doesn’t contain any errors, review the Sessions.xml log file and then the CBS.log file.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Online Servicing-Related Log Files</source>
+          <target>Online Servicing-Related Log Files</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Log file</source>
+          <target>Log file</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Location</source>
+          <target>Location</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>DISM.log</source>
+          <target>DISM.log</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Primary log file for all online actions using DISM.</source>
+          <target>Primary log file for all online actions using DISM.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>If necessary, DISM.log will point to CBS.log for more details.</source>
+          <target>If necessary, DISM.log will point to CBS.log for more details.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>%windir%\logs\dism</source>
+          <target>%windir%\logs\dism</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>You can also point DISM log file to a different location by using the /LogPath command option.</source>
+          <target>You can also point DISM log file to a different location by using the /LogPath command option.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>The log data can also be controlled by using the /LogLevel command option.</source>
+          <target>The log data can also be controlled by using the /LogLevel command option.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>CBS.log</source>
+          <target>CBS.log</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Secondary log file that provides more details about an online servicing failure.</source>
+          <target>Secondary log file that provides more details about an online servicing failure.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>DISM.log will reference CBS.log for more details.</source>
+          <target>DISM.log will reference CBS.log for more details.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>%windir%\logs\cbs</source>
+          <target>%windir%\logs\cbs</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Sessions.xml</source>
+          <target>Sessions.xml</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>An xml based transaction log that tracks all servicing activity based on session id, client, status, tasks, and actions.</source>
+          <target>An xml based transaction log that tracks all servicing activity based on session id, client, status, tasks, and actions.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>If necessary, Sessions.log will point to DISM.log and CBS.log for more details.</source>
+          <target>If necessary, Sessions.log will point to DISM.log and CBS.log for more details.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>%windir%\servicing\sessions</source>
+          <target>%windir%\servicing\sessions</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](understanding-servicing-strategies.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more about offline servicing, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Understanding Servicing Strategies</pc>.</source>
+          <target>To learn more about offline servicing, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Understanding Servicing Strategies</pc>.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\capture-images-of-hard-disk-partitions-using-dism.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">f1e0f06537ea65a762b746c277a00750b9f96319</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Capture Images of Hard Disk Partitions Using DISM</source>
+          <target>Capture Images of Hard Disk Partitions Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Capture Images of Hard Disk Partitions Using DISM</source>
+          <target>Capture Images of Hard Disk Partitions Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Capture Images of Hard Disk Partitions Using DISM</source>
+          <target>Capture Images of Hard Disk Partitions Using DISM</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>You can use the Deployment Image Servicing and Management (DISM) tool to capture an image of your hard disk for deployment and save it as a Windows® image (.wim) file.</source>
+          <target>You can use the Deployment Image Servicing and Management (DISM) tool to capture an image of your hard disk for deployment and save it as a Windows® image (.wim) file.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](capture-and-apply-windows-system-and-recovery-partitions.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To see how this information applies to Windows, system, and recovery partitions, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Capture and Apply Windows, System, and Recovery Partitions</pc>.</source>
+          <target>To see how this information applies to Windows, system, and recovery partitions, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Capture and Apply Windows, System, and Recovery Partitions</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Prerequisites</source>
+          <target>Prerequisites</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Windows PE.</source>
+          <target>Windows PE.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](winpe-create-usb-bootable-drive.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WinPE: Create USB Bootable drive</pc>.</source>
+          <target>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WinPE: Create USB Bootable drive</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>A reference computer.</source>
+          <target>A reference computer.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>You can create a reference computer by deploying Windows, and then removing the computer-specific information from the system.</source>
+          <target>You can create a reference computer by deploying Windows, and then removing the computer-specific information from the system.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](sysprep--generalize--a-windows-installation.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sysprep (Generalize) a Windows installation</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sysprep (Generalize) a Windows installation</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Step 1: Determining Which Partitions to Capture</source>
+          <target>Step 1: Determining Which Partitions to Capture</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>This table shows the types of partitions that you must capture and those that are managed automatically.</source>
+          <target>This table shows the types of partitions that you must capture and those that are managed automatically.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Partition type</source>
+          <target>Partition type</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Should you capture this partition?</source>
+          <target>Should you capture this partition?</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>System partition<ph dataRef="id1" id="ph1" /> (BIOS system partition or EFI System Partition)</source>
+          <target>System partition<ph dataRef="id1" id="ph1" /> (BIOS system partition or EFI System Partition)</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Optional.</source>
+          <target>Optional.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>If only a simple set of partition files is required, you don’t have to capture this partition.</source>
+          <target>If only a simple set of partition files is required, you don’t have to capture this partition.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Microsoft Reserved partition (MSR)</source>
+          <target>Microsoft Reserved partition (MSR)</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>No.</source>
+          <target>No.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Primary partitions<ph dataRef="id1" id="ph1" /> (Windows partitions, utility partitions)</source>
+          <target>Primary partitions<ph dataRef="id1" id="ph1" /> (Windows partitions, utility partitions)</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Yes.</source>
+          <target>Yes.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Extended partition</source>
+          <target>Extended partition</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>No.</source>
+          <target>No.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">&lt;/strong&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Logical partitions<ph dataRef="id1" id="ph1" /> (Windows partitions, utility partitions)</source>
+          <target>Logical partitions<ph dataRef="id1" id="ph1" /> (Windows partitions, utility partitions)</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Yes.</source>
+          <target>Yes.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>You can capture and apply images between partitions on BIOS-based and UEFI-based computers, because the Windows image isn’t affected by the firmware.</source>
+          <target>You can capture and apply images between partitions on BIOS-based and UEFI-based computers, because the Windows image isn’t affected by the firmware.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](capture-and-apply-windows-system-and-recovery-partitions.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Capture and Apply Windows, System, and Recovery Partitions</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Capture and Apply Windows, System, and Recovery Partitions</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Step 2: Assign Drive Letters to Partitions</source>
+          <target>Step 2: Assign Drive Letters to Partitions</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If any of the partitions you want to capture don’t already have a drive letter assigned, assign a letter using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DiskPart</pc> tool.</source>
+          <target>If any of the partitions you want to capture don’t already have a drive letter assigned, assign a letter using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DiskPart</pc> tool.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Start your reference computer by using Windows PE.</source>
+          <target>Start your reference computer by using Windows PE.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">`diskpart`</data>
+        </originalData>
+        <segment state="initial">
+          <source>At the Windows PE command prompt, type <ph dataRef="id1" id="ph1" /> to open the DiskPart tool.</source>
+          <target>At the Windows PE command prompt, type <ph dataRef="id1" id="ph1" /> to open the DiskPart tool.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">`select disk`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the hard disk with the <ph dataRef="id1" id="ph1" /> command.</source>
+          <target>Select the hard disk with the <ph dataRef="id1" id="ph1" /> command.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>For example,</source>
+          <target>For example,</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">`list partition`</data>
+        </originalData>
+        <segment state="initial">
+          <source>View the partitions with the <ph dataRef="id1" id="ph1" /> command.</source>
+          <target>View the partitions with the <ph dataRef="id1" id="ph1" /> command.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>For example,</source>
+          <target>For example,</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">`select partition`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the partition with the <ph dataRef="id1" id="ph1" /> command.</source>
+          <target>Select the partition with the <ph dataRef="id1" id="ph1" /> command.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>For example,</source>
+          <target>For example,</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">`assign letter`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Assign a letter to the partition with the <ph dataRef="id1" id="ph1" /> command.</source>
+          <target>Assign a letter to the partition with the <ph dataRef="id1" id="ph1" /> command.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>For example,</source>
+          <target>For example,</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">`exit`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Type <ph dataRef="id1" id="ph1" /> to return to the Windows PE command prompt.</source>
+          <target>Type <ph dataRef="id1" id="ph1" /> to return to the Windows PE command prompt.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=128458)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see the DiskPart Help from the command line, or <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Diskpart Command line syntax</pc>.</source>
+          <target>For more information, see the DiskPart Help from the command line, or <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Diskpart Command line syntax</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Step 3: Capture Partition Images using DISM</source>
+          <target>Step 3: Capture Partition Images using DISM</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Capture images for each customized partition.</source>
+          <target>Capture images for each customized partition.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>At the Windows PE command prompt, capture the images by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM</pc> command together with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/captureImage</pc> option.</source>
+          <target>At the Windows PE command prompt, capture the images by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM</pc> command together with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">/captureImage</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>For example,</source>
+          <target>For example,</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](dism-image-management-command-line-options-s14.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about using the DISM tool to capture an image, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Image Management Command-Line Options</pc>.</source>
+          <target>For more information about using the DISM tool to capture an image, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">DISM Image Management Command-Line Options</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Step 4: Save Images to the Network</source>
+          <target>Step 4: Save Images to the Network</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Save your .wim files to your network or another safe location.</source>
+          <target>Save your .wim files to your network or another safe location.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Connect to your distribution share by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">net use</pc> command.</source>
+          <target>Connect to your distribution share by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">net use</pc> command.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>For example,</source>
+          <target>For example,</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>If prompted, provide your network credentials.</source>
+          <target>If prompted, provide your network credentials.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Copy the partitions to your network share.</source>
+          <target>Copy the partitions to your network share.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>For example,</source>
+          <target>For example,</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Next Steps</source>
+          <target>Next Steps</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>After the image is captured and stored, you can:</source>
+          <target>After the image is captured and stored, you can:</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Mount it to your reference computer for modification.</source>
+          <target>Mount it to your reference computer for modification.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](mount-and-modify-a-windows-image-using-dism.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mount and Modify a Windows Image Using DISM</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mount and Modify a Windows Image Using DISM</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Split the file into smaller files.</source>
+          <target>Split the file into smaller files.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](split-a-windows-image--wim--file-to-span-across-multiple-dvds.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Split a Windows Image (WIM) File to Span Across Multiple DVDs</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Split a Windows Image (WIM) File to Span Across Multiple DVDs</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Apply the images to a destination computer.</source>
+          <target>Apply the images to a destination computer.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](apply-images-using-dism.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apply Images Using DISM</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apply Images Using DISM</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Service the image.</source>
+          <target>Service the image.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](service-a-windows-image-using-dism.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Service a Windows Image Using DISM</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Service a Windows Image Using DISM</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Deployment Image Servicing and Management (DISM) Command-Line Options</source>
+          <target>Deployment Image Servicing and Management (DISM) Command-Line Options</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>BCDboot Command-Line Options</source>
+          <target>BCDboot Command-Line Options</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Capture and Apply Windows, System, and Recovery Partitions</source>
+          <target>Capture and Apply Windows, System, and Recovery Partitions</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Boot to VHD (Native Boot): Add a Virtual Hard Disk to the Boot Menu</source>
+          <target>Boot to VHD (Native Boot): Add a Virtual Hard Disk to the Boot Menu</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

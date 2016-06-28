@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\service\mobile\ffu-catalog-signing.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">61a9d21062fe275fa67dc5534d8edf6f741ba344</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>FFU Catalog Signing</source>
+          <target>FFU Catalog Signing</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>FFU Catalog Signing</source>
+          <target>FFU Catalog Signing</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>FFU Catalog Signing</source>
+          <target>FFU Catalog Signing</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>The tools that have been created to simplify the engineering and manufacturing processes provision a Microsoft certificate to the PK (Platform Key) store in UEFI.</source>
+          <target>The tools that have been created to simplify the engineering and manufacturing processes provision a Microsoft certificate to the PK (Platform Key) store in UEFI.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>This enables Microsoft to sign the image.</source>
+          <target>This enables Microsoft to sign the image.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>OEM partners provision their own certificates to the PK cert store to enable the OEM to sign the FFU.</source>
+          <target>OEM partners provision their own certificates to the PK cert store to enable the OEM to sign the FFU.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>An OEM can also sign FFUs if the OEM writes their own UEFI tool to provision the signing root/intermediate to the PK store.</source>
+          <target>An OEM can also sign FFUs if the OEM writes their own UEFI tool to provision the signing root/intermediate to the PK store.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>However, this is not recommended because it introduces complexity and security risk for both you and Microsoft in part because building and maintaining UEFI tools and the maintenance of code signing certificates and infrastructure is complex.</source>
+          <target>However, this is not recommended because it introduces complexity and security risk for both you and Microsoft in part because building and maintaining UEFI tools and the maintenance of code signing certificates and infrastructure is complex.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>This is especially true for small or new OEMs, as a leaked private key would allow arbitrary entities to sign FFUs that can be loaded onto the QRD OEM's device and you would still have to communicate with Microsoft for all other signing.</source>
+          <target>This is especially true for small or new OEMs, as a leaked private key would allow arbitrary entities to sign FFUs that can be loaded onto the QRD OEM's device and you would still have to communicate with Microsoft for all other signing.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Therefore, to reduce the complexity and simplify the FFU catalog signing process, the ingestion client has been updated with new functionality to support retail signing of FFU catalogs.</source>
+          <target>Therefore, to reduce the complexity and simplify the FFU catalog signing process, the ingestion client has been updated with new functionality to support retail signing of FFU catalogs.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>OEM Verification</source>
+          <target>OEM Verification</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>An FFU catalog signed for OEM.</source>
+          <target>An FFU catalog signed for OEM.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>A would be a valid FFU catalog for OEM B’s devices because the intermediate certificate Microsoft provisions to the PK store is a single intermediate certificate.</source>
+          <target>A would be a valid FFU catalog for OEM B’s devices because the intermediate certificate Microsoft provisions to the PK store is a single intermediate certificate.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>This is referred to as a cross-pollination risk.</source>
+          <target>This is referred to as a cross-pollination risk.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Therefore, to prevent images created by one OEM from being flash-able onto another OEM's devices intentionally or by accident, the mechanism used to sign FFU catalogs in the latest release of the ingestion client will be handled differently than the mechanism used to sign other packages.</source>
+          <target>Therefore, to prevent images created by one OEM from being flash-able onto another OEM's devices intentionally or by accident, the mechanism used to sign FFU catalogs in the latest release of the ingestion client will be handled differently than the mechanism used to sign other packages.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>OEM validation will occur during signing by inspecting the metadata associated with the FFU catalog in the submission.</source>
+          <target>OEM validation will occur during signing by inspecting the metadata associated with the FFU catalog in the submission.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>The OEM ID contained in the catalog will be verified against OEM ID of the submission.</source>
+          <target>The OEM ID contained in the catalog will be verified against OEM ID of the submission.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>If the values do not match, the FFU catalog signing request will be rejected.</source>
+          <target>If the values do not match, the FFU catalog signing request will be rejected.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Furthermore, the Ingestion Client will verify the integrity of the catalog by checking hash values passed in with the FFU catalog metadata.</source>
+          <target>Furthermore, the Ingestion Client will verify the integrity of the catalog by checking hash values passed in with the FFU catalog metadata.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>The diagram below depicts the FFU catalog and the associated metadata that will be used for this verification:</source>
+          <target>The diagram below depicts the FFU catalog and the associated metadata that will be used for this verification:</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>ffu catalog signing</source>
+          <target>ffu catalog signing</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>For example, after you have completed initial testing on a new image, the image must be tested on a retail device.</source>
+          <target>For example, after you have completed initial testing on a new image, the image must be tested on a retail device.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>You create an FFU image for flashing, and the FFU catalog must be retail signed by Microsoft before the image can be flashed to a retail device.</source>
+          <target>You create an FFU image for flashing, and the FFU catalog must be retail signed by Microsoft before the image can be flashed to a retail device.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">`Initialize-FirmwareSubmission`</data>
+          <data id="id2">`-TypeOfSubmission FfuCatalog`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the ingestion client's <ph dataRef="id1" id="ph1" /> cmdlet with <ph dataRef="id2" id="ph2" />, specifying the location of the FFU image.</source>
+          <target>Use the ingestion client's <ph dataRef="id1" id="ph1" /> cmdlet with <ph dataRef="id2" id="ph2" />, specifying the location of the FFU image.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>The ingestion client will extract the FFU catalog and associated metadata from the FFU image and pass that to Microsoft to be retail signed.</source>
+          <target>The ingestion client will extract the FFU catalog and associated metadata from the FFU image and pass that to Microsoft to be retail signed.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Code signing validates the integrity of the FFU catalog and checks the OEM ID of the catalog against the OEM ID of the account that you submitted the signing request through.</source>
+          <target>Code signing validates the integrity of the FFU catalog and checks the OEM ID of the catalog against the OEM ID of the account that you submitted the signing request through.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>As long as the OEM ID of the FFU catalog matches the OEM ID of the account of the signing request Microsoft will process and sign the FFU catalog.</source>
+          <target>As long as the OEM ID of the FFU catalog matches the OEM ID of the account of the signing request Microsoft will process and sign the FFU catalog.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">`Get-SignedFirmwareSubmission`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Once complete, you can use the <ph dataRef="id1" id="ph1" /> cmdlet to obtain the retail signed FFU catalog before re-integrating the signed catalog back into the FFU image so it can be flashed to a device for testing.</source>
+          <target>Once complete, you can use the <ph dataRef="id1" id="ph1" /> cmdlet to obtain the retail signed FFU catalog before re-integrating the signed catalog back into the FFU image so it can be flashed to a device for testing.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>FFU Catalog Signing Example</source>
+          <target>FFU Catalog Signing Example</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>To prepare an FFU catalog to be signed:</source>
+          <target>To prepare an FFU catalog to be signed:</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

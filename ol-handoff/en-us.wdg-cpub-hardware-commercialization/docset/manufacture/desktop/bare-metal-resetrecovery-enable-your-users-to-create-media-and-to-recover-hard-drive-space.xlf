@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\manufacture\desktop\bare-metal-resetrecovery-enable-your-users-to-create-media-and-to-recover-hard-drive-space.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">ab73bedac92278be97f9f72eca39bef63ae98524</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Bare metal reset/recovery: enable your users to create recovery media</source>
+          <target>Bare metal reset/recovery: enable your users to create recovery media</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Bare metal reset/recovery: enable your users to create recovery media</source>
+          <target>Bare metal reset/recovery: enable your users to create recovery media</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Bare metal reset/recovery: enable your users to create recovery media</source>
+          <target>Bare metal reset/recovery: enable your users to create recovery media</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Recovery media (bare metal recovery) helps restore a Windows device to the factory state, even if the user needs to replace the hard drive or completely wipe the drive clean.</source>
+          <target>Recovery media (bare metal recovery) helps restore a Windows device to the factory state, even if the user needs to replace the hard drive or completely wipe the drive clean.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Windows uses the built-in Windows files, including recent Windows and driver updates, plus any customizations included in the OEM provisioning package, to create the recovery media.</source>
+          <target>Windows uses the built-in Windows files, including recent Windows and driver updates, plus any customizations included in the OEM provisioning package, to create the recovery media.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>If you deploy Windows using the default partition layout, your users will be able to create bare metal recovery media by default.</source>
+          <target>If you deploy Windows using the default partition layout, your users will be able to create bare metal recovery media by default.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>If you're deploying Windows with a custom partition layout, you'll need to add a few configuration files to enable your users to create bare metal recovery media:</source>
+          <target>If you're deploying Windows with a custom partition layout, you'll need to add a few configuration files to enable your users to create bare metal recovery media:</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>A <pc dataRefEnd="id2" dataRefStart="id1" id="p1">partition reset script</pc>, which is a modified DiskPart script that resets your custom partition layout.</source>
+          <target>A <pc dataRefEnd="id2" dataRefStart="id1" id="p1">partition reset script</pc>, which is a modified DiskPart script that resets your custom partition layout.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](resetconfig-xml-reference-s14.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>A <pc dataRefEnd="id2" dataRefStart="id1" id="p1">push-button reset configuration file</pc> (<pc dataRefEnd="id4" dataRefStart="id3" id="p2">ResetConfig XML</pc>) that identifies the Windows and Windows RE partitions.</source>
+          <target>A <pc dataRefEnd="id2" dataRefStart="id1" id="p1">push-button reset configuration file</pc> (<pc dataRefEnd="id4" dataRefStart="id3" id="p2">ResetConfig XML</pc>) that identifies the Windows and Windows RE partitions.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Creating configuration files</source>
+          <target>Creating configuration files</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Partition reset script</source>
+          <target>Partition reset script</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>In Notepad, create a configuration file that partitions the hard drive after the hard drive has been reset.</source>
+          <target>In Notepad, create a configuration file that partitions the hard drive after the hard drive has been reset.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>This script should be the same as the script used to create partitions on the hard drive, with the following exceptions:</source>
+          <target>This script should be the same as the script used to create partitions on the hard drive, with the following exceptions:</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The script should not contain commands to select or clean the drive.</source>
+          <target>The script should not contain commands to select or clean the drive.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Windows identifies the system drive automatically.</source>
+          <target>Windows identifies the system drive automatically.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#identifyingthesystemdrive)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Identifying the System Drive</pc> later in this topic.</source>
+          <target>To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Identifying the System Drive</pc> later in this topic.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>The script should assign letters to the system partition, the Windows partition, and the Windows RE tools partition.</source>
+          <target>The script should assign letters to the system partition, the Windows partition, and the Windows RE tools partition.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Examples:</source>
+          <target>Examples:</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](configure-uefigpt-based-hard-drive-partitions.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>UEFI (based on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UEFI/GPT-based hard drive partitions</pc>):</source>
+          <target>UEFI (based on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UEFI/GPT-based hard drive partitions</pc>):</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](configure-biosmbr-based-hard-drive-partitions.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>BIOS (based on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BIOS/MBR-based hard drive partitions</pc>):</source>
+          <target>BIOS (based on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BIOS/MBR-based hard drive partitions</pc>):</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">\\</data>
+          <data id="id2">\\</data>
+          <data id="id3">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>Save your file, for example, E:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />RecoveryImage<ph dataRef="id3" id="ph3" />ResetPartitions-UEFI.txt.</source>
+          <target>Save your file, for example, E:<ph dataRef="id1" id="ph1" />Recovery<ph dataRef="id2" id="ph2" />RecoveryImage<ph dataRef="id3" id="ph3" />ResetPartitions-UEFI.txt.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Push-button reset configuration file (ResetConfig.xml)</source>
+          <target>Push-button reset configuration file (ResetConfig.xml)</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>In Notepad, create a configuration file that points to your push-button reset partition script.</source>
+          <target>In Notepad, create a configuration file that points to your push-button reset partition script.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](resetconfig-xml-reference-s14.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about configuring this file, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ResetConfig XML Reference</pc>.</source>
+          <target>For information about configuring this file, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ResetConfig XML Reference</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>UEFI:</source>
+          <target>UEFI:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>BIOS:</source>
+          <target>BIOS:</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Save the file using the UTF-8 file format:</source>
+          <target>Save the file using the UTF-8 file format:</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Save As</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Save As</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">\\</data>
+          <data id="id6">\\</data>
+          <data id="id7">\\</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Encoding</pc> box, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">UTF-8</pc>, and save this file as E:<ph dataRef="id5" id="ph1" />Recovery<ph dataRef="id6" id="ph2" />RecoveryImage<ph dataRef="id7" id="ph3" />ResetConfig.xml.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Encoding</pc> box, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">UTF-8</pc>, and save this file as E:<ph dataRef="id5" id="ph1" />Recovery<ph dataRef="id6" id="ph2" />RecoveryImage<ph dataRef="id7" id="ph3" />ResetConfig.xml.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Enable users to create media</source>
+          <target>Enable users to create media</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Users can use this option to create recovery media, and to reclaim the hard drive space from the recovery image partition when needed.</source>
+          <target>Users can use this option to create recovery media, and to reclaim the hard drive space from the recovery image partition when needed.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Step 1: Add the configuration files to the destination computer</source>
+          <target>Step 1: Add the configuration files to the destination computer</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>On your destination computer, insert the USB flash drive with the configuration files.</source>
+          <target>On your destination computer, insert the USB flash drive with the configuration files.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Copy the configuration files to the destination computer:</source>
+          <target>Copy the configuration files to the destination computer:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">*</data>
+          <data id="id4">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>where <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E</pc> is the drive letter of the USB flash drive and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">R</pc> is the drive letter of the recovery image partition.</source>
+          <target>where <pc dataRefEnd="id2" dataRefStart="id1" id="p1">E</pc> is the drive letter of the USB flash drive and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">R</pc> is the drive letter of the recovery image partition.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Step 2: Test that Windows can create recovery media</source>
+          <target>Step 2: Test that Windows can create recovery media</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Restart the destination computer, and complete Out-Of-Box Experience (OOBE).</source>
+          <target>Restart the destination computer, and complete Out-Of-Box Experience (OOBE).</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">create a recovery drive</pc>, and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Create a recovery drive</pc>, and click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Yes</pc> at the UAC prompt.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">create a recovery drive</pc>, and select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Create a recovery drive</pc>, and click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Yes</pc> at the UAC prompt.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Insert a USB flash drive.</source>
+          <target>Insert a USB flash drive.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">&amp;gt;</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">&amp;gt;</data>
+          <data id="id10">**</data>
+          <data id="id11">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Copy the recovery partition from the PC to the recovery drive</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Next</pc><ph dataRef="id6" id="ph2" /><pc dataRefEnd="id8" dataRefStart="id7" id="p3">Next</pc><ph dataRef="id9" id="ph3" /><pc dataRefEnd="id11" dataRefStart="id10" id="p4">Create</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Copy the recovery partition from the PC to the recovery drive</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Next</pc><ph dataRef="id6" id="ph2" /><pc dataRefEnd="id8" dataRefStart="id7" id="p3">Next</pc><ph dataRef="id9" id="ph3" /><pc dataRefEnd="id11" dataRefStart="id10" id="p4">Create</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Step 3: Test the recovery media</source>
+          <target>Step 3: Test the recovery media</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>On a computer that has no operating system, insert your recovery media.</source>
+          <target>On a computer that has no operating system, insert your recovery media.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Start the computer, press a key to open the firmware boot menus, and then select the appropriate boot device.</source>
+          <target>Start the computer, press a key to open the firmware boot menus, and then select the appropriate boot device.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>At the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows RE Tools</pc> menus, select a keyboard layout, for example, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">US</pc>.</source>
+          <target>At the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows RE Tools</pc> menus, select a keyboard layout, for example, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">US</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">&amp;gt;</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Troubleshoot</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Reset your PC</pc><ph dataRef="id6" id="ph2" /><pc dataRefEnd="id8" dataRefStart="id7" id="p3">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Troubleshoot</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Reset your PC</pc><ph dataRef="id6" id="ph2" /><pc dataRefEnd="id8" dataRefStart="id7" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you're prompted to clean the drive, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>.</source>
+          <target>If you're prompted to clean the drive, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">&amp;gt;</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">&amp;gt;</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes, repartition the drives</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Just remove my files</pc><ph dataRef="id6" id="ph2" /><pc dataRefEnd="id8" dataRefStart="id7" id="p3">Reset</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes, repartition the drives</pc><ph dataRef="id3" id="ph1" /><pc dataRefEnd="id5" dataRefStart="id4" id="p2">Just remove my files</pc><ph dataRef="id6" id="ph2" /><pc dataRefEnd="id8" dataRefStart="id7" id="p3">Reset</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Troubleshooting:</source>
+          <target>Troubleshooting:</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Make sure that ResetConfig.xml is saved as a UTF-8 file.</source>
+          <target>Make sure that ResetConfig.xml is saved as a UTF-8 file.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">&amp;lt;</data>
+          <data id="id2">&amp;gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>Make sure that the filename listed in the <ph dataRef="id1" id="ph1" />DiskpartScriptPath<ph dataRef="id2" id="ph2" /> element of the ResetConfig.xml file matches the filename in the Diskpart script.</source>
+          <target>Make sure that the filename listed in the <ph dataRef="id1" id="ph1" />DiskpartScriptPath<ph dataRef="id2" id="ph2" /> element of the ResetConfig.xml file matches the filename in the Diskpart script.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">`select disk 0`</data>
+          <data id="id2">`clean`</data>
+        </originalData>
+        <segment state="initial">
+          <source>Make sure that the Diskpart script doesn't include commands to select the drive or clean the drive (<ph dataRef="id1" id="ph1" />, <ph dataRef="id2" id="ph2" />).</source>
+          <target>Make sure that the Diskpart script doesn't include commands to select the drive or clean the drive (<ph dataRef="id1" id="ph1" />, <ph dataRef="id2" id="ph2" />).</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Identifying the system drive</source>
+          <target>Identifying the system drive</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Windows identifies the system drive using the following methods:</source>
+          <target>Windows identifies the system drive using the following methods:</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BIOS-based computers</pc>: the BIOS-reported system drive is used.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">BIOS-based computers</pc>: the BIOS-reported system drive is used.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">`reagentc /setreimage`</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UEFI-based computers</pc>: When Windows RE is enabled by using the <ph dataRef="id3" id="ph1" /> command, Windows writes the adaptor location path and GUID of the system disk to a UEFI variable.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">UEFI-based computers</pc>: When Windows RE is enabled by using the <ph dataRef="id3" id="ph1" /> command, Windows writes the adaptor location path and GUID of the system disk to a UEFI variable.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>This step is only performed when both the system and OS partitions are on the system drive.</source>
+          <target>This step is only performed when both the system and OS partitions are on the system drive.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>The variable is updated if necessary when Windows RE gets disabled and then re-enabled.</source>
+          <target>The variable is updated if necessary when Windows RE gets disabled and then re-enabled.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>If multiple local drives are detected, Windows identifies the system drive by searching in the following order:</source>
+          <target>If multiple local drives are detected, Windows identifies the system drive by searching in the following order:</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Windows searches for a drive with a GUID matching the value stored in firmware.</source>
+          <target>Windows searches for a drive with a GUID matching the value stored in firmware.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Windows searches for a drive with a location path matching the value stored in firmware.</source>
+          <target>Windows searches for a drive with a location path matching the value stored in firmware.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Windows searches for a drive with an existing ESP.</source>
+          <target>Windows searches for a drive with an existing ESP.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>If multiple drives with ESP are found, the recovery process will not proceed.</source>
+          <target>If multiple drives with ESP are found, the recovery process will not proceed.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Windows searches for an uninitialized (raw) disk.</source>
+          <target>Windows searches for an uninitialized (raw) disk.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>If multiple uninitialized disks are found, the recovery process will not proceed.</source>
+          <target>If multiple uninitialized disks are found, the recovery process will not proceed.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Related topics</source>
+          <target>Related topics</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Push-Button Reset Overview</source>
+          <target>Push-Button Reset Overview</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>ResetConfig XML Reference</source>
+          <target>ResetConfig XML Reference</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Bare metal reset/recovery: create recovery media while deploying new devices</source>
+          <target>Bare metal reset/recovery: create recovery media while deploying new devices</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>UEFI/GPT-based hard drive partitions</source>
+          <target>UEFI/GPT-based hard drive partitions</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>BIOS/MBR-based hard drive partitions</source>
+          <target>BIOS/MBR-based hard drive partitions</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

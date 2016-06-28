@@ -1,0 +1,775 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" srcLang="en-US" trgLang="en-us" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationtype">Human Translation</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilepath">docset\performance\wpt\memory-footprint-optimization-exercise-3.md</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">15ed011f94d9267b047d8d55a4169112d76a95ad</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="tool-id">mdxliff</mda:meta>
+        <mda:meta type="tool-name">mdxliff</mda:meta>
+        <mda:meta type="tool-version">1.0-48076a9</mda:meta>
+        <mda:meta type="tool-company">Microsoft</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Exercise 3 - Track Driver Footprint and Dynamic Allocations During Boot</source>
+          <target>Exercise 3 - Track Driver Footprint and Dynamic Allocations During Boot</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Pool is the memory resource for kernel mode components that the OS and device drivers use to store their data structures.</source>
+          <target>Pool is the memory resource for kernel mode components that the OS and device drivers use to store their data structures.</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Exercise 3 - Track Driver Footprint and Dynamic Allocations During Boot</source>
+          <target>Exercise 3 - Track Driver Footprint and Dynamic Allocations During Boot</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Pool</pc> is the memory resource for kernel mode components that the OS and device drivers use to store their data structures.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Pool</pc> is the memory resource for kernel mode components that the OS and device drivers use to store their data structures.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Pool has four basic allocation areas:</source>
+          <target>Pool has four basic allocation areas:</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Non Paged Pool:</pc> Allocations guaranteed to reside in physical memory.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Non Paged Pool:</pc> Allocations guaranteed to reside in physical memory.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Paged Pool:</pc> Allocations that can be paged out of memory to the pagefile.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Paged Pool:</pc> Allocations that can be paged out of memory to the pagefile.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NX Non Pageable Pool:</pc> Non-paged allocations, which are not executable.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NX Non Pageable Pool:</pc> Non-paged allocations, which are not executable.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Session pool:</pc> Allocations made per session.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Session pool:</pc> Allocations made per session.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>These are pageable.</source>
+          <target>These are pageable.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Pool usage is a significant contributor to the overall memory usage on a machine – it is the largest consumer of memory immediately after boot.</source>
+          <target>Pool usage is a significant contributor to the overall memory usage on a machine – it is the largest consumer of memory immediately after boot.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Any reduction in Pool usage reduces the overall memory usage of the system across the OS, with non-pageable memory being the highest priority category to drive reductions (for).</source>
+          <target>Any reduction in Pool usage reduces the overall memory usage of the system across the OS, with non-pageable memory being the highest priority category to drive reductions (for).</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>In this exercise, you’ll review inbox Microsoft driver allocations and their footprint (at their initialization time) during boot.</source>
+          <target>In this exercise, you’ll review inbox Microsoft driver allocations and their footprint (at their initialization time) during boot.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Step 1: Gather a pool memory trace across a boot transition</source>
+          <target>Step 1: Gather a pool memory trace across a boot transition</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this step, you’ll gather a boot trace using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Performance Recorder (WPR)</pc> that contains pool and resident set data.</source>
+          <target>In this step, you’ll gather a boot trace using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Performance Recorder (WPR)</pc> that contains pool and resident set data.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPR</pc> from the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Start</pc> menu</source>
+          <target>Open <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPR</pc> from the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Start</pc> menu</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Select the right event providers:</source>
+          <target>Select the right event providers:</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Pool usage</source>
+          <target>Pool usage</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Resident Set</source>
+          <target>Resident Set</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>First Level Triage</source>
+          <target>First Level Triage</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">boot</pc> as the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">performance scenario</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">boot</pc> as the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">performance scenario</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc> as the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">logging mode</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File</pc> as the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">logging mode</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set 1 as the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Number of Iterations</pc>.</source>
+          <target>Set 1 as the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Number of Iterations</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and then select a location to save the ETL file.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> and then select a location to save the ETL file.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>The system automatically reboots, gathers a trace, and stops after the desktop becomes visible.</source>
+          <target>The system automatically reboots, gathers a trace, and stops after the desktop becomes visible.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Step 2: Review pool data using WPA</source>
+          <target>Step 2: Review pool data using WPA</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Pool</pc> data is exposed via the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Pool Graph</pc> summary table in <pc dataRefEnd="id6" dataRefStart="id5" id="p3">WPA</pc>.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Pool</pc> data is exposed via the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Pool Graph</pc> summary table in <pc dataRefEnd="id6" dataRefStart="id5" id="p3">WPA</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>The key columns of interest are in the following table.</source>
+          <target>The key columns of interest are in the following table.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>You can add or remove columns if you right-click on the column headers.</source>
+          <target>You can add or remove columns if you right-click on the column headers.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Terminology</source>
+          <target>Terminology</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Pool Tag</source>
+          <target>Pool Tag</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>The tag associated with a pool allocation.</source>
+          <target>The tag associated with a pool allocation.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Pool Tag Module</source>
+          <target>Pool Tag Module</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>The module (driver) associated with a pool tag.</source>
+          <target>The module (driver) associated with a pool tag.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Stack</source>
+          <target>Stack</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Shows the code path on a thread leading to a memory allocation.</source>
+          <target>Shows the code path on a thread leading to a memory allocation.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Paged</source>
+          <target>Paged</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Indicates whether or not the allocations were placed into a Paged Pool or Non-Paged Pool.</source>
+          <target>Indicates whether or not the allocations were placed into a Paged Pool or Non-Paged Pool.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Impacting type</source>
+          <target>Impacting type</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Shows whether an allocation contributes to the steady state memory usage or is a transient allocation.</source>
+          <target>Shows whether an allocation contributes to the steady state memory usage or is a transient allocation.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the trace you captured in Step 1 with <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPA</pc>.</source>
+          <target>Open the trace you captured in Step 1 with <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPA</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trace</pc> menu and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configure symbols path</pc>.</source>
+          <target>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trace</pc> menu and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configure symbols path</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Specify the path of the symbol cache.</source>
+          <target>Specify the path of the symbol cache.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://go.microsoft.com/fwlink/?linkid=623019)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information on symbols, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Symbol Support</pc> page on MSDN.</source>
+          <target>For more information on symbols, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Symbol Support</pc> page on MSDN.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trace</pc> menu and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Load symbols</pc>.</source>
+          <target>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trace</pc> menu and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Load symbols</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Find the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Pool</pc> graph in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Memory</pc> category of the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Graph Explorer</pc></source>
+          <target>Find the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Pool</pc> graph in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Memory</pc> category of the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Graph Explorer</pc></target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Drag and drop the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Pool</pc> graph onto the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Analysis</pc> tab.</source>
+          <target>Drag and drop the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Pool</pc> graph onto the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Analysis</pc> tab.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Organize the table to show these columns:</source>
+          <target>Organize the table to show these columns:</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Pool tag module</source>
+          <target>Pool tag module</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Paged</source>
+          <target>Paged</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Impacting type</source>
+          <target>Impacting type</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Stack</source>
+          <target>Stack</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Pool tag</source>
+          <target>Pool tag</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Count</source>
+          <target>Count</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Size</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Size</pc></target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Note on Pool Tags:</source>
+          <target>Note on Pool Tags:</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>If you’re a driver developer, make sure that the pool tags used by your driver are clear and easily identifiable to facilitate analysis.</source>
+          <target>If you’re a driver developer, make sure that the pool tags used by your driver are clear and easily identifiable to facilitate analysis.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>For example, if your company name is Fabrikam, you could add a “Fbk” prefix to all pool tags: FbkPool1, FbkPool2, FbkBuffer, etc.</source>
+          <target>For example, if your company name is Fabrikam, you could add a “Fbk” prefix to all pool tags: FbkPool1, FbkPool2, FbkBuffer, etc.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">&amp;gt;</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4"> -&amp;gt;</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7"> -&amp;gt;</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Disable all series on the graph (Right-click -<ph dataRef="id1" id="ph1" /><pc dataRefEnd="id3" dataRefStart="id2" id="p1">Disable</pc><ph dataRef="id4" id="ph2" /><pc dataRefEnd="id6" dataRefStart="id5" id="p2">In Entire Graph</pc><ph dataRef="id7" id="ph3" /><pc dataRefEnd="id9" dataRefStart="id8" id="p3">All Series</pc>)</source>
+          <target>Disable all series on the graph (Right-click -<ph dataRef="id1" id="ph1" /><pc dataRefEnd="id3" dataRefStart="id2" id="p1">Disable</pc><ph dataRef="id4" id="ph2" /><pc dataRefEnd="id6" dataRefStart="id5" id="p2">In Entire Graph</pc><ph dataRef="id7" id="ph3" /><pc dataRefEnd="id9" dataRefStart="id8" id="p3">All Series</pc>)</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Sort by impacting size by clicking on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> column header.</source>
+          <target>Sort by impacting size by clicking on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> column header.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Drivers that have the highest steady state memory usage display at the top.</source>
+          <target>Drivers that have the highest steady state memory usage display at the top.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Step 3: Intercept pool allocation data</source>
+          <target>Step 3: Intercept pool allocation data</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Zoom into the first 30 seconds of the timeline.</source>
+          <target>Zoom into the first 30 seconds of the timeline.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Select one driver (for example, ACPI.sys, but any will do).</source>
+          <target>Select one driver (for example, ACPI.sys, but any will do).</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Review the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NonPaged</pc> memory and expand the row.</source>
+          <target>Review the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NonPaged</pc> memory and expand the row.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NonPaged</pc> memory should be the focus of your investigations as it can’t be moved to the pagefile when there’s memory pressure on the system.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">NonPaged</pc> memory should be the focus of your investigations as it can’t be moved to the pagefile when there’s memory pressure on the system.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enable the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Legend</pc> for the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Impacting</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Transient</pc> categories.</source>
+          <target>Enable the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Legend</pc> for the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Impacting</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Transient</pc> categories.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Sort by <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> by clicking on the column header.</source>
+          <target>Sort by <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting Size</pc> by clicking on the column header.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting</pc> memory directly contributes to the overall memory footprint of the driver at all times.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Impacting</pc> memory directly contributes to the overall memory footprint of the driver at all times.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>In the preceding example, you can tell that ACPI.sys uses some non-paged memory at all times, and that this steady state usage increases twice (first when the driver is loading, then a second time at around 3 seconds).</source>
+          <target>In the preceding example, you can tell that ACPI.sys uses some non-paged memory at all times, and that this steady state usage increases twice (first when the driver is loading, then a second time at around 3 seconds).</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Expand the stack and navigate through it.</source>
+          <target>Expand the stack and navigate through it.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>At the top, you should see function calls that lead to the largest steady state pool allocations.</source>
+          <target>At the top, you should see function calls that lead to the largest steady state pool allocations.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the following example, you can see that ACPI.sys makes a total of 255 pool allocations, totaling 1.2 MB under the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ACPIInitStartACPI</pc> function.</source>
+          <target>In the following example, you can see that ACPI.sys makes a total of 255 pool allocations, totaling 1.2 MB under the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ACPIInitStartACPI</pc> function.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>This is where the driver developer should focus in order to improve the driver steady state memory usage, as this function accounts for most of the driver allocations.</source>
+          <target>This is where the driver developer should focus in order to improve the driver steady state memory usage, as this function accounts for most of the driver allocations.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Sort by <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Size</pc> by clicking on the column header.</source>
+          <target>Sort by <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Size</pc> by clicking on the column header.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Do the same thing for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Transient</pc> category.</source>
+          <target>Do the same thing for the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Transient</pc> category.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Expand the stack and navigate through it.</source>
+          <target>Expand the stack and navigate through it.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>At the top, you should see function calls leading to the largest transient pool allocations.</source>
+          <target>At the top, you should see function calls leading to the largest transient pool allocations.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the following example, you can see the initial spike of transient memory usage is mainly caused by ACPI executing DPCs of devices (<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ACPI.sys!ACPIBuildDeviceDpc</pc>).</source>
+          <target>In the following example, you can see the initial spike of transient memory usage is mainly caused by ACPI executing DPCs of devices (<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ACPI.sys!ACPIBuildDeviceDpc</pc>).</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>The spike that introduced the code under this function call totals 455 KB.</source>
+          <target>The spike that introduced the code under this function call totals 455 KB.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Step 4: Measure the driver code footprint</source>
+          <target>Step 4: Measure the driver code footprint</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Find the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Resident Set</pc> graph in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Memory</pc> category of the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Graph Explorer</pc>.</source>
+          <target>Find the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Resident Set</pc> graph in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Memory</pc> category of the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Graph Explorer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Drag and drop the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Resident Set</pc> graph onto the Analysis tab.</source>
+          <target>Drag and drop the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Resident Set</pc> graph onto the Analysis tab.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Make sure to unzoom the graph (Ctrl+Shift+”-“).</source>
+          <target>Make sure to unzoom the graph (Ctrl+Shift+”-“).</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File Backed Page</pc> graph preset.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File Backed Page</pc> graph preset.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Through the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">path tree</pc> column, navigate to the driver you selected in Step 3 (for example, ACPI.sys under C:/Windows/drivers).</source>
+          <target>Through the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">path tree</pc> column, navigate to the driver you selected in Step 3 (for example, ACPI.sys under C:/Windows/drivers).</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Driver</pc> category and focus on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Active</pc> pages.</source>
+          <target>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Driver</pc> category and focus on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Active</pc> pages.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The value in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Size</pc> column represents the impact the driver code has on the memory footprint.</source>
+          <target>The value in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Size</pc> column represents the impact the driver code has on the memory footprint.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>In the following example, it is 0.48 MB.</source>
+          <target>In the following example, it is 0.48 MB.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>
