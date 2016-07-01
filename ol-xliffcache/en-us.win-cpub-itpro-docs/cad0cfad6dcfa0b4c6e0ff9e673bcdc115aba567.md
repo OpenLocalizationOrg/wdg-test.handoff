@@ -8,6 +8,10 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: surfacehub, security
 author: TrudyHa
+translationtype: Human Translation
+ms.sourcegitcommit: 8c1a3b30c0f054843553ec2d174111127a757dc2
+ms.openlocfilehash: cad0cfad6dcfa0b4c6e0ff9e673bcdc115aba567
+
 ---
 
 # Admin group management (Surface Hub)
@@ -35,21 +39,24 @@ Note that the local admin account information is not backed by any directory ser
 
 You can set a security group from your domain as local administrators on the Surface Hub after you domain join the device to AD. You will need to provide credentials that are capable of joining the domain of your choice. After you domain join successfully, you will be asked to pick an existing security group to be set as the local admins. Anyone who is a member of that security group can enter their credentials and unlock Settings.
 
->**Note**  Surface Hubs domain join for the single purpose of using a security group as local admins. Group policies are not applied after the device is domain joined.
+>
+            **Note**  Surface Hubs domain join for the single purpose of using a security group as local admins. Group policies are not applied after the device is domain joined.
 
- 
+ 
 
->**Note**  If your Surface Hub loses trust with the domain (for example, if you remove the Surface Hub from the domain after it is domain joined), you won't be able to authenticate into the device and open up Settings. If you decide to remove the trust relationship of the Surface Hub with your domain, reset the device first.
+>
+            **Note**  If your Surface Hub loses trust with the domain (for example, if you remove the Surface Hub from the domain after it is domain joined), you won't be able to authenticate into the device and open up Settings. If you decide to remove the trust relationship of the Surface Hub with your domain, reset the device first.
 
- 
+ 
 
 ### Azure Active Directory (Azure AD) join the device
 
 You can set up IT pros from your Azure AD organization as local administrators on the Surface Hub after you join the device. The people that are provisioned as local admins on your device depend on what Azure AD subscription you have. You will need to provide credentials that are capable of joining the Azure AD organization of your choice. After you successfully join Azure AD, the appropriate people will be set as local admins on the device. Any user who was set up as a local admin as a result of this process can enter their credentials and unlock the Settings app.
 
->**Note**  If your Azure AD organization is configured with mobile device management (MDM) enrollment, Surface Hubs will be enrolled into MDM as a result of joining Azure AD. Surface Hubs that have joined Azure AD are subject to receiving MDM policies, and can be managed using the MDM solution that your organization uses.
+>
+            **Note**  If your Azure AD organization is configured with mobile device management (MDM) enrollment, Surface Hubs will be enrolled into MDM as a result of joining Azure AD. Surface Hubs that have joined Azure AD are subject to receiving MDM policies, and can be managed using the MDM solution that your organization uses.
 
- 
+ 
 
 ### Which should I choose?
 
@@ -96,13 +103,19 @@ We recommend that a local admin be set up only if you do not have Active Directo
 </tbody>
 </table>
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

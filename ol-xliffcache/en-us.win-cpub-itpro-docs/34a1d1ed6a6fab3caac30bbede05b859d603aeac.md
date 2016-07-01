@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 34a1d1ed6a6fab3caac30bbede05b859d603aeac
+
 ---
 
 
@@ -102,7 +106,7 @@ When you generate a Windows Installer (MSI) file during sequencing a package, th
 
 To publish the application to the client, run the following command on the client computer:
 
-   **Msiexec.exe /i \\\\PathToMsi\\packagename.msi MODE=STREAMING OVERRIDEURL=\\\\\\\\server\\share\\package.sft**
+   **Msiexec.exe /i \\\\PathToMsi\\packagename.msi MODE=STREAMING OVERRIDEURL=\\\\\\\\server\\share\\package.sft**
 
 The .MSI file publishes the applications to the client and then streams the .SFT file to the client cache.
 
@@ -110,13 +114,19 @@ The .MSI file publishes the applications to the client and then streams the .SFT
 
 To add a new version, an administrator must deploy a new .MSI file to the client and a new .SFT file to the network share. The administrator must then run the same command used to deploy the package, but use the new .MSI file and the new .SFT file, for example:
 
-   **Msiexec.exe /i \\\\PathToMsi\\packagename\_2.msi MODE=STREAMING OVERRIDEURL=\\\\\\\\server\\share\\package\_2.sft**
+   **Msiexec.exe /i \\\\PathToMsi\\packagename\_2.msi MODE=STREAMING OVERRIDEURL=\\\\\\\\server\\share\\package\_2.sft**
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

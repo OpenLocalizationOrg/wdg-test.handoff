@@ -7,6 +7,10 @@ ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 08f80eea6ebed1cbf265ac5df933966edd5da3d5
+
 ---
 
 
@@ -86,16 +90,16 @@ The Microsoft User Experience Virtualization (UE-V) agent must run on each compu
 </tbody>
 </table>
 
- 
+ 
 
 During installation, the SettingsStoragePath command-line parameter specifies the settings storage location for the settings values. A settings storage location can be defined before deploying the UE-V Agent. If no settings storage location is defined, then UE-V uses the Active Directory user Home Directory as the settings storage location. When you specify the SettingsStoragePath configuration during setup and use the %username% as part of the value, this will roam the same user settings experience on all computers or sessions that a user logs into. If you specify the %username%\\%computername% variables as part of the SettingsStoragePath value, this will preserve the settings experience for each computer.
 
 Architecture-specific Windows Installer (.msi) files are provided for the UE-V agent installation in addition to the combined 32-bit and 64-bit installer. The AgentSetupx86.msi or AgentSetupx64.msi install files are smaller than the AgentSetup.exe file and might streamline the agent deployments. The command-line parameters for the AgentSetup.exe installer are supported for the Windows Installer (.msi) installation.
 
-**Note**  
+**Note**  
 During UE-V agent installation or uninstallation you can either use the AgentSetup.exe file or the AgentSetup&lt;arch&gt;.msi file, but not both. The same file must be used to uninstall the UE-V Agent as it was used to install the UE-V Agent.
 
- 
+ 
 
 Be sure to use the correct variable format when you install the UE-V agent. The following table provides examples of deployment options for using the AgentSetup.exe or the Windows Installer (.msi) installation files.
 
@@ -147,12 +151,12 @@ Be sure to use the correct variable format when you install the UE-V agent. The 
 </tbody>
 </table>
 
- 
+ 
 
-**Note**  
+**Note**  
 The installation of the U-EV Agent requires Administrator rights and the computer will require a restart before the UE-V agent can run.
 
- 
+ 
 
 ## UE-V Agent deployment methods from a network share
 
@@ -189,11 +193,17 @@ Updates for the UE-V agent software will be provided through Microsoft Update. D
 [Installing the UE-V Generator](installing-the-ue-v-generator.md)
 
 Deploy the User Experience Virtualization Agent
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

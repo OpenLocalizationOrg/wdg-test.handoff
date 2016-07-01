@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: a4e1dffa7742bace25372ecd78ddd1ebea2b79c4
+
 ---
 
 
@@ -19,19 +23,27 @@ Starting in App-V 5.0 SP3, you can configure the App-V client so that only admin
 
 1.  Navigate to the following Group Policy Object node:
 
-    **Computer Configuration &gt; Policies &gt; Administrative Templates &gt; System &gt; App-V &gt; Publishing**.
+    
+            **Computer Configuration &gt; Policies &gt; Administrative Templates &gt; System &gt; App-V &gt; Publishing**.
 
 2.  Enable the **Require publish as administrator** Group Policy setting.
 
     To alternatively use PowerShell to set this item, see [How to Manage App-V 5.1 Packages Running on a Stand-Alone Computer by Using PowerShell](how-to-manage-app-v-51-packages-running-on-a-stand-alone-computer-by-using-powershell.md#bkmk-admins-pub-pkgs).
 
-    **Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
+    
+            **Got a suggestion for App-V**? Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-microsoft-application-virtualization). **Got an App-V issue?** Use the [App-V TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopappv).
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

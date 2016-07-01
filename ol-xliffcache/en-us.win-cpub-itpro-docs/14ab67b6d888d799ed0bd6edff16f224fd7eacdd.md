@@ -7,6 +7,10 @@ ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 14ab67b6d888d799ed0bd6edff16f224fd7eacdd
+
 ---
 
 
@@ -34,10 +38,10 @@ MBAM lets you grant encryption exemptions to specific users who do not need or w
 
 MBAM provides a custom control panel, called BitLocker Encryption Options, that will appear under **System and Security**. The MBAM control panel can be used to unlock encrypted fixed and removable drives, and also manage your PIN or password.
 
-**Note**  
+**Note**  
 This customized control panel does not replace the default Windows BitLocker control panel.
 
- 
+ 
 
 [How to Manage MBAM Client BitLocker Encryption Options by Using the Control Panel](how-to-manage-mbam-client-bitlocker-encryption-options-by-using-the-control-panel-mbam-2.md)
 
@@ -46,11 +50,17 @@ This customized control panel does not replace the default Windows BitLocker con
 
 [Operations for MBAM 2.0](operations-for-mbam-20-mbam-2.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

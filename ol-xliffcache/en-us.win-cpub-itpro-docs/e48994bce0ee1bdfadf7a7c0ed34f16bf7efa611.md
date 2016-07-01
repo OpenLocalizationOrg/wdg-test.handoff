@@ -7,6 +7,10 @@ ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: e48994bce0ee1bdfadf7a7c0ed34f16bf7efa611
+
 ---
 
 
@@ -33,11 +37,17 @@ If you use a testing organizational unit (OU) to test Group Policy Objects (GPOs
 
 -   [Editing a GPO](editing-a-gpo-agpm30ops.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

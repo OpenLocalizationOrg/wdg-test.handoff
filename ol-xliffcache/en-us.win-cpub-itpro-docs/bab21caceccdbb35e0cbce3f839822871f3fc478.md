@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: bab21caceccdbb35e0cbce3f839822871f3fc478
+
 ---
 
 
@@ -28,11 +32,17 @@ Provides helpful information about configuring certificates to support SSL-based
 <a href="" id="how-to-install-and-configure-the-app-v-management-console-for-a-more-secure-environment"></a>[How to Install and Configure the App-V Management Console for a More Secure Environment](how-to-install-and-configure-the-app-v-management-console-for-a-more-secure-environment.md)  
 Provides a step-by-step procedure for connecting to an App-V Web Management Service by using a secure connection.
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

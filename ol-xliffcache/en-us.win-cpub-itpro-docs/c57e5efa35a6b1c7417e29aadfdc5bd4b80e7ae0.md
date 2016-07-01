@@ -6,6 +6,10 @@ ms.prod: ie11
 ms.mktglfcycl: manage
 ms.sitesec: library
 title: Use the RSoP snap-in to review policy settings (Internet Explorer Administration Kit 11 for IT Pros)
+translationtype: Human Translation
+ms.sourcegitcommit: 48c519535edfc52c5fb29b4e3da49d4057ed6354
+ms.openlocfilehash: c57e5efa35a6b1c7417e29aadfdc5bd4b80e7ae0
+
 ---
 
 # Using the Resultant Set of Policy (RSoP) snap-in to review policy settings
@@ -30,11 +34,17 @@ You’ll only need to go through the resulting RSoP Wizard first time you run th
 
 3.  Under **Computer Configuration**, click **Administrative Templates**, click **Windows Components**, click **IE**, and then click the feature you want to review the policy settings for.
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

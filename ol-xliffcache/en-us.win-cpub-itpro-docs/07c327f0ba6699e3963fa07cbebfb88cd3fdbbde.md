@@ -7,6 +7,10 @@ ms.prod: w10
 ms.mktglfcycl: deploy
 ms.sitesec: library
 author: Mir0sh
+translationtype: Human Translation
+ms.sourcegitcommit: fa5ddfcf9d394c41415d2ed3e305b8068e8be0b8
+ms.openlocfilehash: 07c327f0ba6699e3963fa07cbebfb88cd3fdbbde
+
 ---
 
 # Audit Non Sensitive Privilege Use
@@ -64,7 +68,8 @@ This subcategory also contains informational events from filesystem Transaction 
 
 If you configure this policy setting, an audit event is generated when a non-sensitive privilege is called. Success audits record successful attempts, and failure audits record unsuccessful attempts.
 
-**Event volume**: Very High.
+
+            **Event volume**: Very High.
 
 | Computer Type     | General Success | General Failure | Stronger Success | Stronger Failure | Comments                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-------------------|-----------------|-----------------|------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -74,11 +79,20 @@ If you configure this policy setting, an audit event is generated when a non-sen
 
 **Events List:**
 
--   [4673](event-4673.md)(S, F): A privileged service was called.
+-   
+            [4673](event-4673.md)(S, F): A privileged service was called.
 
--   [4674](event-4674.md)(S, F): An operation was attempted on a privileged object.
+-   
+            [4674](event-4674.md)(S, F): An operation was attempted on a privileged object.
 
--   [4985](event-4985.md)(S): The state of a transaction has changed.
+-   
+            [4985](event-4985.md)(S): The state of a transaction has changed.
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

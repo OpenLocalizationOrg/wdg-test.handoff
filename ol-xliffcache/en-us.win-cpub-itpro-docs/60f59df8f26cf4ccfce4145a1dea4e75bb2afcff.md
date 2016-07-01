@@ -7,17 +7,22 @@ ms.mktglfcycl: plan
 ms.sitesec: library
 ms.pagetype: edu
 author: jdeckerMS
+translationtype: Human Translation
+ms.sourcegitcommit: 5fa98450c82219418998d05a3cac058a1a5c4626
+ms.openlocfilehash: 60f59df8f26cf4ccfce4145a1dea4e75bb2afcff
+
 ---
 
 # Technical reference for the Set up School PCs app (Preview)
 **Applies to:**
 
--   Windows 10 Insider Preview 
+-   Windows 10 Insider Preview 
 
 
 > <span style="color:#ED1C24;">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. ]</span>
 
-The **Set up School PCs** app helps you set up new Windows 10 PCs that work great in your school by configuring shared PC mode, available in Windows 10, version 1607. **Set up School PCs** also configures school-specific settings and policies, described in this topic.
+The **Set up School PCs** app helps you set up new Windows 10 PCs that work great in your school by configuring shared PC mode, available in Windows 10, version 1607. 
+            **Set up School PCs** also configures school-specific settings and policies, described in this topic.
 
 If your school uses Azure Active Directory (Azure AD) or Office 365, the **Set up School PCs** app will create a setup file that connects the computer to your subscription.  You can also use the app to set up school PCs that anyone can use, with or without Internet connectivity. 
 
@@ -31,11 +36,13 @@ The following table tells you what you get using the **Set up School PCs** app i
 | **School policies**<br/>Settings specific to education create a useful learning environment and the best computer performance. | X | X | X | X |
 | **Azure AD Join**<br/>The computers are  joined to your Azure AD or Office 365 subscription for centralized management. |   | X | X | X |
 | **Single sign-on to Office 365**<br/>By signing on with student IDs, students have fast access to Office 365 web apps. |   |    | X | X |
-| **[Settings roaming](https://azure.microsoft.com/en-us/documentation/articles/active-directory-windows-enterprise-state-roaming-overview/) via Azure AD**<br/>Student user and application settings data can be synchronized across devices for a personalized experience. |   |    |    | X |
+| **
+            [Settings roaming](https://azure.microsoft.com/en-us/documentation/articles/active-directory-windows-enterprise-state-roaming-overview/) via Azure AD**<br/>Student user and application settings data can be synchronized across devices for a personalized experience. |   |    |    | X |
 |   |    |    |   |   |
 
 
-> **Note**: If your school uses Active Directory, use Windows Imaging and Configuration Designer to configure your PCs to join the domain. You can only use the **Set up School PCs** app to set up PCs that are not connected to your traditional domain.
+> 
+            **Note**: If your school uses Active Directory, use Windows Imaging and Configuration Designer to configure your PCs to join the domain. You can only use the **Set up School PCs** app to set up PCs that are not connected to your traditional domain.
 
 ## Prerequisites for IT
 
@@ -81,7 +88,8 @@ The PC is also configured to not interrupt the user during normal daytime hours 
 
 
 ## Custom images
-Shared PC mode is fully compatible with custom images that may be created by IT departments. Create a custom image and then use sysprep with the `/oobe` flag to create an image that teachers can then apply the **Set up School PCs** provisioning package to. [Learn more about sysprep](https://technet.microsoft.com/en-us/library/cc721940(v=ws.10).aspx).
+Shared PC mode is fully compatible with custom images that may be created by IT departments. Create a custom image and then use sysprep with the `/oobe` flag to create an image that teachers can then apply the **Set up School PCs** provisioning package to. 
+            [Learn more about sysprep](https://technet.microsoft.com/en-us/library/cc721940(v=ws.10).aspx).
 
 ## Provisioning package details
 
@@ -117,7 +125,8 @@ The **Set up School PCs** app produces a specialized provisioning package that m
 
 ### Local Group Policies
 
-> **Important**: It is not recommended to set additional policies on PCs configured with the **Set up School PCs** app.	The shared PC mode has been optimized to be fast and reliable over time with minimal to no manual maintenance required.
+> 
+            **Important**: It is not recommended to set additional policies on PCs configured with the **Set up School PCs** app. The shared PC mode has been optimized to be fast and reliable over time with minimal to no manual maintenance required.
 
 <table border="1"> 
 <thead><tr><th colspan="2"><p>Policy path</p></th></tr>
@@ -260,5 +269,11 @@ The **Set up School PCs** app produces a specialized provisioning package that m
 [Use Set up School PCs app](use-set-up-school-pcs-app.md)
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

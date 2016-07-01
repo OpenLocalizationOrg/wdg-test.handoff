@@ -7,6 +7,10 @@ ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: f20ecebecdd380483e0bbaacbd012c0772f99ee4
+
 ---
 
 
@@ -51,9 +55,11 @@ How to use the UE-V Generator to validate settings location templates modified o
 
 The UE-V Generator helps you identify where applications look for settings files and registry settings that applications use to store settings information. You can use the UE-V Generator to open the application as part of the discovery process to capture settings in standard locations. Standard locations include the following:
 
--   **Registry Settings** – Registry locations under **HKEY\_CURRENT\_USER**
+-   
+            **Registry Settings** – Registry locations under **HKEY\_CURRENT\_USER**
 
--   **Application Settings Files** – Files stored under \\ **Users** \\ \[User name\] \\ **AppData** \\ **Roaming**
+-   
+            **Application Settings Files** – Files stored under \\**Users**\\\[User name\]\\**AppData**\\**Roaming**
 
 The UE-V Generator excludes locations which commonly store application software files do not roam well between user computers or environments. The UE-V Generator excludes these locations. Excluded locations are as follows:
 
@@ -65,7 +71,7 @@ The UE-V Generator excludes locations which commonly store application software 
 
 -   Files that are located in Program Files directories (Requires Administrator rights and might require UAC agreement to set)
 
--   Files located in Users \\ \[User name\] \\ AppData \\ LocalLow
+-   Files located in Users \\\[User name\]\\ AppData \\ LocalLow
 
 -   Windows operating system files that are located in %systemroot% (Requires Administrator rights and might require UAC agreement to set)
 
@@ -78,11 +84,17 @@ If registry keys and files stored in these locations are required in order to ro
 
 [Administering UE-V 1.0](administering-ue-v-10.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -7,6 +7,10 @@ ms.prod: w10
 ms.mktglfcycl: deploy
 ms.sitesec: library
 author: Mir0sh
+translationtype: Human Translation
+ms.sourcegitcommit: fa5ddfcf9d394c41415d2ed3e305b8068e8be0b8
+ms.openlocfilehash: 06bd5b1bfcac1ffd11b340eaef88236dbd2b583a
+
 ---
 
 # Audit IPsec Main Mode
@@ -43,4 +47,10 @@ Audit IPsec Main Mode subcategory is out of scope of this document, because this
 ## 5049: An IPsec Security Association was deleted.
 
 ## 5453: An IPsec negotiation with a remote computer failed because the IKE and AuthIP IPsec Keying Modules (IKEEXT) service is not started.
+
+
+
+
+<!--HONumber=Jun16_HO4-->
+
 

@@ -7,12 +7,16 @@ ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 author: brianlic-msft
+translationtype: Human Translation
+ms.sourcegitcommit: 8e6dba25e9dbe4f0c138a416b6de2fb4abc6f94e
+ms.openlocfilehash: 78b5e848cddf9d0cf6fc85fbdf748beffa457d3a
+
 ---
 
 # Using advanced security auditing options to monitor dynamic access control objects
 
 **Applies to**
--   Windows 10
+-   Windows 10
 
 This guide explains the process of setting up advanced security auditing capabilities that are made possible through settings and events that were introduced in Windows 8 and Windows Server 2012.
 
@@ -34,9 +38,16 @@ Domain administrators can create and deploy expression-based security audit poli
 | [Monitor the resource attributes on files and folders](monitor-the-resource-attributes-on-files-and-folders.md)| This topic for the IT professional describes how to monitor attempts to change settings to the resource attributes on files when you are using advanced security auditing options to monitor dynamic access control objects. |
 | [Monitor the central access policies associated with files and folders](monitor-the-central-access-policies-associated-with-files-and-folders.md)| This topic for the IT professional describes how to monitor changes to the central access policies that are associated with files and folders when you are using advanced security auditing options to monitor dynamic access control objects. |
 | [Monitor claim types](monitor-claim-types.md) | This topic for the IT professional describes how to monitor changes to claim types that are associated with dynamic access control when you are using advanced security auditing options.| 
- 
->**Important:**  This procedure can be configured on computers running any of the supported Windows operating systems. The other monitoring procedures can be configured only as part of a functioning dynamic access control deployment.
- 
+ 
+>
+            **Important:**  This procedure can be configured on computers running any of the supported Windows operating systems. The other monitoring procedures can be configured only as part of a functioning dynamic access control deployment.
+ 
 ## Related topics
 
 - [Security auditing](security-auditing-overview.md)
+
+
+
+<!--HONumber=Jun16_HO4-->
+
+

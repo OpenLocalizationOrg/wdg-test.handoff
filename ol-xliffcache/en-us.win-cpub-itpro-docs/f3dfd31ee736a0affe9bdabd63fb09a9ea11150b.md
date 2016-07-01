@@ -6,6 +6,10 @@ ms.prod: w10
 ms.mktglfcycl: deploy
 ms.sitesec: library
 author: Mir0sh
+translationtype: Human Translation
+ms.sourcegitcommit: 0c259ec439bc7f2db3a1463019aee49d7611a260
+ms.openlocfilehash: f3dfd31ee736a0affe9bdabd63fb09a9ea11150b
+
 ---
 
 # 4661(S, F): A handle to an object was requested.
@@ -17,7 +21,8 @@ author: Mir0sh
 
 <img src="images/event-4661.png" alt="Event 4661 illustration" width="449" height="661" hspace="10" align="left" />
 
-***Subcategories:***&nbsp;[Audit Directory Service Access](audit-directory-service-access.md) and [Audit SAM](audit-sam.md)
+
+            ***Subcategories:***            &nbsp;            [Audit Directory Service Access](audit-directory-service-access.md) and [Audit SAM](audit-sam.md)
 
 ***Event Description:***
 
@@ -27,11 +32,13 @@ If access was declined, then Failure event is generated.
 
 This event generates only if Success auditing is enabled for the [Audit Handle Manipulation](audit-handle-manipulation.md) subcategory.
 
-> **Note**&nbsp;&nbsp;For recommendations, see [Security Monitoring Recommendations](#security-monitoring-recommendations) for this event.
+> 
+            **Note**            &nbsp;&nbsp;For recommendations, see [Security Monitoring Recommendations](#security-monitoring-recommendations) for this event.
 
 <br clear="all">
 
-***Event XML***:
+
+            ***Event XML***:
 ```
 - <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
 - <System>
@@ -72,23 +79,30 @@ This event generates only if Success auditing is enabled for the [Audit Handle M
 
 ```
 
-***Required Server Roles:*** For an Active Directory object, the domain controller role is required. For a SAM object, there is no required role.
 
-***Minimum OS Version:*** Windows Server 2008, Windows Vista.
+            ***Required Server Roles:*** For an Active Directory object, the domain controller role is required. For a SAM object, there is no required role.
 
-***Event Versions:*** 0.
+
+            ***Minimum OS Version:*** Windows Server 2008, Windows Vista.
+
+
+            ***Event Versions:*** 0.
 
 ***Field Descriptions:***
 
 **Subject:**
 
--   **Security ID** \[Type = SID\]**:** SID of account that requested a handle to an object. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
+-   
+            **Security ID**            \[Type = SID\]**:** SID of account that requested a handle to an object. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
 
-> **Note**&nbsp;&nbsp;A **security identifier (SID)** is a unique value of variable length used to identify a trustee (security principal). Each account has a unique SID that is issued by an authority, such as an Active Directory domain controller, and stored in a security database. Each time a user logs on, the system retrieves the SID for that user from the database and places it in the access token for that user. The system uses the SID in the access token to identify the user in all subsequent interactions with Windows security. When a SID has been used as the unique identifier for a user or group, it cannot ever be used again to identify another user or group. For more information about SIDs, see [Security identifiers](security-identifiers.md).
+> 
+            **Note**            &nbsp;&nbsp;A **security identifier (SID)** is a unique value of variable length used to identify a trustee (security principal). Each account has a unique SID that is issued by an authority, such as an Active Directory domain controller, and stored in a security database. Each time a user logs on, the system retrieves the SID for that user from the database and places it in the access token for that user. The system uses the SID in the access token to identify the user in all subsequent interactions with Windows security. When a SID has been used as the unique identifier for a user or group, it cannot ever be used again to identify another user or group. For more information about SIDs, see [Security identifiers](security-identifiers.md).
 
--   **Account Name** \[Type = UnicodeString\]**:** the name of the account that requested a handle to an object.
+-   
+            **Account Name**            \[Type = UnicodeString\]**:** the name of the account that requested a handle to an object.
 
--   **Account Domain** \[Type = UnicodeString\]**:** subject’s domain or computer name. Formats vary, and include the following:
+-   
+            **Account Domain**            \[Type = UnicodeString\]**:** subject’s domain or computer name. Formats vary, and include the following:
 
     -   Domain NETBIOS name example: CONTOSO
 
@@ -100,13 +114,17 @@ This event generates only if Success auditing is enabled for the [Audit Handle M
 
     -   For local user accounts, this field will contain the name of the computer or device that this account belongs to, for example: “Win81”.
 
--   **Logon ID** \[Type = HexInt64\]**:** hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “[4624](event-4624.md): An account was successfully logged on.”
+-   
+            **Logon ID**            \[Type = HexInt64\]**:** hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “[4624](event-4624.md): An account was successfully logged on.”
 
-**Object**:
 
--   **Object Server** \[Type = UnicodeString\]: has “**Security Account Manager**” value for this event.
+            **Object**:
 
--   **Object Type** \[Type = UnicodeString\]: the type or class of the object that was accessed. The following list contains possible values for this field:
+-   
+            **Object Server**            \[Type = UnicodeString\]: has “**Security Account Manager**” value for this event.
+
+-   
+            **Object Type**            \[Type = UnicodeString\]: the type or class of the object that was accessed. The following list contains possible values for this field:
 
     -   SAM\_ALIAS - a local group.
 
@@ -118,7 +136,8 @@ This event generates only if Success auditing is enabled for the [Audit Handle M
 
     -   SAM\_SERVER - a computer account.
 
--   **Object Name** \[Type = UnicodeString\]: the name of an object for which access was requested. Depends on **Object Type.** This event can have the following format:
+-   
+            **Object Name**            \[Type = UnicodeString\]: the name of an object for which access was requested. Depends on **Object Type.** This event can have the following format:
 
     -   SAM\_ALIAS – SID of the group.
 
@@ -130,7 +149,8 @@ This event generates only if Success auditing is enabled for the [Audit Handle M
 
     -   SAM\_SERVER - distinguished name of the accessed object.
 
-> **Note**&nbsp;&nbsp;The LDAP API references an LDAP object by its **distinguished name (DN)**. A DN is a sequence of relative distinguished names (RDN) connected by commas.
+> 
+            **Note**            &nbsp;&nbsp;The LDAP API references an LDAP object by its **distinguished name (DN)**. A DN is a sequence of relative distinguished names (RDN) connected by commas.
 
 > An RDN is an attribute with an associated value in the form attribute=value; . These are examples of RDNs attributes:
 
@@ -142,31 +162,39 @@ This event generates only if Success auditing is enabled for the [Audit Handle M
 
 > • O - organizationName
 
--   **Handle ID** \[Type = Pointer\]: hexadecimal value of a handle to **Object Name**. This field can help you correlate this event with other events that might contain the same Handle ID, for example, “[4662](event-4662.md): An operation was performed on an object.” This parameter might not be captured in the event, and in that case appears as “0x0”.
+-   
+            **Handle ID**            \[Type = Pointer\]: hexadecimal value of a handle to **Object Name**. This field can help you correlate this event with other events that might contain the same Handle ID, for example, “[4662](event-4662.md): An operation was performed on an object.” This parameter might not be captured in the event, and in that case appears as “0x0”.
 
 **Process Information:**
 
--   **Process ID** \[Type = Pointer\]: hexadecimal Process ID of the process that requested the handle. Process ID (PID) is a number used by the operating system to uniquely identify an active process. To see the PID for a specific process you can, for example, use Task Manager (Details tab, PID column):
+-   
+            **Process ID**            \[Type = Pointer\]: hexadecimal Process ID of the process that requested the handle. Process ID (PID) is a number used by the operating system to uniquely identify an active process. To see the PID for a specific process you can, for example, use Task Manager (Details tab, PID column):
 
     <img src="images/task-manager.png" alt="Task manager illustration" width="585" height="375" />
 
     If you convert the hexadecimal value to decimal, you can compare it to the values in Task Manager.
 
--   **Process Name** \[Type = UnicodeString\]**:** full path and the name of the executable for the process.
+-   
+            **Process Name**            \[Type = UnicodeString\]**:** full path and the name of the executable for the process.
 
 **Access Request Information:**
 
--   **Transaction ID** \[Type = GUID\]: unique GUID of the transaction. This field can help you correlate this event with other events that might contain the same the **Transaction ID**, such as “[4660](event-4660.md)(S): An object was deleted.”
+-   
+            **Transaction ID**            \[Type = GUID\]: unique GUID of the transaction. This field can help you correlate this event with other events that might contain the same the **Transaction ID**, such as “[4660](event-4660.md)(S): An object was deleted.”
 
     This parameter might not be captured in the event, and in that case appears as “{00000000-0000-0000-0000-000000000000}”.
 
-> **Note**&nbsp;&nbsp;**GUID** is an acronym for 'Globally Unique Identifier'. It is a 128-bit integer number used to identify resources, activities or instances.
+> 
+            **Note**            &nbsp;&nbsp;            **GUID** is an acronym for 'Globally Unique Identifier'. It is a 128-bit integer number used to identify resources, activities or instances.
 
--   **Accesses** \[Type = UnicodeString\]: the list of access rights which were requested by **Subject\\Security ID**. These access rights depend on **Object Type**. See “Table 13. File access codes.” for more information about file access rights. For information about SAM object access right use <https://technet.microsoft.com/> or other informational resources.
+-   
+            **Accesses**            \[Type = UnicodeString\]: the list of access rights which were requested by **Subject\\Security ID**. These access rights depend on **Object Type**. See “Table 13. File access codes.” for more information about file access rights. For information about SAM object access right use <https://technet.microsoft.com/> or other informational resources.
 
--   **Access Mask** \[Type = HexInt32\]: hexadecimal mask for the operation that was requested or performed. See “Table 13. File access codes.” for more information about file access rights. For information about SAM object access right use <https://technet.microsoft.com/> or other informational resources.
+-   
+            **Access Mask**            \[Type = HexInt32\]: hexadecimal mask for the operation that was requested or performed. See “Table 13. File access codes.” for more information about file access rights. For information about SAM object access right use <https://technet.microsoft.com/> or other informational resources.
 
--   **Privileges Used for Access Check** \[Type = UnicodeString\]: the list of user privileges which were used during the operation, for example, SeBackupPrivilege. This parameter might not be captured in the event, and in that case appears as “-”. See full list of user privileges in the table below:
+-   
+            **Privileges Used for Access Check**            \[Type = UnicodeString\]: the list of user privileges which were used during the operation, for example, SeBackupPrivilege. This parameter might not be captured in the event, and in that case appears as “-”. See full list of user privileges in the table below:
 
 | Privilege Name                  | User Right Group Policy Name                                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |---------------------------------|----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -206,15 +234,24 @@ This event generates only if Success auditing is enabled for the [Audit Handle M
 | SeUndockPrivilege               | Remove computer from docking station                           | Required to undock a laptop.<br>With this privilege, the user can undock a portable computer from its docking station without logging on.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | SeUnsolicitedInputPrivilege     | Not applicable                                                 | Required to read unsolicited input from a [*terminal*](https://msdn.microsoft.com/en-us/library/windows/desktop/ms721627(v=vs.85).aspx#_security_terminal_gly) device.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
--   **Properties** \[Type = UnicodeString\]: depends on **Object Type**. This field can be empty or contain the list of the object properties that were accessed. See more detailed information in “[4661](event-4661.md): A handle to an object was requested” from [Audit SAM](audit-sam.md) subcategory.
+-   
+            **Properties**            \[Type = UnicodeString\]: depends on **Object Type**. This field can be empty or contain the list of the object properties that were accessed. See more detailed information in “[4661](event-4661.md): A handle to an object was requested” from [Audit SAM](audit-sam.md) subcategory.
 
--   **Restricted SID Count** \[Type = UInt32\]: Number of [restricted SIDs](https://msdn.microsoft.com/en-us/library/windows/desktop/aa446583(v=vs.85).aspx) in the token. Applicable to only specific **Object Types**.
+-   
+            **Restricted SID Count**            \[Type = UInt32\]: Number of [restricted SIDs](https://msdn.microsoft.com/en-us/library/windows/desktop/aa446583(v=vs.85).aspx) in the token. Applicable to only specific **Object Types**.
 
 ## Security Monitoring Recommendations
 
 For 4661(S, F): A handle to an object was requested.
 
-> **Important**&nbsp;&nbsp;For this event, also see [Appendix A: Security monitoring recommendations for many audit events](appendix-a-security-monitoring-recommendations-for-many-audit-events.md).
+> 
+            **Important**            &nbsp;&nbsp;For this event, also see [Appendix A: Security monitoring recommendations for many audit events](appendix-a-security-monitoring-recommendations-for-many-audit-events.md).
 
 -   You can get almost the same information from “[4662](event-4662.md): An operation was performed on an object.” There are no additional recommendations for this event in this document.
+
+
+
+
+<!--HONumber=Jun16_HO4-->
+
 

@@ -7,6 +7,10 @@ ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 0afee7c502aef13a9f626e4a7e4d5bcf3ce2ad3b
+
 ---
 
 
@@ -39,11 +43,17 @@ A user account with the Editor role or necessary permissions in Advanced Group P
 
 -   [Performing Editor Tasks](performing-editor-tasks-agpm40.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

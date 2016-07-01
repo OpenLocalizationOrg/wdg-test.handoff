@@ -7,6 +7,10 @@ ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w7
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 6ffb899bab5f2b8496e14fdf1bead82ede0b4a4d
+
 ---
 
 
@@ -39,11 +43,17 @@ ms.prod: w7
 
     The MED-V workspace is unlocked.
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

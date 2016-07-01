@@ -110,15 +110,19 @@
 ###### [Common Migration Scenarios](usmt-common-migration-scenarios.md)
 ###### [What Does USMT Migrate?](usmt-what-does-usmt-migrate.md)
 ###### [Choose a Migration Store Type](usmt-choose-migration-store-type.md)
-####### [Migration Store Types Overview](migration-store-types-overview.md)
-####### [Estimate Migration Store Size](usmt-estimate-migration-store-size.md)
-####### [Hard-Link Migration Store](usmt-hard-link-migration-store.md)
-####### [Migration Store Encryption](usmt-migration-store-encryption.md)
+####### 
+            [Migration Store Types Overview](migration-store-types-overview.md)            
+#######             [Estimate Migration Store Size](usmt-estimate-migration-store-size.md)            
+#######             [Hard-Link Migration Store](usmt-hard-link-migration-store.md)            
+#######             [Migration Store Encryption](usmt-migration-store-encryption.md)
+          
 ###### [Determine What to Migrate](usmt-determine-what-to-migrate.md)
-####### [Identify Users](usmt-identify-users.md)
-####### [Identify Applications Settings](usmt-identify-application-settings.md)
-####### [Identify Operating System Settings](usmt-identify-operating-system-settings.md)
-####### [Identify File Types, Files, and Folders](usmt-identify-file-types-files-and-folders.md)
+####### 
+            [Identify Users](usmt-identify-users.md)            
+#######             [Identify Applications Settings](usmt-identify-application-settings.md)            
+#######             [Identify Operating System Settings](usmt-identify-operating-system-settings.md)            
+#######             [Identify File Types, Files, and Folders](usmt-identify-file-types-files-and-folders.md)
+          
 ###### [Test Your Migration](usmt-test-your-migration.md)
 ##### [User State Migration Tool (USMT) Command-line Syntax](usmt-command-line-syntax.md)
 ###### [ScanState Syntax](usmt-scanstate-syntax.md)
@@ -136,3 +140,7 @@
 ###### [XML Elements Library](usmt-xml-elements-library.md)
 ##### [Offline Migration Reference](offline-migration-reference.md)
 ## [Change history for Deploy Windows 10](change-history-for-deploy-windows-10.md)
+
+<!--HONumber=Jun16_HO4-->
+
+

@@ -7,6 +7,10 @@ ms.mktglfcycl: plan
 ms.pagetype: appcompat
 ms.sitesec: library
 author: TrudyHa
+translationtype: Human Translation
+ms.sourcegitcommit: ae8220499efdd2bafe460fcae530d62dc13a2634
+ms.openlocfilehash: 976e9079bcdfc7e40d74ebc7ec3eca319beef9e7
+
 ---
 
 # Using the SUA Tool
@@ -14,12 +18,12 @@ author: TrudyHa
 
 **Applies to**
 
--   Windows 10
--   Windows 8.1
--   Windows 8
--   Windows 7
--   Windows Server 2012
--   Windows Server 2008 R2
+-   Windows 10
+-   Windows 8.1
+-   Windows 8
+-   Windows 7
+-   Windows Server 2012
+-   Windows Server 2008 R2
 
 By using the Standard User Analyzer (SUA) tool, you can test your applications and monitor API calls to detect compatibility issues with the User Account Control (UAC) feature.
 
@@ -79,11 +83,17 @@ The following flowchart shows the process of using the SUA tool.
 
 [Fixing Applications by Using the SUA Tool](fixing-applications-by-using-the-sua-tool.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

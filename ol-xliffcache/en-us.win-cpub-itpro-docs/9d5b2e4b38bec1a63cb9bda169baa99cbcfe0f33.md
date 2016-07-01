@@ -7,13 +7,17 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 9d5b2e4b38bec1a63cb9bda169baa99cbcfe0f33
+
 ---
 
 
 # Internet-Facing Server Scenarios for Perimeter Networks
 
 
-App-V 4.5 supports Internet-facing server scenarios, in which users who are not connected to the corporate network or who disconnect from the network can still use App-V. As shown in the following illustration, only the use of secure protocols on the Internet (RTSPS and HTTPS) is supported.
+App-V 4.5 supports Internet-facing server scenarios, in which users who are not connected to the corporate network or who disconnect from the network can still use App-V. As shown in the following illustration, only the use of secure protocols on the Internet (RTSPS and HTTPS) is supported.
 
 ![app-v firewall positioning diagram](images/appvfirewalls.gif)
 
@@ -35,10 +39,10 @@ Place the following servers in the perimeter network:
 
 -   IIS server for publishing and streaming
 
-**Note**  
+**Note**  
 It is a best practice to place the Management Server and IIS server on separate computers.
 
- 
+ 
 
 Place the following servers in the internal network:
 
@@ -76,7 +80,7 @@ The following tables list the traffic requirements for communication from the In
 </tbody>
 </table>
 
- 
+ 
 
 <table>
 <colgroup>
@@ -113,13 +117,19 @@ The following tables list the traffic requirements for communication from the In
 </tbody>
 </table>
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

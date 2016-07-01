@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: dc9b9df31cb7ddc836bc9c42fd99ef25275db0ec
+
 ---
 
 
@@ -44,11 +48,17 @@ After you run a report and the output is displayed in the Application Virtualiza
 
 [How to Run a Report](how-to-run-a-reportserver.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

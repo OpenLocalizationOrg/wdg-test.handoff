@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 163aad47f70b6ac024aaf8be99a62307caeecadd
+
 ---
 
 
@@ -35,11 +39,17 @@ Provides a procedure you can use to delete a file type association.
 
 [Application Virtualization Client Management Console](application-virtualization-client-management-console.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

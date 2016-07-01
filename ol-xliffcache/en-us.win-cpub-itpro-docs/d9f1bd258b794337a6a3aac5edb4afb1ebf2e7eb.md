@@ -7,6 +7,10 @@ ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: d9f1bd258b794337a6a3aac5edb4afb1ebf2e7eb
+
 ---
 
 
@@ -23,11 +27,17 @@ To make changes to a GPO offline without immediately impacting the deployed copy
 
 -   [Rename a GPO or Template](rename-a-gpo-or-template-agpm40.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -6,6 +6,10 @@ ms.prod: w10
 ms.mktglfcycl: deploy
 ms.sitesec: library
 author: Mir0sh
+translationtype: Human Translation
+ms.sourcegitcommit: 0c259ec439bc7f2db3a1463019aee49d7611a260
+ms.openlocfilehash: 2948fad58f7267b6fe3cf9cab9cd9d3eec0dc1d2
+
 ---
 
 # 4703(S): A user right was adjusted.
@@ -17,13 +21,16 @@ author: Mir0sh
 
 <img src="images/event-4703.png" alt="Event 4703 illustration" width="414" height="419" hspace="10" align="left" />
 
-***Subcategory:***&nbsp;[Audit Authorization Policy Change](audit-authorization-policy-change.md)
+
+            ***Subcategory:***            &nbsp;            [Audit Authorization Policy Change](audit-authorization-policy-change.md)
+          
 
 ***Event Description:***
 
 This event generates when [token privileges](https://msdn.microsoft.com/en-us/library/windows/desktop/aa446619(v=vs.85).aspx) were enabled or disabled for a specific account’s token.  As of Windows 10, event 4703 is also logged by applications or services that dynamically adjust token privileges. An example of such an application is System Center Configuration Manager, which makes WMI queries at recurring intervals and quickly generates a large number of 4703 events (with the WMI activity listed as coming from svchost.exe). If you are using an application or system service that makes changes to system privileges through the AdjustPrivilegesToken API, you might need to disable Success auditing for this subcategory (Audit Authorization Policy Change), or work with a very high volume of event 4703.
 
-> **Note**&nbsp;&nbsp;For recommendations, see [Security Monitoring Recommendations](#security-monitoring-recommendations) for this event.
+> 
+            **Note**            &nbsp;&nbsp;For recommendations, see [Security Monitoring Recommendations](#security-monitoring-recommendations) for this event.
 
 Token privileges provide the ability to take certain system-level actions that you only need to do at particular moments. For example, anybody can restart a computer, but the operating system doesn’t enable that privilege by default. Instead, the privilege is enabled when you click **Shutdown**. You can check the current state of the user’s token privileges using the **whoami /priv** command:
 
@@ -68,23 +75,30 @@ Token privileges provide the ability to take certain system-level actions that y
 
 ```
 
-***Required Server Roles:*** None.
 
-***Minimum OS Version:*** Windows Server 2016, Windows 10.
+            ***Required Server Roles:*** None.
 
-***Event Versions:*** 0.
+
+            ***Minimum OS Version:*** Windows Server 2016, Windows 10.
+
+
+            ***Event Versions:*** 0.
 
 ***Field Descriptions:***
 
 **Subject:**
 
--   **Security ID** \[Type = SID\]**:** SID of account that requested the “enable” or “disable” operation for **Target Account** privileges. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
+-   
+            **Security ID**            \[Type = SID\]**:** SID of account that requested the “enable” or “disable” operation for **Target Account** privileges. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
 
-> **Note**&nbsp;&nbsp;A **security identifier (SID)** is a unique value of variable length used to identify a trustee (security principal). Each account has a unique SID that is issued by an authority, such as an Active Directory domain controller, and stored in a security database. Each time a user logs on, the system retrieves the SID for that user from the database and places it in the access token for that user. The system uses the SID in the access token to identify the user in all subsequent interactions with Windows security. When a SID has been used as the unique identifier for a user or group, it cannot ever be used again to identify another user or group. For more information about SIDs, see [Security identifiers](security-identifiers.md).
+> 
+            **Note**            &nbsp;&nbsp;A **security identifier (SID)** is a unique value of variable length used to identify a trustee (security principal). Each account has a unique SID that is issued by an authority, such as an Active Directory domain controller, and stored in a security database. Each time a user logs on, the system retrieves the SID for that user from the database and places it in the access token for that user. The system uses the SID in the access token to identify the user in all subsequent interactions with Windows security. When a SID has been used as the unique identifier for a user or group, it cannot ever be used again to identify another user or group. For more information about SIDs, see [Security identifiers](security-identifiers.md).
 
--   **Account Name** \[Type = UnicodeString\]**:** the name of the account that requested the “enable” or “disable” operation for **Target Account** privileges.
+-   
+            **Account Name**            \[Type = UnicodeString\]**:** the name of the account that requested the “enable” or “disable” operation for **Target Account** privileges.
 
--   **Account Domain** \[Type = UnicodeString\]**:** subject’s domain or computer name. Formats vary, and include the following:
+-   
+            **Account Domain**            \[Type = UnicodeString\]**:** subject’s domain or computer name. Formats vary, and include the following:
 
     -   Domain NETBIOS name example: CONTOSO
 
@@ -96,17 +110,22 @@ Token privileges provide the ability to take certain system-level actions that y
 
     -   For local user accounts, this field will contain the name of the computer or device that this account belongs to, for example: “Win81”.
 
--   **Logon ID** \[Type = HexInt64\]**:** hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “[4624](event-4624.md): An account was successfully logged on.”
+-   
+            **Logon ID**            \[Type = HexInt64\]**:** hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “[4624](event-4624.md): An account was successfully logged on.”
 
 **Target Account:**
 
--   **Security ID** \[Type = SID\]**:** SID of account for which privileges were enabled or disabled. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
+-   
+            **Security ID**            \[Type = SID\]**:** SID of account for which privileges were enabled or disabled. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
 
-> **Note**&nbsp;&nbsp;A **security identifier (SID)** is a unique value of variable length used to identify a trustee (security principal). Each account has a unique SID that is issued by an authority, such as an Active Directory domain controller, and stored in a security database. Each time a user logs on, the system retrieves the SID for that user from the database and places it in the access token for that user. The system uses the SID in the access token to identify the user in all subsequent interactions with Windows security. When a SID has been used as the unique identifier for a user or group, it cannot ever be used again to identify another user or group. For more information about SIDs, see [Security identifiers](security-identifiers.md).
+> 
+            **Note**            &nbsp;&nbsp;A **security identifier (SID)** is a unique value of variable length used to identify a trustee (security principal). Each account has a unique SID that is issued by an authority, such as an Active Directory domain controller, and stored in a security database. Each time a user logs on, the system retrieves the SID for that user from the database and places it in the access token for that user. The system uses the SID in the access token to identify the user in all subsequent interactions with Windows security. When a SID has been used as the unique identifier for a user or group, it cannot ever be used again to identify another user or group. For more information about SIDs, see [Security identifiers](security-identifiers.md).
 
--   **Account Name** \[Type = UnicodeString\]**:** the name of the account for which privileges were enabled or disabled.
+-   
+            **Account Name**            \[Type = UnicodeString\]**:** the name of the account for which privileges were enabled or disabled.
 
--   **Account Domain** \[Type = UnicodeString\]**:** subject’s domain or computer name. Formats vary, and include the following:
+-   
+            **Account Domain**            \[Type = UnicodeString\]**:** subject’s domain or computer name. Formats vary, and include the following:
 
     -   Domain NETBIOS name example: CONTOSO
 
@@ -118,11 +137,13 @@ Token privileges provide the ability to take certain system-level actions that y
 
     -   For local user accounts, this field will contain the name of the computer or device that this account belongs to, for example: “Win81”.
 
--   **Logon ID** \[Type = HexInt64\]**:** hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “[4624](event-4624.md): An account was successfully logged on.”
+-   
+            **Logon ID**            \[Type = HexInt64\]**:** hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “[4624](event-4624.md): An account was successfully logged on.”
 
 **Process Information:**
 
--   **Process ID** \[Type = Pointer\]: hexadecimal Process ID of the process that enabled or disabled token privileges. Process ID (PID) is a number used by the operating system to uniquely identify an active process. To see the PID for a specific process you can, for example, use Task Manager (Details tab, PID column):
+-   
+            **Process ID**            \[Type = Pointer\]: hexadecimal Process ID of the process that enabled or disabled token privileges. Process ID (PID) is a number used by the operating system to uniquely identify an active process. To see the PID for a specific process you can, for example, use Task Manager (Details tab, PID column):
 
     <img src="images/task-manager.png" alt="Task manager illustration" width="585" height="375" />
 
@@ -130,11 +151,13 @@ Token privileges provide the ability to take certain system-level actions that y
 
     You can also correlate this process ID with a process ID in other events, for example, “[4688](event-4688.md): A new process has been created” **Process Information\\New Process ID**.
 
--   **Process Name** \[Type = UnicodeString\]**:** full path and the name of the executable for the process.
+-   
+            **Process Name**            \[Type = UnicodeString\]**:** full path and the name of the executable for the process.
 
 <!-- -->
 
--   **Enabled Privileges** \[Type = UnicodeString\]**:** the list of enabled user rights. This event generates only for *user* rights, not logon rights. Here is the list of possible user rights:
+-   
+            **Enabled Privileges**            \[Type = UnicodeString\]**:** the list of enabled user rights. This event generates only for *user* rights, not logon rights. Here is the list of possible user rights:
 
 | Privilege Name                  | User Right Group Policy Name                                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |---------------------------------|----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -174,7 +197,8 @@ Token privileges provide the ability to take certain system-level actions that y
 | SeUndockPrivilege               | Remove computer from docking station                           | Required to undock a laptop.<br>With this privilege, the user can undock a portable computer from its docking station without logging on.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | SeUnsolicitedInputPrivilege     | Not applicable                                                 | Required to read unsolicited input from a [*terminal*](https://msdn.microsoft.com/en-us/library/windows/desktop/ms721627(v=vs.85).aspx#_security_terminal_gly) device.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
-**Disabled Privileges** \[Type = UnicodeString\]**:** the list of disabled user rights. See possible values in the table above.
+
+            **Disabled Privileges**            \[Type = UnicodeString\]**:** the list of disabled user rights. See possible values in the table above.
 
 ## Security Monitoring Recommendations
 
@@ -186,12 +210,27 @@ Otherwise, see the recommendations in the following table.
 
 | **Type of monitoring required**                                                                                                                                                                                                                                                                                   | **Recommendation**                                                                                                                                                                                                                                                                                              |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **High-value accounts**: You might have high-value domain or local accounts for which you need to monitor each action.<br>Examples of high-value accounts are database administrators, built-in local administrator account, domain administrators, service accounts, domain controller accounts and so on. | Monitor this event with the **“Subject\\Security ID”** that corresponds to the high-value account or accounts.                                                                                                                                                                                                  |
-| **Anomalies or malicious actions**: You might have specific requirements for detecting anomalies or monitoring potential malicious actions. For example, you might need to monitor for use of an account outside of working hours.                                                                                | When you monitor for anomalies or malicious actions, use the **“Subject\\Security ID”** (with other information) to monitor how or when a particular account is being used.                                                                                                                                     |
-| **Non-active accounts**: You might have non-active, disabled, or guest accounts, or other accounts that should never be used.                                                                                                                                                                                     | Monitor this event with the **“Subject\\Security ID”** or “**Target Account\\Security ID**” that correspond to the accounts that should never be used.                                                                                                                                                          |
-| **Account whitelist**: You might have a specific whitelist of accounts that are the only ones allowed to perform actions corresponding to particular events.                                                                                                                                                      | If this event corresponds to a “whitelist-only” action, review the **“Subject\\Security ID”** for accounts that are outside the whitelist. Also check the “**Target Account\\Security ID**” and **“Enabled Privileges”** to see what was enabled.                                                               |
-| **Accounts of different types**: You might want to ensure that certain actions are performed only by certain account types, for example, local or domain account, machine or user account, vendor or employee account, and so on.                                                                                 | If this event corresponds to an action you want to monitor for certain account types, review the **“Subject\\Security ID”** to see whether the account type is as expected.                                                                                                                                     |
-| **External accounts**: You might be monitoring accounts from another domain, or “external” accounts that are not allowed to perform certain actions (represented by certain specific events).                                                                                                                     | Monitor this event for the **“Subject\\Account Domain”** corresponding to accounts from another domain or “external” accounts.                                                                                                                                                                                  |
-| **Restricted-use computers or devices**: You might have certain computers, machines, or devices on which certain people (accounts) should perform only limited actions, or no actions at all.                                                                                                                     | Monitor the target **Computer:** (or other target device) for actions performed by the **“Subject\\Security ID”** that you are concerned about. <br>Also check **“Target Account\\Security ID”** to see whether the change in privileges should be made on that computer for that account.                |
-| **User rights that should be restricted or monitored**: You might have a list of user rights that you want to restrict or monitor.                                                                                                                                                                                | Monitor this event and compare the **“Enabled Privileges”** to your list of user rights. Trigger an alert for user rights that should not be enabled, especially on high-value servers or other computers.<br>For example, you might have **SeDebugPrivilege** on a list of user rights to be restricted. |
-| **Account naming conventions**: Your organization might have specific naming conventions for account names.                                                                                                                                                                                                       | Monitor “**Subject\\Account Name”** for names that don’t comply with naming conventions.                                                                                                                                                                                                                        |
+| 
+            **High-value accounts**: You might have high-value domain or local accounts for which you need to monitor each action.<br>Examples of high-value accounts are database administrators, built-in local administrator account, domain administrators, service accounts, domain controller accounts and so on. | Monitor this event with the **“Subject\\Security ID”** that corresponds to the high-value account or accounts.                                                                                                                                                                                                  |
+| 
+            **Anomalies or malicious actions**: You might have specific requirements for detecting anomalies or monitoring potential malicious actions. For example, you might need to monitor for use of an account outside of working hours.                                                                                | When you monitor for anomalies or malicious actions, use the **“Subject\\Security ID”** (with other information) to monitor how or when a particular account is being used.                                                                                                                                     |
+| 
+            **Non-active accounts**: You might have non-active, disabled, or guest accounts, or other accounts that should never be used.                                                                                                                                                                                     | Monitor this event with the **“Subject\\Security ID”** or “**Target Account\\Security ID**” that correspond to the accounts that should never be used.                                                                                                                                                          |
+| 
+            **Account whitelist**: You might have a specific whitelist of accounts that are the only ones allowed to perform actions corresponding to particular events.                                                                                                                                                      | If this event corresponds to a “whitelist-only” action, review the **“Subject\\Security ID”** for accounts that are outside the whitelist. Also check the “**Target Account\\Security ID**” and **“Enabled Privileges”** to see what was enabled.                                                               |
+| 
+            **Accounts of different types**: You might want to ensure that certain actions are performed only by certain account types, for example, local or domain account, machine or user account, vendor or employee account, and so on.                                                                                 | If this event corresponds to an action you want to monitor for certain account types, review the **“Subject\\Security ID”** to see whether the account type is as expected.                                                                                                                                     |
+| 
+            **External accounts**: You might be monitoring accounts from another domain, or “external” accounts that are not allowed to perform certain actions (represented by certain specific events).                                                                                                                     | Monitor this event for the **“Subject\\Account Domain”** corresponding to accounts from another domain or “external” accounts.                                                                                                                                                                                  |
+| 
+            **Restricted-use computers or devices**: You might have certain computers, machines, or devices on which certain people (accounts) should perform only limited actions, or no actions at all.                                                                                                                     | Monitor the target **Computer:** (or other target device) for actions performed by the **“Subject\\Security ID”** that you are concerned about. <br>Also check **“Target Account\\Security ID”** to see whether the change in privileges should be made on that computer for that account.                |
+| 
+            **User rights that should be restricted or monitored**: You might have a list of user rights that you want to restrict or monitor.                                                                                                                                                                                | Monitor this event and compare the **“Enabled Privileges”** to your list of user rights. Trigger an alert for user rights that should not be enabled, especially on high-value servers or other computers.<br>For example, you might have **SeDebugPrivilege** on a list of user rights to be restricted. |
+| 
+            **Account naming conventions**: Your organization might have specific naming conventions for account names.                                                                                                                                                                                                       | Monitor “**Subject\\Account Name”** for names that don’t comply with naming conventions.                                                                                                                                                                                                                        |
+
+
+
+<!--HONumber=Jun16_HO4-->
+
+

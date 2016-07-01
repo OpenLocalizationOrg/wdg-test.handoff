@@ -7,13 +7,17 @@ ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: networking
 title: Auto proxy configuration settings for Internet Explorer 11 (Internet Explorer 11 for IT Pros)
+translationtype: Human Translation
+ms.sourcegitcommit: 0164c7a3150be29ce2e1077c4746dec0ab6463b6
+ms.openlocfilehash: aeff946ecef2a40cff92b5b8c0aeee3e560a7d8d
+
 ---
 
 # Auto proxy configuration settings for Internet Explorer 11
-Configure and maintain your proxy settings, like pointing your users' browsers to your automatic proxy script, through the Internet Explorer Customization Wizard 11 running on either Windows 8.1 or Windows Server 2012 R2.
+Configure and maintain your proxy settings, like pointing your users' browsers to your automatic proxy script, through the Internet Explorer Customization Wizard 11 running on either Windows 8.1 or Windows Server 2012 R2.
 
 ## Updating your auto-proxy settings
-You can use your Internet settings (.ins) files to set up your standard proxy settings. You can also specify script files (.js, .jvs, or .pac) to configure and maintain your advanced proxy settings. IE uses your auto-proxy script files to dynamically determine whether to connect to a host or use a proxy server. If a proxy server connection fails, Internet Explorer 11 automatically attempts to connect to another proxy server that you have specified.
+You can use your Internet settings (.ins) files to set up your standard proxy settings. You can also specify script files (.js, .jvs, or .pac) to configure and maintain your advanced proxy settings. IE uses your auto-proxy script files to dynamically determine whether to connect to a host or use a proxy server. If a proxy server connection fails, Internet Explorer 11 automatically attempts to connect to another proxy server that you have specified.
 
  ![](images/wedge.gif) **To update your settings**
 
@@ -23,11 +27,14 @@ You can use your Internet settings (.ins) files to set up your standard proxy se
 
 3.  Choose the **Enable Automatic Configuration** box to let you change the rest of the configuration options, including:
 
-    -   **Automatically configure every box:** Type how often IE should check for configuration updates. Typing **0** (zero), or not putting in any number, means that updates only happen when the computer restarts.
+    -   
+            **Automatically configure every box:** Type how often IE should check for configuration updates. Typing **0** (zero), or not putting in any number, means that updates only happen when the computer restarts.
 
-    -   **Automatic Configuration URL (.INS file) box:** Type the location of the .ins file you want to use for automatic configuration. For more information about setting up **Automatic Configuration**, see [Auto configuration settings for Internet Explorer 11](auto-configuration-settings-for-ie11.md).
+    -   
+            **Automatic Configuration URL (.INS file) box:** Type the location of the .ins file you want to use for automatic configuration. For more information about setting up **Automatic Configuration**, see [Auto configuration settings for Internet Explorer 11](auto-configuration-settings-for-ie11.md).
 
-    -   **Automatic proxy URL (.JS, .JVS, or .PAC file) box:** Type the location of your automatic proxy script. This script runs whenever IE11 makes a network request and can include multiple proxy servers for each protocol type.<p>**Important**<br>IE11 no longer supports using file server locations with your proxy configuration (.pac) files. To keep using your .pac files, you have to keep them on a web server and reference them using a URL, like `http://share/test.ins`.
+    -   
+            **Automatic proxy URL (.JS, .JVS, or .PAC file) box:** Type the location of your automatic proxy script. This script runs whenever IE11 makes a network request and can include multiple proxy servers for each protocol type.<p>**Important**<br>IE11 no longer supports using file server locations with your proxy configuration (.pac) files. To keep using your .pac files, you have to keep them on a web server and reference them using a URL, like `http://share/test.ins`.
 
 ## Locking your auto-proxy settings
 You have two options to restrict your users' ability to override the automatic configuration settings, based on your environment.
@@ -36,9 +43,15 @@ You have two options to restrict your users' ability to override the automatic c
 
 -   **Not Using Active Directory.** Choose the **Prevent changing proxy settings** setting in the `User Configuration\Administrative Templates\Windows Components\Internet Explorer` Group Policy object. For more information about Group Policy, see the [Group Policy TechCenter](http://go.microsoft.com/fwlink/p/?LinkId=214514).
 
- 
+ 
 
- 
+ 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

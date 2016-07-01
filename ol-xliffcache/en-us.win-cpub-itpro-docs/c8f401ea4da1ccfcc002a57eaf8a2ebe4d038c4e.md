@@ -7,6 +7,10 @@ ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: c8f401ea4da1ccfcc002a57eaf8a2ebe4d038c4e
+
 ---
 
 
@@ -19,10 +23,10 @@ You can use Microsoft BitLocker Administration and Monitoring (MBAM) to determin
 
 1.  Open a web browser and navigate to the Administration and Monitoring website.
 
-    **Note**  
+    **Note**  
     Note: The default address for the Administration and Monitoring website is http://*&lt;computername&gt;*. Using the fully qualified server name will yield faster browsing results.
 
-     
+     
 
 2.  Selects the **Report** node from the navigation pane, and select the **Computer Compliance Report**.
 
@@ -30,21 +34,27 @@ You can use Microsoft BitLocker Administration and Monitoring (MBAM) to determin
 
 4.  Take the appropriate action, as determined by your policy for lost devices.
 
-    **Note**  
+    **Note**  
     Device compliance is determined by the BitLocker policies that your enterprise has deployed. You may want to verify your deployed policies before you try to determine the BitLocker encryption state of a device.
 
-     
+     
 
 ## Related topics
 
 
 [Performing BitLocker Management with MBAM](performing-bitlocker-management-with-mbam-mbam-2.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

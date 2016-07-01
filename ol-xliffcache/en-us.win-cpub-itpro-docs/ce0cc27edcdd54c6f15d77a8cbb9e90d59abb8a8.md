@@ -7,20 +7,24 @@ ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 author: brianlic-msft
+translationtype: Human Translation
+ms.sourcegitcommit: ec65ca848bf7efadab2e50f96d2b50f4064313cc
+ms.openlocfilehash: ce0cc27edcdd54c6f15d77a8cbb9e90d59abb8a8
+
 ---
 
 # Create an Authentication Exemption List Rule
 
 **Applies to**
--   Windows 10
+-   Windows 10
 -   Windows Server 2016 Technical Preview
 
 In almost any isolated server or isolated domain scenario, there are some devices or devices that cannot communicate by using IPsec. This procedure shows you how to create rules that exempt those devices from the authentication requirements of your isolation policies.
 
-**Important**  
+**Important**  
 Adding devices to the exemption list for a zone reduces security because it permits devices in the zone to send network traffic that is unprotected by IPsec to the devices on the list. As discussed in the Windows Firewall with Advanced Security Design Guide, you must add only managed and trusted devices to the exemption list.
 
- 
+ 
 
 **Administrative credentials**
 
@@ -28,7 +32,8 @@ To complete these procedures, you must be a member of the Domain Administrators 
 
 **To create a rule that exempts specified hosts from authentication**
 
-1.  [Open the Group Policy Management Console to Windows Firewall with Advanced Security](open-the-group-policy-management-console-to-windows-firewall-with-advanced-security.md).
+1.  
+            [Open the Group Policy Management Console to Windows Firewall with Advanced Security](open-the-group-policy-management-console-to-windows-firewall-with-advanced-security.md).
 
 2.  In the navigation pane, click **Connection Security Rules**.
 
@@ -46,7 +51,8 @@ To complete these procedures, you must be a member of the Domain Administrators 
 
     -   To add the local device’s subnet, click **Predefined set of computers**, select **Local subnet** from the list, and then click **OK**.
 
-        >**Note:**  If you select the local subnet from the list rather than typing the subnet address in manually, the device automatically adjusts the active local subnet to match the device’s current IP address.
+        >
+            **Note:**  If you select the local subnet from the list rather than typing the subnet address in manually, the device automatically adjusts the active local subnet to match the device’s current IP address.
         
     -   To add a discrete range of addresses that do not correspond to a subnet, click **This IP address range**, type the beginning and ending IP addresses in the **From** and **To** text boxes, and then click **OK**.
 
@@ -58,6 +64,13 @@ To complete these procedures, you must be a member of the Domain Administrators 
 
 9.  On the **Profile** page, check the profile for each network location type to which this set of exemptions applies, and then click **Next**.
 
-    >**Caution:**  If all of the exemptions are on the organization’s network and that network is managed by an Active Directory domain, then consider restricting the rule to the Domain profile only. Selecting the wrong profile can reduce the protection for your computer because any computer with an IP address that matches an exemption rule will not be required to authenticate.
+    >
+            **Caution:**  If all of the exemptions are on the organization’s network and that network is managed by an Active Directory domain, then consider restricting the rule to the Domain profile only. Selecting the wrong profile can reduce the protection for your computer because any computer with an IP address that matches an exemption rule will not be required to authenticate.
 
 10. On the **Name** page, type the name of the exemption rule, type a description, and then click **Finish**.
+
+
+
+<!--HONumber=Jun16_HO4-->
+
+

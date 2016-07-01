@@ -7,6 +7,10 @@ ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 8ebba8ce7e182dccd81f7e5a22c6dcd5df74d64e
+
 ---
 
 
@@ -71,7 +75,7 @@ The **Group Policy objects** section displays a filtered list of Group Policy Ob
 </tbody>
 </table>
 
- 
+ 
 
 ## Groups and Users section
 
@@ -109,7 +113,7 @@ When a GPO is selected, the **Groups and Users** section displays a list of the 
 </tbody>
 </table>
 
- 
+ 
 
 ### Additional considerations
 
@@ -119,11 +123,17 @@ When a GPO is selected, the **Groups and Users** section displays a list of the 
 
 -   [Contents Tab](contents-tab-agpm30ops.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

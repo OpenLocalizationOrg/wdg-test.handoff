@@ -7,12 +7,16 @@ ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 author: brianlic-msft
+translationtype: Human Translation
+ms.sourcegitcommit: f046a5fec059b3fed76b6f3225a0535247bee884
+ms.openlocfilehash: ff604158c050c1f2f0e0acaf5a3a11c3cbeb5fbb
+
 ---
 
 # AD DS schema extensions to support TPM backup
 
 **Applies to**
--   Windows 10
+-   Windows 10
 
 This topic provides more details about this change and provides template schema extensions that you can incorporate into your organization.
 
@@ -226,8 +230,9 @@ You should be aware that only the Computer object that has created the TPM objec
 ### TpmSchemaExtensionACLChanges.ldf
 
 This schema update modifies the ACLs on the TPM object to be less restrictive so that any subsequent operating system which takes ownership of the computer object can update the owner authorization value in AD DS.
-> **Important**  After implementing this schema update, any computer in the domain can update the OwnerAuth of the TPM object (although it cannot read the OwnerAuth). When using this extension, perform a regular backup of the TPM objects and enable auditing to track the changes for these objects.
- 
+> 
+            **Important**  After implementing this schema update, any computer in the domain can update the OwnerAuth of the TPM object (although it cannot read the OwnerAuth). When using this extension, perform a regular backup of the TPM objects and enable auditing to track the changes for these objects.
+ 
 ``` syntax
 #===============================================================================
 #
@@ -281,5 +286,11 @@ add: schemaUpdateNow
 schemaUpdateNow: 1
 -
 ```
- 
- 
+ 
+ 
+
+
+
+<!--HONumber=Jun16_HO4-->
+
+

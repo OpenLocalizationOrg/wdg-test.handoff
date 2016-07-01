@@ -7,6 +7,10 @@ ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 4a1b5f1a1eb72ee30ee2dbbff2db1eab969d76ad
+
 ---
 
 
@@ -21,10 +25,10 @@ When you move an operating system drive that is encrypted by using Microsoft Bit
 
 2.  Once the computer has been started with WinRE or DaRT, Microsoft BitLocker Administration and Monitoring will treat the moved operating system drive as a data drive. MBAM will then display the drive’s recovery password ID and ask for the recovery password.
 
-    **Note**  
+    **Note**  
     In some cases, you may be able to click **I forgot the PIN** during the startup process, and then enter the recovery mode to display the recovery key ID.
 
-     
+     
 
 3.  Use the recovery key ID to retrieve the recovery password and unlock the drive from the Administration and Monitoring website.
 
@@ -37,11 +41,17 @@ When you move an operating system drive that is encrypted by using Microsoft Bit
 
 [Performing BitLocker Management with MBAM](performing-bitlocker-management-with-mbam-mbam-2.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

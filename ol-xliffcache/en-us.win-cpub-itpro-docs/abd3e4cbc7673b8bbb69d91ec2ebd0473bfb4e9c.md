@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: abd3e4cbc7673b8bbb69d91ec2ebd0473bfb4e9c
+
 ---
 
 
@@ -118,7 +122,8 @@ Access type: Read-only
 
 Qualifiers: None
 
-**true** if any virtual application in the virtual package is running; otherwise **false**.
+
+            **true** if any virtual application in the virtual package is running; otherwise **false**.
 
 <a href="" id="locked"></a>**Locked**  
 Data type: **Boolean**
@@ -127,7 +132,8 @@ Access type: Read-only
 
 Qualifiers: None
 
-**true** if the virtual package is locked; otherwise **false**.
+
+            **true** if the virtual package is locked; otherwise **false**.
 
 <a href="" id="cachedpercentage"></a>**CachedPercentage**  
 Data type: **UInt16**
@@ -147,11 +153,17 @@ Qualifiers: None
 
 The GUID identifier of the package version.
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

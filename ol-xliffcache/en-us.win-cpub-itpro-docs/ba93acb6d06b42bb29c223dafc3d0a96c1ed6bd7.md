@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: ba93acb6d06b42bb29c223dafc3d0a96c1ed6bd7
+
 ---
 
 
@@ -48,11 +52,17 @@ You can use the following command-line procedures to delete a virtual applicatio
 
 [How to Delete All Virtual Applications by Using the Command Line](how-to-delete-all-virtual-applications-by-using-the-command-line.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

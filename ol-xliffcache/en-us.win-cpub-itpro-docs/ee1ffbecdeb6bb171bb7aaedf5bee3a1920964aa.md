@@ -7,6 +7,10 @@ ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: ee1ffbecdeb6bb171bb7aaedf5bee3a1920964aa
+
 ---
 
 
@@ -15,10 +19,10 @@ ms.prod: w8
 
 A Microsoft BitLocker Administration and Monitoring (MBAM) control panel application, called BitLocker Encryption Options, will be available under **System and Security** when the MBAM Client is installed. This customized MBAM control panel replaces the default Windows BitLocker control panel. The MBAM control panel enables you to unlock encrypted drives (fixed and removable), and also helps you manage your PIN or password. For more information about enabling the MBAM control panel, see [How to Hide Default BitLocker Encryption in The Windows Control Panel](how-to-hide-default-bitlocker-encryption-in-the-windows-control-panel.md).
 
-**Note**  
+**Note**  
 For the BitLocker client, the Admin and Operational log files are located in Event Viewer, under **Application and Services Logs** / **Microsoft** / **Windows** / **BitLockerManagement**.
 
- 
+ 
 
 **To use the MBAM Client Control Panel**
 
@@ -37,11 +41,17 @@ For the BitLocker client, the Admin and Operational log files are located in Eve
 
 [Administering MBAM 1.0 Features](administering-mbam-10-features.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

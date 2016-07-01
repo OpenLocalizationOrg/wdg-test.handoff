@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: a7dc65e82ec6f14e8dac426eab5cba7fc995cb1a
+
 ---
 
 
@@ -38,11 +42,17 @@ The stand-alone delivery scenario has the following limitations:
 
 [How to Publish a Virtual Application on the Client](how-to-publish-a-virtual-application-on-the-client.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

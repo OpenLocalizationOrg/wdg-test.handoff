@@ -7,6 +7,10 @@ ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w7
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 5eaa0d195dfb8574dff7fbca59b13bd5b4a84aaf
+
 ---
 
 
@@ -46,11 +50,17 @@ The MED-V management console can be used only by administrators and the Windows 
 
 MED-V uses MED-V Server service context to collect reports from the Microsoft SQL Server reports database. The MED-V Server configuration utility verifies the database and tests the database connection string. It does not validate the access of MED-V Server service to the database.
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 3e16a454e98bf1c8dd2e4b06c0cbbdc0df84a0fc
+
 ---
 
 
@@ -15,10 +19,10 @@ ms.prod: w10
 
 Starting in Microsoft Application Virtualization (App-V) 5.0 SP3, you can add optional packages to your connection groups to simplify connection group management. The following table summarizes the tasks that you can complete more easily by using optional packages, and provides links to instructions for each task.
 
-**Note**  
+**Note**  
 **Optional packages are supported only in App-V 5.0 SP3.**
 
- 
+ 
 
 Before using optional packages, see [Requirements for using optional packages in connection groups](#bkmk-reqs-using-cg).
 
@@ -47,7 +51,7 @@ Before using optional packages, see [Requirements for using optional packages in
 </tbody>
 </table>
 
- 
+ 
 
 ## <a href="" id="bkmk-apps-plugs-optional"></a>Use one connection group, with optional packages, for multiple users with different packages entitled to them
 
@@ -126,22 +130,19 @@ Before using optional packages, see [Requirements for using optional packages in
    DisplayName=&quot;Contoso Business Manager&quot;
 /&gt;
 
-&lt;Package
-   PackageId=&quot;fc6fe0f7-be3d-4643-b37d-fc3f62d4dd5c&quot;
+&lt;Package PackageId=&quot;fc6fe0f7-be3d-4643-b37d-fc3f62d4dd5c&quot;
    VersionId=&quot;c67a71cd-3542-4a48-93e8-20c643c50970&quot;
    DisplayName=&quot;Contoso Forms&quot;
    IsOptional=&quot;false&quot;
 /&gt;
 
-&lt;Package
-   PackageId=&quot;8f6301a5-4348-4039-9560-b27a5bb72711&quot;
+&lt;Package PackageId=&quot;8f6301a5-4348-4039-9560-b27a5bb72711&quot;
    VersionId=&quot;6c694b45-3e19-46c6-a327-d159aa39e1d2&quot;
    DisplayName=&quot;Contoso Tax&quot;
    IsOptional=&quot;true&quot;
 /&gt;
 
-&lt;Package
-   PackageId=&quot;89d701bc-d507-4299-b6b6-000000003472&quot;
+&lt;Package PackageId=&quot;89d701bc-d507-4299-b6b6-000000003472&quot;
    VersionId=&quot;*&quot;
    DisplayName=&quot;Contoso Accounts&quot;
    IsOptional=&quot;true&quot;
@@ -152,7 +153,7 @@ Before using optional packages, see [Requirements for using optional packages in
 </tr>
 </tbody>
 </table>
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td align="left"><p><strong>With versions earlier than App-V 5.0 SP3</strong></p></td>
@@ -161,7 +162,7 @@ Before using optional packages, see [Requirements for using optional packages in
 </tbody>
 </table>
 
- 
+ 
 
 ## <a href="" id="bkmk-unpub-del-optl-pkg"></a>Unpublish or delete an optional package, or unpublish an optional package and republish it later, without changing the connection group
 
@@ -213,7 +214,7 @@ Before using optional packages, see [Requirements for using optional packages in
 </tr>
 </tbody>
 </table>
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td align="left"><p><strong>With versions earlier than App-V 5.0 SP3</strong></p></td>
@@ -228,7 +229,7 @@ Before using optional packages, see [Requirements for using optional packages in
 </tbody>
 </table>
 
- 
+ 
 
 ## <a href="" id="bkmk-reqs-using-cg"></a>Requirements for using optional packages in connection groups
 
@@ -275,7 +276,7 @@ Review the following requirements before using optional packages in connection g
 </tbody>
 </table>
 
- 
+ 
 
 ## Got a suggestion for App-V?
 
@@ -287,11 +288,17 @@ Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-micros
 
 [Managing Connection Groups](managing-connection-groups.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

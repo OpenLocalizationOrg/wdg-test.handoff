@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 399cabec55cadfb6054b0deafdf3e7be087a3b93
+
 ---
 
 
@@ -35,11 +39,17 @@ Provides information you can use to configure the Application Virtualization Seq
 
 [Planning for Application Virtualization System Deployment](planning-for-application-virtualization-system-deployment.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

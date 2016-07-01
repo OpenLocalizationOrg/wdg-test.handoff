@@ -7,6 +7,10 @@ ms.mktglfcycl: plan
 ms.pagetype: appcompat
 ms.sitesec: library
 author: TrudyHa
+translationtype: Human Translation
+ms.sourcegitcommit: ae8220499efdd2bafe460fcae530d62dc13a2634
+ms.openlocfilehash: 6fad4cb6da32c2f4bf484ab9b2e128f41fe9fbb0
+
 ---
 
 # Searching for Fixed Applications in Compatibility Administrator
@@ -14,12 +18,12 @@ author: TrudyHa
 
 **Applies to**
 
--   Windows 10
--   Windows 8.1
--   Windows 8
--   Windows 7
--   Windows Server 2012
--   Windows Server 2008 R2
+-   Windows 10
+-   Windows 8.1
+-   Windows 8
+-   Windows 7
+-   Windows Server 2012
+-   Windows Server 2008 R2
 
 With the search functionality in Compatibility Administrator, you can locate specific executable (.exe) files with previously applied compatibility fixes, compatibility modes, or AppHelp messages. This is particularly useful if you are trying to identify applications with a specific compatibility fix or identifying which fixes are applied to a specific application.
 
@@ -28,10 +32,10 @@ The **Query Compatibility Databases** tool provides additional search options. F
 ## Searching for Previously Applied Compatibility Fixes
 
 
-**Important**  
+**Important**  
 You must perform your search with the correct version of the Compatibility Administrator tool. If you are searching for a 32-bit custom database, you must use the 32-bit version of Compatibility Administrator. If you are searching for a 64-bit custom database, you must use the 64-bit version of Compatibility Administrator.
 
- 
+ 
 
 **To search for previous fixes**
 
@@ -66,11 +70,17 @@ You can export your search results to a text (.txt) file for later review or arc
 
 [Compatibility Administrator User's Guide](compatibility-administrator-users-guide.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

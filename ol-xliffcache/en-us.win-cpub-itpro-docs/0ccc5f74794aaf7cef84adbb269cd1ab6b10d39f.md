@@ -7,6 +7,10 @@ ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: activation
 author: jdeckerMS
+translationtype: Human Translation
+ms.sourcegitcommit: 24e2237b197fce2142f3e3e271321a4d5db6328d
+ms.openlocfilehash: 0ccc5f74794aaf7cef84adbb269cd1ab6b10d39f
+
 ---
 
 # Manage Product Keys
@@ -19,6 +23,12 @@ This section describes how to add and remove a product key from the Volume Activ
 |[Add and Remove a Product Key](add-remove-product-key-vamt.md) |Describes how to add a product key to the VAMT database. |
 |[Install a Product Key](install-product-key-vamt.md) |Describes how to install a product key for specific product. |
 |[Install a KMS Client Key](install-kms-client-key-vamt.md) |Describes how to install a GVLK (KMS client) key. |
- 
- 
- 
+ 
+ 
+ 
+
+
+
+<!--HONumber=Jun16_HO4-->
+
+

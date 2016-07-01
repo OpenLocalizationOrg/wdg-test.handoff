@@ -7,6 +7,10 @@ ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 1cca8eecdfebf73a8c997d1c6b9b18e9bb3433d1
+
 ---
 
 
@@ -55,11 +59,17 @@ This section of the Administrator’s Guide for Microsoft BitLocker Administrati
 
 -   [Troubleshooting MBAM 1.0](troubleshooting-mbam-10.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -6,6 +6,10 @@ ms.prod: w10
 ms.mktglfcycl: deploy
 ms.sitesec: library
 author: Mir0sh
+translationtype: Human Translation
+ms.sourcegitcommit: 0c259ec439bc7f2db3a1463019aee49d7611a260
+ms.openlocfilehash: a842d4ad57bf5bde6fc110acd5c37ab5ff7fac70
+
 ---
 
 # 5141(S): A directory service object was deleted.
@@ -17,7 +21,9 @@ author: Mir0sh
 
 <img src="images/event-5141.png" alt="Event 5141 illustration" width="449" height="549" hspace="10" align="left" />
 
-***Subcategory:***&nbsp;[Audit Directory Service Changes](audit-directory-service-changes.md)
+
+            ***Subcategory:***            &nbsp;            [Audit Directory Service Changes](audit-directory-service-changes.md)
+          
 
 ***Event Description:***
 
@@ -25,7 +31,8 @@ This event generates every time an Active Directory object is deleted.
 
 This event only generates if the deleted object has a particular entry in its [SACL](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374872(v=vs.85).aspx): the “**Delete”** action, auditing for specific objects.
 
-> **Note**&nbsp;&nbsp;For recommendations, see [Security Monitoring Recommendations](#security-monitoring-recommendations) for this event.
+> 
+            **Note**            &nbsp;&nbsp;For recommendations, see [Security Monitoring Recommendations](#security-monitoring-recommendations) for this event.
 
 <br clear="all">
 
@@ -66,23 +73,30 @@ This event only generates if the deleted object has a particular entry in its [S
 
 ```
 
-***Required Server Roles:*** Active Directory domain controller.
 
-***Minimum OS Version:*** Windows Server 2008.
+            ***Required Server Roles:*** Active Directory domain controller.
 
-***Event Versions:*** 0.
+
+            ***Minimum OS Version:*** Windows Server 2008.
+
+
+            ***Event Versions:*** 0.
 
 ***Field Descriptions:***
 
 **Subject:**
 
--   **Security ID** \[Type = SID\]**:** SID of account that requested the “delete object” operation. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
+-   
+            **Security ID**            \[Type = SID\]**:** SID of account that requested the “delete object” operation. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
 
-> **Note**&nbsp;&nbsp;A **security identifier (SID)** is a unique value of variable length used to identify a trustee (security principal). Each account has a unique SID that is issued by an authority, such as an Active Directory domain controller, and stored in a security database. Each time a user logs on, the system retrieves the SID for that user from the database and places it in the access token for that user. The system uses the SID in the access token to identify the user in all subsequent interactions with Windows security. When a SID has been used as the unique identifier for a user or group, it cannot ever be used again to identify another user or group. For more information about SIDs, see [Security identifiers](security-identifiers.md).
+> 
+            **Note**            &nbsp;&nbsp;A **security identifier (SID)** is a unique value of variable length used to identify a trustee (security principal). Each account has a unique SID that is issued by an authority, such as an Active Directory domain controller, and stored in a security database. Each time a user logs on, the system retrieves the SID for that user from the database and places it in the access token for that user. The system uses the SID in the access token to identify the user in all subsequent interactions with Windows security. When a SID has been used as the unique identifier for a user or group, it cannot ever be used again to identify another user or group. For more information about SIDs, see [Security identifiers](security-identifiers.md).
 
--   **Account Name** \[Type = UnicodeString\]**:** the name of the account that requested the “delete object” operation.
+-   
+            **Account Name**            \[Type = UnicodeString\]**:** the name of the account that requested the “delete object” operation.
 
--   **Account Domain** \[Type = UnicodeString\]**:** subject’s domain or computer name. Formats vary, and include the following:
+-   
+            **Account Domain**            \[Type = UnicodeString\]**:** subject’s domain or computer name. Formats vary, and include the following:
 
     -   Domain NETBIOS name example: CONTOSO
 
@@ -94,19 +108,24 @@ This event only generates if the deleted object has a particular entry in its [S
 
     -   For local user accounts, this field will contain the name of the computer or device that this account belongs to, for example: “Win81”.
 
--   **Logon ID** \[Type = HexInt64\]**:** hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “[4624](event-4624.md): An account was successfully logged on.”
+-   
+            **Logon ID**            \[Type = HexInt64\]**:** hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “[4624](event-4624.md): An account was successfully logged on.”
 
 **Directory Service:**
 
--   **Name** \[Type = UnicodeString\]: the name of an Active Directory domain, where the object was deleted.
+-   
+            **Name**            \[Type = UnicodeString\]: the name of an Active Directory domain, where the object was deleted.
 
--   **Type** \[Type = UnicodeString\]**:** has “**Active Directory Domain Services**” value for this event.
+-   
+            **Type**            \[Type = UnicodeString\]**:** has “**Active Directory Domain Services**” value for this event.
 
 **Object:**
 
--   **DN** \[Type = UnicodeString\]: distinguished name of the object that was deleted.
+-   
+            **DN**            \[Type = UnicodeString\]: distinguished name of the object that was deleted.
 
-> **Note**&nbsp;&nbsp;The LDAP API references an LDAP object by its **distinguished name (DN)**. A DN is a sequence of relative distinguished names (RDN) connected by commas.
+> 
+            **Note**            &nbsp;&nbsp;The LDAP API references an LDAP object by its **distinguished name (DN)**. A DN is a sequence of relative distinguished names (RDN) connected by commas.
 
 > An RDN is an attribute with an associated value in the form attribute=value; . These are examples of RDNs attributes:
 
@@ -118,7 +137,8 @@ This event only generates if the deleted object has a particular entry in its [S
 
 > • O - organizationName
 
--   **GUID** \[Type = GUID\]**:** each Active Directory object has globally unique identifier (GUID), which is a 128-bit value that is unique not only in the enterprise but also across the world. GUIDs are assigned to every object created by Active Directory. Each object's GUID is stored in its Object-GUID (**objectGUID**) property.
+-   
+            **GUID**            \[Type = GUID\]**:** each Active Directory object has globally unique identifier (GUID), which is a 128-bit value that is unique not only in the enterprise but also across the world. GUIDs are assigned to every object created by Active Directory. Each object's GUID is stored in its Object-GUID (**objectGUID**) property.
 
     Active Directory uses GUIDs internally to identify objects. For example, the GUID is one of an object's properties that is published in the global catalog. Searching the global catalog for a User object's GUID will yield results if the user has an account somewhere in the enterprise. In fact, searching for any object by Object-GUID might be the most reliable way of finding the object you want to find. The values of other object properties can change, but the Object-GUID never changes. When an object is assigned a GUID, it keeps that value for life.
 
@@ -154,7 +174,8 @@ This event only generates if the deleted object has a particular entry in its [S
 
 <!-- -->
 
--   **Class** \[Type = UnicodeString\]: class of the object that was deleted. Some of the common Active Directory object classes:
+-   
+            **Class**            \[Type = UnicodeString\]: class of the object that was deleted. Some of the common Active Directory object classes:
 
     -   container – for containers.
 
@@ -170,27 +191,40 @@ This event only generates if the deleted object has a particular entry in its [S
 
 **Operation:**
 
--   **Tree Delete** \[Type = UnicodeString\]**:**
+-   
+            **Tree Delete**            \[Type = UnicodeString\]**:**
 
-    -   **Yes** – “Delete Subtree” operation was performed. It happens, for example, if “Use Delete Subtree server control” check box was checked during delete operation using Active Directory Users and Computers management console.
+    -   
+            **Yes** – “Delete Subtree” operation was performed. It happens, for example, if “Use Delete Subtree server control” check box was checked during delete operation using Active Directory Users and Computers management console.
 
-    -   **No** – delete operation was performed without “Delete Subtree” server control.
+    -   
+            **No** – delete operation was performed without “Delete Subtree” server control.
 
 <img src="images/subtree-deletion.png" alt="Subtree Deletion illustration" width="337" height="271" />
 
--   **Correlation ID** \[Type = GUID\]: multiple modifications are often executed as one operation via LDAP. This value allows you to correlate all the modification events that comprise the operation. Just look for other events from current subcategory with the same **Correlation ID**, for example “[5137](event-5137.md): A directory service object was created.” and “[5139](event-5139.md): A directory service object was moved.”
+-   
+            **Correlation ID**            \[Type = GUID\]: multiple modifications are often executed as one operation via LDAP. This value allows you to correlate all the modification events that comprise the operation. Just look for other events from current subcategory with the same **Correlation ID**, for example “[5137](event-5137.md): A directory service object was created.” and “[5139](event-5139.md): A directory service object was moved.”
 
-> **Note**&nbsp;&nbsp;**GUID** is an acronym for 'Globally Unique Identifier'. It is a 128-bit integer number used to identify resources, activities or instances.
+> 
+            **Note**            &nbsp;&nbsp;            **GUID** is an acronym for 'Globally Unique Identifier'. It is a 128-bit integer number used to identify resources, activities or instances.
 
--   **Application Correlation ID** \[Type = UnicodeString\]: always has “**-**“ value. Not in use.
+-   
+            **Application Correlation ID**            \[Type = UnicodeString\]: always has “**-**“ value. Not in use.
 
 ## Security Monitoring Recommendations
 
 For 5141(S): A directory service object was deleted.
 
-> **Important**&nbsp;&nbsp;For this event, also see [Appendix A: Security monitoring recommendations for many audit events](appendix-a-security-monitoring-recommendations-for-many-audit-events.md).
+> 
+            **Important**            &nbsp;&nbsp;For this event, also see [Appendix A: Security monitoring recommendations for many audit events](appendix-a-security-monitoring-recommendations-for-many-audit-events.md).
 
 -   If you need to monitor deletion of Active Directory objects with specific classes, monitor for **Class** field with specific class name. For example, we recommend that you monitor for group policy objects deletions: **groupPolicyContainer** class.
 
 -   If you need to monitor deletion of specific Active Directory objects, monitor for **DN** field with specific object name. For example, if you have critical Active Directory objects which should not be deleted, monitor for their deletion.
+
+
+
+
+<!--HONumber=Jun16_HO4-->
+
 

@@ -7,6 +7,10 @@ ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 16c0d7ed2efe983acfbc8d1f0aa16c01f6ac674f
+
 ---
 
 
@@ -15,7 +19,7 @@ ms.prod: w10
 
 In Advanced Group Policy Management (AGPM), if you have exported a Group Policy Object (GPO) to a CAB file, you can import the policy settings from that GPO into an existing GPO in a domain in another forest. Importing policy settings into an existing GPO replaces all policy settings within that GPO. For information about exporting GPO settings to a CAB file, see [Export a GPO to a File](export-a-gpo-to-a-file.md).
 
-A user account with the Editor or AGPM Administrator (Full Control) role or necessary permissions in Advanced Group Policy Management (AGPM) is required to complete this procedure. Review the details in "Additional considerations" in this topic.
+A user account with the Editor or AGPM Administrator (Full Control) role or necessary permissions in Advanced Group Policy Management (AGPM) is required to complete this procedure. Review the details in "Additional considerations" in this topic.
 
 ## <a href="" id="bkmk-existing"></a>
 
@@ -42,11 +46,17 @@ A user account with the Editor or AGPM Administrator (Full Control) role or nece
 
 -   [Using a Test Environment](using-a-test-environment.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

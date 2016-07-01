@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 791bd97fe759ed26c8ae5cec3f04adf1bdc9bd79
+
 ---
 
 
@@ -15,10 +19,10 @@ ms.prod: w8
 
 To help you manage your Application Virtualization Management Servers more efficiently, organize them into server groups. After you create a server group in the Application Virtualization Server Management Console, you can use the following procedure to add a server to the group.
 
-**Note**  
+**Note**  
 All servers in a server group must be connected to the same data store.
 
- 
+ 
 
 **To add a server to a group**
 
@@ -47,11 +51,17 @@ All servers in a server group must be connected to the same data store.
 
 [How to Remove a Server](how-to-remove-a-server.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

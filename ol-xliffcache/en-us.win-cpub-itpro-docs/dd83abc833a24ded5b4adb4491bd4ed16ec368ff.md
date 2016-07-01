@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: dd83abc833a24ded5b4adb4491bd4ed16ec368ff
+
 ---
 
 
@@ -26,11 +30,14 @@ This menu item enables you to change the name of a provider policy in the **Resu
 <a href="" id="properties"></a>**Properties**  
 This menu item displays the **Properties** dialog box for the selected provider policy. The **Properties** dialog box has the following tabs:
 
--   **General**—Enables you to select the **Manage client desktop using the** **Management Console** check box if you want to centrally manage shortcuts on the client desktops from the Application Virtualization Server Management Console. If you choose to manage shortcuts from the console, you can select check boxes to refresh the desktop every time a user logs in and at intervals you specify.
+-   
+            **General**—Enables you to select the **Manage client desktop using the****Management Console** check box if you want to centrally manage shortcuts on the client desktops from the Application Virtualization Server Management Console. If you choose to manage shortcuts from the console, you can select check boxes to refresh the desktop every time a user logs in and at intervals you specify.
 
--   **Group Assignment**—Enables you to add and remove user groups assigned to the provider policy.
+-   
+            **Group Assignment**—Enables you to add and remove user groups assigned to the provider policy.
 
--   **Provider Pipeline**—Enables you to specify the authentication required.
+-   
+            **Provider Pipeline**—Enables you to specify the authentication required.
 
     -   Select the desired check boxes for **Enforce Access Permission Settings**, **Log Usage Information**, and **Licensing**. If you select the **Licensing** check box, select **Audit License Usage Only** or **Enforce License Policies** from the drop-down list. The first option monitors license usage, while the second option strictly enforces your licensing policy. Click **Finish**, and then read the prompt and click **OK** to continue.
 
@@ -59,11 +66,17 @@ Displays the help system of the Application Virtualization Server Management Con
 
 [Server Management Console: Provider Policies Node](server-management-console-provider-policies-node.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

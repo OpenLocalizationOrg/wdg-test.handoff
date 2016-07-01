@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: a63db1bd7e0fc7fa9e79102ffb60ad7fe03bed3f
+
 ---
 
 
@@ -81,12 +85,12 @@ To upgrade a package in some earlier versions of App-V, you had to perform sever
 </tr>
 </tbody>
 </table>
-<p> </p></td>
+<p> </p></td>
 </tr>
 </tbody>
 </table>
 
- 
+ 
 
 ## Got a suggestion for App-V?
 
@@ -98,11 +102,17 @@ Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-micros
 
 [Managing Connection Groups](managing-connection-groups51.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

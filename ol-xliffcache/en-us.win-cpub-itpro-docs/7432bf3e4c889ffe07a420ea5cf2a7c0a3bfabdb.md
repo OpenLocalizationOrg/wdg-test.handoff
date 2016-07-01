@@ -7,6 +7,10 @@ ms.mktglfcycl: plan
 ms.pagetype: appcompat
 ms.sitesec: library
 author: TrudyHa
+translationtype: Human Translation
+ms.sourcegitcommit: ae8220499efdd2bafe460fcae530d62dc13a2634
+ms.openlocfilehash: 7432bf3e4c889ffe07a420ea5cf2a7c0a3bfabdb
+
 ---
 
 # Using the Compatibility Administrator Tool
@@ -14,12 +18,12 @@ author: TrudyHa
 
 **Applies to**
 
--   Windows 10
--   Windows 8.1
--   Windows 8
--   Windows 7
--   Windows Server 2012
--   Windows Server 2008 R2
+-   Windows 10
+-   Windows 8.1
+-   Windows 8
+-   Windows 7
+-   Windows Server 2012
+-   Windows Server 2008 R2
 
 This section provides information about using the Compatibility Administrator tool.
 
@@ -77,13 +81,19 @@ This section provides information about using the Compatibility Administrator to
 </tbody>
 </table>
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -7,6 +7,10 @@ ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w7
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: cdaf35b09fb2f6d93cbc3bdf0c22d19567ebbc31
+
 ---
 
 
@@ -67,7 +71,7 @@ All network settings are configured in the **Policy** module, on the **Network**
 </tbody>
 </table>
 
- 
+ 
 
 ## Related topics
 
@@ -76,11 +80,17 @@ All network settings are configured in the **Policy** module, on the **Network**
 
 [Using the MED-V Management Console User Interface](using-the-med-v-management-console-user-interface.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

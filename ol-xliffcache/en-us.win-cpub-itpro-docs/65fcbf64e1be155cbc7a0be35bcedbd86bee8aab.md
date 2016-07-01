@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 65fcbf64e1be155cbc7a0be35bcedbd86bee8aab
+
 ---
 
 
@@ -50,18 +54,24 @@ Use the **Package Information** page of the Application Virtualization (App-V) w
 </tbody>
 </table>
 
- 
+ 
 
 ## Related topics
 
 
 [Sequencing Wizard](sequencing-wizard.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

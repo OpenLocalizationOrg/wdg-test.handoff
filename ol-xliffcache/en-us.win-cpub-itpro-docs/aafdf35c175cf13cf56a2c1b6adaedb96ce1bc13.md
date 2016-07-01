@@ -7,6 +7,10 @@ ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: aafdf35c175cf13cf56a2c1b6adaedb96ce1bc13
+
 ---
 
 
@@ -40,11 +44,17 @@ With MBAM, you can encrypt a computer in your organization either before the end
 
 -   [Planning for MBAM 1.0](planning-for-mbam-10.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

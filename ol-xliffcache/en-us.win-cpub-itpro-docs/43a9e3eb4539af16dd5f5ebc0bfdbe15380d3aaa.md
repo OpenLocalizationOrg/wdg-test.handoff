@@ -7,6 +7,10 @@ ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 43a9e3eb4539af16dd5f5ebc0bfdbe15380d3aaa
+
 ---
 
 
@@ -39,11 +43,14 @@ In an environment in which multiple people develop Group Policy objects (GPOs), 
 
 Also, because the AGPM Administrator role includes the permissions for all other roles, an AGPM Administrator can perform the tasks normally associated with any other role.
 
--   [Performing Approver Tasks](performing-approver-tasks.md), such as creating, deploying, or deleting GPOs
+-   
+            [Performing Approver Tasks](performing-approver-tasks.md), such as creating, deploying, or deleting GPOs
 
--   [Performing Editor Tasks](performing-editor-tasks.md), such as editing, renaming, labeling, or importing GPOs, creating templates, or setting a default template
+-   
+            [Performing Editor Tasks](performing-editor-tasks.md), such as editing, renaming, labeling, or importing GPOs, creating templates, or setting a default template
 
--   [Performing Reviewer Tasks](performing-reviewer-tasks.md), such as reviewing settings and comparing GPOs
+-   
+            [Performing Reviewer Tasks](performing-reviewer-tasks.md), such as reviewing settings and comparing GPOs
 
 ### Additional considerations
 
@@ -69,11 +76,17 @@ By default, the AGPM Administrator role has Full Control—all AGPM permissions:
 
 The **Modify Options** and **Modify Security** permissions are unique to the role of AGPM Administrator.
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

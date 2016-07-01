@@ -7,6 +7,10 @@ ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 5b75d8aad0eed4a9674f9d1cea823b1c6cc2dbba
+
 ---
 
 
@@ -55,11 +59,17 @@ Redmond, Washington 98052 USA
 
 [Getting Started with MBAM 1.0](getting-started-with-mbam-10.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

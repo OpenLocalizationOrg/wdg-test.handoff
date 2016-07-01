@@ -7,6 +7,10 @@ ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w7
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 8d5eadfd93af9ef81a6a041537b4b9edc2cfde77
+
 ---
 
 
@@ -229,7 +233,7 @@ Restart the host workstation.
 The network configuration data could not be set in the virtual machine.
 
 <a href="" id="description"></a>**Description**  
-The MED-V host network address translation (NAT) could not be communicated to the virtual machine, most likely because the virtual machine is in a bad state or the Windows Virtual PC Additions were not installed or enabled.
+The MED-V host network address translation (NAT) could not be communicated to the virtual machine, most likely because the virtual machine is in a bad state or the Windows Virtual PC Additions were not installed or enabled.
 
 <a href="" id="solution"></a>**Solution**  
 Shut down and restart the virtual machine. In addition, you might have to reinstall the virtual machine.
@@ -239,7 +243,7 @@ Shut down and restart the virtual machine. In addition, you might have to reinst
 The network configuration data could not be reset in the virtual machine.
 
 <a href="" id="description"></a>**Description**  
-The MED-V host network configuration (BRIDGED) could not be communicated to the virtual machine, most likely because the virtual machine is in a bad state or the Windows Virtual PC Additions were not installed or enabled.
+The MED-V host network configuration (BRIDGED) could not be communicated to the virtual machine, most likely because the virtual machine is in a bad state or the Windows Virtual PC Additions were not installed or enabled.
 
 <a href="" id="solution"></a>**Solution**  
 Shut down and restart the virtual machine. In addition, you might have to reinstall the virtual machine.
@@ -322,11 +326,13 @@ MedvHost.exe with the /GuestWakeup option was executed incorrectly, or the comma
 <a href="" id="solution"></a>**Solution**  
 Ensure that the command is executed with the following format:
 
-Medvhost.exe /GuestWakeup /d:&lt; *duration\_in\_minutes*&gt; /v:”&lt; *workspace\_name*&gt;” where
+Medvhost.exe /GuestWakeup /d:&lt;*duration\_in\_minutes*&gt; /v:”&lt;*workspace\_name*&gt;” where
 
-&lt;*duration\_in\_minutes*&gt; is the number of minutes that the virtual machine should stay awake (default is 240) and
+&lt;
+            *duration\_in\_minutes*            &gt; is the number of minutes that the virtual machine should stay awake (default is 240) and
 
-&lt;*workspace\_name*&gt; is the name of the virtual machine that should be awakened.
+&lt;
+            *workspace\_name*            &gt; is the name of the virtual machine that should be awakened.
 
 ### Event ID 11002
 
@@ -471,11 +477,17 @@ Check the administrator rights to the MedvLock folder.
 
 [Troubleshooting MED-V](troubleshooting-med-vmedv2.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

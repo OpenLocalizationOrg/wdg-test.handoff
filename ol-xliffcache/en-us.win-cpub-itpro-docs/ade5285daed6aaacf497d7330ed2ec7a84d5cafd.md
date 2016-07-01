@@ -7,6 +7,10 @@ ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w7
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: ade5285daed6aaacf497d7330ed2ec7a84d5cafd
+
 ---
 
 
@@ -30,11 +34,17 @@ Describes how to design the server for each MED-V instance, the SQL Server datab
 <a href="" id="design-the-med-v-image-repositories"></a>[Design the MED-V Image Repositories](design-the-med-v-image-repositories.md)  
 Describes the steps required in designing the MED-V image repositories.
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

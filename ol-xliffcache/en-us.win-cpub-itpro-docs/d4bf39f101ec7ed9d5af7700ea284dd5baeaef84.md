@@ -7,6 +7,10 @@ ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: d4bf39f101ec7ed9d5af7700ea284dd5baeaef84
+
 ---
 
 
@@ -15,10 +19,10 @@ ms.prod: w10
 
 Creating a template enables you to save all of the settings of a particular version of a Group Policy Object (GPO) to use as a starting point for creating new GPOs.
 
-**Note**  
+**Note**  
 A template is an uneditable, static version of a GPO for use as a starting point for creating new, editable GPOs.
 
- 
+ 
 
 A user account with the Editor or AGPM Administrator (Full Control) role or necessary permissions in Advanced Group Policy Management (AGPM) is required to complete this procedure. Review the details in "Additional considerations" in this topic.
 
@@ -48,11 +52,17 @@ A user account with the Editor or AGPM Administrator (Full Control) role or nece
 
 -   [Request the Creation of a New Controlled GPO](request-the-creation-of-a-new-controlled-gpo-agpm30ops.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

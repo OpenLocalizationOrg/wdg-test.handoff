@@ -1,6 +1,6 @@
 ---
 title: Protect your enterprise data using enterprise data protection (EDP) (Windows 10)
-description: With the increase of employee-owned devices in the enterprise, there’s also an increasing risk of accidental data leak through apps and services, like email, social media, and the public cloud, which are outside of the enterprise’s control.
+description: "With the increase of employee-owned devices in the enterprise, there’s also an increasing risk of accidental data leak through apps and services, like email, social media, and the public cloud, which are outside of the enterprise’s control."
 ms.assetid: 6cca0119-5954-4757-b2bc-e0ea4d2c7032
 keywords: EDP, enterprise data protection
 ms.prod: w10
@@ -8,13 +8,17 @@ ms.mktglfcycl: explore
 ms.sitesec: library
 ms.pagetype: security
 author: eross-msft
+translationtype: Human Translation
+ms.sourcegitcommit: c576f460133317d80b4d3d9461abde0fe72b72c7
+ms.openlocfilehash: 4e03826df2a12de10c5ab1ae6befda210bd4eb6b
+
 ---
 
 # Protect your enterprise data using enterprise data protection (EDP)
 **Applies to:**
 
--   Windows 10 Insider Preview
--   Windows 10 Mobile Preview
+-   Windows 10 Insider Preview
+-   Windows 10 Mobile Preview
 
 <span style="color:#ED1C24;">[Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]</span>
 
@@ -27,7 +31,7 @@ You’ll need this software to run EDP in your enterprise:
 
 |Operating system | Management solution |
 |-----------------|---------------------|
-|Windows 10 Insider Preview | Microsoft Intune<br>-OR-<br>System Center Configuration Manager (version 1511 or later)<br>-OR-<br>Your current company-wide 3rd party mobile device management (MDM) solution. For info about 3rd party MDM solutions, see the documentation that came with your product. If your 3rd party MDM does not have UI support for the policies, refer to the [EnterpriseDataProtection CSP](https://msdn.microsoft.com/en-us/library/windows/hardware/mt697634.aspx) documentation.|
+|Windows 10 Insider Preview | Microsoft Intune<br>-OR-<br>System Center Configuration Manager (version 1511 or later)<br>-OR-<br>Your current company-wide 3rd party mobile device management (MDM) solution. For info about 3rd party MDM solutions, see the documentation that came with your product. If your 3rd party MDM does not have UI support for the policies, refer to the [EnterpriseDataProtection CSP](https://msdn.microsoft.com/en-us/library/windows/hardware/mt697634.aspx) documentation.|
 
 ## How EDP works
 EDP helps address your everyday challenges in the enterprise. Including:
@@ -79,11 +83,17 @@ After deciding to use EDP in your enterprise, you need to:
 
 -   [Create an enterprise data protection (EDP) policy](overview-create-edp-policy.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

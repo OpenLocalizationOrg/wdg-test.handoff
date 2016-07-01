@@ -6,6 +6,10 @@ ms.prod: w10
 ms.mktglfcycl: deploy
 ms.sitesec: library
 author: Mir0sh
+translationtype: Human Translation
+ms.sourcegitcommit: 0c259ec439bc7f2db3a1463019aee49d7611a260
+ms.openlocfilehash: f9047d6deae1bda8de2aee58c7a9a6e23b9802ff
+
 ---
 
 # 4701(S): A scheduled task was disabled.
@@ -17,13 +21,16 @@ author: Mir0sh
 
 <img src="images/event-4701.png" alt="Event 4701 illustration" width="363" height="559" hspace="10" align="left" />
 
-***Subcategory:***&nbsp;[Audit Other Object Access Events](audit-other-object-access-events.md)
+
+            ***Subcategory:***            &nbsp;            [Audit Other Object Access Events](audit-other-object-access-events.md)
+          
 
 ***Event Description:***
 
 This event generates every time a scheduled task is disabled.
 
-> **Note**&nbsp;&nbsp;For recommendations, see [Security Monitoring Recommendations](#security-monitoring-recommendations) for this event.
+> 
+            **Note**            &nbsp;&nbsp;For recommendations, see [Security Monitoring Recommendations](#security-monitoring-recommendations) for this event.
 
 <br clear="all">
 
@@ -58,23 +65,30 @@ This event generates every time a scheduled task is disabled.
 
 ```
 
-***Required Server Roles:*** None.
 
-***Minimum OS Version:*** Windows Server 2008, Windows Vista.
+            ***Required Server Roles:*** None.
 
-***Event Versions:*** 0.
+
+            ***Minimum OS Version:*** Windows Server 2008, Windows Vista.
+
+
+            ***Event Versions:*** 0.
 
 ***Field Descriptions:***
 
 **Subject:**
 
--   **Security ID** \[Type = SID\]**:** SID of account that requested the “enable scheduled task” operation. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
+-   
+            **Security ID**            \[Type = SID\]**:** SID of account that requested the “enable scheduled task” operation. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
 
-> **Note**&nbsp;&nbsp;A **security identifier (SID)** is a unique value of variable length used to identify a trustee (security principal). Each account has a unique SID that is issued by an authority, such as an Active Directory domain controller, and stored in a security database. Each time a user logs on, the system retrieves the SID for that user from the database and places it in the access token for that user. The system uses the SID in the access token to identify the user in all subsequent interactions with Windows security. When a SID has been used as the unique identifier for a user or group, it cannot ever be used again to identify another user or group. For more information about SIDs, see [Security identifiers](security-identifiers.md).
+> 
+            **Note**            &nbsp;&nbsp;A **security identifier (SID)** is a unique value of variable length used to identify a trustee (security principal). Each account has a unique SID that is issued by an authority, such as an Active Directory domain controller, and stored in a security database. Each time a user logs on, the system retrieves the SID for that user from the database and places it in the access token for that user. The system uses the SID in the access token to identify the user in all subsequent interactions with Windows security. When a SID has been used as the unique identifier for a user or group, it cannot ever be used again to identify another user or group. For more information about SIDs, see [Security identifiers](security-identifiers.md).
 
--   **Account Name** \[Type = UnicodeString\]**:** the name of the account that requested the “enable scheduled task” operation.
+-   
+            **Account Name**            \[Type = UnicodeString\]**:** the name of the account that requested the “enable scheduled task” operation.
 
--   **Account Domain** \[Type = UnicodeString\]**:** subject’s domain or computer name. Formats vary, and include the following:
+-   
+            **Account Domain**            \[Type = UnicodeString\]**:** subject’s domain or computer name. Formats vary, and include the following:
 
     -   Domain NETBIOS name example: CONTOSO
 
@@ -86,21 +100,32 @@ This event generates every time a scheduled task is disabled.
 
     -   For local user accounts, this field will contain the name of the computer or device that this account belongs to, for example: “Win81”.
 
--   **Logon ID** \[Type = HexInt64\]**:** hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “[4624](event-4624.md): An account was successfully logged on.”
+-   
+            **Logon ID**            \[Type = HexInt64\]**:** hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “[4624](event-4624.md): An account was successfully logged on.”
 
-**Task Information**:
 
--   **Task Name** \[Type = UnicodeString\]**:** disabled scheduled task name. The format of this value is “\\task\_path\\task\_name”, where task\_path is a path in Microsoft **Task Scheduler** tree starting from “**Task Scheduler Library**” node:
+            **Task Information**:
+
+-   
+            **Task Name**            \[Type = UnicodeString\]**:** disabled scheduled task name. The format of this value is “\\task\_path\\task\_name”, where task\_path is a path in Microsoft **Task Scheduler** tree starting from “**Task Scheduler Library**” node:
 
 <img src="images/computer-management.png" alt="Task Scheduler Library illustration" width="840" height="176" />
 
--   **Task Content** \[Type = UnicodeString\]: the [XML](https://msdn.microsoft.com/en-us/library/aa286548.aspx) of the disabled task. Here “[XML Task Definition Format](https://msdn.microsoft.com/en-us/library/cc248308.aspx)” you can read more about the XML format for scheduled tasks.
+-   
+            **Task Content**            \[Type = UnicodeString\]: the [XML](https://msdn.microsoft.com/en-us/library/aa286548.aspx) of the disabled task. Here “[XML Task Definition Format](https://msdn.microsoft.com/en-us/library/cc248308.aspx)” you can read more about the XML format for scheduled tasks.
 
 ## Security Monitoring Recommendations
 
 For 4701(S): A scheduled task was disabled.
 
-> **Important**&nbsp;&nbsp;For this event, also see [Appendix A: Security monitoring recommendations for many audit events](appendix-a-security-monitoring-recommendations-for-many-audit-events.md).
+> 
+            **Important**            &nbsp;&nbsp;For this event, also see [Appendix A: Security monitoring recommendations for many audit events](appendix-a-security-monitoring-recommendations-for-many-audit-events.md).
 
 -   If a highly critical scheduled task exists on some computers, and it should never be disabled, monitor for [4701](event-4701.md) events with the corresponding **Task Name**.
+
+
+
+
+<!--HONumber=Jun16_HO4-->
+
 

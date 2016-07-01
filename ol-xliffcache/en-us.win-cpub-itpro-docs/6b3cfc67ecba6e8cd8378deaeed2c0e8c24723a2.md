@@ -8,6 +8,10 @@ ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: mdt
 author: mtniehaus
+translationtype: Human Translation
+ms.sourcegitcommit: 24e2237b197fce2142f3e3e271321a4d5db6328d
+ms.openlocfilehash: 6b3cfc67ecba6e8cd8378deaeed2c0e8c24723a2
+
 ---
 
 # Simulate a Windows 10 deployment in a test environment
@@ -39,9 +43,9 @@ For the purposes of this topic, you already will have either downloaded and inst
     .\Gather.ps1
     ```
 11. Review the ZTIGather.log in the **C:\\MININT\\SMSOSD\\OSDLOGS** folder.
-**Note**  
+**Note**  
 Warnings or errors with regard to the Wizard.hta are expected. If the log file looks okay, you are ready to try a real deployment.
- 
+ 
 
 ![figure 7](images/mdt-09-fig07.png)
 
@@ -62,3 +66,8 @@ Figure 7. The ZTIGather.log file from PC0001, displaying some of its hardware ca
 [Use web services in MDT](use-web-services-in-mdt-2013.md)
 
 [Use Orchestrator runbooks with MDT](use-orchestrator-runbooks-with-mdt-2013.md)
+
+
+<!--HONumber=Jun16_HO4-->
+
+

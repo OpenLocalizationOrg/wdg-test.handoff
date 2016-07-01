@@ -7,6 +7,10 @@ ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: cf1ef8e007baeeea851eb6bbd88180d54feee36d
+
 ---
 
 
@@ -17,10 +21,10 @@ This topic describes the recommended architecture for deploying Microsoft BitLoc
 
 For a list of the supported versions of the software mentioned in this topic, see [MBAM 2.5 Supported Configurations](mbam-25-supported-configurations.md).
 
-**Note**  
+**Note**  
 We recommend you use a single-server architecture in test environments only.
 
- 
+ 
 
 ## Recommended number of servers and supported number of clients
 
@@ -51,7 +55,7 @@ The recommended number of servers and supported number of clients in a productio
 </tbody>
 </table>
 
- 
+ 
 
 ## Recommended MBAM high-level architecture with the Stand-alone topology
 
@@ -60,10 +64,7 @@ The following diagram and table describe the recommended high-level, two-server 
 
 ![mbam2](images/mbam2-5-2servers.png)
 
-Server
-Features to configure on this server
-Description
-Database server
+Server Features to configure on this server Description Database server
 
 Compliance and Audit Database
 
@@ -107,10 +108,10 @@ This feature is configured on a computer running Windows Server.
 
 The **monitoring web services** are used by the MBAM Client and the websites to communicate to the database.
 
-**Important**  
+**Important**  
 The Monitoring Web Service is no longer available in Microsoft BitLocker Administration and Monitoring (MBAM) 2.5 SP1 since the MBAM Client and the websites communicate directly with the Recovery Database.
 
- 
+ 
 
 Management workstation
 
@@ -134,7 +135,7 @@ The MBAM Client:
 
 -   Collects recovery information and computer information about the client computers.
 
- 
+ 
 
 ## Got a suggestion for MBAM?
 
@@ -150,11 +151,17 @@ Add or vote on suggestions [here](http://mbam.uservoice.com/forums/268571-micros
 
 [Illustrated Features of an MBAM 2.5 Deployment](illustrated-features-of-an-mbam-25-deployment.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

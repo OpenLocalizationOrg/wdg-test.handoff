@@ -7,6 +7,10 @@ ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w7
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: deb6fd19bc1a1fe7da54174f0ae0eec5dd76eab5
+
 ---
 
 
@@ -15,10 +19,10 @@ ms.prod: w7
 
 The following are examples of typical virtual machine configurations: one in a persistent MED-V workspace and one in a revertible MED-V workspace.
 
-**Note**  
+**Note**  
 These examples are not intended for use in all environments. Adjust the configuration according to your environment.
 
- 
+ 
 
 **To configure a typical domain setup in a persistent MED-V workspace**
 
@@ -61,11 +65,17 @@ These examples are not intended for use in all environments. Adjust the configur
 
 [How to Set Up Script Actions](how-to-set-up-script-actions.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

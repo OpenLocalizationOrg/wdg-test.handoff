@@ -7,12 +7,16 @@ ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 author: brianlic-msft
+translationtype: Human Translation
+ms.sourcegitcommit: f046a5fec059b3fed76b6f3225a0535247bee884
+ms.openlocfilehash: cd9d93fbf2e83094f527aad5bbd1abade9b39c95
+
 ---
 
 # Audit account management
 
 **Applies to**
--   Windows 10
+-   Windows 10
 
 Determines whether to audit each event of account management on a device.
 
@@ -22,8 +26,7 @@ Examples of account management events include:
 -   A user account is renamed, disabled, or enabled.
 -   A password is set or changed.
 
-If you define this policy setting, you can specify whether to audit successes, audit failures, or not audit the event type at all. Success audits generate an audit entry when any account management event succeeds. Failure audits generate an audit entry when any account management event fails. To 
-set this value to **No auditing**, in the **Properties** dialog box for this policy setting, select the Define these policy settings check box and clear the **Success** and **Failure** check boxes.
+If you define this policy setting, you can specify whether to audit successes, audit failures, or not audit the event type at all. Success audits generate an audit entry when any account management event succeeds. Failure audits generate an audit entry when any account management event fails. To set this value to **No auditing**, in the **Properties** dialog box for this policy setting, select the Define these policy settings check box and clear the **Success** and **Failure** check boxes.
 
 **Default:**
 
@@ -56,7 +59,8 @@ You can configure this security setting by opening the appropriate policy under 
 | 645 | A computer account was created.  |
 | 646 | A computer account was changed.  |
 | 647 | A computer account was deleted.  |
-| 648 | A local security group with security disabled was created.<br>**Note:**  SECURITY_DISABLED in the formal name means that this group cannot be used to grant permissions in access checks. | |
+| 648 | A local security group with security disabled was created.<br>
+            **Note:**  SECURITY_DISABLED in the formal name means that this group cannot be used to grant permissions in access checks. | |
 | 649 | A local security group with security disabled was changed.  |
 | 650 | A member was added to a security-disabled local security group. | 
 | 651 | A member was removed from a security-disabled local security group. | 
@@ -78,10 +82,17 @@ You can configure this security setting by opening the appropriate policy under 
 | 667 | A security-disabled universal group was deleted. | 
 | 668 | A group type was changed. | 
 | 684 | Set the security descriptor of members of administrative groups. | 
-| 685 | Set the security descriptor of members of administrative groups.<br>**Note:**  Every 60 minutes on a domain controller a background thread searches all members of administrative groups (such as domain, enterprise, and schema administrators) and applies a fixed security descriptor on them. This event is logged.|
- 
+| 685 | Set the security descriptor of members of administrative groups.<br>
+            **Note:**  Every 60 minutes on a domain controller a background thread searches all members of administrative groups (such as domain, enterprise, and schema administrators) and applies a fixed security descriptor on them. This event is logged.|
+ 
 ## Related topics
 
 - [Basic security audit policy settings](basic-security-audit-policy-settings.md)
- 
- 
+ 
+ 
+
+
+
+<!--HONumber=Jun16_HO4-->
+
+

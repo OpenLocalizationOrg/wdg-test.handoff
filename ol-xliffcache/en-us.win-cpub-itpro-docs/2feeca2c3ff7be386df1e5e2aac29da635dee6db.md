@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 2feeca2c3ff7be386df1e5e2aac29da635dee6db
+
 ---
 
 
@@ -48,7 +52,7 @@ The following table displays the column name and its contents.
 </tbody>
 </table>
 
- 
+ 
 
 ## Related topics
 
@@ -59,11 +63,17 @@ The following table displays the column name and its contents.
 
 [Server Management Console: Reports Node](server-management-console-reports-node.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

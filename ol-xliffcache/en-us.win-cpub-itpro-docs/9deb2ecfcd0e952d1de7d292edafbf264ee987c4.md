@@ -7,6 +7,10 @@ ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 9deb2ecfcd0e952d1de7d292edafbf264ee987c4
+
 ---
 
 
@@ -25,14 +29,14 @@ A user account with the AGPM Administrator (Full Control) role or necessary perm
 
 3.  In the **Permissions** dialog box, click the check box for each role to be assigned to an individual, and then click the **Advanced** button.
 
-    **Note**  
+    **Note**  
     Editor and Approver include Reviewer permissions.
 
-     
+     
 
 4.  In the **Advanced Security Settings** dialog box, select a Group Policy administrator, and then click **Edit**.
 
-5.  For **Apply onto**, select **This object and nested objects**, configure any special permissions beyond the standard AGPM roles, then click **OK** in the **Permission** **Entry** dialog box.
+5.  For **Apply onto**, select **This object and nested objects**, configure any special permissions beyond the standard AGPM roles, then click **OK** in the **Permission****Entry** dialog box.
 
 6.  In the **Advanced Security Settings** dialog box, click **OK**.
 
@@ -52,11 +56,17 @@ A user account with the AGPM Administrator (Full Control) role or necessary perm
 
 -   [Performing AGPM Administrator Tasks](performing-agpm-administrator-tasks.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

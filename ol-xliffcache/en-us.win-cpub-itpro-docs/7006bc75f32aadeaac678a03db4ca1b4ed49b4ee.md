@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 7006bc75f32aadeaac678a03db4ca1b4ed49b4ee
+
 ---
 
 
@@ -24,11 +28,17 @@ Provides a procedure you can use to configure the Windows Server 2003 firewall f
 <a href="" id="how-to-configure-windows-server-2008-firewall-for-app-v"></a>[How to Configure Windows Server 2008 Firewall for App-V](how-to-configure-windows-server-2008-firewall-for-app-v.md)  
 Provides a procedure you can use to configure the Windows Server 2008 firewall for App-V.
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

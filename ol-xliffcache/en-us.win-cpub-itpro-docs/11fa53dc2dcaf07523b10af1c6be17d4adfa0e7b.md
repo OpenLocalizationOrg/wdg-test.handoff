@@ -7,6 +7,10 @@ ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 11fa53dc2dcaf07523b10af1c6be17d4adfa0e7b
+
 ---
 
 
@@ -33,7 +37,8 @@ To successfully deploy Microsoft BitLocker Administration and Monitoring (MBAM),
 </tr>
 <tr class="even">
 <td align="left"><p>Determine which Group Policy Objects (GPOs) you want to use in your MBAM implementation. Based on the needs of your organization, you might have to configure additional Group Policy settings.</p></td>
-<td align="left"><p>[Planning for MBAM 2.5 Group Policy Requirements](planning-for-mbam-25-group-policy-requirements.md) – contains descriptions of the GPOs</p></td>
+<td align="left"><p>
+            [Planning for MBAM 2.5 Group Policy Requirements](planning-for-mbam-25-group-policy-requirements.md) – contains descriptions of the GPOs</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>Set the Group Policy settings for your organization.</p></td>
@@ -42,18 +47,18 @@ To successfully deploy Microsoft BitLocker Administration and Monitoring (MBAM),
 </tbody>
 </table>
 
- 
+ 
 
-**Important**  
+**Important**  
 Do not change the Group Policy settings in the **BitLocker Drive Encryption** node, or MBAM will not work correctly. When you configure the Group Policy settings in the **MDOP MBAM (BitLocker Management)** node, MBAM automatically configures the **BitLocker Drive Encryption** settings for you.
 
- 
+ 
 
 **To edit MBAM Client Group Policy settings**
 
 1.  On a computer that has the MBAM Group Policy Templates installed, make sure that MBAM Services are enabled.
 
-2.  Using the Group Policy Management Console (GPMC.msc) or the Microsoft Advanced Group Policy Management MDOP product on a computer with the MBAM Group Policy Templates installed, select **Computer configuration** &gt; **Policies** &gt; **Administrative Templates** &gt; **Windows Components** &gt; **MDOP MBAM (BitLocker Management)**.
+2.  Using the Group Policy Management Console (GPMC.msc) or the Microsoft Advanced Group Policy Management MDOP product on a computer with the MBAM Group Policy Templates installed, select **Computer configuration**&gt;**Policies**&gt;**Administrative Templates**&gt;**Windows Components**&gt;**MDOP MBAM (BitLocker Management)**.
 
 3.  Edit the Group Policy settings that are required to enable MBAM Client services on client computers. For each policy in the following table, select **Policy Group**, click the **Policy** you want, and then configure the settings.
 
@@ -88,9 +93,11 @@ Do not change the Group Policy settings in the **BitLocker Drive Encryption** no
     </tbody>
     </table>
 
-     
+     
 
-    **Got a suggestion for MBAM**? Add or vote on suggestions [here](http://mbam.uservoice.com/forums/268571-microsoft-bitlocker-administration-and-monitoring). **Got a MBAM issue**? Use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
+    
+            **Got a suggestion for MBAM**? Add or vote on suggestions [here](http://mbam.uservoice.com/forums/268571-microsoft-bitlocker-administration-and-monitoring). 
+            **Got a MBAM issue**? Use the [MBAM TechNet Forum](https://social.technet.microsoft.com/Forums/home?forum=mdopmbam).
 
 ## Related topics
 
@@ -99,11 +106,17 @@ Do not change the Group Policy settings in the **BitLocker Drive Encryption** no
 
 [Copying the MBAM 2.5 Group Policy Templates](copying-the-mbam-25-group-policy-templates.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

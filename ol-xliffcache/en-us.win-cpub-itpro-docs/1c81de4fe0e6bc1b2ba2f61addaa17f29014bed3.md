@@ -7,6 +7,10 @@ ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w7
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 1c81de4fe0e6bc1b2ba2f61addaa17f29014bed3
+
 ---
 
 
@@ -26,10 +30,10 @@ A Windows 7 environment that includes a MED-V Host Agent, an electronic software
 <a href="" id="-------------------med-v-host-agent"></a> **MED-V Host Agent**  
 The MED-V software contained in the MED-V host that provides a channel to communicate with the MED-V guest. It also provides functionality such as first time setup and application publishing.
 
-**Note**  
+**Note**  
 After MED-V and its required components are installed MED-V must be configured. The configuration of MED-V is referred to as first time setup.
 
- 
+ 
 
 <a href="" id="esd-system"></a>**ESD System**  
 Your existing software distribution method that lets you deploy and install the MED-V workspace package files that MED-V creates.
@@ -52,10 +56,10 @@ A Windows XP SP3 environment, as part of a Windows Virtual PC running on Windows
 <a href="" id="---------------------------med-v-guest-agent"></a> **MED-V Guest Agent**  
 The MED-V software contained in the MED-V guest that provides a channel to communicate with the MED-V host. It also supports the MED-V Host Agent with functions like performing first time setup.
 
-**Note**  
+**Note**  
 The MED-V Guest Agent is installed automatically during first time setup.
 
- 
+ 
 
 <a href="" id="esd-client"></a>**ESD Client**  
 An optional part of your ESD system that installs software packages and reports status to the ESD system.
@@ -67,11 +71,17 @@ An optional part of your ESD system that installs software packages and reports 
 
 [Prepare the Deployment Environment for MED-V](prepare-the-deployment-environment-for-med-v.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -6,6 +6,10 @@ ms.prod: w10
 ms.mktglfcycl: deploy
 ms.sitesec: library
 author: greg-lindsay
+translationtype: Human Translation
+ms.sourcegitcommit: 03f3eee7368e99677b0dc98b1723569927d52f62
+ms.openlocfilehash: f0912e381f63d3bdaefebf6df576f230d85bfefb
+
 ---
 
 # Change history for Deploy Windows 10
@@ -40,11 +44,17 @@ This topic lists new and updated topics in the [Deploy Windows 10](index.md) doc
 - [Change history for Keep Windows 10 secure](../keep-secure/change-history-for-keep-windows-10-secure.md)
 - [Change history for Manage and update Windows 10](../manage/change-history-for-manage-and-update-windows-10.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

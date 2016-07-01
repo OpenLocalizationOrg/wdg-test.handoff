@@ -7,12 +7,16 @@ ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 author: brianlic-msft
+translationtype: Human Translation
+ms.sourcegitcommit: f046a5fec059b3fed76b6f3225a0535247bee884
+ms.openlocfilehash: 0aefd95f5b6a6a3ed6a42bc0ec974bd1f833c5af
+
 ---
 
 # Accounts: Guest account status
 
 **Applies to**
--   Windows 10
+-   Windows 10
 
 Describes the best practices, location, values, and security considerations for the **Accounts: Guest account status** security policy setting.
 
@@ -47,7 +51,7 @@ The following table lists the actual and effective default values for this polic
 | DC Effective Default Settings | Disabled |
 | Member Server Effective Default Settings | Disabled |
 | Client Computer Effective Default Settings | Disabled |
- 
+ 
 ## Security considerations
 
 This section describes how an attacker might exploit a feature or its configuration, how to implement the countermeasure, and the possible negative consequences of countermeasure implementation.
@@ -67,5 +71,11 @@ All network users must be authenticated before they can access shared resources.
 ## Related topics
 
 [Security Options](security-options.md)
- 
- 
+ 
+ 
+
+
+
+<!--HONumber=Jun16_HO4-->
+
+

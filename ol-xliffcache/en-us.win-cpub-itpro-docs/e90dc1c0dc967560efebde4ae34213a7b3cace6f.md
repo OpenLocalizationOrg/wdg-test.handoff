@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: e90dc1c0dc967560efebde4ae34213a7b3cace6f
+
 ---
 
 
@@ -61,9 +65,10 @@ See the following links for the App-V 5.1 software prerequisites and supported c
 </tbody>
 </table>
 
- 
+ 
 
-**Support for using Configuration Manager with App-V:** App-V 5.1 supports System Center 2012 R2 Configuration Manager SP1. See [Planning for App-V Integration with Configuration Manager](https://technet.microsoft.com/library/jj822982.aspx) for information about integrating your App-V environment with Configuration Manager and Configuration Manager.
+
+            **Support for using Configuration Manager with App-V:** App-V 5.1 supports System Center 2012 R2 Configuration Manager SP1. See [Planning for App-V Integration with Configuration Manager](https://technet.microsoft.com/library/jj822982.aspx) for information about integrating your App-V environment with Configuration Manager and Configuration Manager.
 
 ## <a href="" id="bkmk-migrate-to-51"></a>Migrating to App-V 5.1
 
@@ -94,11 +99,11 @@ Review the following information before you start the upgrade:
 <li><p>App-V Client or App-V Remote Desktop Services (RDS) Client</p></li>
 </ol>
 <div class="alert">
-<strong>Note</strong>  
+<strong>Note</strong>  
 <p>Prior to App-V 5.0 SP2, the Client Management User Interface (UI) was provided with the App-V Client installation. For App-V 5.0 SP2 installations (or later), you can use the Client Management UI by downloading from [Application Virtualization 5.0 Client UI Application](http://www.microsoft.com/download/details.aspx?id=41186).</p>
 </div>
 <div>
- 
+ 
 </div></td>
 </tr>
 <tr class="even">
@@ -125,7 +130,7 @@ Review the following information before you start the upgrade:
 </tbody>
 </table>
 
- 
+ 
 
 ### <a href="" id="bkmk-steps-upgrd-infrastruc"></a>Steps to upgrade the App-V infrastructure
 
@@ -146,11 +151,11 @@ Complete the following steps to upgrade each component of the App-V infrastructu
 <tr class="odd">
 <td align="left"><p>Step 1: Upgrade the App-V Server.</p>
 <div class="alert">
-<strong>Note</strong>  
+<strong>Note</strong>  
 <p>If you are not using the App-V Server, skip this step and go to the next step.</p>
 </div>
 <div>
- 
+ 
 </div></td>
 <td align="left"><p>Follow these steps:</p>
 <ol>
@@ -179,7 +184,7 @@ Complete the following steps to upgrade each component of the App-V infrastructu
 </table>
 <li><p>If you are upgrading the App-V Server from App-V 5.0 SP1 Hotfix Package 3 or later, complete the steps in section [Check registry keys after installing the App-V 5.0 SP3 Server](check-reg-key-svr.md).</p></li>
 <li><p>Follow the steps in [How to Deploy the App-V 5.1 Server](how-to-deploy-the-app-v-51-server.md)</p></li>
-<p> </p></li>
+<p> </p></li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -193,16 +198,16 @@ Complete the following steps to upgrade each component of the App-V infrastructu
 </tbody>
 </table>
 
- 
+ 
 
 ### Converting packages created using a prior version of App-V
 
 Use the package converter utility to upgrade virtual application packages created using versions of App-V prior to App-V 5.0. The package converter uses PowerShell to convert packages and can help automate the process if you have many packages that require conversion.
 
-**Note**  
+**Note**  
 App-V 5.1 packages are exactly the same as App-V 5.0 packages. There has been no change in the package format between the versions and so there is no need to convert App-V 5.0 packages to App-V 5.1 packages.
 
- 
+ 
 
 ## <a href="" id="bkmk-whatsnew"></a>What’s New in App-V 5.1
 
@@ -245,7 +250,7 @@ The following table lists the Windows 10 support for App-V. Windows 10 is not su
 </tbody>
 </table>
 
- 
+ 
 
 ### <a href="" id="bkmk-mgmtconsole"></a>App-V Management Console Changes
 
@@ -290,7 +295,7 @@ The Management Console UI no longer requires Silverlight. The 5.1 Management Con
 </tbody>
 </table>
 
- 
+ 
 
 ### Console pages are now separate URLs
 
@@ -314,7 +319,7 @@ The Management Console UI no longer requires Silverlight. The 5.1 Management Con
 </tbody>
 </table>
 
- 
+ 
 
 ### New, separate CONNECTION GROUPS page and menu option
 
@@ -337,7 +342,7 @@ The Management Console UI no longer requires Silverlight. The 5.1 Management Con
 </tbody>
 </table>
 
- 
+ 
 
 ### Menu options for packages have changed
 
@@ -393,7 +398,7 @@ The Management Console UI no longer requires Silverlight. The 5.1 Management Con
 </tbody>
 </table>
 
- 
+ 
 
 ### Icons in left pane have new colors and text
 
@@ -413,10 +418,10 @@ You can import and export the AppxManifest.xml file. To export the manifest file
 
 After you make your changes, click **Import...** and select the file you edited. After you successfully import it back in, the manifest file is immediately updated within the package editor.
 
-**Caution**  
+**Caution**  
 When you import the file, your changes are validated against the XML schema. If the file is not valid, you will receive an error. Be aware that it is possible to import a file that is validated against the XML schema, but that might still fail to run for other reasons.
 
- 
+ 
 
 ### Addition of Windows 10 to operating systems list
 
@@ -434,7 +439,7 @@ In the virtual registry editor, shortcut keys have been added for the Find optio
 
 -   Right-click a key and select **Replace**.
 
--   Select **View** &gt; **Virtual Registry** &gt; **Replace**.
+-   Select **View**&gt;**Virtual Registry**&gt;**Replace**.
 
 Previously, the “Replace” dialog box did not exist, and you had to make changes manually.
 
@@ -448,7 +453,7 @@ You can import and export virtual registry keys. To import a key, right-click th
 
 ### Import a directory into the virtual file system
 
-You can import a directory into the VFS. To import a directory, click the **Package Files** tab, and then click **View** &gt; **Virtual File System** &gt; **Import Directory**. If you try to import a directory that contains files that are already in the VFS, the import fails, and an explanatory message is displayed. Prior to App-V 5.1, you could not import directories.
+You can import a directory into the VFS. To import a directory, click the **Package Files** tab, and then click **View**&gt;**Virtual File System**&gt;**Import Directory**. If you try to import a directory that contains files that are already in the VFS, the import fails, and an explanatory message is displayed. Prior to App-V 5.1, you could not import directories.
 
 ### Import or export a VFS file without having to delete and then add it back to the package
 
@@ -458,11 +463,11 @@ To export a file, select the **Package Files** tab, right-click the file in the 
 
 To import a file, select the **Package Files** tab and right-click the file that you had exported. Browse to the file that you edited, and then click **Import**. The imported file will overwrite the existing file.
 
-After you import a file, you must save the package by clicking **File** &gt; **Save**.
+After you import a file, you must save the package by clicking **File**&gt;**Save**.
 
 ### Menu for adding a package file has moved
 
-The menu option for adding a package file has been moved. To find the Add option, select the **Package Files** tab, then click **View** &gt; **Virtual File System** &gt; **Add File**. Previously, you right-clicked a folder under the VFS node, and chose **Add File**.
+The menu option for adding a package file has been moved. To find the Add option, select the **Package Files** tab, then click **View**&gt;**Virtual File System**&gt;**Add File**. Previously, you right-clicked a folder under the VFS node, and chose **Add File**.
 
 ### Virtual registry node expands MACHINE and USER hives by default
 
@@ -498,7 +503,8 @@ When you convert packages from App-V 4.6 to 5.1, the App-V 5.1 package can acces
 
 Previously, the 4.6 root folder was not recognized and could not be accessed by App-V 5.0 packages. App-V 5.1 packages can access hardcoded files by their full path or can programmatically enumerate files under the App-V 4.6 installation root.
 
-**Technical Details:** The App-V 5.1 package converter will save the App-V 4.6 installation root folder and short folder names in the FilesystemMetadata.xml file in the Filesystem element. When the App-V 5.1 client creates the virtual process, it will map requests from the App-V 4.6 installation root to the virtual file system root.
+
+            **Technical Details:** The App-V 5.1 package converter will save the App-V 4.6 installation root folder and short folder names in the FilesystemMetadata.xml file in the Filesystem element. When the App-V 5.1 client creates the virtual process, it will map requests from the App-V 4.6 installation root to the virtual file system root.
 
 ## How to Get MDOP Technologies
 
@@ -515,11 +521,17 @@ Add or vote on suggestions [here](http://appv.uservoice.com/forums/280448-micros
 
 [Release Notes for App-V 5.1](release-notes-for-app-v-51.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 1ecb1aa616e139ead6bb0ae0740f6c1e5eaeec63
+
 ---
 
 
@@ -29,11 +33,17 @@ Provides the procedure to modify the virtual registry key information by using t
 
 [Sequencer Console](sequencer-console.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

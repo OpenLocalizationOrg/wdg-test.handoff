@@ -6,6 +6,10 @@ ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 author: brianlic-msft
+translationtype: Human Translation
+ms.sourcegitcommit: 9e96b4e84c981b9512f53dbda3b01f291e381f5e
+ms.openlocfilehash: 4dbd77018ca066eb7bf51b0ae8e80fcabb84b9ca
+
 ---
 
 # Windows security baselines
@@ -18,8 +22,7 @@ We recommend implementing an industry-standard configuration that is broadly kno
 
 Every organization faces security threats. However, the types of security threats that are of most concern to one organization can be completely different from another organization. For example, an e-commerce company may focus on protecting their Internet-facing web apps, while a hospital may focus on protecting confidential patient information. The one thing that all organizations have in common is a need to keep their apps and devices secure. These devices must be compliant with the security standards (or security baselines) defined by the organization.
 
-A security baseline is a collection of settings that have a security impact and include Microsoft’s recommended value for configuring those settings along with guidance on the security impact of those settings. These settings are based on feedback from Microsoft security engineering teams, product groups, partners, and 
-customers.  
+A security baseline is a collection of settings that have a security impact and include Microsoft’s recommended value for configuring those settings along with guidance on the security impact of those settings. These settings are based on feedback from Microsoft security engineering teams, product groups, partners, and customers.  
 
 ## Why are security baselines needed?
 
@@ -43,7 +46,8 @@ To help faster deployments and increase the ease of managing Windows, Microsoft 
  
  Here's a list of security baselines that are currently available.
 
- > **Note:**  If you want to know what has changed with each security baseline, or if you want to stay up-to-date on what’s happening with them, check out the [Microsoft Security Guidance](http://blogs.technet.microsoft.com/secguide) blog.
+ > 
+            **Note:**  If you want to know what has changed with each security baseline, or if you want to stay up-to-date on what’s happening with them, check out the [Microsoft Security Guidance](http://blogs.technet.microsoft.com/secguide) blog.
  
 ### Windows 10 security baselines
  
@@ -53,4 +57,10 @@ To help faster deployments and increase the ease of managing Windows, Microsoft 
 ### Windows Server security baselines
  
  -  [Windows Server 2012 R2 security baseline](http://go.microsoft.com/fwlink/p/?LinkID=799382)
+
+
+
+
+<!--HONumber=Jun16_HO4-->
+
 

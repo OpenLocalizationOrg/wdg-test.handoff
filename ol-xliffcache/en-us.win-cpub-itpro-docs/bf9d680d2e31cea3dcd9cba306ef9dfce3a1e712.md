@@ -7,6 +7,10 @@ ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: bf9d680d2e31cea3dcd9cba306ef9dfce3a1e712
+
 ---
 
 
@@ -49,7 +53,7 @@ Right-clicking the **Group Policy Objects** list on this tab displays a shortcut
 </tbody>
 </table>
 
- 
+ 
 
 ## Version management
 
@@ -77,7 +81,7 @@ Right-clicking the **Group Policy Objects** list on this tab displays a shortcut
 </tbody>
 </table>
 
- 
+ 
 
 ## Miscellaneous
 
@@ -105,7 +109,7 @@ Right-clicking the **Group Policy Objects** list on this tab displays a shortcut
 </tbody>
 </table>
 
- 
+ 
 
 ### Additional references
 
@@ -115,11 +119,17 @@ Right-clicking the **Group Policy Objects** list on this tab displays a shortcut
 
 -   [Performing Reviewer Tasks](performing-reviewer-tasks-agpm40.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -8,6 +8,10 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: surfacehub, mobility
 author: TrudyHa
+translationtype: Human Translation
+ms.sourcegitcommit: 8c1a3b30c0f054843553ec2d174111127a757dc2
+ms.openlocfilehash: ded2951a97ef4c7bfad09ee5b91ca2da9f44fa24
+
 ---
 
 # Manage settings with an MDM provider (Surface Hub)
@@ -28,7 +32,7 @@ Surface Hub management has been validated for the following MDM providers:
 
 If you joined your Surface Hub to an Azure Active Directory (Azure AD) subscription, the device can automatically enroll into MDM and will be ready for remote management.
 
-Alternatively, the device can be enrolled like any other Windows device by going to **Settings** &gt; **Accounts** &gt; **Work access**.
+Alternatively, the device can be enrolled like any other Windows device by going to **Settings**&gt;**Accounts**&gt;**Work access**.
 
 ![image showing enroll in device maagement page. ](images/managesettingsmdm-enroll.png)
 
@@ -117,7 +121,7 @@ The following table lists the device settings that can be managed remotely using
 </tbody>
 </table>
 
- 
+ 
 
 ## Related topics
 
@@ -126,11 +130,17 @@ The following table lists the device settings that can be managed remotely using
 
 [Microsoft Surface Hub administrator's guide](surface-hub-administrators-guide.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

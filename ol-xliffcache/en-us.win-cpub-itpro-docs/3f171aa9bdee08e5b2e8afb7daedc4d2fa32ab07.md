@@ -7,12 +7,16 @@ ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 author: brianlic-msft
+translationtype: Human Translation
+ms.sourcegitcommit: f046a5fec059b3fed76b6f3225a0535247bee884
+ms.openlocfilehash: 3f171aa9bdee08e5b2e8afb7daedc4d2fa32ab07
+
 ---
 
 # Deny log on through Remote Desktop Services
 
 **Applies to**
--   Windows 10
+-   Windows 10
 
 Describes the best practices, location, values, policy management, and security considerations for the **Deny log on through Remote Desktop Services** security policy setting.
 
@@ -47,7 +51,7 @@ The following table lists the actual and effective default policy values for the
 | Domain Controller Effective Default Settings | Not defined| 
 | Member Server Effective Default Settings | Not defined| 
 | Client Computer Effective Default Settings | Not defined| 
- 
+ 
 ## Policy management
 
 This section describes features, tools, and guidance to help you manage this policy.
@@ -90,3 +94,9 @@ If you assign the **Deny log on through Remote Desktop Services** user right to 
 ## Related topics
 
 - [User Rights Assignment](user-rights-assignment.md)
+
+
+
+<!--HONumber=Jun16_HO4-->
+
+

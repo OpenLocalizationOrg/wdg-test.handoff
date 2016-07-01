@@ -8,6 +8,10 @@ ms.mktglfcycl: manage
 ms.pagetype: surfacehub
 ms.sitesec: library
 author: TrudyHa
+translationtype: Human Translation
+ms.sourcegitcommit: 8c1a3b30c0f054843553ec2d174111127a757dc2
+ms.openlocfilehash: 69fceaf6402de1e5ce4aa241c3cd4c08ac12aff6
+
 ---
 
 # Accessibility (Surface Hub)
@@ -56,9 +60,9 @@ The default accessibility settings for Surface Hub include:
 </tbody>
 </table>
 
- 
+ 
 
-You'll find additional settings under **Ease of Access** &gt; **Other options**.
+You'll find additional settings under **Ease of Access**&gt;**Other options**.
 
 ## Related topics
 
@@ -67,11 +71,17 @@ You'll find additional settings under **Ease of Access** &gt; **Other options**.
 
 [Microsoft Surface Hub administrator's guide](surface-hub-administrators-guide.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

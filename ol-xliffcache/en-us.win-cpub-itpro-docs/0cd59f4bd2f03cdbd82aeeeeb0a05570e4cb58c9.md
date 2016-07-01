@@ -6,6 +6,10 @@ ms.prod: w10
 ms.mktglfcycl: deploy
 ms.sitesec: library
 author: greg-lindsay
+translationtype: Human Translation
+ms.sourcegitcommit: 24e2237b197fce2142f3e3e271321a4d5db6328d
+ms.openlocfilehash: 0cd59f4bd2f03cdbd82aeeeeb0a05570e4cb58c9
+
 ---
 
 # Extract Files from a Compressed USMT Migration Store
@@ -40,27 +44,36 @@ In addition, you can specify the file patterns that you want to extract by using
 
 To extract files from the compressed migration store onto the destination computer, use the following USMTutils syntax:
 
-Cd /d &lt;USMTpath&gt; usmtutils /extract &lt;filePath&gt; &lt;destinationPath&gt; \[/i:&lt;includePattern&gt;\] \[/e:&lt;excludePattern&gt;\] \[/l:&lt;logfile&gt;\] \[/decrypt\[:&lt;AlgID&gt;\] {/key:&lt;keystring&gt; | /keyfile:&lt;filename&gt;}\] \[/o\]
+Cd /d &lt;USMTpath&gt; usmtutils /extract &lt;filePath&gt;&lt;destinationPath&gt;\[/i:&lt;includePattern&gt;\]\[/e:&lt;excludePattern&gt;\]\[/l:&lt;logfile&gt;\]\[/decrypt\[:&lt;AlgID&gt;\] {/key:&lt;keystring&gt; | /keyfile:&lt;filename&gt;}\]\[/o\]
 
 Where the placeholders have the following values:
 
--   *&lt;USMTpath&gt;* is the location where you have saved the USMT files and tools.
+-   
+            *              &lt;USMTpath&gt;* is the location where you have saved the USMT files and tools.
 
--   *&lt;filePath&gt;* is the location of the migration store.
+-   
+            *              &lt;filePath&gt;* is the location of the migration store.
 
--   *&lt;destination path&gt;* is the location of the file where you want the **/extract** option to put the extracted migration store contents.
+-   
+            *              &lt;destination path&gt;* is the location of the file where you want the **/extract** option to put the extracted migration store contents.
 
--   *&lt;includePattern&gt;* specifies the pattern for the files to include in the extraction.
+-   
+            *              &lt;includePattern&gt;* specifies the pattern for the files to include in the extraction.
 
--   *&lt;excludePattern&gt;* specifies the pattern for the files to omit from the extraction.
+-   
+            *              &lt;excludePattern&gt;* specifies the pattern for the files to omit from the extraction.
 
--   *&lt;AlgID&gt;* is the cryptographic algorithm that was used to create the migration store on the **ScanState** command line.
+-   
+            *              &lt;AlgID&gt;* is the cryptographic algorithm that was used to create the migration store on the **ScanState** command line.
 
--   *&lt;logfile&gt;* is the location and name of the log file.
+-   
+            *              &lt;logfile&gt;* is the location and name of the log file.
 
--   *&lt;keystring&gt;* is the encryption key that was used to encrypt the migration store.
+-   
+            *              &lt;keystring&gt;* is the encryption key that was used to encrypt the migration store.
 
--   *&lt;filename&gt;* is the location and name of the text file that contains the encryption key.
+-   
+            *              &lt;filename&gt;* is the location and name of the text file that contains the encryption key.
 
 ### <a href="" id="bkmk-extractallfiles"></a>To extract all files from a compressed migration store
 
@@ -107,11 +120,17 @@ In this example, if there is a myProject.exe file, it will also be extracted bec
 
 [Verify the Condition of a Compressed Migration Store](verify-the-condition-of-a-compressed-migration-store.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

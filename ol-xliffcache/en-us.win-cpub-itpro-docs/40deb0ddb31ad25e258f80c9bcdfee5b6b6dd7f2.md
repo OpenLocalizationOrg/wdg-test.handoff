@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 40deb0ddb31ad25e258f80c9bcdfee5b6b6dd7f2
+
 ---
 
 
@@ -32,11 +36,17 @@ Provides a step-by-step procedure you can use to modify the location of scratch 
 
 [Application Virtualization Sequencer](application-virtualization-sequencer.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

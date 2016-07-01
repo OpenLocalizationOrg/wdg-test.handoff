@@ -7,6 +7,10 @@ ms.mktglfcycl: plan
 ms.pagetype: appcompat
 ms.sitesec: library
 author: TrudyHa
+translationtype: Human Translation
+ms.sourcegitcommit: ae8220499efdd2bafe460fcae530d62dc13a2634
+ms.openlocfilehash: c2dbc35fcb9b82ba4c7df7ae36afbe346fa92467
+
 ---
 
 # Using the Sdbinst.exe Command-Line Tool
@@ -14,12 +18,12 @@ author: TrudyHa
 
 **Applies to**
 
--   Windows 10
--   Windows 8.1
--   Windows 8
--   Windows 7
--   Windows Server 2012
--   Windows Server 2008 R2
+-   Windows 10
+-   Windows 8.1
+-   Windows 8
+-   Windows 7
+-   Windows Server 2012
+-   Windows Server 2008 R2
 
 You must deploy your customized database (.sdb) files to other computers in your organization before your compatibility fixes, compatibility modes, and AppHelp messages are applied. You can deploy your customized database files in several ways, including by using a logon script, by using Group Policy, or by performing file copy operations.
 
@@ -30,7 +34,7 @@ After you deploy and store the customized databases on each of your local comput
 
 The command-line options use the following conventions.
 
-Sdbinst.exe \[-q\] \[-u filepath\] \[-g *GUID*\] \[-n *"name"*\] \[-?\]
+Sdbinst.exe \[-q\]\[-u filepath\]\[-g *GUID*\]\[-n *"name"*\]\[-?\]
 
 The following table describes the available command-line options.
 
@@ -79,18 +83,24 @@ The following table describes the available command-line options.
 </tbody>
 </table>
 
- 
+ 
 
 ## Related topics
 
 
 [Compatibility Administrator User's Guide](compatibility-administrator-users-guide.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

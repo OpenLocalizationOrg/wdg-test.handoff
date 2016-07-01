@@ -7,6 +7,10 @@ ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w7
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 3fc2933aa0e7df2aada524eaaad4beae13d9ce93
+
 ---
 
 
@@ -15,10 +19,10 @@ ms.prod: w7
 
 You have several different options available to you for providing software updates for the applications in the deployed MED-V workspace.
 
-**Note**  
+**Note**  
 For information about how to specify the configuration settings that define how MED-V receives automatic updates, see [Managing Automatic Updates for MED-V Workspaces](managing-automatic-updates-for-med-v-workspaces.md).
 
- 
+ 
 
 **Updating Software in a MED-V Workspace**
 
@@ -38,10 +42,10 @@ For information about how to specify the configuration settings that define how 
 
     Although not considered a MED-V best practice, you can install software updates to applications on the core image. After you have installed the updates, you can then redeploy the MED-V workspace back out to your enterprise just as you deployed it originally.
 
-    **Important**  
+    **Important**  
     We do not recommend this method of managing software updates. In addition, if you update software in the core image and redeploy the MED-V workspace back out to your enterprise, first time setup must run again, and any data saved in the virtual machine is lost.
 
-     
+     
 
 ## Related topics
 
@@ -52,11 +56,17 @@ For information about how to specify the configuration settings that define how 
 
 [How to Publish and Unpublish an Application on the MED-V Workspace](how-to-publish-and-unpublish-an-application-on-the-med-v-workspace.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

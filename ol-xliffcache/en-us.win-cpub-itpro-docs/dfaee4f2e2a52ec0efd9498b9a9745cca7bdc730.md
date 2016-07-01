@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: dfaee4f2e2a52ec0efd9498b9a9745cca7bdc730
+
 ---
 
 
@@ -20,17 +24,22 @@ Displays the New File Type Association Wizard. This wizard consists of the follo
 
 1.  Enter a new or existing file name extension, and associate the extension with a file type.
 
-    1.  **Extension**—Enables you to enter a new or existing file name extension. This field is blank by default.
+    1.  
+            **Extension**—Enables you to enter a new or existing file name extension. This field is blank by default.
 
-    2.  **Create a new file type with this description**—Select this radio button to enter a new file type description in the active field. This button is selected by default, and the active field is blank.
+    2.  
+            **Create a new file type with this description**—Select this radio button to enter a new file type description in the active field. This button is selected by default, and the active field is blank.
 
-    3.  **Link this extension with an existing file type**—Select this radio button to associate the extension with an existing file type. Pick a file type from the drop-down list.
+    3.  
+            **Link this extension with an existing file type**—Select this radio button to associate the extension with an existing file type. Pick a file type from the drop-down list.
 
 2.  Select the application that will open files with the specified extension.
 
-    1.  **Open files with the selected application**—Enables you to choose an application from the drop-down list of available applications.
+    1.  
+            **Open files with the selected application**—Enables you to choose an application from the drop-down list of available applications.
 
-    2.  **Icon Path**—Enables you to enter the complete path to the ICO file or to browse for the ICO file.
+    2.  
+            **Icon Path**—Enables you to enter the complete path to the ICO file or to browse for the ICO file.
 
 <a href="" id="view"></a>**View**  
 Changes the appearance and content of the **Results** pane.
@@ -52,11 +61,17 @@ Displays the help system.
 
 [Server Management Console: File Type Associations Node](server-management-console-file-type-associations-node.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

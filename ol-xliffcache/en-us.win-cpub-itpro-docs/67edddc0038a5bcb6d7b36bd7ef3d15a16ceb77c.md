@@ -7,6 +7,10 @@ ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: 67edddc0038a5bcb6d7b36bd7ef3d15a16ceb77c
+
 ---
 
 
@@ -29,10 +33,10 @@ A user account with the AGPM Administrator (Full Control) role or necessary perm
 
     3.  To modify the roles and permissions delegated to a user or group, select click the **Advanced** button. In the **Permissions** dialog box, select the user or group, select the check box for each role to be assigned to that user or group, and then click **OK**.
 
-        **Note**  
+        **Note**  
         Editor and Approver include Reviewer permissions.
 
-         
+         
 
 ### Additional considerations
 
@@ -42,17 +46,23 @@ A user account with the AGPM Administrator (Full Control) role or necessary perm
 
 -   Editors must be granted **Read** permission for the deployed copy of a GPO to make full use of Group Policy Software Installation.
 
--   Membership in the Group Policy Creator Owners group should be restricted, so it is not used to circumvent AGPM management of access to GPOs. (In the **Group Policy Management Console**, click **Group Policy Objects** in the forest and domain in which you want to manage GPOs, click **Delegation**, and then configure the settings to meet the needs of your organization.)
+-   Membership in the Group Policy Creator Owners group should be restricted, so it is not used to circumvent AGPM management of access to GPOs. (In the **Group Policy Management Console**, click **Group Policy Objects** in the forest and domain in which you want to manage GPOs, click **Delegation**, and then configure the settings to meet the needs of your organization.)
 
 ### Additional references
 
 -   [Managing the Archive](managing-the-archive-agpm40.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

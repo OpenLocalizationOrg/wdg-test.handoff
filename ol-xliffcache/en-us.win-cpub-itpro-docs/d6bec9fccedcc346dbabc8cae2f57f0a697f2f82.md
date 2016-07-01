@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: d6bec9fccedcc346dbabc8cae2f57f0a697f2f82
+
 ---
 
 
@@ -24,11 +28,14 @@ You can import more than one Open Software Descriptor (OSD) file at the same tim
 
 You can also use the following features to help you manage your applications:
 
--   **Application Groups**—Enables you to create logical groups of applications for simplified management. When changes are made to a group (for example, access permissions), the changes are applied to all applications in the group. Applications in a group can come from different packages.
+-   
+            **Application Groups**—Enables you to create logical groups of applications for simplified management. When changes are made to a group (for example, access permissions), the changes are applied to all applications in the group. Applications in a group can come from different packages.
 
--   **Multi Select**—Enables you to select multiple applications at once by holding the CTRL key when you click an application to modify the application properties. However, if you want to maintain a relationship between the applications, you should create an application group to hold the applications.
+-   
+            **Multi Select**—Enables you to select multiple applications at once by holding the CTRL key when you click an application to modify the application properties. However, if you want to maintain a relationship between the applications, you should create an application group to hold the applications.
 
--   **Cross System Copy**—Enables you to copy applications from one environment to another environment that is running the same version of App-V in one step. For example, you might have a user acceptance test environment where you initially deploy and configure applications. After you finish your testing phase, you might want to replicate the same set of applications (including permissions) to the production environment.
+-   
+            **Cross System Copy**—Enables you to copy applications from one environment to another environment that is running the same version of App-V in one step. For example, you might have a user acceptance test environment where you initially deploy and configure applications. After you finish your testing phase, you might want to replicate the same set of applications (including permissions) to the production environment.
 
 ## Related topics
 
@@ -41,11 +48,17 @@ You can also use the following features to help you manage your applications:
 
 [How to Manage Applications in the Server Management Console](how-to-manage-applications-in-the-server-management-console.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

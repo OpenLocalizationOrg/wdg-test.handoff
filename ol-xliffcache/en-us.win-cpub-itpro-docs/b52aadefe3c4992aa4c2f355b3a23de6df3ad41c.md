@@ -7,6 +7,10 @@ ms.pagetype: mdop, appcompat, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w8
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: b52aadefe3c4992aa4c2f355b3a23de6df3ad41c
+
 ---
 
 
@@ -30,11 +34,17 @@ After you sequence an application but before you save it, you can manually modif
 
 [Sequencer Console](sequencer-console.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

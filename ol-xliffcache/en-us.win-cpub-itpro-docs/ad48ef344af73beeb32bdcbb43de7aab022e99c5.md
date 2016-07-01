@@ -7,6 +7,10 @@ ms.pagetype: mdop, virtualization
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.prod: w7
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: ad48ef344af73beeb32bdcbb43de7aab022e99c5
+
 ---
 
 
@@ -37,17 +41,17 @@ ms.prod: w7
 
 3.  Type in your domain user credentials.
 
-    **Note**  
+    **Note**  
     The first time a MED-V workspace is started, the user name should be in the following format: &lt;domain name&gt;\\&lt;user name&gt;.
 
-     
+     
 
 4.  Select **Save my password** to save your password between sessions.
 
-    **Note**  
+    **Note**  
     To enable the save password feature, the EnableSavePassword attribute must be set to True in the ClientSettings.xml file. The file can be found in the *Servers\\Configuration Server\\* folder.
 
-     
+     
 
 5.  Clear the **Start last used workspace** check box to choose a different MED-V workspace.
 
@@ -82,11 +86,17 @@ ms.prod: w7
 
 [How to Start and Exit the MED-V Client](how-to-start-and-exit-the-med-v-client.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

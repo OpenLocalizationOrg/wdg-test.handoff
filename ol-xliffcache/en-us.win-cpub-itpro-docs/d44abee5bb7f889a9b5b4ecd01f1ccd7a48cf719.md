@@ -7,6 +7,10 @@ ms.pagetype: mdop
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.prod: w10
+translationtype: Human Translation
+ms.sourcegitcommit: 2d1f98a24d9330d6b3bce488b2cac6ac11b5e4bf
+ms.openlocfilehash: d44abee5bb7f889a9b5b4ecd01f1ccd7a48cf719
+
 ---
 
 
@@ -43,11 +47,17 @@ A user account with the AGPM Administrator (Full Control) role or necessary perm
 
 -   [Performing AGPM Administrator Tasks](performing-agpm-administrator-tasks.md)
 
- 
+ 
 
- 
+ 
 
 
 
+
+
+
+
+
+<!--HONumber=Jun16_HO4-->
 
 

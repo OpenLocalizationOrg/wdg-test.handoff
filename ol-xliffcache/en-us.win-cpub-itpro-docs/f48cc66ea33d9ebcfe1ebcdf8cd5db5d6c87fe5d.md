@@ -6,6 +6,10 @@ ms.prod: w10
 ms.mktglfcycl: deploy
 ms.sitesec: library
 author: Mir0sh
+translationtype: Human Translation
+ms.sourcegitcommit: fa5ddfcf9d394c41415d2ed3e305b8068e8be0b8
+ms.openlocfilehash: f48cc66ea33d9ebcfe1ebcdf8cd5db5d6c87fe5d
+
 ---
 
 # 5633(S, F): A request was made to authenticate to a wired network.
@@ -17,7 +21,9 @@ author: Mir0sh
 
 <img src="images/event-5633.png" alt="Event 5633 illustration" width="528" height="449" hspace="10" align="left" />
 
-***Subcategory:***&nbsp;[Audit Other Logon/Logoff Events](audit-other-logonlogoff-events.md)
+
+            ***Subcategory:***            &nbsp;            [Audit Other Logon/Logoff Events](audit-other-logonlogoff-events.md)
+          
 
 ***Event Description:***
 
@@ -25,7 +31,8 @@ This event generates when [802.1x](https://technet.microsoft.com/en-us/library/h
 
 It typically generates when network adapter connects to new wired network.
 
-> **Note**&nbsp;&nbsp;For recommendations, see [Security Monitoring Recommendations](#security-monitoring-recommendations) for this event.
+> 
+            **Note**            &nbsp;&nbsp;For recommendations, see [Security Monitoring Recommendations](#security-monitoring-recommendations) for this event.
 
 <br clear="all">
 
@@ -62,23 +69,30 @@ It typically generates when network adapter connects to new wired network.
 
 ```
 
-***Required Server Roles:*** None.
 
-***Minimum OS Version:*** Windows Server 2008, Windows Vista.
+            ***Required Server Roles:*** None.
 
-***Event Versions:*** 0.
+
+            ***Minimum OS Version:*** Windows Server 2008, Windows Vista.
+
+
+            ***Event Versions:*** 0.
 
 ***Field Descriptions:***
 
 **Subject:**
 
--   **Security ID** \[Type = UnicodeString\]**:** User Principal Name (UPN) of account for which 802.1x authentication request was made.
+-   
+            **Security ID**            \[Type = UnicodeString\]**:** User Principal Name (UPN) of account for which 802.1x authentication request was made.
 
-> **Note**&nbsp;&nbsp;[User principal name](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380525(v=vs.85).aspx) (UPN) format is used to specify an Internet-style name, such as UserName@Example.Microsoft.com.
+> 
+            **Note**            &nbsp;&nbsp;            [User principal name](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380525(v=vs.85).aspx) (UPN) format is used to specify an Internet-style name, such as UserName@Example.Microsoft.com.
 
--   **Account Name** \[Type = UnicodeString\]**:** the name of the account for which 802.1x authentication request was made.
+-   
+            **Account Name**            \[Type = UnicodeString\]**:** the name of the account for which 802.1x authentication request was made.
 
--   **Account Domain** \[Type = UnicodeString\]**:** subject’s domain or computer name. Formats vary, and include the following:
+-   
+            **Account Domain**            \[Type = UnicodeString\]**:** subject’s domain or computer name. Formats vary, and include the following:
 
     -   Domain NETBIOS name example: CONTOSO
 
@@ -90,23 +104,33 @@ It typically generates when network adapter connects to new wired network.
 
     -   For local user accounts, this field will contain the name of the computer or device that this account belongs to, for example: “Win81”.
 
--   **Logon ID** \[Type = HexInt64\]**:** hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “[4624](event-4624.md): An account was successfully logged on.”
+-   
+            **Logon ID**            \[Type = HexInt64\]**:** hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, “[4624](event-4624.md): An account was successfully logged on.”
 
 **Interface:**
 
--   **Name** \[Type = UnicodeString\]: the name (description) of network interface which was used for authentication request. You can get the list of all available network adapters using “**ipconfig /all**” command. See “Description” row for every network adapter:
+-   
+            **Name**            \[Type = UnicodeString\]: the name (description) of network interface which was used for authentication request. You can get the list of all available network adapters using “**ipconfig /all**” command. See “Description” row for every network adapter:
 
 <img src="images/ipconfig-command.png" alt="Ipconfig command illustration" width="951" height="506" />
 
 **Additional Information:**
 
--   **Reason Code** \[Type = UnicodeString\]: contains Reason Text (explanation of Reason Code) and Reason Code for wired authentication results. See more information about reason codes for wired authentication here: <https://msdn.microsoft.com/en-us/library/windows/desktop/dd877212(v=vs.85).aspx>, <https://technet.microsoft.com/en-us/library/cc727747(v=ws.10).aspx>.
+-   
+            **Reason Code**            \[Type = UnicodeString\]: contains Reason Text (explanation of Reason Code) and Reason Code for wired authentication results. See more information about reason codes for wired authentication here: <https://msdn.microsoft.com/en-us/library/windows/desktop/dd877212(v=vs.85).aspx>, <https://technet.microsoft.com/en-us/library/cc727747(v=ws.10).aspx>.
 
--   **Error Code** \[Type = HexInt32\]: unique [EAP error code](https://msdn.microsoft.com/en-us/library/windows/desktop/aa813691(v=vs.85).aspx).
+-   
+            **Error Code**            \[Type = HexInt32\]: unique [EAP error code](https://msdn.microsoft.com/en-us/library/windows/desktop/aa813691(v=vs.85).aspx).
 
 ## Security Monitoring Recommendations
 
 For 5633(S, F): A request was made to authenticate to a wired network.
 
 -   There is no recommendation for this event in this document.
+
+
+
+
+<!--HONumber=Jun16_HO4-->
+
 

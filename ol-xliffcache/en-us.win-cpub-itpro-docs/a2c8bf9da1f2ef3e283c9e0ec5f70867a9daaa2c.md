@@ -8,6 +8,10 @@ ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 author: mjcaparas
+translationtype: Human Translation
+ms.sourcegitcommit: 8e6dba25e9dbe4f0c138a416b6de2fb4abc6f94e
+ms.openlocfilehash: a2c8bf9da1f2ef3e283c9e0ec5f70867a9daaa2c
+
 ---
 
 # Investigate Windows Defender Advanced Threat Protection alerts
@@ -62,3 +66,9 @@ Some actor profiles include a link to download a more comprehensive threat intel
 - [Investigate an IP address associated with a Windows Defender ATP alert](investigate-ip-windows-defender-advanced-threat-protection.md)
 - [Investigate a domain associated with a Windows Defender ATP alert](investigate-domain-windows-defender-advanced-threat-protection.md)
 - [Manage Windows Defender Advanced Threat Protection alerts](manage-alerts-windows-defender-advanced-threat-protection.md)
+
+
+
+<!--HONumber=Jun16_HO4-->
+
+

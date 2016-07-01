@@ -7,12 +7,16 @@ ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 author: brianlic-msft
+translationtype: Human Translation
+ms.sourcegitcommit: 8e6dba25e9dbe4f0c138a416b6de2fb4abc6f94e
+ms.openlocfilehash: f57d631be601faaafceccf382771ce295ba41bee
+
 ---
 
 # Trusted Platform Module Technology Overview
 
 **Applies to**
--   Windows 10
+-   Windows 10
 
 This topic for the IT professional describes the Trusted Platform Module (TPM) and how Windows uses it for access control and authentication. The topic provides links to other resources about the TPM.
 
@@ -38,13 +42,13 @@ Certificates can be installed or created on computers that are using the TPM. Af
 
 Automated provisioning in the TPM reduces the cost of TPM deployment in an enterprise. New APIs for TPM management can determine if TPM provisioning actions require physical presence of a service technician to approve TPM state change requests during the boot process.
 
-Antimalware software can use the boot measurements of the operating system start state to prove the integrity of a computer running Windows 10, Windows 8.1, Windows 8, Windows Server 2012 R2, or Windows Server 2012. These measurements include the launch of Hyper-V to test that datacenters using virtualization are not running untrusted hypervisors. With BitLocker Network Unlock, IT administrators can push an update without concerns that a computer is waiting for PIN entry.
+Antimalware software can use the boot measurements of the operating system start state to prove the integrity of a computer running Windows 10, Windows 8.1, Windows 8, Windows Server 2012 R2, or Windows Server 2012. These measurements include the launch of Hyper-V to test that datacenters using virtualization are not running untrusted hypervisors. With BitLocker Network Unlock, IT administrators can push an update without concerns that a computer is waiting for PIN entry.
 
 The TPM has several Group Policy settings that can be used to manage how it is used. These settings can be used to manage the owner authorization value, the blocked TPM commands, the standard user lockout, and the backup of the TPM to AD DS. For more info, see [Trusted Platform Module Services Group Policy Settings](trusted-platform-module-services-group-policy-settings.md).
 
 ## <a href="" id="bkmk-new"></a>New and changed functionality
 
-For more info on new and changed functionality for Trusted Platform Module in Windows 10, see [What's new in Trusted Platform Module?](../whats-new/trusted-platform-module.md).
+For more info on new and changed functionality for Trusted Platform Module in Windows 10, see [What's new in Trusted Platform Module?](../whats-new/trusted-platform-module.md).
 
 ## <a href="" id="bkmk-dha"></a>Device health attestation
 
@@ -56,11 +60,12 @@ Some things that you can check on the device are:
 -   Is BitLocker Drive Encryption supported and enabled?
 -   Is SecureBoot supported and enabled?
 
->**Note:**  The device must be running Windows 10 and it must support at least TPM 2.0.
- 
+>
+            **Note:**  The device must be running Windows 10 and it must support at least TPM 2.0.
+ 
 ## <a href="" id="bkmk-supportedversions"></a>Supported versions
 
-| TPM version | Windows 10 | Windows Server 2012 R2, Windows 8.1, and Windows RT | Windows Server 2012, Windows 8, and Windows RT | Windows Server 2008 R2 and Windows 7 |
+| TPM version | Windows 10 | Windows Server 2012 R2, Windows 8.1, and Windows RT | Windows Server 2012, Windows 8, and Windows RT | Windows Server 2008 R2 and Windows 7 |
 | - | - | - | - | - |
 | TPM 1.2| X| X| X| X|
 | TPM 2.0| X| X| X| X| 
@@ -72,5 +77,11 @@ Some things that you can check on the device are:
 - [TPM Cmdlets in Windows PowerShell](http://technet.microsoft.com/library/jj603116.aspx)
 - [AD DS schema extensions to support TPM backup](ad-ds-schema-extensions-to-support-tpm-backup.md)
 - [Prepare your organization for BitLocker: Planning and Policies - TPM configurations](http://technet.microsoft.com/library/jj592683.aspx)
- 
- 
+ 
+ 
+
+
+
+<!--HONumber=Jun16_HO4-->
+
+
